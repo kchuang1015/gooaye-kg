@@ -2595,6 +2595,102 @@
       "source_locator": "analysis/EP47_supplemental.json:/industry/2",
       "to": "game-content-publishers",
       "type": "內容平台共性"
+    },
+    {
+      "context": "不了解槓桿重設、轉倉與溢價，就不能用油價便宜推導 00672L 值得買。",
+      "ep": "EP48",
+      "from": "ep48-product-structure-prerequisite",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/0",
+      "to": "crude-oil",
+      "type": "商品准入原則"
+    },
+    {
+      "context": "困境股的反彈上檔有限，而殘餘順位可能使舊股權近乎歸零。",
+      "ep": "EP48",
+      "from": "ep48-asymmetric-downside-first",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/1",
+      "to": "ind_i_ep45_287",
+      "type": "不對稱風險"
+    },
+    {
+      "context": "公司可營運與股票可交易不能替代債權優先、股權殘餘的重整分析。",
+      "ep": "EP48",
+      "from": "ep48-bankruptcy-equity-residual",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/2",
+      "to": "ind_i_ep45_287",
+      "type": "資本順位"
+    },
+    {
+      "context": "瑞幸的長期下跌與停牌風險不能被跌深、反彈或自認看見價值的故事抵消。",
+      "ep": "EP48",
+      "from": "ep48-no-falling-knife-assumption",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/4",
+      "to": "luckin-fraud-short-selling",
+      "type": "事件股防線"
+    },
+    {
+      "context": "創新高本身不是退出條件；動量若要支持持有，仍須以固定參數回測。",
+      "ep": "EP48",
+      "from": "ep48-new-high-not-sell-signal",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/3",
+      "to": "ep48-momentum-testable-hypothesis",
+      "type": "趨勢持有"
+    },
+    {
+      "context": "領漲與落後可能反映公司差異，不能假設弱者會自動補漲。",
+      "ep": "EP48",
+      "from": "ep48-catchup-needs-cause",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/6",
+      "to": "ep48-momentum-testable-hypothesis",
+      "type": "相對強弱"
+    },
+    {
+      "context": "主機概念股清單必須逐公司由訂單、營收占比、毛利與客戶集中度結案。",
+      "ep": "EP48",
+      "from": "ep48-supply-chain-revenue-proof",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/9",
+      "to": "console-pcb-ic-substrate-chain",
+      "type": "題材驗證"
+    },
+    {
+      "context": "尚未以小部位證明主動能力前，不用信貸放大未經驗證的策略。",
+      "ep": "EP48",
+      "from": "ep48-debt-only-inside-competence",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/7",
+      "to": "ep48-prove-active-skill-small",
+      "type": "資金風險"
+    },
+    {
+      "context": "先以小部位與完整紀錄測試動量或主動策略，無優勢就回到 ETF。",
+      "ep": "EP48",
+      "from": "ep48-prove-active-skill-small",
+      "source_locator": "analysis/EP48_supplemental.json:/mindsets/8",
+      "to": "ep48-momentum-testable-hypothesis",
+      "type": "能力驗證"
+    },
+    {
+      "context": "實體店固定成本受壓時，企業會加速電商與線上服務，但擴散程度仍需逐產業驗證。",
+      "ep": "EP48",
+      "from": "wfh-digital-retail",
+      "source_locator": "analysis/EP48_supplemental.json:/industry/3",
+      "to": "online-delivery",
+      "type": "數位通路加速"
+    },
+    {
+      "context": "PS5／Xbox 的 IC 載板與 PCB 候選延伸既有 PCB／5G 產業鏈，但主機訂單需個別確認。",
+      "ep": "EP48",
+      "from": "console-pcb-ic-substrate-chain",
+      "source_locator": "analysis/EP48_supplemental.json:/industry/4",
+      "to": "pcb-5g",
+      "type": "供應鏈延伸"
+    },
+    {
+      "context": "瑞幸公司實體連到造假、做空報告、停牌與除牌流程的產業研究頁。",
+      "ep": "EP48",
+      "from": "luckin-fraud-short-selling",
+      "source_locator": "analysis/EP48_supplemental.json:/industry/1",
+      "to": "luckin-coffee",
+      "type": "公司事件"
     }
   ],
   "metadata": {
@@ -2602,9 +2698,9 @@
     "lastUpdated": "2026-07-17",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-17",
-    "source": "EP1-EP47 分析報告",
-    "total_entities": 315,
-    "total_relations": 354
+    "source": "EP1-EP48 分析報告",
+    "total_entities": 328,
+    "total_relations": 366
   },
   "nodes": [
     {
@@ -3104,18 +3200,19 @@
     },
     {
       "code": "",
-      "description": "OPEC+破裂、負油價、00672L下市，散戶血本無歸",
+      "description": "00672L 顯示原油現貨反彈不等於每日槓桿期貨 ETF 淨值修復；溢價、轉倉、每日重設與終止條件都必須獨立驗證。",
       "eps": [
         "EP7",
         "EP8",
         "EP9",
-        "EP10"
+        "EP10",
+        "EP48"
       ],
       "first_ep": "EP7",
       "id": "crude-oil",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐",
       "name": "原油/期貨型ETF",
-      "notion_id": "315b9258-8207-8155-b386-c0e40c22e057",
+      "notion_id": "315b925882078155b386c0e40c22e057",
       "type": "🏭產業"
     },
     {
@@ -6436,13 +6533,14 @@
       "type": "🏭產業"
     },
     {
-      "description": "Chapter 11 後股票仍可能交易甚至增發新股，但清算時債權人優先、股東劣後；此類交易屬高波動、低期望值的投機，而非一般投資。",
+      "description": "Hertz、GNC 顯示 Chapter 11 可讓企業繼續營運，但債權人優先、普通股只拿殘餘價值；資產多、跌深或仍可交易不是充分買進理由。",
       "eps": [
-        "EP45"
+        "EP45",
+        "EP48"
       ],
       "first_ep": "EP45",
       "id": "ind_i_ep45_287",
-      "importance": "⭐",
+      "importance": "⭐⭐",
       "name": "破產股票 / IBO (Initial Bankruptcy Offering)",
       "notion_id": "39ab9258820781eabff7c92341dd669c",
       "type": "🏭產業"
@@ -6803,6 +6901,172 @@
       "importance": "⭐⭐",
       "name": "遊戲內容與發行商",
       "notion_id": "3a0b92588207816ca3dcfa8eb0f98808",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不知道槓桿、期貨轉倉、溢價與每日重設如何影響淨值時，油價便宜不能構成買進理由。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-product-structure-prerequisite",
+      "importance": "⭐⭐",
+      "name": "不懂商品結構就沒有進場資格",
+      "notion_id": "3a0b925882078148ac09c364987be951",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "有限上檔配上可能近乎歸零的下檔時，長期存活率比單次勝率與反彈故事更重要。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-asymmetric-downside-first",
+      "importance": "⭐⭐",
+      "name": "先比較上下檔再看故事",
+      "notion_id": "3a0b925882078136b52cd60d39e0d70e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "Chapter 11 讓企業嘗試重組，但普通股位於殘餘順位；可交易與可營運不能替代清算分析。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-bankruptcy-equity-residual",
+      "importance": "⭐⭐",
+      "name": "破產仍營業不代表普通股安全",
+      "notion_id": "3a0b925882078166a6bec6088884ae74",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "長期牛股途中必然多次創高；退出條件應綁定估值、基本面、配置或趨勢失效。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-new-high-not-sell-signal",
+      "importance": "⭐⭐",
+      "name": "創新高不是機械式賣點",
+      "notion_id": "3a0b925882078166b8f7c5a94d5bc7b5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "持續下跌常反映供需與基本面惡化；等待價格與基本面出現可驗證轉折，再分批試單。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-no-falling-knife-assumption",
+      "importance": "⭐⭐",
+      "name": "不要把長期下跌當市場欠它清白",
+      "notion_id": "3a0b9258820781669b4ffe3937d88510",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "動量要指定股票池、形成期、持有期、成本與風險調整方式；沒有參數就不能冒充普遍定律。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-momentum-testable-hypothesis",
+      "importance": "⭐⭐",
+      "name": "強者恆強要當成可測假說",
+      "notion_id": "3a0b9258820781d4b8adc59d29865ce6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "同產業不等於同客戶與同獲利；落後者可能品質較差，不能拿領漲股替它背書。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-catchup-needs-cause",
+      "importance": "⭐⭐",
+      "name": "補漲前先回答為何沒漲",
+      "notion_id": "3a0b9258820781ee8142fd286571690a",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "低利率不是保證獲利；不懂波動、槓桿與還款現金流時，先還債是確定性的風險調整後報酬。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-debt-only-inside-competence",
+      "importance": "⭐⭐",
+      "name": "借來的錢只在能力圈內才可能套利",
+      "notion_id": "3a0b9258820781779920fd6a3da53ab6",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "以可動用資金 5%–10% 建立紀錄；若無法穩定控制風險與取得超額報酬，就回到低成本 ETF。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-prove-active-skill-small",
+      "importance": "⭐⭐",
+      "name": "主動投資用小部位證明能力",
+      "notion_id": "3a0b9258820781fe81d1db7e2585a07a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "概念股名單只是候選池；訂單、營收占比、毛利與客戶集中度未落地前，不把可能供貨寫成已受惠。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "ep48-supply-chain-revenue-proof",
+      "importance": "⭐⭐",
+      "name": "供應鏈題材要用營收驗證",
+      "notion_id": "3a0b9258820781d69ed2c2aefea69d2f",
+      "type": "💡概念"
+    },
+    {
+      "description": "瑞幸撤回 Nasdaq 聽證要求並停牌，說明財務造假事件股的低價與反彈不能取代資訊可信度、流動性與退出路徑。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "luckin-fraud-short-selling",
+      "importance": "⭐⭐",
+      "name": "瑞幸咖啡/中概股造假/做空機構",
+      "notion_id": "3a0b925882078183bd80c451db10590c",
+      "type": "🏭產業"
+    },
+    {
+      "description": "Microsoft 關閉實體 Store、保留四個 Experience Center，支持數位通路加速；單一事件不能外推所有企業永久放棄辦公室。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "wfh-digital-retail",
+      "importance": "⭐⭐",
+      "name": "疫情受惠股/WFH 概念",
+      "notion_id": "3a0b9258820781599e64c12b20a6e348",
+      "type": "🏭產業"
+    },
+    {
+      "description": "PS5／Xbox 供應鏈從晶片代工、組裝、IC 載板、散熱、電源、連接器、MEMS 到記憶體；每家公司都需用訂單、營收與毛利驗證。",
+      "eps": [
+        "EP48"
+      ],
+      "first_ep": "EP48",
+      "id": "console-pcb-ic-substrate-chain",
+      "importance": "⭐⭐",
+      "name": "PCB/5G/IC 載板",
+      "notion_id": "3a0b92588207816a9d6deb3105cc63d5",
       "type": "🏭產業"
     }
   ]
