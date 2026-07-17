@@ -2691,6 +2691,86 @@
       "source_locator": "analysis/EP48_supplemental.json:/industry/1",
       "to": "luckin-coffee",
       "type": "公司事件"
+    },
+    {
+      "context": "市場有大量替代標的時，不因股東會氣氛主動選擇治理資訊最混亂的大同。",
+      "ep": "EP49",
+      "from": "ep49-alternative-opportunity-filter",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/0",
+      "to": "tatung-2371",
+      "type": "事件風險過濾"
+    },
+    {
+      "context": "土地與廠房必須處分、扣除稅債並停止本業侵蝕，才可能轉成股東報酬。",
+      "ep": "EP49",
+      "from": "ep49-asset-realization-test",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/1",
+      "to": "ep49-asset-stock-realization-chain",
+      "type": "資產變現"
+    },
+    {
+      "context": "低本淨比只是研究輸入，不能替資產品質、獲利與催化劑做結論。",
+      "ep": "EP49",
+      "from": "ep49-pb-is-input",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/2",
+      "to": "ep49-asset-stock-realization-chain",
+      "type": "估值限制"
+    },
+    {
+      "context": "資產股研究必須保留資產不賣、本業續虧與時間成本等反證。",
+      "ep": "EP49",
+      "from": "ep49-research-can-disconfirm",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/3",
+      "to": "ep49-asset-realization-test",
+      "type": "反確認偏誤"
+    },
+    {
+      "context": "陸資、併購目的與股東權限制應交由主管機關或法院，不由公司派自行決定。",
+      "ep": "EP49",
+      "from": "ep49-independent-governance-adjudication",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/4",
+      "to": "tatung-2371",
+      "type": "公司治理裁量"
+    },
+    {
+      "context": "對獨董候選人的支持或反對，不能凌駕股東表決權與程序正義。",
+      "ep": "EP49",
+      "from": "ep49-governance-before-camp",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/5",
+      "to": "huang-kuo-chang",
+      "type": "政治與治理分離"
+    },
+    {
+      "context": "資金少與名目股價低都不是資產股或低價股品質較高的理由。",
+      "ep": "EP49",
+      "from": "ep49-nominal-price-is-not-quality",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/6",
+      "to": "ep49-asset-stock-realization-chain",
+      "type": "低價錯覺"
+    },
+    {
+      "context": "機器人理財必須公開或可驗證資料、參數、費用、風控與樣本外績效。",
+      "ep": "EP49",
+      "from": "ep49-auditable-automation",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/9",
+      "to": "ep49-robo-adviser-auditability",
+      "type": "模型治理"
+    },
+    {
+      "context": "台塑四寶現股的本益比風險，不能與 00672L 成交價偏離淨值的溢價混為一談。",
+      "ep": "EP49",
+      "from": "ep49-equity-valuation-vs-etf-premium",
+      "source_locator": "analysis/EP49_supplemental.json:/mindsets/8",
+      "to": "crude-oil",
+      "type": "風險機制區分"
+    },
+    {
+      "context": "大同的土地與資產價值是市場敘事之一，但公司治理與變現路徑必須另行驗證。",
+      "ep": "EP49",
+      "from": "tatung-2371",
+      "source_locator": "analysis/EP49_supplemental.json:/industry/1",
+      "to": "ep49-asset-stock-realization-chain",
+      "type": "資產股案例"
     }
   ],
   "metadata": {
@@ -2698,9 +2778,9 @@
     "lastUpdated": "2026-07-17",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-17",
-    "source": "EP1-EP48 分析報告",
-    "total_entities": 328,
-    "total_relations": 366
+    "source": "EP1-EP49 分析報告",
+    "total_entities": 340,
+    "total_relations": 376
   },
   "nodes": [
     {
@@ -5159,14 +5239,16 @@
     },
     {
       "code": "",
-      "description": "台灣老牌企業，土地資產豐富但經營不佳，市場派vs公司派之爭",
+      "description": "2020 年股東會刪除 53.32% 表決權，引發金管會命令改正與臺北地院解任董事判決；資產價值不能抵消公司治理與程序風險。",
       "eps": [
-        "EP33"
+        "EP33",
+        "EP49"
       ],
       "first_ep": "EP33",
       "id": "tatung-2371",
+      "importance": "⭐⭐",
       "name": "大同 (2371)",
-      "notion_id": "315b9258-8207-812b-91bb-d47b3ca6ec89",
+      "notion_id": "314b92588207812b8996df18b89792b8",
       "type": "🏢公司/標的"
     },
     {
@@ -7067,6 +7149,160 @@
       "importance": "⭐⭐",
       "name": "PCB/5G/IC 載板",
       "notion_id": "3a0b92588207816a9d6deb3105cc63d5",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "資訊迷霧、治理爭議與事件風險同時存在時，先比較替代標的；沒有非買不可的優勢，就不為氣氛承擔額外風險。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-alternative-opportunity-filter",
+      "importance": "⭐⭐",
+      "name": "替代標的很多時不主動選最高不確定性",
+      "notion_id": "3a0b9258820781c0befcc86857cb975b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "土地與廠房要經過處分、稅費、償債與資本配置才可能轉成股東報酬；不只看帳面淨值，也看本業是否持續燒錢。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-asset-realization-test",
+      "importance": "⭐⭐",
+      "name": "資產價值先問何時回到股東",
+      "notion_id": "3a0b9258820781f3b4bbcad731a8ee66",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "PB 接近 1 倍或更低不保證便宜；資產品質、獲利、治理與時間成本必須一起估算。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-pb-is-input",
+      "importance": "⭐⭐",
+      "name": "本淨比是輸入不是裁決",
+      "notion_id": "3a0b9258820781e8bdcece843026623f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "投入越多筆記越容易產生沉沒成本與確認偏誤；每份研究都應保留明確反證與退出條件。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-research-can-disconfirm",
+      "importance": "⭐⭐",
+      "name": "研究要能推翻持股不要把持股研究成信仰",
+      "notion_id": "3a0b92588207811aae48fc6faef98da7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 公司治理",
+      "description": "公司派與市場派可以競爭，但任何一方都不能自行認定對手違法並刪除投票權；監理與司法程序是資本市場底線。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-independent-governance-adjudication",
+      "importance": "⭐⭐",
+      "name": "經營權爭奪必須有獨立裁量者",
+      "notion_id": "3a0b925882078150bdbcf001c2ef4201",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 公司治理",
+      "description": "政治人物或獨董候選人的好惡不能凌駕股東權與程序正義；投資先看制度與事實，再看陣營敘事。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-governance-before-camp",
+      "importance": "⭐⭐",
+      "name": "公司治理不因候選人好惡而失效",
+      "notion_id": "3a0b9258820781dd85bdd9bd50301ca7",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "張數只是交易單位；真正看好高價股就按可承受部位持有，不為加碼看似靈活而改買品質較差的低價股。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-nominal-price-is-not-quality",
+      "importance": "⭐⭐",
+      "name": "資金少不代表該買名目股價低的股票",
+      "notion_id": "3a0b925882078155af42c7dfb528e5d5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "他人可以提供框架，不能替你回答該賣或留；持有人要重建買進理由、風險上限與資金用途。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-own-the-buy-sell-decision",
+      "importance": "⭐⭐",
+      "name": "沒有人能替你承擔買賣決定",
+      "notion_id": "3a0b9258820781c483e7c6153b6bf524",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "現股本益比高與 ETF 成交價偏離淨值是不同機制；兩種風險不能混用同一個溢價概念。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-equity-valuation-vs-etf-premium",
+      "importance": "⭐⭐",
+      "name": "現股估值過高與 ETF 溢價要分開",
+      "notion_id": "3a0b92588207817c917bdcbfb654db85",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "看不到資料、公式、參數與績效驗證，就不能因機器人理財看似客觀而交付資金；透明分散工具更適合作為基線。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-auditable-automation",
+      "importance": "⭐⭐",
+      "name": "黑箱自動化不能取代可稽核方法",
+      "notion_id": "3a0b9258820781dbba05ef184662727c",
+      "type": "💡概念"
+    },
+    {
+      "description": "從帳上資產到股東報酬，需要經過處分時點、成交價格、稅費、償債與資本配置；低本淨比不等於催化劑已出現。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-asset-stock-realization-chain",
+      "importance": "⭐⭐",
+      "name": "資產股/土地價值/本淨比",
+      "notion_id": "3a0b9258820781598b82eeda3d1b622c",
+      "type": "🏭產業"
+    },
+    {
+      "description": "投資模型要從資料來源、特徵、參數、交易成本與樣本外績效逐層驗證；不能重現就不能區分模型能力與行銷敘事。",
+      "eps": [
+        "EP49"
+      ],
+      "first_ep": "EP49",
+      "id": "ep49-robo-adviser-auditability",
+      "importance": "⭐⭐",
+      "name": "機器人理財/可解釋投資模型",
+      "notion_id": "3a0b9258820781a0aea3fb8dc8be5238",
       "type": "🏭產業"
     }
   ]
