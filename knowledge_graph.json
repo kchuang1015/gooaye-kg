@@ -2771,6 +2771,86 @@
       "source_locator": "analysis/EP49_supplemental.json:/industry/1",
       "to": "ep49-asset-stock-realization-chain",
       "type": "資產股案例"
+    },
+    {
+      "context": "終端主機大賣不等於每一家 PCB、載板或散熱公司都受惠。",
+      "ep": "EP50",
+      "from": "ep50-supply-chain-beneficiary-proof",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/0",
+      "to": "console-pcb-ic-substrate-chain",
+      "type": "訂單與營收驗證"
+    },
+    {
+      "context": "無法驗證供應鏈訂單時，用 ETF 降低選錯單一中間財公司的風險。",
+      "ep": "EP50",
+      "from": "ep50-etf-as-competence-boundary",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/1",
+      "to": "console-pcb-ic-substrate-chain",
+      "type": "分散替代"
+    },
+    {
+      "context": "香港法律風險存在，同時回歸上市與衍生品產品吸引資金；價格只能回答資金當下如何投票。",
+      "ep": "EP50",
+      "from": "ep50-price-is-evidence-not-morality",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/2",
+      "to": "hong-kong-nsl-linked-exchange-rate",
+      "type": "市場訊號"
+    },
+    {
+      "context": "長期政治或公司風險正確，不代表過早做空能活到驗證日。",
+      "ep": "EP50",
+      "from": "ep50-survive-timing",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/3",
+      "to": "hong-kong-nsl-linked-exchange-rate",
+      "type": "做空擇時"
+    },
+    {
+      "context": "知道中國市場可能上漲，不等於必須到不熟悉救濟與資金規則的市場直接開戶。",
+      "ep": "EP50",
+      "from": "ep50-play-inside-legal-competence",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/4",
+      "to": "hong-kong-nsl-linked-exchange-rate",
+      "type": "市場准入邊界"
+    },
+    {
+      "context": "特別股與高殖利率都必須拆信用、配息、贖回與價格風險，不能用配息儀式替代估值。",
+      "ep": "EP50",
+      "from": "ep50-yield-has-risk",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/5",
+      "to": "ep50-ex-dividend-not-selection",
+      "type": "收益風險"
+    },
+    {
+      "context": "以 WCLD 或 DDOG、AKAM、FSLY、NET 建立股票池，再以新證據調整權重。",
+      "ep": "EP50",
+      "from": "ep50-basket-then-winners",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/8",
+      "to": "cloud-edge-computing",
+      "type": "族群配置"
+    },
+    {
+      "context": "持續追蹤與小額股票池可累積辨識強弱的經驗，而不是完全離開市場。",
+      "ep": "EP50",
+      "from": "ep50-stay-in-market-to-learn",
+      "source_locator": "analysis/EP50_supplemental.json:/mindsets/7",
+      "to": "ep50-basket-then-winners",
+      "type": "持續校準"
+    },
+    {
+      "context": "國安法改變法律環境，但回歸上市、募資與衍生品證明資本市場功能沒有立即消失。",
+      "ep": "EP50",
+      "from": "hong-kong-nsl-linked-exchange-rate",
+      "source_locator": "analysis/EP50_supplemental.json:/industry/0",
+      "to": "hk-national-security-law",
+      "type": "法律與資本市場並存"
+    },
+    {
+      "context": "雲端與主機需求都必須由台灣零組件公司的實際訂單、營收與毛利驗證。",
+      "ep": "EP50",
+      "from": "cloud-edge-computing",
+      "source_locator": "analysis/EP50_supplemental.json:/industry/2",
+      "to": "console-pcb-ic-substrate-chain",
+      "type": "終端需求到中間財"
     }
   ],
   "metadata": {
@@ -2778,9 +2858,9 @@
     "lastUpdated": "2026-07-17",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-17",
-    "source": "EP1-EP49 分析報告",
-    "total_entities": 340,
-    "total_relations": 376
+    "source": "EP1-EP50 分析報告",
+    "total_entities": 350,
+    "total_relations": 386
   },
   "nodes": [
     {
@@ -6962,9 +7042,10 @@
       "type": "💡概念"
     },
     {
-      "description": "雲端與邊緣運算是長期成長鏈，但買進條件仍是可理解的商業模式、可承受的估值與先建立基本部位。",
+      "description": "WCLD 與 DDOG、AKAM、FSLY、NET 提供族群曝險；先分散、再按基本面與相對強弱汰弱留強。",
       "eps": [
-        "EP47"
+        "EP47",
+        "EP50"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
@@ -7140,9 +7221,10 @@
       "type": "🏭產業"
     },
     {
-      "description": "PS5／Xbox 供應鏈從晶片代工、組裝、IC 載板、散熱、電源、連接器、MEMS 到記憶體；每家公司都需用訂單、營收與毛利驗證。",
+      "description": "PS5 等終端需求只建立台灣中間財候選池；健策等公司仍須由月營收、訂單占比與毛利逐一驗證。",
       "eps": [
-        "EP48"
+        "EP48",
+        "EP50"
       ],
       "first_ep": "EP48",
       "id": "console-pcb-ic-substrate-chain",
@@ -7303,6 +7385,135 @@
       "importance": "⭐⭐",
       "name": "機器人理財/可解釋投資模型",
       "notion_id": "3a0b9258820781a0aea3fb8dc8be5238",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "終端產品成功只是第一層；台灣中間財公司是否有訂單、營收占比與毛利改善，必須逐家驗證。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-supply-chain-beneficiary-proof",
+      "importance": "⭐⭐",
+      "name": "台股不只看對題材還要選對真正受惠者",
+      "notion_id": "3a0b9258820781faa03de23cc4f1e15e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "無法判斷單一環節勝負時，用分散換取較低的選錯風險，不為了證明自己會選股而承擔錯配。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-etf-as-competence-boundary",
+      "importance": "⭐⭐",
+      "name": "看不懂供應鏈就用 ETF 承認能力邊界",
+      "notion_id": "3a0b925882078114a0f2c2217c2f5757",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "價格可檢查敘事是否獲得資金支持，但不能把上漲直接翻譯成政治、法律或會計問題不存在。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-price-is-evidence-not-morality",
+      "importance": "⭐⭐",
+      "name": "走勢是市場證據不是道德判決",
+      "notion_id": "3a0b9258820781bc8e6fc6aeb13b2d42",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "最終真相若在多年後才落地，今天先被軋出場仍是失敗交易；預判必須綁定催化劑、期限與最大回撤。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-survive-timing",
+      "importance": "⭐⭐",
+      "name": "方向正確也要活過 timing",
+      "notion_id": "3a0b9258820781c9951af227b0f9900f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "交易規則、資訊品質、資金進出與法律救濟不在能力圈時，選擇熟悉市場的替代工具。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-play-inside-legal-competence",
+      "importance": "⭐⭐",
+      "name": "只打有把握也有救濟路徑的市場",
+      "notion_id": "3a0b9258820781af96b7e535cf4ab053",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "市場若願意給高收益，通常代表信用、流動性、贖回、利率或配息不確定性；先找風險來源。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-yield-has-risk",
+      "importance": "⭐⭐",
+      "name": "高殖利率一定對應風險",
+      "notion_id": "3a0b9258820781aa8032e218789bed45",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "配息只是資本配置形式；自由現金流、再投資報酬、估值與股利持續性才是核心。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-ex-dividend-not-selection",
+      "importance": "⭐⭐",
+      "name": "除權息不是選股標準",
+      "notion_id": "3a0b9258820781d08d44da517b4c72dd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "持續追蹤、做模擬紀錄與覆盤會累積校準經驗；完全離場會失去辨識價格與基本面的機會。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-stay-in-market-to-learn",
+      "importance": "⭐⭐",
+      "name": "不一定立刻下場但不要離開市場",
+      "notion_id": "3a0b925882078185a225e94f56732534",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "無法事前選出唯一勝者時，先建立受控股票池，後續以營收、毛利、客戶與相對強弱汰弱留強。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "ep50-basket-then-winners",
+      "importance": "⭐⭐",
+      "name": "先買族群再用證據讓贏家擴大",
+      "notion_id": "3a0b925882078171b2b3f5fedccdc742",
+      "type": "💡概念"
+    },
+    {
+      "description": "國安法生效後，BN(O)、中概股二次上市與 HKEX／MSCI 衍生品同時顯示法律風險與資本市場功能並存。",
+      "eps": [
+        "EP50"
+      ],
+      "first_ep": "EP50",
+      "id": "hong-kong-nsl-linked-exchange-rate",
+      "importance": "⭐⭐⭐",
+      "name": "香港國安法與聯繫匯率",
+      "notion_id": "3a0b9258820781a69e00e4a153a70d38",
       "type": "🏭產業"
     }
   ]
