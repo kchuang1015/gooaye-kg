@@ -2499,6 +2499,102 @@
       "source_locator": "analysis/EP46_supplemental.json:/industry/1",
       "to": "ep46-risk-control-separates-novice",
       "type": "小部位觀察"
+    },
+    {
+      "context": "完整候選紀錄能證明放過的球不只包含贏家，也包含被紀律避開的輸家。",
+      "ep": "EP47",
+      "from": "ep47-record-bought-and-rejected",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/1",
+      "to": "ep47-no-strikeout-pressure",
+      "type": "行為校準"
+    },
+    {
+      "context": "沒有三振壓力，所以不必在錯過後高位重押；只對已理解的基本部位逐步增加。",
+      "ep": "EP47",
+      "from": "ep47-no-strikeout-pressure",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/2",
+      "to": "ep47-base-position-before-adding",
+      "type": "部位執行"
+    },
+    {
+      "context": "主動比例是否應降低，要由完整買入與拒絕紀錄驗證，而不是由單一錯過案例決定。",
+      "ep": "EP47",
+      "from": "ep47-reduce-active-share",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/3",
+      "to": "ep47-record-bought-and-rejected",
+      "type": "績效驗證"
+    },
+    {
+      "context": "定向廣告與分潤降低小型創作者變現門檻，增加平台內容供給。",
+      "ep": "EP47",
+      "from": "ep47-platform-revenue-share",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/4",
+      "to": "streaming",
+      "type": "平台飛輪"
+    },
+    {
+      "context": "不搶第一秒，才能讓來源、價格反應與後續財務結果形成多層校驗。",
+      "ep": "EP47",
+      "from": "ep47-news-speed-trap",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/5",
+      "to": "ep47-news-to-market-financials",
+      "type": "資訊驗證"
+    },
+    {
+      "context": "既知利空是否鈍化，要看市場反應；超出共識的 surprise 才會觸發重新定價。",
+      "ep": "EP47",
+      "from": "ep47-known-bad-news-decays",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/0",
+      "to": "ep47-news-to-market-financials",
+      "type": "市場定價"
+    },
+    {
+      "context": "Fastly、是方與凌華的強勢不能取代基本部位與估值紀律。",
+      "ep": "EP47",
+      "from": "ep47-base-position-before-adding",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/8",
+      "to": "cloud-edge-computing",
+      "type": "追價防線"
+    },
+    {
+      "context": "遊戲小額組合是候選紀錄與產業學習，不用一週績效證明選股能力。",
+      "ep": "EP47",
+      "from": "ep47-record-bought-and-rejected",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/1",
+      "to": "game-content-publishers",
+      "type": "組合實驗"
+    },
+    {
+      "context": "Shopify 通路合作要由 GMV、營收、現金流與估值逐層驗證。",
+      "ep": "EP47",
+      "from": "ep47-news-to-market-financials",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/7",
+      "to": "online-delivery",
+      "type": "題材驗證"
+    },
+    {
+      "context": "降低主動比例後仍要挑選配置透明、費用合理且回測可接受的 ETF。",
+      "ep": "EP47",
+      "from": "ep47-etf-fees-backtest",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/6",
+      "to": "ep47-reduce-active-share",
+      "type": "被動替代方案"
+    },
+    {
+      "context": "連產品結構與風險都不理解時，不建立部位，更不可能談加碼。",
+      "ep": "EP47",
+      "from": "ep47-avoid-unknown-investments",
+      "source_locator": "analysis/EP47_supplemental.json:/mindsets/9",
+      "to": "ep47-base-position-before-adding",
+      "type": "能力圈"
+    },
+    {
+      "context": "串流與遊戲都依賴內容 IP、創作者／開發者供給及平台分發形成網路效應。",
+      "ep": "EP47",
+      "from": "streaming",
+      "source_locator": "analysis/EP47_supplemental.json:/industry/2",
+      "to": "game-content-publishers",
+      "type": "內容平台共性"
     }
   ],
   "metadata": {
@@ -2506,9 +2602,9 @@
     "lastUpdated": "2026-07-17",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-17",
-    "source": "EP1-EP46 分析報告",
-    "total_entities": 303,
-    "total_relations": 342
+    "source": "EP1-EP47 分析報告",
+    "total_entities": 315,
+    "total_relations": 354
   },
   "nodes": [
     {
@@ -3037,15 +3133,16 @@
     },
     {
       "code": "",
-      "description": "Disney Plus + Netflix，取代有線電視的大趨勢",
+      "description": "Spotify 以獨家 Podcast、定向廣告、創作者工具與分潤擴張串流平台；影片 Podcast 也使音訊與影片邊界逐漸融合。",
       "eps": [
-        "EP2"
+        "EP2",
+        "EP47"
       ],
       "first_ep": "EP2",
       "id": "streaming",
       "importance": "⭐⭐",
       "name": "串流影音/訂閱經濟",
-      "notion_id": "315b9258-8207-815c-b01e-c000844811fc",
+      "notion_id": "315b92588207815cb01ec000844811fc",
       "type": "🏭產業"
     },
     {
@@ -4036,14 +4133,16 @@
     },
     {
       "code": "",
-      "description": "疫後消費型態轉變的受益者",
+      "description": "Shopify 透過 Facebook、Walmart 等通路擴大商家觸及，但通路題材仍須由 GMV、營收、現金流與估值驗證。",
       "eps": [
-        "EP23"
+        "EP23",
+        "EP47"
       ],
       "first_ep": "EP23",
       "id": "online-delivery",
+      "importance": "⭐⭐",
       "name": "外送/電商產業",
-      "notion_id": "314b9258-8207-81c7-9c20-f8137c0e4575",
+      "notion_id": "314b9258820781c79c20f8137c0e4575",
       "type": "🏭產業"
     },
     {
@@ -6550,6 +6649,160 @@
       "importance": "⭐",
       "name": "面板業",
       "notion_id": "3a0b925882078121bf34f7e9efbbc770",
+      "type": "🏭產業"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "市場會逐步消化重複消息；需要重新定價的是超出共識的轉折，不能把新聞嚴重度直接翻譯成下一根 K 線。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-known-bad-news-decays",
+      "importance": "⭐⭐",
+      "name": "已知利空的邊際破壞力會鈍化",
+      "notion_id": "3a0b925882078167a4b9fd970f28ffc1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "候選池、買入、拒絕與理由都要留存，三至六個月後一起驗證，避免只記得錯過的贏家。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-record-bought-and-rejected",
+      "importance": "⭐⭐",
+      "name": "同時記錄有買與沒買",
+      "notion_id": "3a0b9258820781088691dbb2ff8d9bab",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "等待的成本是錯過，亂揮棒的成本是真金白銀；投資人可以持續放過機會，直到風險報酬足夠好。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-no-strikeout-pressure",
+      "importance": "⭐⭐",
+      "name": "投資沒有三振壓力，只打有把握的球",
+      "notion_id": "3a0b925882078122af41c3a0bb20a31a",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "在普遍上漲期仍沒有超額報酬，就把主動部位降到一至兩成，其餘回到低費用全市場 ETF。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-reduce-active-share",
+      "importance": "⭐⭐",
+      "name": "送分市場仍落後就降低主動選股比例",
+      "notion_id": "3a0b9258820781e7bfd8e27dc3680750",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "平台聚合受眾、定向投放並分潤，讓不足以獨立和品牌談大單的小眾創作者也能持續生產內容。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-platform-revenue-share",
+      "importance": "⭐⭐",
+      "name": "小型創作者需要平台化分潤",
+      "notion_id": "3a0b925882078152acf3d7797126240f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "快訊可能不完整、誤譯或缺乏背景；交叉來源並等待市場反應，通常比搶快更能降低錯誤。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-news-speed-trap",
+      "importance": "⭐⭐",
+      "name": "最快的新聞常有坑，投資不必搶第一秒",
+      "notion_id": "3a0b925882078128a7a2f5993dba83e6",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "包好股債比例只是便利；仍需檢查配置、費用與定期投入回測，再判斷是否符合自己。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-etf-fees-backtest",
+      "importance": "⭐⭐",
+      "name": "配置型 ETF 也要查費用與回測",
+      "notion_id": "3a0b92588207812980cbf8e757851f10",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "新聞標題只是輸入；市場反應是早期校驗，訂單、營收、現金流與估值才是後續校驗。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-news-to-market-financials",
+      "importance": "⭐⭐",
+      "name": "消息最後要回到市場與財務結果",
+      "notion_id": "3a0b9258820781d18bcaf50976183384",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "已上車且假設未破壞才逐步增加；沒有基本部位時，不因錯失恐懼在相對高點一次押重。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-base-position-before-adding",
+      "importance": "⭐⭐",
+      "name": "加碼只建立在已有基本部位上",
+      "notion_id": "3a0b92588207819496f3d5f2d1358217",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "業務推薦不能取代理解；先聽、再查，核心結構、風險或現金流仍不清楚就拒絕。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "ep47-avoid-unknown-investments",
+      "importance": "⭐⭐",
+      "name": "聽不懂的投資先不碰",
+      "notion_id": "3a0b9258820781f2b068ff042f6ed89b",
+      "type": "💡概念"
+    },
+    {
+      "description": "雲端與邊緣運算是長期成長鏈，但買進條件仍是可理解的商業模式、可承受的估值與先建立基本部位。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "cloud-edge-computing",
+      "importance": "⭐⭐",
+      "name": "雲端軟體／邊緣運算",
+      "notion_id": "3a0b92588207816d8931c44772d682b1",
+      "type": "🏭產業"
+    },
+    {
+      "description": "遊戲投資應以 IP、內容管線與長期現金流為核心；小額組合可用來學習，但不能把短期勝率年化。",
+      "eps": [
+        "EP47"
+      ],
+      "first_ep": "EP47",
+      "id": "game-content-publishers",
+      "importance": "⭐⭐",
+      "name": "遊戲內容與發行商",
+      "notion_id": "3a0b92588207816ca3dcfa8eb0f98808",
       "type": "🏭產業"
     }
   ]
