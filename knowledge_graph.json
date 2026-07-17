@@ -2403,16 +2403,112 @@
       "source_locator": "gooaye-poc/analysis/EP44_analysis.md:200-204",
       "to": "pe-valuation",
       "type": "驗證框架"
+    },
+    {
+      "context": "Robinhood 事件顯示，多頭獲利不能取代部位與商品准入的風險控管。",
+      "ep": "EP46",
+      "from": "ep46-risk-control-separates-novice",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/1",
+      "to": "robinhood-platform-risk",
+      "type": "平台風險案例"
+    },
+    {
+      "context": "選擇權與保證金商品應建立在逐級訓練與結算理解之上。",
+      "ep": "EP46",
+      "from": "ep46-product-complexity-ladder",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/3",
+      "to": "robinhood-platform-risk",
+      "type": "商品准入原則"
+    },
+    {
+      "context": "帳面顯示混亂與高風險商品造成壓力時，先求證並尋求專業協助。",
+      "ep": "EP46",
+      "from": "ep46-life-above-debt",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/4",
+      "to": "robinhood-platform-risk",
+      "type": "悲劇防線"
+    },
+    {
+      "context": "最低保證金不能代表最大損失或真正資本需求。",
+      "ep": "EP46",
+      "from": "ep46-margin-is-not-capital",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/5",
+      "to": "robinhood-platform-risk",
+      "type": "風險揭露"
+    },
+    {
+      "context": "交易平台與 KOL 都不應把高風險商品包裝成新手可無痛使用的工具。",
+      "ep": "EP46",
+      "from": "ep46-responsible-kol",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/11",
+      "to": "robinhood-platform-risk",
+      "type": "內容責任"
+    },
+    {
+      "context": "Mini／Micro LED 題材要回到量產、營收與 EPS，而不是停在技術敘事。",
+      "ep": "EP46",
+      "from": "ep46-theme-to-revenue-eps",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/7",
+      "to": "mini-micro-led-ennostar",
+      "type": "驗證框架"
+    },
+    {
+      "context": "面板的循環行情仍不能取代公司品質、現金流與競爭結構。",
+      "ep": "EP46",
+      "from": "ep46-quality-over-technical-analysis",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/6",
+      "to": "panel-industry",
+      "type": "產業評估"
+    },
+    {
+      "context": "資訊不透明、無法估值的標的應視為風險紀律成本，而非抄底遺憾。",
+      "ep": "EP46",
+      "from": "ep46-war-fog-no-regret",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/2",
+      "to": "ep46-risk-control-separates-novice",
+      "type": "紀律案例"
+    },
+    {
+      "context": "固定節奏與主動擇時必須清楚區分，不能把隨意加減碼誤稱定期買入。",
+      "ep": "EP46",
+      "from": "ep46-dca-without-timing",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/8",
+      "to": "ep46-investing-is-profession",
+      "type": "方法論"
+    },
+    {
+      "context": "專業研究包含承認尚未研究，而不是硬拼答案。",
+      "ep": "EP46",
+      "from": "ep46-competence-circle",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/9",
+      "to": "ep46-investing-is-profession",
+      "type": "能力圈"
+    },
+    {
+      "context": "存股條件會隨利率、利差與產業結構改變，必須持續重估。",
+      "ep": "EP46",
+      "from": "ep46-dividend-stock-not-deposit",
+      "source_locator": "analysis/EP46_supplemental.json:/mindsets/10",
+      "to": "ep46-risk-control-separates-novice",
+      "type": "風險重估"
+    },
+    {
+      "context": "疫情受害產業的小部位持有是風險控管案例，不代表基本面推薦。",
+      "ep": "EP46",
+      "from": "aviation",
+      "source_locator": "analysis/EP46_supplemental.json:/industry/1",
+      "to": "ep46-risk-control-separates-novice",
+      "type": "小部位觀察"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-11",
+    "lastUpdated": "2026-07-17",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-11",
-    "source": "EP1-EP45 分析報告",
-    "total_entities": 288,
-    "total_relations": 330
+    "last_update": "2026-07-17",
+    "source": "EP1-EP46 分析報告",
+    "total_entities": 303,
+    "total_relations": 342
   },
   "nodes": [
     {
@@ -2874,7 +2970,7 @@
     },
     {
       "code": "",
-      "description": "疫情重災區，空飛、無薪假、Flybe倒閉、巴菲特認賠",
+      "description": "境外旅客導向的航空與旅宿即使台灣控制疫情，仍受海外疫情與邊境限制；小部位持有觀察不等於基本面推薦。",
       "eps": [
         "EP1",
         "EP2",
@@ -2882,13 +2978,14 @@
         "EP9",
         "EP10",
         "EP21",
-        "EP35"
+        "EP35",
+        "EP46"
       ],
       "first_ep": "EP1",
       "id": "aviation",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐",
       "name": "航空業",
-      "notion_id": "315b9258-8207-8179-9dd3-ebc827fda0c8",
+      "notion_id": "315b9258820781799dd3ebc827fda0c8",
       "type": "🏭產業"
     },
     {
@@ -6261,6 +6358,198 @@
       "importance": "⭐",
       "name": "中印邊境衝突 / 北韓 / 北京二次疫情 — 區域利空判斷框架",
       "notion_id": "39ab92588207815dbd54cdc65c6eb54a",
+      "type": "🏭產業"
+    },
+    {
+      "category": "📚 基礎觀念",
+      "description": "低開戶門檻只代表容易進場，不代表商品、估值與風險很簡單。投資同樣需要系統訓練。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-investing-is-profession",
+      "importance": "⭐⭐",
+      "name": "投資是專業，不是開戶後自動成為股神",
+      "notion_id": "3a0b9258820781db9395c64ad2f007b2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "多頭時大家都能賺；修正時有沒有部位上限、加碼規則與退出條件，才決定能否留在市場。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-risk-control-separates-novice",
+      "importance": "⭐⭐",
+      "name": "新手與老手的分界是風險控管",
+      "notion_id": "3a0b9258820781c68f38fdd5bcda2242",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "未知負債、保密和解與資訊不對稱不能靠勇氣解決。錯過無法估值的漲停，是風險紀律成本。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-war-fog-no-regret",
+      "importance": "⭐⭐",
+      "name": "戰爭迷霧中的標的不值得為沒抄到底後悔",
+      "notion_id": "3a0b92588207814e9382dda48ef68fae",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "先建立股票的風險能力，再升級到期貨與選擇權。越複雜的商品越需要理解結算、槓桿與流動性。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-product-complexity-ladder",
+      "importance": "⭐⭐",
+      "name": "商品難度要逐級升級，而且不要碰看不懂的東西",
+      "notion_id": "3a0b9258820781908c28d4685f597517",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧘 交易心理",
+      "description": "巨額虧損仍可透過協商、破產與法律程序處理。先找專業協助並確認帳務，不在資訊混亂時做不可逆決定。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-life-above-debt",
+      "importance": "⭐⭐",
+      "name": "生命永遠高於債務",
+      "notion_id": "3a0b92588207819da7adc9a076f34415",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "最低保證金只是維持部位的門票。判斷風險要看名目價值、最大虧損與可承受波動。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-margin-is-not-capital",
+      "importance": "⭐⭐",
+      "name": "保證金不是商品真正需要的資本",
+      "notion_id": "3a0b9258820781ff9d8fef34d4b969ea",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "均線可作平均成本參考，但圖形不能取代商業模式、現金流與公司品質。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-quality-over-technical-analysis",
+      "importance": "⭐⭐",
+      "name": "技術分析參考就好，選股品質才是主體",
+      "notion_id": "3a0b9258820781158748f0261e5e0149",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "產品熱門只是研究入口；必須把管理費或新題材換算成營收、成本、股本與 EPS。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-theme-to-revenue-eps",
+      "importance": "⭐⭐",
+      "name": "題材要換算成營收與每股獲利",
+      "notion_id": "3a0b9258820781139b0fc55f8dcf882a",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "長期看好時用固定節奏買入平滑成本。依位階調整可以，但那已是主動擇時。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-dca-without-timing",
+      "importance": "⭐⭐",
+      "name": "定期買入的真諦是不猜高低點",
+      "notion_id": "3a0b92588207817f9debe42d012b01c8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "承認能力圈邊界，比用產業標籤或市場故事硬拼出答案更可靠。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-competence-circle",
+      "importance": "⭐⭐",
+      "name": "不熟的公司，最專業的答案是尚未研究",
+      "notion_id": "3a0b9258820781439decf42f3451def2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "過去適合存股，不代表現在仍適合；利率、利差與產業結構改變時必須重新評估。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-dividend-stock-not-deposit",
+      "importance": "⭐⭐",
+      "name": "存股不是定存，任何投資都有風險",
+      "notion_id": "3a0b92588207815e8993ceaad7686c08",
+      "type": "💡概念"
+    },
+    {
+      "category": "🤝 內容責任",
+      "description": "個人可承受的槓桿不等於普遍建議。公開內容與商業合作應降低新手受傷機率。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "ep46-responsible-kol",
+      "importance": "⭐⭐",
+      "name": "負責任的 KOL 不用高風險廣告教菜雞衝動",
+      "notion_id": "3a0b92588207814f8923f27d32a02586",
+      "type": "💡概念"
+    },
+    {
+      "description": "介面創新不能取代風險教育。使用者要知道名目部位與最大損失，平台則要清楚顯示結算狀態並提供及時支援。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "robinhood-platform-risk",
+      "importance": "⭐",
+      "name": "Robinhood／零佣金券商風險",
+      "notion_id": "3a0b92588207815a9cdbe8167c89cbf3",
+      "type": "🏭產業"
+    },
+    {
+      "description": "投控整合可把磊晶晶粒與封裝模組串起來，但垂直整合不等於立即產生股東報酬；量產良率、驅動 IC、客戶導入與營收才是驗證 gate。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "mini-micro-led-ennostar",
+      "importance": "⭐",
+      "name": "Mini／Micro LED 與富采投控",
+      "notion_id": "3a0b925882078125a981fd9fc99fb577",
+      "type": "🏭產業"
+    },
+    {
+      "description": "大尺寸電視價格快速下降、產品容易商品化，加上中國廠商競爭；產業可能有景氣循環行情，但不等於適合長期持有。",
+      "eps": [
+        "EP46"
+      ],
+      "first_ep": "EP46",
+      "id": "panel-industry",
+      "importance": "⭐",
+      "name": "面板業",
+      "notion_id": "3a0b925882078121bf34f7e9efbbc770",
       "type": "🏭產業"
     }
   ]
