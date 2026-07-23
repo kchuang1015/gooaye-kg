@@ -2851,16 +2851,104 @@
       "source_locator": "analysis/EP50_supplemental.json:/industry/2",
       "to": "console-pcb-ic-substrate-chain",
       "type": "終端需求到中間財"
+    },
+    {
+      "context": "政治人物好惡不能替公司派自行刪除過半表決權提供正當性。",
+      "ep": "EP51",
+      "from": "ep49-governance-before-camp",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/0",
+      "to": "corporate-control-governance",
+      "type": "程序底線"
+    },
+    {
+      "context": "NVIDIA、Apple、Google、Microsoft、Tesla 等候選先由存活能力與護城河比較。",
+      "ep": "EP51",
+      "from": "ep51-crash-survivor-first",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/1",
+      "to": "cloud-edge-computing",
+      "type": "危機篩選"
+    },
+    {
+      "context": "市場未回到理想價時，以小部位分批參與，而不是空等固定劇本。",
+      "ep": "EP51",
+      "from": "ep51-no-scripted-second-leg",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/2",
+      "to": "ep51-small-tranches-at-highs",
+      "type": "資金部署"
+    },
+    {
+      "context": "經濟衰退可與科技龍頭反彈並存，需分開分析營運與市場預期。",
+      "ep": "EP51",
+      "from": "ep51-economy-is-not-price",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/3",
+      "to": "cloud-edge-computing",
+      "type": "定價框架"
+    },
+    {
+      "context": "既有持有人滿倉與新進者高檔追價承擔不同風險，新部位應縮小並拆批。",
+      "ep": "EP51",
+      "from": "ep51-cost-basis-is-not-transferable",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/4",
+      "to": "ep51-small-tranches-at-highs",
+      "type": "成本差異"
+    },
+    {
+      "context": "經營 Podcast 即使未帶來流量，也留下對 Spotify、TME 與音訊產業的第一手研究。",
+      "ep": "EP51",
+      "from": "ep51-failure-retains-value",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/6",
+      "to": "streaming",
+      "type": "產品研究外溢"
+    },
+    {
+      "context": "產品喜好只建立假說，仍須用公司披露、財務與估值判斷。",
+      "ep": "EP51",
+      "from": "ep51-source-diversity-own-judgment",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/7",
+      "to": "streaming",
+      "type": "來源驗證"
+    },
+    {
+      "context": "既然採資產配置，就以固定頻率再平衡，不用短線預測第二隻腳。",
+      "ep": "EP51",
+      "from": "ep51-rebalance-not-short-term-time",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/8",
+      "to": "ep51-no-scripted-second-leg",
+      "type": "反擇時"
+    },
+    {
+      "context": "大型科技龍頭的存活能力可外溢到供應鏈，但供應商個股仍需獨立驗證。",
+      "ep": "EP51",
+      "from": "tsmc-local-supply-ecosystem",
+      "source_locator": "analysis/EP51_supplemental.json:/industry/0",
+      "to": "cloud-edge-computing",
+      "type": "龍頭外溢"
+    },
+    {
+      "context": "支持台灣產業不能以愛國敘事跳過股東權、公司治理與資本市場程序。",
+      "ep": "EP51",
+      "from": "ep49-governance-before-camp",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/0",
+      "to": "tsmc-local-supply-ecosystem",
+      "type": "國家競爭力"
+    },
+    {
+      "context": "Spotify 與 TME 等成長題材在高檔應以小部位、分批與後續驗證控制風險。",
+      "ep": "EP51",
+      "from": "ep51-small-tranches-at-highs",
+      "source_locator": "analysis/EP51_supplemental.json:/mindsets/5",
+      "to": "streaming",
+      "type": "題材部位管理"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-17",
+    "lastUpdated": "2026-07-23",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-17",
-    "source": "EP1-EP50 分析報告",
-    "total_entities": 350,
-    "total_relations": 386
+    "last_update": "2026-07-23",
+    "source": "EP1-EP51 分析報告",
+    "total_entities": 360,
+    "total_relations": 397
   },
   "nodes": [
     {
@@ -3390,10 +3478,11 @@
     },
     {
       "code": "",
-      "description": "Spotify 以獨家 Podcast、定向廣告、創作者工具與分潤擴張串流平台；影片 Podcast 也使音訊與影片邊界逐漸融合。",
+      "description": "Spotify 與騰訊音樂提供音訊平台研究題材，但採用、商業模式、監管與估值必須分開。",
       "eps": [
         "EP2",
-        "EP47"
+        "EP47",
+        "EP51"
       ],
       "first_ep": "EP2",
       "id": "streaming",
@@ -7042,10 +7131,11 @@
       "type": "💡概念"
     },
     {
-      "description": "WCLD 與 DDOG、AKAM、FSLY、NET 提供族群曝險；先分散、再按基本面與相對強弱汰弱留強。",
+      "description": "市場暴跌時以現金流、資產負債表、平台黏著與護城河篩選大型科技。",
       "eps": [
         "EP47",
-        "EP50"
+        "EP50",
+        "EP51"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
@@ -7299,14 +7389,15 @@
       "type": "💡概念"
     },
     {
-      "category": "🏛️ 公司治理",
-      "description": "政治人物或獨董候選人的好惡不能凌駕股東權與程序正義；投資先看制度與事實，再看陣營敘事。",
+      "category": "🛡️ 風險管理",
+      "description": "可以批評候選人，但不能因此接受公司派自行認定陸資、刪除過半表決權；投資先看程序與事實。",
       "eps": [
-        "EP49"
+        "EP49",
+        "EP51"
       ],
       "first_ep": "EP49",
       "id": "ep49-governance-before-camp",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "公司治理不因候選人好惡而失效",
       "notion_id": "3a0b9258820781dd85bdd9bd50301ca7",
       "type": "💡概念"
@@ -7514,6 +7605,134 @@
       "importance": "⭐⭐⭐",
       "name": "香港國安法與聯繫匯率",
       "notion_id": "3a0b9258820781a69e00e4a153a70d38",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "跌幅只描述價格；現金流、資產負債表、平台黏著與競爭優勢決定便宜能否轉成報酬。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-crash-survivor-first",
+      "importance": "⭐⭐",
+      "name": "暴跌時優先研究能活過危機的公司",
+      "notion_id": "3a6b92588207818d93d3ef5ca678b29f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "預留資金是風險管理，但新證據改變時要調整，不能把等待理想價變成市場義務。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-no-scripted-second-leg",
+      "importance": "⭐⭐",
+      "name": "市場不必照你的第二隻腳劇本走",
+      "notion_id": "3a6b9258820781fd989ace20aa4cd2f1",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "經濟資料是股價輸入，不是即時等號；市場可先交易流動性、政策與未來復甦。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-economy-is-not-price",
+      "importance": "⭐⭐",
+      "name": "經濟很差不代表股票還沒反映",
+      "notion_id": "3a6b9258820781aabc90ec9fcec5ae26",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "同一標的不同成本是不同交易；情緒轉樂觀後才進場，不能借用既有持有人的安全邊際。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-cost-basis-is-not-transferable",
+      "importance": "⭐⭐",
+      "name": "別人的低成本獲利不是你的追價安全墊",
+      "notion_id": "3a6b925882078184adacd6f01fb26ddc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "無法判斷還會漲多久時，用一至兩成資金逐步建立曝險，讓錯誤仍可承受。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-small-tranches-at-highs",
+      "importance": "⭐⭐",
+      "name": "高檔參與用小部位與分批換取可逆性",
+      "notion_id": "3a6b9258820781659332f6f49c7f8c31",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "創作與投資都有機率；選擇即使結果不佳仍留下能力、研究與關係的流程。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-failure-retains-value",
+      "importance": "⭐⭐",
+      "name": "成功含運氣所以流程要在失敗時仍有價值",
+      "notion_id": "3a6b92588207814db9b5d9a3b5bb7aa6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "任何節目都只是輸入；多方涉獵、檢查利益與證據，最後用自己的識讀能力下判斷。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-source-diversity-own-judgment",
+      "importance": "⭐⭐",
+      "name": "資訊來源多元最後責任留在自己",
+      "notion_id": "3a6b9258820781bda9c3f5404f56cfc2",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "股債比例是承認擇時能力有限後的制度；固定頻率再平衡比隨每日漲跌改配置一致。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "ep51-rebalance-not-short-term-time",
+      "importance": "⭐⭐",
+      "name": "資產配置成立後不要用短線猜頂破壞它",
+      "notion_id": "3a6b92588207813e9989d05fc3aaaae9",
+      "type": "💡概念"
+    },
+    {
+      "description": "台積電透過設計服務、設備、材料、載具與封測夥伴外溢價值，但供應商仍須逐家驗證。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "tsmc-local-supply-ecosystem",
+      "importance": "⭐⭐⭐",
+      "name": "台積電 / 半導體先進製程",
+      "notion_id": "3a6b92588207816e9ea3f2a811fbd3fe",
+      "type": "🏭產業"
+    },
+    {
+      "description": "大同事件顯示公司派不能自行認定市場派違法並沒收投票權，須由主管機關與法院裁量。",
+      "eps": [
+        "EP51"
+      ],
+      "first_ep": "EP51",
+      "id": "corporate-control-governance",
+      "importance": "⭐⭐⭐",
+      "name": "大同公司治理",
+      "notion_id": "3a6b925882078159b67ed4c318926ed6",
       "type": "🏭產業"
     }
   ]
