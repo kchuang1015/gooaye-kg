@@ -3035,6 +3035,102 @@
       "source_locator": "analysis/EP52_supplemental.json:/holdings/1",
       "to": "palantir-pltr",
       "type": "熱門標的比較"
+    },
+    {
+      "context": "eToro 介面明快和實測當機可以同時成立，產品體驗不構成資產安全保證。",
+      "ep": "EP53",
+      "from": "ep53-platform-usability-is-not-safety",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/0",
+      "to": "etoro",
+      "type": "產品與安全分離"
+    },
+    {
+      "context": "eToro 只放小額並保留其他券商，降低當機、限制交易或跨境爭議的單點傷害。",
+      "ep": "EP53",
+      "from": "ep53-multi-broker-single-point-risk",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/1",
+      "to": "etoro",
+      "type": "券商分散"
+    },
+    {
+      "context": "金融科技平台和傳統券商各有費用與操作風險，多平台分工保留替代交易路徑。",
+      "ep": "EP53",
+      "from": "ep53-multi-broker-single-point-risk",
+      "source_locator": "analysis/EP53_supplemental.json:/industry/0",
+      "to": "robinhood-platform-risk",
+      "type": "替代執行通道"
+    },
+    {
+      "context": "高檔買進前先寫明日下跌劇本，再由小部位和分批限制初始損失。",
+      "ep": "EP53",
+      "from": "ep53-precommit-downside-script",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/2",
+      "to": "ep51-small-tranches-at-highs",
+      "type": "事前風控"
+    },
+    {
+      "context": "低成本把修正變成獲利回吐；新進者沒有安全墊時更需要縮小單批投入。",
+      "ep": "EP53",
+      "from": "ep53-cost-basis-behavioral-buffer",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/4",
+      "to": "ep51-small-tranches-at-highs",
+      "type": "成本緩衝"
+    },
+    {
+      "context": "太平洋電纜掏空與下市顯示再好的表面資訊也不能排除不可逆治理事件。",
+      "ep": "EP53",
+      "from": "ep53-single-stock-governance-tail-risk",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/5",
+      "to": "ep53-pacific-electric-wire-governance",
+      "type": "治理尾端事件"
+    },
+    {
+      "context": "研究降低未知，但分散才限制單一公司詐欺、下市或治理失敗的資本傷害。",
+      "ep": "EP53",
+      "from": "ep53-single-stock-governance-tail-risk",
+      "source_locator": "analysis/EP53_supplemental.json:/industry/3",
+      "to": "corporate-control-governance",
+      "type": "分散治理風險"
+    },
+    {
+      "context": "全職交易若無數月生活現金，市場下跌劇本會被迫變成賣出以支付開支。",
+      "ep": "EP53",
+      "from": "ep53-full-time-trading-cash-flow",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/6",
+      "to": "ep53-precommit-downside-script",
+      "type": "生活現金流"
+    },
+    {
+      "context": "停止創低後才分批，並把看錯的減碼、看對的加碼，而不是在持續下跌時不服輸攤平。",
+      "ep": "EP53",
+      "from": "trend-following",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/7",
+      "to": "ep53-reallocate-from-refuted-to-confirmed",
+      "type": "順勢資金配置"
+    },
+    {
+      "context": "先進製程需求支持公司與供應鏈研究，但 363.5 元急漲後仍須用估值和分批控制新進成本。",
+      "ep": "EP53",
+      "from": "tsmc-2330",
+      "source_locator": "analysis/EP53_supplemental.json:/holdings/2",
+      "to": "tsmc-local-supply-ecosystem",
+      "type": "長期營運與短線成本"
+    },
+    {
+      "context": "iPhone、AirPods、PS5 與 HPC 只建立需求方向，台灣零組件訂單與良率仍需逐家驗證。",
+      "ep": "EP53",
+      "from": "tsmc-local-supply-ecosystem",
+      "source_locator": "analysis/EP53_supplemental.json:/industry/2",
+      "to": "pcb-5g",
+      "type": "終端需求到中間財"
+    },
+    {
+      "context": "不預設台積電高點，也不因 500／700 元敘事一次 all in；以小額分批保留路徑彈性。",
+      "ep": "EP53",
+      "from": "ep51-small-tranches-at-highs",
+      "source_locator": "analysis/EP53_supplemental.json:/mindsets/3",
+      "to": "tsmc-2330",
+      "type": "追價約束"
     }
   ],
   "metadata": {
@@ -3042,9 +3138,9 @@
     "lastUpdated": "2026-07-23",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-23",
-    "source": "EP1-EP52 分析報告",
-    "total_entities": 369,
-    "total_relations": 409
+    "source": "EP1-EP53 分析報告",
+    "total_entities": 377,
+    "total_relations": 421
   },
   "nodes": [
     {
@@ -3490,19 +3586,21 @@
       "type": "💡概念"
     },
     {
+      "category": "🎯 操作紀律",
       "code": "",
-      "description": "跟著市場走，不跟著想像走。EP9心理測驗驗證",
+      "description": "先等價格停止創低，再分批建立部位；新證據與價格行為持續驗證時才增加曝險。",
       "eps": [
         "EP2",
         "EP9",
         "EP21",
-        "EP29"
+        "EP29",
+        "EP53"
       ],
       "first_ep": "EP2",
       "id": "trend-following",
-      "importance": "⭐⭐",
-      "name": "順勢交易",
-      "notion_id": "315b9258-8207-81cc-aa22-d115b3e6d0fb",
+      "importance": "⭐⭐⭐",
+      "name": "順勢是不和持續下跌對作不是無條件追高",
+      "notion_id": "3a6b9258820781f5b1c8d67a76502b9e",
       "type": "💡概念"
     },
     {
@@ -3527,20 +3625,21 @@
     },
     {
       "code": "",
-      "description": "空頭中的強勢族群，博智金像電臻鼎，5G建置加速",
+      "description": "終端產品只建立需求假說；耀華、台郡等中間財仍須逐家驗證客戶、訂單、良率與毛利。",
       "eps": [
         "EP3",
         "EP4",
         "EP5",
         "EP6",
         "EP7",
-        "EP8"
+        "EP8",
+        "EP53"
       ],
       "first_ep": "EP3",
       "id": "pcb-5g",
-      "importance": "⭐⭐⭐",
-      "name": "PCB / 5G",
-      "notion_id": "315b9258-8207-8193-b992-e0f0645c0503",
+      "importance": "⭐⭐",
+      "name": "PCB / 5G / IC 載板",
+      "notion_id": "3a6b92588207810484f9e678b872b2ac",
       "type": "🏭產業"
     },
     {
@@ -4762,15 +4861,16 @@
     },
     {
       "code": "eToro",
-      "description": "CFD價差合約交易平台，推薦槓桿5-10倍。股癌警告：不開槓桿OK，開槓桿=找死",
+      "description": "境外金融科技交易平台；介面與低門檻有產品價值，但境外牌照、台灣核准、CFD、槓桿、當機與跨境救濟須分開。",
       "eps": [
-        "EP25"
+        "EP25",
+        "EP53"
       ],
       "first_ep": "EP25",
       "id": "etoro",
-      "importance": "⭐",
+      "importance": "⭐⭐⭐",
       "name": "eToro",
-      "notion_id": "315b9258-8207-819e-bb91-cb6bde39561a",
+      "notion_id": "315b92588207819ebb91cb6bde39561a",
       "type": "🏢公司/標的"
     },
     {
@@ -5606,15 +5706,16 @@
     },
     {
       "code": "2330",
-      "description": "全球最大晶圓代工，5nm/3nm技術領先。赴美亞利桑那設廠是政治必然。",
+      "description": "先進製程與 5G/HPC 支持長期營運，但急漲後的新進成本、高資本支出與估值仍須控制。",
       "eps": [
-        "EP36"
+        "EP36",
+        "EP53"
       ],
       "first_ep": "EP36",
       "id": "tsmc-2330",
       "importance": "⭐⭐⭐",
       "name": "台積電 (2330)",
-      "notion_id": "315b9258-8207-814f-b968-c51122df0781",
+      "notion_id": "315b92588207814fb968c51122df0781",
       "type": "🏢公司/標的"
     },
     {
@@ -7064,13 +7165,14 @@
       "type": "💡概念"
     },
     {
-      "description": "介面創新不能取代風險教育。使用者要知道名目部位與最大損失，平台則要清楚顯示結算狀態並提供及時支援。",
+      "description": "遊戲化與零佣金改善體驗，也可能提高交易頻率、追高與平台單點故障；EP53 延伸至 eToro 和跨境監管。",
       "eps": [
-        "EP46"
+        "EP46",
+        "EP53"
       ],
       "first_ep": "EP46",
       "id": "robinhood-platform-risk",
-      "importance": "⭐",
+      "importance": "⭐⭐⭐",
       "name": "Robinhood／零佣金券商風險",
       "notion_id": "3a0b92588207815a9cdbe8167c89cbf3",
       "type": "🏭產業"
@@ -7761,16 +7863,17 @@
       "type": "💡概念"
     },
     {
-      "category": "🎯 操作紀律",
-      "description": "無法判斷還會漲多久時，用一至兩成資金逐步建立曝險，讓錯誤仍可承受。",
+      "category": "💰 資金管理",
+      "description": "不知道高點不代表不能規劃；以小額分批換取觀察與加碼空間，不用 all in 建立主部位。",
       "eps": [
-        "EP51"
+        "EP51",
+        "EP53"
       ],
       "first_ep": "EP51",
       "id": "ep51-small-tranches-at-highs",
-      "importance": "⭐⭐",
-      "name": "高檔參與用小部位與分批換取可逆性",
-      "notion_id": "3a6b9258820781659332f6f49c7f8c31",
+      "importance": "⭐⭐⭐",
+      "name": "高檔參與靠小部位與分批保留選擇權",
+      "notion_id": "3a6b925882078193b96dc06cc52b1022",
       "type": "💡概念"
     },
     {
@@ -7814,9 +7917,10 @@
       "type": "💡概念"
     },
     {
-      "description": "台積電透過設計服務、設備、材料、載具與封測夥伴外溢價值，但供應商仍須逐家驗證。",
+      "description": "台積電長期技術優勢和短線買進成本分開；5 奈米、7 奈米與資本支出支持營運，不替追價背書。",
       "eps": [
-        "EP51"
+        "EP51",
+        "EP53"
       ],
       "first_ep": "EP51",
       "id": "tsmc-local-supply-ecosystem",
@@ -7826,15 +7930,16 @@
       "type": "🏭產業"
     },
     {
-      "description": "大同事件顯示公司派不能自行認定市場派違法並沒收投票權，須由主管機關與法院裁量。",
+      "description": "太平洋電纜掏空與下市案例提醒：財報、過去股利與家族外觀不能排除治理尾端風險。",
       "eps": [
-        "EP51"
+        "EP51",
+        "EP53"
       ],
       "first_ep": "EP51",
       "id": "corporate-control-governance",
-      "importance": "⭐⭐⭐",
-      "name": "大同公司治理",
-      "notion_id": "3a6b925882078159b67ed4c318926ed6",
+      "importance": "⭐⭐",
+      "name": "大同公司 / 公司治理 / 獨立董事",
+      "notion_id": "3a6b9258820781a9919ae0930a28a1fa",
       "type": "🏭產業"
     },
     {
@@ -7951,6 +8056,109 @@
       "name": "電動車 / Tesla 供應鏈",
       "notion_id": "3a6b9258820781da9baed9d0dfa7627f",
       "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "交易介面、費用、監管、資產法律性質、系統穩定與跨境救濟分開評分；易用性不能替代安全審查。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-platform-usability-is-not-safety",
+      "importance": "⭐⭐⭐",
+      "name": "平台好用不等於平台沒有風險",
+      "notion_id": "3a6b9258820781cb8822df8209ecdbaf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不同券商可分工長期持有與主動交易；一家當機或限制交易時，仍保留另一條執行通道。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-multi-broker-single-point-risk",
+      "importance": "⭐⭐⭐",
+      "name": "用多券商分散執行與保管的單點故障",
+      "notion_id": "3a6b9258820781c1a406e10b1eed9b73",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "若唯一預期是買了就漲，隔天下跌便只剩恐慌停損；事前固定總額、批次與假說失效條件。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-precommit-downside-script",
+      "importance": "⭐⭐⭐",
+      "name": "買進前先寫明天若下跌的劇本",
+      "notion_id": "3a6b9258820781d89c52ebfb2eee3caf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "低成本只是先前部位留下的緩衝；沒有安全墊時，更應縮小部位和拉長進場批次。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-cost-basis-behavioral-buffer",
+      "importance": "⭐⭐",
+      "name": "成本安全墊會改變回檔時的心理與選項",
+      "notion_id": "3a6b9258820781758760edc85ece97f6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "公司可能被掏空、下市或出現無法事前完整驗證的事件；分散限制單一錯誤造成不可逆傷害。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-single-stock-governance-tail-risk",
+      "importance": "⭐⭐⭐",
+      "name": "再好的單一股票也不能排除治理尾端風險",
+      "notion_id": "3a6b925882078139a892c08571ae21b9",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "本金須足以承受數月無獲利，生活費和交易資本不能完全綁在同一個市場結果。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-full-time-trading-cash-flow",
+      "importance": "⭐⭐",
+      "name": "全職交易先解決現金流不先想自由",
+      "notion_id": "3a6b92588207811fa053c668fbdfd3bc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "由價格、訂單、毛利與財報共同判斷，把看錯的減碼、看對的加碼，避免因不服輸而攤平。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-reallocate-from-refuted-to-confirmed",
+      "importance": "⭐⭐⭐",
+      "name": "把資金由被證偽者移向持續被驗證者",
+      "notion_id": "3a6b925882078118bc72c4118d61e5e1",
+      "type": "💡概念"
+    },
+    {
+      "description": "掏空、下市與長期求償的公司治理案例；是否重新上市與可回收價值不能由過去股利或成本推定。",
+      "eps": [
+        "EP53"
+      ],
+      "first_ep": "EP53",
+      "id": "ep53-pacific-electric-wire-governance",
+      "importance": "⭐⭐",
+      "name": "太平洋電纜 (1602)",
+      "notion_id": "3a6b92588207816ba873d2cd94c1775c",
+      "type": "🏢公司/標的"
     }
   ]
 }
