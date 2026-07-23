@@ -2939,6 +2939,102 @@
       "source_locator": "analysis/EP51_supplemental.json:/mindsets/5",
       "to": "streaming",
       "type": "題材部位管理"
+    },
+    {
+      "context": "Tesla 長期軟體與自駕方向可成立，競爭、估值與家庭流動性仍會限制部位。",
+      "ep": "EP52",
+      "from": "ep52-long-thesis-nonlinear-path",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/0",
+      "to": "tesla",
+      "type": "持有路徑"
+    },
+    {
+      "context": "Palantir 熱門上市故事先以可承受損失和約 5% 上限約束，再討論上檔。",
+      "ep": "EP52",
+      "from": "ep52-downside-before-upside",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/1",
+      "to": "palantir-pltr",
+      "type": "上市風控"
+    },
+    {
+      "context": "錯過 Tesla 不會讓 Palantir 成為補考題，新標的必須重做公開財務與估值驗證。",
+      "ep": "EP52",
+      "from": "ep52-missed-opportunity-is-not-edge",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/2",
+      "to": "palantir-pltr",
+      "type": "反錯失恐懼"
+    },
+    {
+      "context": "Elon Musk 的注意力與決策提高公司溢價，也形成治理與意外的單點風險。",
+      "ep": "EP52",
+      "from": "ep52-key-person-premium-risk",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/3",
+      "to": "tesla",
+      "type": "創辦人依賴"
+    },
+    {
+      "context": "帝寶與能源都不能因過去價格或倍數較高，就推定剩餘資本等待回歸最有效率。",
+      "ep": "EP52",
+      "from": "錨定效應是大忌——不要用過去的價格定義現在的決策",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/5",
+      "to": "ep52-industry-exists-old-multiple-does-not",
+      "type": "反歷史價格錨定"
+    },
+    {
+      "context": "傳統能源與車業的舊倍數可下降，自駕、軟體與新能源則可能獲得不同資本評價。",
+      "ep": "EP52",
+      "from": "ep52-industry-exists-old-multiple-does-not",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/6",
+      "to": "ev-tesla-supply-chain",
+      "type": "產業估值遷移"
+    },
+    {
+      "context": "雲端總曝險先固定，再拆成 DDOG、FSLY、AKAM、NET 與多次進場。",
+      "ep": "EP52",
+      "from": "ep52-bounded-self-built-etf",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/7",
+      "to": "cloud-edge-computing",
+      "type": "組合建構"
+    },
+    {
+      "context": "遊戲組合依新證據調整 TTWO、EA、Ubisoft 權重，但不取消總曝險上限。",
+      "ep": "EP52",
+      "from": "ep52-bounded-self-built-etf",
+      "source_locator": "analysis/EP52_supplemental.json:/industry/2",
+      "to": "game-content-publishers",
+      "type": "動態權重"
+    },
+    {
+      "context": "Spotify 與 TME 組合分散單一平台，但授權、監管與估值仍須獨立驗證。",
+      "ep": "EP52",
+      "from": "ep52-bounded-self-built-etf",
+      "source_locator": "analysis/EP52_supplemental.json:/industry/3",
+      "to": "streaming",
+      "type": "跨平台分散"
+    },
+    {
+      "context": "來源數量不如對客戶、大單、股本、現金流與估值的判讀品質重要。",
+      "ep": "EP52",
+      "from": "ep51-source-diversity-own-judgment",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/8",
+      "to": "cloud-edge-computing",
+      "type": "判讀優先"
+    },
+    {
+      "context": "只能分享最壞情境與工具風險，不能替親友決定其可承受損失與買賣。",
+      "ep": "EP52",
+      "from": "ep52-no-trading-orders-for-others",
+      "source_locator": "analysis/EP52_supplemental.json:/mindsets/4",
+      "to": "ep52-downside-before-upside",
+      "type": "責任邊界"
+    },
+    {
+      "context": "兩者都有創辦人光環與科技敘事；已上市營運證據和未上市私人估值必須分開。",
+      "ep": "EP52",
+      "from": "tesla",
+      "source_locator": "analysis/EP52_supplemental.json:/holdings/1",
+      "to": "palantir-pltr",
+      "type": "熱門標的比較"
     }
   ],
   "metadata": {
@@ -2946,9 +3042,9 @@
     "lastUpdated": "2026-07-23",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-23",
-    "source": "EP1-EP51 分析報告",
-    "total_entities": 360,
-    "total_relations": 397
+    "source": "EP1-EP52 分析報告",
+    "total_entities": 369,
+    "total_relations": 409
   },
   "nodes": [
     {
@@ -3044,18 +3140,19 @@
     },
     {
       "code": "TSLA",
-      "description": "股癌明確持股，200多買入900減碼，長期看好自駕",
+      "description": "自駕、軟體與品牌可支持科技公司溢價，但短空擁擠、估值、競爭與關鍵人物風險使價格路徑高度非線性。",
       "eps": [
         "EP2",
         "EP22",
         "EP32",
-        "EP34"
+        "EP34",
+        "EP52"
       ],
       "first_ep": "EP2",
       "id": "tesla",
       "importance": "⭐⭐⭐",
-      "name": "Tesla",
-      "notion_id": "315b9258-8207-8119-bc7e-c6cdb895ad87",
+      "name": "Tesla (TSLA)",
+      "notion_id": "3a6b92588207812fa6c3e9b2c96762de",
       "type": "🏢公司/標的"
     },
     {
@@ -3478,11 +3575,12 @@
     },
     {
       "code": "",
-      "description": "Spotify 與騰訊音樂提供音訊平台研究題材，但採用、商業模式、監管與估值必須分開。",
+      "description": "Spotify 與 TME 的產品採用形成音訊平台研究組合，但新進者不能借用舊持有人的成本與安全邊際。",
       "eps": [
         "EP2",
         "EP47",
-        "EP51"
+        "EP51",
+        "EP52"
       ],
       "first_ep": "EP2",
       "id": "streaming",
@@ -6721,16 +6819,17 @@
       "type": "💡概念"
     },
     {
-      "category": "new:🧘 交易心理",
-      "description": "行為經濟學的「錨定效應」——人會把過去的價格當成決策基準（原本 70，現在 20，所以「應該」會漲回去）。這是錯的：股價的公道價由基本面決定，不是由歷史價格決定。沉沒成本謬誤的另一面。決定賣不賣要回答「現在這個價格、未來 3 年的展望」，不是「我從 70 變 20 所以不甘心」。",
+      "category": "🧠 投資心理",
+      "description": "不等待帳面回本；從目前剩餘市值比較原標的與替代標的的未來效率。",
       "eps": [
-        "EP45"
+        "EP45",
+        "EP52"
       ],
       "first_ep": "EP45",
       "id": "錨定效應是大忌——不要用過去的價格定義現在的決策",
-      "importance": "⭐⭐",
-      "name": "錨定效應是大忌——不要用過去的價格定義現在的決策",
-      "notion_id": "39ab925882078153bb18c0c052c8d624",
+      "importance": "⭐⭐⭐",
+      "name": "既有虧損是沉沒成本剩餘資本才是起點",
+      "notion_id": "3a6b925882078121b510ee7d70cb7461",
       "type": "💡概念"
     },
     {
@@ -7131,11 +7230,12 @@
       "type": "💡概念"
     },
     {
-      "description": "市場暴跌時以現金流、資產負債表、平台黏著與護城河篩選大型科技。",
+      "description": "DDOG、FSLY、AKAM、NET 的自組組合分散單一公司未知，但同一高估值因子的共同回撤仍存在。",
       "eps": [
         "EP47",
         "EP50",
-        "EP51"
+        "EP51",
+        "EP52"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
@@ -7145,9 +7245,10 @@
       "type": "🏭產業"
     },
     {
-      "description": "遊戲投資應以 IP、內容管線與長期現金流為核心；小額組合可用來學習，但不能把短期勝率年化。",
+      "description": "TTWO、EA、Ubisoft 組合可按新證據調整權重；價格強弱不能取代作品管線、訂單與估值。",
       "eps": [
-        "EP47"
+        "EP47",
+        "EP52"
       ],
       "first_ep": "EP47",
       "id": "game-content-publishers",
@@ -7687,15 +7788,16 @@
     },
     {
       "category": "🔬 基本面研究",
-      "description": "任何節目都只是輸入；多方涉獵、檢查利益與證據，最後用自己的識讀能力下判斷。",
+      "description": "來源要夠用且可追溯，真正優勢來自假說、反例、時間邊界與估值判讀。",
       "eps": [
-        "EP51"
+        "EP51",
+        "EP52"
       ],
       "first_ep": "EP51",
       "id": "ep51-source-diversity-own-judgment",
       "importance": "⭐⭐",
-      "name": "資訊來源多元最後責任留在自己",
-      "notion_id": "3a6b9258820781bda9c3f5404f56cfc2",
+      "name": "資訊優勢來自判讀不來自堆積來源",
+      "notion_id": "3a6b92588207815ebec8cfeb16075065",
       "type": "💡概念"
     },
     {
@@ -7733,6 +7835,121 @@
       "importance": "⭐⭐⭐",
       "name": "大同公司治理",
       "notion_id": "3a6b925882078159b67ed4c318926ed6",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "企業可能十年後更值錢，途中仍會有競爭、估值與流動性衝擊；投資期限必須匹配家庭現金需求。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-long-thesis-nonlinear-path",
+      "importance": "⭐⭐",
+      "name": "看對長期方向也不能假設直線上漲",
+      "notion_id": "3a6b925882078142a9adc834132bdae9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "先固定可承受損失、部位上限與退出條件，才有資格討論熱門標的的上檔。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-downside-before-upside",
+      "importance": "⭐⭐⭐",
+      "name": "先算最壞會賠多少再算最好能賺多少",
+      "notion_id": "3a6b925882078184b400e781f4cb160b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "錯過 Tesla 不會提高 Palantir 的勝率；每個新標的都必須重新驗證價格、財務與風險。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-missed-opportunity-is-not-edge",
+      "importance": "⭐⭐",
+      "name": "錯過不是下一次 all in 的理由",
+      "notion_id": "3a6b9258820781dcaf61c6a9ae89712b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "創辦人的品牌與資本配置可以是資產；公司越依賴單一人物，治理與意外風險越集中。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-key-person-premium-risk",
+      "importance": "⭐⭐",
+      "name": "關鍵人物能創造溢價也會形成單點風險",
+      "notion_id": "3a6b9258820781c5b517f92bf58652c5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "可以分享工具與風險，但不要替別人決定買賣；期限、承受力與責任不能外包。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-no-trading-orders-for-others",
+      "importance": "⭐⭐",
+      "name": "不要替親友下指導棋",
+      "notion_id": "3a6b9258820781f2ac56c1c882681e2f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "產業可以繼續存在，需求、利潤池與資本成本改變後，歷史本益比仍可能永久下降。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-industry-exists-old-multiple-does-not",
+      "importance": "⭐⭐",
+      "name": "產業重要不等於舊估值必然回歸",
+      "notion_id": "3a6b9258820781b88e99fe702cbc0900",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "先拆產業、個股與進場批次，再按新證據加減碼；不讓單一贏家膨脹成無上限押注。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ep52-bounded-self-built-etf",
+      "importance": "⭐⭐⭐",
+      "name": "自組 ETF 先固定總曝險再讓權重演化",
+      "notion_id": "3a6b925882078170a415c5e70a190c41",
+      "type": "💡概念"
+    },
+    {
+      "description": "政府與商業資料分析平台；上市前的創辦人光環與私人市場估值必須回到公開財務、客戶集中與價格驗證。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "palantir-pltr",
+      "importance": "⭐⭐",
+      "name": "Palantir (PLTR)",
+      "notion_id": "3a6b9258820781548e35fc32442fb056",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "Tesla 的高估值同時受自動駕駛軟體、軋空與人物溢價影響；供應鏈與股東報酬仍須獨立驗證。",
+      "eps": [
+        "EP52"
+      ],
+      "first_ep": "EP52",
+      "id": "ev-tesla-supply-chain",
+      "importance": "⭐⭐⭐",
+      "name": "電動車 / Tesla 供應鏈",
+      "notion_id": "3a6b9258820781da9baed9d0dfa7627f",
       "type": "🏭產業"
     }
   ]
