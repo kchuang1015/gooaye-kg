@@ -3131,6 +3131,102 @@
       "source_locator": "analysis/EP53_supplemental.json:/mindsets/3",
       "to": "tsmc-2330",
       "type": "追價約束"
+    },
+    {
+      "context": "Twitter 攻擊與詐騙傷害成立，但股價未按平台歸零定價；兩者都須記錄而不能互相否定。",
+      "ep": "EP54",
+      "from": "ep54-separate-incident-impact-pricing",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/0",
+      "to": "twitter-platform-security",
+      "type": "事故與定價分離"
+    },
+    {
+      "context": "攻擊者以社交工程接近具內部系統工具權限的人員，顯示特權帳號是平台防線的一部分。",
+      "ep": "EP54",
+      "from": "ep54-privileged-access-security",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/1",
+      "to": "twitter-platform-security",
+      "type": "內部工具風險"
+    },
+    {
+      "context": "平台估值除用戶和收入外，也要納入權限審批、監控、事故回應、信任與監管成本。",
+      "ep": "EP54",
+      "from": "twitter-platform-security",
+      "source_locator": "analysis/EP54_supplemental.json:/industry/0",
+      "to": "cloud-edge-computing",
+      "type": "平台治理"
+    },
+    {
+      "context": "新藥由臨床安全、療效、審查到商業化逐關前進，單一里程碑只消除一類不確定性。",
+      "ep": "EP54",
+      "from": "ep54-drug-gate-uncertainty",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/2",
+      "to": "ep54-biotech-new-drug-stocks",
+      "type": "多階段成功率"
+    },
+    {
+      "context": "合一的產品進展不能自動證明同口號下每家公司都有相同權利、階段、現金流與價值。",
+      "ep": "EP54",
+      "from": "ep54-no-theme-leader-extrapolation",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/3",
+      "to": "ep54-oneness-biotech-4743",
+      "type": "領頭羊邊界"
+    },
+    {
+      "context": "領頭公司建立族群想像，也可能令不同基本面的公司在熱度逆轉時共同承受流動性。",
+      "ep": "EP54",
+      "from": "ep54-oneness-biotech-4743",
+      "source_locator": "analysis/EP54_supplemental.json:/industry/1",
+      "to": "ep54-biotech-new-drug-stocks",
+      "type": "題材領頭"
+    },
+    {
+      "context": "Trogarzo 的 FDA 核准是真實科研成果，但適應症、市場採用、支付與銷售仍是後續關卡。",
+      "ep": "EP54",
+      "from": "zhongyu-pharma",
+      "source_locator": "analysis/EP54_supplemental.json:/holdings/3",
+      "to": "ep54-drug-gate-uncertainty",
+      "type": "核准後商業化"
+    },
+    {
+      "context": "大量閱讀不能替代個別公司證據；當價格或商業化否定外推時，必須允許退出。",
+      "ep": "EP54",
+      "from": "ep54-research-is-not-hold-reason",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/4",
+      "to": "ep54-no-theme-leader-extrapolation",
+      "type": "更新假說"
+    },
+    {
+      "context": "無法判斷臨床終點與成功率時，不必因題材熱度強迫自己承擔新藥股風險。",
+      "ep": "EP54",
+      "from": "ep54-prefer-understandable-alternative",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/5",
+      "to": "ep54-biotech-new-drug-stocks",
+      "type": "能力圈"
+    },
+    {
+      "context": "Tesla 供應鏈傳聞須落到公告、營收、毛利或持續價格確認，技術面只輔助執行。",
+      "ep": "EP54",
+      "from": "ep54-fundamentals-select-technicals-execute",
+      "source_locator": "analysis/EP54_supplemental.json:/industry/3",
+      "to": "ev-tesla-supply-chain",
+      "type": "供應鏈驗證"
+    },
+    {
+      "context": "公司治理評分是規則而非必勝因果；因子偏離大盤時仍要回到方法、集中度與成本。",
+      "ep": "EP54",
+      "from": "ep54-fundamentals-select-technicals-execute",
+      "source_locator": "analysis/EP54_supplemental.json:/industry/2",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "指數規則邊界"
+    },
+    {
+      "context": "高成本與大部位會放大恐慌；把一次押注拆成多次可保留資訊、心理與流動性。",
+      "ep": "EP54",
+      "from": "ep53-cost-basis-behavioral-buffer",
+      "source_locator": "analysis/EP54_supplemental.json:/mindsets/8",
+      "to": "ep54-tranches-increase-decision-count",
+      "type": "成本心理與分批"
     }
   ],
   "metadata": {
@@ -3138,9 +3234,9 @@
     "lastUpdated": "2026-07-23",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-23",
-    "source": "EP1-EP53 分析報告",
-    "total_entities": 377,
-    "total_relations": 421
+    "source": "EP1-EP54 分析報告",
+    "total_entities": 389,
+    "total_relations": 433
   },
   "nodes": [
     {
@@ -5389,15 +5485,16 @@
     },
     {
       "code": "4147",
-      "description": "愛滋病新藥公司",
+      "description": "Trogarzo 獲 FDA 核准證明科研與法規成果；狹窄適應症、採用、支付與銷售仍須獨立驗證。",
       "eps": [
-        "EP30"
+        "EP30",
+        "EP54"
       ],
       "first_ep": "EP30",
       "id": "zhongyu-pharma",
-      "importance": "⭐",
-      "name": "中裕新藥",
-      "notion_id": "314b9258-8207-81a2-8427-e7c7b862bcff",
+      "importance": "⭐⭐⭐",
+      "name": "中裕 (4147)",
+      "notion_id": "3a6b92588207813693d4cfdc95521068",
       "type": "🏢公司/標的"
     },
     {
@@ -7332,12 +7429,13 @@
       "type": "💡概念"
     },
     {
-      "description": "DDOG、FSLY、AKAM、NET 的自組組合分散單一公司未知，但同一高估值因子的共同回撤仍存在。",
+      "description": "平台研究由成長與網路效應延伸到特權存取、社交工程、管理工具審批、監控和事故修補。",
       "eps": [
         "EP47",
         "EP50",
         "EP51",
-        "EP52"
+        "EP52",
+        "EP54"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
@@ -8046,15 +8144,16 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "Tesla 的高估值同時受自動駕駛軟體、軋空與人物溢價影響；供應鏈與股東報酬仍須獨立驗證。",
+      "description": "供應鏈說法先視為待驗證假說；以可信公告、可歸因營收、毛利或持續價格行為確認題材。",
       "eps": [
-        "EP52"
+        "EP52",
+        "EP54"
       ],
       "first_ep": "EP52",
       "id": "ev-tesla-supply-chain",
       "importance": "⭐⭐⭐",
-      "name": "電動車 / Tesla 供應鏈",
-      "notion_id": "3a6b9258820781da9baed9d0dfa7627f",
+      "name": "電動車與 Tesla 供應鏈",
+      "notion_id": "3a6b92588207818f86f9f6e1b2a45955",
       "type": "🏭產業"
     },
     {
@@ -8098,15 +8197,16 @@
     },
     {
       "category": "🧠 投資心理",
-      "description": "低成本只是先前部位留下的緩衝；沒有安全墊時，更應縮小部位和拉長進場批次。",
+      "description": "理論上以前瞻價值決策，實務上高成本與大部位會放大恐慌；先承認限制才能避免被迫在低點行動。",
       "eps": [
-        "EP53"
+        "EP53",
+        "EP54"
       ],
       "first_ep": "EP53",
       "id": "ep53-cost-basis-behavioral-buffer",
-      "importance": "⭐⭐",
-      "name": "成本安全墊會改變回檔時的心理與選項",
-      "notion_id": "3a6b9258820781758760edc85ece97f6",
+      "importance": "⭐⭐⭐",
+      "name": "成本不是價值卻是行為承受力的現實約束",
+      "notion_id": "3a6b9258820781ba8d2de4e7242125f1",
       "type": "💡概念"
     },
     {
@@ -8159,6 +8259,158 @@
       "name": "太平洋電纜 (1602)",
       "notion_id": "3a6b92588207816ba873d2cd94c1775c",
       "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "事件真實、法律傷害、用戶流失與股價反應是不同層證據；股價沒跌不能否認事故，新聞很大也不能直接推導公司歸零。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-separate-incident-impact-pricing",
+      "importance": "⭐⭐⭐",
+      "name": "重大新聞先拆成事件商業影響與市場定價",
+      "notion_id": "3a6b9258820781a9ba95d7017e2ec35a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "能替使用者重設帳號的人就是風險模型的一部分；平台研究要追蹤內部權限、審批、監控與事故後修補。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-privileged-access-security",
+      "importance": "⭐⭐⭐",
+      "name": "平台資安先看特權存取不只看使用者密碼",
+      "notion_id": "3a6b9258820781c68ddaec8371458678",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "臨床安全、療效、審查、量產、給付與銷售是不同閘門，任何單一里程碑都不能提前計價為百分之百成功。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-drug-gate-uncertainty",
+      "importance": "⭐⭐⭐",
+      "name": "新藥每過一關只消除一種不確定性",
+      "notion_id": "3a6b9258820781a99d1ffec534d0516e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "同一口號下的公司可能沒有相同產品、階段、權利或現金流；同漲只證明資金相關，不證明價值相同。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-no-theme-leader-extrapolation",
+      "importance": "⭐⭐⭐",
+      "name": "不要把領頭羊成果外推成整個題材群基本面",
+      "notion_id": "3a6b925882078136a090ee0a0bd2af26",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "花時間讀資料是已付成本；當商業化、價格或新證據否定假說時，研究越深越需要能寫出退出條件。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-research-is-not-hold-reason",
+      "importance": "⭐⭐⭐",
+      "name": "研究投入不是繼續持有的理由",
+      "notion_id": "3a6b9258820781ba9c68e0e806366079",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "若無法分辨臨床終點、成功機率與商業化路徑，市場仍有其他公司、產業或被動工具可選。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-prefer-understandable-alternative",
+      "importance": "⭐⭐",
+      "name": "先問有沒有更可理解的標的",
+      "notion_id": "3a6b92588207819e990bc06fe8aa393d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "價格可協助分批與驗證市場是否開始認同假說，但不能替代企業營收、競爭力和產業方向。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-fundamentals-select-technicals-execute",
+      "importance": "⭐⭐⭐",
+      "name": "基本面決定長期候選技術面只協助執行",
+      "notion_id": "3a6b9258820781a79822ec522b755f30",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "把一次重壓拆成多次可保留資訊與心理空間；後續買入仍須建立在假說未失效，而非機械攤平。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-tranches-increase-decision-count",
+      "importance": "⭐⭐⭐",
+      "name": "分批是增加決策次數不是保證越跌越買",
+      "notion_id": "3a6b92588207814b93e3f48088fa2f5f",
+      "type": "💡概念"
+    },
+    {
+      "description": "2020 年名人帳號接管事件暴露社交工程與內部管理工具風險；平台網路效應、事故傷害、修補與監管須分開評估。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "twitter-platform-security",
+      "importance": "⭐⭐⭐",
+      "name": "Twitter (TWTR)",
+      "notion_id": "3a6b9258820781a18d32c14622cd208a",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "新藥題材領頭羊；研發進展不能消除商業化、價格錨定、資金熱度與連續跌停的退出風險。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-oneness-biotech-4743",
+      "importance": "⭐⭐⭐",
+      "name": "合一 (4743)",
+      "notion_id": "3a6b92588207816db209cd80399ae490",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "臨床、解盲、藥證、量產、給付和銷售是不同關卡；題材同漲同跌不代表公司基本面等價。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-biotech-new-drug-stocks",
+      "importance": "⭐⭐⭐",
+      "name": "生技股定價邏輯",
+      "notion_id": "3a6b9258820781aebf54f2238fcf2121",
+      "type": "🏭產業"
+    },
+    {
+      "description": "公司治理因子有規則價值但不保證超額報酬；理解指數方法、集中度、費用與偏離後再配置。",
+      "eps": [
+        "EP54"
+      ],
+      "first_ep": "EP54",
+      "id": "ep54-passive-etf-factor-selection",
+      "importance": "⭐⭐",
+      "name": "ETF 教學（0050 vs 0056）",
+      "notion_id": "3a6b925882078182b343f0f8cfe6f892",
+      "type": "🏭產業"
     }
   ]
 }
