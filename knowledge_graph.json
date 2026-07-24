@@ -3683,6 +3683,78 @@
       "source_locator": "analysis/EP58_supplemental.json:/holdings/12",
       "to": "ep54-passive-etf-factor-selection",
       "type": "產品比較"
+    },
+    {
+      "context": "成功與指數上漲都不能只挑一個顯眼原因解釋。",
+      "ep": "EP59",
+      "from": "ep59-effort-luck-calibration",
+      "source_locator": "analysis/EP59_supplemental.json:/mindsets/0",
+      "to": "ep59-market-breadth-decomposition",
+      "type": "歸因校準"
+    },
+    {
+      "context": "成長論點未失效時按規則分批並保留最低曝險。",
+      "ep": "EP59",
+      "from": "ep59-core-position-retention",
+      "source_locator": "analysis/EP59_supplemental.json:/mindsets/2",
+      "to": "ep56-nvidia-nvda",
+      "type": "部位管理"
+    },
+    {
+      "context": "低估值候選仍須以商業模式、現金流和估值驗證。",
+      "ep": "EP59",
+      "from": "ep59-value-trap-screen",
+      "source_locator": "analysis/EP59_supplemental.json:/mindsets/3",
+      "to": "ep59-costco-cost",
+      "type": "價值篩選"
+    },
+    {
+      "context": "政府長約和預算政策風險必須同時評估。",
+      "ep": "EP59",
+      "from": "ep59-government-customer-concentration",
+      "source_locator": "analysis/EP59_supplemental.json:/mindsets/4",
+      "to": "ep59-defense-industry",
+      "type": "風險框架"
+    },
+    {
+      "context": "F-35 展示長期計畫能見度與執行集中。",
+      "ep": "EP59",
+      "from": "ep59-lockheed-lmt",
+      "source_locator": "analysis/EP59_supplemental.json:/holdings/4",
+      "to": "ep59-defense-industry",
+      "type": "主承包商"
+    },
+    {
+      "context": "B-2、B-21 與 Global Hawk 展示高門檻軍工平台。",
+      "ep": "EP59",
+      "from": "ep59-northrop-noc",
+      "source_locator": "analysis/EP59_supplemental.json:/holdings/5",
+      "to": "ep59-defense-industry",
+      "type": "平台案例"
+    },
+    {
+      "context": "會計調整與業務組合造成軍工股內部差異。",
+      "ep": "EP59",
+      "from": "ep59-raytheon-rtx",
+      "source_locator": "analysis/EP59_supplemental.json:/holdings/6",
+      "to": "ep59-defense-industry",
+      "type": "公司分化"
+    },
+    {
+      "context": "射頻股共振先建立名單，再驗證基本面。",
+      "ep": "EP59",
+      "from": "ep59-sector-co-movement-research",
+      "source_locator": "analysis/EP59_supplemental.json:/mindsets/7",
+      "to": "ep59-rf-5g-industry",
+      "type": "研究觸發"
+    },
+    {
+      "context": "美國品牌／元件股走強不保證台灣供應商同步受益。",
+      "ep": "EP59",
+      "from": "ep59-broadcom-avgo",
+      "source_locator": "analysis/EP59_supplemental.json:/holdings/7",
+      "to": "ep59-rf-5g-industry",
+      "type": "領漲線索"
     }
   ],
   "metadata": {
@@ -3690,9 +3762,9 @@
     "lastUpdated": "2026-07-24",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-24",
-    "source": "EP1-EP58 分析報告",
-    "total_entities": 458,
-    "total_relations": 490
+    "source": "EP1-EP59 分析報告",
+    "total_entities": 473,
+    "total_relations": 499
   },
   "nodes": [
     {
@@ -9218,10 +9290,11 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "成長股按規則分批加碼案例。",
+      "description": "成長股按規則分批與保留核心部位案例。",
       "eps": [
         "EP56",
-        "EP58"
+        "EP58",
+        "EP59"
       ],
       "first_ep": "EP56",
       "id": "ep56-nvidia-nvda",
@@ -9750,6 +9823,194 @@
       "importance": "⭐⭐",
       "name": "光學 / CIS",
       "notion_id": "3a7b9258820781aaabeac7520ca06c5b",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "努力提高準備品質與嘗試次數，成功仍受時機和隨機性影響；獲利後要保留謙遜與基準。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-effort-luck-calibration",
+      "importance": "⭐⭐⭐",
+      "name": "努力是基本但結果仍含運氣",
+      "notion_id": "3a7b92588207814f8bd0d8b76547ab0b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "少數權值股能撐住指數，不能推出所有個股健康；要並列產業、中小型和持股表現。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-market-breadth-decomposition",
+      "importance": "⭐⭐⭐",
+      "name": "指數強勢要用市場寬度拆解",
+      "notion_id": "3a7b9258820781ccae2ffb191bfa0ae1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "修正時可減碼、對沖或再平衡，不因恐慌完全離場而失去後續參與。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-core-position-retention",
+      "importance": "⭐⭐⭐",
+      "name": "長期論點未失效要保留核心部位",
+      "notion_id": "3a7b92588207814ea1f5f018ce331145",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "低估值可能反映真實風險，資金也可能長期不回流；需找出錯價證據與催化。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-value-trap-screen",
+      "importance": "⭐⭐⭐",
+      "name": "價值股先排除便宜有理",
+      "notion_id": "3a7b925882078164952af805cf738622",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "政府標案可提高收入能見度，但預算、政權、部署及合約執行會造成集中風險。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-government-customer-concentration",
+      "importance": "⭐⭐⭐",
+      "name": "政府長約要連同政策集中評估",
+      "notion_id": "3a7b925882078159b37ac9dc2a250db8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "若反覆看對卻太早賣出，應把持有週期、資料頻率與失效條件重新對齊。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-horizon-thesis-match",
+      "importance": "⭐⭐⭐",
+      "name": "持有週期要匹配論點兌現",
+      "notion_id": "3a7b92588207819594f7dfcf9389283f",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "密集進出會累積手續費、稅、滑價、時間與錯誤率，必須先證明淨優勢。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-turnover-friction",
+      "importance": "⭐⭐⭐",
+      "name": "交易頻率先扣摩擦成本",
+      "notion_id": "3a7b9258820781f08915d84b7ccb7b35",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "同族群領漲代表可能有共同驅動，仍須以訂單、獲利、估值與相對強弱驗證。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-sector-co-movement-research",
+      "importance": "⭐⭐⭐",
+      "name": "族群共振只用來建立研究名單",
+      "notion_id": "3a7b9258820781a48e79c54ef0c7467a",
+      "type": "💡概念"
+    },
+    {
+      "description": "會員制消費黏著與較保守配置候選。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-costco-cost",
+      "importance": "⭐⭐",
+      "name": "Costco (COST)",
+      "notion_id": "3a7b925882078133a6b8e5775226d8d9",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "F-35 政府長約與政策集中案例。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-lockheed-lmt",
+      "importance": "⭐⭐⭐",
+      "name": "Lockheed Martin (LMT)",
+      "notion_id": "3a7b9258820781eab274cc04199fd2a6",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "B-2、B-21、Global Hawk 與高門檻軍工平台案例。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-northrop-noc",
+      "importance": "⭐⭐⭐",
+      "name": "Northrop Grumman (NOC)",
+      "notion_id": "3a7b925882078161aab3d280f8768630",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "GAAP／Non-GAAP 與軍工股內部分化案例。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-raytheon-rtx",
+      "importance": "⭐⭐",
+      "name": "Raytheon Technologies (RTX)",
+      "notion_id": "3a7b925882078126ad6dd7ff0e5291ae",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "美國 5G 射頻布局與供應鏈研究線索。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-broadcom-avgo",
+      "importance": "⭐⭐",
+      "name": "Broadcom (AVGO)",
+      "notion_id": "3a7b92588207811d9cd1ec89ab55d3d2",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "長週期政府標案兼具能見度和政策集中風險。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-defense-industry",
+      "importance": "⭐⭐⭐",
+      "name": "國防 / 軍工",
+      "notion_id": "3a7b925882078176928dc1b1ab33345f",
+      "type": "🏭產業"
+    },
+    {
+      "description": "射頻內容價值提升仍受客戶、庫存、製程與競爭限制。",
+      "eps": [
+        "EP59"
+      ],
+      "first_ep": "EP59",
+      "id": "ep59-rf-5g-industry",
+      "importance": "⭐⭐⭐",
+      "name": "5G / 射頻元件",
+      "notion_id": "3a7b9258820781b4a919ce6d4506769e",
       "type": "🏭產業"
     }
   ]
