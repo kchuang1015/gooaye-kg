@@ -3227,16 +3227,136 @@
       "source_locator": "analysis/EP54_supplemental.json:/mindsets/8",
       "to": "ep54-tranches-increase-decision-count",
       "type": "成本心理與分批"
+    },
+    {
+      "context": "宏碁的新產品與多重成長引擎要用後續營收、毛利和時間表驗證，而不是直接給予轉型溢價。",
+      "ep": "EP55",
+      "from": "ep55-transition-needs-testable-thesis",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/1",
+      "to": "ep55-acer-2353",
+      "type": "轉型驗證"
+    },
+    {
+      "context": "新事業即使成長，仍要乘上持股與獲利並除以母公司營收、資本和費用分母。",
+      "ep": "EP55",
+      "from": "ep55-parent-company-denominator",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/2",
+      "to": "ep55-acer-2353",
+      "type": "集團重大性"
+    },
+    {
+      "context": "展碁業務較聚焦使成果清楚，但流動性、客戶、控制股東和估值風險也更集中。",
+      "ep": "EP55",
+      "from": "ep55-focused-spinout-not-safety",
+      "source_locator": "analysis/EP55_supplemental.json:/holdings/3",
+      "to": "ep55-weblink-6776",
+      "type": "聚焦與風險"
+    },
+    {
+      "context": "安碁資訊的聚焦定位是研究入口，不是低估、治理安全或股價上漲的保證。",
+      "ep": "EP55",
+      "from": "ep55-focused-spinout-not-safety",
+      "source_locator": "analysis/EP55_supplemental.json:/holdings/5",
+      "to": "ep55-acer-cyber-security-6690",
+      "type": "小金雞邊界"
+    },
+    {
+      "context": "企業轉型需要時間驗證，保留閒餘資金才能在證據改變時調整，而非被長期套在單一敘事。",
+      "ep": "EP55",
+      "from": "ep55-cash-preserves-optionality",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/4",
+      "to": "ep55-acer-2353",
+      "type": "避免單一故事鎖死"
+    },
+    {
+      "context": "公司資本配置案例與群組詐騙不是同一件事；任何交易仍須檢查成交量、退出能力和資訊來源。",
+      "ep": "EP55",
+      "from": "ep55-guaranteed-return-liquidity-red-flags",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/0",
+      "to": "ep55-cmc-2323",
+      "type": "流動性邊界"
+    },
+    {
+      "context": "節目比較高頻交易與較低頻配置，但結論仍須由完整持有期間、資金成本及長期績效證據支持。",
+      "ep": "EP55",
+      "from": "ep55-cmc-2323",
+      "source_locator": "analysis/EP55_supplemental.json:/holdings/2",
+      "to": "ep55-lungyen-5530",
+      "type": "資本配置比較"
+    },
+    {
+      "context": "財報週或大選沒有固定價格方向，長期 ETF 配置不應建立在事件必漲或必跌的機械規則。",
+      "ep": "EP55",
+      "from": "ep55-calendar-event-no-fixed-direction",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "反事件擇時"
+    },
+    {
+      "context": "理解 0050 與 0056 的規則後，以分批分散時間點風險，而不是預測絕對高低。",
+      "ep": "EP55",
+      "from": "ep55-index-tranches-smooth-cost",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/8",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "成本平滑"
+    },
+    {
+      "context": "Apple Silicon 路線圖是研究證據，最終估值、部位和買賣責任仍由投資人自己承擔。",
+      "ep": "EP55",
+      "from": "ep49-own-the-buy-sell-decision",
+      "source_locator": "analysis/EP55_supplemental.json:/holdings/7",
+      "to": "ep55-apple-aapl",
+      "type": "自主判斷"
+    },
+    {
+      "context": "Cloudflare 屬雲端與邊緣網路研究池，長期需求不能取代競爭、留存、毛利和現金流查核。",
+      "ep": "EP55",
+      "from": "cloud-edge-computing",
+      "source_locator": "analysis/EP55_supplemental.json:/industry/1",
+      "to": "ep55-cloudflare-net",
+      "type": "邊緣網路研究"
+    },
+    {
+      "context": "Akamai 屬成熟 CDN 與邊緣運算研究池，主持人持有揭露不構成適合他人的推薦。",
+      "ep": "EP55",
+      "from": "cloud-edge-computing",
+      "source_locator": "analysis/EP55_supplemental.json:/industry/1",
+      "to": "ep55-akamai-akam",
+      "type": "CDN 研究"
+    },
+    {
+      "context": "疫情受惠可帶動 PC 與數位產品需求，但要分辨短期拉貨和能持續改寫集團獲利的結構變化。",
+      "ep": "EP55",
+      "from": "wfh-digital-retail",
+      "source_locator": "analysis/EP55_supplemental.json:/industry/0",
+      "to": "ep55-acer-2353",
+      "type": "疫情需求驗證"
+    },
+    {
+      "context": "PCB 個股創高不自動提供賣點；持有人須依週期、基本面假說與風險上限自行定義退出。",
+      "ep": "EP55",
+      "from": "console-pcb-ic-substrate-chain",
+      "source_locator": "analysis/EP55_supplemental.json:/industry/3",
+      "to": "ep49-own-the-buy-sell-decision",
+      "type": "個股退出責任"
+    },
+    {
+      "context": "可以協助他人列風險，但不能替他下單；這與買賣責任由資金持有人承擔是同一條紀律。",
+      "ep": "EP55",
+      "from": "ep52-no-trading-orders-for-others",
+      "source_locator": "analysis/EP55_supplemental.json:/mindsets/5",
+      "to": "ep49-own-the-buy-sell-decision",
+      "type": "責任邊界"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-23",
+    "lastUpdated": "2026-07-24",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-23",
-    "source": "EP1-EP54 分析報告",
-    "total_entities": 389,
-    "total_relations": 433
+    "last_update": "2026-07-24",
+    "source": "EP1-EP55 分析報告",
+    "total_entities": 404,
+    "total_relations": 448
   },
   "nodes": [
     {
@@ -7429,17 +7549,18 @@
       "type": "💡概念"
     },
     {
-      "description": "平台研究由成長與網路效應延伸到特權存取、社交工程、管理工具審批、監控和事故修補。",
+      "description": "Cloudflare、Akamai 與雲端 ETF 受惠網路化方向，但留存、毛利、現金流、競爭及估值仍是必要檢查。",
       "eps": [
         "EP47",
         "EP50",
         "EP51",
         "EP52",
-        "EP54"
+        "EP54",
+        "EP55"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "雲端軟體／邊緣運算",
       "notion_id": "3a0b92588207816d8931c44772d682b1",
       "type": "🏭產業"
@@ -7600,22 +7721,24 @@
       "type": "🏭產業"
     },
     {
-      "description": "Microsoft 關閉實體 Store、保留四個 Experience Center，支持數位通路加速；單一事件不能外推所有企業永久放棄辦公室。",
+      "description": "PC、電競與生活品牌需求要由產品推出進一步驗證到月營收、毛利與母公司占比。",
       "eps": [
-        "EP48"
+        "EP48",
+        "EP55"
       ],
       "first_ep": "EP48",
       "id": "wfh-digital-retail",
       "importance": "⭐⭐",
-      "name": "疫情受惠股/WFH 概念",
-      "notion_id": "3a0b9258820781599e64c12b20a6e348",
+      "name": "疫情受惠股 / WFH 概念",
+      "notion_id": "3a7b925882078136be1ec75d7ade18c6",
       "type": "🏭產業"
     },
     {
-      "description": "PS5 等終端需求只建立台灣中間財候選池；健策等公司仍須由月營收、訂單占比與毛利逐一驗證。",
+      "description": "創高只描述價格；PCB 訂單、客戶、營收、毛利與估值才是基本面驗證，退出由持有週期決定。",
       "eps": [
         "EP48",
-        "EP50"
+        "EP50",
+        "EP55"
       ],
       "first_ep": "EP48",
       "id": "console-pcb-ic-substrate-chain",
@@ -7718,15 +7841,16 @@
     },
     {
       "category": "🎯 操作紀律",
-      "description": "他人可以提供框架，不能替你回答該賣或留；持有人要重建買進理由、風險上限與資金用途。",
+      "description": "短線可看趨勢與風險上限，長線須看基本面與估值；陌生人的答案不可能同時適合不同資金與期限。",
       "eps": [
-        "EP49"
+        "EP49",
+        "EP55"
       ],
       "first_ep": "EP49",
       "id": "ep49-own-the-buy-sell-decision",
-      "importance": "⭐⭐",
-      "name": "沒有人能替你承擔買賣決定",
-      "notion_id": "3a0b9258820781c483e7c6153b6bf524",
+      "importance": "⭐⭐⭐",
+      "name": "出場條件由持有人週期與風險定義",
+      "notion_id": "3a7b92588207811fa7fdceed935aafab",
       "type": "💡概念"
     },
     {
@@ -8094,15 +8218,16 @@
     },
     {
       "category": "🎯 操作紀律",
-      "description": "可以分享工具與風險，但不要替別人決定買賣；期限、承受力與責任不能外包。",
+      "description": "可以指出最壞情境、槓桿、流動性與假說破壞點，但買賣、期限與損益必須由持有人承擔。",
       "eps": [
-        "EP52"
+        "EP52",
+        "EP55"
       ],
       "first_ep": "EP52",
       "id": "ep52-no-trading-orders-for-others",
-      "importance": "⭐⭐",
-      "name": "不要替親友下指導棋",
-      "notion_id": "3a6b9258820781f2ac56c1c882681e2f",
+      "importance": "⭐⭐⭐",
+      "name": "幫別人分析風險不替別人決定",
+      "notion_id": "3a7b925882078187b69ddd6d181cb220",
       "type": "💡概念"
     },
     {
@@ -8401,9 +8526,10 @@
       "type": "🏭產業"
     },
     {
-      "description": "公司治理因子有規則價值但不保證超額報酬；理解指數方法、集中度、費用與偏離後再配置。",
+      "description": "0050 的大型市值曝險與 0056 的高股息規則不同；配置前須理解方法、集中度、費用與因子偏離。",
       "eps": [
-        "EP54"
+        "EP54",
+        "EP55"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -8411,6 +8537,193 @@
       "name": "ETF 教學（0050 vs 0056）",
       "notion_id": "3a6b925882078182b343f0f8cfe6f892",
       "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "保證話術先移除心理防線，低流動性再移除實際退出能力；少數早期獲利者不能證明結構對最後一批參與者公平。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-guaranteed-return-liquidity-red-flags",
+      "importance": "⭐⭐⭐",
+      "name": "保證獲利加低流動性是詐騙雙重紅旗",
+      "notion_id": "3a7b92588207817ea13bfb08f58747d1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "先寫產品、通路、營收、毛利與時間表，再讓後續資料判斷故事是否成立；不能把跨界兩字直接當成估值提升。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-transition-needs-testable-thesis",
+      "importance": "⭐⭐⭐",
+      "name": "企業轉型要先寫成可驗證命題",
+      "notion_id": "3a7b92588207813c8a5ad024d8c35310",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "新產品賣得好只回答自身需求；要推升母公司價值，還要乘上持股比例、營收占比、毛利、費用與可持續期間。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-parent-company-denominator",
+      "importance": "⭐⭐⭐",
+      "name": "新事業先除以母公司分母",
+      "notion_id": "3a7b92588207813eb768fb20fb860acc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "業務集中使成果更清楚，也使單一客戶、流動性、控制股東與估值風險更集中；聚焦是研究便利，不是買進理由。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-focused-spinout-not-safety",
+      "importance": "⭐⭐",
+      "name": "小金雞較聚焦不代表比較便宜或安全",
+      "notion_id": "3a7b9258820781c9b9efd74ff507a574",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "所有資金被套在同一故事時，即使看到更好的機會也無法行動；現金讓新證據出現時仍能調整。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-cash-preserves-optionality",
+      "importance": "⭐⭐⭐",
+      "name": "保留閒錢就是保留下一次決策權",
+      "notion_id": "3a7b9258820781c38870e8a0bf4c0a65",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "財報週、大選與季節效應會改變資訊量與波動，卻不提供必然漲跌；若方向固定，套利早已壓平規律。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-calendar-event-no-fixed-direction",
+      "importance": "⭐⭐⭐",
+      "name": "固定事件有影響不代表方向固定",
+      "notion_id": "3a7b9258820781dd9d9bd1e50131bcb5",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "長期目標是取得市場平均報酬，不是證明能抓絕對高低；分批分散成本與時間，但仍須保留緊急預備金。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-index-tranches-smooth-cost",
+      "importance": "⭐⭐⭐",
+      "name": "指數化投資用分批取代高低點預測",
+      "notion_id": "3a7b9258820781e2961befaf315d9156",
+      "type": "💡概念"
+    },
+    {
+      "description": "成熟 PC 集團以多重成長引擎、生活品牌與子公司策略轉型；產品存在後仍須驗證合併營收、毛利與 EPS 重大性。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-acer-2353",
+      "importance": "⭐⭐⭐",
+      "name": "宏碁 (2353)",
+      "notion_id": "3a7b925882078170a0f0c96dfdf9b828",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "由光碟本業延伸為金融資產交易與資本配置案例，應以完整財報與長期績效評估，而非單筆交易。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-cmc-2323",
+      "importance": "⭐⭐",
+      "name": "中環 (2323)",
+      "notion_id": "3a7b9258820781f88672e6ceba1bbcb8",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "殯葬本業之外的低頻資本運用案例；節目比較其配置風格，但未完成長期報酬與風險審計。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-lungyen-5530",
+      "importance": "⭐⭐",
+      "name": "龍巖 (5530)",
+      "notion_id": "3a7b92588207811ead7df3afcaa08916",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "宏碁集團較聚焦的通路事業載體；產品代理與集團關係成立，營收重大性、持股與估值仍須獨立查核。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-weblink-6776",
+      "importance": "⭐⭐",
+      "name": "展碁 (6776)",
+      "notion_id": "3a7b92588207818eba25c747fe935b89",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "宏碁集團資安服務事業；需求方向、營收、續約、毛利、人才成本與估值需要分開驗證。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-acer-cyber-security-6690",
+      "importance": "⭐⭐",
+      "name": "安碁資訊 (6690)",
+      "notion_id": "3a7b9258820781d5b310fec21217c270",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "Mac 轉向 Apple Silicon 的產品路線圖其後落地，但架構轉型命中不等於任何估值或進場點都安全。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-apple-aapl",
+      "importance": "⭐⭐⭐",
+      "name": "Apple (AAPL)",
+      "notion_id": "3a7b92588207811a8dc3dee68e433bc3",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "疫情後網路流量與雲端服務需求的研究標的；成長與高估值、競爭及現金流風險可同時存在。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-cloudflare-net",
+      "importance": "⭐⭐",
+      "name": "Cloudflare (NET)",
+      "notion_id": "3a7b925882078109a843dc0275021c94",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "CDN 與邊緣網路基礎設施研究標的；主持人部位揭露不能取代產品、成長、競爭與估值分析。",
+      "eps": [
+        "EP55"
+      ],
+      "first_ep": "EP55",
+      "id": "ep55-akamai-akam",
+      "importance": "⭐⭐",
+      "name": "Akamai (AKAM)",
+      "notion_id": "3a7b92588207818aa0d9e3058e4128ac",
+      "type": "🏢公司/標的"
     }
   ]
 }
