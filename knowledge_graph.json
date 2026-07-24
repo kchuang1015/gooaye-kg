@@ -3347,6 +3347,142 @@
       "source_locator": "analysis/EP55_supplemental.json:/mindsets/5",
       "to": "ep49-own-the-buy-sell-decision",
       "type": "責任邊界"
+    },
+    {
+      "context": "先確認大型權值與中小型股分化已出現，再調整部位，而不是預測絕對高點。",
+      "ep": "EP56",
+      "from": "ep56-evidence-before-action",
+      "source_locator": "analysis/EP56_supplemental.json:/mindsets/0",
+      "to": "macro-us",
+      "type": "市場確認"
+    },
+    {
+      "context": "上漲、修正與深跌路徑必須依被動或主動投資型態分別定義。",
+      "ep": "EP56",
+      "from": "ep56-plan-both-paths",
+      "source_locator": "analysis/EP56_supplemental.json:/mindsets/1",
+      "to": "ep56-passive-active-exit-rules",
+      "type": "策略分流"
+    },
+    {
+      "context": "若不理解 VIX 期貨、ETN 與轉倉，不應為了避險而新增更複雜的風險。",
+      "ep": "EP56",
+      "from": "ep56-simple-deleveraging",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/5",
+      "to": "ep56-vxx",
+      "type": "工具能力邊界"
+    },
+    {
+      "context": "SQQQ 的單日反向目標要求主動監控；新手可先用減碼降低曝險。",
+      "ep": "EP56",
+      "from": "ep56-simple-deleveraging",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/6",
+      "to": "ep56-sqqq",
+      "type": "每日重設邊界"
+    },
+    {
+      "context": "保留現金使投資人在新資訊與更低價格出現時仍能加碼，不被原部位鎖死。",
+      "ep": "EP56",
+      "from": "ep56-trimming-buys-optionality",
+      "source_locator": "analysis/EP56_supplemental.json:/mindsets/3",
+      "to": "tsmc-2330",
+      "type": "再配置權"
+    },
+    {
+      "context": "Microsoft 財報成長與短線股價回檔可以同時成立，不必替波動選一個唯一原因。",
+      "ep": "EP56",
+      "from": "ep56-no-story-for-every-tick",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/0",
+      "to": "ep56-microsoft-msft",
+      "type": "財報與價格分離"
+    },
+    {
+      "context": "Intel 正式製程延遲會改變競爭假說，和事後替一般波動找故事不同。",
+      "ep": "EP56",
+      "from": "ep56-no-story-for-every-tick",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/1",
+      "to": "ep56-intel-intc",
+      "type": "重大資訊例外"
+    },
+    {
+      "context": "市場型指數的目標是長期曝險和再平衡，不能直接套用單一個股的停損邏輯。",
+      "ep": "EP56",
+      "from": "ep56-passive-active-exit-rules",
+      "source_locator": "analysis/EP56_supplemental.json:/industry/3",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "指數配置"
+    },
+    {
+      "context": "創意可以是好公司，但重壓與方向判斷錯誤仍會讓投資人無法承受等待。",
+      "ep": "EP56",
+      "from": "ep56-position-size-buys-patience",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/11",
+      "to": "ep56-guc-3443",
+      "type": "好公司壞部位"
+    },
+    {
+      "context": "中天聽眾案例說明未實現獲利可逆轉；單次部位不能大到使錯誤致命。",
+      "ep": "EP56",
+      "from": "ep56-payoff-over-win-rate",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/9",
+      "to": "ep56-center-labs-4128",
+      "type": "生存優先"
+    },
+    {
+      "context": "AMD 區間突破可作價格訊號，但仍須由產品、製程、競爭與財務支持。",
+      "ep": "EP56",
+      "from": "ep56-fundamentals-first-technicals-second",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/4",
+      "to": "ep56-amd",
+      "type": "突破驗證"
+    },
+    {
+      "context": "Intel 7 奈米延遲提高市場對台積電外包機會的想像，但實際訂單與認列仍待驗證。",
+      "ep": "EP56",
+      "from": "ep56-intel-intc",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/1",
+      "to": "tsmc-2330",
+      "type": "製程競爭與外包"
+    },
+    {
+      "context": "製程路線圖和晶圓代工能力會影響供應鏈定價，短期股價命中不取代產能與毛利研究。",
+      "ep": "EP56",
+      "from": "console-pcb-ic-substrate-chain",
+      "source_locator": "analysis/EP56_supplemental.json:/industry/2",
+      "to": "tsmc-2330",
+      "type": "半導體供應鏈"
+    },
+    {
+      "context": "Microsoft 官方資料顯示遠距工作、學習與娛樂需求支撐雲端、Windows、Surface 與遊戲。",
+      "ep": "EP56",
+      "from": "wfh-digital-retail",
+      "source_locator": "analysis/EP56_supplemental.json:/industry/1",
+      "to": "ep56-microsoft-msft",
+      "type": "遠距需求"
+    },
+    {
+      "context": "經營權之爭和收股行為不能替代對 LED 產品、財務、資產與治理品質的研究。",
+      "ep": "EP56",
+      "from": "ep56-donper-2499",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/8",
+      "to": "ep56-fundamentals-first-technicals-second",
+      "type": "治理事件邊界"
+    },
+    {
+      "context": "題材股大幅回撤會放大集中部位的心理壓力，顯示部位上限是生存條件。",
+      "ep": "EP56",
+      "from": "ep56-tongtai-3321",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/10",
+      "to": "ep56-position-size-buys-patience",
+      "type": "題材股回撤"
+    },
+    {
+      "context": "精測屬台積電相關研究線索，但本集未完成訂單、客戶、財務與估值驗證。",
+      "ep": "EP56",
+      "from": "ep56-chpt-6510",
+      "source_locator": "analysis/EP56_supplemental.json:/holdings/12",
+      "to": "console-pcb-ic-substrate-chain",
+      "type": "研究線索"
     }
   ],
   "metadata": {
@@ -3354,9 +3490,9 @@
     "lastUpdated": "2026-07-24",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-24",
-    "source": "EP1-EP55 分析報告",
-    "total_entities": 404,
-    "total_relations": 448
+    "source": "EP1-EP56 分析報告",
+    "total_entities": 425,
+    "total_relations": 465
   },
   "nodes": [
     {
@@ -3920,20 +4056,21 @@
     },
     {
       "code": "",
-      "description": "消費緊縮→裁員→更多緊縮的惡性循環",
+      "description": "Nasdaq 與中小型科技股修正後，先辨認市場分化並規劃多條路徑，不替每根漲跌補唯一故事。",
       "eps": [
         "EP1",
         "EP2",
         "EP3",
         "EP5",
         "EP6",
-        "EP10"
+        "EP10",
+        "EP56"
       ],
       "first_ep": "EP1",
       "id": "macro-us",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "總經/美國經濟",
-      "notion_id": "315b9258-8207-81e8-a3cf-ca3c2c3f9fc0",
+      "notion_id": "315b9258820781e8a3cfca3c2c3f9fc0",
       "type": "🏭產業"
     },
     {
@@ -5923,10 +6060,11 @@
     },
     {
       "code": "2330",
-      "description": "先進製程與 5G/HPC 支持長期營運，但急漲後的新進成本、高資本支出與估值仍須控制。",
+      "description": "ADR 與 Intel 製程延遲使市場重新定價；下一交易日突破 400 元命中，但跳空已快速反映公開資訊。",
       "eps": [
         "EP36",
-        "EP53"
+        "EP53",
+        "EP56"
       ],
       "first_ep": "EP36",
       "id": "tsmc-2330",
@@ -7721,28 +7859,30 @@
       "type": "🏭產業"
     },
     {
-      "description": "PC、電競與生活品牌需求要由產品推出進一步驗證到月營收、毛利與母公司占比。",
+      "description": "Microsoft 雲端、PC、遊戲與 Surface 成長具有官方證據；需求成立仍可伴隨估值和價格修正。",
       "eps": [
         "EP48",
-        "EP55"
+        "EP55",
+        "EP56"
       ],
       "first_ep": "EP48",
       "id": "wfh-digital-retail",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "疫情受惠股 / WFH 概念",
       "notion_id": "3a7b925882078136be1ec75d7ade18c6",
       "type": "🏭產業"
     },
     {
-      "description": "創高只描述價格；PCB 訂單、客戶、營收、毛利與估值才是基本面驗證，退出由持有週期決定。",
+      "description": "Intel 7 奈米延遲與台積電重定價顯示製程路線圖的重要性；實際訂單、產能和毛利仍須驗證。",
       "eps": [
         "EP48",
         "EP50",
-        "EP55"
+        "EP55",
+        "EP56"
       ],
       "first_ep": "EP48",
       "id": "console-pcb-ic-substrate-chain",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "PCB/5G/IC 載板",
       "notion_id": "3a0b92588207816a9d6deb3105cc63d5",
       "type": "🏭產業"
@@ -8526,10 +8666,11 @@
       "type": "🏭產業"
     },
     {
-      "description": "0050 的大型市值曝險與 0056 的高股息規則不同；配置前須理解方法、集中度、費用與因子偏離。",
+      "description": "長期指數投資以持續投入與再平衡處理修正；主動選股才依公司假說、估值與部位設定退出。",
       "eps": [
         "EP54",
-        "EP55"
+        "EP55",
+        "EP56"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -8723,6 +8864,267 @@
       "importance": "⭐⭐",
       "name": "Akamai (AKAM)",
       "notion_id": "3a7b92588207818aa0d9e3058e4128ac",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "不摸頭、不抄絕對底；先確認市場分化或趨勢真的出現，再依預先定義的規則調整。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-evidence-before-action",
+      "importance": "⭐⭐⭐",
+      "name": "先看見證據再決定動作",
+      "notion_id": "3a7b9258820781ebbbb5ddd2c83e831b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "策略不是一個價格點，而是一組條件；每條路徑都要包含部位、現金、失效條件與重新進場方式。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-plan-both-paths",
+      "importance": "⭐⭐⭐",
+      "name": "上漲修正與深跌都要先寫路徑",
+      "notion_id": "3a7b925882078119aec2d92daf2f04a5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "複雜工具不會自動提高風險管理品質；直接減少現貨部位往往更透明也更容易執行。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-simple-deleveraging",
+      "importance": "⭐⭐⭐",
+      "name": "不懂避險工具時先用減碼降低曝險",
+      "notion_id": "3a7b92588207818aa8f6fd19ca2e3020",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "少跌只是結果之一；真正價值是保留能在價格更低、證據更清楚時重新配置的資金。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-trimming-buys-optionality",
+      "importance": "⭐⭐⭐",
+      "name": "減碼是在買下一次決策權",
+      "notion_id": "3a7b925882078133bb92c67499be2fe3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "短線理由常是事後選擇；只有能改變產品、需求、競爭或現金流的資訊，才值得重估長期假說。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-no-story-for-every-tick",
+      "importance": "⭐⭐⭐",
+      "name": "不要替每一根漲跌補一個故事",
+      "notion_id": "3a7b925882078115b28fe3bfe77802e1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "市場型指數以長期曝險與再平衡為主；單一個股則必須管理公司風險、估值與假說失效。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-passive-active-exit-rules",
+      "importance": "⭐⭐⭐",
+      "name": "被動與主動投資要用不同退出規則",
+      "notion_id": "3a7b92588207818e98c3c129658f5939",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "重壓會把正常波動變成心理與資金壓力，迫使投資人在假說尚未驗證前退出。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-position-size-buys-patience",
+      "importance": "⭐⭐⭐",
+      "name": "部位大小決定你能不能等",
+      "notion_id": "3a7b9258820781bf8065f6a83e0c4037",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "可持續績效還取決於看對時賺多少、看錯時虧多少，以及每次下注占總資金多少。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-payoff-over-win-rate",
+      "importance": "⭐⭐⭐",
+      "name": "勝率不是績效的唯一來源",
+      "notion_id": "3a7b925882078147a304d76a889702e0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "產品、服務與產業是投資假說的底；價格行為可作為共識與風險訊號，但不能獨立證明公司品質。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-fundamentals-first-technicals-second",
+      "importance": "⭐⭐⭐",
+      "name": "基本面決定為何持有技術面協助何時行動",
+      "notion_id": "3a7b92588207810ba5cef134c3592fde",
+      "type": "💡概念"
+    },
+    {
+      "description": "FY2020 Q4 的營收、雲端與個人運算成長具有官方證據；基本面正向與短線科技股修正可以同時成立。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-microsoft-msft",
+      "importance": "⭐⭐⭐",
+      "name": "Microsoft (MSFT)",
+      "notion_id": "3a7b9258820781d8b5d0d49fb4d6854f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "7 奈米產品時程延遲是正式路線圖變更，可能影響競爭、外包與供應鏈，但後續交付仍須驗證。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-intel-intc",
+      "importance": "⭐⭐⭐",
+      "name": "Intel (INTC)",
+      "notion_id": "3a7b9258820781bfbfd4ee0deafe8772",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "大型科技股在修正中相對抗跌的案例；價格韌性不能替代成長、估值與競爭查核。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-nvidia-nvda",
+      "importance": "⭐⭐",
+      "name": "Nvidia (NVDA)",
+      "notion_id": "3a7b92588207810db014d0e14f8891a9",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "區間突破是共識變化訊號，但投資理由仍須回到產品、製程、競爭與財務表現。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-amd",
+      "importance": "⭐⭐",
+      "name": "AMD (AMD)",
+      "notion_id": "3a7b9258820781d48a7cf9432e72dccc",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "連結 VIX 短期期貨指數的 ETN，可作短期波動避險，但承受轉倉、費用與發行人信用風險。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-vxx",
+      "importance": "⭐⭐⭐",
+      "name": "VXX",
+      "notion_id": "3a7b925882078122b361e809920d560e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "追求 Nasdaq-100 單日反向三倍結果；超過一天的複利與每日重設會使持有結果偏離直覺。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-sqqq",
+      "importance": "⭐⭐⭐",
+      "name": "SQQQ",
+      "notion_id": "3a7b9258820781c6b277dffb4dd480cc",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "台股短期反向期貨工具，存在轉倉、追蹤與長期耗損風險，不是永久看空的現金替代品。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-yuanta-taiwan50-inverse-00632r",
+      "importance": "⭐⭐",
+      "name": "元大台灣50反1 (00632R)",
+      "notion_id": "3a7b9258820781b9a761c0765d4421d9",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "經營權之爭可帶來治理與籌碼事件，但市場派積極不等於 LED 本業或股東報酬必然改善。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-donper-2499",
+      "importance": "⭐⭐",
+      "name": "東貝 (2499)",
+      "notion_id": "3a7b9258820781059f4ef45879e9818b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "聽眾由未實現獲利轉為虧損的案例，顯示高檔題材、重壓與獲利未落袋的風險。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-center-labs-4128",
+      "importance": "⭐⭐",
+      "name": "中天 (4128)",
+      "notion_id": "3a7b925882078195b996cd1f5cdf0fc9",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "題材行情中大幅回撤的聽眾案例；價格故事不能代替財務、治理與流動性查核。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-tongtai-3321",
+      "importance": "⭐⭐",
+      "name": "同泰 (3321)",
+      "notion_id": "3a7b925882078155938cf69c8460de9e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "台積電相關好公司仍可能因重壓、進場價格與方向判斷錯誤成為壞部位。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-guc-3443",
+      "importance": "⭐⭐",
+      "name": "創意 (3443)",
+      "notion_id": "3a7b9258820781b9a48acba43487fe87",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "台積電相關研究線索；本集未完成訂單、客戶、財務與估值驗證。",
+      "eps": [
+        "EP56"
+      ],
+      "first_ep": "EP56",
+      "id": "ep56-chpt-6510",
+      "importance": "⭐⭐",
+      "name": "精測 (6510)",
+      "notion_id": "3a7b9258820781ddb354d0997f91322f",
       "type": "🏢公司/標的"
     }
   ]
