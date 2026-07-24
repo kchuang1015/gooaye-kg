@@ -3483,6 +3483,86 @@
       "source_locator": "analysis/EP56_supplemental.json:/holdings/12",
       "to": "console-pcb-ic-substrate-chain",
       "type": "研究線索"
+    },
+    {
+      "context": "公司品質與進場價格分開判斷。",
+      "ep": "EP57",
+      "from": "ep57-quality-price-separation",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/0",
+      "to": "tsmc-2330",
+      "type": "估值框架"
+    },
+    {
+      "context": "EPS 與本益比區間共同形成價格情境。",
+      "ep": "EP57",
+      "from": "ep57-valuation-range-not-point",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/1",
+      "to": "tsmc-2330",
+      "type": "評價區間"
+    },
+    {
+      "context": "有限本金在熱門區間追價會放大套牢的機會成本。",
+      "ep": "EP57",
+      "from": "ep57-capital-opportunity-cost",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/2",
+      "to": "ep57-consensus-chasing-risk",
+      "type": "風險放大"
+    },
+    {
+      "context": "低利率降低要求殖利率並影響資金流。",
+      "ep": "EP57",
+      "from": "ep57-yield-cashflow-first",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/4",
+      "to": "macro-us",
+      "type": "利率傳導"
+    },
+    {
+      "context": "先辨認指數規則與總成本。",
+      "ep": "EP57",
+      "from": "ep57-etf-cost-rule-first",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/5",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "產品篩選"
+    },
+    {
+      "context": "定期定額降低反覆擇時依賴。",
+      "ep": "EP57",
+      "from": "ep57-dca-rules-over-timing",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/6",
+      "to": "0050",
+      "type": "執行規則"
+    },
+    {
+      "context": "旅宿資產先查現金、固定成本與需求復甦。",
+      "ep": "EP57",
+      "from": "ep57-old-price-not-cheapness",
+      "source_locator": "analysis/EP57_supplemental.json:/mindsets/7",
+      "to": "hospitality",
+      "type": "生存驗證"
+    },
+    {
+      "context": "晶華呈現大型觀光飯店對跨境旅客的敏感度。",
+      "ep": "EP57",
+      "from": "ep57-regent-2707",
+      "source_locator": "analysis/EP57_supplemental.json:/holdings/3",
+      "to": "hospitality",
+      "type": "產業案例"
+    },
+    {
+      "context": "OTA 與實體飯店承受不同固定成本和資產風險。",
+      "ep": "EP57",
+      "from": "ep57-booking-bkng",
+      "source_locator": "analysis/EP57_supplemental.json:/holdings/4",
+      "to": "hospitality",
+      "type": "商業模式對照"
+    },
+    {
+      "context": "低利率與跨境資金可改變市場願付評價。",
+      "ep": "EP57",
+      "from": "macro-us",
+      "source_locator": "analysis/EP57_supplemental.json:/industry/0",
+      "to": "tsmc-2330",
+      "type": "資金環境"
     }
   ],
   "metadata": {
@@ -3490,9 +3570,9 @@
     "lastUpdated": "2026-07-24",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-24",
-    "source": "EP1-EP56 分析報告",
-    "total_entities": 425,
-    "total_relations": 465
+    "source": "EP1-EP57 分析報告",
+    "total_entities": 436,
+    "total_relations": 475
   },
   "nodes": [
     {
@@ -3733,18 +3813,19 @@
     },
     {
       "code": "0050",
-      "description": "元大台灣50 ETF。EP21再次推薦為存股分散風險方案，並斷言不會形成ETF泡沫。",
+      "description": "市值型 ETF 與定期定額案例；仍須管理集中度、費用與期限。",
       "eps": [
         "EP4",
         "EP7",
         "EP21",
-        "EP24"
+        "EP24",
+        "EP57"
       ],
       "first_ep": "EP4",
       "id": "0050",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "元大台灣50",
-      "notion_id": "313b9258-8207-8163-abf3-c88a17590ef6",
+      "notion_id": "311b925882078130a8b6c7d6e6caf603",
       "type": "🏢公司/標的"
     },
     {
@@ -4042,21 +4123,22 @@
     },
     {
       "code": "",
-      "description": "台北中小旅行社倒5-7成，五星飯店住房率1-2成",
+      "description": "疫情前舊價格不能證明便宜；先查需求來源、固定成本、現金與債務。",
       "eps": [
         "EP5",
-        "EP9"
+        "EP9",
+        "EP57"
       ],
       "first_ep": "EP5",
       "id": "hospitality",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "旅宿業",
-      "notion_id": "315b9258-8207-8107-a957-e4b45b3c67c4",
+      "notion_id": "315b925882078107a957e4b45b3c67c4",
       "type": "🏭產業"
     },
     {
       "code": "",
-      "description": "Nasdaq 與中小型科技股修正後，先辨認市場分化並規劃多條路徑，不替每根漲跌補唯一故事。",
+      "description": "低利率、美元走弱與跨境資金流同時影響台股、新台幣與資產評價。",
       "eps": [
         "EP1",
         "EP2",
@@ -4064,7 +4146,8 @@
         "EP5",
         "EP6",
         "EP10",
-        "EP56"
+        "EP56",
+        "EP57"
       ],
       "first_ep": "EP1",
       "id": "macro-us",
@@ -6060,11 +6143,12 @@
     },
     {
       "code": "2330",
-      "description": "ADR 與 Intel 製程延遲使市場重新定價；下一交易日突破 400 元命中，但跳空已快速反映公開資訊。",
+      "description": "EP57 用來拆解公司品質、EPS、本益比區間與追價機會成本。",
       "eps": [
         "EP36",
         "EP53",
-        "EP56"
+        "EP56",
+        "EP57"
       ],
       "first_ep": "EP36",
       "id": "tsmc-2330",
@@ -8666,15 +8750,16 @@
       "type": "🏭產業"
     },
     {
-      "description": "長期指數投資以持續投入與再平衡處理修正；主動選股才依公司假說、估值與部位設定退出。",
+      "description": "市值型與策略型 ETF 先比較指數規則、費用、集中度與追蹤誤差。",
       "eps": [
         "EP54",
         "EP55",
-        "EP56"
+        "EP56",
+        "EP57"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "ETF 教學（0050 vs 0056）",
       "notion_id": "3a6b925882078182b343f0f8cfe6f892",
       "type": "🏭產業"
@@ -9125,6 +9210,146 @@
       "importance": "⭐⭐",
       "name": "精測 (6510)",
       "notion_id": "3a7b9258820781ddb354d0997f91322f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "競爭力回答長期為何持有；估值、成本與資金期限回答現在能否承受，兩者不能互相替代。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-quality-price-separation",
+      "importance": "⭐⭐⭐",
+      "name": "好公司與好價格必須分開判斷",
+      "notion_id": "3a7b92588207818c92c2e3488403f027",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "EPS、利率、成長期限與風險溢酬會改變市場願付倍數，單一目標價會掩蓋不確定性。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-valuation-range-not-point",
+      "importance": "⭐⭐⭐",
+      "name": "估值用區間不用單點",
+      "notion_id": "3a7b9258820781d39143d097094a404a",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "最終解套不代表中間沒有成本；本金被鎖住時，其他機會與應急彈性同時消失。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-capital-opportunity-cost",
+      "importance": "⭐⭐⭐",
+      "name": "有限本金要計算被套住的機會成本",
+      "notion_id": "3a7b92588207810696b5ce4ef2e6dc86",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "好消息被廣泛討論後，新增買盤可能集中在區間上緣；空手追入者要先寫回撤與資金期限。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-consensus-chasing-risk",
+      "importance": "⭐⭐⭐",
+      "name": "熱門共識出現時先檢查自己是否追價",
+      "notion_id": "3a7b92588207815ba4d8dc825179dec2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "低利率可降低要求殖利率並推高價格，但只有可持續盈餘與現金流才能支撐配息。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-yield-cashflow-first",
+      "importance": "⭐⭐⭐",
+      "name": "殖利率要回到盈餘與現金流",
+      "notion_id": "3a7b9258820781fea3bed6882c60bee0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "名稱相似不代表曝險相同；市值型、策略型、槓桿型與商品型必須分開看規則和總成本。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-etf-cost-rule-first",
+      "importance": "⭐⭐⭐",
+      "name": "ETF先比較費用與指數規則",
+      "notion_id": "3a7b92588207816baf54c4b55ffa17ae",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "長期分批的目的在降低擇時依賴與行為波動，不是保證每一批都不虧。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-dca-rules-over-timing",
+      "importance": "⭐⭐⭐",
+      "name": "定期定額用規則取代反覆猜高低",
+      "notion_id": "3a7b92588207813b895dc01850204af2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "需求結構改變後，先驗證現金、債務、固定成本與存續期，再判斷是否存在錯價。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-old-price-not-cheapness",
+      "importance": "⭐⭐⭐",
+      "name": "舊價格不能證明受損產業便宜",
+      "notion_id": "3a7b9258820781af9c91ed5028fdc719",
+      "type": "💡概念"
+    },
+    {
+      "description": "帶有 ESG 條件的策略型 ETF，須核對指數規則與費用。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-00850",
+      "importance": "⭐⭐",
+      "name": "元大臺灣 ESG 永續 (00850)",
+      "notion_id": "3a7b92588207810a87a5d77c8e796ce3",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "跨境旅客與固定成本壓力案例，不能只依疫情前股價判斷便宜。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-regent-2707",
+      "importance": "⭐⭐",
+      "name": "晶華 (2707)",
+      "notion_id": "3a7b9258820781df9c6fd9cc10a28368",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "資產較輕 OTA 與實體飯店的營運彈性對照。",
+      "eps": [
+        "EP57"
+      ],
+      "first_ep": "EP57",
+      "id": "ep57-booking-bkng",
+      "importance": "⭐⭐",
+      "name": "Booking Holdings (BKNG)",
+      "notion_id": "3a7b92588207816eb17fc055cd6ab808",
       "type": "🏢公司/標的"
     }
   ]
