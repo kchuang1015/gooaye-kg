@@ -3563,6 +3563,126 @@
       "source_locator": "analysis/EP57_supplemental.json:/industry/0",
       "to": "tsmc-2330",
       "type": "資金環境"
+    },
+    {
+      "context": "無法猜高點時，以部位和低成本市場工具管理風險。",
+      "ep": "EP58",
+      "from": "ep58-exposure-not-absolute-top",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/0",
+      "to": "ep58-active-versus-index-alternative",
+      "type": "策略替代"
+    },
+    {
+      "context": "主動策略須和可執行的大盤工具比較。",
+      "ep": "EP58",
+      "from": "ep58-active-versus-index-alternative",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/1",
+      "to": "0050",
+      "type": "績效基準"
+    },
+    {
+      "context": "Microsoft 只確認探索討論，不是已完成收購。",
+      "ep": "EP58",
+      "from": "ep58-policy-deal-state-machine",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/2",
+      "to": "microsoft",
+      "type": "交易狀態"
+    },
+    {
+      "context": "平台交易受安全審查、資料治理與產品文化約束。",
+      "ep": "EP58",
+      "from": "microsoft",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/0",
+      "to": "ep58-social-short-video",
+      "type": "潛在整合"
+    },
+    {
+      "context": "Facebook／Instagram 面對短影音用戶與監管競爭。",
+      "ep": "EP58",
+      "from": "ep58-meta-meta",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/1",
+      "to": "ep58-social-short-video",
+      "type": "平台競爭"
+    },
+    {
+      "context": "YouTube 與短影音競爭是情境而非固定預測。",
+      "ep": "EP58",
+      "from": "ep58-alphabet-googl",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/2",
+      "to": "ep58-social-short-video",
+      "type": "平台競爭"
+    },
+    {
+      "context": "營運、歸因、法律與信任分層。",
+      "ep": "EP58",
+      "from": "ep58-incident-impact-layers",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/3",
+      "to": "ep58-ransomware-security",
+      "type": "驗證框架"
+    },
+    {
+      "context": "Garmin 服務中斷不自動證明攻擊者或贖金說法。",
+      "ep": "EP58",
+      "from": "ep58-garmin-grmn",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/4",
+      "to": "ep58-ransomware-security",
+      "type": "事故案例"
+    },
+    {
+      "context": "財報結果與一日價格不構成單一因果。",
+      "ep": "EP58",
+      "from": "ep58-no-single-cause-story",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/4",
+      "to": "ep58-atlassian-team",
+      "type": "財報價格分離"
+    },
+    {
+      "context": "市場可在落後總經數據公布前先調整。",
+      "ep": "EP58",
+      "from": "ep58-forward-looking-pricing",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/5",
+      "to": "macro-us",
+      "type": "前瞻折現"
+    },
+    {
+      "context": "非約束貸款意向書與極端波動要求可歸零的小額。",
+      "ep": "EP58",
+      "from": "ep58-speculation-size-cap",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/6",
+      "to": "ep58-kodak-kodk",
+      "type": "倉位限制"
+    },
+    {
+      "context": "成長股在論點未變時按規則拆分預算。",
+      "ep": "EP58",
+      "from": "ep58-growth-position-schedule",
+      "source_locator": "analysis/EP58_supplemental.json:/mindsets/7",
+      "to": "ep56-nvidia-nvda",
+      "type": "分批執行"
+    },
+    {
+      "context": "需求題材仍須回到公司指引、良率與毛利。",
+      "ep": "EP58",
+      "from": "ep58-largan-3008",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/9",
+      "to": "ep58-optics-cis",
+      "type": "產業案例"
+    },
+    {
+      "context": "同產業個股可因公司條件出現不同表現。",
+      "ep": "EP58",
+      "from": "ep58-gseo-3406",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/10",
+      "to": "ep58-optics-cis",
+      "type": "公司分化"
+    },
+    {
+      "context": "同指數工具仍比較費用、流動性與追蹤誤差。",
+      "ep": "EP58",
+      "from": "ep58-006208",
+      "source_locator": "analysis/EP58_supplemental.json:/holdings/12",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "產品比較"
     }
   ],
   "metadata": {
@@ -3570,9 +3690,9 @@
     "lastUpdated": "2026-07-24",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-24",
-    "source": "EP1-EP57 分析報告",
-    "total_entities": 436,
-    "total_relations": 475
+    "source": "EP1-EP58 分析報告",
+    "total_entities": 458,
+    "total_relations": 490
   },
   "nodes": [
     {
@@ -3813,13 +3933,14 @@
     },
     {
       "code": "0050",
-      "description": "市值型 ETF 與定期定額案例；仍須管理集中度、費用與期限。",
+      "description": "主動績效的市場替代方案與臺灣50產品比較。",
       "eps": [
         "EP4",
         "EP7",
         "EP21",
         "EP24",
-        "EP57"
+        "EP57",
+        "EP58"
       ],
       "first_ep": "EP4",
       "id": "0050",
@@ -4138,7 +4259,7 @@
     },
     {
       "code": "",
-      "description": "低利率、美元走弱與跨境資金流同時影響台股、新台幣與資產評價。",
+      "description": "指數和中小型股分化，落後 GDP 數據不決定公布後方向。",
       "eps": [
         "EP1",
         "EP2",
@@ -4147,7 +4268,8 @@
         "EP6",
         "EP10",
         "EP56",
-        "EP57"
+        "EP57",
+        "EP58"
       ],
       "first_ep": "EP1",
       "id": "macro-us",
@@ -4328,15 +4450,16 @@
     },
     {
       "code": "AAPL",
-      "description": "2020年3月宣布大中華區外全球零售店停售，消費衝擊早期信號",
+      "description": "一拆四降低單股價格但不創造企業價值的案例。",
       "eps": [
-        "EP12"
+        "EP12",
+        "EP58"
       ],
       "first_ep": "EP12",
       "id": "apple",
       "importance": "⭐⭐",
       "name": "Apple",
-      "notion_id": "312b9258-8207-814d-8e70-dc9d224e7ed7",
+      "notion_id": "312b92588207814d8e70dc9d224e7ed7",
       "type": "🏢公司/標的"
     },
     {
@@ -4773,16 +4896,17 @@
     },
     {
       "code": "MSFT",
-      "description": "Microsoft Teams 與 Zoom 競爭 WFH 視訊市場",
+      "description": "EP58 的 TikTok 潛在買家案例；官方僅確認探索討論。",
       "eps": [
         "EP18",
-        "EP25"
+        "EP25",
+        "EP58"
       ],
       "first_ep": "EP18",
       "id": "microsoft",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Microsoft",
-      "notion_id": "315b9258-8207-8168-8c0e-f5db4050d8d0",
+      "notion_id": "315b9258820781688c0ef5db4050d8d0",
       "type": "🏢公司/標的"
     },
     {
@@ -8750,12 +8874,13 @@
       "type": "🏭產業"
     },
     {
-      "description": "市值型與策略型 ETF 先比較指數規則、費用、集中度與追蹤誤差。",
+      "description": "主動策略比較市場替代方案，產品比較使用最新費用與規則。",
       "eps": [
         "EP54",
         "EP55",
         "EP56",
-        "EP57"
+        "EP57",
+        "EP58"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -9093,13 +9218,14 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "大型科技股在修正中相對抗跌的案例；價格韌性不能替代成長、估值與競爭查核。",
+      "description": "成長股按規則分批加碼案例。",
       "eps": [
-        "EP56"
+        "EP56",
+        "EP58"
       ],
       "first_ep": "EP56",
       "id": "ep56-nvidia-nvda",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Nvidia (NVDA)",
       "notion_id": "3a7b92588207810db014d0e14f8891a9",
       "type": "🏢公司/標的"
@@ -9351,6 +9477,280 @@
       "name": "Booking Holdings (BKNG)",
       "notion_id": "3a7b92588207816eb17fc055cd6ab808",
       "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "沒有人能穩定抓到最後高點；預先定義部位、再平衡與失效條件，才能管理不可知。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-exposure-not-absolute-top",
+      "importance": "⭐⭐⭐",
+      "name": "不要猜絕對高點要管理曝險",
+      "notion_id": "3a7b9258820781be85fef8ae58d99579",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "投入研究時間與集中風險後若長期仍落後低成本市場工具，就應降低複雜度而非只挑成功案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-active-versus-index-alternative",
+      "importance": "⭐⭐⭐",
+      "name": "主動選股要和大盤替代方案比較",
+      "notion_id": "3a7b9258820781fcbd52e72f80e29ae4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "禁令、談判、安全審查、簽約和交割是不同狀態，任何一關都可能改變估值與競爭結構。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-policy-deal-state-machine",
+      "importance": "⭐⭐⭐",
+      "name": "政策交易先區分傳聞談判與交割",
+      "notion_id": "3a7b92588207819db30ddf4e0431674a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "服務中斷、財務損失、歸因責任和長期信任各自需要證據；一次快速反彈不構成普遍公式。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-incident-impact-layers",
+      "importance": "⭐⭐⭐",
+      "name": "事件衝擊分層再決定是否交易",
+      "notion_id": "3a7b92588207814f8e58f0a4a28c161c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "財報、指引、持倉、估值與流動性共同形成價格；事後挑一則新聞通常不能識別因果。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-no-single-cause-story",
+      "importance": "⭐⭐⭐",
+      "name": "短線價格不需要硬找單一理由",
+      "notion_id": "3a7b92588207811eb604e0aa2ebc9919",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "落後公布的數據多半確認已發生的衝擊；研究應轉向未來現金流、風險與下一個驗證點。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-forward-looking-pricing",
+      "importance": "⭐⭐⭐",
+      "name": "投資判斷要向前看",
+      "notion_id": "3a7b925882078177aeb4ded7024b4853",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "資訊不對稱、波動與執行風險極高時，把參與限制為娛樂性小額，不能押上核心資本。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-speculation-size-cap",
+      "importance": "⭐⭐⭐",
+      "name": "妖股只用歸零也不傷身的倉位",
+      "notion_id": "3a7b925882078196a3a4fe7a9408d6aa",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "論點和資金期限未變時，依固定時間或條件拆分預算，比等待完美回檔更可執行。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-growth-position-schedule",
+      "importance": "⭐⭐⭐",
+      "name": "成長股加碼用分批規則",
+      "notion_id": "3a7b92588207813c9eced6c79ab2d855",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "把遠期壓力轉成近期行動，同時保留休息與興趣，避免每天承擔全部未來問題。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-next-action-decomposition",
+      "importance": "⭐⭐",
+      "name": "大目標拆成眼前可完成的下一步",
+      "notion_id": "3a7b925882078109b105c1d1399f9b17",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "進場、加碼、減碼、失效與資金用途在交易前寫清楚，價格波動後才有一致的判斷基準。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-complete-strategy-before-story",
+      "importance": "⭐⭐⭐",
+      "name": "完整策略比事後故事重要",
+      "notion_id": "3a7b9258820781d1ab15d85c95f04d94",
+      "type": "💡概念"
+    },
+    {
+      "description": "Facebook／Instagram 的短影音競爭與反壟斷情境。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-meta-meta",
+      "importance": "⭐⭐",
+      "name": "Meta Platforms (META)",
+      "notion_id": "3a7b9258820781e9a8c6f604c3056d08",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "YouTube 與短影音競爭情境，沒有固定期限預測。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-alphabet-googl",
+      "importance": "⭐⭐",
+      "name": "Alphabet (GOOGL)",
+      "notion_id": "3a7b9258820781e69ad1fa2ddc170a3f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "市場討論中的潛在 TikTok 買家情境。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-amazon-amzn",
+      "importance": "⭐",
+      "name": "Amazon (AMZN)",
+      "notion_id": "3a7b92588207814d9122c300f74e1211",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "勒索軟體服務中斷與營運／信任分層案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-garmin-grmn",
+      "importance": "⭐⭐⭐",
+      "name": "Garmin (GRMN)",
+      "notion_id": "3a7b925882078177a59fd23569d2ea82",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "財報優於預期後短線下跌的價格歸因案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-atlassian-team",
+      "importance": "⭐⭐",
+      "name": "Atlassian (TEAM)",
+      "notion_id": "3a7b9258820781c693bce2a422452f03",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "非約束貸款意向書引發的敘事交易與倉位風險案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-kodak-kodk",
+      "importance": "⭐⭐⭐",
+      "name": "Eastman Kodak (KODK)",
+      "notion_id": "3a7b9258820781baa2e3d25c45720fe7",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "鏡頭需求與保守管理階層指引案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-largan-3008",
+      "importance": "⭐⭐",
+      "name": "大立光 (3008)",
+      "notion_id": "3a7b9258820781fe97f9ef03c9686382",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "同一光學題材內公司分化案例。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-gseo-3406",
+      "importance": "⭐⭐",
+      "name": "玉晶光 (3406)",
+      "notion_id": "3a7b92588207817687e7c0d90812bdd1",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "與 0050 比較費用、流動性、追蹤誤差和單位價格。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-006208",
+      "importance": "⭐⭐",
+      "name": "富邦台50 (006208)",
+      "notion_id": "3a7b92588207819d864ff5bdabee566c",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "產品文化、創作者網路、資料治理與政策審查共同決定平台競爭。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-social-short-video",
+      "importance": "⭐⭐⭐",
+      "name": "社群平台 / 短影音",
+      "notion_id": "3a7b9258820781f38eeaf844f606a29c",
+      "type": "🏭產業"
+    },
+    {
+      "description": "服務、損失、歸因責任與信任須分層驗證。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-ransomware-security",
+      "importance": "⭐⭐⭐",
+      "name": "資安 / 勒索軟體",
+      "notion_id": "3a7b925882078171ac9cc9de61fc727e",
+      "type": "🏭產業"
+    },
+    {
+      "description": "終端鏡頭需求傳導仍受客戶、良率、產能與毛利限制。",
+      "eps": [
+        "EP58"
+      ],
+      "first_ep": "EP58",
+      "id": "ep58-optics-cis",
+      "importance": "⭐⭐",
+      "name": "光學 / CIS",
+      "notion_id": "3a7b9258820781aaabeac7520ca06c5b",
+      "type": "🏭產業"
     }
   ]
 }
