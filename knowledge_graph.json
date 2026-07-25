@@ -3755,16 +3755,88 @@
       "source_locator": "analysis/EP59_supplemental.json:/holdings/7",
       "to": "ep59-rf-5g-industry",
       "type": "領漲線索"
+    },
+    {
+      "context": "WeChat 命令的直接範圍與騰訊其他業務、投資組合必須分層。",
+      "ep": "EP60",
+      "from": "ep60-policy-transmission-chain",
+      "source_locator": "analysis/EP60_supplemental.json:/mindsets/0",
+      "to": "ep60-tencent",
+      "type": "政策曝險"
+    },
+    {
+      "context": "TikTok 行政命令建立 45 天框架，具體交易仍待識別。",
+      "ep": "EP60",
+      "from": "ep60-policy-transmission-chain",
+      "source_locator": "analysis/EP60_supplemental.json:/mindsets/0",
+      "to": "ep60-bytedance-tiktok",
+      "type": "政策曝險"
+    },
+    {
+      "context": "先準備情境，等價格或法律範圍改變再調整騰訊部位。",
+      "ep": "EP60",
+      "from": "ep60-evidence-before-trade",
+      "source_locator": "analysis/EP60_supplemental.json:/mindsets/1",
+      "to": "ep60-tencent",
+      "type": "執行規則"
+    },
+    {
+      "context": "右側規則以不在創新低當天接刀換取更多確認。",
+      "ep": "EP60",
+      "from": "ep60-left-right-fit",
+      "source_locator": "analysis/EP60_supplemental.json:/mindsets/3",
+      "to": "ep60-new-low-delay-rule",
+      "type": "策略選擇"
+    },
+    {
+      "context": "廣泛指數與單一個股具有不同的永久損失風險。",
+      "ep": "EP60",
+      "from": "ep60-permanent-loss-screen",
+      "source_locator": "analysis/EP60_supplemental.json:/mindsets/4",
+      "to": "ep60-etf-research-tier",
+      "type": "風險比較"
+    },
+    {
+      "context": "WeChat 使騰訊直接進入跨境平台與資料治理政策風險。",
+      "ep": "EP60",
+      "from": "ep60-tencent",
+      "source_locator": "analysis/EP60_supplemental.json:/holdings/0",
+      "to": "ep58-social-short-video",
+      "type": "平台母體"
+    },
+    {
+      "context": "騰訊投資關係是研究入口，不是相同法律效果的證明。",
+      "ep": "EP60",
+      "from": "ep60-sea-se",
+      "source_locator": "analysis/EP60_supplemental.json:/holdings/3",
+      "to": "game-content-publishers",
+      "type": "投資關聯"
+    },
+    {
+      "context": "節目口述潛在交易，必須等正式文件確認範圍和成交。",
+      "ep": "EP60",
+      "from": "ep56-microsoft-msft",
+      "source_locator": "analysis/EP60_supplemental.json:/holdings/2",
+      "to": "ep60-bytedance-tiktok",
+      "type": "潛在交易"
+    },
+    {
+      "context": "平台聚合與投資工具都以效率換取一定控制或平均化。",
+      "ep": "EP60",
+      "from": "streaming",
+      "source_locator": "analysis/EP60_supplemental.json:/industry/4",
+      "to": "ep60-etf-research-tier",
+      "type": "平台選擇"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-24",
+    "lastUpdated": "2026-07-25",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-24",
-    "source": "EP1-EP59 分析報告",
-    "total_entities": 473,
-    "total_relations": 499
+    "last_update": "2026-07-25",
+    "source": "EP1-EP60 分析報告",
+    "total_entities": 482,
+    "total_relations": 508
   },
   "nodes": [
     {
@@ -4300,18 +4372,19 @@
     },
     {
       "code": "",
-      "description": "Spotify 與 TME 的產品採用形成音訊平台研究組合，但新進者不能借用舊持有人的成本與安全邊際。",
+      "description": "Podcast 去中心化韌性與集中平台推薦／變現效率之間的取捨。",
       "eps": [
         "EP2",
         "EP47",
         "EP51",
-        "EP52"
+        "EP52",
+        "EP60"
       ],
       "first_ep": "EP2",
       "id": "streaming",
       "importance": "⭐⭐",
-      "name": "串流影音/訂閱經濟",
-      "notion_id": "315b92588207815cb01ec000844811fc",
+      "name": "串流影音 / 訂閱經濟",
+      "notion_id": "3a8b9258820781869a60e782953fc63b",
       "type": "🏭產業"
     },
     {
@@ -7984,14 +8057,15 @@
       "type": "🏭產業"
     },
     {
-      "description": "TTWO、EA、Ubisoft 組合可按新證據調整權重；價格強弱不能取代作品管線、訂單與估值。",
+      "description": "騰訊關聯只建立政策曝險研究，不自動產生相同法律效果。",
       "eps": [
         "EP47",
-        "EP52"
+        "EP52",
+        "EP60"
       ],
       "first_ep": "EP47",
       "id": "game-content-publishers",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "遊戲內容與發行商",
       "notion_id": "3a0b92588207816ca3dcfa8eb0f98808",
       "type": "🏭產業"
@@ -9266,13 +9340,14 @@
       "type": "💡概念"
     },
     {
-      "description": "FY2020 Q4 的營收、雲端與個人運算成長具有官方證據；基本面正向與短線科技股修正可以同時成立。",
+      "description": "TikTok 潛在交易方口述案例，談判不等於成交。",
       "eps": [
-        "EP56"
+        "EP56",
+        "EP60"
       ],
       "first_ep": "EP56",
       "id": "ep56-microsoft-msft",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐",
       "name": "Microsoft (MSFT)",
       "notion_id": "3a7b9258820781d8b5d0d49fb4d6854f",
       "type": "🏢公司/標的"
@@ -9790,9 +9865,10 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "產品文化、創作者網路、資料治理與政策審查共同決定平台競爭。",
+      "description": "平台價值與資料治理同時受跨境政策與交易限制影響。",
       "eps": [
-        "EP58"
+        "EP58",
+        "EP60"
       ],
       "first_ep": "EP58",
       "id": "ep58-social-short-video",
@@ -10012,6 +10088,121 @@
       "name": "5G / 射頻元件",
       "notion_id": "3a7b9258820781b4a919ce6d4506769e",
       "type": "🏭產業"
+    },
+    {
+      "category": "🌍 總經政策",
+      "description": "從直接受令主體、後續細則與法院開始，再查持股、收入、技術和情緒通道，不以關聯名單替代法律分析。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-policy-transmission-chain",
+      "importance": "⭐⭐⭐",
+      "name": "政策事件先拆直接範圍與傳導鏈",
+      "notion_id": "3a8b9258820781f0a93aff6dd38931ca",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "先建立政策升級、減碼與現金情境；價格、基本面或法律範圍未改變前，不因第一則新聞清倉。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-evidence-before-trade",
+      "importance": "⭐⭐⭐",
+      "name": "提前準備但等眼見為憑再交易",
+      "notion_id": "3a8b92588207818e9521c03b8a1dc5fa",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "等待數日停止創低或其他趨勢證據，以放棄最低點換取較清楚的風險界線。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-new-low-delay-rule",
+      "importance": "⭐⭐⭐",
+      "name": "創新低當天不做情緒性反轉",
+      "notion_id": "3a8b9258820781c8bd03f039e0c70894",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "左側可能抓到底部但承擔持續下跌和破產；右側較晚進場但增加確認，沒有普遍最佳答案。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-left-right-fit",
+      "importance": "⭐⭐⭐",
+      "name": "左側右側由能力與標的風險決定",
+      "notion_id": "3a8b925882078122aaeafe03dda4dc77",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "廣泛指數與單一公司不能使用同一攤平假設；個股須先查資產負債、現金流和存活能力。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-permanent-loss-screen",
+      "importance": "⭐⭐⭐",
+      "name": "個股左側先檢查永久損失",
+      "notion_id": "3a8b92588207819bba03caf64fe7d87a",
+      "type": "💡概念"
+    },
+    {
+      "category": "📦 資產配置",
+      "description": "無暇研究個股時用廣泛或產業 ETF 取得一籃子曝險，接受無法完整取得最強單一公司的漲幅。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-etf-research-tier",
+      "importance": "⭐⭐⭐",
+      "name": "ETF 是研究時間與分散的交換",
+      "notion_id": "3a8b9258820781049bfbd11dad08493a",
+      "type": "💡概念"
+    },
+    {
+      "description": "WeChat 命令、投資組合、雲端與政治折價研究主線。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-tencent",
+      "importance": "⭐⭐⭐",
+      "name": "Tencent (0700.HK)",
+      "notion_id": "3a8b9258820781e6a6b5e9ba2fd77f12",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "PRIVATE",
+      "description": "美國行政命令與潛在平台交易的直接受令案例。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-bytedance-tiktok",
+      "importance": "⭐⭐⭐",
+      "name": "ByteDance / TikTok",
+      "notion_id": "3a8b92588207819c9a18cf4b939f7d8f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "騰訊持股、遊戲與電商政策傳導觀察案例。",
+      "eps": [
+        "EP60"
+      ],
+      "first_ep": "EP60",
+      "id": "ep60-sea-se",
+      "importance": "⭐⭐",
+      "name": "Sea (SE)",
+      "notion_id": "3a8b92588207816086cbfddce02bc9e4",
+      "type": "🏢公司/標的"
     }
   ]
 }
