@@ -3827,16 +3827,72 @@
       "source_locator": "analysis/EP60_supplemental.json:/industry/4",
       "to": "ep60-etf-research-tier",
       "type": "平台選擇"
+    },
+    {
+      "context": "航空獲利必須把客運、貨運、航油與固定成本拆帳。",
+      "ep": "EP61",
+      "from": "ep61-narrative-ledger",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/0",
+      "to": "aviation",
+      "type": "研究方法"
+    },
+    {
+      "context": "登記不等於試驗、核准、量產與普及接種完成。",
+      "ep": "EP61",
+      "from": "ep61-milestone-chain",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/1",
+      "to": "ep54-biotech-new-drug-stocks",
+      "type": "驗證鏈"
+    },
+    {
+      "context": "表態型事件交易必須預先限制最大損失。",
+      "ep": "EP61",
+      "from": "ep61-expressive-trade-cap",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/2",
+      "to": "ep61-next-digital",
+      "type": "倉位規則"
+    },
+    {
+      "context": "長期下跌只負責觸發財報與治理查核。",
+      "ep": "EP61",
+      "from": "ep61-asymmetric-decline-test",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/3",
+      "to": "ep61-pharmally",
+      "type": "治理警報"
+    },
+    {
+      "context": "管理層、稽核與查核角色密集異動提高資料風險。",
+      "ep": "EP61",
+      "from": "ep61-governance-turnover-alert",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/4",
+      "to": "ep61-pharmally",
+      "type": "治理警報"
+    },
+    {
+      "context": "以單一公司可能歸零反推部位上限。",
+      "ep": "EP61",
+      "from": "ep61-position-survival-cap",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/5",
+      "to": "ep61-pharmally",
+      "type": "風險隔離"
+    },
+    {
+      "context": "投資工具選擇與重返條件都要匹配個人可驗證紀錄。",
+      "ep": "EP61",
+      "from": "ep61-reentry-journal",
+      "source_locator": "analysis/EP61_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "執行規則"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-25",
+    "lastUpdated": "2026-07-26",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-25",
-    "source": "EP1-EP60 分析報告",
-    "total_entities": 482,
-    "total_relations": 508
+    "last_update": "2026-07-26",
+    "source": "EP1-EP61 分析報告",
+    "total_entities": 491,
+    "total_relations": 515
   },
   "nodes": [
     {
@@ -4303,7 +4359,7 @@
     },
     {
       "code": "",
-      "description": "境外旅客導向的航空與旅宿即使台灣控制疫情，仍受海外疫情與邊境限制；小部位持有觀察不等於基本面推薦。",
+      "description": "客運、腹艙、全貨機、油價與固定成本需共同拆解。",
       "eps": [
         "EP1",
         "EP2",
@@ -4312,11 +4368,12 @@
         "EP10",
         "EP21",
         "EP35",
-        "EP46"
+        "EP46",
+        "EP61"
       ],
       "first_ep": "EP1",
       "id": "aviation",
-      "importance": "⭐",
+      "importance": "⭐⭐⭐",
       "name": "航空業",
       "notion_id": "315b9258820781799dd3ebc827fda0c8",
       "type": "🏭產業"
@@ -9008,29 +9065,31 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "臨床、解盲、藥證、量產、給付和銷售是不同關卡；題材同漲同跌不代表公司基本面等價。",
+      "description": "疫苗登記到接種普及是多階段里程碑鏈。",
       "eps": [
-        "EP54"
+        "EP54",
+        "EP61"
       ],
       "first_ep": "EP54",
       "id": "ep54-biotech-new-drug-stocks",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐",
       "name": "生技股定價邏輯",
       "notion_id": "3a6b9258820781aebf54f2238fcf2121",
       "type": "🏭產業"
     },
     {
-      "description": "主動策略比較市場替代方案，產品比較使用最新費用與規則。",
+      "description": "現成產品與自組組合交換費用、控制和維護責任。",
       "eps": [
         "EP54",
         "EP55",
         "EP56",
         "EP57",
-        "EP58"
+        "EP58",
+        "EP61"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐",
       "name": "ETF 教學（0050 vs 0056）",
       "notion_id": "3a6b925882078182b343f0f8cfe6f892",
       "type": "🏭產業"
@@ -10202,6 +10261,121 @@
       "importance": "⭐⭐",
       "name": "Sea (SE)",
       "notion_id": "3a8b92588207816086cbfddce02bc9e4",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "把收入、運能、供需、油價、避險與固定成本逐項核對，不用一個好消息或壞消息包辦獲利。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-narrative-ledger",
+      "importance": "⭐⭐⭐",
+      "name": "單一敘事先拆完整損益",
+      "notion_id": "3a9b9258820781d4ba81d6f9cdb05ba6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌍 總經政策",
+      "description": "疫苗登記、試驗、核准、量產、接種與需求恢復必須分開，市場反應也不是終局證據。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-milestone-chain",
+      "importance": "⭐⭐⭐",
+      "name": "新聞里程碑不等於流程完成",
+      "notion_id": "3a9b925882078122bedafba3399ea286",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "政治或社會支持可以用小額表達，但不能讓別人的小比例表態變成自己的全押。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-expressive-trade-cap",
+      "importance": "⭐⭐⭐",
+      "name": "表態交易先限制可損失資金",
+      "notion_id": "3a9b9258820781a5896be46ed6a5526c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "壞公司可能經歷長跌，但長跌不必然等於壞公司；價格要觸發而非取代基本面查核。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-asymmetric-decline-test",
+      "importance": "⭐⭐⭐",
+      "name": "下跌警報採非對稱判讀",
+      "notion_id": "3a9b92588207811fbca5e3f5dc49c4b8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "管理層、財務、稽核、董事或會計師接連更換時，先查責任、財報、擔保與資產可驗證性。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-governance-turnover-alert",
+      "importance": "⭐⭐⭐",
+      "name": "密集人事異動升級治理查核",
+      "notion_id": "3a9b925882078138a4e6f6a8e42b1cee",
+      "type": "💡概念"
+    },
+    {
+      "category": "📦 資產配置",
+      "description": "先決定可承受的永久損失，再設單一部位上限，避免漂亮歷史數字讓整體資本失去重來能力。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-position-survival-cap",
+      "importance": "⭐⭐⭐",
+      "name": "單一公司倉位以歸零情境反推",
+      "notion_id": "3a9b92588207816c8c16c3f59a4fa57a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "只有長期紀錄顯示方向常看對但短線被洗掉，才用書面趨勢或基本面條件重返。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-reentry-journal",
+      "importance": "⭐⭐⭐",
+      "name": "賣後重返由個人交易紀錄決定",
+      "notion_id": "3a9b92588207819db7d0d1eda66b16fc",
+      "type": "💡概念"
+    },
+    {
+      "description": "黎智英被捕後的表態型事件交易與流動性案例。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-next-digital",
+      "importance": "⭐⭐⭐",
+      "name": "Next Digital (0282.HK)",
+      "notion_id": "3a9b925882078151b2c2e5147ed8cc7a",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "設備抵押、財報、管理層離職與監管處置的治理反面案例。",
+      "eps": [
+        "EP61"
+      ],
+      "first_ep": "EP61",
+      "id": "ep61-pharmally",
+      "importance": "⭐⭐⭐",
+      "name": "康友-KY (6452.TW)",
+      "notion_id": "3a9b9258820781cfa0acdb23f1e779f2",
       "type": "🏢公司/標的"
     }
   ]
