@@ -3947,6 +3947,70 @@
       "source_locator": "analysis/EP62_supplemental.json:/holdings/7",
       "to": "ep62-risk-premium-source",
       "type": "監管門檻"
+    },
+    {
+      "context": "NVIDIA 長期看好與降低約四至五成集中部位可以同時成立。",
+      "ep": "EP63",
+      "from": "ep63-concentration-cap",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/0",
+      "to": "ep56-nvidia-nvda",
+      "type": "再平衡"
+    },
+    {
+      "context": "Sea 財報與 guidance 改善提供重新估值輸入，不保證公告後價格方向。",
+      "ep": "EP63",
+      "from": "ep63-earnings-reunderwrite",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/1",
+      "to": "ep60-sea-se",
+      "type": "財報重估"
+    },
+    {
+      "context": "競品取得實質市占才是降低 Tesla 長期部位的條件之一。",
+      "ep": "EP63",
+      "from": "ep63-thesis-trajectory",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/2",
+      "to": "tesla",
+      "type": "論點更新"
+    },
+    {
+      "context": "出口管制先作用於華為，再透過品牌份額和訂單向供應鏈傳導。",
+      "ep": "EP63",
+      "from": "ep63-policy-transfer-chain",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/3",
+      "to": "huawei",
+      "type": "政策衝擊"
+    },
+    {
+      "context": "聯發科受惠必須由新品牌客戶、晶片出貨、ASP、營收與毛利證明。",
+      "ep": "EP63",
+      "from": "ep63-policy-transfer-chain",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/3",
+      "to": "ep63-mediatek",
+      "type": "轉單驗證"
+    },
+    {
+      "context": "政策急跌後不搶第一段接刀，等待價格與新訂單資訊開始穩定。",
+      "ep": "EP63",
+      "from": "ep63-falling-knife-confirmation",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/4",
+      "to": "ep59-rf-5g-industry",
+      "type": "進場條件"
+    },
+    {
+      "context": "個股停利停損應與廣泛指數等替代工具的未來報酬與風險比較。",
+      "ep": "EP63",
+      "from": "ep63-opportunity-cost-exit",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/5",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "替代比較"
+    },
+    {
+      "context": "家庭未來負債與流動性需求決定指數投資的期限、安全墊與提款時點。",
+      "ep": "EP63",
+      "from": "ep63-dynamic-liability-freedom",
+      "source_locator": "analysis/EP63_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "資產用途"
     }
   ],
   "metadata": {
@@ -3954,9 +4018,9 @@
     "lastUpdated": "2026-07-26",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-26",
-    "source": "EP1-EP62 分析報告",
-    "total_entities": 500,
-    "total_relations": 523
+    "source": "EP1-EP63 分析報告",
+    "total_entities": 508,
+    "total_relations": 531
   },
   "nodes": [
     {
@@ -4052,13 +4116,14 @@
     },
     {
       "code": "TSLA",
-      "description": "自駕、軟體與品牌可支持科技公司溢價，但短空擁擠、估值、競爭與關鍵人物風險使價格路徑高度非線性。",
+      "description": "長期建倉以競品取得實質市占作為論點更新條件，而非每日價格波動。",
       "eps": [
         "EP2",
         "EP22",
         "EP32",
         "EP34",
-        "EP52"
+        "EP52",
+        "EP63"
       ],
       "first_ep": "EP2",
       "id": "tesla",
@@ -6831,15 +6896,16 @@
     },
     {
       "code": "Huawei",
-      "description": "中國通訊巨頭，台積電客戶佔營收~22%，面臨美國封殺",
+      "description": "美國擴大出口管制的直接主體；法規範圍與實際晶片、機型及出貨效果須分層核對。",
       "eps": [
-        "EP36"
+        "EP36",
+        "EP63"
       ],
       "first_ep": "EP36",
       "id": "huawei",
       "importance": "⭐⭐⭐",
       "name": "華為",
-      "notion_id": "315b9258-8207-8126-ad2a-e6312140458e",
+      "notion_id": "315b925882078126ad2ae6312140458e",
       "type": "🏢公司/標的"
     },
     {
@@ -9143,7 +9209,7 @@
       "type": "🏭產業"
     },
     {
-      "description": "廣泛指數降低單一中間財公司與設計變更風險。",
+      "description": "廣泛指數降低單一公司風險；家庭資金期限與流動性決定持有及再平衡方式。",
       "eps": [
         "EP54",
         "EP55",
@@ -9151,11 +9217,12 @@
         "EP57",
         "EP58",
         "EP61",
-        "EP62"
+        "EP62",
+        "EP63"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "ETF 教學（0050 vs 0056）",
       "notion_id": "3a6b925882078182b343f0f8cfe6f892",
       "type": "🏭產業"
@@ -9490,12 +9557,13 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "產業協同、授權中立與競爭法核准必須分層的交易案例。",
+      "description": "GPU 與資料中心成長可以支持長期研究，但約四至五成資產占比觸發集中度再平衡。",
       "eps": [
         "EP56",
         "EP58",
         "EP59",
-        "EP62"
+        "EP62",
+        "EP63"
       ],
       "first_ep": "EP56",
       "id": "ep56-nvidia-nvda",
@@ -10204,9 +10272,10 @@
       "type": "🏭產業"
     },
     {
-      "description": "射頻內容價值提升仍受客戶、庫存、製程與競爭限制。",
+      "description": "手機品牌份額變動須穿過晶片與射頻採購，才能成為聯發科、立積的營收與毛利。",
       "eps": [
-        "EP59"
+        "EP59",
+        "EP63"
       ],
       "first_ep": "EP59",
       "id": "ep59-rf-5g-industry",
@@ -10319,13 +10388,14 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "騰訊持股、遊戲與電商政策傳導觀察案例。",
+      "description": "Garena、Shopee 與 SeaMoney 的財報改善可觸發重估，但仍須分拆虧損和現金流。",
       "eps": [
-        "EP60"
+        "EP60",
+        "EP63"
       ],
       "first_ep": "EP60",
       "id": "ep60-sea-se",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Sea (SE)",
       "notion_id": "3a8b92588207816086cbfddce02bc9e4",
       "type": "🏢公司/標的"
@@ -10559,6 +10629,109 @@
       "name": "被動元件",
       "notion_id": "3a9b9258820781148a1dc85d1a14101c",
       "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "持股因上漲或持續加碼偏離原配置時，用再平衡管理單一公司風險，不因長期看好取消上限。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-concentration-cap",
+      "importance": "⭐⭐⭐",
+      "name": "好公司也要設集中度上限",
+      "notion_id": "3a9b92588207818dbc7effd35a52bf8d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "用新財報更新營收、毛利、guidance、現金流與估值；公告後價格可能漲跌，不能把追價本身當理由。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-earnings-reunderwrite",
+      "importance": "⭐⭐⭐",
+      "name": "財報是重估輸入不是價格指令",
+      "notion_id": "3a9b92588207810d88e1f8f9d4a0415b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "短線消息不必每日改劇本，但競爭、市占、產品或資本配置若實質改變，就要重新評估。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-thesis-trajectory",
+      "importance": "⭐⭐⭐",
+      "name": "公司軌跡改變才重寫長期論點",
+      "notion_id": "3a9b9258820781a2a503f0a308eb0c9c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "制裁競爭者只建立假說；品牌份額、客戶下單、供應商營收與毛利才是受惠落地證據。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-policy-transfer-chain",
+      "importance": "⭐⭐⭐",
+      "name": "政策受惠要走完整條件鏈",
+      "notion_id": "3a9b92588207819a87e1c3f07a6b14e2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "不在第一段急跌就假設最壞情境已反映，可用反彈、量價與新資料確認市場開始重估。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-falling-knife-confirmation",
+      "importance": "⭐⭐⭐",
+      "name": "接刀先等價格與資訊穩定",
+      "notion_id": "3a9b9258820781b1a402d255a9b09fb4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "原始買價是歷史；比較現有資金留在原標的與轉去更佳標的的未來報酬與風險。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-opportunity-cost-exit",
+      "importance": "⭐⭐⭐",
+      "name": "停利停損都比較機會成本",
+      "notion_id": "3a9b9258820781c5ae7ff61057b8ec0e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "家庭、醫療、教育與生活選擇會改變未來負債，資產計畫要保留現金、安全墊與持續收入能力。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-dynamic-liability-freedom",
+      "importance": "⭐⭐⭐",
+      "name": "財務自由是動態負債管理",
+      "notion_id": "3a9b92588207818b8f37e0868951dccf",
+      "type": "💡概念"
+    },
+    {
+      "description": "位於華為出口管制損失與小米／OPPO 可能轉單之間，須由許可、訂單、ASP 與毛利驗證。",
+      "eps": [
+        "EP63"
+      ],
+      "first_ep": "EP63",
+      "id": "ep63-mediatek",
+      "importance": "⭐⭐⭐",
+      "name": "聯發科 (2454.TW)",
+      "notion_id": "3a9b925882078174a407f5980fbf5052",
+      "type": "🏢公司/標的"
     }
   ]
 }
