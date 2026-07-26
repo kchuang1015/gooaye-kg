@@ -3883,6 +3883,70 @@
       "source_locator": "analysis/EP61_supplemental.json:/mindsets/6",
       "to": "ep54-passive-etf-factor-selection",
       "type": "執行規則"
+    },
+    {
+      "context": "政治表態、直接訂閱與二級市場成交具有不同公司現金流效果。",
+      "ep": "EP62",
+      "from": "ep62-position-support-ledger",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/0",
+      "to": "ep61-next-digital",
+      "type": "資金流分帳"
+    },
+    {
+      "context": "週期股高報酬由供需反轉和永久套牢風險補償。",
+      "ep": "EP62",
+      "from": "ep62-risk-premium-source",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/1",
+      "to": "ep62-cycle-exit-sheet",
+      "type": "風險定價"
+    },
+    {
+      "context": "MLCC 峰值獲利不能直接永久年化。",
+      "ep": "EP62",
+      "from": "ep62-peak-earnings",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/2",
+      "to": "ep62-passive-components",
+      "type": "週期估值"
+    },
+    {
+      "context": "ABF 題材沿月營收、良率、產能與現金流驗證。",
+      "ep": "EP62",
+      "from": "ep62-theme-revenue-chain",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/3",
+      "to": "pcb-5g",
+      "type": "驗證鏈"
+    },
+    {
+      "context": "新增產能、交期、ASP 與庫存共同監控載板週期反轉。",
+      "ep": "EP62",
+      "from": "ep62-cycle-exit-sheet",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/4",
+      "to": "ep62-unimicron",
+      "type": "退出規則"
+    },
+    {
+      "context": "節目提及欣興不構成買進、停損或追回授權。",
+      "ep": "EP62",
+      "from": "ep62-research-not-order",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/5",
+      "to": "ep62-unimicron",
+      "type": "交易責任"
+    },
+    {
+      "context": "看不懂單一供應鏈時可以不交易或改用廣泛指數。",
+      "ep": "EP62",
+      "from": "ep62-abstention-right",
+      "source_locator": "analysis/EP62_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "工具選擇"
+    },
+    {
+      "context": "交易協同與買方理性不能取代競爭法核准。",
+      "ep": "EP62",
+      "from": "ep56-nvidia-nvda",
+      "source_locator": "analysis/EP62_supplemental.json:/holdings/7",
+      "to": "ep62-risk-premium-source",
+      "type": "監管門檻"
     }
   ],
   "metadata": {
@@ -3890,9 +3954,9 @@
     "lastUpdated": "2026-07-26",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-26",
-    "source": "EP1-EP61 分析報告",
-    "total_entities": 491,
-    "total_relations": 515
+    "source": "EP1-EP62 分析報告",
+    "total_entities": 500,
+    "total_relations": 523
   },
   "nodes": [
     {
@@ -4380,7 +4444,7 @@
     },
     {
       "code": "",
-      "description": "終端產品只建立需求假說；耀華、台郡等中間財仍須逐家驗證客戶、訂單、良率與毛利。",
+      "description": "5G、伺服器與 HPC 題材須落到市占、良率、產能與 ASP。",
       "eps": [
         "EP3",
         "EP4",
@@ -4388,11 +4452,12 @@
         "EP6",
         "EP7",
         "EP8",
-        "EP53"
+        "EP53",
+        "EP62"
       ],
       "first_ep": "EP3",
       "id": "pcb-5g",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "PCB / 5G / IC 載板",
       "notion_id": "3a6b92588207810484f9e678b872b2ac",
       "type": "🏭產業"
@@ -9078,14 +9143,15 @@
       "type": "🏭產業"
     },
     {
-      "description": "現成產品與自組組合交換費用、控制和維護責任。",
+      "description": "廣泛指數降低單一中間財公司與設計變更風險。",
       "eps": [
         "EP54",
         "EP55",
         "EP56",
         "EP57",
         "EP58",
-        "EP61"
+        "EP61",
+        "EP62"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -9424,11 +9490,12 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "成長股按規則分批與保留核心部位案例。",
+      "description": "產業協同、授權中立與競爭法核准必須分層的交易案例。",
       "eps": [
         "EP56",
         "EP58",
-        "EP59"
+        "EP59",
+        "EP62"
       ],
       "first_ep": "EP56",
       "id": "ep56-nvidia-nvda",
@@ -10377,6 +10444,121 @@
       "name": "康友-KY (6452.TW)",
       "notion_id": "3a9b9258820781cfa0acdb23f1e779f2",
       "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "先確認資金是否直接進入公司，再把價值立場與二級市場損益分開，並限制可損失部位。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-position-support-ledger",
+      "importance": "⭐⭐⭐",
+      "name": "立場、支持與交易三本帳",
+      "notion_id": "3a9b9258820781969568fa88402b0dde",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "報酬補償波動、違約、流動性或永久損失；宣稱零風險高報酬時先按詐騙處理。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-risk-premium-source",
+      "importance": "⭐⭐⭐",
+      "name": "高報酬先找風險來源",
+      "notion_id": "3a9b9258820781909796f4f4543bc41f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "短期缺貨與漲價可以是真基本面，但須持續追蹤擴產、售價、庫存和終端需求。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-peak-earnings",
+      "importance": "⭐⭐⭐",
+      "name": "峰值獲利不永久年化",
+      "notion_id": "3a9b9258820781f7b553d2d0744b6a3c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "產業規格與市場注意力只是研究入口，訂單、月營收、毛利與現金流才是公司兌現證據。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-theme-revenue-chain",
+      "importance": "⭐⭐⭐",
+      "name": "題材用營收與財報落地",
+      "notion_id": "3a9b92588207817296aac19e823e30ff",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "在缺貨行情仍好時就列出新增產能、交期縮短、ASP 下滑、庫存上升與需求消失等退出警報。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-cycle-exit-sheet",
+      "importance": "⭐⭐⭐",
+      "name": "供需循環預先寫退出條件",
+      "notion_id": "3a9b92588207814e9ec8ed7f62445fbf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "節目、群組與券商報告只能提供線索，買賣與停損不能交給內容提供者決定。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-research-not-order",
+      "importance": "⭐⭐⭐",
+      "name": "研究來源不等於下單授權",
+      "notion_id": "3a9b925882078186aa19f3ff72a85361",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "證據不足的題材可以避開；沒有交易不等於看空，也不必證明市場錯誤。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-abstention-right",
+      "importance": "⭐⭐⭐",
+      "name": "看不懂時保留放棄權",
+      "notion_id": "3a9b9258820781bea060f2cd179816e8",
+      "type": "💡概念"
+    },
+    {
+      "description": "ABF 載板受惠與歷史擴產失誤同時存在的週期案例。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-unimicron",
+      "importance": "⭐⭐⭐",
+      "name": "欣興 (3037.TW)",
+      "notion_id": "3a9b9258820781adaaaad4d61529514d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "MLCC 缺貨漲價與擴產、庫存、需求反轉的週期。",
+      "eps": [
+        "EP62"
+      ],
+      "first_ep": "EP62",
+      "id": "ep62-passive-components",
+      "importance": "⭐⭐⭐",
+      "name": "被動元件",
+      "notion_id": "3a9b9258820781148a1dc85d1a14101c",
+      "type": "🏭產業"
     }
   ]
 }
