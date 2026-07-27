@@ -4147,6 +4147,86 @@
       "source_locator": "analysis/EP65_supplemental.json:/mindsets/7",
       "to": "ep54-passive-etf-factor-selection",
       "type": "策略切換"
+    },
+    {
+      "context": "不猜頂部，而以固定衝擊後的收復、估值與基本面作調整依據。",
+      "ep": "EP66",
+      "from": "ep66-evidence-before-turn",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/0",
+      "to": "ep66-shock-recovery",
+      "type": "證據門檻"
+    },
+    {
+      "context": "遠期假設已充分反映在價格時，好公司仍可能成為低報酬投資。",
+      "ep": "EP66",
+      "from": "ep66-forward-pe-assumptions",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/2",
+      "to": "ep66-good-company-bad-price",
+      "type": "估值約束"
+    },
+    {
+      "context": "欣興、景碩與南電在 8 月 20 日後未完全收復，須重新檢查估值與需求。",
+      "ep": "EP66",
+      "from": "ep66-shock-recovery",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/3",
+      "to": "pcb-5g",
+      "type": "相對強弱"
+    },
+    {
+      "context": "Starlink 概念必須落到訂單、營收占比與毛利，純度高也提高客戶集中。",
+      "ep": "EP66",
+      "from": "ep66-theme-purity",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/4",
+      "to": "ep64-leo-haps-industry",
+      "type": "營收驗證"
+    },
+    {
+      "context": "啟碁是網通與 Starlink 研究線索，但公司當時仍難預測相關營收占比。",
+      "ep": "EP66",
+      "from": "ep64-leo-haps-industry",
+      "source_locator": "analysis/EP66_supplemental.json:/industry/2",
+      "to": "ep64-wnc",
+      "type": "供應鏈"
+    },
+    {
+      "context": "面板即使出現短缺行情，投資人仍可因缺乏長期把握而跳過。",
+      "ep": "EP66",
+      "from": "ep66-no-strikeout-market",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/5",
+      "to": "panel-industry",
+      "type": "能力圈"
+    },
+    {
+      "context": "新技術與未上市公司先進入研究清單，不因尚無公開市場標的就停止建立框架。",
+      "ep": "EP66",
+      "from": "ep66-reading-discovery",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/7",
+      "to": "ep66-neuralink",
+      "type": "早期研究"
+    },
+    {
+      "context": "Neuralink 展示提高腦機介面能見度，但產業採用仍受臨床、監管與資料治理限制。",
+      "ep": "EP66",
+      "from": "ep66-neuralink",
+      "source_locator": "analysis/EP66_supplemental.json:/holdings/0",
+      "to": "ep66-brain-computer-interface",
+      "type": "產業入口"
+    },
+    {
+      "context": "Tesla 概念股必須以客戶占比、訂單與不可替代性確認，不能用名稱替代品牌曝險。",
+      "ep": "EP66",
+      "from": "ep66-theme-purity",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/4",
+      "to": "ev-tesla-supply-chain",
+      "type": "供應鏈校正"
+    },
+    {
+      "context": "容易行情的主動績效仍須和低成本被動基準及不同市場狀態比較。",
+      "ep": "EP66",
+      "from": "ep66-bull-market-skill",
+      "source_locator": "analysis/EP66_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "基準校準"
     }
   ],
   "metadata": {
@@ -4154,9 +4234,9 @@
     "lastUpdated": "2026-07-27",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-27",
-    "source": "EP1-EP65 分析報告",
-    "total_entities": 529,
-    "total_relations": 548
+    "source": "EP1-EP66 分析報告",
+    "total_entities": 539,
+    "total_relations": 558
   },
   "nodes": [
     {
@@ -4646,7 +4726,7 @@
     },
     {
       "code": "",
-      "description": "5G、伺服器與 HPC 題材須落到市占、良率、產能與 ASP。",
+      "description": "ABF 長期需求仍須和已反映遠期獲利的價格、良率、ASP、擴產與需求風險分開。",
       "eps": [
         "EP3",
         "EP4",
@@ -4655,7 +4735,8 @@
         "EP7",
         "EP8",
         "EP53",
-        "EP62"
+        "EP62",
+        "EP66"
       ],
       "first_ep": "EP3",
       "id": "pcb-5g",
@@ -8225,13 +8306,14 @@
       "type": "🏭產業"
     },
     {
-      "description": "大尺寸電視價格快速下降、產品容易商品化，加上中國廠商競爭；產業可能有景氣循環行情，但不等於適合長期持有。",
+      "description": "產能退出、整併與短缺可能形成週期窗口，但長期仍受中國補貼、庫存、報價與需求正常化影響。",
       "eps": [
-        "EP46"
+        "EP46",
+        "EP66"
       ],
       "first_ep": "EP46",
       "id": "panel-industry",
-      "importance": "⭐",
+      "importance": "⭐⭐⭐",
       "name": "面板業",
       "notion_id": "3a0b925882078121bf34f7e9efbbc770",
       "type": "🏭產業"
@@ -9090,10 +9172,11 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "供應鏈說法先視為待驗證假說；以可信公告、可歸因營收、毛利或持續價格行為確認題材。",
+      "description": "供應鏈概念須核對客戶占比、訂單、議價權與不可替代性，不能當成品牌直接替代。",
       "eps": [
         "EP52",
-        "EP54"
+        "EP54",
+        "EP66"
       ],
       "first_ep": "EP52",
       "id": "ev-tesla-supply-chain",
@@ -9348,7 +9431,7 @@
       "type": "🏭產業"
     },
     {
-      "description": "00757、VOO 與 VTI 應按總費用、追蹤內容、集中度、稅務與替代方案比較。",
+      "description": "長期被動配置須區分一次性交易成本與年度持續內扣，並比較追蹤、流動性和稅務。",
       "eps": [
         "EP54",
         "EP55",
@@ -9359,7 +9442,8 @@
         "EP62",
         "EP63",
         "EP64",
-        "EP65"
+        "EP65",
+        "EP66"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -10980,9 +11064,10 @@
       "type": "💡概念"
     },
     {
-      "description": "Aquila、Loon、OneWeb 與 Starlink 顯示不同連線路徑；供應鏈須由訂單、營收占比、毛利與持續期間驗證。",
+      "description": "Starlink 供應鏈題材須由訂單、收入占比與毛利驗證，並同時檢查客戶集中。",
       "eps": [
-        "EP64"
+        "EP64",
+        "EP66"
       ],
       "first_ep": "EP64",
       "id": "ep64-leo-haps-industry",
@@ -11004,10 +11089,11 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "網通配置與 8 月 20 日後相對強弱案例，仍須以訂單、營收、毛利與估值確認。",
+      "description": "8 月 20 日後相對收復較好的網通案例，但 Starlink 營收占比仍無法確定。",
       "eps": [
         "EP64",
-        "EP65"
+        "EP65",
+        "EP66"
       ],
       "first_ep": "EP64",
       "id": "ep64-wnc",
@@ -11142,6 +11228,135 @@
       "importance": "⭐⭐⭐",
       "name": "Shopify (SHOP)",
       "notion_id": "3aab92588207813cbc9ec92c6f4eb447",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "願意回吐部分獲利，換取由價格、估值與基本面共同確認的退出訊號。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-evidence-before-turn",
+      "importance": "⭐⭐⭐",
+      "name": "看到證據再調整，不猜轉折",
+      "notion_id": "3aab925882078154b277c1af79e500bc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "產業與公司品質不能抵銷買入價格過高；遠期成長已充分反映時，報酬與永久損失風險會惡化。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-good-company-bad-price",
+      "importance": "⭐⭐⭐",
+      "name": "好公司也可能是爛投資",
+      "notion_id": "3aab9258820781fb8068c1792c975fd9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "成長股估值須明示未來營收、毛利與獲利路徑，不能只拿過去四季獲利機械外推。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-forward-pe-assumptions",
+      "importance": "⭐⭐⭐",
+      "name": "Forward PE 要寫出假設",
+      "notion_id": "3aab925882078103b2e1d72fef20b142",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "以固定異常日比較個股相對強弱，再與估值和基本面交叉，而不是追究無法證實的單一成因。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-shock-recovery",
+      "importance": "⭐⭐⭐",
+      "name": "衝擊後比較收復能力",
+      "notion_id": "3aab92588207812cbd00fa04faa7e795",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "合作、Logo 或供應商身分不能替代訂單、營收占比與毛利；純度高也可能代表集中風險。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-theme-purity",
+      "importance": "⭐⭐⭐",
+      "name": "題材純度用收入驗證",
+      "notion_id": "3aab925882078109a733e5d4b4a7247d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "市場不會因跳過看不懂的題材而三振投資人，只在證據與能力圈充分時出手。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-no-strikeout-market",
+      "importance": "⭐⭐⭐",
+      "name": "只打能力圈內的球",
+      "notion_id": "3aab9258820781408498ef23876a5977",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "容易行情的短期獲利須與基準、風險、回撤及後續高難度市場一起檢驗。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-bull-market-skill",
+      "importance": "⭐⭐⭐",
+      "name": "牛市獲利不等於穩定能力",
+      "notion_id": "3aab9258820781ec9fbcfe4c7db89b9f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "由相鄰公司、興櫃與 IPO 建立研究清單，但早發現不代表可省略來源、財務與估值驗證。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-reading-discovery",
+      "importance": "⭐⭐⭐",
+      "name": "大量閱讀，早於市場發現",
+      "notion_id": "3aab9258820781d897b2cd2130444f72",
+      "type": "💡概念"
+    },
+    {
+      "description": "從神經訊號、植入裝置與手術機器人走向臨床產品；安全、療效、資料權利、監管、價格與可及性決定採用。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-brain-computer-interface",
+      "importance": "⭐⭐⭐",
+      "name": "腦機介面與神經科技",
+      "notion_id": "3aab9258820781b1942efa0ab235afbc",
+      "type": "🏭產業"
+    },
+    {
+      "code": "PRIVATE",
+      "description": "EP66 的腦機介面展示與遠期應用研究入口，不能把願景直接視為已證實產品能力。",
+      "eps": [
+        "EP66"
+      ],
+      "first_ep": "EP66",
+      "id": "ep66-neuralink",
+      "importance": "⭐⭐⭐",
+      "name": "Neuralink",
+      "notion_id": "3aab925882078185b4b7f6663b258c6d",
       "type": "🏢公司/標的"
     }
   ]
