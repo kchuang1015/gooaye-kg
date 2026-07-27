@@ -4011,16 +4011,80 @@
       "source_locator": "analysis/EP63_supplemental.json:/mindsets/6",
       "to": "ep54-passive-etf-factor-selection",
       "type": "資產用途"
+    },
+    {
+      "context": "急跌日建立比較基準，之後把無法收復且估值過高者列為優先減碼對象。",
+      "ep": "EP64",
+      "from": "ep64-shock-reference-day",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/0",
+      "to": "ep64-expensive-laggard-cash",
+      "type": "觸發"
+    },
+    {
+      "context": "Tesla 的連續新高用來說明新高本身不是單獨賣點。",
+      "ep": "EP64",
+      "from": "ep64-new-high-not-exit",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/2",
+      "to": "tesla",
+      "type": "趨勢持有"
+    },
+    {
+      "context": "完成消費端研究後仍需考慮市場開始重估的時點與機會成本。",
+      "ep": "EP64",
+      "from": "ep64-catalyst-entry-timing",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/3",
+      "to": "ep59-costco-cost",
+      "type": "資金時點"
+    },
+    {
+      "context": "高空或低軌題材必須沿平台、終端、訂單、營收占比與毛利逐層驗證。",
+      "ep": "EP64",
+      "from": "ep64-theme-purity-revenue",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/4",
+      "to": "ep64-leo-haps-industry",
+      "type": "產業驗證"
+    },
+    {
+      "context": "設備上出現供應線索不能直接推出獨家、高占比或高獲利。",
+      "ep": "EP64",
+      "from": "ep64-theme-purity-revenue",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/4",
+      "to": "ep64-wnc",
+      "type": "供應鏈驗證"
+    },
+    {
+      "context": "Starlink 是本集低軌寬頻核心案例，需求與經濟性需按使用情境拆分。",
+      "ep": "EP64",
+      "from": "ep64-leo-haps-industry",
+      "source_locator": "analysis/EP64_supplemental.json:/industry/0",
+      "to": "ep64-starlink-private",
+      "type": "核心平台"
+    },
+    {
+      "context": "比較 ETF 前先確認全球、美國、S&P 500 與 Nasdaq-100 的實際範圍。",
+      "ep": "EP64",
+      "from": "ep64-etf-scope-staging",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/6",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "配置校正"
+    },
+    {
+      "context": "VIX 期貨、槓桿與反向 ETP 不應因同樣在交易所掛牌就視為一般長期 ETF。",
+      "ep": "EP64",
+      "from": "ep64-path-dependent-etp",
+      "source_locator": "analysis/EP64_supplemental.json:/mindsets/7",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "產品邊界"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-26",
+    "lastUpdated": "2026-07-27",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-26",
-    "source": "EP1-EP63 分析報告",
-    "total_entities": 508,
-    "total_relations": 531
+    "last_update": "2026-07-27",
+    "source": "EP1-EP64 分析報告",
+    "total_entities": 519,
+    "total_relations": 539
   },
   "nodes": [
     {
@@ -4116,14 +4180,15 @@
     },
     {
       "code": "TSLA",
-      "description": "長期建倉以競品取得實質市占作為論點更新條件，而非每日價格波動。",
+      "description": "創新高與拆股趨勢持有案例；退出仍看論點、估值、集中度和資金用途。",
       "eps": [
         "EP2",
         "EP22",
         "EP32",
         "EP34",
         "EP52",
-        "EP63"
+        "EP63",
+        "EP64"
       ],
       "first_ep": "EP2",
       "id": "tesla",
@@ -9209,7 +9274,7 @@
       "type": "🏭產業"
     },
     {
-      "description": "廣泛指數降低單一公司風險；家庭資金期限與流動性決定持有及再平衡方式。",
+      "description": "校正 VT、VTI、VOO、QQQ 的地理與成分範圍，再按集中、費用、期限與複委託成本分批配置。",
       "eps": [
         "EP54",
         "EP55",
@@ -9218,7 +9283,8 @@
         "EP58",
         "EP61",
         "EP62",
-        "EP63"
+        "EP63",
+        "EP64"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -10200,13 +10266,14 @@
       "type": "💡概念"
     },
     {
-      "description": "會員制消費黏著與較保守配置候選。",
+      "description": "主持人從科技股部分轉向消費端的持股，須追蹤同店銷售、會員續約、毛利與估值。",
       "eps": [
-        "EP59"
+        "EP59",
+        "EP64"
       ],
       "first_ep": "EP59",
       "id": "ep59-costco-cost",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Costco (COST)",
       "notion_id": "3a7b925882078133a6b8e5775226d8d9",
       "type": "🏢公司/標的"
@@ -10731,6 +10798,146 @@
       "importance": "⭐⭐⭐",
       "name": "聯發科 (2454.TW)",
       "notion_id": "3a9b925882078174a407f5980fbf5052",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "當日先避免情緒交易，後續用能否收復、估值與基本面決定減碼，而不是替下跌硬找單一原因。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-shock-reference-day",
+      "importance": "⭐⭐⭐",
+      "name": "急跌日先建基準再下單",
+      "notion_id": "3aab92588207816ca282f8dccf3dc995",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "急跌後持續落後且沒有新獲利證據的高估值標的，比便宜且穩定者更應先降部位。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-expensive-laggard-cash",
+      "importance": "⭐⭐⭐",
+      "name": "高估值弱勢股優先釋放現金",
+      "notion_id": "3aab92588207812cacd8c24344fc68b2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "趨勢股必然透過新高上漲；退出應綁論點、估值、集中度與資金用途。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-new-high-not-exit",
+      "importance": "⭐⭐⭐",
+      "name": "創新高不是單獨賣點",
+      "notion_id": "3aab92588207815cbd74df43857eaa92",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "先完成基本面研究，再等市場資金或量價開始驗證，避免資金長期困在沒有催化劑的標的。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-catalyst-entry-timing",
+      "importance": "⭐⭐⭐",
+      "name": "市場熱度只負責進場時點",
+      "notion_id": "3aab9258820781f5b943c066344892bb",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "專案名稱、Logo 或合作關係只是入口，訂單、營收占比、毛利與持續期間才決定公司價值。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-theme-purity-revenue",
+      "importance": "⭐⭐⭐",
+      "name": "題材純度乘上營收貢獻",
+      "notion_id": "3aab92588207816c901bdb04dc0671a6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "分享可以擴大研究面，但資金量、承受度、現金流與退出條件無法複製。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-no-copy-trading",
+      "importance": "⭐⭐⭐",
+      "name": "群組線索不等於跟單授權",
+      "notion_id": "3aab925882078110bc51e4cebfe3f58c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "先確認 ETF 地理、成分與科技集中，再按期限和風險承受度分批投入。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-etf-scope-staging",
+      "importance": "⭐⭐⭐",
+      "name": "被動配置也要分批與校正範圍",
+      "notion_id": "3aab9258820781c3a2a3ff7e09b8b8b0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "VIX 期貨、槓桿與反向產品需先理解轉倉、溢價、每日重設與持有期風險。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-path-dependent-etp",
+      "importance": "⭐⭐⭐",
+      "name": "複雜 ETP 先讀期限與路徑",
+      "notion_id": "3aab925882078123aa1dd80f23bf6fcb",
+      "type": "💡概念"
+    },
+    {
+      "description": "Aquila、Loon、OneWeb 與 Starlink 顯示不同連線路徑；供應鏈須由訂單、營收占比、毛利與持續期間驗證。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-leo-haps-industry",
+      "importance": "⭐⭐⭐",
+      "name": "低軌衛星與高空通訊",
+      "notion_id": "3aab9258820781cf856ee42c8acfe506",
+      "type": "🏭產業"
+    },
+    {
+      "description": "低軌衛星寬頻核心案例；需求須按偏遠住宅、海事航空、備援與城市替代拆分。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-starlink-private",
+      "importance": "⭐⭐⭐",
+      "name": "SpaceX / Starlink",
+      "notion_id": "3aab92588207818caae9d74d0e20b83e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "Starlink router 供應線索仍須以客戶證據、出貨、營收占比與毛利確認。",
+      "eps": [
+        "EP64"
+      ],
+      "first_ep": "EP64",
+      "id": "ep64-wnc",
+      "importance": "⭐⭐⭐",
+      "name": "啟碁 (6285.TW)",
+      "notion_id": "3aab9258820781af9153d82f5eea5e87",
       "type": "🏢公司/標的"
     }
   ]
