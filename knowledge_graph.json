@@ -4075,6 +4075,78 @@
       "source_locator": "analysis/EP64_supplemental.json:/mindsets/7",
       "to": "ep54-passive-etf-factor-selection",
       "type": "產品邊界"
+    },
+    {
+      "context": "因無法取得分享者完整組合，任何外部線索都先以小比例限制單筆風險。",
+      "ep": "EP65",
+      "from": "ep65-copy-trade-information-gap",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/0",
+      "to": "ep65-position-before-upside",
+      "type": "風險約束"
+    },
+    {
+      "context": "BIGC 的高不確定性以約 7–8% 試單處理，而不是因單日上漲放大到重壓。",
+      "ep": "EP65",
+      "from": "ep65-position-before-upside",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/1",
+      "to": "ep65-bigcommerce",
+      "type": "部位應用"
+    },
+    {
+      "context": "讓正確部位跑而不預設高點，才有機會覆蓋多筆有限停損。",
+      "ep": "EP65",
+      "from": "ep65-win-rate-payoff",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/2",
+      "to": "ep65-no-preset-top",
+      "type": "賺賠比"
+    },
+    {
+      "context": "電商 SaaS 同業仍須按客戶、留存、成長、毛利與競爭品質分別估值。",
+      "ep": "EP65",
+      "from": "ep65-peer-multiple-misuse",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/5",
+      "to": "online-delivery",
+      "type": "估值校正"
+    },
+    {
+      "context": "BigCommerce 不應直接套用 Shopify 的市銷率。",
+      "ep": "EP65",
+      "from": "ep65-peer-multiple-misuse",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/5",
+      "to": "ep65-bigcommerce",
+      "type": "避免套值"
+    },
+    {
+      "context": "Shopify 是產業研究參照，但不是 BIGC 的無條件估值模板。",
+      "ep": "EP65",
+      "from": "online-delivery",
+      "source_locator": "analysis/EP65_supplemental.json:/industry/1",
+      "to": "ep65-shopify",
+      "type": "龍頭參照"
+    },
+    {
+      "context": "顯性佣金降低後，仍須辨認融資、order flow 與其他收入來源以及成交品質。",
+      "ep": "EP65",
+      "from": "ep65-all-in-trading-cost",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/6",
+      "to": "robinhood-platform-risk",
+      "type": "商業模式"
+    },
+    {
+      "context": "網通持股以 8 月 20 日後收復能力配合基本面與估值，而不是在急跌當天立刻清倉。",
+      "ep": "EP65",
+      "from": "ep65-extreme-day-hands-off",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/4",
+      "to": "ep64-wnc",
+      "type": "衝擊後驗證"
+    },
+    {
+      "context": "主動策略若長期含成本後無法打贏基準，應轉向低成本被動配置。",
+      "ep": "EP65",
+      "from": "ep65-active-passive-benchmark",
+      "source_locator": "analysis/EP65_supplemental.json:/mindsets/7",
+      "to": "ep54-passive-etf-factor-selection",
+      "type": "策略切換"
     }
   ],
   "metadata": {
@@ -4082,9 +4154,9 @@
     "lastUpdated": "2026-07-27",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-27",
-    "source": "EP1-EP64 分析報告",
-    "total_entities": 519,
-    "total_relations": 539
+    "source": "EP1-EP65 分析報告",
+    "total_entities": 529,
+    "total_relations": 548
   },
   "nodes": [
     {
@@ -5633,14 +5705,15 @@
     },
     {
       "code": "",
-      "description": "Shopify 透過 Facebook、Walmart 等通路擴大商家觸及，但通路題材仍須由 GMV、營收、現金流與估值驗證。",
+      "description": "BIGC 與 SHOP 同屬電商建站，但客戶、留存、成長、毛利與估值品質必須分別驗證。",
       "eps": [
         "EP23",
-        "EP47"
+        "EP47",
+        "EP65"
       ],
       "first_ep": "EP23",
       "id": "online-delivery",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "外送/電商產業",
       "notion_id": "314b9258820781c79c20f8137c0e4575",
       "type": "🏭產業"
@@ -8126,10 +8199,11 @@
       "type": "💡概念"
     },
     {
-      "description": "遊戲化與零佣金改善體驗，也可能提高交易頻率、追高與平台單點故障；EP53 延伸至 eToro 和跨境監管。",
+      "description": "大型券商降費會觸發競爭，但零佣金仍可能由融資、做市商付款與其他服務收入補貼。",
       "eps": [
         "EP46",
-        "EP53"
+        "EP53",
+        "EP65"
       ],
       "first_ep": "EP46",
       "id": "robinhood-platform-risk",
@@ -9274,7 +9348,7 @@
       "type": "🏭產業"
     },
     {
-      "description": "校正 VT、VTI、VOO、QQQ 的地理與成分範圍，再按集中、費用、期限與複委託成本分批配置。",
+      "description": "00757、VOO 與 VTI 應按總費用、追蹤內容、集中度、稅務與替代方案比較。",
       "eps": [
         "EP54",
         "EP55",
@@ -9284,7 +9358,8 @@
         "EP61",
         "EP62",
         "EP63",
-        "EP64"
+        "EP64",
+        "EP65"
       ],
       "first_ep": "EP54",
       "id": "ep54-passive-etf-factor-selection",
@@ -10929,15 +11004,144 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "Starlink router 供應線索仍須以客戶證據、出貨、營收占比與毛利確認。",
+      "description": "網通配置與 8 月 20 日後相對強弱案例，仍須以訂單、營收、毛利與估值確認。",
       "eps": [
-        "EP64"
+        "EP64",
+        "EP65"
       ],
       "first_ep": "EP64",
       "id": "ep64-wnc",
       "importance": "⭐⭐⭐",
       "name": "啟碁 (6285.TW)",
       "notion_id": "3aab9258820781af9153d82f5eea5e87",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "分享者不知道接收者的成本、現金流、承受度與退出條件，也不替其損益負責。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-copy-trade-information-gap",
+      "importance": "⭐⭐⭐",
+      "name": "分享標的是研究入口，不是委任契約",
+      "notion_id": "3aab9258820781a2b61ed8adf6fe0097",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "高不確定新股或群組線索只能以可承受歸零或停損的比例試單，不能因分享者很強就重壓。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-position-before-upside",
+      "importance": "⭐⭐⭐",
+      "name": "先定單筆風險再談上漲空間",
+      "notion_id": "3aab9258820781b38392c9379f0050f3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "小額停損錯誤部位，並讓論點仍成立的贏家繼續跑，少數正確才有機會覆蓋多筆錯誤。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-win-rate-payoff",
+      "importance": "⭐⭐⭐",
+      "name": "勝率必須和賺賠比一起看",
+      "notion_id": "3aab92588207813fbac2f2978de1f615",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "新高不是單獨賣點；論點、估值、相對弱勢與資金用途才是退出證據。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-no-preset-top",
+      "importance": "⭐⭐⭐",
+      "name": "不要預設高點",
+      "notion_id": "3aab9258820781a4ba0fc00bc2c474ae",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "市場情緒最強的當天不立刻重設組合，待連續性、新事件與個股證據出現再調整。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-extreme-day-hands-off",
+      "importance": "⭐⭐⭐",
+      "name": "急漲急跌當天先綁手",
+      "notion_id": "3aab925882078171a1e9ec773d8595ee",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "客戶品質、留存、成長、毛利與競爭地位不同時，不能把龍頭估值直接套給同業。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-peer-multiple-misuse",
+      "importance": "⭐⭐⭐",
+      "name": "同產業不等於同倍數",
+      "notion_id": "3aab925882078163a6b5cd3b9ced8998",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "顯性費率下降後仍須合併點差、執行品質、低消、融資利率與產品限制。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-all-in-trading-cost",
+      "importance": "⭐⭐⭐",
+      "name": "零手續費仍要算完整成本",
+      "notion_id": "3aab9258820781ed8c00fc9bce784125",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "主動投資應以長期、含成本且風險調整後的結果證明優勢，否則改用被動配置。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-active-passive-benchmark",
+      "importance": "⭐⭐⭐",
+      "name": "打不贏基準就切換被動",
+      "notion_id": "3aab9258820781a7aaddc3f9703087b0",
+      "type": "💡概念"
+    },
+    {
+      "description": "主持人以約 7–8% 資金小量試單的電商 SaaS 新股案例，不能直接套 Shopify 倍數。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-bigcommerce",
+      "importance": "⭐⭐⭐",
+      "name": "BigCommerce (BIGC)",
+      "notion_id": "3aab92588207812c8f25d112e9dc3480",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "電商平台龍頭與 BIGC 的研究參照，但兩者品質與估值不可直接等同。",
+      "eps": [
+        "EP65"
+      ],
+      "first_ep": "EP65",
+      "id": "ep65-shopify",
+      "importance": "⭐⭐⭐",
+      "name": "Shopify (SHOP)",
+      "notion_id": "3aab92588207813cbc9ec92c6f4eb447",
       "type": "🏢公司/標的"
     }
   ]
