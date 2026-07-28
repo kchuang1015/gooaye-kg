@@ -4299,16 +4299,80 @@
       "source_locator": "analysis/EP67_supplemental.json:/mindsets/6",
       "to": "ep67-growth-valuation",
       "type": "時間尺度"
+    },
+    {
+      "context": "用一小段回吐換取可觀察訊號，避免提前猜頂。",
+      "ep": "EP68",
+      "from": "ep68-reference-rule",
+      "source_locator": "analysis/EP68_supplemental.json:/mindsets/1",
+      "to": "ep68-confirmation-cost",
+      "type": "執行約束"
+    },
+    {
+      "context": "分批處理進場時點，持股上限處理單一標的極端風險。",
+      "ep": "EP68",
+      "from": "ep68-staged-entry",
+      "source_locator": "analysis/EP68_supplemental.json:/mindsets/5",
+      "to": "ep68-position-cap",
+      "type": "組合風控"
+    },
+    {
+      "context": "大量 call 可能經交易對手避險傳導到現股，但實際淨曝險仍須查證。",
+      "ep": "EP68",
+      "from": "ep68-softbank",
+      "source_locator": "analysis/EP68_supplemental.json:/holdings/4",
+      "to": "ep68-options-microstructure",
+      "type": "市場微結構案例"
+    },
+    {
+      "context": "可驗證的避險機制不等於單一媒體敘事能解釋全部漲跌。",
+      "ep": "EP68",
+      "from": "ep68-price-story-boundary",
+      "source_locator": "analysis/EP68_supplemental.json:/industry/2",
+      "to": "ep68-options-microstructure",
+      "type": "因果邊界"
+    },
+    {
+      "context": "科學與監管里程碑仍須經採用、收入及現金流完成商業驗證。",
+      "ep": "EP68",
+      "from": "ep68-science-commercialization",
+      "source_locator": "analysis/EP68_supplemental.json:/industry/3",
+      "to": "ep68-biotech-commercialization",
+      "type": "證據鏈"
+    },
+    {
+      "context": "重訊與處置都是研究輸入，不能取代事前商業化證據。",
+      "ep": "EP68",
+      "from": "ep68-disposition-lag",
+      "source_locator": "analysis/EP68_supplemental.json:/mindsets/7",
+      "to": "ep68-biotech-commercialization",
+      "type": "訊號邊界"
+    },
+    {
+      "context": "Tesla 高波動示例說明即使高信念持股仍須限制組合占比。",
+      "ep": "EP68",
+      "from": "ep68-position-cap",
+      "source_locator": "analysis/EP68_supplemental.json:/holdings/3",
+      "to": "ep68-tesla",
+      "type": "集中風險"
+    },
+    {
+      "context": "看好 NVIDIA 仍須等待不再創低及相對強弱訊號。",
+      "ep": "EP68",
+      "from": "ep68-reference-rule",
+      "source_locator": "analysis/EP68_supplemental.json:/holdings/0",
+      "to": "ep67-nvidia",
+      "type": "修正後進場"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-27",
+    "lastUpdated": "2026-07-28",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-27",
-    "source": "EP1-EP67 分析報告",
-    "total_entities": 552,
-    "total_relations": 567
+    "last_update": "2026-07-28",
+    "source": "EP1-EP68 分析報告",
+    "total_entities": 563,
+    "total_relations": 575
   },
   "nodes": [
     {
@@ -11573,9 +11637,10 @@
     },
     {
       "code": "NVDA",
-      "description": "Ampere 性價比、遊戲換卡與資料中心雙支柱的核心標的。",
+      "description": "修正後高信念科技持股與相對強弱觀察標的。",
       "eps": [
-        "EP67"
+        "EP67",
+        "EP68"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
@@ -11595,6 +11660,147 @@
       "importance": "⭐⭐⭐",
       "name": "Zoom Video Communications",
       "notion_id": "3aab9258820781bb9f6ce152d7c9cd76",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "用價格、相對強弱、利率或信用條件形成可重複規則。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-reference-rule",
+      "importance": "⭐⭐⭐",
+      "name": "先定 reference 再交易",
+      "notion_id": "3abb925882078143be80ceb032414624",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "不為抓最高點提前離場，事前決定可接受的確認成本。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-confirmation-cost",
+      "importance": "⭐⭐⭐",
+      "name": "用小回吐換確認",
+      "notion_id": "3abb9258820781b49ec5c5bd1b3082d2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "避免 all in／all out 把一次判斷變成生存問題。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-staged-entry",
+      "importance": "⭐⭐⭐",
+      "name": "分批投入降低時點風險",
+      "notion_id": "3abb9258820781b6a481f2c69574fe62",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "用 5%–10% 類型的上限限制單一標的極端事件對總資產的傷害。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-position-cap",
+      "importance": "⭐⭐⭐",
+      "name": "單一持股設可承受上限",
+      "notion_id": "3abb9258820781cda3e5fdff7afbb01a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "只有重大公司、產業或政策變化才值得重寫論點。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-price-story-boundary",
+      "importance": "⭐⭐⭐",
+      "name": "不要為每次漲跌補故事",
+      "notion_id": "3abb9258820781399febcd8a547d7a90",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "藥證、試驗或期刊成果仍須轉成採用、收入與現金流。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-science-commercialization",
+      "importance": "⭐⭐⭐",
+      "name": "科學與商業化分帳",
+      "notion_id": "3abb92588207811a8588ce6e08375d7e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "價格與成交異常後的標記不能直接當成事前選股優勢。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-disposition-lag",
+      "importance": "⭐⭐⭐",
+      "name": "處置是事後指標",
+      "notion_id": "3abb92588207817bbc56e1ed6447d795",
+      "type": "💡概念"
+    },
+    {
+      "description": "期權訂單、交易對手 delta／gamma 避險、現股價格與平倉形成回饋鏈。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-options-microstructure",
+      "importance": "⭐⭐⭐",
+      "name": "選擇權流量與市場微結構",
+      "notion_id": "3abb9258820781079a47f8247574c4a5",
+      "type": "🏭產業"
+    },
+    {
+      "description": "把科學、監管、製造、給付、採用、收入與現金流逐層驗證。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-biotech-commercialization",
+      "importance": "⭐⭐⭐",
+      "name": "生技商業化與事件驗證",
+      "notion_id": "3abb9258820781b78097f667850b0802",
+      "type": "🏭產業"
+    },
+    {
+      "code": "9984.T",
+      "description": "科技股與 call 部位、交易對手避險及市場敘事的案例。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-softbank",
+      "importance": "⭐⭐⭐",
+      "name": "SoftBank Group",
+      "notion_id": "3abb92588207815896add0ccf7b7c999",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "TSLA",
+      "description": "散戶集中、短線波動、長期持有與組合上限案例。",
+      "eps": [
+        "EP68"
+      ],
+      "first_ep": "EP68",
+      "id": "ep68-tesla",
+      "importance": "⭐⭐⭐",
+      "name": "Tesla",
+      "notion_id": "315b925882078119bc7ec6cdb895ad87",
       "type": "🏢公司/標的"
     }
   ]
