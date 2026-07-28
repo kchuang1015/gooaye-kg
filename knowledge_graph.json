@@ -4227,6 +4227,78 @@
       "source_locator": "analysis/EP66_supplemental.json:/mindsets/6",
       "to": "ep54-passive-etf-factor-selection",
       "type": "基準校準"
+    },
+    {
+      "context": "Zoom 已實現高成長之外，上調全年展望才是節目認為的主要重新定價原因。",
+      "ep": "EP67",
+      "from": "ep67-guidance-catalyst",
+      "source_locator": "analysis/EP67_supplemental.json:/holdings/0",
+      "to": "ep67-zoom",
+      "type": "財報重估"
+    },
+    {
+      "context": "反對公司或產品可用拒用與倡議表達，不能直接推出無風控放空。",
+      "ep": "EP67",
+      "from": "ep67-position-values-ledger",
+      "source_locator": "analysis/EP67_supplemental.json:/mindsets/1",
+      "to": "ep67-zoom",
+      "type": "風險分帳"
+    },
+    {
+      "context": "依政治、社會與投資目標選擇直接有效的工具，避免混用股票交易。",
+      "ep": "EP67",
+      "from": "ep67-effective-support",
+      "source_locator": "analysis/EP67_supplemental.json:/mindsets/2",
+      "to": "ep67-position-values-ledger",
+      "type": "行動選擇"
+    },
+    {
+      "context": "漲幅使持股超過上限時減碼，是控制組合風險而非必然看空。",
+      "ep": "EP67",
+      "from": "ep67-rebalancing-not-bearish",
+      "source_locator": "analysis/EP67_supplemental.json:/mindsets/3",
+      "to": "ep67-position-cap",
+      "type": "組合約束"
+    },
+    {
+      "context": "Ampere 的效能價格改善可能推動遊戲換卡，並與資料中心形成雙支柱。",
+      "ep": "EP67",
+      "from": "ep67-nvidia",
+      "source_locator": "analysis/EP67_supplemental.json:/holdings/1",
+      "to": "ep67-gpu-ai",
+      "type": "產品催化"
+    },
+    {
+      "context": "GPU 換卡可能連帶推升 CPU、散熱、電源與其他 DIY 零組件需求。",
+      "ep": "EP67",
+      "from": "ep67-gpu-ai",
+      "source_locator": "analysis/EP67_supplemental.json:/industry/2",
+      "to": "ep67-pc-diy",
+      "type": "需求傳導"
+    },
+    {
+      "context": "整體換機趨勢仍須逐家公司核對料號、訂單、收入占比與毛利。",
+      "ep": "EP67",
+      "from": "ep67-supply-chain-evidence",
+      "source_locator": "analysis/EP67_supplemental.json:/mindsets/5",
+      "to": "ep67-pc-diy",
+      "type": "證據門檻"
+    },
+    {
+      "context": "題材與市場信念之外，未獲利公司仍須用營收、市占及單位經濟建立數字底線。",
+      "ep": "EP67",
+      "from": "ep67-growth-numeric-floor",
+      "source_locator": "analysis/EP67_supplemental.json:/industry/3",
+      "to": "ep67-growth-valuation",
+      "type": "估值約束"
+    },
+    {
+      "context": "多年期成長論點應以基本面里程碑而非每日漲跌驗證。",
+      "ep": "EP67",
+      "from": "ep67-long-thesis-horizon",
+      "source_locator": "analysis/EP67_supplemental.json:/mindsets/6",
+      "to": "ep67-growth-valuation",
+      "type": "時間尺度"
     }
   ],
   "metadata": {
@@ -4234,9 +4306,9 @@
     "lastUpdated": "2026-07-27",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-27",
-    "source": "EP1-EP66 分析報告",
-    "total_entities": 539,
-    "total_relations": 558
+    "source": "EP1-EP67 分析報告",
+    "total_entities": 552,
+    "total_relations": 567
   },
   "nodes": [
     {
@@ -11357,6 +11429,172 @@
       "importance": "⭐⭐⭐",
       "name": "Neuralink",
       "notion_id": "3aab925882078185b4b7f6663b258c6d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "把已實現數字、guidance 與 catalyst 分開，辨認真正改變估值路徑的項目。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-guidance-catalyst",
+      "importance": "⭐⭐⭐",
+      "name": "財報看過去，展望看未來",
+      "notion_id": "3aab92588207816aaf54e2c5f9bfa0ad",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "政治或道德訴求不能代替交易時點、風控與報酬分析。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-position-values-ledger",
+      "importance": "⭐⭐⭐",
+      "name": "立場和部位分帳",
+      "notion_id": "3aab9258820781ffaa6dd673171f21b6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "訂閱、捐款或拒用產品通常比刺激股票交易更直接。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-effective-support",
+      "importance": "⭐⭐⭐",
+      "name": "用有效工具支持目標",
+      "notion_id": "3aab925882078137ae51c52f732b7397",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "判讀基金信念要看持股權重、排名與規則，不能只看每日賣出。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-rebalancing-not-bearish",
+      "importance": "⭐⭐⭐",
+      "name": "再平衡不是看空",
+      "notion_id": "3aab9258820781a5a7e4f365ccf3745a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "高信念持股也可能因上漲自然超重，需管理組合波動與永久損失。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-position-cap",
+      "importance": "⭐⭐⭐",
+      "name": "單一持股設上限",
+      "notion_id": "3aab9258820781429b2bc9ed324ae760",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "終端產品趨勢不等於每一家概念股都有訂單；由需求、BOM、供應關係查到財務貢獻。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-supply-chain-evidence",
+      "importance": "⭐⭐⭐",
+      "name": "供應鏈由證據往回推",
+      "notion_id": "3aab9258820781f6987bfc18ca853dc5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "多年期採用論點應由營收、留存與市占驗證，不以每日價差反覆進出。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-long-thesis-horizon",
+      "importance": "⭐⭐⭐",
+      "name": "長期論點不用每日漲跌驗證",
+      "notion_id": "3aab9258820781d88f9dcbd22e6bf28e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "即使尚未獲利，營收、市占與單位經濟也必須呈現可驗證改善。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-growth-numeric-floor",
+      "importance": "⭐⭐⭐",
+      "name": "成長股的夢要有數字",
+      "notion_id": "3aab9258820781a9b91af78988828632",
+      "type": "💡概念"
+    },
+    {
+      "description": "GPU 架構、晶圓供給、軟體生態、板卡與終端需求共同決定遊戲、內容與資料中心採用。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-gpu-ai",
+      "importance": "⭐⭐⭐",
+      "name": "GPU / AI 運算",
+      "notion_id": "3aab9258820781a29cb2cb6770c69a7a",
+      "type": "🏭產業"
+    },
+    {
+      "description": "換卡可能傳導至 CPU、散熱、電源、PCB 與通路，但每一環財務受惠須獨立驗證。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-pc-diy",
+      "importance": "⭐⭐⭐",
+      "name": "PC / DIY 與零組件",
+      "notion_id": "3aab92588207814d91e1deb549f0ad33",
+      "type": "🏭產業"
+    },
+    {
+      "description": "用市場空間、收入、市占、單位經濟、PS 與情境 DCF 研究未獲利公司。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-growth-valuation",
+      "importance": "⭐⭐⭐",
+      "name": "成長股估值",
+      "notion_id": "3aab925882078105b4fff55336f7a7ae",
+      "type": "🏭產業"
+    },
+    {
+      "code": "NVDA",
+      "description": "Ampere 性價比、遊戲換卡與資料中心雙支柱的核心標的。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-nvidia",
+      "importance": "⭐⭐⭐",
+      "name": "NVIDIA",
+      "notion_id": "3aab9258820781a78d1de0a7984b8821",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "ZM",
+      "description": "高成長財報、guidance、資安與政治標籤交易的案例。",
+      "eps": [
+        "EP67"
+      ],
+      "first_ep": "EP67",
+      "id": "ep67-zoom",
+      "importance": "⭐⭐⭐",
+      "name": "Zoom Video Communications",
+      "notion_id": "3aab9258820781bb9f6ce152d7c9cd76",
       "type": "🏢公司/標的"
     }
   ]
