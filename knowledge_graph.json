@@ -4363,6 +4363,102 @@
       "source_locator": "analysis/EP68_supplemental.json:/holdings/0",
       "to": "ep67-nvidia",
       "type": "修正後進場"
+    },
+    {
+      "context": "主動資金預先布局指數事件，並可能在被動基金生效日提供賣方流量。",
+      "ep": "EP69",
+      "from": "ep69-event-front-running",
+      "source_locator": "analysis/EP69_supplemental.json:/industry/0",
+      "to": "ep69-index-passive-flow",
+      "type": "市場微結構"
+    },
+    {
+      "context": "Tesla 名單落空打破預先賣給被動基金的交易假設，未來納入仍不保證事件日上漲。",
+      "ep": "EP69",
+      "from": "ep69-index-passive-flow",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/0",
+      "to": "ep68-tesla",
+      "type": "指數納入事件"
+    },
+    {
+      "context": "全市場覆蓋可較早持有尚未被 S&P 委員會納入的大型新興公司。",
+      "ep": "EP69",
+      "from": "ep69-index-passive-flow",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/1",
+      "to": "ep69-vti",
+      "type": "指數方法選擇"
+    },
+    {
+      "context": "先確認買進理由，再用組合上限限制即使論點未變仍可能發生的極端波動。",
+      "ep": "EP69",
+      "from": "ep69-thesis-before-price",
+      "source_locator": "analysis/EP69_supplemental.json:/mindsets/2",
+      "to": "ep69-concentration-cap",
+      "type": "論點與部位"
+    },
+    {
+      "context": "等待與研究必須轉成自己的方法，不能用追隨單一人物取代判斷。",
+      "ep": "EP69",
+      "from": "ep69-waiting-edge",
+      "source_locator": "analysis/EP69_supplemental.json:/mindsets/5",
+      "to": "ep69-no-guru",
+      "type": "自主決策"
+    },
+    {
+      "context": "華為與中芯政策尚未完全確定時，只能以小部位條件式研究。",
+      "ep": "EP69",
+      "from": "ep69-policy-small-position",
+      "source_locator": "analysis/EP69_supplemental.json:/industry/2",
+      "to": "ep69-china-tech-restrictions",
+      "type": "政策風險"
+    },
+    {
+      "context": "華為限制先傷害既有客戶收入，再看 OPPO、小米等替代訂單能否補上。",
+      "ep": "EP69",
+      "from": "ep69-china-tech-restrictions",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/6",
+      "to": "ep69-mediatek",
+      "type": "客戶集中"
+    },
+    {
+      "context": "中芯限制只有在製程、產能與認證相符時，才會轉為台灣成熟製程訂單。",
+      "ep": "EP69",
+      "from": "ep69-china-tech-restrictions",
+      "source_locator": "analysis/EP69_supplemental.json:/industry/3",
+      "to": "tsmc-local-supply-ecosystem",
+      "type": "轉單傳導"
+    },
+    {
+      "context": "聯電產能滿載時，題材可能先反映為報價與產品組合，而非無限制承接量。",
+      "ep": "EP69",
+      "from": "tsmc-local-supply-ecosystem",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/8",
+      "to": "ep69-umc",
+      "type": "滿載議價"
+    },
+    {
+      "context": "世界先進新加坡廠可能增加成熟製程承接能力，但仍須通過製程和客戶認證。",
+      "ep": "EP69",
+      "from": "tsmc-local-supply-ecosystem",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/9",
+      "to": "ep69-vis",
+      "type": "新增產能"
+    },
+    {
+      "context": "Joe Rogan 事件的政策與回應會影響創作者信任、平台定位及原投資論點。",
+      "ep": "EP69",
+      "from": "ep69-podcast-governance",
+      "source_locator": "analysis/EP69_supplemental.json:/holdings/10",
+      "to": "ep69-spotify",
+      "type": "平台治理案例"
+    },
+    {
+      "context": "ETF 溢價與槓桿耗損都要求交易前設閘門，無法監控時更應降低複雜曝險。",
+      "ep": "EP69",
+      "from": "ep69-etf-premium-gate",
+      "source_locator": "analysis/EP69_supplemental.json:/mindsets/8",
+      "to": "ep69-offline-leverage",
+      "type": "產品風控"
     }
   ],
   "metadata": {
@@ -4370,9 +4466,9 @@
     "lastUpdated": "2026-07-28",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-28",
-    "source": "EP1-EP68 分析報告",
-    "total_entities": 563,
-    "total_relations": 575
+    "source": "EP1-EP69 分析報告",
+    "total_entities": 580,
+    "total_relations": 587
   },
   "nodes": [
     {
@@ -9178,10 +9274,11 @@
       "type": "💡概念"
     },
     {
-      "description": "台積電長期技術優勢和短線買進成本分開；5 奈米、7 奈米與資本支出支持營運，不替追價背書。",
+      "description": "成熟製程轉單須同時滿足製程匹配、可用產能、客戶認證與價格。",
       "eps": [
         "EP51",
-        "EP53"
+        "EP53",
+        "EP69"
       ],
       "first_ep": "EP51",
       "id": "tsmc-local-supply-ecosystem",
@@ -11792,15 +11889,233 @@
     },
     {
       "code": "TSLA",
-      "description": "散戶集中、短線波動、長期持有與組合上限案例。",
+      "description": "S&P 500 名單落空、增資、內部人交易、電動車先行者與集中風險案例。",
       "eps": [
-        "EP68"
+        "EP68",
+        "EP69"
       ],
       "first_ep": "EP68",
       "id": "ep68-tesla",
       "importance": "⭐⭐⭐",
       "name": "Tesla",
       "notion_id": "315b925882078119bc7ec6cdb895ad87",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "被動買盤、指數納入或政策結果可推測時，價格可能在正式日期前反映。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-event-front-running",
+      "importance": "⭐⭐⭐",
+      "name": "市場會提前交易事件",
+      "notion_id": "3abb9258820781a6911ccffaa702e197",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "價格下跌不是論點本身，重新檢查證據與部位再決定調整。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-thesis-before-price",
+      "importance": "⭐⭐⭐",
+      "name": "先問買進理由是否改變",
+      "notion_id": "3abb92588207812e87afcd4373a6c9e4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "再喜歡的公司都不能取消單一標的極端事件與組合上限。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-concentration-cap",
+      "importance": "⭐⭐⭐",
+      "name": "高信念也不集中",
+      "notion_id": "3abb9258820781d3bbfad805386b35b7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "多數優勢來自挑選和等待，而不是提高成交次數。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-waiting-edge",
+      "importance": "⭐⭐⭐",
+      "name": "等待多於交易",
+      "notion_id": "3abb9258820781d2835bd7e1635d5482",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "理解原則的前因後果，再建立適合自己的方法與方向。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-no-guru",
+      "importance": "⭐⭐⭐",
+      "name": "不要把任何人當神",
+      "notion_id": "3abb9258820781c7bb81f18d1fe28009",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "制裁與轉單未落地前只能條件式布局，不能重壓。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-policy-small-position",
+      "importance": "⭐⭐⭐",
+      "name": "未確定政策題材只用小部位",
+      "notion_id": "3abb92588207812393bcd480c2cb5ecc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "申贖機制不保證任何價格都合理，買入前必須比較市價和淨值。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-etf-premium-gate",
+      "importance": "⭐⭐⭐",
+      "name": "ETF 先過溢價閘門",
+      "notion_id": "3abb9258820781b3bf17c6b8d2a029a9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "無法看盤或調節時，先清掉會放大不可控波動的部位。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-offline-leverage",
+      "importance": "⭐⭐⭐",
+      "name": "離線前移除槓桿",
+      "notion_id": "3abb92588207814eb511ee3745ef6648",
+      "type": "💡概念"
+    },
+    {
+      "description": "指數規則、事件前置交易、被動基金再平衡與個股供需形成事件鏈。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-index-passive-flow",
+      "importance": "⭐⭐⭐",
+      "name": "指數編製與被動資金",
+      "notion_id": "3abb92588207819890e4f9f9c5e07d21",
+      "type": "🏭產業"
+    },
+    {
+      "description": "傳統車廠加速布局電動車，但產業滲透與個別公司競爭力須分帳。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-ev-incumbent-transition",
+      "importance": "⭐⭐⭐",
+      "name": "電動車 / Tesla 供應鏈",
+      "notion_id": "3a6b9258820781da9baed9d0dfa7627f",
+      "type": "🏭產業"
+    },
+    {
+      "description": "政策衝擊沿客戶集中、替代訂單、製程、產能與認證傳導。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-china-tech-restrictions",
+      "importance": "⭐⭐⭐",
+      "name": "去全球化 / 美中脫鉤",
+      "notion_id": "3abb925882078143ae55c33bd9ee3cb1",
+      "type": "🏭產業"
+    },
+    {
+      "description": "獨家內容、平台政策、創作者信任、聽眾留存與變現共同決定平台優勢。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-podcast-governance",
+      "importance": "⭐⭐⭐",
+      "name": "Podcast 平台與內容治理",
+      "notion_id": "3abb9258820781bab064ea7ddeb824be",
+      "type": "🏭產業"
+    },
+    {
+      "code": "VTI",
+      "description": "全市場覆蓋與較少受 S&P 委員會納入時點影響的核心 ETF。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-vti",
+      "importance": "⭐⭐⭐",
+      "name": "Vanguard Total Stock Market ETF",
+      "notion_id": "3abb9258820781c08f57f74f36c80e8e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2454.TW",
+      "description": "華為客戶集中、政策限制與替代手機品牌訂單的案例。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-mediatek",
+      "importance": "⭐⭐⭐",
+      "name": "聯發科",
+      "notion_id": "3abb925882078118be8dd07886611395",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2303.TW",
+      "description": "成熟製程滿載、報價與中芯轉單題材案例。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-umc",
+      "importance": "⭐⭐⭐",
+      "name": "聯電",
+      "notion_id": "3abb925882078106aedbd6e8c29e855f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "5347.TWO",
+      "description": "新加坡廠產能與成熟製程轉單候選。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-vis",
+      "importance": "⭐⭐⭐",
+      "name": "世界先進",
+      "notion_id": "3abb9258820781af8af1ece9b9671ba0",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "SPOT",
+      "description": "Joe Rogan 事件下內容治理、創作者承諾與平台定位案例。",
+      "eps": [
+        "EP69"
+      ],
+      "first_ep": "EP69",
+      "id": "ep69-spotify",
+      "importance": "⭐⭐⭐",
+      "name": "Spotify",
+      "notion_id": "3abb9258820781f9a615db0a836e5f45",
       "type": "🏢公司/標的"
     }
   ]
