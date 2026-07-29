@@ -4459,6 +4459,70 @@
       "source_locator": "analysis/EP69_supplemental.json:/mindsets/8",
       "to": "ep69-offline-leverage",
       "type": "產品風控"
+    },
+    {
+      "context": "分批買進把公司品質判斷與單次買入價格錯誤分開管理。",
+      "ep": "EP70",
+      "from": "ep70-ipo-staged-buying",
+      "source_locator": "analysis/EP70_supplemental.json:/mindsets/0",
+      "to": "ep70-quality-cost-separation",
+      "type": "價格與部位"
+    },
+    {
+      "context": "新股研究必須同時檢查上市主體、估值、籌碼與買入成本。",
+      "ep": "EP70",
+      "from": "ep70-quality-cost-separation",
+      "source_locator": "analysis/EP70_supplemental.json:/industry/0",
+      "to": "ep70-ipo-asset-boundary-industry",
+      "type": "IPO 研究框架"
+    },
+    {
+      "context": "承銷價差只有在實際取得、交割並可按可觀察價格退出後才成為報酬。",
+      "ep": "EP70",
+      "from": "ep70-executable-return",
+      "source_locator": "analysis/EP70_supplemental.json:/industry/0",
+      "to": "ep70-ipo-asset-boundary-industry",
+      "type": "承銷與流動性"
+    },
+    {
+      "context": "集團能力須依公開說明書與關係人交易拆回上市法人實際持有的現金流。",
+      "ep": "EP70",
+      "from": "ep70-listed-asset-boundary",
+      "source_locator": "analysis/EP70_supplemental.json:/mindsets/3",
+      "to": "ep70-ipo-asset-boundary-industry",
+      "type": "法人邊界"
+    },
+    {
+      "context": "做空者動機提高查核強度，但每項影片、技術、零件與治理證據仍須獨立判讀。",
+      "ep": "EP70",
+      "from": "ep70-evidence-over-motive",
+      "source_locator": "analysis/EP70_supplemental.json:/holdings/6",
+      "to": "ep70-nikola",
+      "type": "查核方法"
+    },
+    {
+      "context": "Nikola 的氫氣降本敘事必須在完整技術、能源、規模和運儲分母下重算。",
+      "ep": "EP70",
+      "from": "ep70-nikola",
+      "source_locator": "analysis/EP70_supplemental.json:/industry/2",
+      "to": "ep70-hydrogen-economics",
+      "type": "成本聲稱"
+    },
+    {
+      "context": "沒有扣成本後的主動優勢時，以低成本指數核心降低無效操作。",
+      "ep": "EP70",
+      "from": "ep70-passive-baseline",
+      "source_locator": "analysis/EP70_supplemental.json:/mindsets/5",
+      "to": "ep70-reduce-short-term-churn",
+      "type": "投資方法"
+    },
+    {
+      "context": "不預設高點不代表不風控，而是以論點和明確修正取代頻繁來回交易。",
+      "ep": "EP70",
+      "from": "ep70-no-predefined-top",
+      "source_locator": "analysis/EP70_supplemental.json:/mindsets/7",
+      "to": "ep70-reduce-short-term-churn",
+      "type": "趨勢與調整"
     }
   ],
   "metadata": {
@@ -4466,9 +4530,9 @@
     "lastUpdated": "2026-07-28",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-28",
-    "source": "EP1-EP69 分析報告",
-    "total_entities": 580,
-    "total_relations": 587
+    "source": "EP1-EP70 分析報告",
+    "total_entities": 591,
+    "total_relations": 595
   },
   "nodes": [
     {
@@ -12116,6 +12180,147 @@
       "importance": "⭐⭐⭐",
       "name": "Spotify",
       "notion_id": "3abb9258820781f9a615db0a836e5f45",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "上市初期的價格發現與籌碼釋放會放大波動，分批是控制單次價格錯誤而非預測低點。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-ipo-staged-buying",
+      "importance": "⭐⭐⭐",
+      "name": "IPO 必須分批",
+      "notion_id": "3abb925882078159b091fda34d398c30",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "好公司仍可能因買入成本過高而成為壞投資，品質、價格與部位必須分開決策。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-quality-cost-separation",
+      "importance": "⭐⭐⭐",
+      "name": "成本與公司品質分帳",
+      "notion_id": "3abb92588207814cbc50d1388997a058",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "中籤與漲停只是紙上價格，必須把取得、交割、流動性和退出價納入報酬。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-executable-return",
+      "importance": "⭐⭐⭐",
+      "name": "可成交才算報酬",
+      "notion_id": "3abb9258820781a2b572e9a162705041",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "集團最值錢的代理權、軟體、品牌或現金流未必在上市法人內。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-listed-asset-boundary",
+      "importance": "⭐⭐⭐",
+      "name": "先畫上市資產邊界",
+      "notion_id": "3abb9258820781818b6ddf40c472bb4b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "做空者有利益衝突需要更嚴格查核，但不能因此忽略可重現的影片、文件與供應鏈證據。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-evidence-over-motive",
+      "importance": "⭐⭐⭐",
+      "name": "動機不能取代證據",
+      "notion_id": "3abb92588207819e9317d127136e17e6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "若無法證明主動投資能在扣除成本後長期勝過大盤，應以低成本指數曝險作核心。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-passive-baseline",
+      "importance": "⭐⭐⭐",
+      "name": "被動投資是多數人的基準",
+      "notion_id": "3abb92588207819cb5f3c301a1eb2113",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "操作越密集，錯誤、摩擦與情緒決策的累積機會越高。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-reduce-short-term-churn",
+      "importance": "⭐⭐⭐",
+      "name": "降低無效短線操作",
+      "notion_id": "3abb9258820781eba850c3a50578fd3b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "論點成立時讓趨勢延續，遇明確修正或證據改變再調整部位。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-no-predefined-top",
+      "importance": "⭐⭐⭐",
+      "name": "不預設高點",
+      "notion_id": "3abb9258820781d7b90cdc4ad9d969ea",
+      "type": "💡概念"
+    },
+    {
+      "description": "招股、承銷、價格發現、鎖定期、上市主體與可成交報酬構成新股研究鏈。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-ipo-asset-boundary-industry",
+      "importance": "⭐⭐⭐",
+      "name": "IPO 與上市資產邊界",
+      "notion_id": "3abb92588207816c98dfc6bd2e5635b4",
+      "type": "🏭產業"
+    },
+    {
+      "description": "氫能成本須同時固定生產、能源、純化、運輸、儲存、規模與終端利用率。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-hydrogen-economics",
+      "importance": "⭐⭐⭐",
+      "name": "氫能與燃料電池",
+      "notion_id": "3abb9258820781fa9d20c88e6a701463",
+      "type": "🏭產業"
+    },
+    {
+      "code": "NKLA",
+      "description": "展示、技術所有權、供應商零件、氫能成本、治理與 GM 合作須逐項驗證的高風險案例。",
+      "eps": [
+        "EP70"
+      ],
+      "first_ep": "EP70",
+      "id": "ep70-nikola",
+      "importance": "⭐⭐⭐",
+      "name": "Nikola",
+      "notion_id": "3abb92588207818e864ff974c9b4e413",
       "type": "🏢公司/標的"
     }
   ]
