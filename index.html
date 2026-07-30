@@ -204,8 +204,13 @@ var clusterIds = clusterTypes.map(function(group) { return 'cluster:' + group; }
 function setStatus(text) {
   document.getElementById('graph-status').textContent = text;
 }
+function clusterExists(clusterId) {
+  return Boolean(
+    network.body.nodes[clusterId] && network.body.nodes[clusterId].isCluster === true
+  );
+}
 function activeClusterIds() {
-  return clusterIds.filter(function(clusterId) { return network.isCluster(clusterId); });
+  return clusterIds.filter(clusterExists);
 }
 function sourceNode(id) {
   var numericId = /^\d+$/.test(String(id)) ? Number(id) : id;
@@ -223,10 +228,8 @@ function releaseToExpandedLayout(clusterPosition, containedPositions) {
   return released;
 }
 function openClusterDeterministically(clusterId) {
-  if (!network.isCluster(clusterId)) return [];
-  var members = network.getNodesInCluster(clusterId).filter(function(id) {
-    return !network.isCluster(id);
-  });
+  if (!clusterExists(clusterId)) return [];
+  var members = network.getNodesInCluster(clusterId);
   network.openCluster(clusterId, { releaseFunction: releaseToExpandedLayout });
   return members;
 }
@@ -298,7 +301,7 @@ function makeField(label, value) {
 network.on('click', function(params) {
   if (params.nodes.length > 0) {
     var idx = params.nodes[0];
-    if (network.isCluster(idx)) {
+    if (clusterExists(idx)) {
       // Defer the mutation until vis-network finishes processing its click
       // selection; opening synchronously makes it select a node that no longer
       // exists and emits a misleading "Node does not exist" console error.
