@@ -4587,6 +4587,70 @@
       "source_locator": "analysis/EP71_supplemental.json:/mindsets/5",
       "to": "ep71-thesis-pause-gate",
       "type": "風險控制"
+    },
+    {
+      "context": "肯定成長品質不代表接受任意上市價格，先以小部位取得觀察權。",
+      "ep": "EP72",
+      "from": "ep72-quality-price-ledger",
+      "source_locator": "analysis/EP72_supplemental.json:/holdings/2",
+      "to": "ep72-snowflake",
+      "type": "估值紀律"
+    },
+    {
+      "context": "營收、百萬美元級客戶、NRR 與費用效率共同構成品質證據。",
+      "ep": "EP72",
+      "from": "ep72-growth-quality",
+      "source_locator": "analysis/EP72_supplemental.json:/holdings/2",
+      "to": "ep72-snowflake",
+      "type": "成長驗證"
+    },
+    {
+      "context": "承銷區間與首日交易價差距顯示早期共識價格尚未穩定。",
+      "ep": "EP72",
+      "from": "ep72-ipo-price-discovery",
+      "source_locator": "analysis/EP72_supplemental.json:/industry/0",
+      "to": "ep72-snowflake",
+      "type": "上市定價"
+    },
+    {
+      "context": "餐飲 IPO 的品牌熱度須接受低轉換成本與競品替代檢驗。",
+      "ep": "EP72",
+      "from": "ep72-switching-cost-moat",
+      "source_locator": "analysis/EP72_supplemental.json:/industry/0",
+      "to": "ep72-ipo-price-discovery",
+      "type": "護城河審核"
+    },
+    {
+      "context": "等待停止創低並突破數日高點後才試單，但保留假突破風險。",
+      "ep": "EP72",
+      "from": "ep72-triggered-sizing",
+      "source_locator": "analysis/EP72_supplemental.json:/holdings/6",
+      "to": "ep72-teladoc",
+      "type": "買點規則"
+    },
+    {
+      "context": "固定加碼條件並分批投入，防止在修正早期耗盡銀彈。",
+      "ep": "EP72",
+      "from": "ep72-capital-endurance",
+      "source_locator": "analysis/EP72_supplemental.json:/mindsets/5",
+      "to": "ep72-triggered-sizing",
+      "type": "部位管理"
+    },
+    {
+      "context": "材料題材只有在品牌採用、供應商份額與量產收入確認後才形成基本面。",
+      "ep": "EP72",
+      "from": "ep72-gan-adoption",
+      "source_locator": "analysis/EP72_supplemental.json:/holdings/7",
+      "to": "ep72-episil",
+      "type": "採用鏈"
+    },
+    {
+      "context": "投資課程與達人觀點須先查收入來源和可驗證原典，再納入決策。",
+      "ep": "EP72",
+      "from": "ep72-incentive-audit",
+      "source_locator": "analysis/EP72_supplemental.json:/mindsets/7",
+      "to": "ep72-quality-price-ledger",
+      "type": "證據激勵"
     }
   ],
   "metadata": {
@@ -4594,9 +4658,9 @@
     "lastUpdated": "2026-07-30",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-30",
-    "source": "EP1-EP71 分析報告",
-    "total_entities": 601,
-    "total_relations": 603
+    "source": "EP1-EP72 分析報告",
+    "total_entities": 614,
+    "total_relations": 611
   },
   "nodes": [
     {
@@ -12516,6 +12580,172 @@
       "importance": "⭐⭐⭐",
       "name": "SoftBank",
       "notion_id": "3adb9258820781168977d312b5e6a808",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "好公司買得過貴，仍可能承受多年機會成本。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-quality-price-ledger",
+      "importance": "⭐⭐⭐",
+      "name": "公司品質與買價分帳",
+      "notion_id": "3adb92588207810d87dffebeea0ff32a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "品牌與熱門不等於客戶難以離開，先評估轉換摩擦。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-switching-cost-moat",
+      "importance": "⭐⭐⭐",
+      "name": "護城河先問替代成本",
+      "notion_id": "3adb925882078184bf26cdab86fbd00d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "未獲利公司須同時驗證營收、留存、客戶擴張與費用效率。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-growth-quality",
+      "importance": "⭐⭐⭐",
+      "name": "營收與留存驗證成長",
+      "notion_id": "3adb9258820781d08383fd26b0408e80",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "事前固定停止創低、突破或時間條件，避免每天猜底。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-triggered-sizing",
+      "importance": "⭐⭐⭐",
+      "name": "觸發式加碼",
+      "notion_id": "3adb9258820781b18c01de7780844ee2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "分散後仍分批，避免修正初期耗盡所有銀彈。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-capital-endurance",
+      "importance": "⭐⭐⭐",
+      "name": "資金續航",
+      "notion_id": "3adb9258820781e98e7df8afbf13b583",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "先確認知識是否可由原典取得，以及收入究竟來自績效或學費。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-incentive-audit",
+      "importance": "⭐⭐⭐",
+      "name": "課程與達人查激勵",
+      "notion_id": "3adb9258820781a4b65df76b3906c040",
+      "type": "💡概念"
+    },
+    {
+      "description": "缺少交易歷史、流通有限與敘事熱度使新股早期價格大幅震盪。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-ipo-price-discovery",
+      "importance": "⭐⭐⭐",
+      "name": "IPO 與價格發現",
+      "notion_id": "3adb9258820781d7b505ebb1e7eb4684",
+      "type": "🏭產業"
+    },
+    {
+      "description": "營收、NRR、客戶擴張與費用效率衡量品質，PS 需按成長與毛利校正。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-saas-valuation",
+      "importance": "⭐⭐⭐",
+      "name": "SaaS 成長與估值",
+      "notion_id": "3adb9258820781b78545c898e4ac9cc6",
+      "type": "🏭產業"
+    },
+    {
+      "description": "新材料須從技術可行、品牌採用、供應份額一路驗證到量產收入。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-gan-adoption",
+      "importance": "⭐⭐⭐",
+      "name": "GaN 與三五族化合物",
+      "notion_id": "3adb9258820781788a56f2053062e93d",
+      "type": "🏭產業"
+    },
+    {
+      "code": "SNOW",
+      "description": "高成長、高留存但上市估值極端；主持人只做小額試單。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-snowflake",
+      "importance": "⭐⭐⭐",
+      "name": "Snowflake",
+      "notion_id": "3adb92588207815cbf13d4ce7948f43f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2247.TW",
+      "description": "汽車經銷 IPO 案例，需驗證獲利下滑與原廠直營風險。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-fande",
+      "importance": "⭐⭐⭐",
+      "name": "汎德永業",
+      "notion_id": "3adb9258820781deac65ed79aa317ec6",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "TDOC",
+      "description": "以打底突破作為試單觸發，並承擔假突破與合併風險。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-teladoc",
+      "importance": "⭐⭐⭐",
+      "name": "Teladoc",
+      "notion_id": "3adb92588207810fb9b8d9b7b9d997d1",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "3016.TW",
+      "description": "GaN／三五族化合物題材，需由品牌採用進一步驗證到量產收入。",
+      "eps": [
+        "EP72"
+      ],
+      "first_ep": "EP72",
+      "id": "ep72-episil",
+      "importance": "⭐⭐⭐",
+      "name": "嘉晶",
+      "notion_id": "3adb9258820781ab8fece68555d6b1a2",
       "type": "🏢公司/標的"
     }
   ]
