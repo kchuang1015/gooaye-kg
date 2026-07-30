@@ -4523,16 +4523,80 @@
       "source_locator": "analysis/EP70_supplemental.json:/mindsets/7",
       "to": "ep70-reduce-short-term-churn",
       "type": "趨勢與調整"
+    },
+    {
+      "context": "Fitness+ 發布和盤中價格只是線索，替代程度須由產品、客群和留存驗證。",
+      "ep": "EP71",
+      "from": "ep71-event-day-thesis",
+      "source_locator": "analysis/EP71_supplemental.json:/industry/0",
+      "to": "ep71-apple-ecosystem",
+      "type": "事件與競爭"
+    },
+    {
+      "context": "Apple One 與平台治理新增風險後停止加碼，但不把新疑慮直接等同商業模式死亡。",
+      "ep": "EP71",
+      "from": "ep71-thesis-pause-gate",
+      "source_locator": "analysis/EP71_supplemental.json:/holdings/3",
+      "to": "ep69-spotify",
+      "type": "部位管理"
+    },
+    {
+      "context": "內容政策、下架與申訴程序會影響創作者信任、用戶留存及變現。",
+      "ep": "EP71",
+      "from": "ep71-platform-governance-fundamental",
+      "source_locator": "analysis/EP71_supplemental.json:/mindsets/3",
+      "to": "ep69-spotify",
+      "type": "治理風險"
+    },
+    {
+      "context": "研究 ARM 買方論點時，也需重建 SoftBank 的現金、成長與出售理由。",
+      "ep": "EP71",
+      "from": "ep71-counterparty-research",
+      "source_locator": "analysis/EP71_supplemental.json:/holdings/7",
+      "to": "ep71-softbank",
+      "type": "交易對手"
+    },
+    {
+      "context": "ARM 帳面獲利仍須和同期可取得的大盤基準比較。",
+      "ep": "EP71",
+      "from": "ep71-benchmark-opportunity-cost",
+      "source_locator": "analysis/EP71_supplemental.json:/mindsets/4",
+      "to": "ep71-softbank",
+      "type": "資本配置"
+    },
+    {
+      "context": "上游授權平台被客戶／競爭者收購，使其他客戶重新評估價格、資訊與路線圖公平性。",
+      "ep": "EP71",
+      "from": "ep67-nvidia",
+      "source_locator": "analysis/EP71_supplemental.json:/industry/2",
+      "to": "ep71-cpu-architecture",
+      "type": "收購中立性"
+    },
+    {
+      "context": "RISC-V 提供降低 ARM 依賴的選擇權，但商業價值仍需設計導入與量產證據。",
+      "ep": "EP71",
+      "from": "ep71-cpu-architecture",
+      "source_locator": "analysis/EP71_supplemental.json:/holdings/6",
+      "to": "ep71-andes",
+      "type": "替代架構"
+    },
+    {
+      "context": "避免 all in 並保留暫停加碼選項，可防止單一新變數造成致命損失。",
+      "ep": "EP71",
+      "from": "ep71-self-rescue-risk-control",
+      "source_locator": "analysis/EP71_supplemental.json:/mindsets/5",
+      "to": "ep71-thesis-pause-gate",
+      "type": "風險控制"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-28",
+    "lastUpdated": "2026-07-30",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-28",
-    "source": "EP1-EP70 分析報告",
-    "total_entities": 591,
-    "total_relations": 595
+    "last_update": "2026-07-30",
+    "source": "EP1-EP71 分析報告",
+    "total_entities": 601,
+    "total_relations": 603
   },
   "nodes": [
     {
@@ -11798,10 +11862,11 @@
     },
     {
       "code": "NVDA",
-      "description": "修正後高信念科技持股與相對強弱觀察標的。",
+      "description": "ARM 收購方，潛在經濟利益須和授權中立及客戶替代投資分帳。",
       "eps": [
         "EP67",
-        "EP68"
+        "EP68",
+        "EP71"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
@@ -12106,9 +12171,10 @@
       "type": "🏭產業"
     },
     {
-      "description": "獨家內容、平台政策、創作者信任、聽眾留存與變現共同決定平台優勢。",
+      "description": "Apple 入口競爭和 Spotify 內容治理共同影響創作者供給、用戶留存與變現。",
       "eps": [
-        "EP69"
+        "EP69",
+        "EP71"
       ],
       "first_ep": "EP69",
       "id": "ep69-podcast-governance",
@@ -12171,9 +12237,10 @@
     },
     {
       "code": "SPOT",
-      "description": "Joe Rogan 事件下內容治理、創作者承諾與平台定位案例。",
+      "description": "Apple One 競爭與 Joe Rogan 舊集下架使主持人停止加碼、等待治理證據。",
       "eps": [
-        "EP69"
+        "EP69",
+        "EP71"
       ],
       "first_ep": "EP69",
       "id": "ep69-spotify",
@@ -12321,6 +12388,134 @@
       "importance": "⭐⭐⭐",
       "name": "Nikola",
       "notion_id": "3abb92588207818e864ff974c9b4e413",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "新品發布與盤中跳價先拆解競爭機制，不能看到價格就交易。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-event-day-thesis",
+      "importance": "⭐⭐⭐",
+      "name": "事件日不改論點",
+      "notion_id": "3adb925882078190a719e66c7b4083d5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "原論點尚未完全失效時，可以停止加碼並等待證據，而非只選擇全進或全出。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-thesis-pause-gate",
+      "importance": "⭐⭐⭐",
+      "name": "新變數先停止增資",
+      "notion_id": "3adb9258820781c587c7e02ded052232",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "每筆成交都有交易對手，賣方理由可暴露現金、估值、成長與治理盲點。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-counterparty-research",
+      "importance": "⭐⭐⭐",
+      "name": "研究看壞的一方",
+      "notion_id": "3adb9258820781d18912fa51a3eeb2f1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "內容政策會影響創作者、廣告主、用戶留存與長期變現。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-platform-governance-fundamental",
+      "importance": "⭐⭐⭐",
+      "name": "平台治理也是基本面",
+      "notion_id": "3adb925882078138a32acdadd5808e61",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "帳面賺錢若落後同期可取得的低成本基準，仍可能是差的資本配置。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-benchmark-opportunity-cost",
+      "importance": "⭐⭐⭐",
+      "name": "投資績效和基準比較",
+      "notion_id": "3adb925882078112abbdc424f4aeb2d9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "建立部位與責任觀念、避免 all in，才不會把風險外包給推薦者。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-self-rescue-risk-control",
+      "importance": "⭐⭐⭐",
+      "name": "先自救再求明牌",
+      "notion_id": "3adb9258820781a988cbd9b22d033c06",
+      "type": "💡概念"
+    },
+    {
+      "description": "晶片跨裝置採用、硬體入口、帳號付款與服務 bundle 共同形成生態系綁定。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-apple-ecosystem",
+      "importance": "⭐⭐⭐",
+      "name": "Apple 生態系與訂閱綁定",
+      "notion_id": "3adb9258820781b3821ad11771dac7dd",
+      "type": "🏭產業"
+    },
+    {
+      "description": "ARM 授權中立、NVIDIA 收購與 RISC-V 替代投資構成供應安全研究鏈。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-cpu-architecture",
+      "importance": "⭐⭐⭐",
+      "name": "CPU 架構授權與 RISC-V",
+      "notion_id": "3adb9258820781ccbfa8f98889209ccd",
+      "type": "🏭產業"
+    },
+    {
+      "code": "6533.TW",
+      "description": "台灣 RISC-V 替代架構題材，仍須驗證設計導入、量產、授權收入與現金流。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-andes",
+      "importance": "⭐⭐⭐",
+      "name": "晶心科",
+      "notion_id": "3adb9258820781f2b088dcb3f1a2aef6",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "9984.T",
+      "description": "ARM 賣方，出售理由涉及現金防禦、成長高原和基準機會成本。",
+      "eps": [
+        "EP71"
+      ],
+      "first_ep": "EP71",
+      "id": "ep71-softbank",
+      "importance": "⭐⭐⭐",
+      "name": "SoftBank",
+      "notion_id": "3adb9258820781168977d312b5e6a808",
       "type": "🏢公司/標的"
     }
   ]
