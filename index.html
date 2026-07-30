@@ -271,9 +271,6 @@ function clusterByType() {
         borderWidth: 3
       }
     });
-    if (network.isCluster(clusterId)) {
-      network.moveNode(clusterId, overview.x, overview.y);
-    }
   });
   network.fit({ nodes: activeClusterIds(), animation: false });
   setStatus('預設收合；點一下類型即可展開');
@@ -302,11 +299,17 @@ network.on('click', function(params) {
   if (params.nodes.length > 0) {
     var idx = params.nodes[0];
     if (network.isCluster(idx)) {
-      var members = openClusterDeterministically(idx);
-      fitExpandedNodes(
-        members,
-        '已展開「' + String(idx).replace('cluster:', '') + '」；按「依類型收合」可回到總覽'
-      );
+      // Defer the mutation until vis-network finishes processing its click
+      // selection; opening synchronously makes it select a node that no longer
+      // exists and emits a misleading "Node does not exist" console error.
+      window.setTimeout(function() {
+        network.unselectAll();
+        var members = openClusterDeterministically(idx);
+        fitExpandedNodes(
+          members,
+          '已展開「' + String(idx).replace('cluster:', '') + '」；按「依類型收合」可回到總覽'
+        );
+      }, 0);
       return;
     }
     var n = rawNodes[idx];
