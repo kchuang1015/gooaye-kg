@@ -4731,6 +4731,94 @@
       "source_locator": "analysis/EP73_supplemental.json:/industry/2",
       "to": "ep73-fundamental-price-exit",
       "type": "週期驗證"
+    },
+    {
+      "context": "DR 成交價須對照母股、轉換比率與匯率，不能由高溢價反推價值。",
+      "ep": "EP74",
+      "from": "ep74-depositary-receipt-anchor",
+      "source_locator": "analysis/EP74_supplemental.json:/holdings/1",
+      "to": "ep74-medtecs-dr",
+      "type": "價格錨"
+    },
+    {
+      "context": "避開結構性高溢價商品本身就是長期勝率來源。",
+      "ep": "EP74",
+      "from": "ep74-avoidance-compounding",
+      "source_locator": "analysis/EP74_supplemental.json:/mindsets/1",
+      "to": "ep74-medtecs-dr",
+      "type": "風險迴避"
+    },
+    {
+      "context": "高票息與代操費用不能抵銷違約、流動性與槓桿的聯合下檔。",
+      "ep": "EP74",
+      "from": "ep74-tail-downside",
+      "source_locator": "analysis/EP74_supplemental.json:/industry/2",
+      "to": "ep74-credit-leverage-industry",
+      "type": "尾部風險"
+    },
+    {
+      "context": "不讓任何單一錯路抹去多年累積，需限制槓桿與最大損失。",
+      "ep": "EP74",
+      "from": "ep74-survivable-position",
+      "source_locator": "analysis/EP74_supplemental.json:/mindsets/3",
+      "to": "ep74-tail-downside",
+      "type": "部位限制"
+    },
+    {
+      "context": "大盤修正時保留現金並觀察抗跌標的，等待後續價格確認。",
+      "ep": "EP74",
+      "from": "ep74-survivable-position",
+      "source_locator": "analysis/EP74_supplemental.json:/holdings/8",
+      "to": "ep72-teladoc",
+      "type": "相對強度觀察"
+    },
+    {
+      "context": "籌碼、量能與價格方法都必須由可重現規則證明對自己有效。",
+      "ep": "EP74",
+      "from": "ep74-test-own-method",
+      "source_locator": "analysis/EP74_supplemental.json:/mindsets/6",
+      "to": "ep74-price-execution-evidence",
+      "type": "方法驗證"
+    },
+    {
+      "context": "SPAC 電池敘事與雲端遊戲敘事都需要產品、採用與收入驗證。",
+      "ep": "EP74",
+      "from": "ep74-kcac",
+      "source_locator": "analysis/EP74_supplemental.json:/industry/0",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "題材比較"
+    },
+    {
+      "context": "Unity 位於開發工具與跨平台內容生產層，受雲端遊戲題材帶動但仍需營運驗證。",
+      "ep": "EP74",
+      "from": "ep74-unity",
+      "source_locator": "analysis/EP74_supplemental.json:/holdings/7",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "遊戲引擎"
+    },
+    {
+      "context": "動物福利可形成研究動機，但買進後仍要用可驗證基本面與價格規則檢查。",
+      "ep": "EP74",
+      "from": "ep74-beyond-meat",
+      "source_locator": "analysis/EP74_supplemental.json:/holdings/9",
+      "to": "ep74-test-own-method",
+      "type": "價值偏好驗證"
+    },
+    {
+      "context": "產品方向之外還要檢查增資、現金與量產，使破產風險判斷可驗證。",
+      "ep": "EP74",
+      "from": "ep68-tesla",
+      "source_locator": "analysis/EP74_supplemental.json:/holdings/11",
+      "to": "ep74-survivable-position",
+      "type": "企業存活"
+    },
+    {
+      "context": "價格錨與商品權利應先讀母股、發行與交易規則原始文件。",
+      "ep": "EP74",
+      "from": "ep74-primary-source-first",
+      "source_locator": "analysis/EP74_supplemental.json:/mindsets/9",
+      "to": "ep74-depositary-receipt-anchor",
+      "type": "來源紀律"
     }
   ],
   "metadata": {
@@ -4738,9 +4826,9 @@
     "lastUpdated": "2026-07-31",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-31",
-    "source": "EP1-EP73 分析報告",
-    "total_entities": 623,
-    "total_relations": 621
+    "source": "EP1-EP74 分析報告",
+    "total_entities": 637,
+    "total_relations": 632
   },
   "nodes": [
     {
@@ -12166,10 +12254,11 @@
     },
     {
       "code": "TSLA",
-      "description": "S&P 500 名單落空、增資、內部人交易、電動車先行者與集中風險案例。",
+      "description": "Battery Day、平價車方向、增資後存活與估值案例。",
       "eps": [
         "EP68",
-        "EP69"
+        "EP69",
+        "EP74"
       ],
       "first_ep": "EP68",
       "id": "ep68-tesla",
@@ -12810,9 +12899,10 @@
     },
     {
       "code": "TDOC",
-      "description": "以打底突破作為試單觸發，並承擔假突破與合併風險。",
+      "description": "市場修正時持續建倉與相對強度的案例。",
       "eps": [
-        "EP72"
+        "EP72",
+        "EP74"
       ],
       "first_ep": "EP72",
       "id": "ep72-teladoc",
@@ -12947,6 +13037,185 @@
       "importance": "⭐⭐⭐",
       "name": "Walmart",
       "notion_id": "3aeb9258820781949eaceec54b182933",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "買 DR／ADR／ETF 前先固定底層權利、轉換比率、匯率與正常價差。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-depositary-receipt-anchor",
+      "importance": "⭐⭐⭐",
+      "name": "先找價格錨",
+      "notion_id": "3aeb9258820781f0ac46d7336843cb21",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不必參與每個熱門商品，少踩幾次結構性陷阱就能提高長期存活率。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-avoidance-compounding",
+      "importance": "⭐⭐⭐",
+      "name": "避錯累積勝率",
+      "notion_id": "3aeb9258820781d09eddf34c93cf4a28",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "平時收益有限、危機損失卻能被違約與槓桿放大的商品不適合重倉。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-tail-downside",
+      "importance": "⭐⭐⭐",
+      "name": "避開有限上檔尾部下檔",
+      "notion_id": "3aeb925882078115b69efb2e8818a0d8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "一次閃過股災不等於能穩定預知，部位調控比反覆空手／all in 可執行。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-survivable-position",
+      "importance": "⭐⭐⭐",
+      "name": "不迷信完美預言",
+      "notion_id": "3aeb925882078128a8cdf846c17895f5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "籌碼、量能與價格方法都必須用自己的規則和樣本測試，不靠道聽途說。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-test-own-method",
+      "importance": "⭐⭐⭐",
+      "name": "親自實測方法",
+      "notion_id": "3aeb925882078124beb1d82711f2f138",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "基本面判斷仍需價格按計畫演進；走勢失敗可以觸發退出。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-price-execution-evidence",
+      "importance": "⭐⭐⭐",
+      "name": "價格作為執行證據",
+      "notion_id": "3aeb925882078111b809cb9b3e833068",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "能讀原始材料時先直接閱讀，再用他人整理補充，避免轉譯誤差。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-primary-source-first",
+      "importance": "⭐⭐⭐",
+      "name": "原典優先於轉譯",
+      "notion_id": "3aeb9258820781b2b1a9f506c2759166",
+      "type": "💡概念"
+    },
+    {
+      "description": "母股、託管、轉換、匯率、套利與市場規則共同形成 DR／ADR 價格。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-depositary-receipt-industry",
+      "importance": "⭐⭐⭐",
+      "name": "存託憑證與跨境證券",
+      "notion_id": "3aeb92588207817ab1c9c63903025cd8",
+      "type": "🏭產業"
+    },
+    {
+      "description": "高收益債、代操、槓桿與危機流動性形成尾部損失鏈。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-credit-leverage-industry",
+      "importance": "⭐⭐⭐",
+      "name": "信用商品與槓桿風險",
+      "notion_id": "3aeb9258820781d3834be01d2d1c1b2c",
+      "type": "🏭產業"
+    },
+    {
+      "description": "算力、引擎、內容、平台與終端入口共同競爭。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-cloud-gaming-industry",
+      "importance": "⭐⭐⭐",
+      "name": "雲端遊戲與遊戲引擎",
+      "notion_id": "3aeb925882078157afd5fbdac918040d",
+      "type": "🏭產業"
+    },
+    {
+      "code": "9103.TW",
+      "description": "台灣 DR 高溢價與處置交易的風險警示案例。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-medtecs-dr",
+      "importance": "⭐⭐⭐",
+      "name": "美德醫療-DR",
+      "notion_id": "3aeb9258820781c9b566e39735aee433",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "KCAC",
+      "description": "擬合併 QuantumScape 的 SPAC 價格發現案例。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-kcac",
+      "importance": "⭐⭐⭐",
+      "name": "Kensington Capital Acquisition",
+      "notion_id": "3aeb9258820781a98b2bc2cb3c2096f7",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "U",
+      "description": "遊戲引擎、IPO 與雲端遊戲題材觀察標的。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-unity",
+      "importance": "⭐⭐⭐",
+      "name": "Unity",
+      "notion_id": "3aeb9258820781c6b95eedfc6446c6db",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "BYND",
+      "description": "價值偏好轉成研究動機、仍需基本面驗證的案例。",
+      "eps": [
+        "EP74"
+      ],
+      "first_ep": "EP74",
+      "id": "ep74-beyond-meat",
+      "importance": "⭐⭐⭐",
+      "name": "Beyond Meat",
+      "notion_id": "3aeb9258820781d39eecc9bedaf31666",
       "type": "🏢公司/標的"
     }
   ]
