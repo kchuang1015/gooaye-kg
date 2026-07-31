@@ -4819,6 +4819,86 @@
       "source_locator": "analysis/EP74_supplemental.json:/mindsets/9",
       "to": "ep74-depositary-receipt-anchor",
       "type": "來源紀律"
+    },
+    {
+      "context": "GeForce Now 的個人體驗啟動延遲、畫質、硬體門檻與投資假設研究。",
+      "ep": "EP75",
+      "from": "ep75-experience-starts-research",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/0",
+      "to": "ep67-nvidia",
+      "type": "產品實測"
+    },
+    {
+      "context": "服務體驗接近後，內容庫、遊戲權利、訂閱與入口成為差異化。",
+      "ep": "EP75",
+      "from": "ep75-content-subscription-control",
+      "source_locator": "analysis/EP75_supplemental.json:/industry/0",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "平台勝負"
+    },
+    {
+      "context": "Azure、xCloud、Game Pass 與工作室內容形成垂直平台。",
+      "ep": "EP75",
+      "from": "microsoft",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/1",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "內容整合"
+    },
+    {
+      "context": "AWS、Luna 與 Twitch 可能連接觀看、導流與遊玩。",
+      "ep": "EP75",
+      "from": "ep58-amazon-amzn",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/2",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "直播入口"
+    },
+    {
+      "context": "GCP、Stadia 與 YouTube 可能連接觀看、導流與遊玩。",
+      "ep": "EP75",
+      "from": "ep58-alphabet-googl",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/3",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "直播入口"
+    },
+    {
+      "context": "GeForce Now 擴大雲端遊戲時，也需檢查是否降低部分玩家購買高階本地 GPU 的需求。",
+      "ep": "EP75",
+      "from": "ep67-nvidia",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/0",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "硬體替代張力"
+    },
+    {
+      "context": "核心與小額試單都應跨時間建立，避免一次買在短期高點。",
+      "ep": "EP75",
+      "from": "ep75-staged-entry",
+      "source_locator": "analysis/EP75_supplemental.json:/mindsets/2",
+      "to": "ep75-core-probe-layering",
+      "type": "部位建立"
+    },
+    {
+      "context": "少量曝險與分批投入共同降低完美避險及再進場風險。",
+      "ep": "EP75",
+      "from": "ep75-retain-exposure",
+      "source_locator": "analysis/EP75_supplemental.json:/mindsets/3",
+      "to": "ep75-staged-entry",
+      "type": "修正管理"
+    },
+    {
+      "context": "Rockstar／GTA 顯示長壽 IP 對平台吸引玩家的重要性。",
+      "ep": "EP75",
+      "from": "ep75-take-two",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/5",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "內容 IP"
+    },
+    {
+      "context": "Unity 作為較小型成長股只用試單，與大型平台核心分層。",
+      "ep": "EP75",
+      "from": "ep74-unity",
+      "source_locator": "analysis/EP75_supplemental.json:/holdings/7",
+      "to": "ep75-core-probe-layering",
+      "type": "小額試單"
     }
   ],
   "metadata": {
@@ -4826,9 +4906,9 @@
     "lastUpdated": "2026-07-31",
     "last_repair": "2026-02-28",
     "last_update": "2026-07-31",
-    "source": "EP1-EP74 分析報告",
-    "total_entities": 637,
-    "total_relations": 632
+    "source": "EP1-EP75 分析報告",
+    "total_entities": 643,
+    "total_relations": 642
   },
   "nodes": [
     {
@@ -6039,15 +6119,16 @@
     },
     {
       "code": "MSFT",
-      "description": "EP58 的 TikTok 潛在買家案例；官方僅確認探索討論。",
+      "description": "xCloud、Game Pass、Azure 與 ZeniMax／Bethesda 內容庫平台。",
       "eps": [
         "EP18",
         "EP25",
-        "EP58"
+        "EP58",
+        "EP75"
       ],
       "first_ep": "EP18",
       "id": "microsoft",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Microsoft",
       "notion_id": "315b9258820781688c0ef5db4050d8d0",
       "type": "🏢公司/標的"
@@ -10784,25 +10865,29 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "YouTube 與短影音競爭情境，沒有固定期限預測。",
+      "code": "GOOGL",
+      "description": "GCP、Stadia 與 YouTube 直播入口平台。",
       "eps": [
-        "EP58"
+        "EP58",
+        "EP75"
       ],
       "first_ep": "EP58",
       "id": "ep58-alphabet-googl",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Alphabet (GOOGL)",
       "notion_id": "3a7b9258820781e69ad1fa2ddc170a3f",
       "type": "🏢公司/標的"
     },
     {
-      "description": "市場討論中的潛在 TikTok 買家情境。",
+      "code": "AMZN",
+      "description": "AWS、Luna 與 Twitch 直播入口平台。",
       "eps": [
-        "EP58"
+        "EP58",
+        "EP75"
       ],
       "first_ep": "EP58",
       "id": "ep58-amazon-amzn",
-      "importance": "⭐",
+      "importance": "⭐⭐⭐",
       "name": "Amazon (AMZN)",
       "notion_id": "3a7b92588207814d9122c300f74e1211",
       "type": "🏢公司/標的"
@@ -12098,15 +12183,16 @@
     },
     {
       "code": "NVDA",
-      "description": "ARM 收購方，潛在經濟利益須和授權中立及客戶替代投資分帳。",
+      "description": "GeForce Now、GPU 與多題材曝險的雲端遊戲核心。",
       "eps": [
         "EP67",
         "EP68",
-        "EP71"
+        "EP71",
+        "EP75"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "NVIDIA",
       "notion_id": "3aab9258820781a78d1de0a7984b8821",
       "type": "🏢公司/標的"
@@ -13155,13 +13241,14 @@
       "type": "🏭產業"
     },
     {
-      "description": "算力、引擎、內容、平台與終端入口共同競爭。",
+      "description": "算力、低延遲網路、遊戲權利、內容庫、訂閱、直播入口與終端共同競爭。",
       "eps": [
-        "EP74"
+        "EP74",
+        "EP75"
       ],
       "first_ep": "EP74",
       "id": "ep74-cloud-gaming-industry",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "雲端遊戲與遊戲引擎",
       "notion_id": "3aeb925882078157afd5fbdac918040d",
       "type": "🏭產業"
@@ -13194,9 +13281,10 @@
     },
     {
       "code": "U",
-      "description": "遊戲引擎、IPO 與雲端遊戲題材觀察標的。",
+      "description": "遊戲工具層與小額新股試單案例。",
       "eps": [
-        "EP74"
+        "EP74",
+        "EP75"
       ],
       "first_ep": "EP74",
       "id": "ep74-unity",
@@ -13216,6 +13304,84 @@
       "importance": "⭐⭐⭐",
       "name": "Beyond Meat",
       "notion_id": "3aeb9258820781d39eecc9bedaf31666",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "親自用產品可以形成假設，但需用跨樣本技術與營運證據驗證。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-experience-starts-research",
+      "importance": "⭐⭐⭐",
+      "name": "體驗啟動研究",
+      "notion_id": "3aeb92588207819eaffcf0f6ca88ba73",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "雲端體驗接近時，遊戲權利、內容數量與訂閱入口可能決定平台勝負。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-content-subscription-control",
+      "importance": "⭐⭐⭐",
+      "name": "內容與訂閱控制點",
+      "notion_id": "3aeb9258820781dea338d0b779be3498",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "先定總額與比例，再跨時間投入，降低買在短期高點的心理與部位風險。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-staged-entry",
+      "importance": "⭐⭐⭐",
+      "name": "分批投入",
+      "notion_id": "3aeb9258820781bebf21c23a0799bb51",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不追求完美閃過修正，避免完全離場後找不到重返點。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-retain-exposure",
+      "importance": "⭐⭐⭐",
+      "name": "保留少量曝險",
+      "notion_id": "3aeb92588207819f9cf7e5065f197ace",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "大型多題材平台作核心，小型新股只用很小資金探索。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-core-probe-layering",
+      "importance": "⭐⭐⭐",
+      "name": "核心與試單分層",
+      "notion_id": "3aeb92588207812fb8c8d8590947fc7c",
+      "type": "💡概念"
+    },
+    {
+      "code": "TTWO",
+      "description": "Rockstar／GTA 與長壽遊戲內容案例。",
+      "eps": [
+        "EP75"
+      ],
+      "first_ep": "EP75",
+      "id": "ep75-take-two",
+      "importance": "⭐⭐⭐",
+      "name": "Take-Two Interactive",
+      "notion_id": "3aeb9258820781fc8acdfb7866e1cd08",
       "type": "🏢公司/標的"
     }
   ]
