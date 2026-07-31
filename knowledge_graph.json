@@ -4651,16 +4651,96 @@
       "source_locator": "analysis/EP72_supplemental.json:/mindsets/7",
       "to": "ep72-quality-price-ledger",
       "type": "證據激勵"
+    },
+    {
+      "context": "內容治理與管理執行侵蝕原始投資理由時，以事前價格區處理退出。",
+      "ep": "EP73",
+      "from": "ep73-governance-stop",
+      "source_locator": "analysis/EP73_supplemental.json:/holdings/0",
+      "to": "ep69-spotify",
+      "type": "退出規則"
+    },
+    {
+      "context": "基本面先選股，但價格表現仍可構成停損條件。",
+      "ep": "EP73",
+      "from": "ep73-fundamental-price-exit",
+      "source_locator": "analysis/EP73_supplemental.json:/mindsets/1",
+      "to": "ep69-spotify",
+      "type": "風險管理"
+    },
+    {
+      "context": "員工、創作者、管理層與內容規則的衝突會影響獨家內容策略。",
+      "ep": "EP73",
+      "from": "ep69-podcast-governance",
+      "source_locator": "analysis/EP73_supplemental.json:/industry/0",
+      "to": "ep69-spotify",
+      "type": "平台治理"
+    },
+    {
+      "context": "TikTok Global 不能只看名義持股，還須查投資人穿透與董事席次。",
+      "ep": "EP73",
+      "from": "ep73-control-lookthrough",
+      "source_locator": "analysis/EP73_supplemental.json:/holdings/4",
+      "to": "ep60-bytedance-tiktok",
+      "type": "控制權分析"
+    },
+    {
+      "context": "國安理由與交易受益人分開驗證，避免以標籤替代控制權分析。",
+      "ep": "EP73",
+      "from": "ep73-narrative-interest-ledger",
+      "source_locator": "analysis/EP73_supplemental.json:/industry/1",
+      "to": "ep73-cross-border-platform",
+      "type": "政治經濟分析"
+    },
+    {
+      "context": "節目描述 Oracle 擬取得少數股權並參與 TikTok Global 安排。",
+      "ep": "EP73",
+      "from": "ep73-oracle",
+      "source_locator": "analysis/EP73_supplemental.json:/holdings/5",
+      "to": "ep60-bytedance-tiktok",
+      "type": "擬議交易"
+    },
+    {
+      "context": "節目描述 Walmart 擬取得少數股權並參與商務安排。",
+      "ep": "EP73",
+      "from": "ep73-walmart",
+      "source_locator": "analysis/EP73_supplemental.json:/holdings/6",
+      "to": "ep60-bytedance-tiktok",
+      "type": "擬議交易"
+    },
+    {
+      "context": "高點買入風險用跨週或跨月分批處理，不在單一價位重壓。",
+      "ep": "EP73",
+      "from": "ep73-cost-smoothing",
+      "source_locator": "analysis/EP73_supplemental.json:/holdings/1",
+      "to": "apple",
+      "type": "部位管理"
+    },
+    {
+      "context": "進場分批與出場動態停利共同限制單一時點風險。",
+      "ep": "EP73",
+      "from": "trailing-stop",
+      "source_locator": "analysis/EP73_supplemental.json:/mindsets/4",
+      "to": "ep73-cost-smoothing",
+      "type": "交易紀律"
+    },
+    {
+      "context": "運價、淡旺季與公司暴露先固定，再決定持有或退出。",
+      "ep": "EP73",
+      "from": "ep73-shipping-cycle",
+      "source_locator": "analysis/EP73_supplemental.json:/industry/2",
+      "to": "ep73-fundamental-price-exit",
+      "type": "週期驗證"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-30",
+    "lastUpdated": "2026-07-31",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-30",
-    "source": "EP1-EP72 分析報告",
-    "total_entities": 614,
-    "total_relations": 611
+    "last_update": "2026-07-31",
+    "source": "EP1-EP73 分析報告",
+    "total_entities": 623,
+    "total_relations": 621
   },
   "nodes": [
     {
@@ -5424,14 +5504,15 @@
     },
     {
       "code": "AAPL",
-      "description": "一拆四降低單股價格但不創造企業價值的案例。",
+      "description": "Apple One 生態系競爭者，也是高點買入後分批管理案例。",
       "eps": [
         "EP12",
-        "EP58"
+        "EP58",
+        "EP73"
       ],
       "first_ep": "EP12",
       "id": "apple",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Apple",
       "notion_id": "312b92588207814d8e70dc9d224e7ed7",
       "type": "🏢公司/標的"
@@ -6818,17 +6899,19 @@
       "type": "💡概念"
     },
     {
+      "category": "🎯 操作紀律",
       "code": "",
-      "description": "隨股價上漲持續上調停利點，回跌觸發賣出。EP29首次具體教學。\n\nEP44 深化：面對超預期漲幅不知如何停利時，用動態停利法——以前一日收盤為基準，-5%/-8%/-10% 分三批出場。優點：往上漲不錯過大波段（持續在車上）、往下跌不受重傷（已部分停利）。搭配分批進場，是保守但完整的操作框架。",
+      "description": "用估值上緣或跌破固定日收盤價逐步退出，控制獲利回吐。",
       "eps": [
         "EP29",
-        "EP44"
+        "EP44",
+        "EP73"
       ],
       "first_ep": "EP29",
       "id": "trailing-stop",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "動態停利 (Trailing Stop)",
-      "notion_id": "314b9258-8207-8190-a49e-fa947a0d8b51",
+      "notion_id": "314b925882078190a49efa947a0d8b51",
       "type": "💡概念"
     },
     {
@@ -11027,9 +11110,10 @@
     },
     {
       "code": "PRIVATE",
-      "description": "美國行政命令與潛在平台交易的直接受令案例。",
+      "description": "跨境平台、國安敘事與控制權重組的核心案例。",
       "eps": [
-        "EP60"
+        "EP60",
+        "EP73"
       ],
       "first_ep": "EP60",
       "id": "ep60-bytedance-tiktok",
@@ -12235,10 +12319,11 @@
       "type": "🏭產業"
     },
     {
-      "description": "Apple 入口競爭和 Spotify 內容治理共同影響創作者供給、用戶留存與變現。",
+      "description": "平台競爭延伸到獨家內容、員工權限、創作者與編輯治理。",
       "eps": [
         "EP69",
-        "EP71"
+        "EP71",
+        "EP73"
       ],
       "first_ep": "EP69",
       "id": "ep69-podcast-governance",
@@ -12301,10 +12386,11 @@
     },
     {
       "code": "SPOT",
-      "description": "Apple One 競爭與 Joe Rogan 舊集下架使主持人停止加碼、等待治理證據。",
+      "description": "內容治理與管理執行疑慮使主持人設定可能退出區。",
       "eps": [
         "EP69",
-        "EP71"
+        "EP71",
+        "EP73"
       ],
       "first_ep": "EP69",
       "id": "ep69-spotify",
@@ -12746,6 +12832,121 @@
       "importance": "⭐⭐⭐",
       "name": "嘉晶",
       "notion_id": "3adb9258820781ab8fece68555d6b1a2",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "管理與文化使原始投資理由失效時，預先定義退出條件。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-governance-stop",
+      "importance": "⭐⭐⭐",
+      "name": "治理型停損",
+      "notion_id": "3aeb9258820781049ba1ca1e8d9b51ce",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "先由基本面選標的，再用價格走勢作為風險管理的一部分。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-fundamental-price-exit",
+      "importance": "⭐⭐⭐",
+      "name": "基本面先選、價格輔助",
+      "notion_id": "3aeb925882078162b142d6407adcc0b3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "跨境交易同時檢查最終受益人、董事席次與實際控制權。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-control-lookthrough",
+      "importance": "⭐⭐⭐",
+      "name": "控制權穿透",
+      "notion_id": "3aeb92588207819aa605d7d904029338",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "公開的國安或價值敘事不足以解釋交易時，追查各方利益。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-narrative-interest-ledger",
+      "importance": "⭐⭐⭐",
+      "name": "敘事與利益分帳",
+      "notion_id": "3aeb9258820781209427d19a94afdc95",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "跨週或跨月分批，不讓單一價位決定整個部位成本。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-cost-smoothing",
+      "importance": "⭐⭐⭐",
+      "name": "分批平滑成本",
+      "notion_id": "3aeb92588207817eb0fdd515364c8a49",
+      "type": "💡概念"
+    },
+    {
+      "description": "平台交易須穿透股權、董事、資料、演算法與監管控制。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-cross-border-platform",
+      "importance": "⭐⭐⭐",
+      "name": "跨境平台與資料治理",
+      "notion_id": "3aeb9258820781238eb1e106c675232a",
+      "type": "🏭產業"
+    },
+    {
+      "description": "運價、船型、淡旺季與公司營收暴露須用一致口徑驗證。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-shipping-cycle",
+      "importance": "⭐⭐⭐",
+      "name": "海運景氣循環",
+      "notion_id": "3aeb92588207814bbb43f417fc528ec3",
+      "type": "🏭產業"
+    },
+    {
+      "code": "ORCL",
+      "description": "TikTok Global 擬議股東及資料／商務安排參與者。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-oracle",
+      "importance": "⭐⭐⭐",
+      "name": "Oracle",
+      "notion_id": "3aeb925882078119a793fd88ac3ae375",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "WMT",
+      "description": "TikTok Global 擬議少數股東及商務合作參與者。",
+      "eps": [
+        "EP73"
+      ],
+      "first_ep": "EP73",
+      "id": "ep73-walmart",
+      "importance": "⭐⭐⭐",
+      "name": "Walmart",
+      "notion_id": "3aeb9258820781949eaceec54b182933",
       "type": "🏢公司/標的"
     }
   ]
