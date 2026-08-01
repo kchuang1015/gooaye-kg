@@ -4899,16 +4899,80 @@
       "source_locator": "analysis/EP75_supplemental.json:/holdings/7",
       "to": "ep75-core-probe-layering",
       "type": "小額試單"
+    },
+    {
+      "context": "確診與制裁消息先拆成利益、政策、民調與價格鏈條。",
+      "ep": "EP76",
+      "from": "ep76-event-trade-decoupling",
+      "source_locator": "analysis/EP76_supplemental.json:/mindsets/0",
+      "to": "ep76-interest-lens",
+      "type": "事件拆解"
+    },
+    {
+      "context": "ZeniMax／Bethesda 的 Orion 被列為 Microsoft 串流遊戲技術資產候選。",
+      "ep": "EP76",
+      "from": "microsoft",
+      "source_locator": "analysis/EP76_supplemental.json:/holdings/0",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "串流技術"
+    },
+    {
+      "context": "NVIDIA 被主持人視為遊戲對整體獲利占比較高的平台。",
+      "ep": "EP76",
+      "from": "ep67-nvidia",
+      "source_locator": "analysis/EP76_supplemental.json:/holdings/1",
+      "to": "ep74-cloud-gaming-industry",
+      "type": "遊戲曝險"
+    },
+    {
+      "context": "直接上市後以文件、財報與價格結構檢查原始股東出售風險。",
+      "ep": "EP76",
+      "from": "palantir-pltr",
+      "source_locator": "analysis/EP76_supplemental.json:/holdings/6",
+      "to": "ep76-ipo-observation",
+      "type": "價格發現"
+    },
+    {
+      "context": "第二階段部位需先滿足事前條件，而不是因價格下跌觸發。",
+      "ep": "EP76",
+      "from": "ep76-conditional-second-stage",
+      "source_locator": "analysis/EP76_supplemental.json:/mindsets/3",
+      "to": "palantir-pltr",
+      "type": "分段建倉"
+    },
+    {
+      "context": "退休與教育期限要求先補本金缺口，再決定可承受的市場風險。",
+      "ep": "EP76",
+      "from": "ep76-horizon-risk-capacity",
+      "source_locator": "analysis/EP76_supplemental.json:/mindsets/4",
+      "to": "ep76-principal-gap-first",
+      "type": "目標規劃"
+    },
+    {
+      "context": "單一公司與單一市場定期定額需依提款期限和區域風險調整。",
+      "ep": "EP76",
+      "from": "tsmc-2330",
+      "source_locator": "analysis/EP76_supplemental.json:/holdings/7",
+      "to": "ep76-horizon-risk-capacity",
+      "type": "集中風險"
+    },
+    {
+      "context": "供應許可與制裁以市場、技術控制與談判籌碼檢查。",
+      "ep": "EP76",
+      "from": "ep76-interest-lens",
+      "source_locator": "analysis/EP76_supplemental.json:/industry/3",
+      "to": "ep76-geopolitics-supply-chain",
+      "type": "政策分析"
     }
   ],
   "metadata": {
     "created": "2026-02-24",
-    "lastUpdated": "2026-07-31",
+    "lastUpdated": "2026-08-01",
     "last_repair": "2026-02-28",
-    "last_update": "2026-07-31",
-    "source": "EP1-EP75 分析報告",
-    "total_entities": 643,
-    "total_relations": 642
+    "last_update": "2026-08-01",
+    "source": "EP1-EP76 分析報告",
+    "total_entities": 650,
+    "total_relations": 650
   },
   "nodes": [
     {
@@ -6119,12 +6183,13 @@
     },
     {
       "code": "MSFT",
-      "description": "xCloud、Game Pass、Azure 與 ZeniMax／Bethesda 內容庫平台。",
+      "description": "xCloud、ZeniMax／Bethesda 與 Orion 技術資產候選。",
       "eps": [
         "EP18",
         "EP25",
         "EP58",
-        "EP75"
+        "EP75",
+        "EP76"
       ],
       "first_ep": "EP18",
       "id": "microsoft",
@@ -7493,13 +7558,14 @@
       "type": "🏢公司"
     },
     {
-      "code": "2330",
-      "description": "EP57 用來拆解公司品質、EPS、本益比區間與追價機會成本。",
+      "code": "2330.TW",
+      "description": "單一公司定期定額與市場集中風險案例。",
       "eps": [
         "EP36",
         "EP53",
         "EP56",
-        "EP57"
+        "EP57",
+        "EP76"
       ],
       "first_ep": "EP36",
       "id": "tsmc-2330",
@@ -9837,13 +9903,15 @@
       "type": "💡概念"
     },
     {
-      "description": "政府與商業資料分析平台；上市前的創辦人光環與私人市場估值必須回到公開財務、客戶集中與價格驗證。",
+      "code": "PLTR",
+      "description": "直接上市後採第一階段建倉與條件式加碼。",
       "eps": [
-        "EP52"
+        "EP52",
+        "EP76"
       ],
       "first_ep": "EP52",
       "id": "palantir-pltr",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "Palantir (PLTR)",
       "notion_id": "3a6b9258820781548e35fc32442fb056",
       "type": "🏢公司/標的"
@@ -12183,12 +12251,13 @@
     },
     {
       "code": "NVDA",
-      "description": "GeForce Now、GPU 與多題材曝險的雲端遊戲核心。",
+      "description": "遊戲串流獲利曝險占比較高的平台候選。",
       "eps": [
         "EP67",
         "EP68",
         "EP71",
-        "EP75"
+        "EP75",
+        "EP76"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
@@ -13241,10 +13310,11 @@
       "type": "🏭產業"
     },
     {
-      "description": "算力、低延遲網路、遊戲權利、內容庫、訂閱、直播入口與終端共同競爭。",
+      "description": "Orion 將串流壓縮與延遲技術加入算力、內容與入口競爭。",
       "eps": [
         "EP74",
-        "EP75"
+        "EP75",
+        "EP76"
       ],
       "first_ep": "EP74",
       "id": "ep74-cloud-gaming-industry",
@@ -13383,6 +13453,96 @@
       "name": "Take-Two Interactive",
       "notion_id": "3aeb9258820781fc8acdfb7866e1cd08",
       "type": "🏢公司/標的"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "突發新聞先拆成可驗證鏈條，不立刻翻譯成空手或滿倉。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-event-trade-decoupling",
+      "importance": "⭐⭐⭐⭐",
+      "name": "事件—交易解耦",
+      "notion_id": "3afb9258820781b3bc3fe232b91236f3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "國際政策先辨識利益、控制力與談判籌碼，再處理情緒立場。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-interest-lens",
+      "importance": "⭐⭐⭐",
+      "name": "利益視角",
+      "notion_id": "3afb9258820781ada2d0eca36a2006d9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "上市初期不受 FOMO 與隔日波動驅動，等待文件、財報與價格結構。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-ipo-observation",
+      "importance": "⭐⭐⭐",
+      "name": "IPO 拉長觀察",
+      "notion_id": "3afb92588207810ca283c89398b0bf46",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "下一筆建倉由事前價格與基本面條件觸發，不因下跌自動加碼。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-conditional-second-stage",
+      "importance": "⭐⭐⭐",
+      "name": "條件式第二階段",
+      "notion_id": "3afb925882078171b4c0f4d208d95579",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "越接近退休或教育提款日，越要降低無法承受的波動與流動性風險。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-horizon-risk-capacity",
+      "importance": "⭐⭐⭐",
+      "name": "期限風險容量",
+      "notion_id": "3afb9258820781c8a989d7a917948248",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資是資金運用工具，不能取代收入與本金累積。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-principal-gap-first",
+      "importance": "⭐⭐⭐",
+      "name": "本金缺口優先",
+      "notion_id": "3afb92588207815780a2ef91869dc403",
+      "type": "💡概念"
+    },
+    {
+      "description": "以利益、供應許可與控制力拆解美中政策及台灣站隊。",
+      "eps": [
+        "EP76"
+      ],
+      "first_ep": "EP76",
+      "id": "ep76-geopolitics-supply-chain",
+      "importance": "⭐⭐⭐",
+      "name": "地緣政治與供應鏈",
+      "notion_id": "3afb925882078110b981fb997ab1c526",
+      "type": "🏭產業"
     }
   ]
 }
