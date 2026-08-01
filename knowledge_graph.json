@@ -5027,6 +5027,70 @@
       "source_locator": "analysis/EP77_supplemental.json:/holdings/9",
       "to": "ep77-custody-risk",
       "type": "平台保管"
+    },
+    {
+      "context": "先隔離群體情緒，再以第一手理解形成可修正判斷。",
+      "ep": "EP78",
+      "from": "ep78-opinion-trade-isolation",
+      "source_locator": "analysis/EP78_supplemental.json:/mindsets/0",
+      "to": "ep78-first-hand-judgment",
+      "type": "判斷流程"
+    },
+    {
+      "context": "選舉結果改變產業路徑，部位上限避免單一情境失誤。",
+      "ep": "EP78",
+      "from": "ep78-election-scenarios",
+      "source_locator": "analysis/EP78_supplemental.json:/mindsets/3",
+      "to": "ep78-sector-cap",
+      "type": "情境配置"
+    },
+    {
+      "context": "Cloudflare 被用來說明不猜單一高低點。",
+      "ep": "EP78",
+      "from": "ep78-time-diversification",
+      "source_locator": "analysis/EP78_supplemental.json:/holdings/5",
+      "to": "ep55-cloudflare-net",
+      "type": "分批投入"
+    },
+    {
+      "context": "Fastly 創高回落案例說明一次重壓的心理與價格風險。",
+      "ep": "EP78",
+      "from": "ep78-time-diversification",
+      "source_locator": "analysis/EP78_supplemental.json:/holdings/4",
+      "to": "fastly-fsly",
+      "type": "分批投入"
+    },
+    {
+      "context": "終端採用到供應鏈財務結果必須逐段核驗。",
+      "ep": "EP78",
+      "from": "ep78-supply-chain-proof",
+      "source_locator": "analysis/EP78_supplemental.json:/mindsets/6",
+      "to": "ep78-mobile-5g-chain",
+      "type": "證據約束"
+    },
+    {
+      "context": "聯發科受益論同時需排除禁令前提前拉貨。",
+      "ep": "EP78",
+      "from": "ep78-mediatek",
+      "source_locator": "analysis/EP78_supplemental.json:/holdings/1",
+      "to": "ep78-mobile-5g-chain",
+      "type": "供應鏈候選"
+    },
+    {
+      "context": "匯率與利差不確定時避免單一金融產業滿倉。",
+      "ep": "EP78",
+      "from": "ep78-insurance-fx",
+      "source_locator": "analysis/EP78_supplemental.json:/industry/1",
+      "to": "ep78-sector-cap",
+      "type": "曝險管理"
+    },
+    {
+      "context": "遊戲相似與抵制聲量不能直接證明替代性或商業結果。",
+      "ep": "EP78",
+      "from": "ep78-game-platform",
+      "source_locator": "analysis/EP78_supplemental.json:/industry/0",
+      "to": "ep78-opinion-trade-isolation",
+      "type": "產品判斷"
     }
   ],
   "metadata": {
@@ -5034,9 +5098,9 @@
     "lastUpdated": "2026-08-01",
     "last_repair": "2026-02-28",
     "last_update": "2026-08-01",
-    "source": "EP1-EP77 分析報告",
-    "total_entities": 658,
-    "total_relations": 658
+    "source": "EP1-EP78 分析報告",
+    "total_entities": 668,
+    "total_relations": 666
   },
   "nodes": [
     {
@@ -10428,10 +10492,11 @@
     },
     {
       "code": "NET",
-      "description": "主持人長期分批持有的 CDN 成長配置。",
+      "description": "主持人持有並用於說明分批投入的成長股。",
       "eps": [
         "EP55",
-        "EP77"
+        "EP77",
+        "EP78"
       ],
       "first_ep": "EP55",
       "id": "ep55-cloudflare-net",
@@ -13705,15 +13770,143 @@
     },
     {
       "code": "FSLY",
-      "description": "與 Cloudflare 並列的 CDN 成長配置。",
+      "description": "創高後仍需控制單次部位與進場節奏的案例。",
       "eps": [
-        "EP77"
+        "EP77",
+        "EP78"
       ],
       "first_ep": "EP77",
       "id": "fastly-fsly",
       "importance": "⭐⭐⭐",
       "name": "Fastly (FSLY)",
       "notion_id": "3afb9258820781b89122e632612df73d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "社群抵制與政治情緒只作研究線索，不直接映射成交易。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-opinion-trade-isolation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "輿論交易隔離",
+      "notion_id": "3afb925882078192bfeed914d6c5758b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "先親自理解產品與問題，再形成可被事實修正的判斷。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-first-hand-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "第一手判斷",
+      "notion_id": "3afb9258820781c08c51c3fb19338a68",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不同選舉結果改變路徑與產業配置，但不等於市場終結。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-election-scenarios",
+      "importance": "⭐⭐⭐⭐",
+      "name": "選舉情境化",
+      "notion_id": "3afb92588207816b8167fae69482e036",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "判斷不確定時避免把全部資金曝險於同一產業。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-sector-cap",
+      "importance": "⭐⭐⭐⭐",
+      "name": "產業部位上限",
+      "notion_id": "3afb92588207816f94b1f1bc9aa40edc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "無法精準猜高低點時，用分批投入平滑成本與心理壓力。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-time-diversification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "時點風險分散",
+      "notion_id": "3afb9258820781fc9c16dcc8c7853926",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "終端、品牌、訂單、出貨到財務結果逐段建立證據。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-supply-chain-proof",
+      "importance": "⭐⭐⭐⭐",
+      "name": "供應鏈逐段驗證",
+      "notion_id": "3afb9258820781148fe3ec44fb10b314",
+      "type": "💡概念"
+    },
+    {
+      "description": "用產品替代性、在地化、平台分發與法律邊界分析遊戲競爭。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-game-platform",
+      "importance": "⭐⭐⭐",
+      "name": "遊戲內容與平台",
+      "notion_id": "3afb925882078183ac52fe7ccfc9b26a",
+      "type": "🏭產業"
+    },
+    {
+      "description": "把幣值、海外資產、避險成本、利差與配息串成驗證鏈。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-insurance-fx",
+      "importance": "⭐⭐⭐⭐",
+      "name": "銀行、壽險與匯率",
+      "notion_id": "3afb9258820781879fdffabdcea6c10e",
+      "type": "🏭產業"
+    },
+    {
+      "description": "Apple 終端採用到中國品牌、台灣晶片與代工的待核傳導鏈。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-mobile-5g-chain",
+      "importance": "⭐⭐⭐⭐",
+      "name": "5G 與手機供應鏈",
+      "notion_id": "3afb9258820781f3b557d72a95093fdf",
+      "type": "🏭產業"
+    },
+    {
+      "code": "2454.TW",
+      "description": "營收改善與禁令前提前拉貨兩種解釋並存。",
+      "eps": [
+        "EP78"
+      ],
+      "first_ep": "EP78",
+      "id": "ep78-mediatek",
+      "importance": "⭐⭐⭐",
+      "name": "聯發科 (2454)",
+      "notion_id": "3afb92588207810583a1fcbc25e2511c",
       "type": "🏢公司/標的"
     }
   ]
