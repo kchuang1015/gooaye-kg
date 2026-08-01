@@ -4963,6 +4963,70 @@
       "source_locator": "analysis/EP76_supplemental.json:/industry/3",
       "to": "ep76-geopolitics-supply-chain",
       "type": "政策分析"
+    },
+    {
+      "context": "新聞敘事與價格走勢都必須回到可核驗事實及基本面。",
+      "ep": "EP77",
+      "from": "ep77-fact-first",
+      "source_locator": "analysis/EP77_supplemental.json:/mindsets/0",
+      "to": "ep77-drawdown-fundamental-test",
+      "type": "證據約束"
+    },
+    {
+      "context": "進場成本和退出紀律共同決定個人盈虧。",
+      "ep": "EP77",
+      "from": "ep77-asymmetric-pnl",
+      "source_locator": "analysis/EP77_supplemental.json:/mindsets/2",
+      "to": "ep77-cost-first",
+      "type": "部位管理"
+    },
+    {
+      "context": "跟單不能取代自己的成本、部位與停損規則。",
+      "ep": "EP77",
+      "from": "ep77-copy-trade-isolation",
+      "source_locator": "analysis/EP77_supplemental.json:/mindsets/5",
+      "to": "ep77-asymmetric-pnl",
+      "type": "責任隔離"
+    },
+    {
+      "context": "Cloudflare 與 Fastly 承擔較高成長想像。",
+      "ep": "EP77",
+      "from": "ep55-cloudflare-net",
+      "source_locator": "analysis/EP77_supplemental.json:/holdings/1",
+      "to": "cloud-edge-computing",
+      "type": "成長配置"
+    },
+    {
+      "context": "Fastly 與 Cloudflare 被分配相同配置權重。",
+      "ep": "EP77",
+      "from": "fastly-fsly",
+      "source_locator": "analysis/EP77_supplemental.json:/holdings/2",
+      "to": "cloud-edge-computing",
+      "type": "成長配置"
+    },
+    {
+      "context": "修正期以營收、獲利與承接辨識 CDN 上漲品質。",
+      "ep": "EP77",
+      "from": "ep77-drawdown-fundamental-test",
+      "source_locator": "analysis/EP77_supplemental.json:/mindsets/3",
+      "to": "cloud-edge-computing",
+      "type": "回檔檢驗"
+    },
+    {
+      "context": "聯電被列為中芯制裁後二線代工需求轉移候選。",
+      "ep": "EP77",
+      "from": "ep69-umc",
+      "source_locator": "analysis/EP77_supplemental.json:/holdings/6",
+      "to": "ep77-power-mature-node",
+      "type": "轉單候選"
+    },
+    {
+      "context": "股票持有權、DTC 匯撥、股東通知和資產隔離需由條款驗證。",
+      "ep": "EP77",
+      "from": "etoro",
+      "source_locator": "analysis/EP77_supplemental.json:/holdings/9",
+      "to": "ep77-custody-risk",
+      "type": "平台保管"
     }
   ],
   "metadata": {
@@ -4970,9 +5034,9 @@
     "lastUpdated": "2026-08-01",
     "last_repair": "2026-02-28",
     "last_update": "2026-08-01",
-    "source": "EP1-EP76 分析報告",
-    "total_entities": 650,
-    "total_relations": 650
+    "source": "EP1-EP77 分析報告",
+    "total_entities": 658,
+    "total_relations": 658
   },
   "nodes": [
     {
@@ -6710,11 +6774,12 @@
       "type": "🏢公司/標的"
     },
     {
-      "code": "eToro",
-      "description": "境外金融科技交易平台；介面與低門檻有產品價值，但境外牌照、台灣核准、CFD、槓桿、當機與跨境救濟須分開。",
+      "code": "private",
+      "description": "持有權、託管、匯撥與監管需獨立核對的平台案例。",
       "eps": [
         "EP25",
-        "EP53"
+        "EP53",
+        "EP77"
       ],
       "first_ep": "EP25",
       "id": "etoro",
@@ -9191,18 +9256,19 @@
       "type": "💡概念"
     },
     {
-      "description": "Cloudflare、Akamai 與雲端 ETF 受惠網路化方向，但留存、毛利、現金流、競爭及估值仍是必要檢查。",
+      "description": "以成長、成熟度與回檔基本面比較 Cloudflare、Fastly 和 Akamai。",
       "eps": [
         "EP47",
         "EP50",
         "EP51",
         "EP52",
         "EP54",
-        "EP55"
+        "EP55",
+        "EP77"
       ],
       "first_ep": "EP47",
       "id": "cloud-edge-computing",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "雲端軟體／邊緣運算",
       "notion_id": "3a0b92588207816d8931c44772d682b1",
       "type": "🏭產業"
@@ -10361,13 +10427,15 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "疫情後網路流量與雲端服務需求的研究標的；成長與高估值、競爭及現金流風險可同時存在。",
+      "code": "NET",
+      "description": "主持人長期分批持有的 CDN 成長配置。",
       "eps": [
-        "EP55"
+        "EP55",
+        "EP77"
       ],
       "first_ep": "EP55",
       "id": "ep55-cloudflare-net",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Cloudflare (NET)",
       "notion_id": "3a7b925882078109a843dc0275021c94",
       "type": "🏢公司/標的"
@@ -12604,15 +12672,16 @@
     },
     {
       "code": "2303.TW",
-      "description": "成熟製程滿載、報價與中芯轉單題材案例。",
+      "description": "中芯制裁後成熟製程轉單候選。",
       "eps": [
-        "EP69"
+        "EP69",
+        "EP77"
       ],
       "first_ep": "EP69",
       "id": "ep69-umc",
       "importance": "⭐⭐⭐",
-      "name": "聯電",
-      "notion_id": "3abb925882078106aedbd6e8c29e855f",
+      "name": "聯電 (2303)",
+      "notion_id": "3afb9258820781f4b8abcd398b3b7283",
       "type": "🏢公司/標的"
     },
     {
@@ -13543,6 +13612,109 @@
       "name": "地緣政治與供應鏈",
       "notion_id": "3afb925882078110b981fb997ab1c526",
       "type": "🏭產業"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "未知事件不以臆測補完，等待可核驗事實再下結論。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-fact-first",
+      "importance": "⭐⭐⭐⭐",
+      "name": "事實先於敘事",
+      "notion_id": "3afb92588207814a9127f2a7d70b9089",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "讓看對的部位延續，看錯時及時控制損失。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-asymmetric-pnl",
+      "importance": "⭐⭐⭐⭐",
+      "name": "盈虧不對稱",
+      "notion_id": "3afb92588207810b8907c2f80ce4d84f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "上漲可能靠氣勢，修正時用基本面與承接檢查品質。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-drawdown-fundamental-test",
+      "importance": "⭐⭐⭐",
+      "name": "回檔基本面測試",
+      "notion_id": "3afb9258820781618b48d5ee2e527a81",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "資產品質與買入價格必須一起評估。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-cost-first",
+      "importance": "⭐⭐⭐⭐",
+      "name": "成本優先",
+      "notion_id": "3afb9258820781a583dbf11df1bce960",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "他人操作只作研究線索，最終判斷與部位責任留在自己。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-copy-trade-isolation",
+      "importance": "⭐⭐⭐",
+      "name": "跟單隔離",
+      "notion_id": "3afb9258820781f4ad55ccfff351d424",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "方便交易不等於持有權、匯撥、監管與資產隔離已被證明。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-custody-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "保管風險獨立",
+      "notion_id": "3afb925882078144a833d9c2b075ae08",
+      "type": "💡概念"
+    },
+    {
+      "description": "把缺貨、制裁、轉單、產能、報價與毛利串成驗證鏈。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "ep77-power-mature-node",
+      "importance": "⭐⭐⭐",
+      "name": "功率半導體與成熟製程",
+      "notion_id": "3afb92588207819fa00bc0c67de235a4",
+      "type": "🏭產業"
+    },
+    {
+      "code": "FSLY",
+      "description": "與 Cloudflare 並列的 CDN 成長配置。",
+      "eps": [
+        "EP77"
+      ],
+      "first_ep": "EP77",
+      "id": "fastly-fsly",
+      "importance": "⭐⭐⭐",
+      "name": "Fastly (FSLY)",
+      "notion_id": "3afb9258820781b89122e632612df73d",
+      "type": "🏢公司/標的"
     }
   ]
 }
