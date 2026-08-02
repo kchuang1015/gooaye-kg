@@ -5155,6 +5155,78 @@
       "source_locator": "analysis/EP79_supplemental.json:/industry/2",
       "to": "ep79-game-livestream-platform",
       "type": "美中平台競爭"
+    },
+    {
+      "context": "政府紀錄中的平台限制陳述、材料真假、平台動機、違法性與政治結論必須分層。",
+      "ep": "EP80",
+      "from": "ep80-information-gate-separation",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/0",
+      "to": "ep80-information-governance",
+      "type": "驗證框架"
+    },
+    {
+      "context": "候選人偏好不能替代政策、許可、訂單與收入證據。",
+      "ep": "EP80",
+      "from": "ep80-political-scenario-tree",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/1",
+      "to": "tsmc-2330",
+      "type": "政策曝險"
+    },
+    {
+      "context": "分散組合中的雲端持股不能被截成單股重壓指令。",
+      "ep": "EP80",
+      "from": "ep80-portfolio-context",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/2",
+      "to": "ep80-cdn-concentration",
+      "type": "部位約束"
+    },
+    {
+      "context": "本業收入與現金讓分批投入在修正後仍可持續。",
+      "ep": "EP80",
+      "from": "ep80-income-endurance",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/3",
+      "to": "ep79-batch-entry",
+      "type": "執行條件"
+    },
+    {
+      "context": "台股與美股的週期與價格反應不可假設相同。",
+      "ep": "EP80",
+      "from": "ep80-market-method-localization",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/5",
+      "to": "tsmc-2330",
+      "type": "市場方法"
+    },
+    {
+      "context": "法說線索與長期方向需等待產品、訂單與趨勢證據。",
+      "ep": "EP80",
+      "from": "ep80-trend-confirmation",
+      "source_locator": "analysis/EP80_supplemental.json:/mindsets/6",
+      "to": "ep58-largan-3008",
+      "type": "部署條件"
+    },
+    {
+      "context": "Quest 2 發布規格已來源化；裝置規格仍不證明採用、銷量、5G 或供應鏈受益。",
+      "ep": "EP80",
+      "from": "ep80-vr-ar-streaming",
+      "source_locator": "analysis/EP80_supplemental.json:/industry/3",
+      "to": "ep58-meta-meta",
+      "type": "產品入口"
+    },
+    {
+      "context": "Fastly 的初步營收與未命名最大客戶敘述已來源化，但不把該客戶寫成 TikTok。",
+      "ep": "EP80",
+      "from": "ep80-cdn-concentration",
+      "source_locator": "analysis/EP80_supplemental.json:/industry/4",
+      "to": "fastly-fsly",
+      "type": "申報邊界"
+    },
+    {
+      "context": "Cloudflare 的財務、價格、報酬與持倉未另行來源化，不由 Fastly 申報資料推定。",
+      "ep": "EP80",
+      "from": "ep80-cdn-concentration",
+      "source_locator": "analysis/EP80_supplemental.json:/industry/4",
+      "to": "ep55-cloudflare-net",
+      "type": "同業對照"
     }
   ],
   "metadata": {
@@ -5162,9 +5234,9 @@
     "lastUpdated": "2026-08-02",
     "last_repair": "2026-02-28",
     "last_update": "2026-08-02",
-    "source": "EP1-EP79 分析報告",
-    "total_entities": 678,
-    "total_relations": 674
+    "source": "EP1-EP80 分析報告",
+    "total_entities": 687,
+    "total_relations": 683
   },
   "nodes": [
     {
@@ -7752,14 +7824,15 @@
     },
     {
       "code": "2330.TW",
-      "description": "一股 ADS 代表五股普通股的結構已核；ADR 溢價、轉換資格、價格與指數權重未核。",
+      "description": "3Q20 營收新台幣 3,564.3 億元、淨利 1,373.1 億元、稀釋 EPS 5.30 元、毛利率 53.4%，及 4Q20 美元營收 124–127 億美元指引已來源化；客戶、訂單、供應商、價格、指數、匯率敏感度與因果未核。",
       "eps": [
         "EP36",
         "EP53",
         "EP56",
         "EP57",
         "EP76",
-        "EP79"
+        "EP79",
+        "EP80"
       ],
       "first_ep": "EP36",
       "id": "tsmc-2330",
@@ -10334,13 +10407,15 @@
       "type": "💡概念"
     },
     {
-      "description": "2020 年名人帳號接管事件暴露社交工程與內部管理工具風險；平台網路效應、事故傷害、修補與監管須分開評估。",
+      "code": "TWTR",
+      "description": "政府聽證紀錄載有阻止動態／私訊分享文章及鎖定 New York Post 帳號的陳述；不推定爭議材料真偽、平台動機、違法性或選舉效果。",
       "eps": [
-        "EP54"
+        "EP54",
+        "EP80"
       ],
       "first_ep": "EP54",
       "id": "twitter-platform-security",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Twitter (TWTR)",
       "notion_id": "3a6b9258820781a18d32c14622cd208a",
       "type": "🏢公司/標的"
@@ -10559,12 +10634,13 @@
     },
     {
       "code": "NET",
-      "description": "突破整理後仍需以成本、部位與基本面管理的強勢股案例。",
+      "description": "與 Fastly 對照的雲端強弱案例；Cloudflare 財務、價格、報酬與持倉仍未核。",
       "eps": [
         "EP55",
         "EP77",
         "EP78",
-        "EP79"
+        "EP79",
+        "EP80"
       ],
       "first_ep": "EP55",
       "id": "ep55-cloudflare-net",
@@ -11122,13 +11198,15 @@
       "type": "💡概念"
     },
     {
-      "description": "Facebook／Instagram 的短影音競爭與反壟斷情境。",
+      "code": "META",
+      "description": "聽證身分與 Quest 2 封存發布規格已來源化；材料真偽、平台動機／違法性／選舉效果、銷量、採用、5G、供應商與市場資料仍未核。",
       "eps": [
-        "EP58"
+        "EP58",
+        "EP80"
       ],
       "first_ep": "EP58",
       "id": "ep58-meta-meta",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Meta Platforms (META)",
       "notion_id": "3a7b9258820781e9a8c6f604c3056d08",
       "type": "🏢公司/標的"
@@ -11198,13 +11276,15 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "鏡頭需求與保守管理階層指引案例。",
+      "code": "3008.TW",
+      "description": "華為限制、手機需求與 VR／AR 光學案例；年報未做頁面級抽取，不使用任何大立光財務、法說、客戶、訂單、VR／AR 或價格數字。",
       "eps": [
-        "EP58"
+        "EP58",
+        "EP80"
       ],
       "first_ep": "EP58",
       "id": "ep58-largan-3008",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "大立光 (3008)",
       "notion_id": "3a7b9258820781fe97f9ef03c9686382",
       "type": "🏢公司/標的"
@@ -13839,14 +13919,15 @@
     },
     {
       "code": "FSLY",
-      "description": "創高後仍需控制單次部位與進場節奏的案例。",
+      "description": "3Q20 初步營收 7,000–7,100 萬美元、8 月 5 日指引不應依賴及未命名最大客戶用量未達預期已來源化；TikTok 身分、股價、未來表現與持倉仍未核。",
       "eps": [
         "EP77",
-        "EP78"
+        "EP78",
+        "EP80"
       ],
       "first_ep": "EP77",
       "id": "fastly-fsly",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Fastly (FSLY)",
       "notion_id": "3afb9258820781b89122e632612df73d",
       "type": "🏢公司/標的"
@@ -14032,15 +14113,16 @@
     },
     {
       "category": "🎯 操作紀律",
-      "description": "不等完美時點，以拉長週期和多次投入避免一次打光資金。",
+      "description": "拒絕 all in／all out，保留錯判後的修正空間。",
       "eps": [
-        "EP79"
+        "EP79",
+        "EP80"
       ],
       "first_ep": "EP79",
       "id": "ep79-batch-entry",
       "importance": "⭐⭐⭐⭐",
-      "name": "分批取代擇時",
-      "notion_id": "3b0b92588207819db1dce984470760d3",
+      "name": "分批承認會看錯",
+      "notion_id": "3b0b9258820781aebc9fc8e67051f914",
       "type": "💡概念"
     },
     {
@@ -14104,6 +14186,120 @@
       "name": "騰訊 (0700.HK)",
       "notion_id": "3b0b92588207813a9ca0f620cbe7c833",
       "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "把能否傳播、真假與結論強度分開驗證。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-information-gate-separation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "資訊入口分帳",
+      "notion_id": "3b0b92588207815499c8e8cac1f5461b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "政治偏好不能取代多條政策與市場路徑。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-political-scenario-tree",
+      "importance": "⭐⭐⭐⭐",
+      "name": "政治情境樹",
+      "notion_id": "3b0b9258820781ed9d6cd0ae270c5751",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不把他人的分散組合觀點截成自己的單一重壓指令。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-portfolio-context",
+      "importance": "⭐⭐⭐⭐",
+      "name": "組合語境保全",
+      "notion_id": "3b0b925882078186a042d5df1880b0e0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "穩定收入讓修正後仍有投入與調整部位的選擇權。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-income-endurance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "本業收入續航",
+      "notion_id": "3b0b9258820781bfaaeffb221e36002b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "不同市場的週期、流動性與資訊速度需要不同方法。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-market-method-localization",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場方法在地化",
+      "notion_id": "3b0b92588207817ea8dcde5041e59839",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "不以猜底為義務，等主流與趨勢明朗再部署。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-trend-confirmation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "趨勢確認等待",
+      "notion_id": "3b0b925882078103b095fe7247687a48",
+      "type": "💡概念"
+    },
+    {
+      "description": "政府紀錄確認 2020-10-28 與 2020-11-17 兩場聽證身分及列名證人，並記載 Twitter 分享限制與帳號鎖定陳述；不證明材料真偽、平台動機、違法性或選舉效果。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-information-governance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "社群平台與資訊治理",
+      "notion_id": "3b0b9258820781ab9fdac6af8b1452b5",
+      "type": "🏭產業"
+    },
+    {
+      "description": "Quest 2 一體式定位、299 美元起價、10 月 13 日出貨、XR2、6GB、單眼 1832 × 1920 與減重超過 10% 已來源化；採用、5G、供應商與受益因果仍未核。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-vr-ar-streaming",
+      "importance": "⭐⭐⭐⭐",
+      "name": "VR／AR、遊戲硬體與串流",
+      "notion_id": "3b0b925882078180bdbac9e1911d78a7",
+      "type": "🏭產業"
+    },
+    {
+      "description": "Fastly 申報資料確認 3Q20 初步營收 7,000–7,100 萬美元、舊指引不應依賴及未命名最大客戶用量未達預期；TikTok 身分、價格與未來表現仍未核。",
+      "eps": [
+        "EP80"
+      ],
+      "first_ep": "EP80",
+      "id": "ep80-cdn-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CDN、雲端平台與集中風險",
+      "notion_id": "3b0b92588207816d9dfac712b3a7c37d",
+      "type": "🏭產業"
     }
   ]
 }
