@@ -13722,20 +13722,122 @@
       "source_pointer": "/legacy_decisions/by_manifest_index/681",
       "to": "ep80-cdn-concentration",
       "type": "例證"
+    },
+    {
+      "context": "承認未來不可知，支持用現金、配置與分批建立防禦。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "因為你真的沒有辦法把話說是，沒有人可以預知未來嘛,",
+        "excerpt_sha256": "cb15de5238f5b345f45d313159c92d999688417b18086f5d51836dac0f496859",
+        "line_end": 48,
+        "line_start": 48,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-uncertainty-aware-positioning",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/0",
+      "to": "ep81-defensive-allocation",
+      "type": "支持"
+    },
+    {
+      "context": "報告證據階梯用來檢查 Hyliion 做空報告的技術、客戶與商業主張。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "但是他們並沒有在這份報告裡面寫說,",
+        "excerpt_sha256": "5494372cc24463c2da40c44f081d13d55423ae40426f29dfe887f3bc17bd0bee",
+        "line_end": 605,
+        "line_start": 605,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-short-report-evidence-discipline",
+      "predicate_id": "audits",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/2",
+      "to": "hyliion-hyln",
+      "type": "審計"
+    },
+    {
+      "context": "自主判讀約束社群資訊直接變成交易指令。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "當然還是要有自己的判讀力,",
+        "excerpt_sha256": "4886afcf3bbabe0615cee6cf2d022c92f85cef061a93b9ceb439813852b3d4c1",
+        "line_end": 714,
+        "line_start": 714,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-independent-judgment",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/3",
+      "to": "ep81-investment-community",
+      "type": "約束"
+    },
+    {
+      "context": "只記錄主持人以「餵你那樣的東西」描述注意力回饋；不把它升格為平台因果、個人 feed 結果或演算法重訓保證。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "餵你那樣的東西,",
+        "excerpt_sha256": "dc264b702f7d954d7a888e07af8bf5e5008a6c38586dca2bff726eaa6c14a091",
+        "line_end": 919,
+        "line_start": 919,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-algorithm-feedback-loop",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/4",
+      "to": "ep81-hatred-content",
+      "type": "影響"
+    },
+    {
+      "context": "供需與替代性框架應用於薪資及 offer 談判。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "所以有時候還是供給跟需求,",
+        "excerpt_sha256": "a08424da93ca3cf6ca73ca52849c18f5f7a24db4907ed91a7a5d3dd8804ce8e2",
+        "line_end": 1057,
+        "line_start": 1057,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-labor-supply-demand",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/6",
+      "to": "ep81-offer-bargaining",
+      "type": "應用於"
+    },
+    {
+      "context": "可核驗事實約束市場鬼故事的敘事範圍，排除無證據臆測。",
+      "ep": "EP81",
+      "evidence": {
+        "excerpt": "每一個都是基於事實,",
+        "excerpt_sha256": "2c4e7c68ea91551f97e091e3ea8c323dc0e27fe76d461c0bea77fce60d2798f2",
+        "line_end": 1300,
+        "line_start": 1300,
+        "transcript_path": "transcripts/EP81_corrected.txt",
+        "transcript_sha256": "d9e29c8f1333b1dfaa71384cd8e86897478d145ccae047108baa006980580594"
+      },
+      "from": "ep81-evidence-first-reasoning",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP81_supplemental.json:/mindsets/8",
+      "to": "ep81-market-ghost-stories",
+      "type": "約束"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-05",
+    "lastUpdated": "2026-08-06",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-05",
+    "last_update": "2026-08-06",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP80 分析報告",
+    "source": "EP1-EP81 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 687,
-    "total_relations": 599
+    "total_entities": 699,
+    "total_relations": 605
   },
   "nodes": [
     {
@@ -22799,6 +22901,161 @@
       "name": "CDN、雲端平台與集中風險",
       "notion_id": "3b0b92588207816d9dfac712b3a7c37d",
       "type": "🏭產業"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "承認未來不可知，改用現金、配置與分批控制單一判斷損失。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-uncertainty-aware-positioning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "不可知部位化",
+      "notion_id": "3b4b925882078169b946c76346e56a46",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "高估值、低預期報酬與不確定性升高時，用現金、股債配置或減碼建立防禦。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-defensive-allocation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "防禦配置",
+      "notion_id": "3b4b9258820781d093d8c372fc5ca760",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "研究報告要逐項檢查可重現文件、影片、技術來源、客戶測試與商業結果。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-short-report-evidence-discipline",
+      "importance": "⭐⭐⭐⭐",
+      "name": "報告證據階梯",
+      "notion_id": "3b4b92588207812c9d6fd51db931b73a",
+      "type": "💡概念"
+    },
+    {
+      "code": "HYLN",
+      "description": "發行人文件只支持 Hybrid 系統與 Dana 關係邊界；Dana 文件確認 Hyliion Inc.、2,988,229 股及 e-propulsion preferred-supplier arrangement。Bonitas 指控與技術、測試、訂單、節油、詐欺、未來成功及價格因果均不升格。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "hyliion-hyln",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Hyliion (HYLN)",
+      "notion_id": "3b4b9258820781b2b1e7c015e62678ba",
+      "type": "🏢公司/標的"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "社群提供資訊入口，個人仍需查核、決策並承擔結果。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-independent-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "社群判讀責任",
+      "notion_id": "3b4b925882078117b2d3ddf8cd7c77c4",
+      "type": "💡概念"
+    },
+    {
+      "description": "資訊分享提高研究效率，但無法替代個人判讀與責任。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-investment-community",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資社群與自主判讀",
+      "notion_id": "3b4b9258820781a2b6f1e4e46fd27a56",
+      "type": "🏭產業"
+    },
+    {
+      "category": "🧠 投資心理與行為",
+      "description": "主持人以持續觀看同類內容描述注意力回饋；Facebook 官方文件只支持推薦依興趣與使用者行動個人化，不證明仇恨內容因果、個人 feed 或重訓保證。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-algorithm-feedback-loop",
+      "importance": "⭐⭐⭐⭐",
+      "name": "演算法回饋迴路",
+      "notion_id": "3b4b9258820781f5b3bee93fad96402c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理與行為",
+      "description": "無法控制的政治事件若只提高憤怒，應主動調整來源與注意力。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-hatred-content",
+      "importance": "⭐⭐⭐⭐",
+      "name": "仇恨內容圈",
+      "notion_id": "3b4b925882078138878de93729df271b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "薪資與 offer 受需求強度、替代性及雙方選項約束。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-labor-supply-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "勞動市場供需",
+      "notion_id": "3b4b9258820781b7a7a3cbea8ea07376",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "先判斷對方是否真的需要你，再決定條件、拒絕或離場。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-offer-bargaining",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Offer 談判",
+      "notion_id": "3b4b925882078197add4d7cae08b2ea3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "事實、證據與可核驗因果先於立場、臆測和陰謀敘事。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-evidence-first-reasoning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "證據優先推理",
+      "notion_id": "3b4b9258820781378236fc5a132569ef",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "風險敘事只有建立在可核驗事實上才有研究價值。",
+      "eps": [
+        "EP81"
+      ],
+      "first_ep": "EP81",
+      "id": "ep81-market-ghost-stories",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場鬼故事",
+      "notion_id": "3b4b92588207810d911bed28b6933a57",
+      "type": "💡概念"
     }
   ]
 }
