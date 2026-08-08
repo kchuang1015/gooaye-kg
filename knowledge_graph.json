@@ -13926,6 +13926,108 @@
       "source_locator": "analysis/EP82_supplemental.json:/mindsets/10",
       "to": "ep82-event-trading-edge",
       "type": "支持"
+    },
+    {
+      "context": "公開方法與獨立資金來源是建立查核公信力的必要支撐。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "他認為可以從這個查核組織的方法公開性和資金來源獨立性來處理,",
+        "excerpt_sha256": "3f8435bc69947c24c624844f80323950ff6d4d4522cbfabf0a03c2d7091c3d3e",
+        "line_end": 81,
+        "line_start": 81,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep83-fact-check-method-transparency",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/0",
+      "to": "ep83-fact-check-public-trust",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示台幣升值會傷害低毛利出口業。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "它就會受傷,",
+        "excerpt_sha256": "f022c78db4556b289898468721d881cdc06b45a396eb80c94d11f2cf4efadb91",
+        "line_end": 434,
+        "line_start": 434,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep83-currency-appreciation",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/2",
+      "to": "ep83-exporter-margin-pressure",
+      "type": "影響"
+    },
+    {
+      "context": "較低無風險利率改變投資人可接受的資產回報。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "就會跟著降低,",
+        "excerpt_sha256": "d1a5af737605f8011489f86707a426ef4f07d064e6744f54dac7b0f1ae23bd44",
+        "line_end": 446,
+        "line_start": 446,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep83-low-risk-free-rate",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/4",
+      "to": "ep83-acceptable-asset-return",
+      "type": "影響"
+    },
+    {
+      "context": "資訊不對等被描述為取得先機的條件。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "你才有可能有奪得先機的狀況,",
+        "excerpt_sha256": "98b8c3d11ff6601e9c4c7947b177e60cc78ac1d277b8b730dbba8c55052b218d",
+        "line_end": 744,
+        "line_start": 744,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep82-information-asymmetry",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/6",
+      "to": "ep83-first-mover-advantage",
+      "type": "支持"
+    },
+    {
+      "context": "無法持續勝過大盤時，逐字稿支持轉向被動指數投資。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "那你就加入被動指數化投資的行列,",
+        "excerpt_sha256": "61d8643e194697b82f976b1d2df8f4cebddd9600f1c96673fc58f8c5bcad3573",
+        "line_end": 1038,
+        "line_start": 1038,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep83-active-underperformance",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/8",
+      "to": "ep83-passive-index-investing",
+      "type": "支持"
+    },
+    {
+      "context": "基本面條件約束單純依固定跌幅執行停損的規則。",
+      "ep": "EP83",
+      "evidence": {
+        "excerpt": "還是要輔以一點基本面的東西,",
+        "excerpt_sha256": "30fc9416a97564794975c4ab33804abbb4235a0f50418d175664808b0a44ccd2",
+        "line_end": 1113,
+        "line_start": 1113,
+        "transcript_path": "transcripts/EP83_corrected.txt",
+        "transcript_sha256": "4c5d6d2a9f240c51874b1bbdb6d9a6eaa5860d033c580b50f403b4e1a9a84ffa"
+      },
+      "from": "ep83-fundamental-conditions",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP83_supplemental.json:/mindsets/10",
+      "to": "ep83-stop-loss-rule",
+      "type": "約束"
     }
   ],
   "metadata": {
@@ -13936,10 +14038,10 @@
     "last_update": "2026-08-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP82 分析報告",
+    "source": "EP1-EP83 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 711,
-    "total_relations": 611
+    "total_entities": 722,
+    "total_relations": 617
   },
   "nodes": [
     {
@@ -23293,7 +23395,8 @@
       "category": "🔬 基本面研究",
       "description": "市場參與者掌握資訊的時間、品質或理解差異。",
       "eps": [
-        "EP82"
+        "EP82",
+        "EP83"
       ],
       "first_ep": "EP82",
       "id": "ep82-information-asymmetry",
@@ -23313,6 +23416,149 @@
       "importance": "⭐⭐⭐⭐",
       "name": "事件交易優勢",
       "notion_id": "3b6b92588207816996f3ea33808e4c87",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "公開查核方法、來源與更正邏輯，使主張可以被外部檢驗。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-fact-check-method-transparency",
+      "importance": "⭐⭐⭐⭐",
+      "name": "查核方法透明",
+      "notion_id": "3b6b92588207813094ded914a358949b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理與行為",
+      "description": "社會對查核組織公正性與可問責性的有條件信任。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-fact-check-public-trust",
+      "importance": "⭐⭐⭐⭐",
+      "name": "查核公共信任",
+      "notion_id": "3b6b9258820781f2a2dddb2a79203aa3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌍 總經政策",
+      "description": "本國貨幣相對交易貨幣升值的匯率狀態。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-currency-appreciation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "本幣升值",
+      "notion_id": "3b6b9258820781ad91dddf46224a1819",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "匯率換算與成本結構對低毛利出口業形成的壓力。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-exporter-margin-pressure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "出口商毛利壓力",
+      "notion_id": "3b6b925882078123b4f7ec1e73cc2018",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌍 總經政策",
+      "description": "低國債或基準無風險收益率的市場環境。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-low-risk-free-rate",
+      "importance": "⭐⭐⭐⭐",
+      "name": "低無風險利率",
+      "notion_id": "3b6b925882078170bdeac637b67b58cd",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "投資人在既定風險與替代收益下可接受的回報門檻。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-acceptable-asset-return",
+      "importance": "⭐⭐⭐⭐",
+      "name": "可接受資產回報",
+      "notion_id": "3b6b9258820781dcbb6dc995b83bfe4d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "在資訊尚未被充分定價前可能取得的有界決策優勢。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-first-mover-advantage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "先機優勢",
+      "notion_id": "3b6b9258820781dca617c67c1d5e10e9",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "主動選擇在可比較期間無法持續勝過基準。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-active-underperformance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "主動績效落後",
+      "notion_id": "3b6b92588207813394a9e98fc752302d",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "以低干預方式持有追蹤市場指數的投資工具。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-passive-index-investing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "被動指數化投資",
+      "notion_id": "3b6b9258820781eca585e46f19d83c7e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "營運、財務與投資假說是否仍成立的可檢驗條件。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-fundamental-conditions",
+      "importance": "⭐⭐⭐⭐",
+      "name": "基本面條件",
+      "notion_id": "3b6b925882078147988cf8d1ff726d4c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "依價格與基本面失效條件退出或降低部位的規則。",
+      "eps": [
+        "EP83"
+      ],
+      "first_ep": "EP83",
+      "id": "ep83-stop-loss-rule",
+      "importance": "⭐⭐⭐⭐",
+      "name": "停損規則",
+      "notion_id": "3b6b9258820781ca8e64e83dbebb2463",
       "type": "💡概念"
     }
   ]
