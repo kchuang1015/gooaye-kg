@@ -13824,20 +13824,122 @@
       "source_locator": "analysis/EP81_supplemental.json:/mindsets/8",
       "to": "ep81-market-ghost-stories",
       "type": "約束"
+    },
+    {
+      "context": "The transcript explicitly describes the fee floor changing odd-lot acquisition cost.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "有一句話我覺得說的蠻準的，就是說，投資的勝負有一半是決定在你買進的瞬間，你買進的瞬間，你買了就比別人貴，那當然你的勝率就是比別人低了嘛，所以，這大家要非常非常注意的，台股一般的交易手續費呢是千分之一點四二五，那只是說，如果你要用零股交易的話，那乘以千分之一點四二五之後，不足二十塊的，它會自動補足到二十塊，所以你自己要算一下，你買進的金額加起來，乘以千分之,",
+        "excerpt_sha256": "0b56eb3547c34957c90ad9dc8004d8f3eaa59980e98b27fb67accae52b0b0c22",
+        "line_end": 23,
+        "line_start": 23,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-broker-minimum-fee",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/0",
+      "to": "ep82-odd-lot-order-economics",
+      "type": "影響"
+    },
+    {
+      "context": "Diversified sizing limits the magnitude of single-stock exposure.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "這個便當去夾菜，因為那個雞腿幹他媽太大隻了，一放進來，你的便當就滿了，那只是現在變成有零股交易之後，我覺得，對於大家來說，優勢就是在於說，你終於可以去做配置了，你終於不用過度曝險在某一支股票，所以，我相信這個功能會被大家廣泛的利用，只是你下單的時候還是要小心，就是你不要看到說，欸，是1你就買，因為那1可能是一張或是一股，那我自己看了一些券商的設計，其實我覺得還蠻防呆的，我覺得，再怎麼防呆還是有呆瓜啦，所以你要自己注意，你買的是一張還是一股,",
+        "excerpt_sha256": "08a327528b694f151d227bd128c95ef4d178fd45413d3d5b4628e7f83acafb33",
+        "line_end": 27,
+        "line_start": 27,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-diversified-position-sizing",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/2",
+      "to": "ep82-single-stock-exposure",
+      "type": "約束"
+    },
+    {
+      "context": "The episode identifies financial statements as evidence used to test a thesis.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "但是呢，我覺得特斯拉的這個市佔，會持續的上升，那目前看起來，財報開出來的數字，因為財報就是拿來驗證你的想法用的，那我覺得財報開出來的數字，就是很漂亮的，可是一樣就surprise,財報數字雖然很好看，可是股價也是連日的下跌，那當然這個連日的下跌，就看你怎麼樣去判斷了，如果說，一些做短線的，他可能覺得，我覺得這股價轉弱了，那你要走也是沒有關係，這當然都是自己的選擇，那如果是看長線的人呢，我覺得你可以去思考看看，比方說，特斯拉的現在價格,",
+        "excerpt_sha256": "84aa3c2770628e696d8c01a7b4d40fdc0939c1d9ca98ba49f0719303505f4f11",
+        "line_end": 51,
+        "line_start": 51,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-financial-statements",
+      "predicate_id": "validates",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/4",
+      "to": "ep82-long-term-investment-thesis",
+      "type": "驗證"
+    },
+    {
+      "context": "Unpredictable outcomes limit reliance on one predetermined market path.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "所以有時候是這樣，你自己預期的東西多半不會發生，或是說不會百分之百按照你設定的路徑去發生，大概是這樣，所以有很多東西是無法預期的啦，那我們就在自己可以預期的範圍內去調整自己，那遇到無可預期的東西呢，那當然就是要訓練自己的反應能力，要很快的可以去釐清一下到底發生什麼事情，並且去做出調整，那最後面呢，我就稍微帶一下美國的第二次辯論我的看法，那首先呢，我覺得川普還是贏了，雖然拜登這次有比較好一點,",
+        "excerpt_sha256": "fb8d65ee7f19bf2e40b6208be221fa3d9a7eab792f412cd2ca0a7d84f858b871",
+        "line_end": 54,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-unpredictable-market-outcomes",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/6",
+      "to": "ep82-fixed-path-forecasting",
+      "type": "約束"
+    },
+    {
+      "context": "Observed changes increase support for an explicit adjustment decision.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "可是我們要很快的，當局勢發生一些變化，或是不如預期的時候，要去做出一個調整，這是我們要努力的方向，好，那QA的廣告呢，是千呼萬喚始出來，由cyberpunk,電馭叛客2077給贊助，這個大家都非常非常的期待，那最主要是因為我之前貼過一個基努里維的預告影片，那獲得了亞洲區代理商的注意，所以決定找我一起合作，所以成為7個實況主，館長之後，那就是我，所以我是壓軸，但是在這件事實上，壓軸好像不太好，因為壓軸感覺好像前面已經把玩家都分光了，所以我這邊還有沒有玩家，我也不知道，那廠商他們其實也非常的好,",
+        "excerpt_sha256": "f56b211d559159c727d5eb992fd2c5c164889aa099d71f06e900a6fbba881c45",
+        "line_end": 67,
+        "line_start": 67,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-changing-market-conditions",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/8",
+      "to": "ep82-portfolio-adjustment",
+      "type": "支持"
+    },
+    {
+      "context": "The transcript presents unequal information as the basis of the proposed event edge.",
+      "ep": "EP82",
+      "evidence": {
+        "excerpt": "那樣的策略如果重複太多次的話，所以我們覺得pricing,就大家就知道說，這個電影出來可能會熱賣，所以就有人先去買，就先提早拉，就像當初蘋果發表會之前先拉6%,然後當天是反跌2%,類似這樣，所以其實同樣的一個套路沒有辦法每次玩，那在股市裡面如果要賺這樣，就是要賺所謂的資訊不對等，你可能就要認識裡面的人，然後知道說他接下來會出什麼很屌的作品，然後提前布局才比較有可能，好下面也有阿水0816,他說，癌大股海明燈，挨大光宗耀祖娶白人正妹，再加上癌大睿智的",
+        "excerpt_sha256": "222e9479c8005110654e66fa822304176601a2a15ed2cf422ea9ff576b1c829f",
+        "line_end": 82,
+        "line_start": 82,
+        "transcript_path": "transcripts/EP82_corrected.txt",
+        "transcript_sha256": "29d207776c54279464ba537b8e651a875761e3d8b33f9542a17a485931dba52b"
+      },
+      "from": "ep82-information-asymmetry",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP82_supplemental.json:/mindsets/10",
+      "to": "ep82-event-trading-edge",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-06",
+    "lastUpdated": "2026-08-08",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-06",
+    "last_update": "2026-08-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP81 分析報告",
+    "source": "EP1-EP82 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 699,
-    "total_relations": 605
+    "total_entities": 711,
+    "total_relations": 611
   },
   "nodes": [
     {
@@ -23055,6 +23157,162 @@
       "importance": "⭐⭐⭐⭐",
       "name": "市場鬼故事",
       "notion_id": "3b4b92588207810d911bed28b6933a57",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "單筆交易費用未達門檻時適用的最低收費。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-broker-minimum-fee",
+      "importance": "⭐⭐⭐⭐",
+      "name": "券商最低手續費",
+      "notion_id": "3b6b92588207815c9a28e7a6d5f58101",
+      "type": "💡概念"
+    },
+    {
+      "category": "💰 資金管理",
+      "description": "把成交金額、頻率與最低手續費一併計算的成本框架。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-odd-lot-order-economics",
+      "importance": "⭐⭐⭐⭐",
+      "name": "零股下單經濟",
+      "notion_id": "3b6b925882078101a20ce881c7485b31",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "用多標的與部位上限降低單一股票曝險。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-diversified-position-sizing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "分散部位化",
+      "notion_id": "3b6b9258820781b49856e79a3deadfc7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "資產集中於一家公司所形成的特定風險。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-single-stock-exposure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "單一股票曝險",
+      "notion_id": "3b6b9258820781dd9351d9b9469270b7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "用來觀察公司營運與驗證投資假說的正式揭露。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-financial-statements",
+      "importance": "⭐⭐⭐⭐",
+      "name": "財務報表",
+      "notion_id": "3b6b9258820781dc80c5ea1a227a6c26",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "對公司長期價值驅動因素的可檢驗主張。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-long-term-investment-thesis",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長期投資假說",
+      "notion_id": "3b6b92588207812886fdd29671b7c8cd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理與行為",
+      "description": "市場不會百分之百沿預設路徑發展。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-unpredictable-market-outcomes",
+      "importance": "⭐⭐⭐⭐",
+      "name": "不可預期市場結果",
+      "notion_id": "3b6b925882078136b7a4e55c2d6d5959",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理與行為",
+      "description": "把單一路徑誤當必然結果的預測方式。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-fixed-path-forecasting",
+      "importance": "⭐⭐⭐⭐",
+      "name": "固定路徑預測",
+      "notion_id": "3b6b9258820781d3afd5c1a45953ddd8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "與原假設不同的新市場資訊和局勢。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-changing-market-conditions",
+      "importance": "⭐⭐⭐⭐",
+      "name": "變動市場條件",
+      "notion_id": "3b6b92588207811ca4b7cdb8b9810ca3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "依新證據改變部位、節奏或風險上限。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-portfolio-adjustment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資組合調整",
+      "notion_id": "3b6b92588207816eb51ed6ca2ead8b9b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場參與者掌握資訊的時間、品質或理解差異。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-information-asymmetry",
+      "importance": "⭐⭐⭐⭐",
+      "name": "資訊不對等",
+      "notion_id": "3b6b9258820781418c48e33426c4ebcd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "事件尚未被完全定價時可能存在的有界研究優勢。",
+      "eps": [
+        "EP82"
+      ],
+      "first_ep": "EP82",
+      "id": "ep82-event-trading-edge",
+      "importance": "⭐⭐⭐⭐",
+      "name": "事件交易優勢",
+      "notion_id": "3b6b92588207816996f3ea33808e4c87",
       "type": "💡概念"
     }
   ]
