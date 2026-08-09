@@ -14028,20 +14028,139 @@
       "source_locator": "analysis/EP83_supplemental.json:/mindsets/10",
       "to": "ep83-stop-loss-rule",
       "type": "約束"
+    },
+    {
+      "context": "新變數出現後，逐字稿要求修正模型與未來預測。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "當然這個模型就會去修正,",
+        "excerpt_sha256": "8b0743352428867fa8e83cba7db2e7780c04c975fe88f4cf7abb9547efacfa5d",
+        "line_end": 462,
+        "line_start": 462,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-new-information",
+      "predicate_id": "revises",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/0",
+      "to": "ep84-forecast-model",
+      "type": "修正"
+    },
+    {
+      "context": "逐字稿以美國利益最大化支撐短期跨黨派對中共識。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "因為這是對於美國利益最大化的一個做法,",
+        "excerpt_sha256": "136a2d50cee4082343fa9cac124a051a97e4b80a0c7ba449c6373c84ddda60ee",
+        "line_end": 477,
+        "line_start": 477,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-us-interest",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/2",
+      "to": "ep84-bipartisan-china-policy",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示 0050 是追蹤台灣50指數的工具之一。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "你就是看台灣50指數,",
+        "excerpt_sha256": "50c77993003fcdc3a257a317c38592333f0f1854c7e22ba000f567d206805503",
+        "line_end": 548,
+        "line_start": 548,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-taiwan-50-index",
+      "predicate_id": "tracks",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/4",
+      "to": "ep84-0050",
+      "type": "追蹤"
+    },
+    {
+      "context": "逐字稿明示 006208 是追蹤台灣50指數的工具之一。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "就0050跟006208,",
+        "excerpt_sha256": "691e0a7e12bb384189b08e11ee0383179697217c71c4c6bf50c309c1370b0210",
+        "line_end": 550,
+        "line_start": 550,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-taiwan-50-index",
+      "predicate_id": "tracks",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/4",
+      "to": "ep84-006208",
+      "type": "追蹤"
+    },
+    {
+      "context": "無法猜中絕對高低點被用來支持分批投入與分批退出。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "所以你能做的就是分批進去,",
+        "excerpt_sha256": "6d282f80d60bda85b55bb67a4b77d34794d3fa0d733b953c82ff8d60efe905ea",
+        "line_end": 607,
+        "line_start": 607,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-market-timing-uncertainty",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/7",
+      "to": "ep75-staged-entry",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿描述前瞻性與產業重新定義會影響市場願付估值。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "市場願意給他更高的評價,",
+        "excerpt_sha256": "dc339b6179aca0d0eb7483ea6b45b80946626ca1b958d7b9c7be4491ec70e017",
+        "line_end": 920,
+        "line_start": 920,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-product-innovation-narrative",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/9",
+      "to": "ep84-valuation-multiple",
+      "type": "影響"
+    },
+    {
+      "context": "單一業務占比過高被明示為放大公司風險的因素。",
+      "ep": "EP84",
+      "evidence": {
+        "excerpt": "如果說你是單一業務,",
+        "excerpt_sha256": "255803437a037dcdd001f97280bc1655c5a683a51c801911c9aa7e0630163b95",
+        "line_end": 1341,
+        "line_start": 1341,
+        "transcript_path": "transcripts/EP84_corrected.txt",
+        "transcript_sha256": "96cfe18c89625a56e0b56ad2608b90fc3917d4d381670ac394a6b7577939293f"
+      },
+      "from": "ep84-business-concentration",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP84_supplemental.json:/mindsets/11",
+      "to": "ep84-ant-credit-risk",
+      "type": "影響"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-08",
+    "lastUpdated": "2026-08-09",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-08",
+    "last_update": "2026-08-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP83 分析報告",
+    "source": "EP1-EP84 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 722,
-    "total_relations": 617
+    "total_entities": 734,
+    "total_relations": 624
   },
   "nodes": [
     {
@@ -23559,6 +23678,162 @@
       "importance": "⭐⭐⭐⭐",
       "name": "停損規則",
       "notion_id": "3b6b9258820781ca8e64e83dbebb2463",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "影響既有判斷的新變數或新證據。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-new-information",
+      "importance": "⭐⭐⭐⭐",
+      "name": "新資訊",
+      "notion_id": "3b7b9258820781c092cdfc11e17e96a7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "以既有資訊形成、並隨新證據修正的未來情境模型。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-forecast-model",
+      "importance": "⭐⭐⭐⭐",
+      "name": "預測模型",
+      "notion_id": "3b7b9258820781bc9a41ce8332f5ea26",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "美國政策決策所追求的國家利益集合。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-us-interest",
+      "importance": "⭐⭐⭐⭐",
+      "name": "美國利益",
+      "notion_id": "3b7b9258820781bd8155e410371f7f10",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "2020 年美國兩黨在競爭、安全與人權面向的對中政策交集。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-bipartisan-china-policy",
+      "importance": "⭐⭐⭐⭐",
+      "name": "美國跨黨派對中政策",
+      "notion_id": "3b7b92588207818cbf12eb3ec1ddad18",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "由臺灣證券市場代表性大型股構成的指數基準。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-taiwan-50-index",
+      "importance": "⭐⭐⭐⭐",
+      "name": "臺灣50指數",
+      "notion_id": "3b7b9258820781c0bea6d362ce45fd18",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "追蹤臺灣50指數的上市指數股票型基金。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-0050",
+      "importance": "⭐⭐⭐⭐",
+      "name": "元大台灣50（0050）",
+      "notion_id": "3b7b9258820781b7b979c55e19af1d2f",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "追蹤臺灣50指數的上市指數股票型基金。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-006208",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富邦台50（006208）",
+      "notion_id": "3b7b9258820781689fdffa692a6c5206",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "無法穩定辨識市場絕對高低點的決策不確定性。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-market-timing-uncertainty",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場擇時不確定性",
+      "notion_id": "3b7b9258820781258a8be59dd6107a63",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "企業以產品創新與產業重新定義支撐成長想像的敘事。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-product-innovation-narrative",
+      "importance": "⭐⭐⭐⭐",
+      "name": "產品創新敘事",
+      "notion_id": "3b7b92588207818680efeaaa946ff6e2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場價格相對盈餘、營收或其他基本面基礎的比率。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-valuation-multiple",
+      "importance": "⭐⭐⭐⭐",
+      "name": "估值倍數",
+      "notion_id": "3b7b9258820781598444d41515d02c01",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "企業營運或獲利依賴單一業務來源的程度。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-business-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "業務集中度",
+      "notion_id": "3b7b9258820781cc8ab8ed79133cef16",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "螞蟻集團消費信貸模式的資金、信用與監管風險。",
+      "eps": [
+        "EP84"
+      ],
+      "first_ep": "EP84",
+      "id": "ep84-ant-credit-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "螞蟻消費信貸風險",
+      "notion_id": "3b7b9258820781eaadecd4db4fac4567",
       "type": "💡概念"
     }
   ]
