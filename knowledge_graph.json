@@ -14147,6 +14147,125 @@
       "source_locator": "analysis/EP84_supplemental.json:/mindsets/11",
       "to": "ep84-ant-credit-risk",
       "type": "影響"
+    },
+    {
+      "context": "逐字稿以單次 all-in 限制重複試錯，說明集中部位影響失本風險。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "我也不確定，因為如果我確定的話，我就全部去買Amazon,所以，其實這個問題，不管你問任何人，都會獲得一樣的答案，那我在這邊，還是跟大家提醒一下，就是說，千萬不要，道聽途說，即便是，好，可能是我講的，或者說，群組裡面，你看了一些，你覺得很厲害的人，其實你長期觀察下來，你就會發現，大家都有對跟錯的時候，那如果說，你，呃，選擇在某一個時候，重壓，某一支，可能，某個人聊到的標的，那當然，對你來說，你受傷的機會，可能就非常的高，因為人家可能可以丟50次骰子，但是，你只能丟一次，因為你是all in的，那，那,",
+        "excerpt_sha256": "16f4a1fe2fb18e5dee8355c9c9032de6c7b29afbc4f3a81ee838d53b7b790325",
+        "line_end": 19,
+        "line_start": 19,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-concentrated-bet",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/0",
+      "to": "ep85-capital-loss-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示把分散與分批投入作為降低曝險的基本方法。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "那你就選擇去,all in,重壓的，那還是很危險，然後，一直跟大家強調，基本觀念，就是，你分散投資，跟分批投入，做到這樣子，其實，老實講，你的保險的，這個程度，曝險的成分，已經很低了，那，自己還是要注意，有這樣子的狀況，如果說，你真的壓到一支，可能，呃，就算它的狀況下，看起來很好，就比方說，像今天，呃，我去上節目的時候，就，呃，這個主持人，他有范琪斐，就問我講說，欸，那個Amazon,可不可以買，有人說，可不可以，就是，大買這個Amazon,Amazon,當然可以買啊，可是老實講，大買真的可以,",
+        "excerpt_sha256": "a1bda3f0faa8a1acb7f93e4ebb3af9d8a37d19bcebf653733bcca42b4cff2342",
+        "line_end": 18,
+        "line_start": 18,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-diversification",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/2",
+      "to": "ep85-exposure-control",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿以 2000 年計票爭議類比說明選舉爭議拖延影響市場。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "被GG喊一喊，然後就漲上去了，那可是很有趣的是,CNN跟WSJ,他們都要收割這個成果，一邊說是因為預期拜登會贏，一邊說是預期川普會贏，那我覺得這種東西我就不去多做評論，反正就是各說各話，那是一個信仰的感覺了，那只是我個人覺得最差最差的狀況，就是遇到像是2000年的，佛州的這個計票危機，也就是說如果真的有爭議會拖下去的話，那對股市絕對不是好事,",
+        "excerpt_sha256": "f54ca5b7db517070790dcb691286684797323d6a0761d85f91acb710b2d49c39",
+        "line_end": 29,
+        "line_start": 29,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-election-dispute",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/4",
+      "to": "ep85-market-uncertainty",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿說明新規可能壓縮主要營收並使原 IPO 估值不再適用。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "外加這一條規定直接去扼殺掉了，他的營收的很大一部分，那可能估值就不會是像當初，跟著這個PayPal去估的一個估值，那可能就會在IPO一上市，就遇到一個血崩，所以第二個，這也是像剛剛前面提到的，它是一個很難以預期的一個人治社會會出現的一個現象，因為為了針對你，所以去立了一個法，當然有時候在可能美國市場也會遇到這樣的事情，可是在中國市場呢，其實這樣的東西層出不窮的，所以有些抽到這個螞蟻IPO,",
+        "excerpt_sha256": "a1e8c8a467dd20a736965bd3e304f97ab20f2000c6318336993dc8595370d49a",
+        "line_end": 41,
+        "line_start": 41,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-ant-ipo-suspension",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/6",
+      "to": "ep85-ant-valuation-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示人治因素讓中國市場更難掌握。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "你是難以預測的，可是在中國呢，還得加入一個人治的因素進去，所以當然就讓整體的難度又拉升到更高的一個層次了，所以說，我之前有跟大家分享，雖然我自己有研究一些中國股市，可是為什麼還是選擇投資台美，其實就是很單純，因為你看不懂東西就不要碰，如果說你覺得他可能脫離你掌握了，就像現在美股一些公司，財報明明就超出你的預期，你就是為了賭這個財報去買的，可是你也知道嘛，就是財報開的好，那假設用原本的估值模型去套，他明明就可以漲得更高，可是短線上,",
+        "excerpt_sha256": "0575e699a9b81fe5e34d7b0d32f5ce28ec4f2ba9e6efc5b59639d5c30740455a",
+        "line_end": 38,
+        "line_start": 38,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-human-rule-factor",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/8",
+      "to": "ep85-china-market-predictability",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿將 VIX 期貨正價差與做多長期持有耗損直接連結。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "富邦VIX,富邦VIX,富邦VIX就跟那個美國的VXX一樣，他們去追蹤VIX的期貨，那也因為他追蹤的是期貨，那VIX期貨的特性呢，是有正價差，也就是說你長期持有，他就會扣血，這個正價差的東西呢，你做多持有就會扣血，所以你去看VXX,還有富邦VIX的走勢,",
+        "excerpt_sha256": "927865226bb56857b5f354a405d6ad0ee9952cc9000135abb12a2999c178e138",
+        "line_end": 54,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-vix-futures-contango",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/10",
+      "to": "ep85-long-hold-decay",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿以邏輯一致性支撐反覆試錯與建立個人勝率。",
+      "ep": "EP85",
+      "evidence": {
+        "excerpt": "因為你的邏輯一樣，才會讓你可以反覆的去試錯，然後做出一個勝率對你來說，可能是五成以上，然後可以讓你獲利的一個辦法，所以你的那個方法要一致，或者就是要適合自己啊，那這可能是你要去測試的，好啦，那本期節目先到這邊，感謝大家收聽，今天QA回答的蠻多的，那也感謝這麼多人來留言，真的超幹多的，那如果有需要的話呢，就再來這邊留言給我，那我就來回答你的問題,",
+        "excerpt_sha256": "99d0352a5344f2be56e3e35f3e8f36539d4fd155f136bf1fe2646d117d7f6eec",
+        "line_end": 86,
+        "line_start": 86,
+        "transcript_path": "transcripts/EP85_corrected.txt",
+        "transcript_sha256": "21438a05f369b1362cc089bc09a1e7735170105f62e86f87e3ef94006df0ab07"
+      },
+      "from": "ep85-strategy-consistency",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP85_supplemental.json:/mindsets/12",
+      "to": "ep85-repeatable-learning",
+      "type": "支持"
     }
   ],
   "metadata": {
@@ -14157,10 +14276,10 @@
     "last_update": "2026-08-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP84 分析報告",
+    "source": "EP1-EP85 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 734,
-    "total_relations": 624
+    "total_entities": 748,
+    "total_relations": 631
   },
   "nodes": [
     {
@@ -23834,6 +23953,188 @@
       "importance": "⭐⭐⭐⭐",
       "name": "螞蟻消費信貸風險",
       "notion_id": "3b7b9258820781eaadecd4db4fac4567",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "把主要資金集中於單一標的或單次判斷。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-concentrated-bet",
+      "importance": "⭐⭐⭐⭐",
+      "name": "集中押注",
+      "notion_id": "3b7b9258820781a786b7d06a1ea0fb8f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "集中部位判斷失誤時造成本金重大損失的風險。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-capital-loss-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "本金損失風險",
+      "notion_id": "3b7b9258820781379997e5285a948d72",
+      "type": "💡概念"
+    },
+    {
+      "category": "📦 資產配置",
+      "description": "把資金配置於多個標的以降低單一判斷的曝險。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-diversification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "分散投資",
+      "notion_id": "3b7b925882078122acaafc58d6f959dc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "用部位與投入節奏把可承受損失限制在規則內。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-exposure-control",
+      "importance": "⭐⭐⭐⭐",
+      "name": "曝險控制",
+      "notion_id": "3b7b9258820781bc830ed9421f7804d3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 國際政治",
+      "description": "主持人在節目中討論的開票與結果爭議情境。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-election-dispute",
+      "importance": "⭐⭐⭐⭐",
+      "name": "選舉爭議",
+      "notion_id": "3b7b9258820781fdbe67efd4d8ad3c9e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "市場對尚未確定事件與相互競爭敘事的價格反應。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-market-uncertainty",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場不確定性",
+      "notion_id": "3b7b9258820781b7834ee3822654bcbf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 公司治理",
+      "description": "主持人在節目中轉述的螞蟻集團上市暫緩事件。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-ant-ipo-suspension",
+      "importance": "⭐⭐⭐⭐",
+      "name": "螞蟻 IPO 暫緩",
+      "notion_id": "3b7b925882078128bf58ff8ff00d57d0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "商業模式或規則變動使原估值假設失效的風險。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-ant-valuation-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "螞蟻估值風險",
+      "notion_id": "3b7b9258820781c9b934dd7883e606ce",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌍 總經政策",
+      "description": "主持人用來描述規則可預測性不足的主觀判斷框架。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-human-rule-factor",
+      "importance": "⭐⭐⭐⭐",
+      "name": "人治因素",
+      "notion_id": "3b7b925882078170bc33d9dda50f8794",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔍 市場判讀",
+      "description": "投資人對中國市場規則與結果能否穩定建模的判斷。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-china-market-predictability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中國市場可預測性",
+      "notion_id": "3b7b9258820781829ffbccc0d595d82c",
+      "type": "💡概念"
+    },
+    {
+      "category": "📚 基礎觀念",
+      "description": "主持人在節目中描述的 VIX 期貨遠近月價差情境。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-vix-futures-contango",
+      "importance": "⭐⭐⭐⭐",
+      "name": "VIX 期貨正價差",
+      "notion_id": "3b7b925882078130939afc3107efcb88",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "期貨型產品在換倉與價格結構下可能累積的持有耗損。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-long-hold-decay",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長期持有耗損",
+      "notion_id": "3b7b92588207813c825bd041da67cceb",
+      "type": "💡概念"
+    },
+    {
+      "category": "🎯 操作紀律",
+      "description": "用一致規則執行、記錄並比較多次投資決策。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-strategy-consistency",
+      "importance": "⭐⭐⭐⭐",
+      "name": "策略一致性",
+      "notion_id": "3b7b9258820781278cbcf05e9dc61b29",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "透過可重複規則反覆試錯並校正個人方法。",
+      "eps": [
+        "EP85"
+      ],
+      "first_ep": "EP85",
+      "id": "ep85-repeatable-learning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "可重複學習",
+      "notion_id": "3b7b9258820781e2b635d9401e7f692c",
       "type": "💡概念"
     }
   ]
