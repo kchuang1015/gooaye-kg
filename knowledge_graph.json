@@ -14266,20 +14266,173 @@
       "source_locator": "analysis/EP85_supplemental.json:/mindsets/12",
       "to": "ep85-repeatable-learning",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿指出替每次短期漲跌強配單一原因會反覆自我打臉。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "結果兩個禮拜，整整兩個禮拜交易日都在跌。大家都以為他發生什麼事了，開始去找理由。那現在就Surprise。那現在漲回去怎麼辦？你要再找一個理由打臉自己嗎？所以我個人是覺得，那種很短期的時間內呢，你不用去幫他挖一個理由出來。因為你非常高機率會打臉。因為股市的走勢，就像是心電圖。它一定是上上下下，上下下。如果你要為每一個上每一個下都找理由的話，你就是瘋狂的在賞自己巴掌。那，當然股市長成這樣，很多人就會去解讀說，欸，是不是變成說,",
+        "excerpt_sha256": "dc24fa35708dc3f2ff85b61d9122885c99c9599db1a2cb01e265850ce3c5a6aa",
+        "line_end": 14,
+        "line_start": 14,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-short-term-price-moves",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/0",
+      "to": "ep86-causal-narrative-confidence",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿把法規通過與大麻題材短期漲勢明確連結。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "那當然，如果今天法規過關的話，它就會刺激到你，就有可能會有一個漲勢的空間。但問題是，如果說，全面普及化之後，我個人是非常懷疑這一塊，可不可以做得很好。如果說真的，到處變整個美國，甚至台灣都可以抽的話，那我相信會是百家爭鳴。應該很難看到，有一家，它可能就是壟斷整個大麻市場，我相信是比較困難的。除非它做出一些比較屌炮的商品，那只有它有，而且有專利等等的。但我個人覺得是很困難的。所以像，大麻股呢，昨天大家看到,",
+        "excerpt_sha256": "50876a1e7cf8ffb3056f86875f2db83e72f4486a138208614533554892337ae0",
+        "line_end": 22,
+        "line_start": 22,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-regulatory-approval",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/2",
+      "to": "ep86-cannabis-sector-momentum",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿以容易生產與百家爭鳴說明低門檻影響市場集中度。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "那當然，如果今天法規過關的話，它就會刺激到你，就有可能會有一個漲勢的空間。但問題是，如果說，全面普及化之後，我個人是非常懷疑這一塊，可不可以做得很好。如果說真的，到處變整個美國，甚至台灣都可以抽的話，那我相信會是百家爭鳴。應該很難看到，有一家，它可能就是壟斷整個大麻市場，我相信是比較困難的。除非它做出一些比較屌炮的商品，那只有它有，而且有專利等等的。但我個人覺得是很困難的。所以像，大麻股呢，昨天大家看到,",
+        "excerpt_sha256": "50876a1e7cf8ffb3056f86875f2db83e72f4486a138208614533554892337ae0",
+        "line_end": 22,
+        "line_start": 22,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-low-cannabis-entry-barrier",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/4",
+      "to": "ep86-cannabis-market-concentration",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿以 Compass Pathways 小部位與五六十檔分散持股支撐題材曝險控制。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "曝險很高，就像我之前投資Peter Thiel的Compass Pathways,做迷幻蘑菇的，就是超炫的。那我跟大家分享這支股票的時候，當然我自己就有去買，可是買的量是少的，就跟我其他的股票比，那太少太少的量了。所以，這也是你要小心的，不要聽節目講到什麼東西，然後就全部都，今天聊什麼就all in什麼，因為我的持股呢，是非常分散配置的。那當然，資金還是大部分集中在我的前十大持股裡面，可是我總共大概有五六十檔吧，五六十檔股票。",
+        "excerpt_sha256": "1f7b5baa62d2ab1627f382bd2497308deff860736b999174e8df23a99bbf1505",
+        "line_end": 26,
+        "line_start": 26,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-position-diversification",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/6",
+      "to": "ep86-thematic-risk-control",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示企業稅提高會壓低企業獲利並影響估值。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "不是這樣的，它只是會殺到他們的獲利，那會影響到他們的表現，多少會，那只是就是可能，好那我就把估值修正，但是修正之後，它還是回到，那個該有的一個成長軌跡上面，那再來就是即便它真的課稅了，那也不代表可以課到每一個人，因為現在呢，當然還是有很多的，可以抵稅的手段存在，拿亞馬遜舉例，就是大家，最喜歡提的這個亞馬遜，主流媒體最喜歡拿亞馬遜出來講說，他們都不繳稅嘛，這個世界的電商巨頭都沒有在繳稅，但是我個人覺得，他們就是照規定走,",
+        "excerpt_sha256": "c0f2305962ad46df16487966ea1840e610aa9ff61546bddaeb90b2655037c70c",
+        "line_end": 38,
+        "line_start": 38,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-corporate-tax-increase",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/8",
+      "to": "ep86-after-tax-earnings",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿以 PayPal 支援比特幣支撐更廣泛採用與流動性。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "這非常重要，因為本來這東西可能是幣圈的人自己玩的很高興嘛，那只是現在，因為有一個大家會用的平台也承認了，所以可能更多人會去接納，並且去採用這樣的東西，那讓它的這個信用的程度變得更高，它的價格就可能會往上推，但是我覺得其實近期的這個萬物起漲呢，其實也不用幫它塞太多的理由，我覺得單純的，就是一直以來提到的，因為現在錢很多，就真的錢很多，所以找地方鑽啦，只要可以孳息的地方我就去啦，以前是比方說，欸,",
+        "excerpt_sha256": "f349f2885588f3cf24bd0824ae5a1564f7bf905f3c1cc6974f1b7d6b43a0516b",
+        "line_end": 46,
+        "line_start": 46,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-paypal-crypto-support",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/10",
+      "to": "ep86-bitcoin-adoption-liquidity",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿把 00632R 識別為臺灣50反一指數型產品。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "也有一些東西是不適合大家投資的，像我之前跟大家最常聊到的，也算是我們的成名作啦,00672L,它就是不適合大家買的ETF,那再來呢，還有像是富邦的VIX,那也是不適合大家買的，那再來就是這個，今天要聊的,00632R,就是台灣50反一，元大的一個商品，那這個也是非常不適合大家買的，那一樣，前面先下一個警語，就是說，任何商品都有人可以賺錢，所以我相信一定有人可以在這邊賺錢，只是我覺得，像這樣的商品，它比較像是，你今天去打拳，你打拳，你一定希望兩隻手可以揮嘛,",
+        "excerpt_sha256": "257ddc53f1b5cf3f2c49584fd4b2f2491565b10edf0bc8764c5a4d115f5580ed",
+        "line_end": 50,
+        "line_start": 50,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-taiwan50-inverse-index",
+      "predicate_id": "tracks",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/12",
+      "to": "ep56-yuanta-taiwan50-inverse-00632r",
+      "type": "追蹤"
+    },
+    {
+      "context": "逐字稿把反向期貨部位的價差成本與長期持有耗損直接連結。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "就類似現金這種形式嘛，可是你要去買反一呢，反一只有兩成的資金是放空，剩下八成是剛剛前面提到的，附買回債券跟現金，所以等於說，你某種程度來說，你是反過來持有現金，那當然00632R我一直不建議散戶持有，最主要的原因是因為他會扣血，就是說因為台股長期逆價差的關係，所以這種反向的商品呢，你在期貨做空，你長期來說你會扣血，那扣血的部分他們就很聰明，因為他跟他期貨是做多的，逆價差如果你是做多的話，他是加血,",
+        "excerpt_sha256": "f267db881c75a0ba196ee5df485656e0c83559577325caa537049385410bbb65",
+        "line_end": 60,
+        "line_start": 60,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-inverse-etf-carry",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/14",
+      "to": "ep85-long-hold-decay",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿以小額非生活資金投資支撐承受下跌與維持策略。",
+      "ep": "EP86",
+      "evidence": {
+        "excerpt": "他的這個分享，其實有一段還蠻有意思的，就是說，他是拿了，就是他的一部分，就小資金在玩而已啦，所以他覺得，你看他遇到下跌，他一樣吃雞排在看劇嘛，這個就很重要啦，就是說投資如果是會影響到你生活的開銷，那你心理上壓力就超大，這也是為什麼我不鼓勵大家做什麼全職投資啊，因為你全職投資，你會變成說，你會期待我每個月就要月薪進來，可是投資有時候是這樣，他有時候甚至是，你三個月賺不到錢，可是後來的三個月一次賺半年的錢，會這樣子，那你如果,",
+        "excerpt_sha256": "3cc4ff132f3ba5b4260dc8f0c0a72c3e338001bf347ef42dda92d96fdbf20206",
+        "line_end": 71,
+        "line_start": 71,
+        "transcript_path": "transcripts/EP86_corrected.txt",
+        "transcript_sha256": "c4c19e4323b6970b3a137059903912300671e7cef7de25b7a99e208e6c4e0979"
+      },
+      "from": "ep86-living-expense-separation",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP86_supplemental.json:/mindsets/16",
+      "to": "ep86-investor-emotional-resilience",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-09",
+    "lastUpdated": "2026-08-10",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-09",
+    "last_update": "2026-08-10",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP85 分析報告",
+    "source": "EP1-EP86 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 748,
-    "total_relations": 631
+    "total_entities": 764,
+    "total_relations": 640
   },
   "nodes": [
     {
@@ -24135,6 +24288,214 @@
       "importance": "⭐⭐⭐⭐",
       "name": "可重複學習",
       "notion_id": "3b7b9258820781e2b635d9401e7f692c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "短期市場價格在多重因素下上下變動的現象。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-short-term-price-moves",
+      "importance": "⭐⭐⭐⭐",
+      "name": "短期價格波動",
+      "notion_id": "3b8b9258820781a28631ced71f44c1e8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "對單一事件能解釋短期漲跌的可信程度判斷。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-causal-narrative-confidence",
+      "importance": "⭐⭐⭐⭐",
+      "name": "因果敘事信心",
+      "notion_id": "3b8b92588207810c8dd9de84b078da9c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "由主管機關或立法程序形成的合法市場准入條件。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-regulatory-approval",
+      "importance": "⭐⭐⭐⭐",
+      "name": "法規許可",
+      "notion_id": "3b8b9258820781eaae2edcd22e4c92c0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "法規與資金事件帶動大麻產業短期交易熱度的現象。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-cannabis-sector-momentum",
+      "importance": "⭐⭐⭐⭐",
+      "name": "大麻產業動能",
+      "notion_id": "3b8b9258820781369a67fc1d2a29a483",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "大麻生產與市場參與者增加相對容易的競爭條件。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-low-cannabis-entry-barrier",
+      "importance": "⭐⭐⭐⭐",
+      "name": "大麻低進入門檻",
+      "notion_id": "3b8b9258820781baad65c8db193d47b0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "大麻市場營收或市占由少數業者掌握的程度。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-cannabis-market-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "大麻市場集中度",
+      "notion_id": "3b8b92588207815c972ae2e1c07261e4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "將資金配置於多個標的以限制單一題材曝險。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-position-diversification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "持股分散",
+      "notion_id": "3b8b92588207811dbd5cf3f1ca14d341",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "以小部位與分散配置限制高波動題材的可承受損失。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-thematic-risk-control",
+      "importance": "⭐⭐⭐⭐",
+      "name": "題材風險控制",
+      "notion_id": "3b8b92588207814d9af7fdf8567b742f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "企業所得稅法定或有效稅率提高的政策情境。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-corporate-tax-increase",
+      "importance": "⭐⭐⭐⭐",
+      "name": "企業稅率上升",
+      "notion_id": "3b8b9258820781a98762db236efb4dfc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "企業在所得稅費用後保留的盈餘。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-after-tax-earnings",
+      "importance": "⭐⭐⭐⭐",
+      "name": "稅後獲利",
+      "notion_id": "3b8b9258820781689053e08ee4a71b5a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "PayPal 提供的加密貨幣買賣、持有與支付服務。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-paypal-crypto-support",
+      "importance": "⭐⭐⭐⭐",
+      "name": "PayPal 加密貨幣服務",
+      "notion_id": "3b8b925882078101b04dd02b369b1e5f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "比特幣的使用者採用範圍與可交易資金深度。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-bitcoin-adoption-liquidity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "比特幣採用與流動性",
+      "notion_id": "3b8b925882078152b186c725b50005cb",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "追求臺灣50指數單日反向報酬的指數基準。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-taiwan50-inverse-index",
+      "importance": "⭐⭐⭐⭐",
+      "name": "臺灣50反向指數",
+      "notion_id": "3b8b92588207817fb7cac751e3e984b0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "反向 ETF 使用期貨及每日重設所累積的價差與持有成本。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-inverse-etf-carry",
+      "importance": "⭐⭐⭐⭐",
+      "name": "反向 ETF 期貨價差成本",
+      "notion_id": "3b8b92588207812b9718efd65ef03c35",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "把日常生活支出資金與投資風險資金分開管理。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-living-expense-separation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "生活資金隔離",
+      "notion_id": "3b8b92588207815f875ff2656327c125",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "面對價格波動與收入不規則時仍能維持決策紀律的能力。",
+      "eps": [
+        "EP86"
+      ],
+      "first_ep": "EP86",
+      "id": "ep86-investor-emotional-resilience",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資人情緒韌性",
+      "notion_id": "3b8b925882078119864cdea9edda1dc9",
       "type": "💡概念"
     }
   ]
