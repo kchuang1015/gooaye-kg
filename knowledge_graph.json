@@ -14419,20 +14419,173 @@
       "source_locator": "analysis/EP86_supplemental.json:/mindsets/16",
       "to": "ep86-investor-emotional-resilience",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "因為你最終的目的呢是要訓練自己的判斷力，然後讓自己在不用依靠任何人的指示之下呢,",
+        "excerpt_sha256": "5729c5dcd58a17a61ea2caa385c253e3b833930f6f8fd8afe75cc6c036ad1a7d",
+        "line_end": 55,
+        "line_start": 55,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-independent-judgment",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/0",
+      "to": "ep87-investor-decision-quality",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "那你可以丟越多骰子的人，你創造出S級作品的機會就越高。",
+        "excerpt_sha256": "64487fa1fbd91b215b9e0bbf6a222b71757ac3ca2cc406d26d2c8dc2712f1321",
+        "line_end": 76,
+        "line_start": 76,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-original-content-scale",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/2",
+      "to": "ep87-hit-content-probability",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "可是如果說疫苗的前景已經越來越明朗的話呢，那這些本來獲得很高估值的公司，不是說他們的營收就不會增加了，也不是說他們的基本面就就此轉壞，我不覺得，我是覺得他的評價就會降低。",
+        "excerpt_sha256": "6cfb6f40784231c6ed422e3b8a66d9f8e1b809a4859998afe7b8d26f314d4dea",
+        "line_end": 119,
+        "line_start": 119,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-vaccine-visibility",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/4",
+      "to": "ep87-pandemic-beneficiary-valuation",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "之後遇到一個殺盤之後，就主委救我，那主委救不了你啊，主委在旁邊看，覺得說幹你們在幹嘛，其實還好吧，這個還好吧，那只是你當然買的高的，你一定就受重傷，再一次，為什麼你一定要分批投入就是這樣，你如果分批投入，你現在就有子彈可以打，你沒有分批投入呢，你現在就直接帳面上負個8%10%,那當然是很痛的啦，好，但是同時，同時間呢，在道瓊這邊，道瓊裡面的成分股就是比較偏那種傳統所謂的舊經濟啦，很多舊債,",
+        "excerpt_sha256": "cc1cb389c7676119aa81a5dbcd2260e84202fc7fb1050a87f9d7c21d4c40d8cf",
+        "line_end": 126,
+        "line_start": 126,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep75-staged-entry",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/6",
+      "to": "ep87-drawdown-capacity",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "一定是超讚，因為基期低，第一季，第二季表現很爛，所以明年第一季，第二季，可能只要比，之前好，那那個數字，就會看起來超漂亮的，那可能就會變成一些，炒股的根據，那但是也不是鼓勵大家炒股，就是說，你可以觀察看看，就是還是要跟大家強調說，在我們這邊呢，你不要千萬，就是，整天都想說，什麼，我什麼東西可以賺錢，不要，你真的是，當旁觀者,在旁邊看，是最好的，甚至一輩子不要進市場，也沒有關係，那你大概了解一下，市場是怎麼運作的，真的有把握的時候，再下來打，那如果我們,",
+        "excerpt_sha256": "1398e230b1bbacabeaa02737b219dbcef4191886f23923ca70feda2c6fc62367",
+        "line_end": 144,
+        "line_start": 144,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-low-base-effect",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/8",
+      "to": "ep87-reported-growth-rate",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "沒有把握，沒有把握，沒關係，那你就可能就做這個，指數投資，我還是最建議大家的，可能，幾乎每兩集，就會提到一次，因為我還是要跟大家，強調這件事情，就是大多數人，你是沒有辦法，在主動選股裡面，打贏大盤的,",
+        "excerpt_sha256": "fcb14a6affc36cc7213930354b2d5af48c30befb5f5070b312d3c99d216b8dd6",
+        "line_end": 145,
+        "line_start": 145,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-index-investing",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/10",
+      "to": "ep87-market-participation-discipline",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "不同的想法，那，這個CDS,當然，最壞的狀況，就是說，因為他其實就有點像是一個，放空的部位，對沖的部位，那在他的投資組合裡面，佔比不會太大，所以，最差最差的狀況，就像是繳保費一樣，他會把這個錢給繳掉，然後慢慢的虧損，慢慢的虧損，那，這就像是，如果你有看《大賣空》的話，你就印象很深刻,Dr.Michael Burry,一開始，他的那個，Scion基金的，淨值一直往下掉，就是因為他必須，一直去繳這個保費啦，那，當然，如果今天這個東西爆炸了，他賭對了,",
+        "excerpt_sha256": "81a6d3499d59e97421810788d3aa26e484b7b11b5f0155053fd1c00895a81ba1",
+        "line_end": 151,
+        "line_start": 151,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-position-sizing",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/12",
+      "to": "ep87-hedging-cost-tolerance",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "在最早剛開的時候，有些人搶快有跟單到，好像，像昨天就有一個人有跟單到，就很高興，他又貼出來說，你看我這個跟單，他的績效還不錯這樣，那我覺得就盡量不用跟單啦，其實你，我還是跟大家建議說，你真的不要跟誰的單，跟單是一個很奇怪的事情，其實你真的要訓練的是自己的判斷力啦，你不可能跟人家跟一輩子啊，靠山山倒，靠人人倒，是這樣嗎，反正就差不多是這個意思，我覺得你還是要訓練自己是最重要的,",
+        "excerpt_sha256": "149a29b722c96872aa87531e1d25a122893733ef1f6ad7212f92a85a13541755",
+        "line_end": 161,
+        "line_start": 161,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-copy-trading",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/14",
+      "to": "ep87-independent-learning",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP87",
+      "evidence": {
+        "excerpt": "買了六千股，你本來只知道四單買個幾百股而已，結果你買到六千股去了，你根本不知道，所以你在做交易的時候，我建議你就是還是要好好的檢查，像我就是一定會確定我的東西都結束之後才去睡覺，不過那天是很特別的案例，因為那一天是他顯示沒有成交，所以一般人可能看到，啊沒有成交算了啦，那就睡覺啦，今天這個系統不穩嘛，大家都不穩嘛，可能太多交易一次湧入了，所以今天我就先表到動作了，結果沒有想到，幹，他都幫你買了，那如果你剛好帳戶裡面錢又不夠的，那就,",
+        "excerpt_sha256": "d537f042b9739a8568cb49aa34ef2d8008bae5e83dc7fca8d08e306e718e057a",
+        "line_end": 167,
+        "line_start": 167,
+        "transcript_path": "transcripts/EP87_corrected.txt",
+        "transcript_sha256": "1bd6c7269e2188d7f3f96b997210e2c47afe13f32c17a67f82062c5eb97524ec"
+      },
+      "from": "ep87-order-status-verification",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP87_supplemental.json:/mindsets/16",
+      "to": "ep87-duplicate-order-risk",
+      "type": "影響"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-10",
+    "lastUpdated": "2026-08-11",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-10",
+    "last_update": "2026-08-11",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP86 分析報告",
+    "source": "EP1-EP87 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 764,
-    "total_relations": 640
+    "total_entities": 781,
+    "total_relations": 649
   },
   "nodes": [
     {
@@ -24496,6 +24649,227 @@
       "importance": "⭐⭐⭐⭐",
       "name": "投資人情緒韌性",
       "notion_id": "3b8b925882078119864cdea9edda1dc9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "不依賴他人指示，依證據形成並承擔自己的投資判斷。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-independent-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "獨立判斷",
+      "notion_id": "3b9b92588207817f8d02fc64f6b8ae23",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "投資決策在證據、紀律與可重複性上的整體品質。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-investor-decision-quality",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資決策品質",
+      "notion_id": "3b9b9258820781328266c544d60d0e15",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "影音平台投入並推出原創內容的數量與廣度。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-original-content-scale",
+      "importance": "⭐⭐⭐⭐",
+      "name": "原創內容規模",
+      "notion_id": "3b9b9258820781d0a483d66368638540",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "內容組合產生高影響力成功作品的可能性。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-hit-content-probability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "爆款內容機率",
+      "notion_id": "3b9b9258820781b6876fdec24d9472b0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "疫苗有效性、時程與持續保護等資訊的可見程度。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-vaccine-visibility",
+      "importance": "⭐⭐⭐⭐",
+      "name": "疫苗前景明朗度",
+      "notion_id": "3b9b925882078196a6d9c7afb4d0d3f9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場給予疫情受惠企業的成長預期與估值水準。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-pandemic-beneficiary-valuation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "疫情受惠股估值",
+      "notion_id": "3b9b9258820781c0b04ae0b939b717b7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資人在價格下跌時仍可維持紀律並保有加碼能力的程度。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-drawdown-capacity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "回檔承受力",
+      "notion_id": "3b9b92588207810cb98ec82d7e3b9b68",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "比較基期偏低使後續成長率看起來較高的統計效果。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-low-base-effect",
+      "importance": "⭐⭐⭐⭐",
+      "name": "低基期效應",
+      "notion_id": "3b9b92588207812ea229f4e518959e56",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "財務報表依同比或環比口徑呈現的成長百分比。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-reported-growth-rate",
+      "importance": "⭐⭐⭐⭐",
+      "name": "報表成長率",
+      "notion_id": "3b9b9258820781fb8944cedc97a35f35",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "以追蹤市場指數的工具取得廣泛市場曝險。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-index-investing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數投資",
+      "notion_id": "3b9b9258820781eca9f3c81365c6fc9a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "以可持續規則參與市場並避免情緒化選股或擇時。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-market-participation-discipline",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場參與紀律",
+      "notion_id": "3b9b9258820781539f96d213c0eeb81d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "單一策略或標的在投資組合中配置的資金比例。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-position-sizing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "部位尺寸",
+      "notion_id": "3b9b9258820781558ebcd34516bbcbc7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合可承擔對沖部位持續付出成本的程度。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-hedging-cost-tolerance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "對沖成本承受度",
+      "notion_id": "3b9b9258820781758676ce8aa538cfe4",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "依他人的交易訊號複製買賣決策。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-copy-trading",
+      "importance": "⭐⭐⭐⭐",
+      "name": "跟單",
+      "notion_id": "3b9b92588207815e8da6dc8f744c4c41",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "透過研究與反思建立不依賴他人的判斷能力。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-independent-learning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "獨立學習",
+      "notion_id": "3b9b925882078108aecffbfa4d167863",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "交易後核對委託、成交與庫存狀態的操作程序。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-order-status-verification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "委託狀態確認",
+      "notion_id": "3b9b9258820781ceb943e4190ffb715d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "介面或連線狀態不明時重送委託造成超額成交的風險。",
+      "eps": [
+        "EP87"
+      ],
+      "first_ep": "EP87",
+      "id": "ep87-duplicate-order-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "重複下單風險",
+      "notion_id": "3b9b9258820781e4a019fa1a6b4a9ce8",
       "type": "💡概念"
     }
   ]
