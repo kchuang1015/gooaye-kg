@@ -14776,6 +14776,210 @@
       "source_locator": "analysis/EP88_supplemental.json:/mindsets/22",
       "to": "ep88-investment-outcome",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "所以你三不五時就想要空手的人，最後面你會閃掉比較多的是你的獲利，並不是虧損，是你會閃掉比較多你的獲利。",
+        "excerpt_sha256": "0f8f0e93d1373da9351d94708e9a516466099bf3fe7dda11e6e6c1f62d10e5b3",
+        "line_end": 28,
+        "line_start": 28,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-systematic-market-timing",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/0",
+      "to": "ep89-missed-market-upside",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "那如果你沒有倒的話，那等到之後解封之後呢，這些人可能就會是彈得非常快的一個族群，所以這個族群大家可以注意。",
+        "excerpt_sha256": "72fd5135e0a44ad29e9d66921f390e73b920d3a478e23bc3a3fefdd51e3e3d57",
+        "line_end": 37,
+        "line_start": 37,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-business-survival",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/2",
+      "to": "ep89-reopening-rebound-capacity",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "所以它一旦開始賺錢之後呢，那即便它賺的錢很少，這EPS不高，可是呢，因為它賺的錢是可以賺很長很久的，所以市場一般給他們本益比都會給的還蠻高的。",
+        "excerpt_sha256": "c9227abc68e6a055d242c6f5b2064d8558552b3708359fed1fbabeaf3a782d0a",
+        "line_end": 46,
+        "line_start": 46,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-semiconductor-ip-economics",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/4",
+      "to": "ep89-valuation-premium",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "那你就是等於買台灣最強的50大公司，那這50大公司一定終究會汰弱留強",
+        "excerpt_sha256": "76fe0fa655699bb698aee015422638c98f15a2d20048185ef4ea51c532bd273f",
+        "line_end": 67,
+        "line_start": 67,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-index-reconstitution",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/6",
+      "to": "ep89-successor-company-participation",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "你可以避免掉踩到一些雷",
+        "excerpt_sha256": "ede45d1e884eb8f08eaca683c8f094411c0e6668c5d0a3343186fcda794983ae",
+        "line_end": 184,
+        "line_start": 184,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-single-company-decay-risk",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/8",
+      "to": "ep89-index-diversification-value",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "你越集中在少數股票",
+        "excerpt_sha256": "5e718895467a0677c4dc04ef48e0e0e011b406c54b798bb12a31b0d2f01e00a2",
+        "line_end": 358,
+        "line_start": 358,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-portfolio-concentration",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/10",
+      "to": "ep89-outcome-variance",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "你是不是一次重壓在高點",
+        "excerpt_sha256": "6058b0f59891dd2d47a423d4f7288c106270b281a293258173811e53ba8acb88",
+        "line_end": 401,
+        "line_start": 401,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-lump-sum-high-point-entry",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/12",
+      "to": "ep89-drawdown-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "我考慮的很簡單就是機會成本",
+        "excerpt_sha256": "dca5e1caeee12afab6d88605fdd262914970edc15d728049a1f1d7fe0d6ef00f",
+        "line_end": 414,
+        "line_start": 414,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-opportunity-cost",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/14",
+      "to": "ep89-reallocation-decision",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "等於說你每年就會掉2%的價值",
+        "excerpt_sha256": "44406343118f349d4f3ecd6397e43f453c68b0808698c6a554a689bcecc087a3",
+        "line_end": 475,
+        "line_start": 475,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-inflation",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/16",
+      "to": "ep89-cash-purchasing-power",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "像這種債券的ETF",
+        "excerpt_sha256": "8aeb59a41a578a5b28e8de6148b770b61d2600526186608fcc8266fda787625d",
+        "line_end": 493,
+        "line_start": 493,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-bond-etf-volatility",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/18",
+      "to": "ep89-staged-entry-liquidity",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "投入太多的資金在那邊",
+        "excerpt_sha256": "0c27fa8a36453f3a233272aaece2ab021d1251946df4c19452586e4b9d6e61c0",
+        "line_end": 738,
+        "line_start": 738,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-platform-instability",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/20",
+      "to": "ep89-platform-allocation",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP89",
+      "evidence": {
+        "excerpt": "因為公司自己很清楚說",
+        "excerpt_sha256": "10adec4d89b62581aecfd929cfd7daddafeaed21f82aca6e5db8accf12e377dd",
+        "line_end": 929,
+        "line_start": 929,
+        "transcript_path": "transcripts/EP89_corrected.txt",
+        "transcript_sha256": "35afbf94ab0c432104007dc7297131abd3abf52a1ed9798b70cebd813e5cfc53"
+      },
+      "from": "ep89-netflix-competitive-advantage",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP89_supplemental.json:/mindsets/22",
+      "to": "ep89-netflix-pricing-power",
+      "type": "支持"
     }
   ],
   "metadata": {
@@ -14786,10 +14990,10 @@
     "last_update": "2026-08-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP88 分析報告",
+    "source": "EP1-EP89 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 804,
-    "total_relations": 661
+    "total_entities": 828,
+    "total_relations": 673
   },
   "nodes": [
     {
@@ -25373,6 +25577,318 @@
       "importance": "⭐⭐⭐⭐",
       "name": "投資結果",
       "notion_id": "3bab92588207812fae77eee2fadfae44",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "反覆嘗試依市場高低點進出持倉的擇時策略。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-systematic-market-timing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "系統性市場擇時",
+      "notion_id": "3bab92588207817ba71ce8452f1970e6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "因未持有市場資產而未能參與價格上漲的機會損失。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-missed-market-upside",
+      "importance": "⭐⭐⭐⭐",
+      "name": "錯失市場上行",
+      "notion_id": "3bab9258820781638484fe4ad77070f0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "企業在需求衝擊或營運壓力下維持存續的能力。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-business-survival",
+      "importance": "⭐⭐⭐⭐",
+      "name": "企業存續能力",
+      "notion_id": "3bab9258820781d1910dc61deaf4fa0e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "企業在限制解除與需求恢復後快速反彈的能力。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-reopening-rebound-capacity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "解封反彈能力",
+      "notion_id": "3bab92588207817bb73dc1f2b4c82ace",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "半導體矽智財可長期授權並形成延續性收益的商業特性。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-semiconductor-ip-economics",
+      "importance": "⭐⭐⭐⭐",
+      "name": "半導體 IP 經濟性",
+      "notion_id": "3bab9258820781c1af3aeb402450d3e4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場因成長、持續性或品質而給予高於基準的估值。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-valuation-premium",
+      "importance": "⭐⭐⭐⭐",
+      "name": "估值溢價",
+      "notion_id": "3bab925882078103a0bde7b8825cb0ed",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "指數依規則移除弱勢成分並納入較具代表性成分的機制。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-index-reconstitution",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數成分汰換",
+      "notion_id": "3bab925882078189903ffcc5ec227280",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "透過指數自然納入新一代大型企業的投資參與效果。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-successor-company-participation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "接班企業參與",
+      "notion_id": "3bab9258820781cf8715ed013822af74",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "單一企業競爭力或基本面長期惡化造成的損失風險。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-single-company-decay-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "單一企業衰退風險",
+      "notion_id": "3bab9258820781e690e2ea56aa36abcd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "指數配置降低單一企業失敗衝擊所提供的風險分散價值。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-index-diversification-value",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數分散價值",
+      "notion_id": "3bab92588207810588a9c5e6a21b93f0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合資金集中於少數標的的程度。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-portfolio-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資組合集中度",
+      "notion_id": "3bab9258820781f8838bebda72585345",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "不同市場路徑下投資結果分散與波動的程度。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-outcome-variance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資結果變異",
+      "notion_id": "3bab9258820781a68f26c76c1a981ca5",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "在相對高價區一次投入大量資金的進場方式。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-lump-sum-high-point-entry",
+      "importance": "⭐⭐⭐⭐",
+      "name": "高點單筆重壓",
+      "notion_id": "3bab925882078199af79e721f32bb5c2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "資產自高點下跌而造成帳面或實現損失的風險。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-drawdown-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "回撤風險",
+      "notion_id": "3bab92588207810d8819f4722774b460",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "選擇一項配置而放棄其他可行選項所承受的相對代價。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-opportunity-cost",
+      "importance": "⭐⭐⭐⭐",
+      "name": "機會成本",
+      "notion_id": "3bab92588207816eacfcf481a3452972",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "依相對報酬與風險將資金由一項配置移往另一項配置的決策。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-reallocation-decision",
+      "importance": "⭐⭐⭐⭐",
+      "name": "資產重配決策",
+      "notion_id": "3bab9258820781978a57fe0628ddfb3b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "一般物價水準持續上升並降低貨幣實質價值的現象。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-inflation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "通貨膨脹",
+      "notion_id": "3bab9258820781c58144cdb46f23fab1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "現金在特定物價水準下可換取商品與服務的實質能力。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-cash-purchasing-power",
+      "importance": "⭐⭐⭐⭐",
+      "name": "現金購買力",
+      "notion_id": "3bab9258820781d7aaf2e6184c85ff47",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "債券 ETF 市價隨利率與信用條件變動的幅度。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-bond-etf-volatility",
+      "importance": "⭐⭐⭐⭐",
+      "name": "債券 ETF 波動",
+      "notion_id": "3bab92588207819caf6bf3cd4945e5f2",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "為未來分批買入而保留且可快速部署的資金。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-staged-entry-liquidity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "分批進場流動性",
+      "notion_id": "3bab925882078183b277eae446377351",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "交易或託管平台因營運、技術或制度造成的不可靠程度。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-platform-instability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資平台不穩定性",
+      "notion_id": "3bab92588207811fb093c09bc2a7f815",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資人配置於特定交易或託管平台的資金規模。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-platform-allocation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "平台資金配置",
+      "notion_id": "3bab92588207816989e9eb3fa3b289cf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "Netflix 在內容、規模、品牌與使用者關係上的相對優勢。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-netflix-competitive-advantage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Netflix 競爭優勢",
+      "notion_id": "3bab925882078105addbe79269e46291",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "Netflix 提高訂閱價格而仍能維持需求與收入的能力。",
+      "eps": [
+        "EP89"
+      ],
+      "first_ep": "EP89",
+      "id": "ep89-netflix-pricing-power",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Netflix 定價能力",
+      "notion_id": "3bab9258820781d08f63cc5c386b9f6c",
       "type": "💡概念"
     }
   ]
