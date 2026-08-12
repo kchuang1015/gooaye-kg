@@ -14572,20 +14572,224 @@
       "source_locator": "analysis/EP87_supplemental.json:/mindsets/16",
       "to": "ep87-duplicate-order-risk",
       "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "你當然很明確的就看到你的績效不好嘛，那如果等到，比方說明年第一季，第二季，開始去，市場開始去關注傳產的時候，那你手上滿滿都是科技股，那當然你績效就不好嘛，所以我覺得，你知道，就是你，當然一開始，你先把自己的投資先做好，那做好之後呢，你要開始學會去，你要去跟著市場的風向走，那這風向不會是什麼兩天啦，那不會說什麼，啊，吹兩天就結束了，或是說什麼，啊，漲一根就結束了，如果說，你這個風向真的有抓到的話，那這風向一般一弄就是好幾季啊,",
+        "excerpt_sha256": "437f42f9a3db9f8937fb4e85b8a89c99cab1d9ca5b4495561c81d1bfd98ed80d",
+        "line_end": 19,
+        "line_start": 19,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-market-demand",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/0",
+      "to": "ep88-trend-duration",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "它不要掛，呃，這個，呃，呃，城嵐，然後或者說租賃汽車，它要掛科技，因為掛了科技之後那個估值就不一樣的，那你可能覺得幹好白癡喔，好好笑喔，可是事實就是這樣，如果你是掛城市，你是科技公司的話，那那個想像空間就很大，所以估值的空間就有上修機會，那我個人，呃，最近呢，我就有在注意這個Walmart,所以我也會請那個Eric可能就會寫一篇關於Walmart的東西，那不是什麼抬轎文或啥小，然後美國市場超大的啦，所以，呃，我們的聽眾也沒有辦法幫我",
+        "excerpt_sha256": "5ba1021b06c216a71cf5634a779c910a1d40a06328c3df6d616ab5f4ddc802b4",
+        "line_end": 23,
+        "line_start": 23,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-walmart-ecommerce-transition",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/2",
+      "to": "ep88-walmart-valuation-rerating",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "那豐田又穩定，你又不穩定，所以他覺得豐田比較好，有些人就會這樣想，而有一些人的想法呢，就會覺得說，你要去做估值，你要去評斷一家公司的價值，你不可以只看帳面上的數字，有很多東西是在帳面上是看不到的，比方說像Elon Musk就會幫特斯拉，我覺得啦，至少拉了四五成以上的這個價值，是因為Elon Musk,所以當之前有一個英國顧問公司在那邊耍智障，因為那時候，這個馬斯克達成了配股條件，他有一個配股獎勵條件，他只要達到",
+        "excerpt_sha256": "f0d10d3fa2d80bb69d247b84ce6adc709afc31bb976b3a074872280427826d0a",
+        "line_end": 30,
+        "line_start": 30,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-elon-musk-leadership",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/4",
+      "to": "ep88-tesla-valuation",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "你先行的，像是特斯拉，他基本上是做一個那種open beta的感覺，就讓大家在路上開的車，等於你都在幫他收集資料，所以他的資料是贏別人可能好幾個世代吧，就是可能他已經贏了好幾年了，所以在這樣的狀況之下，當然你後面要追的，即便你是傳統車廠，你有很大的能量，可是有些東西是需要累積的，所以你可能就沒有追那麼快，那這也是一環，反正，種種的因素，那甚至講說觀感啦，就是一個品牌價值啦，也就是說你看豐田跟你看特斯拉，你覺得他們是不是",
+        "excerpt_sha256": "d19e84d05af11ccb8e2e50f29396be9b58f47e633d530fc9236f85a61a8ea308",
+        "line_end": 33,
+        "line_start": 33,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-autonomous-driving-data",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/6",
+      "to": "ep88-ev-first-mover-advantage",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "說，如果你真的，好，不想要錯過中國的行情，那你該怎麼樣投資比較好，好，那一開始還是要先跟大家講一下建議啦，就是建議就是在於說，中國這邊是一個，人治跟黨治優於法治的地方，所以說你單壓單一公司，我個人覺得都非常的危險，平常我已經告訴你說，一般人主動投資會打輸,ETF嘛，那在中國更是這樣，你更應該要投資ETF,對我來說是這樣,",
+        "excerpt_sha256": "84ca4b99df38587aa86824a06e38aad4ffadc79bfaadc7a437fd796fa4977ecc",
+        "line_end": 43,
+        "line_start": 43,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-political-governance-risk",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/8",
+      "to": "ep88-china-single-stock-allocation",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "所以你拿這個指數去衡量中國經濟，那或者說你拿這個指數來投資，那我個人覺得就不太好，就不太適合，我們這個世代呢，還是以科技股為主，不管是在美國，在台灣，在中國，都是這樣，科技股的表現都是最好的，所以我才說你看中國，你去看這個深成指，你去看創業板，那個表現是非常非常好的，那如果你要投資呢，當然還是以科技股為主，雖然說，最近姓馬的，就走水逆嘛，這個馬雲嘛，然後馬化騰嘛，就連馬斯克都在這個，確診跟不確診之間，薛丁格斯的確診，所以姓馬的最近都不太好，但是我覺得,",
+        "excerpt_sha256": "7309cd83cf4722b8c83da80a12f3ac4e5d6251c97da53cba1ba77c6284edc570",
+        "line_end": 52,
+        "line_start": 52,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-index-sector-composition",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/10",
+      "to": "ep88-index-performance",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "那CQQQ呢，最大也是騰訊，反正就是以中國的科技股為主，那像這樣的東西，我個人覺得，它就會是你投資中國比較保守的一個標的，我個人覺得會比較保險，就像是如果你要投資中國的電動車呢，我也建議你要拉一籃子，你要自己幹一個ETF,因為你單壓一支那個風險真的太大了，所以其實如果在這種，你不太能確定風險的狀況之下，那你又想要參與市場的話，最好的方法，真的還是以ETF這樣，那所以我就介紹五支中國的ETF,就是讓大家，因為你們最近看到可能中國",
+        "excerpt_sha256": "4310a2447b15b95bfa85fb173486e467ca78782c7fa392f74ee2040171a88d7b",
+        "line_end": 56,
+        "line_start": 56,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-etf-diversification",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/12",
+      "to": "ep88-china-single-stock-risk",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "台灣的市場覺得說，台灣市場都不好，那是因為他覺得說，為什麼台灣市場加權指數一直停在，好幾年前的這個，一萬二一萬三高點都上不去，那就錯了，因為其實，台股市場跟美股市場最大的差別是，台股很喜歡配息，美股是不喜歡配息的，所以如果說你把所有的配息都再投入的話，那反映出來的績效會是比較準確的，就是說你要，像是美國這邊叫做Drip,就是你的Dividend, Reinvest,重新投資，那這才有複利的效果嘛，所以說在台灣，如果",
+        "excerpt_sha256": "45e7a96ae15e30e1be493f09c619d828b466561d9d35a4dd0d826465461e7fca",
+        "line_end": 59,
+        "line_start": 59,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-dividend-reinvestment",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/14",
+      "to": "ep88-compounded-total-return",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "因為你太晚進來了，就是說你現在進來的，老實講，你要看是看三個月後，你當然不可能，你買進，馬上隔天就要漲，幹除非你是神仙，所以你要看是看三個月半年之後，不要急，這第一個，那第二個就是因為，你一定是放太多錢，而且錢是多到你無法，就是冷靜面對的，你那錢放太多，你就會睡不著，所以其實，好像有看過有些人有這樣講，但我其實心裡面一直有這個想法，就是所謂的這個投資，還是以睡得著為主，如果說你會買到，你睡不著，壓力會很大,",
+        "excerpt_sha256": "a07fed12c5e96e77a2422da066025b3bdf6fdbdcb1404b1d96be55b086a6093e",
+        "line_end": 64,
+        "line_start": 64,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-risk-tolerance",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/16",
+      "to": "ep87-position-sizing",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "他越需要開出更高的利息，因為對我來說，我投資這個可能隨時會爆掉的東西，你給我利息高，那至少我想說我賭一把吧，我就賭說不會有違約的風險嘛，那OK,我就來投資你，所以一般來說，利息越高的地方，風險越高，一般來說是這樣，就是說這種在公司的借貸的方面，他會願意給你很高的利息,",
+        "excerpt_sha256": "cbc6e9d9112c6b289a2c898981ae892a0235a3c29c340274211069e65398f472",
+        "line_end": 78,
+        "line_start": 78,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-borrowing-yield",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/18",
+      "to": "ep88-credit-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "你一定要知道說，現在哪些營收是，這個YOY成長是好的，非常重要，因為有時候你去看，你按那個排序一排下來，你就一目了然，為什麼我很常可以跟大家講說，我覺得什麼族群會動，最後面真的好像有動，那就是因為其實很多時候，你看那個你就可以獲得一些先行指標啦，雖然有時候你會稍微慢一點點，可是老實講，就像我剛剛前面提到的，慢一點點沒差啦，有時候看到那種漲一兩根，那只是剛開始，那真的只是剛開始，那我覺得大家比較怕高，不是鼓勵你大家追高，我覺得，你知道其實有時候,",
+        "excerpt_sha256": "2ab4ababe6ed9a921d2dc2450870a12f526ed74ddc5ea60020c60cca9def89c0",
+        "line_end": 81,
+        "line_start": 81,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-revenue-review",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/20",
+      "to": "ep88-investment-judgment",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP88",
+      "evidence": {
+        "excerpt": "比方說可能從3、4月聽到現在，那時候假設說，因為去調整的人，他可能到現在，他就收穫很豐富，因為畢竟已經是隔了半年，接近可能快要去追一年的時間了，所以那績效就有差嘛，可是比方說你可能10月才聽股癌的，那你就希望你11月就賺錢，我個人覺得那都是天方夜譚啦，所以，做了正確的方法之後呢，我覺得就要有耐心，就是要等時間去發酵，差不多是這樣，好，那這期節目先到這邊,bye",
+        "excerpt_sha256": "43d13fcf76b7b25c5f7722a93dd9f0d0ad9226e2dd9aa6282245b9a98a7f72fa",
+        "line_end": 89,
+        "line_start": 89,
+        "transcript_path": "transcripts/EP88_corrected.txt",
+        "transcript_sha256": "f45115689d9cd695c55ccae5600f76b1baf86484535a70a359dcaf3ea170f53e"
+      },
+      "from": "ep88-patience",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP88_supplemental.json:/mindsets/22",
+      "to": "ep88-investment-outcome",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-11",
+    "lastUpdated": "2026-08-12",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-11",
+    "last_update": "2026-08-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP87 分析報告",
+    "source": "EP1-EP88 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 781,
-    "total_relations": 649
+    "total_entities": 804,
+    "total_relations": 661
   },
   "nodes": [
     {
@@ -24870,6 +25074,305 @@
       "importance": "⭐⭐⭐⭐",
       "name": "重複下單風險",
       "notion_id": "3b9b9258820781e4a019fa1a6b4a9ce8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "市場參與者對特定題材、產品或資產的整體需求。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-market-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場需求",
+      "notion_id": "3bab925882078169ade6fec2859c24da",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "市場風向從形成到消退所維持的期間。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-trend-duration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場風向持續期",
+      "notion_id": "3bab92588207818c9790d0f8197f9eda",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "Walmart 從實體零售向電商零售擴展的業務轉型。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-walmart-ecommerce-transition",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Walmart 電商轉型",
+      "notion_id": "3bab925882078114a649d1605a174fa8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場因業務結構改變而重新評價 Walmart 的估值空間。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-walmart-valuation-rerating",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Walmart 估值重評",
+      "notion_id": "3bab92588207814e9438dc76c455e9b8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "Elon Musk 對企業敘事、執行與品牌所產生的領導價值。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-elon-musk-leadership",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Elon Musk 領導力",
+      "notion_id": "3bab9258820781bb903efac8f9d48131",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場對 Tesla 未來現金流、成長與無形資產的評價。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-tesla-valuation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Tesla 估值",
+      "notion_id": "3bab925882078183a52bd97816c45f7a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "車輛實際運行所累積、可用於改善自動駕駛系統的資料。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-autonomous-driving-data",
+      "importance": "⭐⭐⭐⭐",
+      "name": "自動駕駛資料累積",
+      "notion_id": "3bab92588207819faad4e6ddffb3fe92",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "電動車業者因提早進入並累積技術、資料與品牌所取得的優勢。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-ev-first-mover-advantage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "電動車先行者優勢",
+      "notion_id": "3bab925882078151bfbaf8e58d90451d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "制度、政策或權力配置對資產權利與企業營運造成的不確定性。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-political-governance-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "政治治理風險",
+      "notion_id": "3bab9258820781d5b846d8e6fa8cec2e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合集中於單一中國公司的資金配置。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-china-single-stock-allocation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中國單一公司配置",
+      "notion_id": "3bab9258820781f09fcbef355de72b6d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "市場指數內各產業及其權重形成的結構。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-index-sector-composition",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數產業組成",
+      "notion_id": "3bab9258820781299306f84354886933",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "市場指數在特定期間的價格或總報酬表現。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-index-performance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數績效",
+      "notion_id": "3bab9258820781569713cea234272318",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "透過 ETF 將資金分散至一籃子證券的配置方式。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-etf-diversification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ETF 分散配置",
+      "notion_id": "3bab9258820781cd921ad7e04b06728e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "持有單一中國股票所承受的公司、政策與市場集中風險。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-china-single-stock-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中國單一股票風險",
+      "notion_id": "3bab9258820781cba40eebe4947550d2",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "將收到的股息重新投入資產以持續累積部位。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-dividend-reinvestment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "股息再投入",
+      "notion_id": "3bab925882078188907dc49b6950c2b5",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "價格變動與再投入收益共同形成的累積總報酬。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-compounded-total-return",
+      "importance": "⭐⭐⭐⭐",
+      "name": "複利總報酬",
+      "notion_id": "3bab9258820781d79918cecd15ec9fa2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資人可承受資產波動與損失而不破壞決策紀律的程度。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-risk-tolerance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "風險承受度",
+      "notion_id": "3bab9258820781ab8cfff4f8d5516c17",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "借款人為取得資金而承諾支付的利息報酬率。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-borrowing-yield",
+      "importance": "⭐⭐⭐⭐",
+      "name": "借款殖利率",
+      "notion_id": "3bab925882078121a699d18011825571",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "借款人無法依約償付本金或利息的風險。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-credit-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "信用風險",
+      "notion_id": "3bab9258820781179fe5db24a7cf5602",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "依固定口徑比較企業營收水準與成長率的研究程序。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-revenue-review",
+      "importance": "⭐⭐⭐⭐",
+      "name": "營收檢視",
+      "notion_id": "3bab925882078184880ded33b742731a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "整合資料、風險與情境後形成的投資決策判斷。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-investment-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資判斷",
+      "notion_id": "3bab9258820781149619fc5df7685319",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "採用合理方法後允許投資論點經時間驗證的紀律。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-patience",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資耐心",
+      "notion_id": "3bab9258820781c3809ddafdd268e9f9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 投資哲學",
+      "description": "投資決策經時間與市場作用後形成的可觀察結果。",
+      "eps": [
+        "EP88"
+      ],
+      "first_ep": "EP88",
+      "id": "ep88-investment-outcome",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資結果",
+      "notion_id": "3bab92588207812fae77eee2fadfae44",
       "type": "💡概念"
     }
   ]
