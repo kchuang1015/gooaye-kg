@@ -14980,20 +14980,258 @@
       "source_locator": "analysis/EP89_supplemental.json:/mindsets/22",
       "to": "ep89-netflix-pricing-power",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "你最多會發生的就是雙巴，你以為自己會很帥，就是可以剛好把這個波動跟損益給對沖掉，但是一般人是很難辦到的，一般人去做對沖呢，就是雙霸，也就是你做多的地方賠錢，然後你去，做空的這部位呢，反而重創受傷，很多人都會這樣子，所以你就減碼就好，如果你真的相信Bill Ackman的話，那Bill Ackman算是一個有名的空頭啦,",
+        "excerpt_sha256": "e8f4e46c3713a02b7353dfd11fc07b01431ea8056e2a35ac925f4419d4fe599d",
+        "line_end": 17,
+        "line_start": 17,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-retail-investor-hedging",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/0",
+      "to": "ep90-double-sided-loss-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "那他看他很不爽啦，所以因為這樣子他就要去做空賀寶福，他堅信賀寶福可以跌到零塊，就是歸零下死這樣，那當然這個東西一放出來，賀寶福就先大跌，其實就像所有的對沖機構，他們每次，當他們決定要去做空某家公司的時候，他們都會先發一個報告，就宣告說我們來了，我們已經開始做空了，那一般這個報告發出去的時候，就是波動最劇烈的時候，一般來說都會先跌一波啦，那即便後來是錯誤的指控，那是後來才會漲回來，但是一般來說，有這樣的消息出來,",
+        "excerpt_sha256": "36f5116b0ee46d45d80d900394cfcb03cd871af27a1b201afddd8ee57a58bb73",
+        "line_end": 19,
+        "line_start": 19,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-short-seller-report",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/2",
+      "to": "ep86-short-term-price-moves",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "對作，其實他們之前就有結下一些樑子啦，那只是趁這個機會呢，他要進來教訓Bill Ackman,也就是他是挺賀寶福的，而且這個人呢，他挺他是蠻屌的，他是真的挺到底，他買賀寶福的股票，一路買，買到大概有25%左右的股份是他的，有四分之一的公司是他的，所以他真的買超多的部位，就是要把你給，這個叫做short squeeze,",
+        "excerpt_sha256": "b3edfa973a4fd2e764e355021ab8223c8faca2e90d9df925736628986ec198f9",
+        "line_end": 21,
+        "line_start": 21,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-carl-icahn-herbalife-stake",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/4",
+      "to": "ep90-bill-ackman-short-squeeze",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "那時候提到，他目前的虧損是4,5億美金，他一開始拿了10億美金去吧，那目前帳上的虧損，來到了4,5億這樣，所以呢，他是被軋空的，就真的是被ICON給軋上去了，那只是他被軋上去呢，他心裡面的想法是什麼，他的回答竟然是講說，他會hold the position till the end of the earth,他在地球毀滅之前呢，他都會繼續抱著這個部位，那這時候其實我看他，我覺得他就已經有點暈船了，就是有點像是跟股票談戀愛，那我們已經提過很多次說，你千萬不要跟股票談戀愛，當然我知道說,",
+        "excerpt_sha256": "90b64449d5515b862b0ff031762ec985f2defff71e5173e679ef9ce2852f5c3b",
+        "line_end": 24,
+        "line_start": 24,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-position-attachment",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/6",
+      "to": "ep90-exit-discipline",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "就是這樣的狀況，所以你進市場裡面，你要很清楚說，你的第一個目標是賺錢，你就是進來賺錢的，而且你也不是說什麼參與徐旭東的募資，你只是在次級市場交易他的股票，所以其實對他來說就是不癢不痛嘛，那對你來說，當然你的目標就是賺錢，你可以說，好，我賺到錢之後，我去外面愛環境，去外面資助這些小朋友，或者說幫助一些小動物，等等的，那是在市場以外的地方，那個邏輯要分清楚，那我相信Eckman,他其實應該也是有辦法分清楚，只是那時候在裡面應該就是不服輸啦，一個不服輸的心態，那或者說他的這個正義感，抱歉,",
+        "excerpt_sha256": "9888aab6b044e9766b77d728a3dd00fe1611bf9f43ec269f569d2a465a46599c",
+        "line_end": 28,
+        "line_start": 28,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-moral-judgment",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/8",
+      "to": "ep90-market-trading-decision",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "交易委員會啦，那同時呢,SEC,就是這個證券管理的，也加入了，就是兩個單位一起去調查，那調查的結果是，他們認為，賀寶福目前的收入，確實就是，八九成都是來自於他們的商品，確實有像他講的，有入會費啊，可是入會費就是一成而已，所以並沒有構成，所謂的這種多層，多層次傳銷，或說老鼠會的一個基本要件，就是說以入會費為一個本體，就是說他們其實沒有商品啊，是靠入會費這樣，他們是有在賣東西的，所以，連政府這邊,",
+        "excerpt_sha256": "d6f309272f9ebc52556755897876d5103456d2b835e5d165f4a39d1f2e73c6e8",
+        "line_end": 35,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-ftc-sec-herbalife-review",
+      "predicate_id": "contradicts",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/10",
+      "to": "ep90-herbalife-short-thesis",
+      "type": "反駁"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "就顯示說，其實像是，呃，啟碁這麼大啦，直接被寫出來的時候,Starlink用他router,但是他的營收占比大概可能就落在5到10%左右，所以就說，呃，即便他有摸到這個題材啦，然後但是，毕竟只占公司的5到10%啦，所以其實假設要有暴力的成長，應該也不會是這一塊,",
+        "excerpt_sha256": "1f1144e52211c9984c9a918a6737d7c6860de42b03551609c1c416e6babb4168",
+        "line_end": 41,
+        "line_start": 41,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-supplier-revenue-share",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/12",
+      "to": "ep90-concept-stock-upside",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "他現在在中國，呃，這邊上海有設廠嘛，所以我相信未來可能就直接在周邊這邊拉貨了，就不會跟你台商拉貨啦，所以像什麼，特斯拉的一些那種供應鏈，因為不是非你不可啊，那我在中國也找得到，我可能比較便宜，那甚至品質還不會輸你，有時候還比你好喔，那，呃，這樣的選擇之下，那身為供應鏈，那你可能就要注意，即便，今天有吃到營收，那也可能就是一陣的，就像我們，很常跟大家提到，就是台股的宿命,就是中間材啦，所以，呃，今天賺得到，可能明年就沒的,",
+        "excerpt_sha256": "3c02692aa83cc3b04a38272e4a0bbadf3c4420be076faeb57b4f64aa79cfec82",
+        "line_end": 43,
+        "line_start": 43,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-supplier-replaceability",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/14",
+      "to": "ep90-supplier-earnings-durability",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "其實開槓桿，像我自己覺得開槓桿啊，開槓桿我個人是這樣認為啦，就是說，如果你是會發財的人，就是說你長期下來你的績效都是還不錯的，那開槓桿就是加速你的績效不錯，但其實換過來說，如果你長期績效都是沒有那麼好，或是不穩定的，那開槓桿就是增加不確定性，因為槓桿並不是什麼發財秘技，它只是有點像是撬動你的獲利或虧損，就是讓你的虧損跟獲利放大，所以你長期間是虧損的，那你槓桿下去,",
+        "excerpt_sha256": "2b2a18355694cd85cde76e044ca51089b142cf2c2b3b1bc80d7f38c339180b6f",
+        "line_end": 45,
+        "line_start": 45,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-investment-leverage",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/16",
+      "to": "ep90-return-and-loss-magnitude",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "你就會虧更多，所以你會問這種問題的，我相信你是，可能對自己的投資績效也沒有很確定的，那你會想說，那不然我投資大盤好了，你既然你都跟我講說大盤長期穩定向上嘛，但是有一個前提啊，前提是，對啊長期穩定向上，可是我們不知道中期短期會怎麼樣嘛，比方說你要還錢的時候，然後發現說，哇今天大跌，跌到爆掉，然後你現在賣你就會覺得，我可能賣是賣在最低點，但是我又不能不賣，所以就虧損啊，虧損馬上就發生了，你懂我意思嗎，那其實",
+        "excerpt_sha256": "9eea3898690af917e5f4982d650cc042f652e9f0028542e49d8441d7e45ce82f",
+        "line_end": 46,
+        "line_start": 46,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-debt-repayment-timing",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/18",
+      "to": "ep90-forced-sale-risk",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "要期待石油相關類股可以回到以前那個榮耀，我個人覺得除非打仗吧，打仗的話，可能可以很快回去，不然我覺得，有一定的難度，有一定的難度，因為可能未來我們對石油的依賴會越來越低，不然說你現在看，呃，中國的電動車也全部漲起來了，那美國的電動車也漲起來了，所以，甚至連最近那個氫能源，然後氫能源相關類股，比方說之前那個什麼Blue Energy,Plug,然後或者是，呃，一些我們提到，那時候聊Nikola那集，有聊到一些氫能源相關的公司，他們也跟著都漲起來了，所以未來在能源的選擇，可能很廣的狀況之下,",
+        "excerpt_sha256": "63ea257cb2415d5d4099e537af8e0e2d315140ca8572a5571764474c1383e891",
+        "line_end": 63,
+        "line_start": 63,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-oil-substitution",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/20",
+      "to": "ep90-oil-sector-former-dominance",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "一張股票可能就是買個10萬塊吧,10萬塊在台股就大概是一張兩張的規模，差不多是這樣子吧，所以代表你的問題並不是你的績效不好，是你的本金不夠，那你也不要操之過急去追求說，我的本金要翻倍或撒小的，因為像我自己今年美股是翻倍啦，但我覺得那有點運氣成分，就剛好遇到一個肺炎之後的暴力反彈，然後又壓了很多在SARS跟特斯拉跟NVIDIA上面，所以就是剛好翻倍,",
+        "excerpt_sha256": "efb137c924586e93658006b512bef6d5f40946a4a6f5bed189eca63121af5bd1",
+        "line_end": 66,
+        "line_start": 66,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-principal-size",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/22",
+      "to": "ep90-absolute-investment-gain",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "去算哪時候市場會上漲跟下跌，因為如果說，比方說你比較不幸，是算到2015年到2018年，漲了三年耶，就變成你空手三年耶，可是三年假設你有投入進去，再加上複利，那個效果也是蠻不錯的，所以以防這種，可能你等不到低點的狀況，因為你要多低，沒有人知道嘛，像我知道在PTT上面，還有人在講說要等到3955,就是之前2008年股災的最低點，那你就等吧，你目前等了12年都沒等到，可能未來運氣好的話，可能幾年,",
+        "excerpt_sha256": "bf2a51643d1531fdfdae4ffc7703dbffa762e2362f8941f47488b6ab57a3769e",
+        "line_end": 76,
+        "line_start": 76,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-market-timing",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/24",
+      "to": "ep90-index-investment-participation",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP90",
+      "evidence": {
+        "excerpt": "如果你從那種，你真的很有興趣的東西下手的話，那個學習速度是很快的，所以你還是要從你自己有興趣的東西，所以我不知道地方媽媽你喜歡什麼，假設說你喜歡煮飯煮菜的話，可能就看一些這個煮菜煮飯的節目吧，然後把字幕打開來，然後就一直聽一直看，看久真的就會了，就有點像是，你很難解釋為什麼小時候跟什麼阿公阿嬤住，突然就把客家話跟台語學得很好嘛，你也不知道為什麼，就是因為你就是一直在接觸那個環境，然後你日常需要用到，所以你就變厲害了，所以,",
+        "excerpt_sha256": "606457819d976b95ed8be4220c58815a7de84727258b4afa94b362d5e7780c77",
+        "line_end": 79,
+        "line_start": 79,
+        "transcript_path": "transcripts/EP90_corrected.txt",
+        "transcript_sha256": "e4c8b8a4662e6d3ed69f20851e1471f455faf1817d98a3923679c0bd8a05bf7d"
+      },
+      "from": "ep90-interest-driven-immersion",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP90_supplemental.json:/mindsets/26",
+      "to": "ep90-language-learning-speed",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-12",
+    "lastUpdated": "2026-08-13",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-12",
+    "last_update": "2026-08-13",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP89 分析報告",
+    "source": "EP1-EP90 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 828,
-    "total_relations": 673
+    "total_entities": 855,
+    "total_relations": 687
   },
   "nodes": [
     {
@@ -25889,6 +26127,357 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Netflix 定價能力",
       "notion_id": "3bab9258820781d08f63cc5c386b9f6c",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "散戶以相反方向部位降低既有投資組合波動或損失的操作。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-retail-investor-hedging",
+      "importance": "⭐⭐⭐⭐",
+      "name": "散戶對沖",
+      "notion_id": "3bbb9258820781358adbebf8ee9306f2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "多頭與避險空頭部位同時發生損失的風險。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-double-sided-loss-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "雙向虧損風險",
+      "notion_id": "3bbb9258820781048d1fe28f9ec1b05d",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場現象",
+      "description": "放空機構公開提出對特定公司負面論點與部位的報告。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-short-seller-report",
+      "importance": "⭐⭐⭐⭐",
+      "name": "放空機構報告",
+      "notion_id": "3bbb9258820781eba187eba5cb6d2782",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "Carl Icahn 為支持賀寶芙而建立的大額公司持股。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-carl-icahn-herbalife-stake",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Carl Icahn 賀寶芙持股",
+      "notion_id": "3bbb9258820781248031efe239bda789",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場現象",
+      "description": "賀寶芙價格上漲使 Bill Ackman 空頭部位承受壓力與損失的軋空事件。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-bill-ackman-short-squeeze",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Bill Ackman 軋空",
+      "notion_id": "3bbb92588207813da095eb7a2f6567e6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "投資人因信念、情緒或自我認同而不願退出既有部位。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-position-attachment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "部位情感依附",
+      "notion_id": "3bbb92588207810aaea7c16ae49e782a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "依事前條件縮減或結束投資部位的紀律。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-exit-discipline",
+      "importance": "⭐⭐⭐⭐",
+      "name": "退出紀律",
+      "notion_id": "3bbb92588207818792f3cac0689feacc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "以個人道德評價衡量公司或市場行為的判斷。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-moral-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "道德判斷",
+      "notion_id": "3bbb9258820781159e1be74d36c0b375",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "在次級市場選擇買進、賣出、放空或不交易的決策。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-market-trading-decision",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場交易決策",
+      "notion_id": "3bbb925882078179b5ccf3fca7a2f8fa",
+      "type": "💡概念"
+    },
+    {
+      "category": "⚖️ 法規政策",
+      "description": "FTC 與 SEC 對賀寶芙收入與商業模式進行的監管審查。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-ftc-sec-herbalife-review",
+      "importance": "⭐⭐⭐⭐",
+      "name": "FTC 與 SEC 賀寶芙審查",
+      "notion_id": "3bbb9258820781208b01cc4395e58a75",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "主張賀寶芙商業模式不可持續或將失去價值的放空命題。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-herbalife-short-thesis",
+      "importance": "⭐⭐⭐⭐",
+      "name": "賀寶芙放空論點",
+      "notion_id": "3bbb92588207810d91a0c34a329642a0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "特定客戶或題材貢獻供應商總營收的比例。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-supplier-revenue-share",
+      "importance": "⭐⭐⭐⭐",
+      "name": "供應商營收占比",
+      "notion_id": "3bbb9258820781a0960af0bc5e79833e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場現象",
+      "description": "公司因市場題材帶動而可能取得的估值或價格上漲空間。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-concept-stock-upside",
+      "importance": "⭐⭐⭐⭐",
+      "name": "題材股上行空間",
+      "notion_id": "3bbb9258820781b399d3e3e943ea4098",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "客戶以其他供應商取代既有供應商的容易程度。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-supplier-replaceability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "供應商可替代性",
+      "notion_id": "3bbb9258820781bd9c40de40bf7cd599",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "供應商相關營收與獲利可延續至未來期間的能力。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-supplier-earnings-durability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "供應商獲利持續性",
+      "notion_id": "3bbb9258820781569c7beeef1efdd5de",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "以借款、融資或衍生品放大投資曝險的作法。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-investment-leverage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資槓桿",
+      "notion_id": "3bbb925882078162888defb3c5273db0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資獲利或虧損相對本金被放大的程度。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-return-and-loss-magnitude",
+      "importance": "⭐⭐⭐⭐",
+      "name": "損益幅度",
+      "notion_id": "3bbb925882078124bd71c926e597af48",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "借款人必須償還投資相關債務的時間限制。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-debt-repayment-timing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "債務償還時點",
+      "notion_id": "3bbb92588207810ab9a8c0e0560947b1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "因現金需求或還款義務而在不利價格出售資產的風險。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-forced-sale-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "被迫賣出風險",
+      "notion_id": "3bbb92588207818ab290c0c36638336a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 總體經濟",
+      "description": "電動車、氫能等能源選項降低石油依賴的趨勢。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-oil-substitution",
+      "importance": "⭐⭐⭐⭐",
+      "name": "石油替代趨勢",
+      "notion_id": "3bbb9258820781a4a344f889f1c0eec6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "石油產業曾在能源供應與資本市場具有的不可撼動地位。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-oil-sector-former-dominance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "石油產業昔日主導地位",
+      "notion_id": "3bbb925882078172b9f7c2408cb49885",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資人可配置並承擔風險的本金總額。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-principal-size",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資本金規模",
+      "notion_id": "3bbb9258820781bb94dbffac8ac971b9",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "投資期間以金額衡量而非百分比衡量的獲利。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-absolute-investment-gain",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資絕對獲利",
+      "notion_id": "3bbb9258820781ea816fc4b48a28cd1e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "依預測市場高低點決定進出場時間的策略。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-market-timing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場擇時",
+      "notion_id": "3bbb925882078154833adbbae35954f1",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "持續持有或分批投入指數資產以參與市場報酬。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-index-investment-participation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數投資參與",
+      "notion_id": "3bbb925882078171bafae0bce83e9ae6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "以個人興趣為入口並持續接觸實際使用環境的學習方式。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-interest-driven-immersion",
+      "importance": "⭐⭐⭐⭐",
+      "name": "興趣驅動沉浸",
+      "notion_id": "3bbb92588207813a9f70e82c22bd3152",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "學習者理解與運用新語言能力的進展速度。",
+      "eps": [
+        "EP90"
+      ],
+      "first_ep": "EP90",
+      "id": "ep90-language-learning-speed",
+      "importance": "⭐⭐⭐⭐",
+      "name": "語言學習速度",
+      "notion_id": "3bbb925882078174b3c8d8b3d7c90542",
       "type": "💡概念"
     }
   ]
