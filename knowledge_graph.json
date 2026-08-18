@@ -15218,20 +15218,224 @@
       "source_locator": "analysis/EP90_supplemental.json:/mindsets/26",
       "to": "ep90-language-learning-speed",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "塞了這些人之後，後來發現，整個團隊就會被這些人影響，那其實這種東西，我覺得都是講出來，大家都覺得還蠻理所當然的，可是在現實生活之中，比方說你的團隊就有這樣的人，或是說，你的公司裡面就有這樣的人，可是你們就不會想到要去把這樣的人汰除，那為什麼我會覺得這東西很有共鳴呢，因為其實，我每天晚上在打電動，打電動就特別有感覺，你不管是打LOL,或是打一些射擊遊戲，你們就是幾個人一組，那你們只要有，裡面有一個雷，就是他擺明的就是，我不太想打，掛網，不爽，心情不好，或是說，他就是,",
+        "excerpt_sha256": "bee1aa3083b2f25654235b6fa2b09c8a7fa84dbc399ab8be917d5e07dd77f046",
+        "line_end": 9,
+        "line_start": 9,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-team-talent-density",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/0",
+      "to": "ep91-team-performance",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "什麼六成七成，那基本上你的成敗就跟這家公司綁在一起了，不是說他一定是不好的，因為當然你可能看對你就會賺很大嘛，只是你就要小心，我們在市場裡面呢還是要小心駛得萬年船，如果說你翻船一次的話，特別是假設你前面本金滾得很辛苦，終於把他滾起來了，可是你後面只要翻船一次，一次賠掉個一半好了，那可能你過去的所有的獲利，就因為這樣就被吃光了，所以這大家要非常注意的，就是你不要過度曝險在單一的標的啦，不過當然有些人他是現場的,",
+        "excerpt_sha256": "d56dbf140aa7a598d42b8dbb63c0ffbc354d9af56d55399471a42e45c2731160",
+        "line_end": 25,
+        "line_start": 25,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-single-stock-concentration",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/2",
+      "to": "ep91-portfolio-loss-severity",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "那一個合約，這個合約呢，是約定我在未來的一段時間之內，我可以買下你手上的股權，那之後我們從Catherine Wood對於這件事的回應呢，就知道，這個股權應該是非常驚人的，他當初可能簽了一個，你知道有時候人在創業初期就是這樣，別人要拿錢來丟你嘛，所以你可能什麼東西都簽啦，因為我真的需要錢啦，那從他的回應看來出來說，這個股權應該是蠻大的，他可以拿走的股權應該是蠻大的，所以可能會直接影響到,Catherine Wood對這家公司的控制，所以他就發了一篇，回去類似有點像是,",
+        "excerpt_sha256": "4447c68e055db1eaf606cfd9811597e9014ed7eee00adfa09426b7a2e46d47b0",
+        "line_end": 29,
+        "line_start": 29,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-ark-resolute-contract",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/4",
+      "to": "ep91-ark-control-rights",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "我覺得這些人就是他媽低能兒，你竟然可以開顧問公司，這種低能兒也可以開顧問公司，你把它移掉這家公司的價值，就直接腰斬不止，因為在草創階段，特別是越早的階段，或者說在一個特別需要仰賴創辦人的發想跟創意，還有他的執行力的地方呢，這個創辦人價值是非常高的，那特別在Ark這種是他需要去選股的，所以他的判斷力是非常非常重要的，當你把他移走之後呢，當然你要去期待說,Ark可能，就是Catherine Wood,他可能把",
+        "excerpt_sha256": "b018750799be16239911e24a8f8cbe4ac0350f8271bdb356bb6adaafe9f8edad",
+        "line_end": 35,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-founder-judgment",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/6",
+      "to": "ep91-ark-investment-value",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "一定可以帶著這些人一起出去，那即便可以一起出去呢，什麼時候可以建立一個新的基金公司也不知道，而且他好不容易把這個招牌做大，所以我相信對他來說，他應該也不希望這樣的事情發生，所以對於Resolute,對於ARK來說，對於這個Catherine Wood來說呢，大家都不希望這樣的事情發生，可是為什麼還在發生呢，其實就是最早起因還是因為就是ARK他們要換發行商啊，因為你要換發行商，那當然原始股東覺得我被你踩到了，我當然要出來治你一頓啊，所以我覺得這非常合理的事情啊，不過我個人是覺得,",
+        "excerpt_sha256": "96f479f574ff59dfc7bcf0c8689bb360f7c7825d19fd3931e04288edad9318cb",
+        "line_end": 40,
+        "line_start": 40,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-issuer-distribution-fees",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/8",
+      "to": "ep91-ark-resolute-negotiation",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "那平常的人都會告訴你講說，其實找這種純粹付錢的股東是比較好的，因為那種有參與公司的，其實有時候搞不好到最後他會跟你制衡啊又要幹嘛的，他會跟你設一堆有的沒有的東西，那純粹付錢的股東是很單純的，只是你在找這些股東的時候，你要注意你簽的東西，比方說你簽的東西是不是會讓你未來失去這家公司的控制，那在所有的創業裡面，我覺得最笨的一個股權設計，就有些人會設計，比方說我們三個合夥人，所以我們就一人拿33%這超蠢的，因為變成說你要做什麼決定呢,",
+        "excerpt_sha256": "fe5c65f47909713c5983787cf5037a14df990be707fc765bdbdae0fe0137b22e",
+        "line_end": 44,
+        "line_start": 44,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-equity-financing",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/10",
+      "to": "ep91-founder-control",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "電動車的風潮，那這中國電動車三傻呢，只要不要賣傻一定也可以分到一杯羹，最後給大家一個訊息，中國現在在推電動車下鄉，也就是政府出錢補助三四線城市買電動車，據我的觀察，我覺得小鹏會是電動車下鄉的最大銷售獲利者，他的價格定位很像手機的OPPO,加上補助應該會有非常吸引人的價格優勢,",
+        "excerpt_sha256": "5ed5508583a45ce2108fe50db7ae2774fa4d532758c43129fae87bf2b7ee710e",
+        "line_end": 53,
+        "line_start": 53,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-ev-subsidies",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/12",
+      "to": "ep91-china-ev-adoption",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "我一樣，我買1000塊的權證，那賺呢，我可以賺很多，可是賠呢，就是歸零而已，可是我先有跟大家提到說，在投資裡面，你看所有東西呢，你要看百分比，就是把你的獲利，你也是要看百分比，那你的虧損也是要看百分比，所以一個東西會直接讓你付100%歸零的東西，當然它對於一般人來說，就代表這個東西是相對的更難操作的，因為股票你不會直接就是歸零嘛，然後股票你可能就是跌個5%、10%這樣，那可是權證呢，是他只要這個時間到期，那沒有達成預想的條件呢，那他就會歸零，那甚至有些人去玩,",
+        "excerpt_sha256": "2503084772af60f30732cc3522ccab3f8dd35aed002f178ee6016e504b2881d3",
+        "line_end": 59,
+        "line_start": 59,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-warrant-expiry",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/14",
+      "to": "ep91-total-premium-loss",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "所以我的角度其實是一樣的，就是告訴你說，期貨啊，選擇權啊，權證啊，這樣的東西，其實就是屬於，如果說你是完全沒有任何財經知識的，你去玩這樣的衍生金融品，你輸的機會非常非常的高，其實就是跟大家講這個而已，並不是說什麼，它是洪水猛獸啊，那所有用的人都會死掉啊，都會完蛋，不是這樣子啦，那如果說你想要了解更多權證的東西，老實講，你一排來Podcast不能代表你就不夠專業，你應該要去多閱讀，這些東西其實，包含說這個官方的,",
+        "excerpt_sha256": "e1357ec0f3d8de5aec95b491151984b0c86e4c4db8a69612a7d64e9cd6faa2bb",
+        "line_end": 64,
+        "line_start": 64,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-derivatives-knowledge",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/16",
+      "to": "ep91-derivatives-loss-risk",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "另外一個就是看它的成分股有哪些，所以像之前跟大家講說，像比方說上證指數相關的這些投資呢，我就比較不建議嘛，因為上證它的編排還是以所謂的舊經濟，交通類股，金融類股為主，但是這個東西就是大家知道市場上比較不喜歡的，比較不會漲的，所以你要買就要買，中國裡面是科技相關的，因為像之前跟大家分享說，像中國的什麼創業板指啊，或是說這個深證指啊，表現都非常好，你當然要投資這樣的指數，你不要投資一個舊經濟的東西嘛，就是，市場上不喜歡的東西，你去買",
+        "excerpt_sha256": "47761aff4fd038fc612d6602b57ef29dfd210f5f40cecc47a53a60408ec50a52",
+        "line_end": 66,
+        "line_start": 66,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-index-methodology",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/18",
+      "to": "ep91-china-etf-exposure",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "自己喜歡的標的，括號比如說特斯拉，期望特斯拉幫我賺一部特斯拉，其實他這個規劃就很讚啊，我真的覺得是這樣，就是，你知道殊途同歸啦，所以有些人那種投資什麼，被動基金的，你也不要去歧視這個主動投資的人，那投資主動投資的人也不要去笑被動基金的人不會變通，其實老實講你可以全都要，你可以兩個東西都要，那這樣的配置我覺得就蠻不錯的，然後因為其實你投入那種長期ETF,老實講也蠻無聊的啦，就是你錢就擺在那邊，然後真的就是讓他自己慢慢去滾，慢慢去增進,",
+        "excerpt_sha256": "f7ab42de13d9707c0878aaf56042da1e71a8dc29781da99d0f2c1e3e3e4ce3da",
+        "line_end": 71,
+        "line_start": 71,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-core-satellite-allocation",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/20",
+      "to": "ep91-active-risk-budget",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP91",
+      "evidence": {
+        "excerpt": "那或是說你養一條狗，這狗真的把你當神，像我每天起床，秋口就看到我，就像是世上最高興的事情，所以我覺得有很多東西是，值得活下去的，千萬不要，他媽的幹你，跑去尋短是殺小啦，你遇到挫折，那我知道說，有些你進入這個挫折裡面，你是走不出來的，因為那是一個困境，就像憂鬱症，你不能跟他講說，你就開心就好啦，這個是辦不到的，可是，永遠都要去尋求幫助，那永遠都要去看，這個世界正向快樂的地方,",
+        "excerpt_sha256": "aa5a18e7cabcea622be9167a60c29b2caae424970f1f4ef8173cba6290a4f036",
+        "line_end": 85,
+        "line_start": 85,
+        "transcript_path": "transcripts/EP91_corrected.txt",
+        "transcript_sha256": "0808dab232d6613ceb7a326fb227c349eb7499ed865fb9ad043bf89ec4f5f363"
+      },
+      "from": "ep91-social-support",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP91_supplemental.json:/mindsets/22",
+      "to": "ep91-crisis-resilience",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-13",
+    "lastUpdated": "2026-08-18",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-13",
+    "last_update": "2026-08-18",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP90 分析報告",
+    "source": "EP1-EP91 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 855,
-    "total_relations": 687
+    "total_entities": 879,
+    "total_relations": 699
   },
   "nodes": [
     {
@@ -26478,6 +26682,318 @@
       "importance": "⭐⭐⭐⭐",
       "name": "語言學習速度",
       "notion_id": "3bbb925882078174b3c8d8b3d7c90542",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "團隊中能有效貢獻且適合組織的人才比例與集中程度。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-team-talent-density",
+      "importance": "⭐⭐⭐⭐",
+      "name": "團隊人才密度",
+      "notion_id": "3c0b92588207814db956e7b87149cf3d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "團隊共同完成目標與維持產出品質的能力。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-team-performance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "團隊績效",
+      "notion_id": "3c0b925882078139b174e2e2d2a0ec7d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合過度集中於單一公司所形成的曝險。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-single-stock-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "單一個股集中曝險",
+      "notion_id": "3c0b9258820781c79adee2d7255ac89b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合因不利事件承受的資本損失程度。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-portfolio-loss-severity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資組合損失幅度",
+      "notion_id": "3c0b925882078129961edecec9583ecf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "ARK 創業初期與 Resolute 間涉及未來股權取得權利的合約安排。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-ark-resolute-contract",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ARK 與 Resolute 股權選擇權合約",
+      "notion_id": "3c0b9258820781179777d7a3ed00cf15",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "對 ARK Invest 重大治理與經營決策的控制權。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-ark-control-rights",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ARK 控制權",
+      "notion_id": "3c0b9258820781b3860afc57ee52fc40",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "創辦人在選擇方向、資源與投資標的時形成決策品質的能力。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-founder-judgment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "創辦人判斷力",
+      "notion_id": "3c0b925882078162b47cdc64315d09ff",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "ARK 主動選股能力及組織運作所支撐的投資價值。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-ark-investment-value",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ARK 投資價值",
+      "notion_id": "3c0b92588207812a9d63cf31f42a948d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "ETF 發行商及通路安排所產生的費用與經濟利益。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-issuer-distribution-fees",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ETF 發行與通路費用",
+      "notion_id": "3c0b9258820781f7bb66f6f74c5787ca",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "ARK 與 Resolute 就發行、股權及控制安排進行的協商。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-ark-resolute-negotiation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ARK 與 Resolute 協商",
+      "notion_id": "3c0b9258820781a69cd6c19833ef1b02",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "企業以授予股權或股權權利取得資金的融資方式。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-equity-financing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "股權融資",
+      "notion_id": "3c0b925882078178bb85eeb5c5117acc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司個案",
+      "description": "創辦人對公司重大決策與治理結果的控制程度。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-founder-control",
+      "importance": "⭐⭐⭐⭐",
+      "name": "創辦人控制權",
+      "notion_id": "3c0b925882078183a86dd2bfd80dd0b4",
+      "type": "💡概念"
+    },
+    {
+      "category": "⚖️ 法規政策",
+      "description": "政府為促進電動車購買與使用提供的財政補助。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-ev-subsidies",
+      "importance": "⭐⭐⭐⭐",
+      "name": "電動車補助",
+      "notion_id": "3c0b9258820781bfadbfe38184d95c77",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "電動車在中國市場的購買、使用與滲透程度。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-china-ev-adoption",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中國電動車普及",
+      "notion_id": "3c0b9258820781f3ad5bf1879688db1f",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "權證在約定期限屆滿後終止或結算的機制。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-warrant-expiry",
+      "importance": "⭐⭐⭐⭐",
+      "name": "權證到期",
+      "notion_id": "3c0b92588207814d88b1ce926c390e3a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "衍生工具未達條件時投入權利金全部損失的結果。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-total-premium-loss",
+      "importance": "⭐⭐⭐⭐",
+      "name": "權利金全損",
+      "notion_id": "3c0b9258820781deb585e8c6948fa5bf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "理解期貨、選擇權與權證機制和風險所需的知識。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-derivatives-knowledge",
+      "importance": "⭐⭐⭐⭐",
+      "name": "衍生品知識",
+      "notion_id": "3c0b925882078160b9d3cd3683327035",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "操作衍生金融工具可能承受的資本損失風險。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-derivatives-loss-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "衍生品損失風險",
+      "notion_id": "3c0b925882078176b421fa2cf7548547",
+      "type": "💡概念"
+    },
+    {
+      "category": "🔬 基本面研究",
+      "description": "決定指數成分、權重與調整規則的方法。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-index-methodology",
+      "importance": "⭐⭐⭐⭐",
+      "name": "指數編製方法",
+      "notion_id": "3c0b92588207816ead88d5baa26f7928",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "中國 ETF 因追蹤指數而形成的產業與成分股曝險。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-china-etf-exposure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中國 ETF 曝險",
+      "notion_id": "3c0b9258820781f28066d4baf522e3e0",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "以長期被動核心搭配較小主動部位的資產配置方式。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-core-satellite-allocation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "核心衛星配置",
+      "notion_id": "3c0b9258820781fa9dedc5cbbccea5fe",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "投資組合允許配置於主動選股的風險與資本額度。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-active-risk-budget",
+      "importance": "⭐⭐⭐⭐",
+      "name": "主動投資風險預算",
+      "notion_id": "3c0b9258820781a59725cf45e88ad195",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "個人在困境中由親友、專業者或社群獲得的陪伴與協助。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-social-support",
+      "importance": "⭐⭐⭐⭐",
+      "name": "社會支持",
+      "notion_id": "3c0b925882078111a60cdbdf39990fad",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "個人在重大挫折或心理危機中尋求協助並恢復的能力。",
+      "eps": [
+        "EP91"
+      ],
+      "first_ep": "EP91",
+      "id": "ep91-crisis-resilience",
+      "importance": "⭐⭐⭐⭐",
+      "name": "危機韌性",
+      "notion_id": "3c0b925882078192bd74ecd9b827131d",
       "type": "💡概念"
     }
   ]
