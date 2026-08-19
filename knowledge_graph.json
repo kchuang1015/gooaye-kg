@@ -15422,20 +15422,224 @@
       "source_locator": "analysis/EP91_supplemental.json:/mindsets/22",
       "to": "ep91-crisis-resilience",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "然後價格跑上跑下，你就整個就抖了，所以你可能本來規劃了很多東西，你就會忘記，那或者說你本來想說，我在場內隨機應變，結果你就隨機應變不出來，除非你已經非常是老手了，那一般人呢，我會建議你就提早設定好，就是我該怎麼樣，才不會空手而回，因為其他很多人都怕空手而回嘛，特別是最近漲了這麼兇猛，那其實最兇猛當然不是特斯拉，特斯拉表現很好，但是因為特斯拉我買很多，所以我很喜歡，那但是其實最兇猛的，並不是買很多的特斯拉，其實很多時候都這樣，就是你買最多的不會最會漲啊,",
+        "excerpt_sha256": "a962ab4709916529633f60c229d46c24dc1086ea1cb9c736f8d97b4e1f99bca7",
+        "line_end": 17,
+        "line_start": 17,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-precommitted-exit-rules",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/0",
+      "to": "ep92-intraday-emotional-error",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "每一次的大漲段都FOMO,就是所謂的Fear of Missing Out,都覺得說，現在在漲我趕快進去，比方說像是8月底9月初，那9月9月初之後就有一個群組的沉默循環嘛，那時候追高的，後來就很難過啦，絕對是很難過的啦，因為那個帳上賠了很多錢啦，如果說你是沒有聽我的分批，那也就是一次決定要有重壓的，那個一定都受傷殘重啦，那也不確定你有沒有辦法撐到現在漲回去，撐到現在，當然漲回去了，可是問題是說,",
+        "excerpt_sha256": "3a7f85b6c4e48ede5b6449cff489732e7873f6ec4adbace230cdf7147f4bff77",
+        "line_end": 23,
+        "line_start": 23,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-fomo-entry",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/2",
+      "to": "ep92-loss-exposure",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "你看人家現在是，因為他有持續地買進嘛，所以他現在可能帳上是加30%,但你只是從-30%回到0,回到就是你本來成本的位置，所以不要在每一次大家很high的時候，就跑進去亂，每次大家很high的時候你要進去，那個很高機會都受傷啦，可能從下禮拜就開始修正了，沒有人知道，但是一般漲很兇，附帶的就是修正也會很兇，大多數的狀況真的都是這樣，所以自己要注意，就是如果說你沒有建立基礎部位的,",
+        "excerpt_sha256": "1c216f75a956794abe11aab34cd576ffdc97b6d7da916adc79d49f5de35dba70",
+        "line_end": 24,
+        "line_start": 24,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-entry-cost",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/4",
+      "to": "ep92-recovery-time",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "你又受不了，你要回補，但是在你回補之後，那其他的放空的人看到說，價格又再繼續往上推，他們也會跟著回補，那他們回補之後，你又看到價格在往上推，推到38塊了，受不了了，我真的要出掉，所以我又再回補，這叫做short squeeze,叫嘎空，所以這些放空的人呢，他們很多時候就會成為燃料，所謂的燃料呢，就是說，當股市在上升的過程之中，有些人就要提早，很早就進來空他，那空了之後最後面就變成，造成股市更進一步上升的燃料，就是成為新動能啦，所以很多時候在那種",
+        "excerpt_sha256": "0144c5a235e8f48aef4e0050a963fd436b5a4c62e93540651146c0cc931f8504",
+        "line_end": 36,
+        "line_start": 36,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-short-covering",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/6",
+      "to": "ep92-share-price",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "買盤，所以大家趕快回補，然後就造成一個最後的榮景，一個爆噴的一個階段，到最高點的時候，當然大家就補的差不多了，那所謂補的差不多的意思呢，其實就是等於空軍死透了，就是本來要進去放空的人呢，最後面都撐不住了，然後就都投降了，所以他們都化身成為買盤，然後造成了最後的榮景，那這時候你就會想要問自己一個問題，就是說，欸，那空軍造成的買盤結束了，那多軍又覺得，欸，本來45度角在漲的時候，我敢分批買進，可是70-80度在噴的時候，大多數人也會選擇收手,",
+        "excerpt_sha256": "295d5493680d3cf0a543e0cf55bee6a436b7183eeefe8d2a2e15f8921e4db02b",
+        "line_end": 41,
+        "line_start": 41,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-short-covering-chain",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/8",
+      "to": "ep92-terminal-rally",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "只剩下少數的投機分子，怕錯過的那些人，會在這時候選擇投入嘛，可是這個買盤力量跟當時的買盤力量，已經差非常多了，所以為什麼，每次在末升段之後，你可能會看到一個急跌，像是8月底9月初，或像之前4-5月6月的時候也有發生過，為什麼會有這樣的急跌，就是因為這樣，因為買盤瞬間消失了，就是長期投資的人，不會在這個時候介入，你說我長期投資亞馬遜的人，我會敢在亞馬遜噴的什麼10-20%的時候，趕快進去買嗎，不會嘛，因為我知道這家",
+        "excerpt_sha256": "978e107342076506220380f04343f89a77d5bdab0fe7db1904e9414016a9c93b",
+        "line_end": 42,
+        "line_start": 42,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-terminal-rally",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/9",
+      "to": "ep92-reversal-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "會讓一樣像他們是這樣子，就是追高追很多的人，就會跟著停損，所以就會變成一個快速的下挫，所以其實我這樣跟大家解釋之後，我相信大家應該就會很明白，就是為什麼每次後來看到那種急漲之後，然後就會伴隨一個急跌，然後就會在各個討論區看到人家說，什麼什麼什麼可不可以賣了，你就會發現會問這個可不可以賣了，或說要不要逃了的人，他們多半不是在，比方說前面的兩三個月就開始一直在買進的，他們不是啦，他們就是在最後面看到他每天加個5%8%然後趕快追進來的,",
+        "excerpt_sha256": "47b9378228cb57b72d537af3efe254751edd21c112ff8c532a79238a82d90b19",
+        "line_end": 46,
+        "line_start": 46,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-unstable-fomo-holders",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/11",
+      "to": "ep92-selloff-speed",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "它就像是買保險，你付出一個保費，如果最後面有大跌的話呢，那你就可以從這個保費賺錢回來，那如果沒有的話，那就像是繳出去，潑出去的水就不會回來了，所以看個人，如果你手上抱著很多股票，然後最近賺很多錢的，其實你是有很多的手段可以做的，那也不要患得患失啦，那如果說你現在是空手的呢，我真的覺得現在的氣氛已經有點像是之前的那個瘋狗盤那時候了，你現在要進去，高機會會受傷，但是如果真的還是要進去,",
+        "excerpt_sha256": "7e2804b6e0b5fbc9ac68a925abb590c7b497e48ac7370590ccb9c5c130692c48",
+        "line_end": 50,
+        "line_start": 50,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-hedge-premium",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/13",
+      "to": "ep92-downside-protection",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "也不一定，只是他的成長一定不會像疫情正熱的時候這麼暴力，那這是你要注意的，那何況是台股它並不是一個品牌，它很多是在賺中間財的，那當這些中間財的需求緩解之後，我覺得這些股票就會很危險，就會很危險，好，下面會這個NNI2AK說，花山派大新，馬的這集後面滿滿的洋蔥，我還以為剛裝修的天花板漏水了，原來是我的眼淚啊，好，感謝你，下面會這個，高雄小地方癌症病友，說",
+        "excerpt_sha256": "f576ad44f1680d353c0b2efa4c54a1555c81b723e6ed8d3a8c1dfd3a831f0a44",
+        "line_end": 54,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-pandemic-normalization",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/15",
+      "to": "ep92-pandemic-beneficiary-growth",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "那個需求就會大幅的下降，大家都用串流遊戲之後，那硬碟的需求下降，那什麼會上來，可能就是網通相關的東西會上來，那個需求會增加，那這可能就是大家要去觀察一個趨勢的改變，你要炒股你就一定要跟著趨勢走，你要知道現在大家要什麼，你要知道年輕人在玩什麼，那我覺得串流遊戲非常的有這個未來性，我覺得他是很有機會的，雖然老實講我並不是什麼技術科班出身的，所以我不可以告訴你說，他要怎麼樣才可以把畫質提升，可是我相信我們人類的技術可以克服啦，那等到那個畫質",
+        "excerpt_sha256": "0c0ec931ec96fb20a91858b527d9ffdd933c45e361ce231974d6a6adc7701bbe",
+        "line_end": 61,
+        "line_start": 61,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-cloud-gaming-adoption",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/17",
+      "to": "ep92-networking-demand",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "那個需求就會大幅的下降，大家都用串流遊戲之後，那硬碟的需求下降，那什麼會上來，可能就是網通相關的東西會上來，那個需求會增加，那這可能就是大家要去觀察一個趨勢的改變，你要炒股你就一定要跟著趨勢走，你要知道現在大家要什麼，你要知道年輕人在玩什麼，那我覺得串流遊戲非常的有這個未來性，我覺得他是很有機會的，雖然老實講我並不是什麼技術科班出身的，所以我不可以告訴你說，他要怎麼樣才可以把畫質提升，可是我相信我們人類的技術可以克服啦，那等到那個畫質",
+        "excerpt_sha256": "0c0ec931ec96fb20a91858b527d9ffdd933c45e361ce231974d6a6adc7701bbe",
+        "line_end": 61,
+        "line_start": 61,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-cloud-gaming-adoption",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/17",
+      "to": "ep92-local-storage-demand",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP92",
+      "evidence": {
+        "excerpt": "在，比方說在這個，這個婚姻的議題上呢，我就是偏左，我不會講說，啊，什麼都是右，然後就覺得這樣很酷，你知道嗎，其實我覺得台灣很多人已經是腦袋撞到了，就像之前，欸，左派在搞這個，衝撞政府，大家覺得很酷嘛，那時候馬英九就是死亡之握，馬窘嘛，去死啊，所以那時候站在左派覺得很酷嘛，就像突然變成，大家覺得站在右派很酷，然後就好像什麼東西都要右，可是我覺得，你可不可以獨立思考，你可不可以知道說其實很多東西是，你有些地方是左，有些地方是右，那是很合理的，比方說以台灣的現狀來講，其實台灣政府就是偏左,",
+        "excerpt_sha256": "8585473483cf0785a14e6473ba394b29a63c6d4e6f5cee7402121b593eeae3c3",
+        "line_end": 77,
+        "line_start": 77,
+        "transcript_path": "transcripts/EP92_corrected.txt",
+        "transcript_sha256": "46ad466b57c862f1b9872f5658789de59b744311680ac055577f7e74957f2c71"
+      },
+      "from": "ep92-issue-by-issue-reasoning",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP92_supplemental.json:/mindsets/20",
+      "to": "ep92-ideological-polarization",
+      "type": "約束"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-18",
+    "lastUpdated": "2026-08-19",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-18",
+    "last_update": "2026-08-19",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP91 分析報告",
+    "source": "EP1-EP92 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 879,
-    "total_relations": 699
+    "total_entities": 901,
+    "total_relations": 711
   },
   "nodes": [
     {
@@ -26994,6 +27198,292 @@
       "importance": "⭐⭐⭐⭐",
       "name": "危機韌性",
       "notion_id": "3c0b925882078192bd74ecd9b827131d",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP92 對預先承諾的退出規則的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-precommitted-exit-rules",
+      "importance": "⭐⭐⭐⭐",
+      "name": "預先承諾的退出規則",
+      "notion_id": "3c1b9258820781afa913d3b21fb05255",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP92 對盤中情緒決策錯誤的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-intraday-emotional-error",
+      "importance": "⭐⭐⭐⭐",
+      "name": "盤中情緒決策錯誤",
+      "notion_id": "3c1b92588207818ea076c6c32d336feb",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP92 對害怕錯過式進場的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-fomo-entry",
+      "importance": "⭐⭐⭐⭐",
+      "name": "害怕錯過式進場",
+      "notion_id": "3c1b9258820781da93b3e49ceb2d6874",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP92 對損失曝險的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-loss-exposure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "損失曝險",
+      "notion_id": "3c1b9258820781e9a27dd11dbd3d0d62",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP92 對進場成本的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-entry-cost",
+      "importance": "⭐⭐⭐⭐",
+      "name": "進場成本",
+      "notion_id": "3c1b925882078185b71fdefdedb96d55",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP92 對損失回復時間的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-recovery-time",
+      "importance": "⭐⭐⭐⭐",
+      "name": "損失回復時間",
+      "notion_id": "3c1b92588207815c9337fb94f2782ff1",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP92 對空頭回補的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-short-covering",
+      "importance": "⭐⭐⭐⭐",
+      "name": "空頭回補",
+      "notion_id": "3c1b925882078188a6cfdf24fde945a4",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP92 對股價的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-share-price",
+      "importance": "⭐⭐⭐⭐",
+      "name": "股價",
+      "notion_id": "3c1b925882078197be25c5d2f111f5d7",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP92 對連鎖空頭回補的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-short-covering-chain",
+      "importance": "⭐⭐⭐⭐",
+      "name": "連鎖空頭回補",
+      "notion_id": "3c1b92588207819cbbaccb29100e1a63",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP92 對末升段急漲的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-terminal-rally",
+      "importance": "⭐⭐⭐⭐",
+      "name": "末升段急漲",
+      "notion_id": "3c1b9258820781f7a0f0c5ac63dfe4b3",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP92 對急漲後反轉風險的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-reversal-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "急漲後反轉風險",
+      "notion_id": "3c1b92588207813ba04ed628bc1ce753",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP92 對不穩定追高持有人的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-unstable-fomo-holders",
+      "importance": "⭐⭐⭐⭐",
+      "name": "不穩定追高持有人",
+      "notion_id": "3c1b9258820781ada5abdaf317356ac4",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP92 對賣壓下挫速度的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-selloff-speed",
+      "importance": "⭐⭐⭐⭐",
+      "name": "賣壓下挫速度",
+      "notion_id": "3c1b9258820781d2b06ffde23015a75c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP92 對避險權利金的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-hedge-premium",
+      "importance": "⭐⭐⭐⭐",
+      "name": "避險權利金",
+      "notion_id": "3c1b9258820781bc814aedc5578699b8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP92 對下行保護的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-downside-protection",
+      "importance": "⭐⭐⭐⭐",
+      "name": "下行保護",
+      "notion_id": "3c1b925882078115a9c9f54a0dfaf9b6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "EP92 對疫情需求正常化的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-pandemic-normalization",
+      "importance": "⭐⭐⭐⭐",
+      "name": "疫情需求正常化",
+      "notion_id": "3c1b9258820781718295cc0667fb1f27",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "EP92 對疫情受惠股成長的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-pandemic-beneficiary-growth",
+      "importance": "⭐⭐⭐⭐",
+      "name": "疫情受惠股成長",
+      "notion_id": "3c1b92588207818f936ef6ac6da67222",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "EP92 對雲端遊戲普及的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-cloud-gaming-adoption",
+      "importance": "⭐⭐⭐⭐",
+      "name": "雲端遊戲普及",
+      "notion_id": "3c1b9258820781258719eb7e72e399e1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "EP92 對網通需求的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-networking-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "網通需求",
+      "notion_id": "3c1b9258820781e184fce9fd2acd920c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏭 產業研究",
+      "description": "EP92 對本地儲存需求的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-local-storage-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "本地儲存需求",
+      "notion_id": "3c1b9258820781cc8a8eed7a6f638dfd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "EP92 對逐議題獨立判斷的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-issue-by-issue-reasoning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "逐議題獨立判斷",
+      "notion_id": "3c1b925882078109b6d6c050c5eab04a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP92 對意識形態極化的逐字稿綁定概念。",
+      "eps": [
+        "EP92"
+      ],
+      "first_ep": "EP92",
+      "id": "ep92-ideological-polarization",
+      "importance": "⭐⭐⭐⭐",
+      "name": "意識形態極化",
+      "notion_id": "3c1b925882078191af2dd8588105f654",
       "type": "💡概念"
     }
   ]
