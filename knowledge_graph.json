@@ -15626,6 +15626,210 @@
       "source_locator": "analysis/EP92_supplemental.json:/mindsets/20",
       "to": "ep92-ideological-polarization",
       "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "我持股給賣掉，所以人性常常是在極度的樂觀跟極度的悲觀之間擺盪，那我個人覺得你要去避免這樣的情緒，那所以說，你會把任何一支個股買到超過比方說什麼五成以上，甚至是ALL IN,所謂的百分之百的資金都壓同一支個股，真的是非常的危險，所以為什麼說它危險呢，當然說如果你的判斷力一直都很精準的話，假設你都一直超精準，你有九成的準度好了，其實已經非常不可能，九成已經像是跟外星人跟鬼一樣強了，那即便你是九成的準度，你就想喔，你每次",
+        "excerpt_sha256": "78f330adfac8fb9408bc64e99031cbbc3bd2e7edd3ca7ced7caa60638e177e25",
+        "line_end": 8,
+        "line_start": 8,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-concentrated-position",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/0",
+      "to": "ep93-ruin-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "我要回鄉，跟我的青梅竹馬結婚，你不能去立一個flag,你做的所有策略都是要可以反覆執行驗證，然後測試呢，它的有效程度是，比方說高於五六成，或是說它可以持續為你帶來獲利，那這才是一個好的策略，所以all in絕對不是一個好的策略，但是很常在這種大多頭的時候呢，你就會看到很多人出來鼓吹說，他all in什麼個股，然後賺了很多錢，然後這個東西其實就是說，你賺錢的時候你很高興，可是等到真的要進入驗證，要修正的時候呢，這個會非常的痛苦，所以在那邊跟大家強調一下，其實我們群組從之前到現在,",
+        "excerpt_sha256": "1f5a4bcfecdb4f6e7735ebb153fff822e98c8336ec1218e8ae9153c6b0075eaa",
+        "line_end": 10,
+        "line_start": 10,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-repeatable-strategy",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/2",
+      "to": "ep93-long-term-survival",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "已經經歷過好幾個沉默循環嘛，四五月有一個，九月一個，十月一個，那其實經過前面兩個沉默循環的人，你就發現他們會茁壯，他們在我們Telegram裡面聊天的時候就會講說，你不要all in,就是我有看到一些ID,也是之前很High的那一種，但是他現在就學乖了，那還會有一個對賬單告訴你說，他當初是怎麼樣買在最高點，然後買很多，所以其實還是那句老話，就是說你在市場上裡面，你蹲越久的人，你最後面一定會有所收穫，然後不一定你會變股神，可是至少你會知道說，比方說,",
+        "excerpt_sha256": "eb1ad9f96570655fa6fe95173b54519e75f14f548ecac1634df21d9fbc334711",
+        "line_end": 11,
+        "line_start": 11,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-market-tenure",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/4",
+      "to": "ep93-cycle-learning",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "隨機性跟不確定性，所以千萬不要去幫這種超短期，基本上我是規劃在，比方說一兩週內的漲跌幅去找一個理由，因為有時候就是單純，市場資金，簇擁而上，那也沒有別的太多的藉口，有點像是之前，比方說9月很多人說，納斯達克巨鯨，就是孫正義吧，孫正義買了一堆選擇權，所以把股價，你看到很多科技股在9月的時候都沖一波，然後之後大概沖了兩三個禮拜之後，就直接摔回原點嘛，那像這樣的東西，其實你就非常難以去找到一個理由,",
+        "excerpt_sha256": "cae25c4b83d8764296eb1bb14912c4d18587c144e4a880b54252c2c2ba9f27a8",
+        "line_end": 20,
+        "line_start": 20,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-short-horizon-price",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/6",
+      "to": "ep93-narrative-confidence",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "你什麼時候要丟回去，你要記得一個很重要的觀念是說，當你在市場裡面，比方說你今天是100%的資金，在這個上漲段裡面，然後在下跌的時候，假設你天生神力好了，然後你就出掉一半，天生神力，那可是你出掉之後，問題來了，你這個50%什麼時候要丟回去，然後要怎麼樣丟回去，這都是學問，所以不是一個很單純說，我今天現金水位是20%,然後我要目標鎖到15%,然後這樣就結束了，沒有那麼單純，因為重點是說，如果說在之後的上漲，比方說他現在擊殺，然後你把一半的現金拿回來了，可是在這個時候,你什麼時候要丟回去,",
+        "excerpt_sha256": "5d09fa4a2a56fc9915ee26f804e46d0946f3bea21ee828402df7c03f9c7df19b",
+        "line_end": 29,
+        "line_start": 29,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-cash-timing",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/8",
+      "to": "ep93-reentry-risk",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "來的好話，那當然就白眼後，那特別是，假設你是持有台股的，更是這樣，因為美股他們是零手續費啦，所以零手續費他在那邊抽差，跟我沒差，而且根本也不用去注意，所謂的這個資本利得稅，而且我們不是美國人，所以根本沒有這樣的問題，但在台股呢，你每次的買進賣出，就有非常高的成本，所以你這些買進賣出的成本，有時候你就忽略掉了，因為你只會看帳上說，我賣掉的時候，這個損益是多少，你就不會去記，當初你投入的這些成本，那交易的成本有多少，他其實搞不好，你全部加一加,",
+        "excerpt_sha256": "f253f46c680aabe0956ae38dfd4bc049ec8ceadbfe7c575e87f2be7e0272c7da",
+        "line_end": 37,
+        "line_start": 37,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-buy-and-hold",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/10",
+      "to": "ep93-trading-cost",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "他們真的會反胃，覺得幹超惡的，那為什麼會爆出這樣的事情，當然那個內控一定絕對有問題，他們目前是丟出一個這個游組長，游組長他要負責，但是你相信嗎，游組長他就是一個拿10萬塊月薪的人而已，當然第一個我看到是，為什麼抄這個幾兆資金的人，他的薪水這麼低，還是說他有上層，還是他有下層，那決策是他一個人可以做嗎，那從新聞這邊看起來呢，好像是他一個人就可以做這樣的決定，他一個人就可以把你各位的退休金，然後拿去炒股，拿去圖利別人，那為什麼被抓起,",
+        "excerpt_sha256": "499acea58331f64ebb3eec50cd5844156712722258b18b127ac9a9bb52e19033",
+        "line_end": 41,
+        "line_start": 41,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-fund-governance",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/12",
+      "to": "ep93-beneficiary-trust",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "操的比大盤還爛，然後跟我收一堆所謂的這個基金的管理費跟經理費，那其實這些經理費跟管理費，為什麼我很常跟大家講說買ETF一定要注意，因為他非常重要，這個錢就等於是從你口袋拿的錢，懂嗎？這個管理費跟經理費，我不知道為什麼，其實很多人會去忽略這件事情，但是他等於是每年他可以從你身上拿幾%就是在這邊決定，所以這個是大家一定要去注意的，那你的績效就已經很差了，然後你又要從我身上拿錢，這就幹一年啊，就很扯啊，那我個人是覺得這件事情應該要做改革啦，好，那那個連署呢,",
+        "excerpt_sha256": "b5865e6f166526ac878ac825a5c384fcf5635a134a0900646a27570e4329220b",
+        "line_end": 45,
+        "line_start": 45,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-manager-fees",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/14",
+      "to": "ep93-net-return",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "他們歷年的績效跟配置，他們到底配了什麼，還有最重要的費用，他們到底每年從你身上吸多少錢，到底吸了1%還是2%還是吸了0.5%非常重要嘛，那其實這樣還有一個好處是說，當你開放之後，好比方說政府選任的業者，那假設本來就只有幾家，那我們現在可以擴大到20家好不好，然後20家跟你選，那20家當然他們有競爭，市場就是需要競爭，才會有新的有更好的東西出來，有競爭大家也可以去降低這個費用，所以我覺得其實總歸來說就是三條路，一條ETF,一條自己選你的權值股，另外一條,",
+        "excerpt_sha256": "52208ade724a9ffede5d5a13ccf4d130e6d10c8a07dac2d6978f88234533efed",
+        "line_end": 54,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-plan-choice",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/16",
+      "to": "ep93-manager-competition",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "你可以維持原狀，由政府或者是業者去幫你操盤，但是他們必須要公布他們的績效，那其實一來一往呢，最後面大家就會拿錢投票，也就是說這個方案如果真的推出來之後，大家很簡單嘛，你的退休金要交給哪一個，市場上一定有很多人比較啊，大家會上去臉書上問說，我們到底要選哪個比較好，大家就會越辯越明，就會告訴你說，其實老實講，你看國外退休金，就是單純的跟指數就好，那這種指數ETF,你甚至可以加入一些海外的配置，你可以買新興市場，你可以買美國市場，就看政府怎麼樣去調整，但是我覺得這都可以做的，所以我覺得其實其實,",
+        "excerpt_sha256": "b2232471dedd9889f2605a4da433a5cc7095624d60b1370fc71c17d80f43acca",
+        "line_end": 55,
+        "line_start": 55,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-disclosure",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/18",
+      "to": "ep93-plan-comparison",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "的部分，有建議如何學起嗎？我個人覺得，其實老實講，數學它是一個很重要的東西，但是在投資裡面呢，你不用用到那種什麼高中數學，甚至那種國中數學，有些用到比較進階的東西，你都用不到，其實基本的加減乘除會，就可以了，當然如果你要往更學術的路線去，你要去算所謂的alpha,beta,那當然你可能就要用到更多的數學，可是其實我覺得日常的投資，像你買什麼，指數型ETF那些，你根本就不需要用到這些數學，你只要會加減乘除就好了，所以不用擔心太多啊，像我之前也擔心過數學能力差,",
+        "excerpt_sha256": "304433ba8d70720f0138963bffb2aa79b786588c767c18852e6c91439467b93f",
+        "line_end": 67,
+        "line_start": 67,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-basic-arithmetic",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/20",
+      "to": "ep93-passive-investing",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP93",
+      "evidence": {
+        "excerpt": "會變得無聊，所以有時候人性很神奇，就是這樣，當你真的找到一個聖杯了，你可能在工作上啊，投資上啊，然後找到一個穩健的路，可是你反而就嫌無聊了，那當然你嫌無聊，你可以偶爾都是，像你這個做法就是我會做的，我拿10%的錢出來主動選股，出來跟大家聊天，然後跟大家講說，最近有什麼好玩的公司可以投，我覺得這是一個很讚的事情，其實真的啊，投資，雖然大家都進來賺錢的，可是我覺得有些人把獲利講得太多了，變成說，我就是只是來賺錢的啦，其他都不重要，但是我覺得其實投資的過程,",
+        "excerpt_sha256": "81700e4818c6e546536159035474ae94756a02079a31869b5dd7841c5a64bca0",
+        "line_end": 84,
+        "line_start": 84,
+        "transcript_path": "transcripts/EP93_corrected.txt",
+        "transcript_sha256": "34eb7d95ce02995325e80d2311f4b65036338aaf554061c36f289782f400f770"
+      },
+      "from": "ep93-active-sleeve",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP93_supplemental.json:/mindsets/22",
+      "to": "ep93-investor-engagement",
+      "type": "支持"
     }
   ],
   "metadata": {
@@ -15636,10 +15840,10 @@
     "last_update": "2026-08-19",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP92 分析報告",
+    "source": "EP1-EP93 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 901,
-    "total_relations": 711
+    "total_entities": 925,
+    "total_relations": 723
   },
   "nodes": [
     {
@@ -27484,6 +27688,318 @@
       "importance": "⭐⭐⭐⭐",
       "name": "意識形態極化",
       "notion_id": "3c1b925882078191af2dd8588105f654",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP93 對集中部位的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-concentrated-position",
+      "importance": "⭐⭐⭐⭐",
+      "name": "集中部位",
+      "notion_id": "3c1b92588207811db069c9669c01ee17",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP93 對破產風險的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-ruin-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "破產風險",
+      "notion_id": "3c1b925882078193988cfc99ae22c029",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對可重複投資策略的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-repeatable-strategy",
+      "importance": "⭐⭐⭐⭐",
+      "name": "可重複投資策略",
+      "notion_id": "3c1b9258820781c5b0d1d2509d607680",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP93 對長期市場存活的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-long-term-survival",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長期市場存活",
+      "notion_id": "3c1b925882078191bb01ed86eb9e50b7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "EP93 對市場歷練時間的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-market-tenure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場歷練時間",
+      "notion_id": "3c1b9258820781499b78f777659b0757",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "EP93 對景氣循環學習的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-cycle-learning",
+      "importance": "⭐⭐⭐⭐",
+      "name": "景氣循環學習",
+      "notion_id": "3c1b9258820781f09debcaf2ab61f00b",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP93 對短期價格走勢的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-short-horizon-price",
+      "importance": "⭐⭐⭐⭐",
+      "name": "短期價格走勢",
+      "notion_id": "3c1b92588207816598b2d265be0ce9bb",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP93 對敘事信心的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-narrative-confidence",
+      "importance": "⭐⭐⭐⭐",
+      "name": "敘事信心",
+      "notion_id": "3c1b92588207817cb399ff6d2da5aae0",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對現金擇時的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-cash-timing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "現金擇時",
+      "notion_id": "3c1b9258820781f6a0b9dbedd4487c38",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP93 對再進場風險的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-reentry-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "再進場風險",
+      "notion_id": "3c1b92588207818681e8e971b8c1d571",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對買進持有的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-buy-and-hold",
+      "importance": "⭐⭐⭐⭐",
+      "name": "買進持有",
+      "notion_id": "3c1b92588207816c924df8f2912a3c95",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP93 對交易成本的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-trading-cost",
+      "importance": "⭐⭐⭐⭐",
+      "name": "交易成本",
+      "notion_id": "3c1b92588207811ca2eced30754c382e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策制度",
+      "description": "EP93 對基金治理的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-fund-governance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "基金治理",
+      "notion_id": "3c1b9258820781198655e58dcc1bb773",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策制度",
+      "description": "EP93 對受益人信任的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-beneficiary-trust",
+      "importance": "⭐⭐⭐⭐",
+      "name": "受益人信任",
+      "notion_id": "3c1b9258820781e8b69decacf850e568",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP93 對經理人費用的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-manager-fees",
+      "importance": "⭐⭐⭐⭐",
+      "name": "經理人費用",
+      "notion_id": "3c1b92588207811fa3f0ddcad36281af",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對淨報酬的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-net-return",
+      "importance": "⭐⭐⭐⭐",
+      "name": "淨報酬",
+      "notion_id": "3c1b92588207812c870dfd2f4c48654e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策制度",
+      "description": "EP93 對退休計畫選擇的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-plan-choice",
+      "importance": "⭐⭐⭐⭐",
+      "name": "退休計畫選擇",
+      "notion_id": "3c1b925882078164ab06c584239bbba8",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP93 對經理人競爭的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-manager-competition",
+      "importance": "⭐⭐⭐⭐",
+      "name": "經理人競爭",
+      "notion_id": "3c1b925882078139afd7feb56884db56",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策制度",
+      "description": "EP93 對資訊揭露的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-disclosure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "資訊揭露",
+      "notion_id": "3c1b92588207810887c5d27176fec84a",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "EP93 對退休計畫比較的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-plan-comparison",
+      "importance": "⭐⭐⭐⭐",
+      "name": "退休計畫比較",
+      "notion_id": "3c1b9258820781e1838bdb69fdf58a3c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧭 學習方法",
+      "description": "EP93 對基礎算術的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-basic-arithmetic",
+      "importance": "⭐⭐⭐⭐",
+      "name": "基礎算術",
+      "notion_id": "3c1b9258820781378cfacee164811242",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對被動投資的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-passive-investing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "被動投資",
+      "notion_id": "3c1b925882078145a0dfd9e581f52d79",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP93 對主動投資部位的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-active-sleeve",
+      "importance": "⭐⭐⭐⭐",
+      "name": "主動投資部位",
+      "notion_id": "3c1b92588207814c983ac9a3d81098c6",
+      "type": "💡概念"
+    },
+    {
+      "category": "🧠 投資心理",
+      "description": "EP93 對投資人參與感的逐字稿綁定概念。",
+      "eps": [
+        "EP93"
+      ],
+      "first_ep": "EP93",
+      "id": "ep93-investor-engagement",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資人參與感",
+      "notion_id": "3c1b92588207815bad25d48fe8af086d",
       "type": "💡概念"
     }
   ]
