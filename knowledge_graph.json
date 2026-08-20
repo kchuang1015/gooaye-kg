@@ -15830,20 +15830,224 @@
       "source_locator": "analysis/EP93_supplemental.json:/mindsets/22",
       "to": "ep93-investor-engagement",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "所以你就要不停的繳保費,",
+        "excerpt_sha256": "ea3c86872c2ad4954b57ab02772751d27d708f1dbe6c942e31e9d4cb9e37f520",
+        "line_end": 148,
+        "line_start": 148,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-cds-premium",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/0",
+      "to": "ep94-short-carry-cost",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "但是因為他們後來就撐不住了,",
+        "excerpt_sha256": "ee0c85b2e6c6aed8be78482124434f693b081189e358decc9187ad419a2b7fa7",
+        "line_end": 169,
+        "line_start": 169,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-early-short",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/2",
+      "to": "ep94-position-survival",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "那就會導致大量的滑價,",
+        "excerpt_sha256": "f32e42ccdc0b034098e26ebb0c869ffbc6c27056680ccea70ff1ff63fbde16d6",
+        "line_end": 217,
+        "line_start": 217,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-underlying-liquidity",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/4",
+      "to": "ep94-etf-slippage",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "就還是有把個股就是鎖在10%,",
+        "excerpt_sha256": "8ecbd07c8f248c1c6c131cc85161ec4c04dd20ae95306ddf5d3dcc965beb232c",
+        "line_end": 523,
+        "line_start": 523,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-single-name-weight-cap",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/6",
+      "to": "ep94-tesla-exposure",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "他可能造成的破壞力是非常大的,",
+        "excerpt_sha256": "ec51ce0bb4a31d567b14223a12c8340d4f43c8145112638b3d627f96ed617716",
+        "line_end": 545,
+        "line_start": 545,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-position-concentration",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/8",
+      "to": "ep93-ruin-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "就會造成股價最後面大飆升,",
+        "excerpt_sha256": "762449f615f9884498f3116ecbe162a42abb55e6808a0f340558207a04b5377d",
+        "line_end": 662,
+        "line_start": 662,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep92-short-covering",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/10",
+      "to": "ep94-late-stage-rally",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "其實是看上他未來的利潤,",
+        "excerpt_sha256": "78e5d348ef73197c209171c7c95b95f113ab6e19f50a9e123e5c0187dab823bd",
+        "line_end": 740,
+        "line_start": 740,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-future-profit",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/12",
+      "to": "ep88-tesla-valuation",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "那你就什麼都沒了,",
+        "excerpt_sha256": "4e53daded1ffb70541124bf690f484d910a366924e09aa011fcd8de8cf203010",
+        "line_end": 856,
+        "line_start": 856,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-cfd-counterparty",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/14",
+      "to": "ep94-platform-insolvency",
+      "type": "曝險於"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "你就是放在那邊當穩定的就好了,",
+        "excerpt_sha256": "5f983ba16f211e33bc3c2a90fc46b59e4cfaaa3d8634e07c9e46bacec4023591",
+        "line_end": 891,
+        "line_start": 891,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-barbell-safe-sleeve",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/16",
+      "to": "ep94-portfolio-stability",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "因為他是有正價差的存在的,",
+        "excerpt_sha256": "51b95f6b3ea3ffe3710e2c5db477a6ace42cd7d1ffe0c402a955e31b58ab1beb",
+        "line_end": 966,
+        "line_start": 966,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-futures-contango",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/18",
+      "to": "ep94-long-horizon-tracker-decay",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "0050它選擇的標的就是台灣的50大公司,",
+        "excerpt_sha256": "591ac08db23cb71f942d25f8a524a5f875b6874fa0f19d23b8f6a3f621548c89",
+        "line_end": 1005,
+        "line_start": 1005,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep84-0050",
+      "predicate_id": "tracks",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/20",
+      "to": "ep94-taiwan-top-fifty",
+      "type": "追蹤"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP94",
+      "evidence": {
+        "excerpt": "它是拿來用這種功能型的工具來用的,",
+        "excerpt_sha256": "e29d93526b115222d96bee9d846f7467af8a4cd903460248079e52725af8b9e6",
+        "line_end": 1190,
+        "line_start": 1190,
+        "transcript_path": "transcripts/EP94_corrected.txt",
+        "transcript_sha256": "e0d56f6eab9688adf296a8ff31e3d68df191b1917d96be81c52744e5400f0b0e"
+      },
+      "from": "ep94-derivatives",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP94_supplemental.json:/mindsets/22",
+      "to": "ep94-position-hedging",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-19",
+    "lastUpdated": "2026-08-20",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-19",
+    "last_update": "2026-08-20",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP93 分析報告",
+    "source": "EP1-EP94 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 925,
-    "total_relations": 723
+    "total_entities": 945,
+    "total_relations": 735
   },
   "nodes": [
     {
@@ -28000,6 +28204,266 @@
       "importance": "⭐⭐⭐⭐",
       "name": "投資人參與感",
       "notion_id": "3c1b92588207815bad25d48fe8af086d",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對CDS 保費的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-cds-premium",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CDS 保費",
+      "notion_id": "3c2b925882078127950ece1c0fb76212",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對空頭持有成本的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-short-carry-cost",
+      "importance": "⭐⭐⭐⭐",
+      "name": "空頭持有成本",
+      "notion_id": "3c2b9258820781c883fede61d89c5d9b",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP94 對過早放空的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-early-short",
+      "importance": "⭐⭐⭐⭐",
+      "name": "過早放空",
+      "notion_id": "3c2b9258820781c19e76c5433b32ba50",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對部位存活能力的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-position-survival",
+      "importance": "⭐⭐⭐⭐",
+      "name": "部位存活能力",
+      "notion_id": "3c2b925882078159a990d73fe3691ee8",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對底層資產流動性的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-underlying-liquidity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "底層資產流動性",
+      "notion_id": "3c2b9258820781508596d7ce3c293dbe",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對ETF 滑價的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-etf-slippage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ETF 滑價",
+      "notion_id": "3c2b92588207812c88d7d4c7b7ed152f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對單一證券權重上限的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-single-name-weight-cap",
+      "importance": "⭐⭐⭐⭐",
+      "name": "單一證券權重上限",
+      "notion_id": "3c2b92588207817c86b6f31008441239",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP94 對Tesla 曝險的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-tesla-exposure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Tesla 曝險",
+      "notion_id": "3c2b9258820781a89586e17ded7a3029",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對部位集中度的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-position-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "部位集中度",
+      "notion_id": "3c2b9258820781bbbfc3f4a3f894929d",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對末段上漲的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-late-stage-rally",
+      "importance": "⭐⭐⭐⭐",
+      "name": "末段上漲",
+      "notion_id": "3c2b92588207811c9e1eef256928b3dc",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對未來獲利的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-future-profit",
+      "importance": "⭐⭐⭐⭐",
+      "name": "未來獲利",
+      "notion_id": "3c2b9258820781f68c60d9f639920684",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對CFD 交易對手的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-cfd-counterparty",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CFD 交易對手",
+      "notion_id": "3c2b92588207816380d0d49e22b0a266",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對交易平台倒閉風險的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-platform-insolvency",
+      "importance": "⭐⭐⭐⭐",
+      "name": "交易平台倒閉風險",
+      "notion_id": "3c2b9258820781f2b932d844ba27f8c3",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP94 對槓鈴策略安全部位的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-barbell-safe-sleeve",
+      "importance": "⭐⭐⭐⭐",
+      "name": "槓鈴策略安全部位",
+      "notion_id": "3c2b925882078101bccde5bb0192afd2",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對投資組合穩定性的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-portfolio-stability",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資組合穩定性",
+      "notion_id": "3c2b9258820781b39a6cf94e8c002c5b",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對期貨正價差的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-futures-contango",
+      "importance": "⭐⭐⭐⭐",
+      "name": "期貨正價差",
+      "notion_id": "3c2b9258820781c0970dd66011b83272",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對長期追蹤商品耗損的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-long-horizon-tracker-decay",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長期追蹤商品耗損",
+      "notion_id": "3c2b92588207815d9ce8d850d5d0e42e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對台灣市值前五十大的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-taiwan-top-fifty",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台灣市值前五十大",
+      "notion_id": "3c2b925882078179bf19d5b9fcadf25f",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP94 對衍生性金融商品的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-derivatives",
+      "importance": "⭐⭐⭐⭐",
+      "name": "衍生性金融商品",
+      "notion_id": "3c2b9258820781789c88fd4537516029",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP94 對部位避險的逐字稿綁定概念。",
+      "eps": [
+        "EP94"
+      ],
+      "first_ep": "EP94",
+      "id": "ep94-position-hedging",
+      "importance": "⭐⭐⭐⭐",
+      "name": "部位避險",
+      "notion_id": "3c2b9258820781d9b2eaefa4b9da8931",
       "type": "💡概念"
     }
   ]
