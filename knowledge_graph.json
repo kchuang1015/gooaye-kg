@@ -16034,6 +16034,210 @@
       "source_locator": "analysis/EP94_supplemental.json:/mindsets/22",
       "to": "ep94-position-hedging",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "好，那我可能避開這樣的東西，但是一樣看個人，見仁見智，那對於這件事情我怎麼評價呢，這件事情還沒有確定會發生，但如果真的會發生，其實我覺得大家都擔心太多了，不過，以所謂的現實面來講，就是現實的層面，那到底實際上會發生什麼事情呢，是，他如果不發給你股息的話，他這個錢其實也只是進去他的保留盈餘，不是說他不發給你，然後就蒸發呢，他就是留在股價裡面，那因為這樣也不用除息嘛，所以股價理論上,",
+        "excerpt_sha256": "3fc6fa40f1f0f2e050ca4dde7035f24c8d37af65948b1ef8326c12766b3ba43f",
+        "line_end": 11,
+        "line_start": 11,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-dividend-restriction",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/0",
+      "to": "ep95-financial-holding-payout",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "台灣人對股息有一種莫名的堅持，但其實最近發現，在美國的股息ETF也很受歡迎，就是有些人對股息就有一種莫名的堅持，他可能就是不喜歡，比方說我買進一個股票，他如果不發給你股利，像是這個BRKB,波克夏海瑟威，那他不發股利給你，可是他的公司價值一直往上漲，其實有很多公司都是這樣，他沒有發股利給你，不代表他把你的錢吃掉，他只是留在公司裡面，那相對的，整個公司的淨值，整個公司的股價就不用除息嘛，所以他是持續往上漲,",
+        "excerpt_sha256": "330f1fb2616a01add6286ce9954c4280056f94ba53063a64597fa1d8c2d23a48",
+        "line_end": 13,
+        "line_start": 13,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-retained-earnings",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/2",
+      "to": "ep95-company-book-value",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "你不可以全部都借的，那我覺得這個是一個好的方向，那再來就是自然人的部分呢，是第三戶以上的購屋貸款，會修正成六成，然後是沒有寬限期的，我覺得有些人他可能貸到好幾戶，他還是瘋狂的帶，槓桿開爆，他覺得沒差，但是現在呢，他把它鎖在六成，雖然其實老實講，一般人買第一戶可能是，你自備款是兩成，然後你八成是貸款，但是你買到第三戶，可能銀行就不一定會貸給你八成啦，但是現在就是固定的，一定要鎖在六成，那他還是會起到一點管制的作用，那同時是沒有寬限期,",
+        "excerpt_sha256": "7926c8fcfa20d69968f8f28aa4a5bdce55cad021cbe0171f545dc9799022c4b7",
+        "line_end": 27,
+        "line_start": 27,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-selective-credit-control",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/4",
+      "to": "ep95-leveraged-housing-demand",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "現在內政部這個條例修下去之後呢，他就禁止你去轉讓紅單，你不可以去買賣這個紅單的，那對於建商來講，他們有做一個限制，就是說",
+        "excerpt_sha256": "771b3cb1fb388c9402dd6dfd41c45a2a678fa362d777f97a52bf2d7b8349e519",
+        "line_end": 39,
+        "line_start": 39,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-red-slip-transfer-ban",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/6",
+      "to": "ep95-presale-speculation",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "但是我覺得其實目前市場的樂觀程度",
+        "excerpt_sha256": "53792967b52498ba6d8d8eda8ad49b9be0abf7e03c978437a124fed3aaf7e510",
+        "line_end": 174,
+        "line_start": 174,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-market-optimism",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/8",
+      "to": "ep95-ipo-risk-appetite",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "那我就趁現在就是發行一些股票",
+        "excerpt_sha256": "95e5438062917e4e37fc9313d7c2fd77c588a0500a4624326b81dd8e500cf041",
+        "line_end": 229,
+        "line_start": 229,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-tesla-share-issuance",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/10",
+      "to": "ep95-tesla-cash",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "可是我覺得他鼓勵你自己去開槓桿",
+        "excerpt_sha256": "c15e42e72bb33c5d79a66c88c1a11160652a87da91520f1c2c96e1c468efccdb",
+        "line_end": 334,
+        "line_start": 334,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-investor-leverage",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/12",
+      "to": "ep95-loss-amplification",
+      "type": "曝險於"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "我喜欢看的是公司的guidance",
+        "excerpt_sha256": "f54483d36fb998e06d40a944498841d75fcaf2f754956c1c5f17ebfb453b4015",
+        "line_end": 601,
+        "line_start": 601,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-management-guidance",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/14",
+      "to": "ep95-forward-assessment",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "catalyst就所谓的催化剂",
+        "excerpt_sha256": "02d7eccf0cfb265251d8625639b7777c3eef93b63c7492dd7ac318371673aeed",
+        "line_end": 635,
+        "line_start": 635,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-business-catalyst",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/16",
+      "to": "ep95-forward-assessment",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "所以其实去多样化配置的主要目的就是这样子",
+        "excerpt_sha256": "6e3b8200a32d70ea4a797e4e58c590fce70d9205a4b27c28a4a16ac8f24c4e5c",
+        "line_end": 778,
+        "line_start": 778,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-diversification",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/17",
+      "to": "ep95-concentration-risk",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "追踪的是同一个指数",
+        "excerpt_sha256": "329c45182c090c15bc48899cf75990f835274303272da9e241a6deea084e9907",
+        "line_end": 818,
+        "line_start": 818,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep84-0050",
+      "predicate_id": "tracks",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/19",
+      "to": "ep95-taiwan-top-fifty-index",
+      "type": "追蹤"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP95",
+      "evidence": {
+        "excerpt": "所以如果那2% 3%",
+        "excerpt_sha256": "a544146a9ebcf56aceb5edb20b2ad969bb6328aca5678ef5ac913dc2861cdc4c",
+        "line_end": 839,
+        "line_start": 839,
+        "transcript_path": "transcripts/EP95_corrected.txt",
+        "transcript_sha256": "dabcd3826c8ce82e926ebdca400f0fe71bbc0feda3efffc94670c8a72bf8201e"
+      },
+      "from": "ep95-dividend-reinvestment",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP95_supplemental.json:/mindsets/21",
+      "to": "ep95-total-return",
+      "type": "影響"
     }
   ],
   "metadata": {
@@ -16044,10 +16248,10 @@
     "last_update": "2026-08-20",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP94 分析報告",
+    "source": "EP1-EP95 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 945,
-    "total_relations": 735
+    "total_entities": 967,
+    "total_relations": 747
   },
   "nodes": [
     {
@@ -28464,6 +28668,292 @@
       "importance": "⭐⭐⭐⭐",
       "name": "部位避險",
       "notion_id": "3c2b9258820781d9b2eaefa4b9da8931",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP95 對金融業股利限制的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-dividend-restriction",
+      "importance": "⭐⭐⭐⭐",
+      "name": "金融業股利限制",
+      "notion_id": "3c2b92588207810e9e69e749e10527ad",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對金控股利發放的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-financial-holding-payout",
+      "importance": "⭐⭐⭐⭐",
+      "name": "金控股利發放",
+      "notion_id": "3c2b925882078115b0e7df998df53cb1",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對保留盈餘的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-retained-earnings",
+      "importance": "⭐⭐⭐⭐",
+      "name": "保留盈餘",
+      "notion_id": "3c2b9258820781529ab2d227affadae1",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對公司淨值的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-company-book-value",
+      "importance": "⭐⭐⭐⭐",
+      "name": "公司淨值",
+      "notion_id": "3c2b9258820781be880bdd61eafbcaf8",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP95 對選擇性信用管制的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-selective-credit-control",
+      "importance": "⭐⭐⭐⭐",
+      "name": "選擇性信用管制",
+      "notion_id": "3c2b92588207819bbf79dc0376b3b38d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP95 對槓桿購屋需求的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-leveraged-housing-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "槓桿購屋需求",
+      "notion_id": "3c2b925882078114aea5f2ef926847d1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP95 對預售屋紅單轉讓禁令的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-red-slip-transfer-ban",
+      "importance": "⭐⭐⭐⭐",
+      "name": "預售屋紅單轉讓禁令",
+      "notion_id": "3c2b92588207810e9feeedd8ac53ca88",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP95 對預售屋投機的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-presale-speculation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "預售屋投機",
+      "notion_id": "3c2b925882078174b19fed77ab21448c",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對市場樂觀情緒的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-market-optimism",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場樂觀情緒",
+      "notion_id": "3c2b9258820781b28b7ff4fbb8b6acca",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對IPO 風險偏好的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-ipo-risk-appetite",
+      "importance": "⭐⭐⭐⭐",
+      "name": "IPO 風險偏好",
+      "notion_id": "3c2b9258820781568dd6f47a4d63fb53",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP95 對Tesla 股票增發的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-tesla-share-issuance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Tesla 股票增發",
+      "notion_id": "3c2b92588207816c8c4ff78e317f7ee9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP95 對Tesla 現金部位的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-tesla-cash",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Tesla 現金部位",
+      "notion_id": "3c2b9258820781a383ced74694921be9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP95 對投資人槓桿的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-investor-leverage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資人槓桿",
+      "notion_id": "3c2b92588207810297bfd4bf4986a6e4",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP95 對損失放大的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-loss-amplification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "損失放大",
+      "notion_id": "3c2b9258820781c79dccdcea3c39bf37",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP95 對管理層財測指引的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-management-guidance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "管理層財測指引",
+      "notion_id": "3c2b92588207817eba68d20be2856683",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP95 對前瞻評估的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-forward-assessment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "前瞻評估",
+      "notion_id": "3c2b9258820781269ff6e480982221c9",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP95 對企業催化劑的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-business-catalyst",
+      "importance": "⭐⭐⭐⭐",
+      "name": "企業催化劑",
+      "notion_id": "3c2b925882078113bff1c0501ef95bd5",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP95 對多樣化配置的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-diversification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "多樣化配置",
+      "notion_id": "3c2b9258820781a187facf98f2ea564b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP95 對集中度風險的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-concentration-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "集中度風險",
+      "notion_id": "3c2b9258820781af83b2e85931b4d57e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對台灣市值前五十大指數的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-taiwan-top-fifty-index",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台灣市值前五十大指數",
+      "notion_id": "3c2b92588207818daa1add89de24c93e",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP95 對股利再投資的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-dividend-reinvestment",
+      "importance": "⭐⭐⭐⭐",
+      "name": "股利再投資",
+      "notion_id": "3c2b925882078160856bde5f2df2d470",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP95 對總報酬的逐字稿綁定概念。",
+      "eps": [
+        "EP95"
+      ],
+      "first_ep": "EP95",
+      "id": "ep95-total-return",
+      "importance": "⭐⭐⭐⭐",
+      "name": "總報酬",
+      "notion_id": "3c2b92588207817ab173d35266b304d7",
       "type": "💡概念"
     }
   ]
