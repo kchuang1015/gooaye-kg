@@ -16238,20 +16238,241 @@
       "source_locator": "analysis/EP95_supplemental.json:/mindsets/21",
       "to": "ep95-total-return",
       "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "更好的更新，更好的服務，那其實從消費者角度來看，我覺得大家不要講那麼多有的沒有，就是這樣子是廠商可以更好賺錢，對我們投資人來說也是好事，能夠改訂閱制的廠商，有這樣轉型的廠商，比方說像Adobe,它就是一個很好的投資標的，因為它以前只能收一次錢，它現在可以狂收錢，所以廠商的說法一定會告訴你說，我們可以提供你更好的服務，可是對消費者來說，其實我覺得你要去注意這件事情，它是有一點危機在裡面的，所謂的危機是，你現在的本金每個累積都非常重要，任何一筆本金,",
+        "excerpt_sha256": "04fa2dcece33d6d9cab0239861e8921c6ed9a6c45e59d0e0ca0317d1ae549fb4",
+        "line_end": 15,
+        "line_start": 15,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-subscription-model",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/0",
+      "to": "ep96-recurring-revenue",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "對你來說都非常重要，所以當你每個月，可能因為你訂了六七個東西，要被抽走幾千塊，那是一個非常嚴重的事情，因為你現在的本金，提早丟進市場，滾個十年二十年，如果有持續的本金加入的話，那個威力是很驚人的，可是你已經在源頭就不停的把你的本金給抽走，那如果抽走的本金，它是有換肉給你，比方說讓你有更棒的投資知識，或者說讓你有更好的一個資訊擷取的能力的話，那當然這個東西是可以留著的，可是其實很多東西,",
+        "excerpt_sha256": "06384f0cba591383c25952f5d1246997738ff2d0c1dcc929ac9dea05c6e3f138",
+        "line_end": 16,
+        "line_start": 16,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-unused-subscriptions",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/2",
+      "to": "ep96-investable-capital",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "他們之前是沒有在注意的，但現在就變標配，所以他已經永久改變我們的生活了，那他也當然加速了很多的，包含什麼電商轉型啊，或者說一些數位轉型，這是已經確定會改變的事情，但是我覺得，我們的傳統經濟會因為這樣就不見嘛，那前幾天就有在跟大家討論到說，會不會因為像是Zoom Video Communication這樣的東西出來之後呢，大家就開始不去海外開會，其實不會嘛，因為有時候你要對一些事情，你要面對面看，那是比較清楚的，你用視訊還是有一些色查,",
+        "excerpt_sha256": "d18e02ac37df9a3a083fade5934a899de445eb7cfdffcba84f2a4d51d054d4ea",
+        "line_end": 28,
+        "line_start": 28,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-pandemic",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/4",
+      "to": "ep96-digital-adoption",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "等等，所以有些東西，還是有他的需求，不是說因為這樣子我們就，以後每個人都可以WFH,Work From Home,在家工作，不可能嘛，那終究是會回復，只是回復可能不會像以前這麼的仰賴，這麼的仰賴以前傳統的做法，可能我們會開始引入一些數位的做法，可是傳統的那些受傷的東西呢，他是有一定程度機會的，雖然目前其實，老實講啦，像比方說一些受傷的飯店股，航空股，他們都已經見到一個反彈了，但是，不代表他的機會就不見了,\n只是那些人就是搶快的啦，所以，其實有時候在股票市場是這樣，你會發現說，從谷底反彈的那一波，就是最，彈最多的那一波呢，你敢進場的，那時候你承擔的風險真的是比大家大，因為你在，完全是局勢還看不清楚的狀況之下，你就決定進去了，那後來再進去的人呢，他可能已經在，可以看到半個局勢的，那你可能還有一定的肉可以吃，可是等到完全已經，大家都知道了，跟開那種全地圖模式，大家都已經知道說，現在這個東西就已經不是，不是什麼新聞了，已經不是影響的時候呢,\n那你基本上就是等著被出貨，所以，他是有，隨著你承擔的風險的大跟小，你可能帶來的預期報酬呢，可能就會也，也會符合這個風險，呃，所帶來的一個溢酬，你承受越大的風險呢，你可能就獲得越大的報酬，那我覺得這些可以看的個股，其中，一塊，就是所謂的OTA,那OTA最近很紅啦，就是Online Travel Agency,線上的旅遊平台，那最近會很紅呢，最主要原因當然還是因為Airbnb,他來了一個IPO,這個IPO,",
+        "excerpt_sha256": "bdca487157a60a9c8781c7958b551e19ff2cc5d9ff7c9476e2cc9bfa9357defc",
+        "line_end": 31,
+        "line_start": 29,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-travel-recovery",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/6",
+      "to": "ep96-ota-demand",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "每個飯店就像是一個投標者一樣，就是每個人都進來投標，那大家看誰的價格比較好，我就選誰，他為你帶來的這個曝光機會是非常大的，而且他們其實可以在後面設定一點，比方說我今天假設有設定折扣的話，他會再幫你把排名往前推，像台北市可能1000家，那你今天假設設一個比較殺的折扣，他就會幫你往前推，所以你今天業績就會上來，但是問題是，如果你要把同樣被抽走的佣金拿去撒廣告，我相信你絕對是不可能達到這樣子的標準，就是他跟你收這個錢是非常合理的，那也因為這樣子大家離不開,",
+        "excerpt_sha256": "47d90633d05a963f08af4f9311b94848d51b66b10b61492a8bd947b5b9b4415d",
+        "line_end": 39,
+        "line_start": 39,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-ota-marketplace",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/8",
+      "to": "ep96-hotel-distribution",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "可以趁機的再推一波市場，所以我覺得Starbucks就是可能會是一個機會，它就可能會是一個機會，那再來就是希爾頓飯店，希爾頓飯店也可能會是一個機會，因為一樣，很多的旅宿倒掉，但是這種大集團呢，它只要可以撐住，它只要它的現金沒有問題的話呢，那最後面呢，它可能就是可以收割，在最後的，這個報復旅遊潮，出現的時候，因為選擇變少了，所以可能更多人會選擇往這些飯店去，或者說，因為市場上的空缺變多了，所以它可以去做更多的收購，那它就有更多的機會，所以我覺得除了這些，那OTA剛剛跟大家聊到的，那,",
+        "excerpt_sha256": "cba7322b95d210717bfa9ae2ade5b24e41a73f7172f32ec8c66dac28ebb0e64b",
+        "line_end": 49,
+        "line_start": 49,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-hotel-liquidity",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/10",
+      "to": "ep96-post-pandemic-expansion",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "好，再來就是這個希爾頓,HLT集團，或者是星巴克，那除此之外呢，可能有些人會講說，那CCL呢，像郵輪這種有沒有機會，那郵輪我可能會覺得，你要我超前部署這個，我反而不敢，因為飯店是，可能我們今天就算沒有到完全百分之百恢復，還是有一些防疫措施之類的，可是飯店就已經大家會用到了，可是郵輪是全部人要關在上面，好多天的，那我相信它的標準一定是更高的，所以它可能會是復甦裡面最晚的，但當然,",
+        "excerpt_sha256": "6857317d84e4fdb9e4021917289f2627d4a89a804e955a03320ff908bafc3b18",
+        "line_end": 50,
+        "line_start": 50,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-cruise-health-requirements",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/12",
+      "to": "ep96-cruise-recovery",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "我陆续将存款和申請信貸\n汇到香港和马来西亚账户\n不好意思看到这边我就笑出来\n这边一看就是被骗\n他说将近200万\n直到6月查了网络上一些资讯\n看到有受害者被骗\n才惊觉我已经遇到了诈骗集团\n后来赶紧报案之后\n我也一直想办法要他出金\n结果他跟我说\n要到8、9月才可以出金\n在沮丧之余\n我也只能够抱着一丝期待\n9月份对方告诉我\n因为他的操作不当\n所以造成全额亏损\n那不断的跟我抱歉\n我只能说现在社群交友平台\n泛滥到出现一堆感情诈骗\n希望挨大看到这留言\n帮忙告诉大家\n若遇到跟我类似的问题\n一定要记住\n匯錢免談見面再談\n希望后面不要再出现\n类似的受害者了\n如今我背了140万的信贷",
+        "excerpt_sha256": "9bea0872738709061d494e5ac351b8e1e9624bb45a50a7696d80de98e3a5bdd5",
+        "line_end": 98,
+        "line_start": 71,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-romance-investment-scam",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/14",
+      "to": "ep96-victim-loss",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "背信贷就是杠杆\n那其实如果你早點聽股癌\n你可能就不会做这种事\n因为国外差不多在二三月开始录的\n那我一直跟大家讲\n不要杠杆不要杠杆\n就是在告诉你说\n任何的什么信贷房贷\n你只要杠了然后去做投资\n本身就是加大风险\n投资本身就有风险\n杠了就是有更大的风险\n当然你可以说杠了之后\n获利你会获利更多\n可是当然赔的时候你会赔更多\n杠是一个双面刃",
+        "excerpt_sha256": "2022163367d715316070f435260d10f797eb0a444365023ac4836ffe171cbcb3",
+        "line_end": 253,
+        "line_start": 238,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep90-investment-leverage",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/16",
+      "to": "ep95-loss-amplification",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "但是台积电是没有办法去套利的",
+        "excerpt_sha256": "ab0739cd24d46b33705e90840a386c06ae5325fe57e6d0e7f464308ba42e9c5e",
+        "line_end": 375,
+        "line_start": 375,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-adr-conversion-friction",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/18",
+      "to": "ep96-tsmc-arbitrage",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "手续费它也是一种绩效阻力",
+        "excerpt_sha256": "322a134cd5819900e4a33ded55fe0228afff951a00d55c5e88bb7e0eee7bf768",
+        "line_end": 616,
+        "line_start": 616,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-fund-fees",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/20",
+      "to": "ep96-long_term_return",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "就会产生所谓的cash drag",
+        "excerpt_sha256": "80536cb3ecbcd9108317b996eab8a277eb326f8113e09603d96c04b6e7924b82",
+        "line_end": 668,
+        "line_start": 668,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-idle-cash",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/22",
+      "to": "ep96-market-return-participation",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP96",
+      "evidence": {
+        "excerpt": "反正他现在也要进来打这个晶圓代工这一块\n但是有一件事情我是肯定的\n就是金元代工真的很紧\n所以我才会在之前\n不知道几集之前有跟大家聊到这个\n连电跟世界先进嘛\n然后后来不是上一集跟大家讲说\n有人问我说\n哎到我听到你讲这个我要去买\n我想说干哎不要不要不要\n你已经lag了\n所以他会紧到什么时候\n我个人是看到\n可能明年上半年吧\n但是股价的东西\n其实老实讲\n不一定跟现实的人会走在一起\n也就是说他不是说他会\n比方说这个金元代工的产能\n因为很紧嘛\n什么中芯啊各個公司\n然后很紧\n所以不代表他就一路涨到明年中\n不代表这样\n因为股价是走在前面的",
+        "excerpt_sha256": "cc2bdce12d8f48317ef0a870374a329b7698636418c4c4f63b12ff5c21324768",
+        "line_end": 772,
+        "line_start": 748,
+        "transcript_path": "transcripts/EP96_corrected.txt",
+        "transcript_sha256": "0dabc96b8739165ee5f5c6b5b1d1eb2050cf61846bcac18cd9350d8e165172dc"
+      },
+      "from": "ep96-foundry-capacity-tightness",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP96_supplemental.json:/mindsets/24",
+      "to": "ep96-foundry-cycle",
+      "type": "影響"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-20",
+    "lastUpdated": "2026-08-21",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-20",
+    "last_update": "2026-08-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP95 分析報告",
+    "source": "EP1-EP96 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 967,
-    "total_relations": 747
+    "total_entities": 991,
+    "total_relations": 760
   },
   "nodes": [
     {
@@ -28954,6 +29175,318 @@
       "importance": "⭐⭐⭐⭐",
       "name": "總報酬",
       "notion_id": "3c2b92588207817ab173d35266b304d7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對訂閱制的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-subscription-model",
+      "importance": "⭐⭐⭐⭐",
+      "name": "訂閱制",
+      "notion_id": "3c3b92588207816e8fe6c2de1dfd331d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對經常性收入的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-recurring-revenue",
+      "importance": "⭐⭐⭐⭐",
+      "name": "經常性收入",
+      "notion_id": "3c3b92588207813784d3ce15e87f6eb0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP96 對閒置訂閱的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-unused-subscriptions",
+      "importance": "⭐⭐⭐⭐",
+      "name": "閒置訂閱",
+      "notion_id": "3c3b9258820781938893edd8d8802bab",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP96 對可投資本金的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-investable-capital",
+      "importance": "⭐⭐⭐⭐",
+      "name": "可投資本金",
+      "notion_id": "3c3b9258820781efa97cc76468d7ec8b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🌐 宏觀經濟",
+      "description": "EP96 對疫情的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-pandemic",
+      "importance": "⭐⭐⭐⭐",
+      "name": "疫情",
+      "notion_id": "3c3b92588207817c9e91c6868c89584d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對數位採用的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-digital-adoption",
+      "importance": "⭐⭐⭐⭐",
+      "name": "數位採用",
+      "notion_id": "3c3b92588207810d8818f7348686bc98",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對旅遊復甦的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-travel-recovery",
+      "importance": "⭐⭐⭐⭐",
+      "name": "旅遊復甦",
+      "notion_id": "3c3b9258820781e5b8dff2bd2ca4bebd",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對OTA 需求的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-ota-demand",
+      "importance": "⭐⭐⭐⭐",
+      "name": "OTA 需求",
+      "notion_id": "3c3b92588207813c9473ee4b91da3d4f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對OTA 平台的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-ota-marketplace",
+      "importance": "⭐⭐⭐⭐",
+      "name": "OTA 平台",
+      "notion_id": "3c3b9258820781b5a292f64683c5a1a1",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對飯店通路的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-hotel-distribution",
+      "importance": "⭐⭐⭐⭐",
+      "name": "飯店通路",
+      "notion_id": "3c3b9258820781f48c5ec6f7d9c887ed",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP96 對飯店流動性的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-hotel-liquidity",
+      "importance": "⭐⭐⭐⭐",
+      "name": "飯店流動性",
+      "notion_id": "3c3b9258820781d4b444cf41575cd9fb",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對後疫情擴張的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-post-pandemic-expansion",
+      "importance": "⭐⭐⭐⭐",
+      "name": "後疫情擴張",
+      "notion_id": "3c3b9258820781e9875ac322b21887ec",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP96 對郵輪防疫要求的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-cruise-health-requirements",
+      "importance": "⭐⭐⭐⭐",
+      "name": "郵輪防疫要求",
+      "notion_id": "3c3b9258820781b4b359e18f68e7ab46",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對郵輪復甦的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-cruise-recovery",
+      "importance": "⭐⭐⭐⭐",
+      "name": "郵輪復甦",
+      "notion_id": "3c3b9258820781b0911ecd8946ce8891",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP96 對假交友投資詐騙的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-romance-investment-scam",
+      "importance": "⭐⭐⭐⭐",
+      "name": "假交友投資詐騙",
+      "notion_id": "3c3b9258820781e79d05f1235f88f73c",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP96 對受害者損失的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-victim-loss",
+      "importance": "⭐⭐⭐⭐",
+      "name": "受害者損失",
+      "notion_id": "3c3b925882078153af47e7942fb4129c",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP96 對ADR 轉換摩擦的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-adr-conversion-friction",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ADR 轉換摩擦",
+      "notion_id": "3c3b9258820781e3a2dee306d8c786e9",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP96 對台積電 ADR 套利的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-tsmc-arbitrage",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台積電 ADR 套利",
+      "notion_id": "3c3b9258820781a28e2feb28edc26e22",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP96 對基金費用的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-fund-fees",
+      "importance": "⭐⭐⭐⭐",
+      "name": "基金費用",
+      "notion_id": "3c3b925882078183b94bece6b23c8913",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP96 對長期報酬的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-long_term_return",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長期報酬",
+      "notion_id": "3c3b925882078179ac4cd11dca1e7361",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP96 對閒置現金的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-idle-cash",
+      "importance": "⭐⭐⭐⭐",
+      "name": "閒置現金",
+      "notion_id": "3c3b9258820781b0aacffab6363273fa",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP96 對市場報酬參與的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-market-return-participation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場報酬參與",
+      "notion_id": "3c3b925882078143b41bdd146db1663d",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對晶圓代工產能緊張的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-foundry-capacity-tightness",
+      "importance": "⭐⭐⭐⭐",
+      "name": "晶圓代工產能緊張",
+      "notion_id": "3c3b9258820781c1a92bc1253a0319f0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP96 對晶圓代工景氣循環的逐字稿綁定概念。",
+      "eps": [
+        "EP96"
+      ],
+      "first_ep": "EP96",
+      "id": "ep96-foundry-cycle",
+      "importance": "⭐⭐⭐⭐",
+      "name": "晶圓代工景氣循環",
+      "notion_id": "3c3b9258820781ebb74aeb10719d60b0",
       "type": "💡概念"
     }
   ]
