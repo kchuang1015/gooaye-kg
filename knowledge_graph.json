@@ -16459,20 +16459,224 @@
       "source_locator": "analysis/EP96_supplemental.json:/mindsets/24",
       "to": "ep96-foundry-cycle",
       "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "不過呢，我們就來辦個抽獎，希望大家都開心，類似這樣，好，那有興趣的朋友呢，就記得要到我的個人的Instagram上面來參加抽獎,OK,那節目一開始，我們先來協助一位聽眾，有一位聽眾之前在QA有問過說，有人找他去投資廣告牆，那可能投資多少錢呢，我就還你每年12%,就是一個保證還你12%的東西，那當時我是告訴他，我覺得這東西有點怪怪的，任何會跟你保證獲利有多少，而且這個獲利的%數呢，是高到一點不可思議的，好，你要知道，你\n定存可能就是1%吧，那可能儲蓄錢就是2%3%吧，類似這樣，反正就是很少啦，那你做比較高風險的股票投資，做指數型投資呢，可能也就了不起7%8%到10%這樣，可是這個東西跟你保證12%所以可能聽起來就覺得，他一定是要做一些更有風險的事情，甚至是比整個股票市場還有風險的事情，才可以達到這樣的報酬,",
+        "excerpt_sha256": "fa2620d822ee80ed1be3ff1b5aaf15b397ab7bd00514050a2bfac238d91f1394",
+        "line_end": 8,
+        "line_start": 7,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-guaranteed-return-pitch",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/0",
+      "to": "ep97-investor-risk",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "那目前倒掉了\n而且有傳出說他並沒有通報\n那就一次大量的解雇一堆人\n那我覺得大家的觀察要點是\n他對於員工的善後後來是怎麼樣\n那對於債務人有沒有清還\n清償他的債務\n還是說就是這個子公司就放給它爛\n然後這樣就做一個結束了\n如果說他在這些東西的作為上\n是有非常大的瑕疵的\n那你當然就要去提防\n比方說你是投資他廣告牆的\n那你會不會在未來他如果有資金周轉不靈\n你會遇到一樣的狀況",
+        "excerpt_sha256": "b815e35fd7e83a6799e1e816aaf271db1e0e26f0681d295ac5f158fc91dd78a1",
+        "line_end": 164,
+        "line_start": 150,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-coffee-business-distress",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/2",
+      "to": "ep97-ad-wall-investment-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "那有問題的呢\n就是在提供平台給大家\n那大家去上傳這種所謂的素人片裡面會有一些問題\n那其實這個問題\n目前這個紐約時報的指控是什麼呢\n他們最主要就講說\n這些肉片裡面\n有些是有未成年的\n或者說強暴\n脅迫\n暴力\n就是當事人是神智不清\n意識不清\n比方說被施以催眠術\n或者說可能是喝醉酒\n或者說睡著\n等等的這樣的內容",
+        "excerpt_sha256": "e39bf477fcff33bd27290e26b7e10c925eb2d69905cea4eab0dfb84542348d10",
+        "line_end": 212,
+        "line_start": 196,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-unverified-uploading",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/4",
+      "to": "ep97-platform-abuse-risk",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "但是適當的審核是絕對必要的\n那我個人認為Pornhub目前把影片全部抓下來\n去做審核\n就是一個給予肯定的一個行為\n那未來呢\n可能就是要通過它認證的人才可以上傳\n以前可能是你\n阿媽阿狗都可以丟東西上去\n那平台假設想要完全的卸責也不太可能\n因為你本來就\n可能要負擔一點管制的義務",
+        "excerpt_sha256": "0a3e8c28f2aa953f624987a7f47e36c8ed5980410a1ba4198ee6d78692de7efc",
+        "line_end": 258,
+        "line_start": 248,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-creator-verification",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/6",
+      "to": "ep97-platform-abuse-risk",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "那除了他\n那時候有肯定Visa\n第一個馬上出來抵制之外\n然後後來也肯定這個\nMastercard跟上\n那並且問說\n那你Discover哪時候要跟上\n發現卡哪時候要跟上\n就目前發卡機構就是Visa\nMastercard\nDiscover\n還有JCB\n所以他就是有點像在\n逼 Discover 表態這樣\n那我是相信全部人都會上車\n那其實那時候當這些發卡機構\n表明要抵制的時候\n你是先看到Visa跟Mastercard\n進入一個修正\n那我覺得是還蠻合理的",
+        "excerpt_sha256": "bcbec4156e0968c2aaad003b563da17d6a1f94c45d37523bb05e757b02d8fcbb",
+        "line_end": 323,
+        "line_start": 304,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-payment-network-boycott",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/7",
+      "to": "ep97-pornhub-card-payments",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "那我覺得其實如果說Mastercard跟Visa\n或是說Discover甚至JCB\n大家一起抵制它\n未來發卡機構\n都沒有辦法去買色情網站的東西\n它反而會造成區塊鏈貨幣\n超級加速的一個催化劑",
+        "excerpt_sha256": "d35c5e8d6e990eeaf7e46b60f19d6f3587c94859feda70b7ab6a38e5924136b9",
+        "line_end": 426,
+        "line_start": 420,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-card-payment-restriction",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/9",
+      "to": "ep97-crypto-payment-adoption",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "所以我覺得技術面也是這樣\n就是有些人會喜歡去買\n比方說什麼\n均線交疊啊突破啊什麼的\n而我是真的有看過很厲害的人\n他可以靠這樣子來增加他的資金效率\n我覺得其實技術面的這東西就是\n他可以幫助你增加你的資金效率\n比方說你至少看得出來\n股價什麼時候在盤整嘛\n盤整就是說他可能在一個區間裡面跳來跳去\n那這時候你可能投入進去\n可能三到五個月\n那股價就不會動",
+        "excerpt_sha256": "5054b207587a749c128915feddaec7a0c1461c2877ce1696f65575b2d47d9bc3",
+        "line_end": 577,
+        "line_start": 564,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-technical-analysis",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/11",
+      "to": "ep97-capital-efficiency",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "所以我覺得其實技術分析\n或是說其他的一些\n可能有些人喜歡看什麼籌碼啊\n或是說喜歡用消息面啊\n或是說什麼股東的持股啊\n這個大股東是不是有增加\n我覺得他都是類似這樣的東西\n他不是一個告訴你百分之百正確方向\n因為如果有這樣的東西\n那早就大家都拿來套利了嘛\n可是就是沒有一個東西\n可以真的百分之百告訴你一定會怎麼樣\n就是多多少少\n每個東西都是有機率在裡面啊",
+        "excerpt_sha256": "a43399872fc73aac4e6338e73789ba28769baaf840bd1af8585dcf6d782d7931",
+        "line_end": 643,
+        "line_start": 630,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-single-indicator",
+      "predicate_id": "contradicts",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/13",
+      "to": "ep97-certain-market-direction",
+      "type": "反駁"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "你要我講我自己內心真正的看法嗎\n當然我在節目裡面有時候要講保守一點\n我就跟大家講說\n你要小心QE可能會後遺症什麼\n我多少會這樣講\n但實際上我覺得\n剛才老實講只要他發的債務\n是用他自己美元計價的債\n美國發美元計價的債\n那都不用擔心\n根本不用擔心什麼債務殺小問題\n不夠就印錢\n像是中國發人民幣計價的債\n我覺得不用太擔心\n你要怕的是那種外債\n如果他們自己是自己的幣發的債\n那根本就不用太擔心\n這是我自己內心的看法",
+        "excerpt_sha256": "767f85ecd054934c9e88c02e79bf20c59abe5dd7cd0f10f3260f4f9d2f06613d",
+        "line_end": 716,
+        "line_start": 699,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-foreign-currency-debt",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/15",
+      "to": "ep97-sovereign-debt-risk",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "所以822去配是OK的\n但是因為你有講到一個點\n你說這個是退休金\n那退休金可能\n還是會建議你配一點債\n看是配全球債的ETF\n在裡面會比較好\n那為什麼要配債呢\n最主要就是降低波動\n也就是說未來如果遇到\n所謂的熊市年\n就是市場非常不好\n那你也知道股票一定會回去\n可是問題是我現在就是急需用錢\n所以你有時候你就會\n砍在一個超級大低谷\n但如果你有配股債的話\n好處就是你遇到這樣的循環\n其實你比較可以承受\n那我個人是覺得\n如果是退休金的規劃\n多少要有一點債",
+        "excerpt_sha256": "c675a7fb522c8f2e74efe0cdbe639f246eb0b67e310368a3cac693716217b7d9",
+        "line_end": 810,
+        "line_start": 789,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-bond-allocation",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/17",
+      "to": "ep97-portfolio-volatility",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "如果說真的在投資界\n有一個人告訴你有個方法\n是世界上最好的\n沒有任何副作用\n那一定是在騙你\n就是每個東西\n比方說你希望有多一點的報酬\n那當然你就要承擔\n多一點的波動跟風險\n這就是一體兩面的事情",
+        "excerpt_sha256": "5f83c4f1ee653e18fcb101f5e82d34f464cc06de85217d780d1328ef3fdf2472",
+        "line_end": 856,
+        "line_start": 847,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-higher-return-target",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/19",
+      "to": "ep97-risk-and-volatility",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP97",
+      "evidence": {
+        "excerpt": "當然我們會講說回測不代表未來\n一定是這樣\n因為過去不代表未來\n可是畢竟未來的東西真的沒有人講得準\n所以有一些過去可以去看的東西\n就像我之前舉例\n就像賽馬\n你知道這個馬是冠軍馬\n當然他下次比賽會不會是冠軍\n你不知道\n可是他下次比賽是跑冠軍的機率\n一定是相對高\n類似這樣\n所以過去的東西\n還是可以當成一點那種未來的reference",
+        "excerpt_sha256": "d3acbb6b6fc53ad503e44832055c83382299eca047c0d065be1e222e37ad4fea",
+        "line_end": 933,
+        "line_start": 919,
+        "transcript_path": "transcripts/EP97_corrected.txt",
+        "transcript_sha256": "27631bbb7c881f8965cefd324fbf728c5cbe4aef889cb0b7b4c57ad30d85e9ce"
+      },
+      "from": "ep97-backtest",
+      "predicate_id": "contradicts",
+      "source_locator": "analysis/EP97_supplemental.json:/mindsets/21",
+      "to": "ep97-future-performance",
+      "type": "反駁"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-21",
+    "lastUpdated": "2026-08-22",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-21",
+    "last_update": "2026-08-22",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP96 分析報告",
+    "source": "EP1-EP97 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 991,
-    "total_relations": 760
+    "total_entities": 1014,
+    "total_relations": 772
   },
   "nodes": [
     {
@@ -29487,6 +29691,305 @@
       "importance": "⭐⭐⭐⭐",
       "name": "晶圓代工景氣循環",
       "notion_id": "3c3b9258820781ebb74aeb10719d60b0",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對保證收益推銷的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-guaranteed-return-pitch",
+      "importance": "⭐⭐⭐⭐",
+      "name": "保證收益推銷",
+      "notion_id": "3c4b9258820781da9a1bfb98e622102e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對投資人風險的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-investor-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資人風險",
+      "notion_id": "3c4b92588207810a887df3351f111ded",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP97 對咖啡事業營運困境的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-coffee-business-distress",
+      "importance": "⭐⭐⭐⭐",
+      "name": "咖啡事業營運困境",
+      "notion_id": "3c4b92588207812f98a6c97ff49a7e68",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對廣告牆投資風險的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-ad-wall-investment-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "廣告牆投資風險",
+      "notion_id": "3c4b92588207815db67ceb95a921dbbf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對未驗證上傳的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-unverified-uploading",
+      "importance": "⭐⭐⭐⭐",
+      "name": "未驗證上傳",
+      "notion_id": "3c4b9258820781a297b1c57f432fbbbf",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對平台濫用風險的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-platform-abuse-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "平台濫用風險",
+      "notion_id": "3c4b92588207812a9c6cf3a1390807f9",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP97 對創作者驗證的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-creator-verification",
+      "importance": "⭐⭐⭐⭐",
+      "name": "創作者驗證",
+      "notion_id": "3c4b9258820781a7b103c2ac0ac3c005",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP97 對支付網路抵制的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-payment-network-boycott",
+      "importance": "⭐⭐⭐⭐",
+      "name": "支付網路抵制",
+      "notion_id": "3c4b9258820781848c05e433cb341cfc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP97 對Pornhub 信用卡支付的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-pornhub-card-payments",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Pornhub 信用卡支付",
+      "notion_id": "3c4b9258820781dcaaaef77666cfee7b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏛️ 政策與監管",
+      "description": "EP97 對信用卡支付限制的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-card-payment-restriction",
+      "importance": "⭐⭐⭐⭐",
+      "name": "信用卡支付限制",
+      "notion_id": "3c4b925882078121816cc5481cfe7aa5",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP97 對加密貨幣支付採用的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-crypto-payment-adoption",
+      "importance": "⭐⭐⭐⭐",
+      "name": "加密貨幣支付採用",
+      "notion_id": "3c4b9258820781d6a023c640de49bd3b",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對技術分析的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-technical-analysis",
+      "importance": "⭐⭐⭐⭐",
+      "name": "技術分析",
+      "notion_id": "3c4b9258820781dcb402fb64bb4676ee",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對資金效率的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-capital-efficiency",
+      "importance": "⭐⭐⭐⭐",
+      "name": "資金效率",
+      "notion_id": "3c4b9258820781d99471fe177f6d712f",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對單一指標的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-single-indicator",
+      "importance": "⭐⭐⭐⭐",
+      "name": "單一指標",
+      "notion_id": "3c4b9258820781a08eacde728e7070dc",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP97 對確定的市場方向的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-certain-market-direction",
+      "importance": "⭐⭐⭐⭐",
+      "name": "確定的市場方向",
+      "notion_id": "3c4b9258820781e1a471c976c3186f66",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP97 對外幣債務的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-foreign-currency-debt",
+      "importance": "⭐⭐⭐⭐",
+      "name": "外幣債務",
+      "notion_id": "3c4b9258820781e2b8afe6ff89c02915",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對主權債務風險的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-sovereign-debt-risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "主權債務風險",
+      "notion_id": "3c4b9258820781bdb0c5c6fadbc4e239",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對債券配置的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-bond-allocation",
+      "importance": "⭐⭐⭐⭐",
+      "name": "債券配置",
+      "notion_id": "3c4b9258820781a2b734d32ab6da9347",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對投資組合波動的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-portfolio-volatility",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資組合波動",
+      "notion_id": "3c4b9258820781b38885cce798f7a5b2",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對較高報酬目標的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-higher-return-target",
+      "importance": "⭐⭐⭐⭐",
+      "name": "較高報酬目標",
+      "notion_id": "3c4b92588207815a869ed52ccb61f45e",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP97 對風險與波動的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-risk-and-volatility",
+      "importance": "⭐⭐⭐⭐",
+      "name": "風險與波動",
+      "notion_id": "3c4b9258820781519cf4f06aec47b0df",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP97 對回測的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-backtest",
+      "importance": "⭐⭐⭐⭐",
+      "name": "回測",
+      "notion_id": "3c4b92588207810599c7d378fe42f6d0",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP97 對未來績效的逐字稿綁定概念。",
+      "eps": [
+        "EP97"
+      ],
+      "first_ep": "EP97",
+      "id": "ep97-future-performance",
+      "importance": "⭐⭐⭐⭐",
+      "name": "未來績效",
+      "notion_id": "3c4b9258820781b9a707f2c2d884dbbc",
       "type": "💡概念"
     }
   ]
