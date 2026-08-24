@@ -16663,20 +16663,122 @@
       "source_locator": "analysis/EP97_supplemental.json:/mindsets/21",
       "to": "ep97-future-performance",
       "type": "反駁"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "一個溢價，就是所謂的溢價就是說，比方說這個股價加10塊錢，那我用15塊給你買，就是50%溢價，那為什麼要溢價呢，因為如果沒有溢價，大家就不會去參與這個應賣嘛，大家就不願意把手上的股票，打給你的營業員跟他說我要參與這個收購嘛，所以他會吸引你，然後就會丟出一個溢價，那在這次的案例呢，溢價大概是20%左右,",
+        "excerpt_sha256": "2cbbbbf7f97ae20adea90645c05a75df91270e52b604aa33d2efb1456a472a05",
+        "line_end": 38,
+        "line_start": 38,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep98-tender-premium",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/0",
+      "to": "ep98-target-share-price",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "那他們兩個加起來有超過一半，也就是說今天你富邦金，就算去市場上把所有的流通股都收購起來，只要大股東沒有放出手上的股票，你就是無法取得這家公司的實質控制權力，所以這個應該會是一個隱憂，也就是說假設，富邦金最後面是沒有讓日盛金的大股東願意去放出股份的話，那這收購就會失敗，那估計就會倒回原點，那我們已經看到日盛金的股價其實在前幾年就已經先漲了，我就想說台灣有很多神秘力量啦，你他媽的最好就剛好",
+        "excerpt_sha256": "30da6ccb82bc5686b1e242326d16f7b311c41b2f2717e062c8bbdb913147fbc3",
+        "line_end": 44,
+        "line_start": 44,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep98-controlling-shareholder-refusal",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/2",
+      "to": "ep98-tender-success",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "你的遊戲體驗整個是被破壞光了，因為我自己有試玩過所有的平台，我自己有玩過PS4,PS5,玩過PC,又有玩過串流,NVIDIA,GFN,因為台灣沒有Stadia,那NVIDIA,GFN我有玩過，我個人覺得目前PS4的體驗是最差的，那PS5呢，已經好很多，就往上跳一層了，那到PC跟NVIDIA,GFN呢，基本上就算非常好，所以其實我個人覺得這款遊戲，它還是一個很好玩的遊戲，但是就是很可惜，它還是半成品的時候，就有點那種趕鴨子",
+        "excerpt_sha256": "5c8226ada66bd262a4d062f1296edab23a15f2e3caa8f3f5596e94f1c0772c1a",
+        "line_end": 60,
+        "line_start": 60,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep98-cyberpunk-console-defects",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/4",
+      "to": "ep98-refund-pressure",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "平常大家都知道我是一個順勢交易者，我很少去做抄底的動作，非常的少，但是為什麼我這次會想要抄底呢，除了是自己玩了這個PC跟GFN版本，我覺得他中了之外，那再來就是波蘭蠢驢，其實有公佈一個新聞稿，這新聞稿我貼在臉書上面，那我不知道大家會不會去注意這樣的東西，就是他說他光是預購，就已經把遊戲本體開發，哎呀，這是3A大作，開發錢是超貴的喔，他光是預購就把這個開發的錢全部賺回來，然後外界,",
+        "excerpt_sha256": "df651276bae76adcf4d267b01dd8c87629b2609d57aededf31bd1c43c52f0b03",
+        "line_end": 68,
+        "line_start": 68,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep98-preorder-revenue",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/6",
+      "to": "ep98-development-cost-recovery",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "不夠，所以你追了，然後你看到他跌回來，或說你一次買太多，你就嚇到了，這就是為什麼我告訴你，一定要分批投入嗎，如果分批投入，你自己知道說，我有5批資金，我已經拆成5分之1,5分之1這樣，那我有5次的機會可以打，我可以突破追5分之1,因為你說怕錯過發財,OK,那偶爾你就很幸運，你追5分之1之後的股價就繼續漲，所以你就繼續把它攤進去，那我覺得很好，那有時候就是你比較不幸，你買了5分之1之後，他就直接崩回原點，甚至跌到更下面，那你就很慶幸說，你還有子彈可以打嘛，所以為什麼你一定要分批投入就是這樣,",
+        "excerpt_sha256": "c094cf0701de7795d96c10e52c94984d46dc8e1d944956d592952ee577fd09d0",
+        "line_end": 101,
+        "line_start": 101,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep98-position-sizing",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/8",
+      "to": "ep98-drawdown-pressure",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP98",
+      "evidence": {
+        "excerpt": "看對也不一定代表你會賺錢，因為時機非常重要，像之前跟大家聊到的Michael Burry,卡珊卓博士，那大家都知道他在次級房貸的時候，他是先被軋了兩年多，那現在特斯拉呢，也被軋到升天了，特斯拉已經創歷史新高了，又再繼續創新高了，所以他一直都是被軋的，所以你應該，看這些案例呢，你就可以知道說，其實，比方說在台灣看的一些投資節目,",
+        "excerpt_sha256": "d1c37779a3649c7fafb9e396fe1b01abc8127591137025bf7bc6574af9d91ed5",
+        "line_end": 42,
+        "line_start": 42,
+        "transcript_path": "transcripts/EP98_corrected.txt",
+        "transcript_sha256": "f853d573051a473f978521ab242554f3fe69524316f7b96497b725d446ced58f"
+      },
+      "from": "ep90-market-timing",
+      "predicate_id": "contradicts",
+      "source_locator": "analysis/EP98_supplemental.json:/mindsets/10",
+      "to": "ep98-certain-profit",
+      "type": "反駁"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-22",
+    "lastUpdated": "2026-08-24",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-22",
+    "last_update": "2026-08-24",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP97 分析報告",
+    "source": "EP1-EP98 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1014,
-    "total_relations": 772
+    "total_entities": 1025,
+    "total_relations": 778
   },
   "nodes": [
     {
@@ -29990,6 +30092,149 @@
       "importance": "⭐⭐⭐⭐",
       "name": "未來績效",
       "notion_id": "3c4b9258820781b9a707f2c2d884dbbc",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP98 對公開收購溢價的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-tender-premium",
+      "importance": "⭐⭐⭐⭐",
+      "name": "公開收購溢價",
+      "notion_id": "3c6b925882078172ae54dfcd2e971ddc",
+      "type": "💡概念"
+    },
+    {
+      "category": "📊 市場機制",
+      "description": "EP98 對目標公司股價的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-target-share-price",
+      "importance": "⭐⭐⭐⭐",
+      "name": "目標公司股價",
+      "notion_id": "3c6b92588207813ab5e3f7fa69bfb0fe",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP98 對控制股東拒絕應賣的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-controlling-shareholder-refusal",
+      "importance": "⭐⭐⭐⭐",
+      "name": "控制股東拒絕應賣",
+      "notion_id": "3c6b925882078106aedbf9537fe9b442",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP98 對公開收購成功的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-tender-success",
+      "importance": "⭐⭐⭐⭐",
+      "name": "公開收購成功",
+      "notion_id": "3c6b9258820781098784ecf43963049f",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP98 對Cyberpunk 2077 主機版缺陷的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-cyberpunk-console-defects",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Cyberpunk 2077 主機版缺陷",
+      "notion_id": "3c6b925882078141938ae1bf9f682042",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP98 對退款壓力的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-refund-pressure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "退款壓力",
+      "notion_id": "3c6b925882078148935fd177f6c893e7",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP98 對預購收入的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-preorder-revenue",
+      "importance": "⭐⭐⭐⭐",
+      "name": "預購收入",
+      "notion_id": "3c6b92588207811ca96bf98d32bb2a92",
+      "type": "💡概念"
+    },
+    {
+      "category": "🏢 公司與產業",
+      "description": "EP98 對開發成本回收的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-development-cost-recovery",
+      "importance": "⭐⭐⭐⭐",
+      "name": "開發成本回收",
+      "notion_id": "3c6b92588207811287aeebc090f05b4f",
+      "type": "💡概念"
+    },
+    {
+      "category": "📈 投資策略",
+      "description": "EP98 對分批部位配置的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-position-sizing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "分批部位配置",
+      "notion_id": "3c6b92588207810b9f62df4d35238efc",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP98 對回撤壓力的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-drawdown-pressure",
+      "importance": "⭐⭐⭐⭐",
+      "name": "回撤壓力",
+      "notion_id": "3c6b9258820781ba9e25cd4db0ae736b",
+      "type": "💡概念"
+    },
+    {
+      "category": "🛡️ 風險管理",
+      "description": "EP98 對必然獲利的逐字稿綁定概念。",
+      "eps": [
+        "EP98"
+      ],
+      "first_ep": "EP98",
+      "id": "ep98-certain-profit",
+      "importance": "⭐⭐⭐⭐",
+      "name": "必然獲利",
+      "notion_id": "3c6b9258820781a0958bcf04a4791a1f",
       "type": "💡概念"
     }
   ]
