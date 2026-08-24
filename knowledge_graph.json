@@ -16765,6 +16765,108 @@
       "source_locator": "analysis/EP98_supplemental.json:/mindsets/10",
       "to": "ep98-certain-profit",
       "type": "反駁"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "因為這樣,因為很焦慮嘛,會覺得說,如果台灣爆掉,世界要毀滅了,你在現實生活中,你要當焦慮仔,我覺得是沒差啊,只是在市場裡面要當焦慮仔,我覺得會很可惜,一般來說,如果你是焦慮仔,那你就會很常追高殺低,你會發現那些在追高殺低,砍在最低點的,多半都是焦慮仔,他在大家真的受不了的時候就會出去,就是跟著市場情緒來走的人呢,他其實是最慘的,",
+        "excerpt_sha256": "e2a7039f9d205c6523044f2b66f2c560c935b234ed581cc7e6c1d1f11c7a9826",
+        "line_end": 30,
+        "line_start": 30,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "ep99-investor-anxiety",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/0",
+      "to": "ep99-chasing-and-panic-selling",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "就是現在的價格呢,並不會不合理,因為無風險資產,的這個回報率,殖利率呢,是來到了一個低點,所以相對的,這個,你承受的這個風險貼水呢,把價格往上墊,是非常合理的一件事情,那其實這個東西,我們在很早以前都知道,只是現在連全球最大的莊家,那個聯準會和鮑威爾都告訴你這件事情,所以,我覺得很多人要講說,這個跟什麼科技泡沫很像,那差太多了,因為公司的體質營收其實不一樣了,只是當然,未來,如果今天聯準會要開始停止QE,要把錢收回去,",
+        "excerpt_sha256": "96d2af2d96887d26f72306fcfad397a7bc4a610a9607b2ba21fd195ed506c062",
+        "line_end": 31,
+        "line_start": 31,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "ep83-low-risk-free-rate",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/2",
+      "to": "ep99-equity-valuation-support",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "那可能對股市會有短期的影響,那但是如果你真的拉到很長期來看,還是影響有限,因為之前的QE2,QE3,這個停止擴表的時候呢,其實你會發現,它其實對市場整體的衝擊,還是有限的,也不是像大家想像的,可能講說,那今天如果遇到,那可能就會變成,進入一個長期的空頭,不會啦,那可能就是,把股價拉回來一點點,然後大家盤整休息一下,但是如果營收獲利有好的話,最後面還是回歸基本面啦,那東西就是還是會繼續在上漲,所以因為這件事情,你要把東西脫手的,",
+        "excerpt_sha256": "2053d1611440aca706f4cb9063ddd3a5d99b33c196873e78a873e25e2245b379",
+        "line_end": 32,
+        "line_start": 32,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "qe",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/4",
+      "to": "ep99-short-term-equity-price-impact",
+      "type": "影響"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "反正他們都是屬於風險相對高的,那可是跟VTI跟VOO比,我覺得不太公平,因為各有各的好處啦,如果是我自己要組一個退休組合呢,這個VOO跟VTI一定還是占比是最大的,那可能部分配一點QQQ跟ARK,或是說QQ不要就配ARK,或是說ARK不要就配QQQQ,都可以,但是我個人是覺得,其實配置,它沒有一個絕對的對錯,你想要看ARK的風光,但是也有可能,比方說五年之後,就跌下神壇,也是有可能的,但是比方說你投資這種,市值型的ETF,",
+        "excerpt_sha256": "7ef316fd565ac1a4b829d04caf0b5e54a7fef6b39912875f05c14cdb8666860b",
+        "line_end": 45,
+        "line_start": 45,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "ep99-ark-concentration",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/6",
+      "to": "ep76-horizon-risk-capacity",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "他只有一个桃園廠",
+        "excerpt_sha256": "6e8f6896aae6900bace6a58612d528d20901747f6cd67e74cd03cee6f04da89c",
+        "line_end": 213,
+        "line_start": 213,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "ep84-business-concentration",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/8",
+      "to": "ep99-asahi-fire-loss",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP99",
+      "evidence": {
+        "excerpt": "那至少这样分散投资人",
+        "excerpt_sha256": "e667d731421cbec28c05693f532f3ab24745e564389799cdaaf32bfab0ef8f68",
+        "line_end": 388,
+        "line_start": 388,
+        "transcript_path": "transcripts/EP99_corrected.txt",
+        "transcript_sha256": "cfd8621cd3824d68c137de44318dc67f6130702b233cd623f133bbcd1293d365"
+      },
+      "from": "ep85-diversification",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP99_supplemental.json:/mindsets/10",
+      "to": "ep99-idiosyncratic-loss",
+      "type": "約束"
     }
   ],
   "metadata": {
@@ -16775,10 +16877,10 @@
     "last_update": "2026-08-24",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP98 分析報告",
+    "source": "EP1-EP99 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1025,
-    "total_relations": 778
+    "total_entities": 1032,
+    "total_relations": 784
   },
   "nodes": [
     {
@@ -30235,6 +30337,90 @@
       "importance": "⭐⭐⭐⭐",
       "name": "必然獲利",
       "notion_id": "3c6b9258820781a0958bcf04a4791a1f",
+      "type": "💡概念"
+    },
+    {
+      "description": "投資焦慮",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-investor-anxiety",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資焦慮",
+      "notion_id": "3c6b925882078171a4b7ccb64e4cb6fc",
+      "type": "💡概念"
+    },
+    {
+      "description": "追高殺低",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-chasing-and-panic-selling",
+      "importance": "⭐⭐⭐⭐",
+      "name": "追高殺低",
+      "notion_id": "3c6b9258820781f5851df6edc7338727",
+      "type": "💡概念"
+    },
+    {
+      "description": "低利率估值支撐",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-equity-valuation-support",
+      "importance": "⭐⭐⭐⭐",
+      "name": "低利率估值支撐",
+      "notion_id": "3c6b925882078115b63fe4b51c0bed5d",
+      "type": "💡概念"
+    },
+    {
+      "description": "QE退場短期股價影響",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-short-term-equity-price-impact",
+      "importance": "⭐⭐⭐⭐",
+      "name": "QE退場短期股價影響",
+      "notion_id": "3c6b9258820781a2a7d7d3432d127bf0",
+      "type": "💡概念"
+    },
+    {
+      "description": "集中型成長曝險",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-ark-concentration",
+      "importance": "⭐⭐⭐⭐",
+      "name": "集中型成長曝險",
+      "notion_id": "3c6b92588207816ca875f8357e926780",
+      "type": "💡概念"
+    },
+    {
+      "description": "旭富火災損失",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-asahi-fire-loss",
+      "importance": "⭐⭐⭐⭐",
+      "name": "旭富火災損失",
+      "notion_id": "3c6b9258820781ff845fc20d00540d3c",
+      "type": "💡概念"
+    },
+    {
+      "description": "非系統性損失",
+      "eps": [
+        "EP99"
+      ],
+      "first_ep": "EP99",
+      "id": "ep99-idiosyncratic-loss",
+      "importance": "⭐⭐⭐⭐",
+      "name": "非系統性損失",
+      "notion_id": "3c6b9258820781e2b400dcdb8f8c31c5",
       "type": "💡概念"
     }
   ]
