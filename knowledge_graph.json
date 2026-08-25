@@ -16867,20 +16867,122 @@
       "source_locator": "analysis/EP99_supplemental.json:/mindsets/10",
       "to": "ep99-idiosyncratic-loss",
       "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "有人正在使用你們的憑證,是不會被注意的,一般是不會被注意的,只是剛好這工程師看到,所以就沒有像以往就是如果跳出這樣很多的訊息,他們就會一段時間把它清掉。那這次他去調查,就抓到了這一起事件。那因為這一起事件呢,就導致資安類股集體大爆色。其實資安類股就跟其他的那種所謂的SaaS啊,就是軟體級服務公司一樣,就是在這陣子三月復甦到現在,其實表現都很好,只是最近就是大爆噴。好,那我覺得",
+        "excerpt_sha256": "a55611b9c9e1c1552de6fd4879c8a62685ca1aaf549d3d05e83fa19bd2087612",
+        "line_end": 6,
+        "line_start": 6,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-solarwinds-compromise",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/0",
+      "to": "ep100-cybersecurity-equity-rally",
+      "type": "導致"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "現在演變為,Verify and never trust,就是我根本就不會去相信,現在假設說任何,連到我的電腦跟裝置的一些網路流量,我都會把它視為是有威脅的,所以我每個都要去驗證,那你就想說,那如果每個都要去驗證的話,那是不是就會用掉很多的資源啊,讓你的手機跟裝置變滿,其實不會,比方說,像剛剛前面提到那個Crowstrike,他最有名的東西呢,就是他的Falcon Platform,那Falcon就是獵鷹,老鷹啊,那Crowstrike的logo剛好也是老鷹,所以就很好聯想啊,那就是他們最強的東西,那這Falcon Network呢,",
+        "excerpt_sha256": "58adc386121ac140be5b38553b4401fc0d6078167c8be5aed1254d9109624f49",
+        "line_end": 12,
+        "line_start": 12,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-zero-trust",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/2",
+      "to": "ep100-unverified-network-traffic",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "奶水給拿掉,我把政府開給你的後門,闢給你的一條,康莊大道,給整個收掉的話,那當然你就會下去,所以其實我覺得阿里巴巴目前遇到的問題,就有點類似這樣,但是我個人覺得,其實不是習近平,或是說中國當局,想要把整個阿里巴巴給抹殺掉,我覺得,其實殺掉任何的,中國的巨獸,對他們來說,並不是什麼好事,要知道這些中國巨獸,比方說,阿里巴巴,騰訊啊,那這個百度啊,或者說,字節跳動,這些如果你,",
+        "excerpt_sha256": "1c3830e101b86ed1194791042526a2dd2e564e81db6d3e9c1ebf4da5a00eb0ad",
+        "line_end": 34,
+        "line_start": 34,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-china-policy-discretion",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/4",
+      "to": "ep100-alibaba-operating-freedom",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "進去,所以在我的配置裡面,我買了這個中國的股票,那買了,那成本也低了啦,所以今天你要殺吧,那你就殺吧,我也覺得沒差啦,那我覺得這就是整個,資產配置最可貴的地方,我覺得為什麼,會建議大家,你手上不要,單壓一隻股票就這樣,你一定要比方說,你配一點ETF,然後配一點股票,那有些人甚至配一點債,那配一點主動選股,反正就多元,因為多元的好處就是去降低,假設你今天踩到雷,那會出事的可能性,那既然說中國的持股沒有很多,那他今天遇到一個修正,又何妨,",
+        "excerpt_sha256": "d742e20e396de13038115ccb20ba78460c5f76e0989d0824abb8ca7da524effc",
+        "line_end": 43,
+        "line_start": 43,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-portfolio-diversification",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/6",
+      "to": "ep100-single-name-loss",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "雛形的話呢,我相信特斯拉的估值會稍微的,要嘛就是特斯拉會停在那邊,等Apple漲上來,那要嘛就是他們兩個會在某個地方相交,就是可能Tesla會下來一點,Apple會上去一點,我覺得是非常合理的期待,因為他受眾打到的是差不多的人,那其實我在之前就跟大家聊到說,其實你現在去做汽車的配置,EV的配置,你不一定要百分之百丟特斯拉了,因為你發現,傳統車商也注意到這件事了,之前可能在前陣子,大家還在笑說,電動車,那不是",
+        "excerpt_sha256": "16ff38f76b98a82ba83861f7aeaf27e77e886eb400d9501d35e12af77e2f3a4e",
+        "line_end": 60,
+        "line_start": 60,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-apple-car",
+      "predicate_id": "competes_with",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/8",
+      "to": "ep88-tesla-valuation",
+      "type": "競爭"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP100",
+      "evidence": {
+        "excerpt": "只是問題是在於說,你掉下來,然後你沒有錢可以買,那其實是一樣的道理,如果說掉下來,然後你手上都需要錢的話,你必須把這個賣掉,你等於是直接砍在一個最低點,所以我會建議你,不要拿,你會近期就馬上用到的錢,就是什麼兩三年內會用到,其實都算很近啦,那去做一個,在股票市場,因為這算是一個風險相對高的一個投資,我比較不建議你這樣做,可能拿去丟定存就好了啦,",
+        "excerpt_sha256": "7b595ab96fc701d9006aef45a6147900fd030a4117cf59105fbd89c816e97f29",
+        "line_end": 77,
+        "line_start": 77,
+        "transcript_path": "transcripts/EP100_corrected.txt",
+        "transcript_sha256": "874df804e4a17d4a83ad3bb35e363e5e1eef01c25a356484084e69df791ad534"
+      },
+      "from": "ep100-short-horizon-liquidity-need",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP100_supplemental.json:/mindsets/10",
+      "to": "ep100-equity-allocation",
+      "type": "約束"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-24",
+    "lastUpdated": "2026-08-25",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-24",
+    "last_update": "2026-08-25",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP99 分析報告",
+    "source": "EP1-EP100 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1032,
-    "total_relations": 784
+    "total_entities": 1043,
+    "total_relations": 790
   },
   "nodes": [
     {
@@ -30421,6 +30523,138 @@
       "importance": "⭐⭐⭐⭐",
       "name": "非系統性損失",
       "notion_id": "3c6b9258820781e2b400dcdb8f8c31c5",
+      "type": "💡概念"
+    },
+    {
+      "description": "SolarWinds 供應鏈入侵",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-solarwinds-compromise",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "SolarWinds 供應鏈入侵",
+      "notion_id": "3c7b9258820781408b4bfdf189c4e65a",
+      "type": "💡概念"
+    },
+    {
+      "description": "資安類股上漲",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-cybersecurity-equity-rally",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "資安類股上漲",
+      "notion_id": "3c7b9258820781369df4ea262d628303",
+      "type": "💡概念"
+    },
+    {
+      "description": "零信任架構",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-zero-trust",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "零信任架構",
+      "notion_id": "3c7b925882078142943ee92284ac65c8",
+      "type": "💡概念"
+    },
+    {
+      "description": "未驗證網路流量",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-unverified-network-traffic",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "未驗證網路流量",
+      "notion_id": "3c7b9258820781cf91ced22a55de5663",
+      "type": "💡概念"
+    },
+    {
+      "description": "中國政策裁量",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-china-policy-discretion",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "中國政策裁量",
+      "notion_id": "3c7b925882078143b091e6cdf3ba59d6",
+      "type": "💡概念"
+    },
+    {
+      "description": "阿里巴巴營運自由",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-alibaba-operating-freedom",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "阿里巴巴營運自由",
+      "notion_id": "3c7b925882078128bc84f3a965d84853",
+      "type": "💡概念"
+    },
+    {
+      "description": "投資組合分散",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-portfolio-diversification",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "投資組合分散",
+      "notion_id": "3c7b9258820781ca868bca7d5ae44d44",
+      "type": "💡概念"
+    },
+    {
+      "description": "單一標的損失",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-single-name-loss",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "單一標的損失",
+      "notion_id": "3c7b925882078181b951f1ebd58eb4b7",
+      "type": "💡概念"
+    },
+    {
+      "description": "Apple Car",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-apple-car",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "Apple Car",
+      "notion_id": "3c7b92588207816a81c6f53c162ed509",
+      "type": "💡概念"
+    },
+    {
+      "description": "短期流動性需求",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-short-horizon-liquidity-need",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "短期流動性需求",
+      "notion_id": "3c7b92588207813bb582ccd9e391d5ec",
+      "type": "💡概念"
+    },
+    {
+      "description": "股票配置",
+      "eps": [
+        "EP100"
+      ],
+      "first_ep": "EP100",
+      "id": "ep100-equity-allocation",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "股票配置",
+      "notion_id": "3c7b925882078108b8e1ff7afb9187c8",
       "type": "💡概念"
     }
   ]
