@@ -16969,20 +16969,105 @@
       "source_locator": "analysis/EP100_supplemental.json:/mindsets/10",
       "to": "ep100-equity-allocation",
       "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP101",
+      "evidence": {
+        "excerpt": "可能就是一個雙面刃,就是你要去投資一個波動性高的東西,當然他可能會為你帶來很大的報酬,可是在修正的時候,他可能也會跌很多,所以我個人覺得,如果你只有ARK的,那當然第一個要務就是,你還是要記得很清楚,這個東西是主動選股的一環,所以在配置上呢,不會建議你重壓太多,雖然說他的名字上還是掛ETF,但是呢,我個人覺得,他買的東西,現在因為很多人會跟牌,所以如果今天他賣了這個東西呢,那就很多人跟著賣,所以我覺得,他的波動性一定非常大,那你可能在配置上,",
+        "excerpt_sha256": "23edb16813463d708a97546093f6caabc5d583569fd57264032e2202ca8e810a",
+        "line_end": 56,
+        "line_start": 56,
+        "transcript_path": "transcripts/EP101_corrected.txt",
+        "transcript_sha256": "0d445bfb4ee375d2fbf3513357a5fdf9dc831cb5d6c83ba9388bee3228c5eddd"
+      },
+      "from": "ep101-position-sizing",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP101_supplemental.json:/mindsets/1",
+      "to": "ep101-active-etf-risk",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP101",
+      "evidence": {
+        "excerpt": "那在這個新興市場,因為他畢竟是比較小型的,他有時候造成的波瀾會更大,所以確實你看對方向,你有可能賺很多錢,那你可以用這個ETF下手,我個人會比較建議你,跟買個股比起來,個股還是最恐怖啦,那好,再講一次,個股是最恐怖的,因為你是單壓,那再來買這個越南市場整體ETF,是好一點,因為你是買越南的股市,但是還是有點可怕,因為畢竟是壓單一國家,那如果說是買VWO,他就是包新興市場,那越南就是其中的一個而已,那我個人覺得,你可以這樣參考,就是以你這個風險可以承受的程度,",
+        "excerpt_sha256": "77d229fabb6af26b4ff5da46c08f4097507f6e5197ada5d90ba637b521afb724",
+        "line_end": 62,
+        "line_start": 62,
+        "transcript_path": "transcripts/EP101_corrected.txt",
+        "transcript_sha256": "0d445bfb4ee375d2fbf3513357a5fdf9dc831cb5d6c83ba9388bee3228c5eddd"
+      },
+      "from": "ep101-market-diversification",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP101_supplemental.json:/mindsets/2",
+      "to": "ep101-position-sizing",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP101",
+      "evidence": {
+        "excerpt": "你紅機套就套了,當然,我跟你講,其實在套牢的時候,很多人都會想要去攤平,把成本給拉低,那我個人覺得,攤平的要件,就是執行的條件只有一種,就是你的策略裡面本來就這樣規劃,就是我跟大家講的分批投入,我今天想要買任何一支股票,我絕對不會再單一步為OIN,因為這是我的習慣,那我非常推薦給大家,因為這個習慣是好習慣,如果你採用,你就會發現,對人生影響重大,就是你不要每次都想在什麼,一天內就把股票都買滿,或是說什麼兩三天內就買滿,你把它分成三個禮拜,",
+        "excerpt_sha256": "97980c63dfb64d3b85dfbd7bfe6428953c98295b488c49085fcd86f066099901",
+        "line_end": 66,
+        "line_start": 66,
+        "transcript_path": "transcripts/EP101_corrected.txt",
+        "transcript_sha256": "0d445bfb4ee375d2fbf3513357a5fdf9dc831cb5d6c83ba9388bee3228c5eddd"
+      },
+      "from": "ep101-planned-staging",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP101_supplemental.json:/mindsets/3",
+      "to": "ep101-position-sizing",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP101",
+      "evidence": {
+        "excerpt": "可是可能有些人就是沒有辦法做到這樣,可能語言不通,可能他就是覺得不放心,那,當然你就可以選擇成本稍微高一點的路,但是重點是,很重要的觀念就是,你至少要知道有哪些選擇,那是你自己要這樣選的,那當然沒有問題,那如果說1.1%你覺得貴,確實在ETF裡面這樣算貴,不過,我老實講,如果說你只是要做一個題材性的操作,比方說,可能就是,你覺得現在資安股很好,你買進去,那是做一個價差,你有沒有要長期持有,因為這個,我覺得經理費他可怕的地方是,假設長期持有,",
+        "excerpt_sha256": "2bd103ba125c95be3c943ac01181b6ca11fad04dee4927dba780cdb070b35c2c",
+        "line_end": 76,
+        "line_start": 76,
+        "transcript_path": "transcripts/EP101_corrected.txt",
+        "transcript_sha256": "0d445bfb4ee375d2fbf3513357a5fdf9dc831cb5d6c83ba9388bee3228c5eddd"
+      },
+      "from": "ep101-long-term-fee-erosion",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP101_supplemental.json:/mindsets/4",
+      "to": "ep101-market-diversification",
+      "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP101",
+      "evidence": {
+        "excerpt": "你只要有退休每年開銷的25倍,那就可以退休了,類似這樣,那我個人覺得這個是建立在,因為你已經把你的開銷算好了,可是因為人生之中就是有太多的意外,比方說,突然得了一個重病,健保又沒有cover了,小朋友超會念書,或是說你突然就看到特斯拉媽真的太香了,就是藍教一養,然後你就買了,或是說你突然有一些額外的開銷,那其實像這樣的東西,就會影響到你整個財富規劃,",
+        "excerpt_sha256": "c6a6ba4bff2ea0dbbef2c414202f868b76d8ea18146b8e01bc1e0043ee732f5f",
+        "line_end": 81,
+        "line_start": 81,
+        "transcript_path": "transcripts/EP101_corrected.txt",
+        "transcript_sha256": "0d445bfb4ee375d2fbf3513357a5fdf9dc831cb5d6c83ba9388bee3228c5eddd"
+      },
+      "from": "ep101-financial-freedom-uncertainty",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP101_supplemental.json:/mindsets/5",
+      "to": "ep101-planned-staging",
+      "type": "約束"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-25",
+    "lastUpdated": "2026-08-27",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-25",
+    "last_update": "2026-08-27",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP100 分析報告",
+    "source": "EP1-EP101 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1043,
-    "total_relations": 790
+    "total_entities": 1049,
+    "total_relations": 795
   },
   "nodes": [
     {
@@ -30655,6 +30740,78 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "股票配置",
       "notion_id": "3c7b925882078108b8e1ff7afb9187c8",
+      "type": "💡概念"
+    },
+    {
+      "description": "主動選股、集中度與容量會放大波動。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-active-etf-risk",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "主動式 ETF 風險",
+      "notion_id": "3c9b9258820781cdaff5f12a6250c662",
+      "type": "💡概念"
+    },
+    {
+      "description": "高波動工具不取代核心被動配置。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-position-sizing",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "高波動部位控制",
+      "notion_id": "3c9b925882078157bf81d4cb2848c599",
+      "type": "💡概念"
+    },
+    {
+      "description": "單一國家與廣泛新興市場有不同風險。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-market-diversification",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "市場曝險分散",
+      "notion_id": "3c9b9258820781a9ac5fe00b95c67577",
+      "type": "💡概念"
+    },
+    {
+      "description": "分批策略必須在下跌前規劃。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-planned-staging",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "事前分批投入",
+      "notion_id": "3c9b92588207817c8f42eef548f496eb",
+      "type": "💡概念"
+    },
+    {
+      "description": "費用影響會隨持有期間累積。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-long-term-fee-erosion",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "長期費用侵蝕",
+      "notion_id": "3c9b9258820781d6a4f2d130f2536425",
+      "type": "💡概念"
+    },
+    {
+      "description": "固定支出倍數無法涵蓋所有人生變動。",
+      "eps": [
+        "EP101"
+      ],
+      "first_ep": "EP101",
+      "id": "ep101-financial-freedom-uncertainty",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "財務自由不確定性",
+      "notion_id": "3c9b9258820781cabb20c20009d4d615",
       "type": "💡概念"
     }
   ]
