@@ -17054,20 +17054,88 @@
       "source_locator": "analysis/EP101_supplemental.json:/mindsets/5",
       "to": "ep101-planned-staging",
       "type": "約束"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP102",
+      "evidence": {
+        "excerpt": "其實你是可以全都要的。因為我們不是小朋友了。我們是大人。那全都要的配置呢。很簡單。在這邊大概跟大家講一下。你要怎麼樣入門。入門的方式呢。就是你七成拿去買被動投資。不然是你現在已經在市場裡面的部位。或者說呢。假設說你現在開始有收入。那收入兩成拿去投資。那這兩成裡面。假設兩成是兩萬塊好了。那兩萬塊的七成就是被動投資的部位。三成就是你可以拿去主動選股。你可以拿去看一些你覺得很不錯的公司。你要壓看看的。這樣子你就可以。",
+        "excerpt_sha256": "393b0c2438603c59e9000b7d8abadc67b85c35463e3c36ac07591b2448bc77ed",
+        "line_end": 26,
+        "line_start": 26,
+        "transcript_path": "transcripts/EP102_corrected.txt",
+        "transcript_sha256": "86fbfa21e9adb749d096528f0bacca8fcf7542cb6cc85fb6650765a440b7bfdb"
+      },
+      "from": "ep102-1",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP102_supplemental.json:/mindsets/1",
+      "to": "ep102-0",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP102",
+      "evidence": {
+        "excerpt": "進一步的調整。我給你的建議是。比方說。這個七成的被動投資部位。就先鎖在那邊。不要動。那你三成的主動選股。如果你發現。你是真正的少年股神。不是那種短暫現象的。就是一年很好。然後明年就吃大便。這種。你發現你連續好幾年。其實你表現都比大盤還要來得好。或者說你連續好幾季。不用到好幾年。就連續幾季都一直贏大盤。自信開始慢慢變多的時候。那你當然可以選擇把被動投資的部位稍微降低一點。就是你下一批要入金一樣嘛。你兩萬塊的收入。那你就變成六四或是五五。",
+        "excerpt_sha256": "c3359c87f6ff0dac8d41742c4ccab9371c5c07fcf5cf4db4f28d75853035eb54",
+        "line_end": 31,
+        "line_start": 31,
+        "transcript_path": "transcripts/EP102_corrected.txt",
+        "transcript_sha256": "86fbfa21e9adb749d096528f0bacca8fcf7542cb6cc85fb6650765a440b7bfdb"
+      },
+      "from": "ep102-2",
+      "predicate_id": "revises",
+      "source_locator": "analysis/EP102_supplemental.json:/mindsets/2",
+      "to": "ep102-1",
+      "type": "修正"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP102",
+      "evidence": {
+        "excerpt": "主動投資的成分。但有沒有發現。就是說如果你真的要做到真正的被動投資。好像就是我應該放某個地方完全不動就好。但是其實。你發現說你也可以在裡面。增加一些市場。減少一些市場。那或者說。你懶得選擇。直接用VT我全都要。都可以。那我個人覺得。這也是為什麼我跟大家講說。主被動投資。它其實那個界限並沒有那麼明顯的原因。雖然很多人會告訴你說這個差別很大。但我覺得。就是。那各種色彩都還有。我覺得大家不用固步自封。不用說文人相輕。然後就是說。我這個只有一個方法是好的。別人是不好的。",
+        "excerpt_sha256": "f1b29813abef62fb348357d8878d1c4521dcc3a4e7dce808f9d2095c39ec9613",
+        "line_end": 60,
+        "line_start": 60,
+        "transcript_path": "transcripts/EP102_corrected.txt",
+        "transcript_sha256": "86fbfa21e9adb749d096528f0bacca8fcf7542cb6cc85fb6650765a440b7bfdb"
+      },
+      "from": "ep102-3",
+      "predicate_id": "extends",
+      "source_locator": "analysis/EP102_supplemental.json:/mindsets/3",
+      "to": "ep102-1",
+      "type": "延伸"
+    },
+    {
+      "context": "逐字稿明示的 canonical 關係。",
+      "ep": "EP102",
+      "evidence": {
+        "excerpt": "投資部位多了。波動大了。你會睡不著的人。那當然你就不要做這個投資了。這跟每個人的這個財務狀況也有關係。如果說你是錢非常多的。你在本業賺錢賺超快的。然後你發現你在投資裡面。你花很多時間其實表現沒有很好。那我覺得你幹嘛浪費時間。你比方說像有一些朋友來問我。那本業是醫生啊。我跟他講說你不要花時間看盤啊。你太累了。你直接去做這個被動投資就好。所以我幫他們做財務規劃我直接開了。你直接去投ETF就好。那他投ETF他滾出來的效果也比大多數人還好。",
+        "excerpt_sha256": "ac3291e609e396f9a5dd98c43f2c34623870a30443fb92f60ccd19659ffeade8",
+        "line_end": 70,
+        "line_start": 70,
+        "transcript_path": "transcripts/EP102_corrected.txt",
+        "transcript_sha256": "86fbfa21e9adb749d096528f0bacca8fcf7542cb6cc85fb6650765a440b7bfdb"
+      },
+      "from": "ep102-4",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP102_supplemental.json:/mindsets/4",
+      "to": "ep102-2",
+      "type": "約束"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-27",
+    "lastUpdated": "2026-08-28",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-27",
+    "last_update": "2026-08-28",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP101 分析報告",
+    "source": "EP1-EP102 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1049,
-    "total_relations": 795
+    "total_entities": 1054,
+    "total_relations": 799
   },
   "nodes": [
     {
@@ -30812,6 +30880,66 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "財務自由不確定性",
       "notion_id": "3c9b9258820781cabb20c20009d4d615",
+      "type": "💡概念"
+    },
+    {
+      "description": "主動與被動投資可以共同存在。",
+      "eps": [
+        "EP102"
+      ],
+      "first_ep": "EP102",
+      "id": "ep102-0",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "主被動並行",
+      "notion_id": "3cab9258820781eea2d4ebc8967e6b4a",
+      "type": "💡概念"
+    },
+    {
+      "description": "七成被動、三成主動是可調整的起點。",
+      "eps": [
+        "EP102"
+      ],
+      "first_ep": "EP102",
+      "id": "ep102-1",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "核心衛星起點",
+      "notion_id": "3cab9258820781f7a1f4c375fdbee183",
+      "type": "💡概念"
+    },
+    {
+      "description": "以跨期相對大盤結果調整主動比重。",
+      "eps": [
+        "EP102"
+      ],
+      "first_ep": "EP102",
+      "id": "ep102-2",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "績效回饋調整",
+      "notion_id": "3cab9258820781868522c37755071d9f",
+      "type": "💡概念"
+    },
+    {
+      "description": "市場範圍與集中風險要一起評估。",
+      "eps": [
+        "EP102"
+      ],
+      "first_ep": "EP102",
+      "id": "ep102-3",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "跨市場分散",
+      "notion_id": "3cab925882078118b520d03d8529cda5",
+      "type": "💡概念"
+    },
+    {
+      "description": "配置須符合本業效率、資本與波動承受度。",
+      "eps": [
+        "EP102"
+      ],
+      "first_ep": "EP102",
+      "id": "ep102-4",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "時間與本金效率",
+      "notion_id": "3cab92588207813d8588fae3404cd056",
       "type": "💡概念"
     }
   ]
