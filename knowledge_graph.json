@@ -17122,20 +17122,122 @@
       "source_locator": "analysis/EP102_supplemental.json:/mindsets/4",
       "to": "ep102-2",
       "type": "約束"
+    },
+    {
+      "context": "辨識財報落後於價格，是在景氣循環反轉前規劃退出的必要判讀基礎。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "因為散裝航運其實我做了蠻多次的,所以對我來說這個是我比較熟悉的,那其實貨櫃輪我在11月12月我也想要講,但是後來選擇就在臉書發發幹文就好,你看蒼龍這樣會長,類似這樣,就發一發那種現象文就好了,那沒有刻意的去論述,那是因為我主要是怕有人受傷啦,雖然當然這個航運股我本身也是沒有參與到,但是我知道他就是如同所有台股的機會財股票一樣,反正他一定是一波,他一定是一個景氣循環,他不會是比方像是",
+        "excerpt_sha256": "71017f2592e3e9fe93890ca2c22b034eee1d6abde475cd66504584baec22f302",
+        "line_end": 26,
+        "line_start": 26,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-0",
+      "predicate_id": "depends_on",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/0",
+      "to": "ep103-1",
+      "type": "依賴"
+    },
+    {
+      "context": "缺貨後擴產而需求未同步增加，會導致產能過剩並觸發景氣循環出場風險。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "但是問題是,等到缺貨過掉的時候,你就會回到,就會回到你本來該有的樣子,甚至會再往下跌,因為你的產能過剩了,就比你當初缺貨前的產能更多,但需求呢,是沒有變多的,那就會產生一個非常嚴重的現象,好,在這邊就提供給所有,你可能有買進類似相關股票的人,當然一個借鏡啦,我不是叫你一定要跑掉或什麼,但是你要很清楚這件事情,就是不要跟股票談戀愛,特別是這種,賺中間才賺一波的,你可能就會,會受重傷,假設說你真的暈船的話,",
+        "excerpt_sha256": "988033281437c653605fab897905d89d870857c5c6563dd3ac8b41b7cda9c421",
+        "line_end": 54,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-2",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/2",
+      "to": "ep103-0",
+      "type": "導致"
+    },
+    {
+      "context": "去槓桿期貨追蹤與基本面出場判讀，是逐字稿並列討論的兩種不同投資方法。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "所以我個人是建議,期貨它畢竟是衍生金融品,那但是確實,我知道這是一個方法,你可以使用期貨,然後你去槓桿,然後來當成是追蹤指數的一個做法,可以是這樣做的,好,下面有這個卡斯特蘭說,五星吹捧起來,大概9月開始聽愛大的節目,聽了一陣子開始分散投資標的,真的可以好好睡覺,困霸鼠錢,相信愛大保險到底該佔總資金的多少,剛出社會想問一下,家人資金保的保險,殊不知一年要繳10萬多,對剛開始工作",
+        "excerpt_sha256": "e5a08c2a7753c4a97310c6ee9e1b9e7b3bbf12c2ab3b87cc26a8398b0eddfc6d",
+        "line_end": 62,
+        "line_start": 62,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-3",
+      "predicate_id": "compares_with",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/3",
+      "to": "ep103-4",
+      "type": "對照"
+    },
+    {
+      "context": "以基本面變化作為出場依據，支持景氣循環股票必須預先規劃退出。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "中美晶集團的中美晶,你買突破,一樣是買突破,但是這個就會賺錢,因為它是有基本面支撐的,所以其實我覺得技術面它充其量就是一個輔助,不要太信賴它,不要太仰賴它,因為可能到最後你會發現,那個對跟錯可能就是一半一半,所以沒有什麼絕對的參考價值,那至於該什麼時候出場呢,當然就是基本面有一些轉換是你不喜歡的,那可能就可以出廠,那再來就是比方說你可以設定一個動態停利,那動態停利已經教過N百次了,反正有很多方法可以出廠,那可以保住,",
+        "excerpt_sha256": "294ed86cb6389c905400a323227fbd470544c77c42458dfb078f1659f5862ca9",
+        "line_end": 73,
+        "line_start": 73,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-4",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/4",
+      "to": "ep103-0",
+      "type": "支持"
+    },
+    {
+      "context": "時間、能力與資金條件，會約束投資人能否採用基本面主動研究方法。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "太多的時間,像上一位留言講的嘛,你去財報裡面找到一些端倪,然後你主動選股,獲得很棒的績效,可能很多人是根本沒有時間做這件事情,或是說他就是辦不到,那你當然就可以直接去採行這個資產配置的方式,反正就先求穩,然後慢慢的滾出本金之後,再看你要幹嘛,這都可以啦,都可以啦,所以我覺得,大家就是不要太思想狹隘,反正我們這邊就是一個很開放,什麼東西,什麼看法都可以討論,那我覺得,真的是,不要有那種文人相親的現象呢,對大家會有很好的幫助,",
+        "excerpt_sha256": "1fd1d2be3ca93c0d05b4617ff4c0b24017257e37471efee6e23aae11760c7dca",
+        "line_end": 79,
+        "line_start": 79,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-5",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/5",
+      "to": "ep103-4",
+      "type": "約束"
+    },
+    {
+      "context": "將高波動加密資產限制在可承受的小部位，支持先去槓桿再使用高風險工具的原則。",
+      "ep": "EP103",
+      "evidence": {
+        "excerpt": "不會嘛,有黃金也是吞在家裡,當裝飾嘛,所以我覺得,各個幣都是一種信仰的呈現,那比特幣呢,他畢竟是信仰的中心,所以我覺得他是一個觀察的要點,那這也是為什麼我之前跟大家講說,假設你資產配置裡面,你是一個心臟稍微大一點的,你可以配置一部分去放比特幣,而且那個績效可能會很好,這應該講過好幾集都在講這件事情了,那你也會發現,我只講比特幣,我這之前以太幣就不講,因為我覺得就是,核心就是一個,那未來交易的話呢,我相信比特幣並不會是一個,那你也會發現,",
+        "excerpt_sha256": "ee5d1e17d526f71e00a1e875ea6135185e47dfe4449ad768c267b8cb59f77af9",
+        "line_end": 87,
+        "line_start": 87,
+        "transcript_path": "transcripts/EP103_corrected.txt",
+        "transcript_sha256": "95c94ced030117879f4e6ab890516c253856c91d6bd62d121b77103e587c8f45"
+      },
+      "from": "ep103-6",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP103_supplemental.json:/mindsets/6",
+      "to": "ep103-3",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-28",
+    "lastUpdated": "2026-08-29",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-28",
+    "last_update": "2026-08-29",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP102 分析報告",
+    "source": "EP1-EP103 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1054,
-    "total_relations": 799
+    "total_entities": 1061,
+    "total_relations": 805
   },
   "nodes": [
     {
@@ -30940,6 +31042,90 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "時間與本金效率",
       "notion_id": "3cab92588207813d8588fae3404cd056",
+      "type": "💡概念"
+    },
+    {
+      "description": "景氣股必須在供需反轉前規劃退出。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-0",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "景氣循環出場",
+      "notion_id": "3cbb92588207817f894dd9cfa1d87a31",
+      "type": "💡概念"
+    },
+    {
+      "description": "股價常在財報確認前先反映景氣。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-1",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "財報落後價格",
+      "notion_id": "3cbb925882078131af67d6d5b224236b",
+      "type": "💡概念"
+    },
+    {
+      "description": "缺貨後擴產可能把產業推向過剩。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-2",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "產能與庫存",
+      "notion_id": "3cbb9258820781e8a148de5980c5ac96",
+      "type": "💡概念"
+    },
+    {
+      "description": "期貨只有在充分去槓桿後才可討論指數追蹤。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-3",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "去槓桿追蹤",
+      "notion_id": "3cbb925882078171b4a7e67d308f6e4b",
+      "type": "💡概念"
+    },
+    {
+      "description": "技術面只能輔助，出場仍須回到基本面。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-4",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "基本面優先",
+      "notion_id": "3cbb9258820781949e88c4b4f9651743",
+      "type": "💡概念"
+    },
+    {
+      "description": "方法需符合時間、能力與資金條件。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-5",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "主被動並存",
+      "notion_id": "3cbb92588207814c93a0da575b00569b",
+      "type": "💡概念"
+    },
+    {
+      "description": "高波動加密資產只能占可承受的小部位。",
+      "eps": [
+        "EP103"
+      ],
+      "first_ep": "EP103",
+      "id": "ep103-6",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "加密風險預算",
+      "notion_id": "3cbb9258820781e58fbcc0ca6fa67269",
       "type": "💡概念"
     }
   ]
