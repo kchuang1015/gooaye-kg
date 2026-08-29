@@ -17224,6 +17224,108 @@
       "source_locator": "analysis/EP103_supplemental.json:/mindsets/6",
       "to": "ep103-3",
       "type": "支持"
+    },
+    {
+      "context": "使用者即使不滿仍難以離開平台，支持事件修正不必然等於基本面惡化。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "所以用某個角度來講,我反而覺得臉書可能是一個很好的投資標的,因為你們都超級不爽他,可是你們還是得用他,跟毒品一樣,我相信吸毒的人,那些吸海洛因的,他們一定也是想要脫離這樣的東西,他們也覺得這東西不好,可是我就是得吸,因為我的身體就不爽。",
+        "excerpt_sha256": "de3fb88980d533419c07f3b649d5671d5f099f49264019c6f5113cf97056b1af",
+        "line_end": 37,
+        "line_start": 37,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-0",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/0",
+      "to": "ep104-1",
+      "type": "支持"
+    },
+    {
+      "context": "判斷事件修正是否改變基本面，依賴持續尊重市場並重查資訊。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "製造了一個dip,臉書那時候就有一個dip,那其實每一次的,這種在搞審查,或是說在搞抵制的東西呢,最後面你會發現說,在當今的,當今的世道呢,反而會成為一個還不錯的買點,因為我自己在過去的一年,就遇到了三次這樣的事件,所以也是我今天會跟大家分享的啦,就是說,我們到底要怎麼樣,比較理性的看待這件事情,雖然現在可能理性並不是一個好的詞,你知道現在蠻多那種,網路的激進分子都告訴你說,理性是最下三濫的,因為根本沒有理性中立的人,",
+        "excerpt_sha256": "a817abc31d5770534d7fb99a231c1023ed520d5b95812c08ecdf7c82b00ab8ef",
+        "line_end": 47,
+        "line_start": 47,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-1",
+      "predicate_id": "depends_on",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/1",
+      "to": "ep104-2",
+      "type": "依賴"
+    },
+    {
+      "context": "保留部位但停止加碼，約束事件修正情境下的風險承擔。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "那這些覺醒青年呢,他們就覺得他們一定要做什麼,他們一定要幹嘛,我理解啦,但是你們就是一群小朋友嘛,那可是老闆呢,跟我是沒有關係的,他們都覺得這個東西是可以的,可能因為這樣的狀況,所以話來回聲,之類的,但是也可能是因為單純的,反正最後面就是,哪裡有錢,哪裡就是香的,Spotify的聲音經濟的規模持續的擴張,那最後面它分潤,可能也可以為他賺到不少錢,那對我來說,反正,雖然我沒有加碼到,我非常幹,但是我還是有一定的部位留在場上,就持續看他會怎麼表現了吧,但是我覺得,自從這個Facebook跟Twitter,然後還有,",
+        "excerpt_sha256": "8344b94d2d5aec0579f79729de1b80b86458d5814e32753a3f80249b385e074e",
+        "line_end": 64,
+        "line_start": 64,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-3",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/3",
+      "to": "ep104-1",
+      "type": "約束"
+    },
+    {
+      "context": "通路整合價值依賴受眾、曝光與使用者退出成本。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "你根本不可能買到這麼多的曝光,就是假設你要自己去下廣告的話,所以OTA有這樣一個整合的效果,我覺得它的生意模式是很棒的啦,那只是要不要買進呢,自己要考慮清楚,但我之前有跟大家分享過,我覺得它是可以拉一個ETF去做一個交易的,好下面一個這個葉環環說,高三學生不讀書,聽古埃,他說五星翠翠,主委你好,我是之前在古埃問答有問問題的高三生,之前訂的書都到了,分別是,反脆弱,從0到1,投資金率,投資最重要的是,巴菲特寫給股東的信,風險之書,",
+        "excerpt_sha256": "f5e32f891e80619e0b5fd21baf21875687da9a193c8b2709fa329fe933b2654c",
+        "line_end": 78,
+        "line_start": 78,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-4",
+      "predicate_id": "depends_on",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/4",
+      "to": "ep104-0",
+      "type": "依賴"
+    },
+    {
+      "context": "尊重市場並檢查資訊差，導致長期下跌時重新檢驗原始假設。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "去認為說,我一定是哪裡有不對,因為如果說,它是長時間的下跌,不是短期的下殺,是什麼長時間三個月五個月一年都一直在跌,一定是我哪裡看錯,而且後來驗證發現確實是這樣,所以尊重市場很重要,你會發現說,你回頭看才知道,原來是一年後才開出來,哪裡有出了問題,只是就是第一個有人先知道,那第二個是,有比你資訊更流通的人,或說法人,然後他們已經做出相應的判斷了,所以才會造成這個股價持續下跌的一個狀況,那在股市在遊戲裡面,我都有這樣的觀念,可是在現實上,",
+        "excerpt_sha256": "288317f3b07c097a3321c7990f3ad348aa909c77d08436666355e4011a7e993f",
+        "line_end": 84,
+        "line_start": 84,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-2",
+      "predicate_id": "causes",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/2",
+      "to": "ep104-5",
+      "type": "導致"
+    },
+    {
+      "context": "自行配置集中持股，依賴持續追蹤與調節能力。",
+      "ep": "EP104",
+      "evidence": {
+        "excerpt": "那Keysight,Keysight也有持有一點點,Akamai也是一點點,Akamai我甚至有減碼,因為它表現沒有比Cloudflare還要來得好,所以我覺得你知道ETF就是人家幫你配好的啦,那看你要不要相信它的東西,你要相信你當然可以買,但是以我自己的角度來說,我比較喜歡自己自幹ETF,因為我是有能力可以去調節配置的,我是自己知道要怎麼調的,所以對我來說,比方說像它這個配置我就不喜歡,雖然裡面的選股跟我的選股還蠻像的,就是我都有持有這些股票,但是呢我不喜歡它的一個配置,所以這還是要看你個人的選擇,",
+        "excerpt_sha256": "2cc0d54e5ee197d354f76453888b01edad862ed75e6f714ef02a5f463da8cae8",
+        "line_end": 105,
+        "line_start": 105,
+        "transcript_path": "transcripts/EP104_corrected.txt",
+        "transcript_sha256": "ce9dc319f944412d120884d6d468e77429b9dedc6eb93714aef613cd58a1377f"
+      },
+      "from": "ep104-7",
+      "predicate_id": "depends_on",
+      "source_locator": "analysis/EP104_supplemental.json:/mindsets/7",
+      "to": "ep104-6",
+      "type": "依賴"
     }
   ],
   "metadata": {
@@ -17234,10 +17336,10 @@
     "last_update": "2026-08-29",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP103 分析報告",
+    "source": "EP1-EP104 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1061,
-    "total_relations": 805
+    "total_entities": 1069,
+    "total_relations": 811
   },
   "nodes": [
     {
@@ -31126,6 +31228,102 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "加密風險預算",
       "notion_id": "3cbb9258820781e58fbcc0ca6fa67269",
+      "type": "💡概念"
+    },
+    {
+      "description": "使用者難以離開的平台可能具備持續的商業黏著。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-0",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "網路效應與退出成本",
+      "notion_id": "3cbb9258820781228796d1c3b1986c44",
+      "type": "💡概念"
+    },
+    {
+      "description": "政治或審查事件造成的價格修正，仍須回到公司基本面判斷。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-1",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "事件修正不等於基本面惡化",
+      "notion_id": "3cbb92588207817d9211f1ff82cf89c5",
+      "type": "💡概念"
+    },
+    {
+      "description": "避免先假設全市場都錯，持續檢查自己的資訊與判斷。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-2",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "尊重市場",
+      "notion_id": "3cbb92588207815c93b6f20f93701b8b",
+      "type": "💡概念"
+    },
+    {
+      "description": "保留部位、停止加碼與退出是不同的風險動作。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-3",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "停止加碼與清倉不同",
+      "notion_id": "3cbb92588207810cb61dd0bce030628b",
+      "type": "💡概念"
+    },
+    {
+      "description": "通路的受眾與廣告能力應一起納入商業模式評估。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-4",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "通路整合價值",
+      "notion_id": "3cbb925882078189b298ef64a849eace",
+      "type": "💡概念"
+    },
+    {
+      "description": "長期下跌可能反映資訊差，不能只用信念凹單。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-5",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "長跌必須重查假設",
+      "notion_id": "3cbb9258820781f984d5e6e7b70bad10",
+      "type": "💡概念"
+    },
+    {
+      "description": "少數強勢標的可能主導主動投資績效，但也提高集中風險。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-6",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "集中持股績效",
+      "notion_id": "3cbb9258820781dba429f2b6faff1e99",
+      "type": "💡概念"
+    },
+    {
+      "description": "自行配置只有在具備持續追蹤與調節能力時才有意義。",
+      "eps": [
+        "EP104"
+      ],
+      "first_ep": "EP104",
+      "id": "ep104-7",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "自建組合需有調節能力",
+      "notion_id": "3cbb92588207815eb8ebd588d8d5993c",
       "type": "💡概念"
     }
   ]
