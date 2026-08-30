@@ -17326,20 +17326,105 @@
       "source_locator": "analysis/EP104_supplemental.json:/mindsets/7",
       "to": "ep104-6",
       "type": "依賴"
+    },
+    {
+      "context": "情境規劃支持以分批保留後續調整空間。",
+      "ep": "EP105",
+      "evidence": {
+        "excerpt": "那是一個很低的低點,那昨天也是一樣,很多人講說這個桃園醫院怎麼樣,可是我覺得大家不要去猜啦,可能有一天你會猜到,那我個人覺得那也是很好笑的,就一點意義都沒有,那我們要做的是,我們去規劃一些劇本,一些可能發生的事情,那假如真的有這樣發生的話呢,那我們再來慢慢的調整一些部位之類的,",
+        "excerpt_sha256": "5434500287d1781ccfd295faeaadd986b6f3e0f01a1dc1f232871185403baa18",
+        "line_end": 21,
+        "line_start": 21,
+        "transcript_path": "transcripts/EP105_corrected.txt",
+        "transcript_sha256": "b037481b670b8836fd7f083e838d64a1e235c12facbb9e4aedc179cdb90fc1fb"
+      },
+      "from": "ep105-0",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP105_supplemental.json:/mindsets/0",
+      "to": "ep105-1",
+      "type": "支持"
+    },
+    {
+      "context": "分批進場支持先建立被動基準再驗證主動能力。",
+      "ep": "EP105",
+      "evidence": {
+        "excerpt": "行情很好或很壞,都一樣,分批進出,因為分批進出的好處是,比方說你現在買是120,下一次買,就算是跌到90塊,可是你平均下來也是120加90這樣多少，210除以2是105,就變成成本就是105嘛,那就不會這麼的難受,但是很多人就是因為,他會有那種焦慮感,他會覺得我不想要錯過,或者說下跌的時候我要趕快逃,所以你在上漲就很怕你錯過,那600塊台積電你也在all in,這時候all in是一個很笨的事情,當然我不排除台積電可能繼續往上漲,可是我還是建議你要,",
+        "excerpt_sha256": "553fbcf3d54c4d3477a7ece948420b92a8a34f0519f2f5fa117c1e47dba9a752",
+        "line_end": 39,
+        "line_start": 39,
+        "transcript_path": "transcripts/EP105_corrected.txt",
+        "transcript_sha256": "b037481b670b8836fd7f083e838d64a1e235c12facbb9e4aedc179cdb90fc1fb"
+      },
+      "from": "ep105-1",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP105_supplemental.json:/mindsets/1",
+      "to": "ep105-2",
+      "type": "支持"
+    },
+    {
+      "context": "投機部位上限約束分批配置中的高風險曝險。",
+      "ep": "EP105",
+      "evidence": {
+        "excerpt": "但是你要堅守住你的中心思想",
+        "excerpt_sha256": "6f9210dfd4f8171367618413ab1620b1467ab4261f52671f649934fbd4ff1ae2",
+        "line_end": 114,
+        "line_start": 114,
+        "transcript_path": "transcripts/EP105_corrected.txt",
+        "transcript_sha256": "b037481b670b8836fd7f083e838d64a1e235c12facbb9e4aedc179cdb90fc1fb"
+      },
+      "from": "ep105-3",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP105_supplemental.json:/mindsets/3",
+      "to": "ep105-1",
+      "type": "約束"
+    },
+    {
+      "context": "從興趣與趨勢研究，支持以證據更新市場情境。",
+      "ep": "EP105",
+      "evidence": {
+        "excerpt": "很簡單,你要從你的",
+        "excerpt_sha256": "f3371e6eba3d3255edf44a15096512cb033ba9f286287db121bd919c4693cd1e",
+        "line_end": 148,
+        "line_start": 148,
+        "transcript_path": "transcripts/EP105_corrected.txt",
+        "transcript_sha256": "b037481b670b8836fd7f083e838d64a1e235c12facbb9e4aedc179cdb90fc1fb"
+      },
+      "from": "ep105-4",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP105_supplemental.json:/mindsets/4",
+      "to": "ep105-0",
+      "type": "支持"
+    },
+    {
+      "context": "保留現金支持修正時仍能分批調整。",
+      "ep": "EP105",
+      "evidence": {
+        "excerpt": "那我覺得之所以要留現金",
+        "excerpt_sha256": "7cfd9bc471f2ea2616d6b6d0a527ee2639b361e0b869a0f56ed90ec665892343",
+        "line_end": 306,
+        "line_start": 306,
+        "transcript_path": "transcripts/EP105_corrected.txt",
+        "transcript_sha256": "b037481b670b8836fd7f083e838d64a1e235c12facbb9e4aedc179cdb90fc1fb"
+      },
+      "from": "ep105-5",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP105_supplemental.json:/mindsets/5",
+      "to": "ep105-1",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-29",
+    "lastUpdated": "2026-08-30",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-29",
+    "last_update": "2026-08-30",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP104 分析報告",
+    "source": "EP1-EP105 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1069,
-    "total_relations": 811
+    "total_entities": 1075,
+    "total_relations": 816
   },
   "nodes": [
     {
@@ -31324,6 +31409,78 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "自建組合需有調節能力",
       "notion_id": "3cbb92588207815eb8ebd588d8d5993c",
+      "type": "💡概念"
+    },
+    {
+      "description": "先列出可能發生的劇本，再依資金與基本面變化調整部位。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-0",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "規劃情境而非猜短線",
+      "notion_id": "3ccb92588207810c8ca1c17417917b74",
+      "type": "💡概念"
+    },
+    {
+      "description": "進出都採分批，避免焦慮驅動的一次押注。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-1",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "分批保留調整空間",
+      "notion_id": "3ccb925882078161b110f83f8acbab93",
+      "type": "💡概念"
+    },
+    {
+      "description": "新手先用 ETF 建立可比較基準，再判斷是否具備主動選股能力。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-2",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "先以 ETF 建立基準",
+      "notion_id": "3ccb925882078193a444c63b7650e730",
+      "type": "💡概念"
+    },
+    {
+      "description": "市場越熱，越要限制投機標的占比。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-3",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "守住投機部位上限",
+      "notion_id": "3ccb92588207815b9ca5e666a52f9abc",
+      "type": "💡概念"
+    },
+    {
+      "description": "先理解產業趨勢、商業模式與年報全貌，不假裝掌握未知細節。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-4",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "研究從興趣與趨勢開始",
+      "notion_id": "3ccb9258820781c5a7eedab907e4a79b",
+      "type": "💡概念"
+    },
+    {
+      "description": "現金既能應付生活事件，也能避免低檔被迫賣出並保留加碼能力。",
+      "eps": [
+        "EP105"
+      ],
+      "first_ep": "EP105",
+      "id": "ep105-5",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "現金保留選擇權",
+      "notion_id": "3ccb9258820781989e4eea9ee2af82fe",
       "type": "💡概念"
     }
   ]
