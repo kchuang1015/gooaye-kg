@@ -17411,20 +17411,105 @@
       "source_locator": "analysis/EP105_supplemental.json:/mindsets/5",
       "to": "ep105-1",
       "type": "支持"
+    },
+    {
+      "context": "逐字稿所述原則形成後續決策約束。",
+      "ep": "EP106",
+      "evidence": {
+        "excerpt": "也就是說他的,淨資產低於2000萬,那或者是,他的市價低於兩塊,然後持續超過,本來三天之下,好像變成30天,那在這樣的條件之下,他就會下市,那我覺得他是下市下定的,在這邊跟大家,稍微複習一下這個,世代的眼淚,來告訴大家說,其實像這樣的商品呢,真的是,不建議大家去持有,特別是假設你買到在你部位很大的,回頭是岸,什麼反向ETF啦,槓桿型ETF啦,或是像這種波動型的ETF,基本上,你只要持有佔你的部位,超過,",
+        "excerpt_sha256": "6c6627ff0871b292cc28238b302600bc07aacf4dba9c726e0880a738a163dcc2",
+        "line_end": 16,
+        "line_start": 16,
+        "transcript_path": "transcripts/EP106_corrected.txt",
+        "transcript_sha256": "386d59ec59e5d07ee1824b797ec7d9a9aca8359f4cc31d7a3acb5331ee3bc865"
+      },
+      "from": "ep106-0",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP106_supplemental.json:/mindsets/0",
+      "to": "ep106-1",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿所述原則形成後續決策約束。",
+      "ep": "EP106",
+      "evidence": {
+        "excerpt": "你知道你想像中的發生,你就隨時去修正這個參數,因為我覺得修正參數並不是一個很可恥的東西,而且它是必然會發生的東西,所以大家其實與其去迷信先知,就那些感覺已經跟你講好未來怎麼樣一定會發生,然後講得言之鑿鑿,超級有信心的,我覺得其實大家要多去追那些願意修正自己說法的人,因為我覺得這種人呢,才是可能比較有本事的人,這邊當然不是講我自己,可能外面有很多一些分析的,有些人會講說,你看那個誰誰誰,很會講總經的,只是看他說法改變了,沒有告訴你,",
+        "excerpt_sha256": "ed29db3a1d6a85c26a410d7de44aa2b15c67d55bbaa6ef0d7e84248f28db4bdc",
+        "line_end": 21,
+        "line_start": 21,
+        "transcript_path": "transcripts/EP106_corrected.txt",
+        "transcript_sha256": "386d59ec59e5d07ee1824b797ec7d9a9aca8359f4cc31d7a3acb5331ee3bc865"
+      },
+      "from": "ep106-1",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP106_supplemental.json:/mindsets/1",
+      "to": "ep106-2",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿所述原則形成後續決策約束。",
+      "ep": "EP106",
+      "evidence": {
+        "excerpt": "已經正在反映這個東西了,所以你不要說看到現在,比方說這個本益比是隨便抓好,假設抓是30的,然後你就覺得說,他會在持續往上漲,不一定,因為可能在上漲的過程之中,已經有在反映這件事情了,不過我相信如果台積電今天遇到一個,比方說什麼恐慌下殺或什麼的,他只要有一個可以浮現他價值的機會,那他就是一個非常好的投資機會,只是說在相對高點,你還要持續進入的話,還是要分批,千萬不要想說,成績很漂亮，所以 all in,因為你要想,那他之前在漲什麼,他之前就是在漲這樣的東西,因為就是有人會先知道,",
+        "excerpt_sha256": "053ed8f63b3ca80cc5b1d9e9db517a3c11af333b219efdb75bf0a3084d498945",
+        "line_end": 35,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP106_corrected.txt",
+        "transcript_sha256": "386d59ec59e5d07ee1824b797ec7d9a9aca8359f4cc31d7a3acb5331ee3bc865"
+      },
+      "from": "ep106-2",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP106_supplemental.json:/mindsets/2",
+      "to": "ep106-3",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿所述原則形成後續決策約束。",
+      "ep": "EP106",
+      "evidence": {
+        "excerpt": "就有跟大家分享說,一般蔡奇比吧建議七三配,先以七成的被動投資去開局,那因為主動投資老實講真的比較困難,但是我不會否決,你有可能成為一個很不錯的主動投資人的機會,你搞不好就下個巴菲特,他媽誰知道,我知道有些人在市場上鼓吹被動投資,他就會告訴你說,不可能有人打贏大盤,但我覺得那也太狹隘了,但有些做主動投資有說,投資ETF都是笨蛋,那也太狹隘了,反正我們這邊就是老樣子,小朋友才做選擇,我們全部都要,你可以先用這樣開局去試看看,如果說你發現你的主動投資的,",
+        "excerpt_sha256": "208764a04a7bb2386dc158416c20851e1aed3566667911bbaccd637073d58b94",
+        "line_end": 52,
+        "line_start": 52,
+        "transcript_path": "transcripts/EP106_corrected.txt",
+        "transcript_sha256": "386d59ec59e5d07ee1824b797ec7d9a9aca8359f4cc31d7a3acb5331ee3bc865"
+      },
+      "from": "ep106-3",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP106_supplemental.json:/mindsets/3",
+      "to": "ep106-4",
+      "type": "支持"
+    },
+    {
+      "context": "逐字稿所述原則形成後續決策約束。",
+      "ep": "EP106",
+      "evidence": {
+        "excerpt": "我相信是不太容易,我覺得是不太容易,那個機率應該是很低的,但是股票沒有絕對,我只能說就是機率是很低的,那這個就所謂入袋為安,就是如果說你有先把它賣掉,那可能就你有賺到這一波漲價的題材等等的,但是其實在美股大多數的標的,特別是這種市值型 ETF,或像台股,台股我家自己有在這個地期定額給大家扣006208 吧,像這樣的東西,基本上我就完全不會賣,那我就長期的持有,因為長期持有,我知道這個東西勝率是高的,你看那個加權報酬指數,或說你看美股長期的趨勢,",
+        "excerpt_sha256": "f70de20444974f5a38f83fedcaf65f241bb8bd3b6e9679a06bcf33229f2fd30a",
+        "line_end": 76,
+        "line_start": 76,
+        "transcript_path": "transcripts/EP106_corrected.txt",
+        "transcript_sha256": "386d59ec59e5d07ee1824b797ec7d9a9aca8359f4cc31d7a3acb5331ee3bc865"
+      },
+      "from": "ep106-4",
+      "predicate_id": "supports",
+      "source_locator": "analysis/EP106_supplemental.json:/mindsets/4",
+      "to": "ep106-5",
+      "type": "支持"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-08-31",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-30",
+    "last_update": "2026-08-31",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP105 分析報告",
+    "source": "EP1-EP106 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1075,
-    "total_relations": 816
+    "total_entities": 1081,
+    "total_relations": 821
   },
   "nodes": [
     {
@@ -31481,6 +31566,78 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "現金保留選擇權",
       "notion_id": "3ccb9258820781989e4eea9ee2af82fe",
+      "type": "💡概念"
+    },
+    {
+      "description": "會漲不代表適合長期持有；先辨識轉倉耗損、槓桿與下市條件。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-0",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "先避開結構性劣勢產品",
+      "notion_id": "3cdb9258820781c58dfed9aaf1426994",
+      "type": "💡概念"
+    },
+    {
+      "description": "預判必須容許參數改變，願意修正比維持表面一致更重要。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-1",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "用劇本取代先知迷思",
+      "notion_id": "3cdb9258820781cd95b5c0971aa73db2",
+      "type": "💡概念"
+    },
+    {
+      "description": "不必背完技術細節，但要理解需求、競爭與市占，再決定個股或 ETF。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-2",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "懂產業全貌再決定工具",
+      "notion_id": "3cdb9258820781e7b6eec057f21bc4a9",
+      "type": "💡概念"
+    },
+    {
+      "description": "基本面好也可能已反映在價格；保留分批空間以承受估值波動。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-3",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "高點分批而非一次押注",
+      "notion_id": "3cdb9258820781b48195c2991f57c7fd",
+      "type": "💡概念"
+    },
+    {
+      "description": "用一季以上觀察主動部位是否持續勝過基準，再調整新增資金。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-4",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "主動與被動用長週期比較",
+      "notion_id": "3cdb925882078170a2accb7240f23810",
+      "type": "💡概念"
+    },
+    {
+      "description": "市值型資產具流動性；真正需要資金或前提改變時才考慮變現。",
+      "eps": [
+        "EP106"
+      ],
+      "first_ep": "EP106",
+      "id": "ep106-5",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "長期資產不必為入袋而賣",
+      "notion_id": "3cdb9258820781f590c0ff7143f05afb",
       "type": "💡概念"
     }
   ]
