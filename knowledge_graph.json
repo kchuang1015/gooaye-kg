@@ -17501,14 +17501,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-08-31",
+    "lastUpdated": "2026-09-01",
     "last_repair": "2026-02-28",
-    "last_update": "2026-08-31",
+    "last_update": "2026-09-01",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP106 分析報告",
+    "source": "EP1-EP107 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1081,
+    "total_entities": 1093,
     "total_relations": 821
   },
   "nodes": [
@@ -31638,6 +31638,150 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "長期資產不必為入袋而賣",
       "notion_id": "3cdb9258820781f590c0ff7143f05afb",
+      "type": "💡概念"
+    },
+    {
+      "description": "男士造型產品贊助資訊。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-sponsor",
+      "importance": "⭐⭐⭐⭐",
+      "name": "男士造型產品贊助資訊。",
+      "notion_id": "3ceb92588207810e86aec72b48f0027c",
+      "type": "💡概念"
+    },
+    {
+      "description": "馬雲再露面、阿里巴巴競爭力與中概股政策風險。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-alibaba",
+      "importance": "⭐⭐⭐⭐",
+      "name": "馬雲再露面、阿里巴巴競爭力與中概股政策風險。",
+      "notion_id": "3ceb92588207819bb9c4df71ae930ce9",
+      "type": "💡概念"
+    },
+    {
+      "description": "投資資產清冊、美國券商成本、遺產稅與合法交接安排。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-estate_and_brokers",
+      "importance": "⭐⭐⭐⭐",
+      "name": "投資資產清冊、美國券商成本、遺產稅與合法交接安排。",
+      "notion_id": "3ceb92588207812eba48fa1a9825e3f1",
+      "type": "💡概念"
+    },
+    {
+      "description": "Netflix 大額持倉、財報、訂閱流失率、現金流與紀律反省。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-netflix_case",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Netflix 大額持倉、財報、訂閱流失率、現金流與紀律反省。",
+      "notion_id": "3ceb9258820781fdb8d0fd35eabbec54",
+      "type": "💡概念"
+    },
+    {
+      "description": "主動選股至少以季度或半年和大盤比較。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-active_benchmark",
+      "importance": "⭐⭐⭐⭐",
+      "name": "主動選股至少以季度或半年和大盤比較。",
+      "notion_id": "3ceb92588207819283bfef246b141e3a",
+      "type": "💡概念"
+    },
+    {
+      "description": "第三代半導體供應鏈、宏捷科與穩懋的現有曝險。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-compound_semiconductors",
+      "importance": "⭐⭐⭐⭐",
+      "name": "第三代半導體供應鏈、宏捷科與穩懋的現有曝險。",
+      "notion_id": "3ceb9258820781999beaf0b962893657",
+      "type": "💡概念"
+    },
+    {
+      "description": "退休基金自選、操縱案與金融市場管制。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-fund_rules",
+      "importance": "⭐⭐⭐⭐",
+      "name": "退休基金自選、操縱案與金融市場管制。",
+      "notion_id": "3ceb92588207811d901dd216d322c920",
+      "type": "💡概念"
+    },
+    {
+      "description": "右側交易、停損距離、分批加碼與避免過度交易。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-position_sizing",
+      "importance": "⭐⭐⭐⭐",
+      "name": "右側交易、停損距離、分批加碼與避免過度交易。",
+      "notion_id": "3ceb92588207816ca99af6a08474825a",
+      "type": "💡概念"
+    },
+    {
+      "description": "LiDAR 成本曲線、產業展望與個股傳聞界線。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-lidar",
+      "importance": "⭐⭐⭐⭐",
+      "name": "LiDAR 成本曲線、產業展望與個股傳聞界線。",
+      "notion_id": "3ceb9258820781a08424f3ecb0c4394b",
+      "type": "💡概念"
+    },
+    {
+      "description": "VOO 分批投入、風電太陽能 ETF 與聽眾航運空單。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-allocation_and_shorts",
+      "importance": "⭐⭐⭐⭐",
+      "name": "VOO 分批投入、風電太陽能 ETF 與聽眾航運空單。",
+      "notion_id": "3ceb9258820781d0a645df890c0e15c1",
+      "type": "💡概念"
+    },
+    {
+      "description": "市場分享活動與當沖、超短線的風險。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-short_term_risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市場分享活動與當沖、超短線的風險。",
+      "notion_id": "3ceb9258820781479c28fb626d382534",
+      "type": "💡概念"
+    },
+    {
+      "description": "聽眾回饋、學歷職涯與節目收尾。",
+      "eps": [
+        "EP107"
+      ],
+      "first_ep": "EP107",
+      "id": "ep107-topic-community",
+      "importance": "⭐⭐⭐⭐",
+      "name": "聽眾回饋、學歷職涯與節目收尾。",
+      "notion_id": "3ceb9258820781e5b89bf8478df925de",
       "type": "💡概念"
     }
   ]
