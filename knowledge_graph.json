@@ -17501,14 +17501,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-01",
+    "lastUpdated": "2026-09-02",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-01",
+    "last_update": "2026-09-02",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP107 分析報告",
+    "source": "EP1-EP108 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1093,
+    "total_entities": 1101,
     "total_relations": 821
   },
   "nodes": [
@@ -31782,6 +31782,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "聽眾回饋、學歷職涯與節目收尾。",
       "notion_id": "3ceb9258820781e5b89bf8478df925de",
+      "type": "💡概念"
+    },
+    {
+      "description": "寢具贊助與優惠資訊。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-sponsor",
+      "importance": "⭐⭐⭐⭐",
+      "name": "寢具贊助與優惠資訊。",
+      "notion_id": "3cfb9258820781869e48ea768d276401",
+      "type": "💡概念"
+    },
+    {
+      "description": "Podcast 產業直播、數據公開與創作者交流。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-podcast_live",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Podcast 產業直播、數據公開與創作者交流。",
+      "notion_id": "3cfb9258820781c89207e94943c6cee9",
+      "type": "💡概念"
+    },
+    {
+      "description": "熔斷、負油價與分散配置帶來的風險教育。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-market_tail_risk",
+      "importance": "⭐⭐⭐⭐",
+      "name": "熔斷、負油價與分散配置帶來的風險教育。",
+      "notion_id": "3cfb925882078121bb23c7aec12d6aef",
+      "type": "💡概念"
+    },
+    {
+      "description": "GameStop 軋空、Ryan Cohen 轉型論述、Citron 與投機熱潮。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-gamestop_short_squeeze",
+      "importance": "⭐⭐⭐⭐",
+      "name": "GameStop 軋空、Ryan Cohen 轉型論述、Citron 與投機熱潮。",
+      "notion_id": "3cfb9258820781c692d8f218dd3f181d",
+      "type": "💡概念"
+    },
+    {
+      "description": "活動心得、英文學習與 Podcast 經營問答。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-qa_language_and_podcast",
+      "importance": "⭐⭐⭐⭐",
+      "name": "活動心得、英文學習與 Podcast 經營問答。",
+      "notion_id": "3cfb9258820781e1ae93fd94b92eae71",
+      "type": "💡概念"
+    },
+    {
+      "description": "市值型 ETF、退休慾望與跨境 ETF 問答。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-index_etf_and_retirement",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市值型 ETF、退休慾望與跨境 ETF 問答。",
+      "notion_id": "3cfb92588207814598d2d9f03ace0760",
+      "type": "💡概念"
+    },
+    {
+      "description": "零股定期定額、成交價與手續費。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-odd_lot_dca",
+      "importance": "⭐⭐⭐⭐",
+      "name": "零股定期定額、成交價與手續費。",
+      "notion_id": "3cfb925882078171b14ed4ea07b22b2c",
+      "type": "💡概念"
+    },
+    {
+      "description": "群組資訊交流與節目收尾。",
+      "eps": [
+        "EP108"
+      ],
+      "first_ep": "EP108",
+      "id": "ep108-topic-community",
+      "importance": "⭐⭐⭐⭐",
+      "name": "群組資訊交流與節目收尾。",
+      "notion_id": "3cfb9258820781cf9cb6d53bb38ac4a8",
       "type": "💡概念"
     }
   ]
