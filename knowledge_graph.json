@@ -17506,9 +17506,9 @@
     "last_update": "2026-09-02",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP108 分析報告",
+    "source": "EP1-EP109 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1101,
+    "total_entities": 1104,
     "total_relations": 821
   },
   "nodes": [
@@ -31878,6 +31878,42 @@
       "importance": "⭐⭐⭐⭐",
       "name": "群組資訊交流與節目收尾。",
       "notion_id": "3cfb9258820781cf9cb6d53bb38ac4a8",
+      "type": "💡概念"
+    },
+    {
+      "description": "以晶圓代工、矽智財、IC 設計與封測分散單一標的風險。",
+      "eps": [
+        "EP109"
+      ],
+      "first_ep": "EP109",
+      "id": "ep109-topic-semiconductor-chain",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "🧩 半導體產業鏈",
+      "notion_id": "3cfb92588207812cbd2ede69c15415b5",
+      "type": "💡概念"
+    },
+    {
+      "description": "不要在單一高點重壓；分批投入讓成本與心理壓力都有調整空間。",
+      "eps": [
+        "EP109"
+      ],
+      "first_ep": "EP109",
+      "id": "ep109-topic-staged-entry",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "分批投入保留餘裕",
+      "notion_id": "3cfb9258820781cfa4ebf54d9cf013d3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "成熟製程供給、政策與車用需求的交互影響。",
+      "eps": [
+        "EP109"
+      ],
+      "first_ep": "EP109",
+      "id": "ep109-topic-mature-process",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 成熟製程與車用晶片",
+      "notion_id": "3cfb9258820781e7a84bc0c9878d47e1",
       "type": "💡概念"
     }
   ]
