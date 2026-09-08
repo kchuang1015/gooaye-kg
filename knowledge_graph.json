@@ -17506,9 +17506,9 @@
     "last_update": "2026-09-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP111 分析報告",
+    "source": "EP1-EP112 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1110,
+    "total_entities": 1112,
     "total_relations": 821
   },
   "nodes": [
@@ -31953,9 +31953,10 @@
       "type": "🧠心法"
     },
     {
-      "description": "平台需求成長與供應商客戶證據必須分開。",
+      "description": "短期流量熱潮與長期即時語音需求必須分帳。",
       "eps": [
-        "EP111"
+        "EP111",
+        "EP112"
       ],
       "first_ep": "EP111",
       "id": "ep111-topic-realtime-audio",
@@ -31986,6 +31987,30 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "不要把供應商猜測寫成事實",
       "notion_id": "3d5b9258820781b3ad6fd450ec041e27",
+      "type": "🧠心法"
+    },
+    {
+      "description": "策略目的、費用與市場循環共同決定工具適配。",
+      "eps": [
+        "EP112"
+      ],
+      "first_ep": "EP112",
+      "id": "ep112-topic-momentum-etf",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "📈 動能與市值型 ETF",
+      "notion_id": "3d5b92588207817285a4c18e9b818581",
+      "type": "💡概念"
+    },
+    {
+      "description": "即使研究方向合理，客戶、拉貨、廠房與景氣循環仍可能改變單股結果。",
+      "eps": [
+        "EP112"
+      ],
+      "first_ep": "EP112",
+      "id": "ep112-mindset-position-limit",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "單一個股曝險不要過大",
+      "notion_id": "3d5b92588207817d90e7f5c677c66501",
       "type": "🧠心法"
     }
   ]
