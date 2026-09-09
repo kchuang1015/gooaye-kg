@@ -17501,14 +17501,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-08",
+    "lastUpdated": "2026-09-09",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-08",
+    "last_update": "2026-09-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP112 分析報告",
+    "source": "EP1-EP113 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1112,
+    "total_entities": 1114,
     "total_relations": 821
   },
   "nodes": [
@@ -32012,6 +32012,30 @@
       "name": "單一個股曝險不要過大",
       "notion_id": "3d5b92588207817d90e7f5c677c66501",
       "type": "🧠心法"
+    },
+    {
+      "description": "企業採用、託管、會計與價格風險需要分帳。",
+      "eps": [
+        "EP113"
+      ],
+      "first_ep": "EP113",
+      "id": "ep113-topic-corporate-bitcoin",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "₿ 企業比特幣採用與支付",
+      "notion_id": "3d6b9258820781a7bfc4eb948b21f60f",
+      "type": "💡概念"
+    },
+    {
+      "description": "長期終端需求與個別公司訂單需要分帳。",
+      "eps": [
+        "EP113"
+      ],
+      "first_ep": "EP113",
+      "id": "ep113-topic-rf-semiconductors",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "📡 射頻與化合物半導體",
+      "notion_id": "3d6b9258820781f9a40cf94695cf1a54",
+      "type": "💡概念"
     }
   ]
 }
