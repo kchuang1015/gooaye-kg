@@ -17506,9 +17506,9 @@
     "last_update": "2026-09-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP113 分析報告",
+    "source": "EP1-EP114 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1114,
+    "total_entities": 1116,
     "total_relations": 821
   },
   "nodes": [
@@ -32035,6 +32035,30 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "📡 射頻與化合物半導體",
       "notion_id": "3d6b9258820781f9a40cf94695cf1a54",
+      "type": "💡概念"
+    },
+    {
+      "description": "策略績效、容量、費用與公開基金身分需要分帳。",
+      "eps": [
+        "EP114"
+      ],
+      "first_ep": "EP114",
+      "id": "ep114-topic-quant-capacity",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "🧮 量化基金與策略容量",
+      "notion_id": "3d6b9258820781c4a10cd4efc29a4bf0",
+      "type": "💡概念"
+    },
+    {
+      "description": "支付入口、借貸利差與信用風險需要分帳。",
+      "eps": [
+        "EP114"
+      ],
+      "first_ep": "EP114",
+      "id": "ep114-topic-fintech-stack",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "💳 金融科技支付與放貸",
+      "notion_id": "3d6b9258820781b5891fcaf41dabac80",
       "type": "💡概念"
     }
   ]
