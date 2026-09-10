@@ -17501,14 +17501,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-09",
+    "lastUpdated": "2026-09-10",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-09",
+    "last_update": "2026-09-10",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP114 分析報告",
+    "source": "EP1-EP115 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1116,
+    "total_entities": 1118,
     "total_relations": 821
   },
   "nodes": [
@@ -32059,6 +32059,30 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "💳 金融科技支付與放貸",
       "notion_id": "3d6b9258820781b5891fcaf41dabac80",
+      "type": "💡概念"
+    },
+    {
+      "description": "核心業務供應資本與能力，再由新事業形成第二成長曲線。",
+      "eps": [
+        "EP115"
+      ],
+      "first_ep": "EP115",
+      "id": "ep115-topic-spawner-compounding",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "🧬 Spawner 企業與長期複利",
+      "notion_id": "3d7b92588207815ea84cc80e046d3a5c",
+      "type": "💡概念"
+    },
+    {
+      "description": "基本面、估值、目前曝險與短期買點需要分帳。",
+      "eps": [
+        "EP115"
+      ],
+      "first_ep": "EP115",
+      "id": "ep115-topic-quality-tech-hold",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "💻 高品質科技股與長期持有",
+      "notion_id": "3d7b92588207817a90e4caea36f0f389",
       "type": "💡概念"
     }
   ]
