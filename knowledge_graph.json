@@ -17506,9 +17506,9 @@
     "last_update": "2026-09-10",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP115 分析報告",
+    "source": "EP1-EP116 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1118,
+    "total_entities": 1120,
     "total_relations": 821
   },
   "nodes": [
@@ -32083,6 +32083,30 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "💻 高品質科技股與長期持有",
       "notion_id": "3d7b92588207817a90e4caea36f0f389",
+      "type": "💡概念"
+    },
+    {
+      "description": "申報時差、整體組合與避險脈絡限制單一持股抄作業。",
+      "eps": [
+        "EP116"
+      ],
+      "first_ep": "EP116",
+      "id": "ep116-topic-13f-portfolio-context",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "📑 13F 與機構持倉判讀",
+      "notion_id": "3d7b925882078132bd73df3fbcfbfe1a",
+      "type": "💡概念"
+    },
+    {
+      "description": "缺貨、資本支出、估值與供需緩解必須分帳。",
+      "eps": [
+        "EP116"
+      ],
+      "first_ep": "EP116",
+      "id": "ep116-topic-semiconductor-cycle",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "🔬 晶圓代工景氣與估值",
+      "notion_id": "3d7b9258820781b2be48fae73605a772",
       "type": "💡概念"
     }
   ]
