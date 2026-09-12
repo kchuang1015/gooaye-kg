@@ -17496,20 +17496,276 @@
       "source_locator": "analysis/EP106_supplemental.json:/mindsets/4",
       "to": "ep106-5",
       "type": "支持"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：折現率 → 成長資產估值。保留利率影響估值的方向；同時保留景氣改善的替代解釋，不升級為單一跌勢因果。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "因為其實最主要是因為說,在很多的估值模型裡面,\n比方說這個DCF,Discount Cash Flow,就是折現金流的算法呢,\n他會有一個基本的對照的利率來看,\n怎麼說,比方說我今天假設投資某個股票,\n然後他算回來,他可以為我帶來的利率呢,\n比方說是4%好了,\n那現在假設市場上的利率,\n就是這種十年期國債,\n基本上算是零風險利率,\n無風險利率呢,\n他是比方說0.25%,\n所以相較之下,\n3%的東西是不是就非常吸引人,\n那於是他們就會瘋狂去買這個東西,\n那你要記得去買一個東西的時候,\n就會把價格推高,\n價格推高換算它的殖利率跟它的利息,\n就會往下跌,\n所以在最近大家看到這種瘋狂的資產飆升呢,\n其實或多或少就是有在反映,\n第一個現在市場上QE很多現金在外面,\n然後第二個就是因為零利率,\n所以零利率呢,\n就讓這些資產的價格在過往的表現非常的好,\n那最近看到這個美債殖利率開始上升,\n當然這是一個非常混合的訊號,\n就是怎麼講,\n像這種總經濟的指標,\n你很難用一個單一的法則,\n或單一的判斷方式說它一定是好一定是壞,\n因為其實那個都是見仁見智,\n看你怎麼去解釋,\n比方說像是這個美債的十年期國債殖利率上升呢,\n你把它做不好的解釋,\n不好的解釋就是講說,\n因為這個,\n比方說像很多人會用這種DCF估值的方法,\n所以相較之下,\n風險資產的價格已經沒那麼甜了,\n所以他們可能就去殺風險資產,\n然後造成這樣一個valuation reset,\n估值重置的一個過程,\n特別是那種最近漲很多的,\n可能就是會被殺最兇的,\n那如果說你要用好的方法去切入呢,\n你也可以講說,\n像這種十年期國債或三十年國債殖利率上升,\n其實對某種程度來說,\n它對未來的經濟改善是看好的,\n才會有這樣的現象,\n或者說這個,\n包含說像是景氣的復甦,\n然後或者說通膨的回溫,\n因為大家怕通縮,\n其實通膨是,\n控制在合理的範圍內是比較好的,\n那大家是怕通縮,\n那通膨的穩定的回溫,\n那或者是說這個,\n未來企業的預期的獲利的上升,\n等等的,\n你一個數據其實可以用好的方向去解釋,\n你也可以用不好的方向去解釋,",
+        "excerpt_sha256": "c8925c5f0b9678ee17e74c0c3be8cc30ccdb56576cc2fcf490b8686cc575c068",
+        "line_end": 256,
+        "line_start": 194,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-discount-rate",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/0",
+      "to": "ep117-growth-asset-valuation",
+      "type": "影響"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：Cathie Wood管理的ARK組合 → Tesla。主持人轉述的第三方長期持股；不得轉成主持人持股或補指定ARK ETF。需解析既有實體及保留轉述與時點。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "你就把它當成是一個好好檢視自己手上標的的機會,\n那我覺得套一句Cathie Wood在訪問裡面有提到一點很重要的,\n就人家問他說你的ARK的資金會怎麼樣調整呢,\n他說他當然會選擇先去把這個估值較高的部分減少,\n那放到他認為持續長線看好那些標的,\n那目前他長線買最多的標的當然就是特斯拉跟Roku,\n然後還有像是Teladoc這樣的公司,\n所以你看他也會去做一個資金的調配,",
+        "excerpt_sha256": "a6eb917df16ac00bfd82a638c2f12f318ad46ac1ef6ed6539528ff1a77d1ec3b",
+        "line_end": 344,
+        "line_start": 337,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/1",
+      "to": "tesla",
+      "type": "持有"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：Cathie Wood管理的ARK組合 → Roku。第三方組合關係可入KG候選，不能因持股表排除Roku就刪除；不得當作官方持倉驗證。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "你就把它當成是一個好好檢視自己手上標的的機會,\n那我覺得套一句Cathie Wood在訪問裡面有提到一點很重要的,\n就人家問他說你的ARK的資金會怎麼樣調整呢,\n他說他當然會選擇先去把這個估值較高的部分減少,\n那放到他認為持續長線看好那些標的,\n那目前他長線買最多的標的當然就是特斯拉跟Roku,\n然後還有像是Teladoc這樣的公司,\n所以你看他也會去做一個資金的調配,",
+        "excerpt_sha256": "a6eb917df16ac00bfd82a638c2f12f318ad46ac1ef6ed6539528ff1a77d1ec3b",
+        "line_end": 344,
+        "line_start": 337,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/2",
+      "to": "roku",
+      "type": "持有"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：Cathie Wood管理的ARK組合 → Teladoc。同段第三方持股轉述，需明確歸屬及既有實體解析，不推定基金代號或數量。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "你就把它當成是一個好好檢視自己手上標的的機會,\n那我覺得套一句Cathie Wood在訪問裡面有提到一點很重要的,\n就人家問他說你的ARK的資金會怎麼樣調整呢,\n他說他當然會選擇先去把這個估值較高的部分減少,\n那放到他認為持續長線看好那些標的,\n那目前他長線買最多的標的當然就是特斯拉跟Roku,\n然後還有像是Teladoc這樣的公司,\n所以你看他也會去做一個資金的調配,",
+        "excerpt_sha256": "a6eb917df16ac00bfd82a638c2f12f318ad46ac1ef6ed6539528ff1a77d1ec3b",
+        "line_end": 344,
+        "line_start": 337,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/3",
+      "to": "ep72-teladoc",
+      "type": "持有"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：Ray Dalio → MCHI。節目轉述Dalio持有；不得擅自改成Bridgewater或宣稱已核對13F，亦非主持人持倉。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "中國ETF我們之前有一集有聊到過,\n比較完整,\n我忘記哪一集,\n反正有時候你可能看一下東哥的筆記,\n去對照一下,\n我在這邊跟你講幾個,\n比方說像達里歐就有買MCHI,\n或是一個我自己回測過,\n發現中國科技股表現比較好的ETF,\nKWEB,\n像這些都是你可以去參考的一個選股,\n中國這邊的指數要注意,\n如果你是追一些比較無聊的指數的話,\n那它的表現就沒這麼好,\n比方說有些人看上證50來看中國,\n覺得中國股市好像表現沒有很好,\n但是如果說你今天是用這個,\n比方說科技指數,\n比方說深成指這些來看,\n你就會發現中國的表現還不錯,\n所以要看你是用什麼指數,\n那中國這邊算是另外一個,\n完全不一樣的市場,\n那你的這個做法是聰明的,\n因為你買中概股,\n確實踩到雷的機會很高,\n那如果說你是看好整個中國市場,\n用ETF佈局,\n我覺得是最適合,\n它比美國更適合用ETF,\n因為真的中概股單一踩雷的機會太高了,\n那或許可以參考看,\n我剛剛提的是兩個ETF,\n那或是看一下像達里歐,\n他對中國蠻多研究,\n你可以看他13F報告買什麼,\n然後就跟著抓出來研究看看,",
+        "excerpt_sha256": "95d07419c62b0357d573db29c20979009a80b9975d25b5d7def45f9f62e07ab9",
+        "line_end": 642,
+        "line_start": 606,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ray-dalio",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/4",
+      "to": "mchi",
+      "type": "持有"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：PCB → 伺服器與消費電子等應用。產品應用與需求的教學關係；只能用明確概念端點，不建立未具名廠商供應鏈。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "他說想問問股癌大家對於PCB產業的看法,\n查了一下,\n好像不管是5G電動車都用得到,\n這是不是就符合癌大有一集說的選股方式呢?\n還是要等明朗一點再開始佈局,\n感謝癌大,\n你知道PCB是什麼嗎?\nPCB就是印刷電路板,\n所以其實所有電子元件基本上都用得到,\n什麼伺服器啊,\n自駕車啊,\n或者說什麼物聯網的智慧音箱啊,\n電腦筆電,\n裡面全部都有印刷電路板,\n印刷電路板就是你把那些晶片,\n什麼有的沒有的機巴塞在上面的東西,\n那個就叫做印刷電路板,\n那印刷電路板現在也沒那麼單純,\n就是說就只是PCB,\n然後全部都是PCB,\n不是,\n大家分什麼高層板,\n伺服器板什麼的,\n所以還是要看,\n就台股的PCB產業確實是世界,\n我記得是第一名還是第二名,\n事實上就是非常非常的龐大,\n但是呢,\n每個做PCB的廠,\n有這麼多的PCB廠,\n有些是做什麼軟板,\n有些做硬板的,\n有些是做伺服器用的,\n有些做高層板的,\n每個都不一樣,\n所以要看說,\n可能現在在紅什麼,\n因為這種股票很吃題材啦,\n如果說他今天專門做某種板的,\n然後剛好又題材有搭到的話,\n然後一次拉大量的貨,\n像這些印刷電路板廠,\n很多就之前吃到蘋果的題材,\n可能是AirPods裡面用的這個印刷電路板等等的,\n類似這樣子的東西,\n當你被吃到的時候,\n它的那個整個,\n不然說未來的PE的,\n這個怎麼講,\n法人願意給的估值就會高很多,\n所以整個PCB產業呢,\n我個人是還蠻建議說,\n假設你真的要做這一塊的話,\n它不是這麼單純,\n就是說印刷電路板整體是怎麼樣,\n你要先看它的細項是什麼,\n它到底是專精於哪一部分的,\n然後之後還要去觀察整個業界,\n現在流行什麼紅什麼,\n所以沒有那麼簡單,\n它沒有那麼容易投資,\n那當然你也可以選擇,\n你自己去組一個PCB的ETF,\n你自己拉一個,\n假設你非常看好PCB的話,\n大概是這樣,",
+        "excerpt_sha256": "cf5f042f0e480b6ed7541343b3f5cac69d8848f4e00a38ce4a6c1111fee433d2",
+        "line_end": 1224,
+        "line_start": 1159,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "pcb-board",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/5",
+      "to": "ep117-pcb-end-applications",
+      "type": "應用於"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：ARKG集中持股 → 流動性風險。條件式集中風險，非已發生清算；不是主持人做空。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "那ARK昨天的跌幅也非常驚人,\n就你很少看到一個ETF可以跌這麼多,\n但是這是ARK的第二次大修正的吧,\n上一次我們剛好有錄節目跟大家講說,\n他的可能的風險有哪些,\n特別是像是ARKG這種,\n很多自己買小股買到變大股東的,\n你可能去回聽那一集,\n去稍微注意一下說,\n如果下殺繼續持續的話,\n那這種他自己買到變大股東的ETF呢,\n可能就會產生一定程度的風險,\n這個風險可能甚至會大到你是無法接受的,",
+        "excerpt_sha256": "a97a03ec0c368cbea8c244a0cf72d92b832bb64bf491f7075d58c5956a0e8c29",
+        "line_end": 478,
+        "line_start": 466,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-arkg-concentrated-holdings",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/7",
+      "to": "ep117-concentration-liquidity-risk",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP117（2021-02-24）節目敘述：Facebook → 澳洲新聞議價事件。事件曝險及主持人勝負觀點分開；2022–2023回顧不能當2021同期判決證據。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "也不要砍亞馬遜,\n那或像是臉書,\n臉書其實是遇到了澳洲政府的事件,\n不過現在最後面我覺得結局算是,\n臉書是贏的,\n因為臉書還是把所有的主控權握在手上,\n要不要賞給你們媒體錢也,\n還是臉書決定的,\n臉書也算是一個蠻硬的標的,\n那你會看到一些標的像這樣子的,\n就比方說大家平均跌幅是7%8%,\n可是他跌幅可能就在大家的一半之類的,\n這個可能就是可以密切關注的,\n不代表說這些東西就是絕佳的買進的標的,\n因為如果你不了解的東西,\n你還是不要買,\n但是如果說有些你防守範圍的東西,\n你發現他跌幅比別人少的,\n就是用一些交易經驗來講,\n其實這個可能會是一個很讚的機會,",
+        "excerpt_sha256": "790ad0c687b72f4433e4507345a63d52025e183fa8b76d44f59834234a2ad5f6",
+        "line_end": 576,
+        "line_start": 557,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep58-meta-meta",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/8",
+      "to": "ep117-australia-news-bargaining",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：主持人看房經驗：低利率減輕賣方壓力，不保證所有地區房價走高。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "那被打槍的原因其實都很簡單,就是大家不想要賠,\n這些屋主都不想要賠售,那其實在之前的狀況可能是,\n就算他不想要賠售,他還是得賠售,因為他的資金壓力很大,\n可是現在因為肺炎,所以許多國家都有幫他們的房貸去降利息,\n台灣也有,那有些人就有受惠到,那再來就是大家都看得到利率很低,\n而且之後就算有升息,應該也很難升回像以前那個高點,\n因為美國現在有大量的赤字,所以一些相關的關係呢,\n我覺得利息會維持在低檔,相對長的一段時間,\n那可能很多人也發現這件事情了,所以他本來他有繳房貸,\n他覺得可能繳不下去了,受不了了,幹,動不了,馬上停損,\n然後就賣一個不錯的價格,那可是現在大家都知道說,\n我們都可以繼續撐下去,所以大家繼續撐,所以我下幾個斡旋都被推掉,\n因為他們都想要賣我,賣的比近兩年的實價登錄還要來的高,\n我想說幹,如果我今天沒有在炒股,然後我真的超喜歡這個房子,我就會接了,\n但是我在炒股,我就是忍受不了那種,你知道我們這種會看數據的人,\n然後你還讓自己,還允許自己買在實價登錄的最高點,\n就算你再喜歡這個房子,景觀再好,你都無法接受這樣的事情,\n那他們都會想說,我不要賠售,然後可能過往的管理費都要算進去,\n加一加,你看這樣多少錢,可是那就是實價登錄的最高點,大家都不賣,\n他不賣他也不緊張,因為我問了幾家,結果後來發現房仲也這樣講,\n就說最近這些屋主都不緊張,大家都慢慢來,好吧那就慢慢來吧,\n反正我覺得買房子也不用急,就是有看到就搬吧,\n那如果沒有看到,其實居住也沒有什麼差別,\n不過確實就是親身的去感受到這種資金寬鬆的威力,\n因為可能這些人他們前陣子有在拋售的,\n就想說不要撐了,這些買到高總價,\n隨便第一排,套超高的不要玩了,那最近因為利息低了,\n所以大家可以繼續玩下去,那我覺得年輕人買房也不一定,\n就是你一定要把這個當成是畢生的職志,你一定要買,",
+        "excerpt_sha256": "aaeb9391b53cba2a569266bc9022fba6277499d6f0adf37247d23e0a1c1b35da",
+        "line_end": 116,
+        "line_start": 88,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-mortgage-rates-from",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/12",
+      "to": "ep117-mortgage-rates-to",
+      "type": "影響"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：主持人的資金取捨與觀察，不作所有家庭的必然結果。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "因為坦白說,我自己現在28歲,那我覺得我在28歲收入應該算前面的,\n不敢說頂尖,可是一定是前面的,那可是老實講,\n要買房子這件事情對我壓力來說也是蠻大的,\n因為你本來你就想,你本來錢是全部丟到市場裡面,\n以我是丟在市場,有些人可能是,比方說他是有做其他投資,\n像我有投一些實體的東西,可是你第一個產生的影響,\n就是你要買這房子,你要背這房貸,你就會想要去控制掉這些支出,\n像說你第一個你要從股票裡面殺肉出來,或是你要從一些投資裡面殺肉出來,\n然後再來就是你要繳房貸,所以你開始去想一些你可能本來不會想到的事情,\n像我已經超久沒有去做什麼預算規劃,\n什麼今天Uber不要叫那麼多好了,今天Choco狗食不要吃那種1kg5000的,\n吃1kg2000就好了,我很久沒有去想過這樣的東西,好幾年了,\n但是自從開始看房子之後,竟然開始去想說,這邊可不可以省一點,\n那邊可不可以省一點,然後也就開始去想說,\n這個股票市場的錢就不可以放這麼多了,那報酬率就沒那麼好了,\n所以生活呢就可能要稍微控制一下,那這個實體的投資呢,\n之前朋友假設有什麼好玩的我都會講說,來來來,拜託PASS給我喔,\n就是我每個都要插一點股這樣,我覺得很有趣,\n那現在也會覺得,不要好了,就是要稍微控制一下,\n那我想一想這件事情我會覺得,你知道這就是對整個環境會比較不健康,\n因為大家會覺得,我這個錢是必須的,我是需要的,\n所以我要壓在這個房地產上面,那房地產呢就等於會把我的很多流通性給吃掉,\n所以一個人的創作力就會變低,那我覺得生活上的價值也會變低,\n怎麼說,因為你本來假設,你去找一個工作,很多時候我們講說不爽不要做嘛,\n那這不爽不要做也不一定說你是一個吊兒郎當的他媽的很拽的人這樣,\n就只是單純,那有時候你就遇到一些不順利的東西,\n那其實我們的教育觀念很多人都告訴你說,其實你遇到不順利的你就換個地方,\n你換條路走搞不好就是海闊天空這樣,可是問題是假設你今天背個房貸,\n你應該是很難換條路走,就是即便你要換條路走,\n你要經過超長的深思熟慮,或者說你一定那個手續會變得更麻煩,你要先忍耐忍耐,\n然後直到你確定找到下一個工作可以繼續扛下你的房貸你才會換嘛,\n就無法像以前那樣子喔,我休息個半年,然後再回去工作,\n所以他確實會對你整個人的生產力,然後跟心情造成非常大的影響,\n就連我覺得我自己算是28歲還可以的,那這個影響的感覺都非常的大,",
+        "excerpt_sha256": "7a4f11745f633b5574f89955926f2f46c9ab690ba74b10d8189d771c9a53f6c0",
+        "line_end": 150,
+        "line_start": 117,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-mortgage-budget-from",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/13",
+      "to": "ep117-mortgage-budget-to",
+      "type": "約束"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：2021-02-24節目討論的擬議稅負；不把建議/法案當作已生效，也非跌勢唯一原因。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "因為有傳出說他們可能有可能要去增加這個印花稅,\n買股票印花稅的部分,雖然那增加的幅度很少,\n但其實一般這種增加整個資本市場裡面成本的動作呢,\n包含說像台股之前的郭婉容事件,或是郭婉容之後的劉憶如事件,\n他們想要去課證所稅,然後都落賽,股市的反應都非常的劇烈,\n然後現在葉倫呢,可能也會去弄一個這個未實現資本利得稅,\n我覺得非常的蠢,那其實很多海外的對沖基金老闆也覺得很蠢,\n大家覺得這件事超蠢,但其實你可以看出全球的市場,\n全球的市場他們都試著在這個,應該說政府,他們都試著在市場裡面去提款,\n因為現在可能看到很多的赤字,遇到疫情有很多的補貼,\n那他們要去把這個赤字給弄回來,就是去怎麼講,\n人潮洶湧的地方,像是股市因為很熱嘛,所以要可能在股市裡面去做課稅這樣,\n那可能房地產也會課稅啊,或任何有在炒作的資產呢,\n可能都會有政府的介入,因為大家都想要把這個,\n目前的赤字給壓下去,但是我覺得其實最近的下殺,\n香港這邊可能有些人會講說是因為這個,\n印花稅啦,或者說其實跟著美股下殺,\n那美股這邊呢,我個人是比較傾向於認為是,\n一個所謂的Valuation Reset,\n然後就整個估值的一個重置,\n那為什麼遇到一個Valuation Reset呢?\n為什麼遇到一個Valuation Reset呢?\n因為其實最主要是因為說,在很多的估值模型裡面,",
+        "excerpt_sha256": "93d336ccd3fe6242d8e051296e3835637961aa281250ffdaaf88fabb363629eb",
+        "line_end": 194,
+        "line_start": 172,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-hk-tax-from",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/14",
+      "to": "ep117-hk-tax-to",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：條件是使用槓桿；不沿用逐字稿現股亦必然margin call的含混說法。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "你還有什麼可以買,\n大概是這樣,\n如果說真的是沒有辦法去應付這樣的心理壓力,\n好像可以趁這個機會,\n調整一下讓自己去做這個被動選股,\n最主要就是說在下跌的時候,\n如果你手上有槓桿的話,\n我會建議你把手上的槓桿部位給降低,\n或甚至是清掉,\n很多人都去忽略槓桿的一個,\n怎麼講,\n就是說它在下跌的時候,\n它對你的部位造成的破壞,\n你如果是現股的話,\n就會產生margin call,\n就是人家會來催繳你,\n你就要看要不要補錢,\n可是如果補了又繼續跌怎麼辦,\n那就是一個怎麼講,\n補不完的錢坑,",
+        "excerpt_sha256": "f2c030c43135a58a1dcb317e252bd6143972c90fa719f2d7ea34c03b177e6836",
+        "line_end": 399,
+        "line_start": 380,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-leverage-drawdown-from",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/15",
+      "to": "ep117-leverage-drawdown-to",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：節目用50%至60%權重教學；非每個選擇權部位都同等風險，亦非已發生損失。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "搞不好你根本撐不到反彈,\n那再來就是,\n如果你今天是使用選擇權部位的話,\n你就吃歸零膏,\n就直接歸零,\n很多人都告訴你說,\n選擇權風險很低,\n那是可防可控,\n我今天如果是買call,\n或是買put的話,\n了不起就是歸零,\n但是我的上檔的獲利是無限,\n對,理論上是這樣沒錯,\n所以比方說你100%資金,\n花個2-3%去買選擇權,\n沒有太大的問題,\n可是有些人他的100%資金,\n像是Wall Street Bets上面的,\n或是說一些比較投機的投機分子,\n他們可能就是50%60%的資金,\n全部壓這種短期的選擇權,\n那就非常的危險,\n因為如果說5-60%同時歸零的話,",
+        "excerpt_sha256": "b718c7a842adf46ab4b29cb549c33e98ed81938be2ca55da9ddcc987c3412c6e",
+        "line_end": 422,
+        "line_start": 400,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-option-weight-from",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/16",
+      "to": "ep117-option-weight-to",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：配置目的為減少單一板塊集中；不保證傳產價格不跌或股息穩定。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "有些人會在自己 portfolio裡面\n拉一個,\n比方說傳產股,\n其實拉傳產股,\n他也不是期待傳產股要有什麼樣的表現,\n他希望說我不要曝險太多在科技股,\n如果今天科技股大跌,\n比方說像最近,\n你就覺得心情很差,\n因為你百分之百科技股幹就很痛,\n可是如果你有配一些傳產,\n可能你大跌你就沒那麼痛,\n因為你有一些是傳產,\n那傳產可能你就期待說他會穩定配息,\n他會慢慢往上爬,\n什麼的,\n他其實不是拿來當一個獲利的主力,\n有點像是,\n你今天去組一個隊伍,\n籃球隊,\n對,\n有些人負責進攻,\n有些人負責防守,\n有些人是負責在裡面穿針引線的,\n差不多是這個意思,\n一個Portfolio也差不多這樣,\n你不可能每個都放最激進的東西,\n如果說你要每個都想要翻倍翻倍的,\n你就比方說全壓比特幣還開槓桿之類的,\n或者說你就全部去買ARK,\n你也可以這樣做,\n可是一般人不會,\n所以可能你會去做一個這樣的配置,",
+        "excerpt_sha256": "b57375c6df21315bc81d4491db024007e6917c687c81c14ae16588e9ff73189a",
+        "line_end": 1070,
+        "line_start": 1038,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-diversification-from",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/17",
+      "to": "ep117-diversification-to",
+      "type": "約束"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：高低價持續投入平滑成本，不保證報酬，也不把聽眾0050視為主持人持股。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "要啊,\n本來就是你要做指數化投資,\n很核心的觀念就是你要持續的投入,\n因為你不知道高點跟低點在哪裡,\n所以你去做持續的投入,\n就可以把你的成本平滑化,\n老生常談,\n所以你雖然一次重壓了很多,\n但是沒關係,\n理論上就是,\n就算你一個月只能存到1000塊好了,\n那1000塊丟進去,\n他也是會去平滑那個成本,\n雖然可能平滑的時間會讓他很長,\n但是你要想你的,\n你的薪水可能也會漲啊,\n然後你可以存的錢可能也會變多啊,\n所以他長久下來,\n可能也是不錯的啊,\n所以你要做指數化投資,\n我覺得都要看長一點,\n就是不可以看太短,\n因為看太短是沒有意思的,\n特別是比方說你今天假設遇到熊年,\n遇到熊市的話,\n那一定是天天都特價,\n天天都便宜,\n那難道你這樣就要放棄了嗎?\n所以怎麼講,\n怎麼講,\n你之所以要定期定額投入,\n就是因為你可能有時候買高,\n有時候買低,\n最後面是平均的,\n你前面已經丟了,\n就這樣了吧,\n你也沒有辦法改變什麼了,",
+        "excerpt_sha256": "9ea9c23a93f456cf31de8f64ef9a6393e219fc1b9de9ec4b90c3e4b728cba3de",
+        "line_end": 1148,
+        "line_start": 1112,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-periodic-cost-from",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/18",
+      "to": "ep117-periodic-cost-to",
+      "type": "影響"
+    },
+    {
+      "context": "EP117（2021-02-24）主持人觀點：須辨識廠商專精板種與實際需求；未具名供應商不補公司，估值不是必然上升。",
+      "ep": "EP117",
+      "evidence": {
+        "excerpt": "有些是做什麼軟板,\n有些做硬板的,\n有些是做伺服器用的,\n有些做高層板的,\n每個都不一樣,\n所以要看說,\n可能現在在紅什麼,\n因為這種股票很吃題材啦,\n如果說他今天專門做某種板的,\n然後剛好又題材有搭到的話,\n然後一次拉大量的貨,\n像這些印刷電路板廠,\n很多就之前吃到蘋果的題材,\n可能是AirPods裡面用的這個印刷電路板等等的,\n類似這樣子的東西,\n當你被吃到的時候,\n它的那個整個,\n不然說未來的PE的,\n這個怎麼講,\n法人願意給的估值就會高很多,\n所以整個PCB產業呢,\n我個人是還蠻建議說,\n假設你真的要做這一塊的話,\n它不是這麼單純,\n就是說印刷電路板整體是怎麼樣,\n你要先看它的細項是什麼,\n它到底是專精於哪一部分的,\n然後之後還要去觀察整個業界,\n現在流行什麼紅什麼,\n所以沒有那麼簡單,",
+        "excerpt_sha256": "63da62592c211e78644dc28d7c5a67ae9825cf0abf5cd4ceaf7f90a5440fc6b0",
+        "line_end": 1218,
+        "line_start": 1189,
+        "transcript_path": "transcripts/EP117_corrected.txt"
+      },
+      "from": "ep117-pcb-demand-valuation-from",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP117_supplemental.json:/kg_relationship_review/candidates/19",
+      "to": "ep117-pcb-demand-valuation-to",
+      "type": "影響"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-10",
+    "lastUpdated": "2026-09-12",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-10",
+    "last_update": "2026-09-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP116 分析報告",
+    "source": "EP1-EP117 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1120,
-    "total_relations": 821
+    "total_entities": 1147,
+    "total_relations": 837
   },
   "nodes": [
     {
@@ -32107,6 +32363,330 @@
       "importance": "⭐⭐⭐⭐⭐",
       "name": "🔬 晶圓代工景氣與估值",
       "notion_id": "3d7b9258820781b2be48fae73605a772",
+      "type": "💡概念"
+    },
+    {
+      "description": "折現率變化影響成長資產評價，市場情緒與個別公司條件仍會造成分化。",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-topic-rates-valuation-tech",
+      "importance": "⭐⭐⭐⭐⭐",
+      "name": "📊 成長股估值",
+      "notion_id": "3d9b9258820781dabe6bef10de9f4db3",
+      "type": "💡概念"
+    },
+    {
+      "description": "產品規格與終端需求決定訂單機會，產業名稱本身不能推導個別公司獲利。",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-topic-pcb-product-demand",
+      "importance": "⭐⭐⭐",
+      "name": "🔌 PCB / 5G / IC 載板",
+      "notion_id": "3d9b9258820781999cd2ec27f7ccface",
+      "type": "💡概念"
+    },
+    {
+      "description": "折現率",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-discount-rate",
+      "importance": "⭐⭐⭐",
+      "name": "折現率",
+      "notion_id": "3d9b9258820781e28e2bf564562b20ec",
+      "type": "💡概念"
+    },
+    {
+      "description": "成長資產估值",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-growth-asset-valuation",
+      "importance": "⭐⭐⭐",
+      "name": "成長資產估值",
+      "notion_id": "3d9b92588207814ab129e0987b7074db",
+      "type": "💡概念"
+    },
+    {
+      "description": "Cathie Wood管理的ARK組合（節目轉述）",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-reported-ark-portfolio",
+      "importance": "⭐⭐⭐",
+      "name": "Cathie Wood管理的ARK組合（節目轉述）",
+      "notion_id": "3d9b92588207813db758dae0965e781c",
+      "type": "💡概念"
+    },
+    {
+      "description": "EP117（2021-02-24）主持人轉述的第三方持股：Roku；非主持人持倉，未獨立核對當日第三方持倉。",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "roku",
+      "importance": "⭐⭐⭐",
+      "name": "Roku",
+      "notion_id": "3d9b925882078160918dcb5233f9797d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "EP117（2021-02-24）主持人轉述的第三方持股：MCHI；非主持人持倉，未獨立核對當日第三方持倉。",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "mchi",
+      "importance": "⭐⭐⭐",
+      "name": "MCHI",
+      "notion_id": "3d9b92588207817b8eeef07f7aadd221",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "伺服器與消費電子等應用",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-pcb-end-applications",
+      "importance": "⭐⭐⭐",
+      "name": "伺服器與消費電子等應用",
+      "notion_id": "3d9b925882078195b4f0e7429adf7593",
+      "type": "💡概念"
+    },
+    {
+      "description": "ARKG集中持股",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-arkg-concentrated-holdings",
+      "importance": "⭐⭐⭐",
+      "name": "ARKG集中持股",
+      "notion_id": "3d9b9258820781c4b9c4f49fa72b3ec8",
+      "type": "💡概念"
+    },
+    {
+      "description": "流動性風險",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-concentration-liquidity-risk",
+      "importance": "⭐⭐⭐",
+      "name": "流動性風險",
+      "notion_id": "3d9b9258820781f2b4f0cc7eb93064c3",
+      "type": "💡概念"
+    },
+    {
+      "description": "澳洲新聞議價事件",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-australia-news-bargaining",
+      "importance": "⭐⭐⭐",
+      "name": "澳洲新聞議價事件",
+      "notion_id": "3d9b9258820781cd8701c4c98c411d56",
+      "type": "💡概念"
+    },
+    {
+      "description": "低房貸利率",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-mortgage-rates-from",
+      "importance": "⭐⭐⭐",
+      "name": "低房貸利率",
+      "notion_id": "3d9b92588207817e9347cd2264e8cc91",
+      "type": "💡概念"
+    },
+    {
+      "description": "屋主賠售壓力",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-mortgage-rates-to",
+      "importance": "⭐⭐⭐",
+      "name": "屋主賠售壓力",
+      "notion_id": "3d9b9258820781a68db2fb2c8d1705e2",
+      "type": "💡概念"
+    },
+    {
+      "description": "購屋與房貸支出",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-mortgage-budget-from",
+      "importance": "⭐⭐⭐",
+      "name": "購屋與房貸支出",
+      "notion_id": "3d9b925882078100a9f1c29507fbd877",
+      "type": "💡概念"
+    },
+    {
+      "description": "可動用投資資金與職涯彈性",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-mortgage-budget-to",
+      "importance": "⭐⭐⭐",
+      "name": "可動用投資資金與職涯彈性",
+      "notion_id": "3d9b925882078148b961e822284e7a6a",
+      "type": "💡概念"
+    },
+    {
+      "description": "香港股票市場",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-hk-tax-from",
+      "importance": "⭐⭐⭐",
+      "name": "香港股票市場",
+      "notion_id": "3d9b9258820781da8fddc2c2b08554ff",
+      "type": "💡概念"
+    },
+    {
+      "description": "擬提高交易印花稅",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-hk-tax-to",
+      "importance": "⭐⭐⭐",
+      "name": "擬提高交易印花稅",
+      "notion_id": "3d9b9258820781c490d0deba1f9a897c",
+      "type": "💡概念"
+    },
+    {
+      "description": "槓桿部位",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-leverage-drawdown-from",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿部位",
+      "notion_id": "3d9b92588207819ebb3ed639a5667442",
+      "type": "💡概念"
+    },
+    {
+      "description": "下跌時追加資金壓力",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-leverage-drawdown-to",
+      "importance": "⭐⭐⭐",
+      "name": "下跌時追加資金壓力",
+      "notion_id": "3d9b9258820781cc9629f2edf54b8b4b",
+      "type": "💡概念"
+    },
+    {
+      "description": "高權重短期選擇權",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-option-weight-from",
+      "importance": "⭐⭐⭐",
+      "name": "高權重短期選擇權",
+      "notion_id": "3d9b925882078157a9e9c04487e04b5a",
+      "type": "💡概念"
+    },
+    {
+      "description": "權利金歸零造成重大本金損失",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-option-weight-to",
+      "importance": "⭐⭐⭐",
+      "name": "權利金歸零造成重大本金損失",
+      "notion_id": "3d9b9258820781e9a97aeb22707ae208",
+      "type": "💡概念"
+    },
+    {
+      "description": "配置非科技類資產",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-diversification-from",
+      "importance": "⭐⭐⭐",
+      "name": "配置非科技類資產",
+      "notion_id": "3d9b925882078154af14c0109aee41c6",
+      "type": "💡概念"
+    },
+    {
+      "description": "科技股集中曝險",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-diversification-to",
+      "importance": "⭐⭐⭐",
+      "name": "科技股集中曝險",
+      "notion_id": "3d9b925882078129adecde3a57f2c7a9",
+      "type": "💡概念"
+    },
+    {
+      "description": "持續分批投入",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-periodic-cost-from",
+      "importance": "⭐⭐⭐",
+      "name": "持續分批投入",
+      "notion_id": "3d9b925882078136acfed9edf946f6e7",
+      "type": "💡概念"
+    },
+    {
+      "description": "長期買進成本",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-periodic-cost-to",
+      "importance": "⭐⭐⭐",
+      "name": "長期買進成本",
+      "notion_id": "3d9b9258820781afa3ddf91f709a7ce3",
+      "type": "💡概念"
+    },
+    {
+      "description": "PCB細分產品需求與題材",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-pcb-demand-valuation-from",
+      "importance": "⭐⭐⭐",
+      "name": "PCB細分產品需求與題材",
+      "notion_id": "3d9b92588207812ba9cae568daf05d7d",
+      "type": "💡概念"
+    },
+    {
+      "description": "PCB廠商估值",
+      "eps": [
+        "EP117"
+      ],
+      "first_ep": "EP117",
+      "id": "ep117-pcb-demand-valuation-to",
+      "importance": "⭐⭐⭐",
+      "name": "PCB廠商估值",
+      "notion_id": "3d9b9258820781beabd0c0b952a10e17",
       "type": "💡概念"
     }
   ]
