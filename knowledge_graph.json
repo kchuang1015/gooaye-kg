@@ -18072,20 +18072,340 @@
       "source_locator": "analysis/EP118_supplemental.json:/kg_relationship_resolution/30/final_relation",
       "to": "ep58-006208",
       "type": "應用於"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：節目轉述巴菲特投資；非主持人部位或當前獨立查證。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "然後在肺炎這段時間。那也有人講說,巴菲特的投資方式比較保守。然後他已經不像是,怎麼講,就是當初早期啦,然後那些價值股可能成長很暴力嘛。那近年來,如果說他沒有買Apple的話,Apple甚至有些人講說,根本不是巴菲特的選股。可能是,比方說裡面的年輕人討論還是怎麼樣的。但是,你看到他買Apple,他也是在Apple已經進入一個非常成熟的階段,已經有一點,進入像是傳產的氛圍的感覺。就是已經非常穩定了,不像是一些科技股可能在,一開始起飛的時候,可能對於未來的營收,\n成長都還不確定,不過當然那時候你可以獲得潛在報酬也大,當然歸零的機會也大。所以巴菲特算是選在一個,已經算是很保守的時候,才開始去買所謂的科技股蘋果。那當然科技股蘋果也carry了他的績效,就是在他的配置裡面呢,佔比非常的大,那當然也救了他的績效。",
+        "excerpt_sha256": "bef0fdd06aec18de5ec0e4a18eb770aca8e03aa630ad873b40dc51c826dd03ba",
+        "line_end": 12,
+        "line_start": 11,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "warren-buffett",
+      "predicate_id": "invests_in",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/0/final_relation",
+      "to": "apple",
+      "type": "投資"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：當時選股轉述；主持人明說不跟單。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "因為他挑的股票,像最近挑的這個Verizon,或是說這個雪佛龍,那就很符合他的一個選股嘛。這就是他的style。那雖然我有在我自己的節目講說,看到這個東西,有些人會想要跟單,可是我完全不會想。那就是個人的喜好的問題而已。",
+        "excerpt_sha256": "10e6b8febb655018ac864321d19b2fa91354ed7724ebca685967209157392838",
+        "line_end": 15,
+        "line_start": 15,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "warren-buffett",
+      "predicate_id": "invests_in",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/1/final_relation",
+      "to": "ep119-verizon",
+      "type": "投資"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：歷史歸屬不外推本集主持人方向。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "因為他挑的股票,像最近挑的這個Verizon,或是說這個雪佛龍,那就很符合他的一個選股嘛。這就是他的style。那雖然我有在我自己的節目講說,看到這個東西,有些人會想要跟單,可是我完全不會想。那就是個人的喜好的問題而已。",
+        "excerpt_sha256": "10e6b8febb655018ac864321d19b2fa91354ed7724ebca685967209157392838",
+        "line_end": 15,
+        "line_start": 15,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "warren-buffett",
+      "predicate_id": "invests_in",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/2/final_relation",
+      "to": "ep119-chevron",
+      "type": "投資"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：資金責任影響策略；浮存金不等於全部閒置現金。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "好,那但是有一位來賓提到一點,我覺得蠻重要的就是說,因為其實巴菲特呢,他的本質,他們是在經營企業的。那他的企業的一環,很重要的一環呢,就是保險公司。所以,他其實是用這種所有的浮存金,就是未來假設說,有人要理賠什麼,他這個錢是要拿去賠人家之類的。所以當然他不太可以去,\n像是比方說Cathie Wood,因為他是做一個基金嘛,一個交易所交易基金。那這個東西呢,基本上就是隨他去玩,誰要去操作。可是巴菲特呢,他必須要做一些比較保守的做法。因為這些錢呢,不完全是他的。只能講說他是用一個很低的利率來取得這樣的資金。那這個資金呢,目前在他帳上有1380億嘛。那他都沒有動用到。其實本來可能在2020年的這個崩盤那時候呢,他是可以用到的。只是呢,生意被政府搶走了。那在現在他也沒有找到適合的標的。就是說,他要去選擇標的,他會選一個相對的,〔校註：1380億原段未明幣別；「誰要去操作」措辭未明。〕\n勝率很高的。這種價值投資人他們的特色就是,我一定要買的夠便宜啦。所以在很多的狀況之下,我可能就乾脆放棄。我就甚至很久都不動作也沒關係。但是我要買,我一定要買到一個夠便宜的機會。可是問題是,你看到現在的一個資金行情,你看到這種低利率,然後QE。其實所有的資產的價格都被墊高,雖然最近看到一個修正,可是幹這個修正,我不知道有沒有人畢業啦,在去年9月是有人畢業,那這一次如果畢業算還蠻好笑,代表你真的追太高,因為這次修正跟去年9月\n比起來差太多了。目前來說根本就是天差地遠,那更不要提說3月的熔斷。所以如果你這一次,像沙埃及講的,你心性受到很重大的影響,你真的要好好檢視你的策略。〔校註：「沙埃及」名稱辨識未明，不確立人物。〕\n因為代表你根本撐不過,像是去年9月,那更別提去年3月這樣。你只要遇到一次,你可能就完蛋了。可能你的部位槓桿太大等等的。好,那我們這個後面再聊。\n總之呢,就是在去年3月,他錯失一個撈便宜的機會,所以他的績效在2020年看起來就更加的平庸。當然有些人甚至會吐槽說,媽的買指數都贏你10條街。我覺得也沒有必要這樣啦,我看到一些指數人有去做這樣的吐槽。我覺得其實就是個人的選擇,每個人的選擇各有好壞。其實如果說巴菲特他沒有被攔胡的話,就不會這樣了,他的績效應該是會還不錯的。好,那其實就是因為他的浮存金,因為他是經營保險業務,所以他本來就不太可以去做一些比較激進的操作。",
+        "excerpt_sha256": "c80f4cb0fc3b709ca6fbd86bb1685fa9b4ab7a2d991c06a26366e674fc2a2f2d",
+        "line_end": 21,
+        "line_start": 16,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-insurance-claims-obligation",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/4/final_relation",
+      "to": "ep88-risk-tolerance",
+      "type": "約束"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：主持人總經解釋，不量化或保證股價。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "勝率很高的。這種價值投資人他們的特色就是,我一定要買的夠便宜啦。所以在很多的狀況之下,我可能就乾脆放棄。我就甚至很久都不動作也沒關係。但是我要買,我一定要買到一個夠便宜的機會。可是問題是,你看到現在的一個資金行情,你看到這種低利率,然後QE。其實所有的資產的價格都被墊高,雖然最近看到一個修正,可是幹這個修正,我不知道有沒有人畢業啦,在去年9月是有人畢業,那這一次如果畢業算還蠻好笑,代表你真的追太高,因為這次修正跟去年9月",
+        "excerpt_sha256": "673575a654226ae8049389b1775bf416b02da3ea7533917e057d6fbd37698173",
+        "line_end": 18,
+        "line_start": 18,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-low-rates-qe",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/5/final_relation",
+      "to": "ep118-asset-prices",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：僅保留風險評估用途，非公式或實證報酬比較。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "他要追求的就是說他的,包含說上漲的時候他不一定漲的比別人多,但是跌的時候他也不會跌的比別人多。這就是有一點應用到,比方說在去看一個投資組合的時候,很多人會用所謂的Sharpe Ratio或者Sortino Ratio。那他的核心原則呢,其實就是把獲利去除掉風險。風險就是包含說這個標準差上漲或是下跌的這個幅度。那一般來說,像我個人是比較喜歡看這個Sortino Ratio,因為Sharpe Ratio是上跟下都算,就是這個上下的波動都算。可是我覺得往上的波動算是好事。\n因為往上等於是賺錢嘛,我們只要看說在回檔的時候他下檔的空間有多少。所以你只要看Sortino Ratio就好,他是看下,就是往下跌這個風險有多少。那也有人去吐槽說像是KTW,他的Sortino Ratio,其實就是比方說像是QQQ的兩到三倍。那如果說你今天買QQQ,你再加上槓桿,你把Sortino Ratio拉到跟這個ARKK一樣的話呢,那基本上你的報酬在過去,好像只有2020年你會輸給ARK,你其他的年份你都會贏過ARK。〔校註：「KTW」全名未由此片段確立；Sortino與槓桿比較為節目轉述，非已查證計算。〕",
+        "excerpt_sha256": "7ecc637eb1b49a77e04ff5914fec6915180a08d5c378448a18ff7a3b98b89212",
+        "line_end": 23,
+        "line_start": 22,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-sortino-ratio",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/6/final_relation",
+      "to": "ep119-downside-risk",
+      "type": "應用於"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：描述主持人觀察，不聲稱已核實最大流出或特定ETF贖回機制。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "喜歡Cathie Wood,那我也很喜歡Elon Musk,那我也很喜歡巴菲特,但是我覺得也沒有什麼要護航的,就是人家要去吐槽,你就聽看看別人怎麼說嘛,你聽聽別人怎麼說你不會少一塊肉,如果說你自己只要去護航的話,搞不好你真的有盲點沒看到,你真的就會少很多塊肉。所以說如果你今天把Sortino Ratio的因素給考慮進去的話,就是說因為ARK在下跌也是跌很多,最近大家看到了,所以他其實風險也是很大,而且下跌這個風險,為什麼你要去看這個Ratio呢?因為下跌的時候基金就會遇到,比方說像是贖回,\n然後ARK就遇到了最大的一個流出潮嘛,那其實投資人大多是這樣,嘴巴上講的都是講說,我會跟你五年十年,我跟你一起長期投資,他媽的遇到一個下殺,蓋鳥,趕快贖回,垃圾基金,廢物乾媽,你看我們群組裡面,我們群組算是一些比較進階的玩家了,結果還是有些人就情緒崩潰了,那當然最近ARK有反彈了,你看你到底要怎麼解釋,Square跌到下面,罵,Square像要反彈,彈超高的,你到底要怎麼解釋,所以其實真的不要幫短線的股價的表現去找太多的理由,有時候你自己追太高,那是你自己〔校註：「蓋鳥」與「Square像要反彈」措辭未明。〕\n的策略有問題,所以說,如果大家聽懂我剛才講什麼,就是說這個Sortino Ratio,因為它的其實下檔的風險是還蠻高的,因為它在修正的時候的幅度是很大的,所以如果說你要複製乾媽的績效的話,就是假設這個Portfolio你要來做的話,你可以透過QQQ,然後去加槓桿達到,甚至直接用比方說TQQQ,市面上的一個產品,三倍槓桿納斯達克,那你就會發現三倍槓桿納斯達克,在過去的,大概只有2022年是輸的,然後其他年全勝,就它全部都是贏過ARK,〔校註：「2022年」與另一辨識「2002年」不一致，且與本集2021年時序不符；保留原值，不代填2020。〕",
+        "excerpt_sha256": "fdd83b8f3002efb8e214bf90dbc081624302771ae70132fd5f451f6d2a939f3d",
+        "line_end": 27,
+        "line_start": 25,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/9/final_relation",
+      "to": "ep119-ark-drawdown-redemption",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：科技選股對應科技基準，不補未明QQ名稱。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "就是破壞式創新的公司,讓他們去投資這樣子一個標的,組成一個基金,然後可能一開始表現很好,然後最後我們就下去了,這個是非常常見的,那也有一些人的說法講說,他覺得像是ARK呢,他現在看起來很風光,可是10年之後他一定打不贏,就是說假設我們拉一個長期的表現的話,他應該是會輸給大盤,他的大盤是指,應該是指QQ啦,不是指這個,標普500,因為你要對決的話,你選的都是科技股,所以你要Benchmark要選對,你有點像是那種國內的ETF,有時候,〔校註：「QQ」指涉未確立，不自行補成QQQ。〕\n很過分就是這樣,他告訴你說他績效很好,打贏大盤,那麼他就選一個很奇怪的指數來做比較,你是做什麼樣股票的,你就要去做對應的指數,比方說你今天是做科技股選股為主的,你要去對應,你要去PK的對象,當然就是科技股指數,所以比方說像是NASDAQ100,他就是一個還不錯的對應指數,好這邊分享給大家,就是說這個ARK跟巴菲特,都有被吐槽,其實都有信徒,其實我覺得很簡單的一件事,就像是致富心態那本書裡面寫到,你的出生背景不一樣,你看到的東西不一樣,甚至是,〔校註：「致富心態」依書名語境校正，非新增書籍引文。〕",
+        "excerpt_sha256": "99e23ec6325cc9fe1b1b03f7b19b3cd90fc68d6c8bed4a924404b061aa7e2794",
+        "line_end": 30,
+        "line_start": 29,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-performance-comparison",
+      "predicate_id": "depends_on",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/10/final_relation",
+      "to": "ep119-appropriate-benchmark",
+      "type": "依賴"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：三至五日未創低是主持人的試單方法；supports要求提高命題可信度，不能把交易策略當已驗證命題。改為初步止跌觀察方法應用於試單策略並保留非底部確認限制。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "本來大家要出來辯論,結果後來發現說,辯不出數位,因為各有各的考量,好,那我們就來總結一下,剛剛前面有跟大家聊到說,這個關於你的風險的問題,就你遇到下殺,情緒崩潰這件事情,那當然,我們最近看到美股有稍微稍微的止跌了,其實很簡單的,要去看一個東西有沒有止跌,你就大概抓,比方說三到五天,沒有再持續創新低,你就可以把它當成是止跌了,當然這要看你的交易策略是怎麼樣,有些人他就喜歡說,一直跌,我就一直買,像我自己的交易策略是,我不去求我要買到最低點,〔校註：「辯不出數位」措辭未明。〕\n我要等他他媽止跌之後,我再進去,那當然,有好有壞,我這個做法的好處就是,比方說今天如果是那種一瀉千里的,就會被我閃過,可是壞處呢,壞處就是說,因為我買不到最低點,可是一般來說,反彈最暴力的那一段,都會是那個,下跌中,然後隔天直接他媽的,旱地拔蔥拉一根,這個是一般反彈,最常見到的一個狀況,那以我的案例呢,就是我不會遇到這個,比方說假設我今天抄在-10%,然後-20%,-30%,然後就覺得心在淌血這樣,不過當然這個\n-30%的暴力反彈我也賺不到,那我的做法呢,就是去看說,有沒有持續的在創新低,但是目前對我來說,這已經算是初步止跌,就是已經是一個可以試單的地方了,我會這樣做,因為我對於前景還是持續的看好,那關於說,很多人情緒崩潰這件事情,那我個人是,給大家一個建議,就講說你要去槓桿嘛,你遇到任何的一個崩盤,你只要看到他開始崩了,你就先把手上的槓桿都去掉就對了,這個是一個最基本的控管的事情,",
+        "excerpt_sha256": "dd0bf2c9c5cedcc4443b196e77554d2a1cef4dd20d87c71f9d2ca3e1e38375f1",
+        "line_end": 34,
+        "line_start": 32,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-three-five-day-stabilization",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/11/final_relation",
+      "to": "ep119-probe-strategy",
+      "type": "應用於"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：不保證一定破產；不同家庭現金流不可直接複製。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "之前就有一個youtuber,大家貼到群組裡面,一個中國youtuber,那他就是選擇說,他沒有要去槓桿,他去補錢,那之後他補錢之後,再連續殺了大概兩三天左右,然後他的持股呢,就殺的超兇的,那最近他好像有po一個影片,我看到一樣群組有人丟就說,他其實有一直補錢,而且他現在是賺錢的,這就是我們講的本多終勝,那一般來說,你遇到第一根,第一根殺下去之後,你去補錢嘛,那你到第二根第三根,我就問你,你他媽的錢要哪裡來,如果說你還是,比方說,\n到處去借朋友,親人,全部都借錢,又再補,那如果說你今天遇到,像是九月或是三月那樣,殺更大怎麼辦,所以借錢他不是一個好事,因為就算你這一次,借錢度過了這個難關,我跟你保證,你接下來三年五年,一定都還會再遇到修正,你不可能每一次都閃過,你一定他媽會畢業,所以千萬不要一直想要去借錢跟槓桿,那這個youtuber,我覺得就是一個很壞的示範,非常非常壞的示範,其實中國這邊youtuber很多,我都對他們沒有太好的印象,因為他們其實教大家的比較像是,我只跟你講發財啦,我全部都借錢,\n我都跟你講發財,我們節目也可以這樣,我全部就跟你講,我每天很簡單,我就直接拉出說,漲幅比較大的個股,然後去寫一個故事,跟你講說為什麼他會這樣漲,這個東西是因為出了什麼新聞,就像他們這樣,他就拉一個最近表現很不錯的,開始有走多頭的,然後就跟你報這個,他不會跟你講任何的風險,他就跟你講說,大家都在賺錢的,可是問題是說,風險才是最重要的一環,因為你賺錢,你有時候賺多,有時候賺少,這很正常,可是賠錢,重點是你要去注意,你不可以去侵蝕你的本金,本金侵蝕的太多,之前有人算給你看過,比方說你100塊,\n100塊跌掉50%,是到50塊嘛,可是你從50塊要漲回去100塊,不是漲50%,是要漲200%喔,你很常遇到漲200%的機會嘛,非常非常的少,所以說你今天如果說把本金大量的虧失掉的話,你要回去你本來的那個水位是超困難的,就是他要的績效是更大的,你要時間是更久的,那有些人可能就因為這樣子會,怎麼講,他的心態就會炸裂掉,比方說他已經虧掉50%,今天到50%,他就很不甘願,他知道說50回去100,要200%〔校註：原話為漲200%；50回到100的增幅應為100%，此處保留原話並標示算術矛盾。〕\n所以我乾脆就是槓桿,槓下去,槓下去,然後我就可以加速回去,可是也是加速升天的機會,所以這個東西是,怎麼講,台路不逃走,台語是這樣講嗎,拍路不逃走,如果說你今天,選擇走了一條這樣子的路的話,那你可能會閃過一次兩次,但是你不可能每一次都閃掉,用現實中的生活舉例,詐騙車手騙錢好不好賺?好賺啊兄弟,好賺啊,可是問題是你只要被抓到一次,你的人生就差不多結束了。可是你在投資市場,〔校註：「台路不逃走／拍路不逃走」方言辨識未明。〕\n你卻不太在意這種,會讓你人生結束的事情,你把你辛苦存了30年,他媽賠掉,賠掉7成,賠掉8成,斷頭你去補錢,然後就再被斷頭,這個東西不算是人生結束吧,大家好好去思考這個問題,因為那YouTuber就是,他就展現了什麼叫本多終勝啊,老娘就是有錢啊,老娘今天他媽被斷頭之後就繼續補啊,補就是硬拗到贏啊,我今天就算遇到3月的熔斷,他媽的殺個10根下去好了,我就一直補錢啊,我爸有錢啊,補一補就拗到贏,那這也是我們之前跟大家聊過,本多終勝,就是你今天本金\n很多,其實真的很難輸,你只要有持續的現金流,然後持續的分批投入,真的太難輸了,不管你今天是遇到什麼上漲或是下跌的行情,只要你不要很曬小,挑到那種什麼變成壁紙,下市的股票,或是說什麼公司出了什麼超大的弊案,什麼安榮案,類似這樣,你不要遇到這種很奇怪的事情的話呢,基本上本多的人勝率的機會就是非常的大,所以你,你就看那YouTuber說其實,怎麼講,我覺得蠻多這些YouTuber那種光鮮亮麗的,他們其實本身家庭背景也不錯啦,所以,他這樣做不代表你可以這樣做,他〔校註：「安榮案」與「曬小」正字未明，不確立案件或人物。〕\n可以這樣凹單,不代表可以這樣凹單,所以有些東西還是很現實的,生活中,家庭上的背景不一樣,你們可以做的做法就不一樣,但是最保守的那一條還是記起來,這一次的下殺我們稍微看到一個應該可以算是逗號,你說是句號我不敢講,但是已經稍微有一個逗號出來了,所以你在未來如果再遇到這樣子的案例呢,就記得第一步先去槓桿,你不去槓桿你真的會畢業掉,除非你可以像中國YouTuber一樣,你有無限入金大法,那這是另外一回事啊,就是那種生活",
+        "excerpt_sha256": "8b9fd41268f101a81836988862e88026ea63b3a571bf60dd925f319374870d9d",
+        "line_end": 42,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-borrowed-averaging-down",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/12/final_relation",
+      "to": "ep85-capital-loss-risk",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：財務背景影響承受能力，仍有下市等例外，不保證獲利。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "你卻不太在意這種,會讓你人生結束的事情,你把你辛苦存了30年,他媽賠掉,賠掉7成,賠掉8成,斷頭你去補錢,然後就再被斷頭,這個東西不算是人生結束吧,大家好好去思考這個問題,因為那YouTuber就是,他就展現了什麼叫本多終勝啊,老娘就是有錢啊,老娘今天他媽被斷頭之後就繼續補啊,補就是硬拗到贏啊,我今天就算遇到3月的熔斷,他媽的殺個10根下去好了,我就一直補錢啊,我爸有錢啊,補一補就拗到贏,那這也是我們之前跟大家聊過,本多終勝,就是你今天本金\n很多,其實真的很難輸,你只要有持續的現金流,然後持續的分批投入,真的太難輸了,不管你今天是遇到什麼上漲或是下跌的行情,只要你不要很曬小,挑到那種什麼變成壁紙,下市的股票,或是說什麼公司出了什麼超大的弊案,什麼安榮案,類似這樣,你不要遇到這種很奇怪的事情的話呢,基本上本多的人勝率的機會就是非常的大,所以你,你就看那YouTuber說其實,怎麼講,我覺得蠻多這些YouTuber那種光鮮亮麗的,他們其實本身家庭背景也不錯啦,所以,他這樣做不代表你可以這樣做,他〔校註：「安榮案」與「曬小」正字未明，不確立案件或人物。〕\n可以這樣凹單,不代表可以這樣凹單,所以有些東西還是很現實的,生活中,家庭上的背景不一樣,你們可以做的做法就不一樣,但是最保守的那一條還是記起來,這一次的下殺我們稍微看到一個應該可以算是逗號,你說是句號我不敢講,但是已經稍微有一個逗號出來了,所以你在未來如果再遇到這樣子的案例呢,就記得第一步先去槓桿,你不去槓桿你真的會畢業掉,除非你可以像中國YouTuber一樣,你有無限入金大法,那這是另外一回事啊,就是那種生活\n條件很好的人,當然你就不在我的勸告範圍之內,因為其實本多終勝這個觀念,我已經在很早以前就跟大家分享過了,本金多的人,不管你玩什麼勝率都是高,一個窮小孩,他爸爸給他50萬,就是畢生積蓄讓你創業,你就是一次失敗機會而已,那有錢人家的小孩拜託,50萬創業失敗,再創啊,再創啊,好像那個什麼燦坤的,幹什麼燦坤開幾個餐廳,幹全部倒掉欸,沒差去做啊,就是有錢人家的小孩,他出生背景不一樣,他就是有跟你不一樣的優勢,他當然他就有更高的",
+        "excerpt_sha256": "3dc9e1c3bb35fe907ed4f91ecb4a5eaaad2a935b6804754fab913ba8f4942371",
+        "line_end": 43,
+        "line_start": 40,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-household-cashflow",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/13/final_relation",
+      "to": "ep119-contribution-capacity",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：公司與串流服務分開，訂戶數須採來源映射限制。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "其實它跟大盤相比的話,它一直都是輸大盤,那最近這樣漲呢,才讓它勉強的打平,就是標普500,就是勉強的跟大盤打平,好那,這也是有些人就跟你講說,乾脆投大盤就好了,因為你不代表你每一次都會壓到像Discovery這樣子的公司,好OK,那Discovery它的串流服務呢,就是Discovery Plus,它推出之後,它在很快的時間內,兩個月內呢,就獲得了1200萬人的訂閱,這數字是算還不錯,就是有贏過一些競爭對手,",
+        "excerpt_sha256": "ce2cb461045475dd15f8776f56727848c248c9a63c9e44a49262fa3523aa0926",
+        "line_end": 50,
+        "line_start": 50,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-discovery-plus",
+      "predicate_id": "part_of",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/17/final_relation",
+      "to": "ep119-discovery",
+      "type": "組成"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：節目比較串流經營，訂戶日期不同及市值幣別矛盾不得固化成比率。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "其實它跟大盤相比的話,它一直都是輸大盤,那最近這樣漲呢,才讓它勉強的打平,就是標普500,就是勉強的跟大盤打平,好那,這也是有些人就跟你講說,乾脆投大盤就好了,因為你不代表你每一次都會壓到像Discovery這樣子的公司,好OK,那Discovery它的串流服務呢,就是Discovery Plus,它推出之後,它在很快的時間內,兩個月內呢,就獲得了1200萬人的訂閱,這數字是算還不錯,就是有贏過一些競爭對手,\n那比方說一些可能表現沒有那麼好的,AT&T,HBO Max,或者說像是Peacock,這可能表現沒有那麼好,那表現好的,最近呢,就是Disney Plus,Disney Plus是2600萬人,所以是超過了Discovery的兩倍,還有剩,不過你要去注意一點,就是你在去分析這些公司的時候,你要去看他們的規模,要去做一個對比,Discovery達成這樣子的一個成就,它的市值呢,是32 billion左右,32,33,所以差不多就是台幣的330億的一個市值,可是Disney呢,當然它有樂園的部分啊,公司的整個市值,〔校註：32 billion與台幣330億量級／幣別互斥；2600萬及市值均屬當時節目說法，須另查來源，不靜默改值。〕\n就大非常多,所以有3400,3500億,就差不多是Discovery的十幾倍,這麼樣的一個大小,那所以如果用公司的大小來算,然後用貢獻的,營收跟獲利來算的話呢,那你可以講說,Discovery就是一個小鋼炮,雖然我的公司規模沒那麼大,可是我達成的成就呢,只有輸你大概一倍而已,不過我的公司是你的十分之一而已,那用這樣去算,你就可以比較去理解,為什麼一些小市值的公司,他們有時候容易噴,因為他去跟大公司比較的話呢,〔校註：3400、3500億未明幣別；不得由前文自動補入。〕",
+        "excerpt_sha256": "25f48557ea09aa1a526846481a9a9f8e85c77433dce5bd47f4574f7ea3654707",
+        "line_end": 52,
+        "line_start": 50,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "disney",
+      "predicate_id": "compares_with",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/18/final_relation",
+      "to": "ep119-discovery",
+      "type": "對照"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：主持人機制推論；93%是影片觀看說法，非已核實留存率。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "不願意去講這樣的東西,不過你可以看出來Discovery的成長是非常暴力的,然後他們也提到說,他們的churn rate是很低的,那churn rate我們之前在聊Spotify的時候跟大家提到,就是說退訂率啦,你訂了之後,可是你退訂率很高,就不好,像HBO Max就是退訂率很高,那為什麼他退訂率會很高呢,因為很多人去訂HBO Max,就是擺明了,我就知道看《冰與火之歌》,那我看完之後我就退掉了,那退訂率低就代表說,你上面有持續產出好東西,或是說其實你的本來的pool,你的池子很大,然後吸引人的東西很多,\n你才可以讓退訂率壓在一個低點,那在串流媒體的特色呢,就是說很多的用戶會花,怎麼講,大部分的時間去看最新的東西是什麼,就是大家要去追目前最流行的東西,可是在Discovery這邊呢,他們發現一點就是說,他們的最新的東西,沒有特別的,就是散戶,這些什麼所謂散戶,訂戶呢,他們並沒有去很著重於看,Discovery最新推了什麼,反而是他們上面5萬多個,5萬5千個影片裡面呢,\n串流媒體裡面呢,有93%都被大家掃過了,所以大家其實不太介意去看舊的東西,我覺得這個其實很合理,因為我家裡就有訂這個National Geographic的雜誌,或是說你自己如果在看Discovery Channel,你就知道他其實沒有太多的什麼時效性,你隨時都可以找一個10年前的拿出來翻,你都會覺得很有趣,差不多是這樣,那跟電影就差很多,電影的話,比方說我20年前拍的電影跟現在拍的電影,當然有些人比方說像我們這種老靈魂的,我喜歡看以前的教父啊,或者這個Shawshank Redemption啊,\n刺激1995什麼的,我們看這些老片,看那個Pod fiction,我們覺得很過癮啊,追殺筆也很讚這樣,可是有些人他其實不喜歡看老電影,他會看最新的,聲光效果很好的,要看麥可貝啊,那可是呢在Discovery上面,他就發現說他們的訂戶呢,他們其實不太介意最新的東西,所以他們也不會有那種產出的壓力,他們就是持續的去做這些好內容,毛利也不錯,那大家就會去往之前的東西去看,所以說5萬5千部影片有93%被大家掃過這件事情,我覺得,他們認為是一個〔校註：「Pod fiction」與「追殺筆」片名正字未明，不自行補全。〕\n很棒的成績,那分析師看也覺得很棒,我自己也覺得很棒,可是我覺得是很理所當然的事情,那再來就是我自己的一個觀點呢,就是我覺得,他這個東西其實,因為他是一個知識型的訂閱,所以有時候會讓一些人他訂下去他不一定會看,但是他就是訂心安的,這個其實你可以反映在,比方說像Podcast的排行榜上面,單集的排行榜是純粹的流量嘛,但是節目的排行榜,比方說新節目會加分啊,那或者說,他有混合一些不只是流量的數據啊,不然說訂閱的數量啊,等等的,那你會發現一些實用型的〔校註：排行榜算法為主持人說法，非已查證平台規則。〕\n之前有跟大家推薦,如果你要在Podcast上面,趕快去強調排行榜的,你就做一些知識型的節目就對了,因為很多人知識型節目,就像阿滴英文一樣,你每個都去按訂閱嘛,因為想說我可能會學英文,結果你發現你其實根本不會學英文,你就訂心安的啦,你就按下去,按下去不會賠多少錢嘛,那可能有些家長也是這樣,他希望他的小朋友去看這個,我就先訂再說,可能小朋友實際上花在上面的時間,不一定很多,可是呢,因為我先訂下去嘛,這個東西隨時都可以看,所以我個人認為啦,就是我現在看下來,比方說像是,〔校註：「強調排行榜」措辭未明。〕\n至少就我自己身邊的朋友跟我回饋的,Netflix跟Disney Plus,他們在海外的都有訂的,他們覺得Disney Plus很多,他們可能看一看,他們最後就把它退掉了,就除了一些,比方說什麼星戰迷啊,他們可能會留下來,但是很多他們看一看,他們覺得其實Netflix還是比較好,因為產出的量實在大太多了,內容的豐富度差太多了,所以他們可能會選擇一個Netflix,那有沒有可能在這種利基型的平台上面,就除了這種大眾傳媒之外,我可能會選一個利基型的平台來做一個訂閱的,那這可能就是Discovery的一個空間,那Discovery因為,",
+        "excerpt_sha256": "e1b1599a5184805a9ca2a7d9af8c0fa44bbfdeabee5a2a81018bb8e902d304e6",
+        "line_end": 60,
+        "line_start": 54,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-knowledge-content-library",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/19/final_relation",
+      "to": "ep119-subscriber-retention",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：美國分銷合作；不等於電信公司重大獲利或做多。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "他的這個訂閱都還是以,就是台灣的市場為主啦,在美國這邊呢,是透過這個,Verizon在推廣,就一樣透過電信公司,那在台灣,不是在台灣,在歐洲這邊是透過這個Vodafone,那就像是台灣的Netflix是透過中華電信嘛,那台灣大哥大廈是Disney Plus,但是這邊跟大家強調一下,就你可能看到這些電信商去接了這個東西,你覺得啊,他變成Netflix概念股,他變成什麼Disney Plus概念股,不要想太多,因為電信的股本太大了,然後你做代理生意根本賺不到錢,〔校註：「台灣的市場為主」與尚未進台灣的前文有矛盾，保留原話；「台灣大哥大廈」措辭未明。〕\n這是完全賺不到錢的東西,這有點像是錦上添花,稍微加一點分而已,可是對於整個公司的影響,非常非常的小,所以如果說你今天看好任何一個串流媒體,你看好Netflix,你就買Netflix,不要買中華電信,你看好Disney Plus,你買Disney,你不要買台灣大哥大,那你看好這個Discovery,千萬不要去買這個Verizon或是Vodafone,不過當然Verizon,你就要看到巴菲特進去,可能想跟著買,但是如果你看好,你就去買Discovery,不過目前的股價漲是稍微犀利一點啦,短期追可能就追在一個水岸第一排,",
+        "excerpt_sha256": "63bf6633914f04db0855fbfa941c4580345f1c88b7e7de22bd7962a42927d8bf",
+        "line_end": 63,
+        "line_start": 62,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-discovery",
+      "predicate_id": "cooperates_with",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/21/final_relation",
+      "to": "ep119-verizon",
+      "type": "合作"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：歐洲分銷合作；公司收益歸屬及官方範圍需保留。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "他的這個訂閱都還是以,就是台灣的市場為主啦,在美國這邊呢,是透過這個,Verizon在推廣,就一樣透過電信公司,那在台灣,不是在台灣,在歐洲這邊是透過這個Vodafone,那就像是台灣的Netflix是透過中華電信嘛,那台灣大哥大廈是Disney Plus,但是這邊跟大家強調一下,就你可能看到這些電信商去接了這個東西,你覺得啊,他變成Netflix概念股,他變成什麼Disney Plus概念股,不要想太多,因為電信的股本太大了,然後你做代理生意根本賺不到錢,〔校註：「台灣的市場為主」與尚未進台灣的前文有矛盾，保留原話；「台灣大哥大廈」措辭未明。〕\n這是完全賺不到錢的東西,這有點像是錦上添花,稍微加一點分而已,可是對於整個公司的影響,非常非常的小,所以如果說你今天看好任何一個串流媒體,你看好Netflix,你就買Netflix,不要買中華電信,你看好Disney Plus,你買Disney,你不要買台灣大哥大,那你看好這個Discovery,千萬不要去買這個Verizon或是Vodafone,不過當然Verizon,你就要看到巴菲特進去,可能想跟著買,但是如果你看好,你就去買Discovery,不過目前的股價漲是稍微犀利一點啦,短期追可能就追在一個水岸第一排,",
+        "excerpt_sha256": "63bf6633914f04db0855fbfa941c4580345f1c88b7e7de22bd7962a42927d8bf",
+        "line_end": 63,
+        "line_start": 62,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-discovery",
+      "predicate_id": "cooperates_with",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/22/final_relation",
+      "to": "ep119-vodafone",
+      "type": "合作"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：追價提醒非做空，不指定目標價或必跌期限。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "這是完全賺不到錢的東西,這有點像是錦上添花,稍微加一點分而已,可是對於整個公司的影響,非常非常的小,所以如果說你今天看好任何一個串流媒體,你看好Netflix,你就買Netflix,不要買中華電信,你看好Disney Plus,你買Disney,你不要買台灣大哥大,那你看好這個Discovery,千萬不要去買這個Verizon或是Vodafone,不過當然Verizon,你就要看到巴菲特進去,可能想跟著買,但是如果你看好,你就去買Discovery,不過目前的股價漲是稍微犀利一點啦,短期追可能就追在一個水岸第一排,\n追水岸第一排的結果是怎麼樣,我們大家都已經看過了,最近就是在懲罰那些在追水岸第一排的,好啦,那我們這節目就先分享到這邊,那我們就進入QA的部分,第一位陶卡吉康,他說,赤於頭,赤於生,赤於尾,我股市菜雞只能聽股癌自保,話說不要再同文成群難,但是離開股癌的節目卻無法獲得更多知識跟對股市的了解,這在吹捧感謝,他說,在俱樂部房間,就Clubhouse,聽到今天台積電跟半年前台積電有什麼不同,卻沒有聽到結論,拿一個表情符號,然後說,Elon Musk是我偶像,〔校註：留言名稱與「赤於頭／赤於生／赤於尾」「同文成群難」正字未明。〕",
+        "excerpt_sha256": "7b2ee40d3dae8971f0bbae9a488e22795b7732472d378f207b82a147d44d5fdc",
+        "line_end": 64,
+        "line_start": 63,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "notion-reference-311b9258820781e9a13af24d527d2d7f",
+      "predicate_id": "warns_about",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/24/final_relation",
+      "to": "ep119-discovery-chase-risk",
+      "type": "警示"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：個人估值與交涉經驗，未宣告成交或適用所有人。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "們有個方向,其實我可以跟大家分享我看房子的心得,就未來假設等我真的買到,或者說後來沒有買到,我都可以跟大家分享,因為我覺得我在交涉的過程中,就是還蠻順利的,比方說像很多人講說,遇到房仲會被騙啊,房仲會故意開一個什麼假的紅單跟你講說,之前人家這樣喊價啊,然後什麼建商會怎麼樣騙你啊,然後什麼房仲會故意談判的時候,那邊喊價格什麼的,幹他們遇到我完全都沒有辦法,我價格就踩得很死啊,我直接表明講,我就林口拔辣王啦,然後半年之後你就會聽到市場上那邊講說,林口有一個傢伙,整天在那邊〔校註：林口拔辣王保留口語辨識；談未來買到或未買到，不代表成交。〕\n開拔辣家要買人家的房子,反正我價格就壓很死,那我也不急啊,因為我就直接跟那個仲介講得清楚啊,說你等到我急的時候,我自然會抬價格,我現在就不急啊,所以我就是要撿你們掉下來的,就比方說什麼,有些人撐不住的,有資金壓力的,我擺明了我就要撿這個,可是比方說等到,我真的開始比較急了,離我要的到期日近了,我就願意去提高我的價格嘛,可是目前我自己都會算的,我會算說,附近的實價登錄的趨勢是怎麼樣,那周邊的房價是怎麼樣,其實這些東西,我覺得有在做股票投資的,老實講,我進去我覺得一點都〔校註：「拔辣家」正字未明。〕\n不難,我並沒有覺得說看房子遇到什麼樣的撞牆期或什麼的,那當然花了一點時間去理解了,比方說一些窗戶的差別啊,那一些用料的差別,那個稍微困難一點點啊,但是在價格這部分啊,估值這部分,我覺得還蠻輕鬆的,或許對啊,之後可以分享,然後你說Lidar,Lidar,嗯,我個人覺得啦,因為我看不到Lidar的哪一家公司,可以確定在未來吃到很棒的單,可以吃到比方說像是Google,或是其他有在使用Lidar陣營的,他們的單,",
+        "excerpt_sha256": "d4bd2e5543e0c323ab9af9811ed749cff056784853ceae4b7a967cfb57bb61a5",
+        "line_end": 72,
+        "line_start": 70,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-home-purchase-urgency",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/27/final_relation",
+      "to": "ep119-willingness-to-pay",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：月收非淨利，委託可行性及個人意願限制均保留。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "三到七萬之間,然後就你畢業之後可能價格會更高,這個選擇其實蠻好選的,就是一定是先選這個市場擺攤的部分,而且我的做法是什麼呢,我會先去市場擺攤,但是因為這個東西不是我興趣之所在,對吧,我不喜歡在這邊擺攤嘛,那可是呢,或許我就會去,比方說我去做這個擺攤這個,先看說為什麼這東西可以賺這麼多錢,那之後我會去思考有沒有辦法,我自己不做,但是我請人來做,比方說我就算請外面的人,我不相信好了,因為我們可能有一些,因為我不知道你們是在賣什麼,搞不好你擺攤賣的東西是一個有機密的,\n這些原料配方不要讓大家知道,那你就可能找一個好哥們,跟好哥們一起做,然後之後你自己抽身出來去做健身什麼,因為我覺得,一個很好的金流,你講欸,很累,可是月收可以10到30萬,這個超讚的欸,這個如果你讓別人做,然後你給別人,什麼,比方說什麼10到20萬,然後多的你拿,欸這還是超爽的啊,然後就變成你是一個老闆的角色,然後你,你繼續去,接下這個生意,我會這樣去思考,但是因為我不知道你做的是什麼,有些可能是比方說真的做吃的,那很累,你很難找人,〔校註：月收不是淨利；建議受未知生意類型及難找人例外限制。〕\n那就例外啦,那如果是這樣的狀況的話呢,我可能會去選擇,這個運動產業吧,因為,欸當然,我們出來工作就是為了錢,錢很重要沒錯,可是,如果說,你就是為了錢,然後去做一個,你自己真的很討厭很不喜歡的東西,那個會得病啊,那個會生病啊,我之前跟你講說什麼,欸工作就是為了錢,不要講一堆什麼,做夢三小的,那個是跟你講說,比方說有些人在一個同業要跳槽的時候,比方說好我一樣是當PM,那我是找PM的工作,有些地方就是錢給你比較少,\n但是告訴你說,未來怎麼樣怎麼樣,啊有些地方就是,我直接就是給你一個你要的錢,好,這個我就會告訴你,選擇太明顯了,直接拿錢多了就對了,好,那很多跟你講說未來怎樣,那都假消的啦,好,因為你跳了,又不代表你就在那邊訂一輩子,你還是可以跳來跳去啊,那你把你的薪水往上刷是一個非常重要的事情,好,所以,呃,條件不一樣,那當然,決定就不一樣,好,但是我覺得這個,呃,夜市,夜市還是市場擺攤,好,這,這部分,月收10到30萬這個,可能不要太輕鬆的把它放掉,好,因為這個,或許,你可以找一些〔校註：「假消」與「訂一輩子」措辭未明，保留原辨識。〕",
+        "excerpt_sha256": "db10384ceefe79d58db21d2a564afd6ae3e59349465620f0d2e5ecfebc73957d",
+        "line_end": 80,
+        "line_start": 77,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep119-family-business-cashflow",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/31/final_relation",
+      "to": "ep119-career-choice",
+      "type": "影響"
+    },
+    {
+      "context": "EP119（2021-03-03）節目觀點／轉述：中期稍樂觀與十至二十年疑慮並存；七三是一般教學，不是主持人配置。",
+      "ep": "EP119",
+      "evidence": {
+        "excerpt": "就假設說你是,那一波進來的話,然後你之後,遇到下殺之後,你沒有再持續補進的話,你套了就10到15年,不過當然你在那斯達克殺下來之後,你又再持續的加碼的話,那未來還是看好的,那我剛剛前面已經跟你聊過ARK,就是我,我自己本身也是不太認為說,ARK可以,比方說我們拉很長,10年20年,他可以贏過大盤,我覺得最後面就會回到,所以均值回歸啦,雖然我真的很喜歡Cathy,我覺得他很聰明,但是這個東西呢,我沒有辦法現在就跟你講,他未來長期一定會怎麼樣,但是我覺得,〔校註：補進為持續加碼語境校正；不看好ARK長期勝大盤與不能確定未來兩面均保留。〕\n均值回歸的機會比較大,然後因為過往不是沒有像他這樣很厲害的人,但是我個人是看在,這幾年應該都還是沒問題,我覺得他不會只是,曇花一現在2020年,然後紅一波就結束,我個人是稍微樂觀一點,我覺得他應該,還有一些表現的機會跟空間,但是長期要配置上,我之前也跟大家提過,ARK應該算是主動配置的一環,就是我不會把它拉成,一般人保守的建議是,我跟你建議被動,至少從7開局嘛,然後主動3嘛,那ARK你要算到主動的裡面,\n然後那被動的就是比方說,台股大盤,美股大盤,這個就是被動的7的部位去,那ARK我建議你放在主動,就是因為我覺得他還是這個,波動性比較大,當然你要追求報酬的人,你就可以丟這樣的東西,可是你自己要知道,像我剛剛前面聊的Sortino Ratio,你要知道這樣的東西,他是用他的波動,來換到這樣子的一個報酬,他不是完完全全,就是說他選了一個很漂亮的個股,然後下跌都不會跌,沒有下跌他也會跌很兇,那你自己考量清楚的時候,你就可以去思考說,你要配置多少錢在這邊,",
+        "excerpt_sha256": "b763167a1220831dc16382153dc23323478d1b12235d14cfbddb3db58ddcfec4",
+        "line_end": 87,
+        "line_start": 85,
+        "transcript_path": "transcripts/EP119_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "belongs_to",
+      "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/32/final_relation",
+      "to": "ep93-active-sleeve",
+      "type": "屬於"
     }
   ],
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-12",
+    "lastUpdated": "2026-09-13",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-12",
+    "last_update": "2026-09-13",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP118 分析報告",
+    "source": "EP1-EP119 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1178,
-    "total_relations": 857
+    "total_entities": 1205,
+    "total_relations": 877
   },
   "nodes": [
     {
@@ -33379,6 +33699,340 @@
       "importance": "⭐⭐⭐⭐",
       "name": "🚲 自行車需求與供應鏈",
       "notion_id": "3d9b92588207814fb0ecfcc1ca0e63de",
+      "type": "💡概念"
+    },
+    {
+      "description": "股癌 Podcast 主持人，全系列核心敘事者",
+      "eps": [
+        "EP1",
+        "EP2",
+        "EP3",
+        "EP4",
+        "EP5",
+        "EP6",
+        "EP7",
+        "EP8",
+        "EP9",
+        "EP10"
+      ],
+      "first_ep": "EP1",
+      "id": "notion-reference-311b9258820781e9a13af24d527d2d7f",
+      "importance": "⭐⭐⭐",
+      "name": "謝孟恭（股癌）",
+      "notion_id": "311b9258820781e9a13af24d527d2d7f",
+      "reference_only": true,
+      "type": "👤人物"
+    },
+    {
+      "description": "EP119（2021-03-03）節目敘事中的Verizon；不代表主持人目前持有，方向另依本集候選台帳。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-verizon",
+      "importance": "⭐⭐⭐",
+      "name": "Verizon",
+      "notion_id": "3dab9258820781da9c62c647e889ff70",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "EP119（2021-03-03）節目敘事中的雪佛龍；不代表主持人目前持有，方向另依本集候選台帳。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-chevron",
+      "importance": "⭐⭐⭐",
+      "name": "雪佛龍",
+      "notion_id": "3dab9258820781e1af87e60b450d85bc",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "保險理賠責任",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-insurance-claims-obligation",
+      "importance": "⭐⭐⭐",
+      "name": "保險理賠責任",
+      "notion_id": "3dab9258820781a69fabe1aad66a362b",
+      "type": "💡概念"
+    },
+    {
+      "description": "低利率與量化寬鬆",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-low-rates-qe",
+      "importance": "⭐⭐⭐",
+      "name": "低利率與量化寬鬆",
+      "notion_id": "3dab92588207811c9612e83978f9ebea",
+      "type": "💡概念"
+    },
+    {
+      "description": "Sortino比率",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-sortino-ratio",
+      "importance": "⭐⭐⭐",
+      "name": "Sortino比率",
+      "notion_id": "3dab925882078125a906df4b42535db4",
+      "type": "💡概念"
+    },
+    {
+      "description": "下檔風險",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-downside-risk",
+      "importance": "⭐⭐⭐",
+      "name": "下檔風險",
+      "notion_id": "3dab9258820781809621cfb47447c0a5",
+      "type": "💡概念"
+    },
+    {
+      "description": "下跌與贖回壓力",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-ark-drawdown-redemption",
+      "importance": "⭐⭐⭐",
+      "name": "下跌與贖回壓力",
+      "notion_id": "3dab9258820781d08551ea1da8d81df6",
+      "type": "💡概念"
+    },
+    {
+      "description": "績效比較",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-performance-comparison",
+      "importance": "⭐⭐⭐",
+      "name": "績效比較",
+      "notion_id": "3dab92588207819d851ee3953e3d656d",
+      "type": "💡概念"
+    },
+    {
+      "description": "適切比較基準",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-appropriate-benchmark",
+      "importance": "⭐⭐⭐",
+      "name": "適切比較基準",
+      "notion_id": "3dab9258820781ec8f9ee728cbf6dca7",
+      "type": "💡概念"
+    },
+    {
+      "description": "三至五日未創低",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-three-five-day-stabilization",
+      "importance": "⭐⭐⭐",
+      "name": "三至五日未創低",
+      "notion_id": "3dab9258820781cfaedde4b5fccd1145",
+      "type": "💡概念"
+    },
+    {
+      "description": "試單策略",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-probe-strategy",
+      "importance": "⭐⭐⭐",
+      "name": "試單策略",
+      "notion_id": "3dab9258820781b5b23fc1aefb8c7cab",
+      "type": "💡概念"
+    },
+    {
+      "description": "借款凹單",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-borrowed-averaging-down",
+      "importance": "⭐⭐⭐",
+      "name": "借款凹單",
+      "notion_id": "3dab9258820781c4a335f12b54ce6621",
+      "type": "💡概念"
+    },
+    {
+      "description": "家庭現金流",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-household-cashflow",
+      "importance": "⭐⭐⭐",
+      "name": "家庭現金流",
+      "notion_id": "3dab9258820781c8aed8d5baf2d243c6",
+      "type": "💡概念"
+    },
+    {
+      "description": "持續投入能力",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-contribution-capacity",
+      "importance": "⭐⭐⭐",
+      "name": "持續投入能力",
+      "notion_id": "3dab9258820781278edefb337a8a582d",
+      "type": "💡概念"
+    },
+    {
+      "description": "discovery+",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-discovery-plus",
+      "importance": "⭐⭐⭐",
+      "name": "discovery+",
+      "notion_id": "3dab92588207818cac17c10b76aafc28",
+      "type": "💡概念"
+    },
+    {
+      "description": "EP119（2021-03-03）節目敘事中的Discovery；不代表主持人目前持有，方向另依本集候選台帳。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-discovery",
+      "importance": "⭐⭐⭐",
+      "name": "Discovery",
+      "notion_id": "3dab9258820781cba486f9884ccd5f79",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "知識內容庫",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-knowledge-content-library",
+      "importance": "⭐⭐⭐",
+      "name": "知識內容庫",
+      "notion_id": "3dab9258820781d1acfbdeae198c29e8",
+      "type": "💡概念"
+    },
+    {
+      "description": "訂閱留存",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-subscriber-retention",
+      "importance": "⭐⭐⭐",
+      "name": "訂閱留存",
+      "notion_id": "3dab92588207810fbec3ec05984af458",
+      "type": "💡概念"
+    },
+    {
+      "description": "EP119（2021-03-03）節目敘事中的Vodafone；不代表主持人目前持有，方向另依本集候選台帳。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-vodafone",
+      "importance": "⭐⭐⭐",
+      "name": "Vodafone",
+      "notion_id": "3dab925882078107a8c3e006b35b7581",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "Discovery追價風險",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-discovery-chase-risk",
+      "importance": "⭐⭐⭐",
+      "name": "Discovery追價風險",
+      "notion_id": "3dab9258820781ab876af94d2bbb4542",
+      "type": "💡概念"
+    },
+    {
+      "description": "購屋急迫程度",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-home-purchase-urgency",
+      "importance": "⭐⭐⭐",
+      "name": "購屋急迫程度",
+      "notion_id": "3dab9258820781409f5ecb895303fe55",
+      "type": "💡概念"
+    },
+    {
+      "description": "願付價格",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-willingness-to-pay",
+      "importance": "⭐⭐⭐",
+      "name": "願付價格",
+      "notion_id": "3dab925882078147b447df311b666eed",
+      "type": "💡概念"
+    },
+    {
+      "description": "家業現金流",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-family-business-cashflow",
+      "importance": "⭐⭐⭐",
+      "name": "家業現金流",
+      "notion_id": "3dab92588207813e84f5c7abce57533c",
+      "type": "💡概念"
+    },
+    {
+      "description": "職涯選擇",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-career-choice",
+      "importance": "⭐⭐⭐",
+      "name": "職涯選擇",
+      "notion_id": "3dab925882078129970dee29d5b42edb",
+      "type": "💡概念"
+    },
+    {
+      "description": "內容吸引力、訂閱轉換與留存共同影響收入，平台成長不直接等於股票報酬。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "📺 串流影音與利基內容",
+      "notion_id": "3dab9258820781e4a73ac29edd9c3e9d",
+      "type": "💡概念"
+    },
+    {
+      "description": "品牌可能依賴供應鏈製造，但不能推成每家代工廠都必定獲單；不同材料也不代表同一公司皆生產。",
+      "eps": [
+        "EP119"
+      ],
+      "first_ep": "EP119",
+      "id": "ep119-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 光達與化合物半導體",
+      "notion_id": "3dab9258820781369c7ef6dd52b0c43c",
       "type": "💡概念"
     }
   ]
