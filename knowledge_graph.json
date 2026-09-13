@@ -18392,6 +18392,326 @@
       "source_locator": "analysis/EP119_supplemental.json:/kg_relationship_resolution/32/final_relation",
       "to": "ep93-active-sleeve",
       "type": "屬於"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：主持人推論可能原因，未指定獲單公司。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "那就是台股是非常強悍的。那同時也發生一些有趣的事情,比方說我最近有注意到PCB整個族群都在飛,那當然PCB族群在飛有很多的原因在裡面,但是我相信最大最大的一個理由呢,是因為可能很多在猜,iPhone新一代的設計會降落誰家,因為每年差不多在這個時候呢,大家會開始去佈局新一代的iPhone,可能會用哪樣的軟板,可能會用哪樣子的裡面的一些元件,那在台股的供應鏈呢,就是先去挖寶。\n那有時候你在台股的一些營收呢,你也可以先看到說,iPhone這一次他們要怎麼樣去佈局,就是台股的供應鏈這邊可以找到一些線索啦,那我覺得比較有趣的地方呢,是在上上次,好像是上上次還上上上次,在QA裡面就有人問我說對PCB的看法是什麼,那我覺得超扯的,因為他問完之後PCB就整個壓起來在噴,那之前前陣子呢,又有一個問我說,對於記憶體的,這個報價的看法是什麼,那後來記憶體就開始噴,就是有人[口語重起次數不確定]都會先問,那我想說,",
+        "excerpt_sha256": "1f4ec6c9a69d6f5bada9741d3b4834816236e9ef3a087735fbe90d84694d32b7",
+        "line_end": 20,
+        "line_start": 19,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-iphone-supply-chain-positioning",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/0/final_relation",
+      "to": "ep120-pcb-rotation",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：風險管理而非必跌預知，可能錯過上漲。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "去槓桿,我從二月的二十幾號那一集就跟大家講,就剛開始看到一些,怎麼講,跡象跟徵兆的時候,就跟大家說要去槓桿,那當然不是說什麼,我是股神啊,什麼預判啊,印度神童啊,我一直跟大家強調,沒有人可以去判斷市場,因為你猜得到你就all in了,不過你可以看到一些跡象,跡象就是比方說突然出現一個,過往沒有的一個波動,比方說突然的擊殺,那一般看到這樣子一個徵兆呢,我自己會做的事情,就是我會去槓桿,所以當然我就很自然的,我就在節目裡面分享出來,\n當然不排除未來可能會有一次,比方說,我跟你講說去槓桿,那我自己也去槓桿,只是你去了槓桿之後,換你的股票飆走,那就因為這樣超討厭我的,這是有機會的,那我只跟大家講說,沒有人是神仙啦,我就是分享我的看法,那如果是看法,你覺得你可以用的話,那你就拿去用,那比方說在去年三月呢,其實我也是跟大家講一樣的東西,就是去槓桿,因為不是只有你會去槓桿,那些機構他們也會去槓桿,就是當你今天可能會期待一個,比較大的波動,或是修正的時候,即便你不確定,\n這修正會不會發生,可是呢,你先把槓桿去掉,就是有點像是一個保命符的樣子,好,怎麼說,我們舉例來講,比方說你無套,你無套[字詞不確定：原辨識為「手桿」],不代表你百分之百會懷孕,對吧,但是呢,如果說你有帶套,你就等於是把這個無套的風險降到很低,所以你為什麼要無套去賭呢,那我覺得無套就有點像是,假設我們換到股市的這個例子裡面,就類推為槓桿,你槓桿就是你的風險是相對大的,那當然你往上是賺錢,因為你會翻倍,你會賺更多,可是一般人[口語重起字詞及次數不確定；原辨識為「一般人來」三次],\n他們可能都會有一個比較常見的盲點就是,他只會想到說,我槓桿下去會賺多少,他不會想到說,我槓桿下去會賠多少,所以在我上次跟大家講完去槓桿之後,我希望大家有去,那之後的一集,就可能是上上集吧,就有跟大家聊到說,有一個中國的Youtuber,就是他選擇用凹的嘛,那,他那一集凹下去,然後在上一集,我們又再跟大家提到他一次,就後來顯示是他好像有入金嘛,然後之後他就成功凹過去了,因為他反而好像有,\n吃到一點點反彈,所以他是有賺錢的,可是從上一集到現在呢,又連續跌了好幾根,而且直到昨天晚上是跌最大的一次,就一次殺了十幾%,我相信他又一定要補保證金的,所以這也是為什麼跟你講說,本多終勝,那你錢多的人,不是說你一定會贏,但是你的勝率是比沒有錢的人還來得高,因為你有失敗的機會,就像是一個富家子弟,富家子弟呢,他可以,他爸爸可能可以忍受他創業十次失敗,那好像燦坤這樣子,那可是呢,如果你是一個平凡家的小孩,你可能存到30歲,你就創業一次,\n你失敗,你這輩子就這樣,就回去種田,那,這些youtuber很多條件是還不錯的啦,所以他們可能可以這樣去拗,那我也不知道說他們是不好,我也沒有要去抨擊任何人,因為我最討厭文人相輕的,我覺得不管你是要提供什麼保守的意見啊,或是說一些比較激進,比較投機的投資意見,其實我都是一視同仁,我都覺得說,我多聽多看,不會受傷,我是在我節目裡面聊到這件事呢,只要跟大家提醒說,我覺得他這個操作是不好的,不管他平常聊什麼標的,他跟大家講什麼,那不重要,但是呢,這個操作\n是不好的,就是你硬去,怎麼講,所謂的攤平啊,然後就這個槓桿呢,他叫你補保證金,要margin call的時候,然後你就硬去補,因為槓桿這種東西,你要認清一件事就是,你去放槓桿就代表說,你對於這個東西是還蠻有信心的,所以如果你今天看錯了,即便是短暫的,可能是因為大盤系統性的修正,不是因為說你自己這個個股出了什麼問題,那你都要把它視為你看錯,因為你沒有辦法去,怎麼說,就是說硬凹下去,然後之後呢,你期待會有一個很好的結果,\n你這一次凹過去,你下一次可能也是凹不過去,然後你下下一次呢,我就不相信你會凹得過去,那有點像是,怎麼講,你不可能每一次都無套,然後最後面不會有小孩,你最後面就一定會中小孩,你期待什麼,你不去做防護措施,你最後面就一定會中獎啊,好,那,這也是為什麼我跟大家講說去槓桿,然後在去年3月,然後其實在這一次看了一個跡象就跟大家講去槓桿,不過當然,在未來有一次,可能我會跟你講說,我覺得要去槓桿的,就最後面他是繼續長的,那我希望你也不要回來恨我啦,因為我只是跟你分享我的一些看法,\n那可是你就看到說,像以這次的案例來說呢,你沒有去槓桿的,你要怎麼補,你上上集補,然後上集又在補,這集你還可以補嗎,你有多少錢可以補,你有多少錢可以去攤,那如果說下禮拜繼續跌呢,下禮拜繼續跌你還要怎麼補,你有這麼多錢嗎,因為可能一般人他不會是什麼,兩成資金在裡面,所以他有無限的,這八成的資金還可以一直丟一直丟,一般人可能就是七八成常住在股市裡面,甚至是百分之百,你根本沒有地方可以去補,你[字詞不確定：原辨識片段為「看他殺幾下東西」；另有「可能要殺其他東西」候選]去補,那我覺得這個就",
+        "excerpt_sha256": "2af40d7a6aed9a79084cd19eb06451e633b7235cfe384e28ec97ebc0cbe7d33d",
+        "line_end": 33,
+        "line_start": 25,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-deleveraging",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/2/final_relation",
+      "to": "ep120-forced-liquidation-risk",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：不排除外溢，並非下週必崩。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "不好看的啦,那當然在這次的下殺,很多人會覺得很難過很受傷,可是其實你同時去看,這個標普500指數,或說道瓊指數,你會發現說下跌的幅度超小的,基本上這個就像是一個很微幅的下調而已,當然我們不排除之後會不會整個有disrupted innovation,破壞式創新股,引發一波海嘯,然後帶到整個大盤,讓大盤在下個禮拜繼續崩跌,沒有人可以跟你保證這樣的事情,",
+        "excerpt_sha256": "138de6cc0f87a6fdcf68823724f75197d67baafaf59633bb88bbcea7d496e7d5",
+        "line_end": 34,
+        "line_start": 34,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-technology-stock-correction",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/3/final_relation",
+      "to": "ep120-broad-market-risk",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：本集直接確認在船上；無數量成本新成交。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "非常大的修正,我們看到一些,所謂的高估值的科技股,像是Tesla,像是Square,這些都是我的愛股,所以當然我自己也在船上,我自己也覺得說,啊,獲利回吐好難受,那我們看到這些東西的下殺,那當然就很多人會產生一些比較情緒化的一些反應,然後或者說一些討論,不管是在我們自己的Telegram,或是在其他討論區,就開始罵,開始幹什麼的,那我覺得其實,你不需要去罵任何一個人,幹任何一個人,因為投資一直以來都是你自己的事情,你又不是說,",
+        "excerpt_sha256": "ab5478d8d141749729ef24ebce579e80ade316aadd5c30b795e5cd81bed7f04d",
+        "line_end": 35,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "notion-reference-311b9258820781e9a13af24d527d2d7f",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/4/final_relation",
+      "to": "ep68-tesla",
+      "type": "持有"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：本集直接多頭曝險，不等於加碼推薦。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "非常大的修正,我們看到一些,所謂的高估值的科技股,像是Tesla,像是Square,這些都是我的愛股,所以當然我自己也在船上,我自己也覺得說,啊,獲利回吐好難受,那我們看到這些東西的下殺,那當然就很多人會產生一些比較情緒化的一些反應,然後或者說一些討論,不管是在我們自己的Telegram,或是在其他討論區,就開始罵,開始幹什麼的,那我覺得其實,你不需要去罵任何一個人,幹任何一個人,因為投資一直以來都是你自己的事情,你又不是說,",
+        "excerpt_sha256": "ab5478d8d141749729ef24ebce579e80ade316aadd5c30b795e5cd81bed7f04d",
+        "line_end": 35,
+        "line_start": 35,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "notion-reference-311b9258820781e9a13af24d527d2d7f",
+      "predicate_id": "holds",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/5/final_relation",
+      "to": "ep118-square",
+      "type": "持有"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：只保留比較議題，不建立缺完整期間的實證勝負。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "你看其實巴菲特還是真正的高手,因為巴菲特,在這樣子一個修正喔,就巴菲特還是,他的[名稱字詞不確定：原辨識為「Pokerchat還是為」]BRK呢,還是漲一趴耶,可是你看ARK跌到,幹還破10趴,當日破10趴,太誇張了,真的太爛了,然後就說ARK就是一文不值的垃圾或什麼的,不過其實有時候我覺得,我們不要用太多感受去,去描述一件事情,可能用數據去看我比較準,如果我們現在拉出數據來看,我們就拉ARK,然後跟上次我們聊到的,就是Sortino Ratio比較對象,QQQ,\n因為一樣是科技股,然後以及三倍做多,納斯達克,TQQQ,Triple Nasdaq,那你看這兩個標的,去跟ARKK比,然後再拉一個,波克夏海瑟威BRK,你會發現一個神奇的事情,不管你是從去年的9月,當然一個起算點,就是納斯達克[事件名稱字詞不確定：原辨識為「巨金事件」],或者是你直接用2020年的開頭,1月1號做一個起算點,其實ARK都還是贏,你用這兩個起算點去算,ARK不只是贏過三倍做多納斯達克,不只是贏過NASDAQ,當然[此處口語重起次數不確定],\n三倍他都贏了,所以納斯達克才贏,然後更是贏過了,波克夏海瑟威,但是我講到這邊,也不是要告訴你說,你看他贏過波克夏海瑟威,所以波克夏海瑟威,爛,不是這樣,因為在我自己的一個判斷的投射裡面,我有跟大家聊過說,ARK的一些隱憂,然後包含說這些小型股,可能之後會對他造成一些,包含說流動性風險,雖然在上一集跟大家講說,目前我們還沒有看到流動性風險,但是還是有可能的,就如果說大家對他的熱度越來越高,然後之後遇到一個更龐大的下殺,",
+        "excerpt_sha256": "8f9f0075e541e7d6f3d43d18418d1afa1a931708e7a092d3463a982002a41aa2",
+        "line_end": 39,
+        "line_start": 37,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "berkshire-hathaway",
+      "predicate_id": "compares_with",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/6/final_relation",
+      "to": "ep120-arkk",
+      "type": "對照"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：未來大盤下跌與小型股壓力的情境，本次尚未看到。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "三倍他都贏了,所以納斯達克才贏,然後更是贏過了,波克夏海瑟威,但是我講到這邊,也不是要告訴你說,你看他贏過波克夏海瑟威,所以波克夏海瑟威,爛,不是這樣,因為在我自己的一個判斷的投射裡面,我有跟大家聊過說,ARK的一些隱憂,然後包含說這些小型股,可能之後會對他造成一些,包含說流動性風險,雖然在上一集跟大家講說,目前我們還沒有看到流動性風險,但是還是有可能的,就如果說大家對他的熱度越來越高,然後之後遇到一個更龐大的下殺,\n因為這一次的下殺是只有新科技下殺,但如果之後遇到一個是整個大盤的下殺,那還是有可能會出現所謂的流動性風險,只是我們這一次是沒有看到的,那也是因為這些種種原因,包含說ARK的波動性非常大等等,所以我很常跟大家講說,你回聽我們節目啦,其實很多東西都是老生常談,但是可能平常在漲的時候,大家都覺得自己是股神,所以根本就聽不進去嘛,我很常跟大家說,你一個[字詞不確定：原辨識為「菜币包含」]就是七三開局,七被動投資,然後你可以選擇大盤的ETF,那三呢,你可以選擇主動選,那我一直跟大家說,",
+        "excerpt_sha256": "27261127d939cce2877ac1f0a17d4fda3e0ac78689049453812784d214397bee",
+        "line_end": 40,
+        "line_start": 39,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep117-reported-ark-portfolio",
+      "predicate_id": "exposed_to",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/7/final_relation",
+      "to": "ep117-concentration-liquidity-risk",
+      "type": "曝險於"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：主動配置方法適用於ARK基金群，不把基金群當作實際投資部位的成員。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "因為這一次的下殺是只有新科技下殺,但如果之後遇到一個是整個大盤的下殺,那還是有可能會出現所謂的流動性風險,只是我們這一次是沒有看到的,那也是因為這些種種原因,包含說ARK的波動性非常大等等,所以我很常跟大家講說,你回聽我們節目啦,其實很多東西都是老生常談,但是可能平常在漲的時候,大家都覺得自己是股神,所以根本就聽不進去嘛,我很常跟大家說,你一個[字詞不確定：原辨識為「菜币包含」]就是七三開局,七被動投資,然後你可以選擇大盤的ETF,那三呢,你可以選擇主動選,那我一直跟大家說,\n當然ARK是ETF,可是ARK你要放到主動的範疇裡面,因為它的波動是算大的,這是我一直都給大家建議,但是很顯然的,很多人沒有聽進去吧,然後就包含說,他可能還是選擇繼續槓桿,跟你講說,我建議啦,去槓桿,那你可能,你決定不要去槓桿,那當然那就是你的選擇,有時候可能我會猜對,有時候你會猜對,那很明顯這一次,就是選擇要繼續槓桿的,就算是猜錯了,然後因為很多人,有巨額的虧損產生,然後因為這樣子就把它整個部位給砍掉了,那我覺得,你期待什麼東西,\n有時候你要去思考一件事情,當你在做投資的時候,每個人都會跟自己講說,我是在做長期投資,我是跟乾媽一樣,看好三年五年後的世界,那可是呢,你看,你遇到一個下殺就砍掉了,那當然你會有自己的理由,你會說,因為我現在真的太痛了,我已經賠掉三成五成了,那在下一次你就要去思考說,你還要不要這樣幹,那我跟你講ARK的風險,我跟你講說,ARK他有一些很暴力的績效,那他這家公司是非常有趣什麼的,我跟你講完他的所有描述之後呢,我給你的建議是,我覺得他的部位不要配太大啦,",
+        "excerpt_sha256": "300bc5a777427a65c78c134902a32a085edfe9d45323cc2b39597107bd3beb90",
+        "line_end": 42,
+        "line_start": 40,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep93-active-sleeve",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/8/final_relation",
+      "to": "ep117-reported-ark-portfolio",
+      "type": "應用於"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：主持人的風險反省，非對所有人作心理診斷。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "我從來都不會講說,什麼樣一定是最好的,指數化投資一定是最棒棒的,那股债一定要幾比幾,那個都沒有一定,那完全都是看個人,你要買巴菲特,還是你要買ARK,那都是你自己的選擇,但是你做選擇,你要知道自己在幹嘛,如果說你搞到情緒崩潰,然後到處噴人,那其實代表說,你根本就不知道你自己在幹嘛,你只是在發泄而已,那以我自己的經驗來說,我個人覺得,如果你今天淪落到,就是你情緒失控的話,你一定不會有什麼好下場,因為你情緒失控,你是沒有辦法去做一個,\n好的判斷的,那個判斷的素質呢,一定就會變得非常的低,所以你要去控制自己的情緒,這是最重要的,然後就你看到下跌,為什麼你會覺得情緒反應很大,第一個,就一定是壓太多了嘛,就是部位太大嘛,曝險太大嘛,然後第二個,可能就是有一些急迫的壓力,不然說,你可能要被margin call了,因為你使用槓桿,那再來呢,可能就是自己賺的錢不夠多,但這個,最後一點就比較困難,這可能大家都一起努力,我到現在我都在覺得自己賺的錢不夠多,那大概是這樣,就是你遇到一個修正呢,你會有很多,\n很多的情緒,那其實它是一個很好調整你部位的時候,因為你以後一定還會再遇到,如果你這一次就選擇開幹,然後明天反彈你就當沒事,然後繼續追,看到什麼會漲就追,那你下一次一定還會再遇到,而且一般來說,越後面遇到越慘,因為投資是一輩子的事情,你等到你四五十歲,本金真的大起來了,小孩就出來了,結果呢,你才開始落賽,那就是非常慘的事情。但是在這個時代,我必須得說,你不得不投資。",
+        "excerpt_sha256": "dc9b38e4df6cda1e011741951d57b2dc50e79050dfc6dbb4c310f7d39615e72f",
+        "line_end": 50,
+        "line_start": 48,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-excess-exposure-cash-pressure",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/9/final_relation",
+      "to": "ep120-emotion-driven-decisions",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：短期相對SoFi看法，沒有受惠指標或期限，非SoFi做空。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "他們本來講說,他們是要做一個,每個人的券商,就是他是站在人民這邊的,結果,現在大家發現說,Robin Hood,你根本就不是站在人民這邊,你是站在機構那邊的,所以要把他打下神壇的時候呢,那他也出來收割一發說,大家可以用SOFI,雖然我的意見是,我覺得Square受惠,可能會比SOFI來多,就短時間之上啊,那當然之後SOFI會怎樣,我不知道,反正他就出來收割一波這樣的聲量,然後他要選加州州長,可是有趣的是呢,他同時在放空加州企業,他要放空這個Facebook,就他在自己",
+        "excerpt_sha256": "98f6a4b81625230d4757d60025f6ded2b63a721661b0ab4e205ef71c0ee3bafe",
+        "line_end": 57,
+        "line_start": 57,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep118-square",
+      "predicate_id": "benefits_from",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/10/final_relation",
+      "to": "ep120-robinhood-event",
+      "type": "受益於"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：官方公告時序優先；不是所有廣告停止或已全面生效。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "的Twitter上面,那也因為他po了這個文章,就看到下面超多人在酸他的,反正,這件事情的起因呢,是因為Google,他有點像是,也不能說是跟進Apple啦,但是,你知道現在科技巨頭很多,就是要去走一條,更重視大家隱私的路,像Apple就是在iOS14之後呢,他會讓你可以選擇說,你要不要去與這個廣告商,共用一些你的隱私的訊息嘛,那當然一般人就會選不要啊,所以是,就會傷到廣告商的利益嘛,所以當然像臉書這樣超級不爽,臉書雖然是社群平台,但是他\n其實,核心就是廣告商,因為他營收大部分就是廣告,那現在Google呢,Google也是做了類似的事情,反正他就是不再接受第三方的cookie,那當然還有很多很詳細,很細項的廣告的東西,那可能我的能力不及,沒有辦法解釋,我發現幹他超深的,其實廣告的技術是非常困難的,那總之呢,因為他們這樣一個做法,雖然之前有預告啦,那現在正式執行,搭配一些配套方案呢,導致一些廣告商,他們可能未來,就沒有辦法去透過Google,因為Google這邊不會去主動收集大家的資訊,所以呢,他就沒有辦法去,\n做一個這個精準的廣告投放,所以比方說像你看到的Trade Desk,或者說這個Magnite,就是一些廣告公司呢,他們都有蠻嚴重的一個下修,然後這你可能就要去注意喔,就你要去注意說,因為這些科技巨頭,他們去改變了他們一些政策,改變了policy,可能會對其他人造成的影響,那[人名字詞不確定：原辨識為「全馬斯」，另辨為「Chemars」]就是轉貼這個新聞,然後他意思是講說,現在Google跟Apple是同一陣線的,就是對抗你臉書啦,我這邊就覺得說,[台語字詞不確定：原辨識為「幹他不會夠虧啊」],是台語這樣講嗎,因為他以前是臉書高階主管,",
+        "excerpt_sha256": "e754ae15a3fc33d1b2be8b123e22f37f5404a88cc80eee1fac977c97eb4a6f92",
+        "line_end": 60,
+        "line_start": 58,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-privacy-policy-changes",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/11/final_relation",
+      "to": "ep120-advertising-delivery",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：有時間壓力，不把教學變成實際持倉。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "你出事情,你都是先怪別人,你不是怪自己,那因為很多人重倉去壓這些SPAC股,甚至呢,使用衍生金融品,就是Wall Street Bets這些人就使用衍生金融品的啊,那當然在這一波的下殺,你就想,欸,現股都跌掉12%有時候一天12%這樣,那你的衍生金融品就是直接吃龜苓膏啊,那所以,這也是為什麼跟大家講說,欸,股而優則期,期而優則權,股票玩不好,不要玩期貨,期貨玩不好,更不要去玩什麼權證選擇權,然後那個有時間壓力的,你會落賽,那大概是這樣,然後就是",
+        "excerpt_sha256": "54a158b81f01b4df5cd6f8e1a4d1a568736072c2d0e6dbe940dbb21aada0beda",
+        "line_end": 65,
+        "line_start": 65,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-derivative-time-constraints",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/14/final_relation",
+      "to": "ep120-trading-error-tolerance",
+      "type": "約束"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：投入計畫影響能留場的時間，不以supports誤指提高命題可信度。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "在這種茫茫人海之中,大家都很混亂,兵荒馬亂的時候呢,還是有些人,很認真的在跟大家分享他的策略,他想要怎麼做,那我覺得這是非常非常有價值的東西,如果說你每一次都只會,跟著情緒,跟著恐慌在走,那,他真的不是什麼好事,因為這樣的東西,都還會再發生,然後發生之後呢,一樣,this too shall pass,最後面都還是會過去,然後就是下一次,那你什麼時候可以把這個學起來,什麼時候可以[字詞不確定：原辨識為「繼續教訓」，勿逕改「記取教訓」],什麼時候可以找出自己最佳配置,那才是,可以讓你可以持續,投資,投資,\n一輩子的事情,因為我們剛才提到說,你必須投資,你才不會在一個現在的寬鬆時代,然後與資本家越拉越遠,但是,要怎麼樣投資才可以讓你留在場上,就很重要,因為你會發現很多人的投資方式,你根本沒有辦法留在場上,所以你,你根本就享受不到,投資的[字詞不確定：原辨識為「三本數」],本金,然後的報酬率,然後還有時間,你本金可能有了,那,可是報酬率不怎麼好,那沒關係,你就想辦法找一個,還適合你的報酬,你可能就選擇使用大盤,如果說你真的沒有辦法去擊敗大盤,你就使用,\n大盘嘛\n那再来就时间\n是要时间\n才可以把獲利滚出来的\n但是你进来\n然后两个月\n发现吓死了\n哎呦我就砍掉了\n然后你也没有任何的计划\n就是我之后要怎么样加\n那我每个月\n可以投入的钱多少\n你都完全没有规划\n反正你就看到涨\n就进来追涨\n那你就是一定会\n有不好的下场嘛\n不然你还期待什么\n好啦",
+        "excerpt_sha256": "e6376146b35781793a14266d839f3e5225716dbb4f14f52ea283dd0c2fe80857",
+        "line_end": 89,
+        "line_start": 69,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-sustained-investment-plan",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/16/final_relation",
+      "to": "ep120-time-invested",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：依ontology，總報酬評估方法應用於高股息ETF，原草稿方向相反。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "高股息的ETF\n当然它的\n核心的问题\n就是在于说\n我一直都不太喜欢\n配股息的东西\n因为\n我觉得股息就是\n左手配右手\n但是我还是跟大家讲说\n殖利率是可以参考\n因为殖利率\n你知道这个东西\n没有屌用\n像我知道没有屌用\n可是很多台湾人爱看\n所以殖利率高的东西\n也搞不好\n股价就会炒作\n因为有些人\n就是喜欢这样的东西\n就是跟[字詞不確定：原辨識為「世道银河」，兩pass另辨為「四道銀河」]\n可是如果说\n你是选择ETF的话\n其实很重要\n就是你不要忽略\n其实股息就是\n左手配给你右手\n它从净值配给你\n所以那就是你自己的钱\n你又想说\n后来会填息\n可是你要想\n就算它今天\n没有配息给你\n它留在里面\n当它的成分股的价值\n往上涨\n最后面它的净值也往上涨\n它整个价格也往上拉\n这还是你的钱\n只是比方说\n它变成是资本利得\n的一部分\n然后我们现在也没有\n什么证所税之类的\n所以已经拿资本利得\n是好事\n你拿太多股息\n反正是坏事\n那再来就是\n最重要的绩效问题\n你会发现很多\n所谓的高股息\n然后根本就打不赢\n最\n最怎么讲\n朴实无华\n且枯燥的\n大盘市值ETF\n像是追蹤[與下一行「追蹤」的口語重起次數不確定]\n追蹤台湾50指数的\n0050、[第二個ETF代碼不確定：辨識為0608／00608／06108]\n那或说你看\n国外的一些高股息\n可能也打不赢\n比方说VOO、VTI\n这样的东西\n你把它绩效拉出来\n比马上答案就知道了\n有时候你去比较商品\n很简单\n你直接把过往绩效拉出来\n当然有些人会告诉你说\n以前不代表未来\n但是就像是赌赛马一样\n那以前的冠军马\n未来跑冠军的机会\n还是比较高\n那以前的烂马\n当然还是有机会\n跑冠军\n可是那赔率\n可能就很高很高\n这样\n就他可能不容易赢\n因为赢的机率太低了\n所以我觉得过往的绩效\n还是可以稍微的参考一下\n那是我呢\n我可能比较不喜欢\n高股息的产品",
+        "excerpt_sha256": "085abc96d16ed858b79a638132892d6e5a507a21ac1281c3dec628a18c4a7e50",
+        "line_end": 274,
+        "line_start": 183,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-total-return-evaluation",
+      "predicate_id": "applies_to",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/17/final_relation",
+      "to": "ep120-high-dividend-etfs",
+      "type": "應用於"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：個人取捨；負評有選樣偏差，不是房仲母體統計。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "应该是这样\n所以才会觉得\n这个房屋相关人员被妖魔化\n其实老实讲\n我在阅读\n很多关于看房的文章的时候\n确实是有这样子的一个感觉\n就大家觉得说\n房仲会骗你\n或者说跟这个房子相关的\n比方说一些代书\n或者说代销\n他们很多都有问题\n建商都有问题\n但是我觉得那很正常\n就像是\n你吃一个餐厅好吃\n可能比较少人会去\n写一个五星评价\n或者说你听一个Podcast\n[字詞不確定：原辨識為「少听」；不逕改「好聽」]\n你去写一个五星评价\n那我觉得那是比较少的\n但是你只要觉得不好吃\n或什么\n很多就直接上去开干\n所以这个声音就会被放大\n所以可能很多\n有不好经验的人\n他们上网写\n就显示好像整个\n这个房地产从业人员都很不好\n那我只能说\n我不知道通案是怎么样\n但是以我自己的例子\n我遇到的这个房仲\n就是一个非常优秀的人\n他真的是很认真在帮我分析\n那可能也是因为我很精明吧\n所以很多时候\n我跟他讲一些东西\n他觉得\n你怎么都知道这些东西\n感觉你看房看很久\n都没有爬文[與下一行「爬文」的口語重起／重複次數不確定]\n爬文[承上行；此處是否為另一次口語重起不確定]\n然后我自己有自己的一些心得什么的\n那感谢你的祝福\n我也希望可以找到一个好房\n但是找不到算了\n就继续租\n因为房子这种东西\n我觉得蛮吃缘分的\n除了长辈会这样跟我讲\n我自己也这样觉得\n不然\n这一个这么大笔的交易\n刚刚我那天看到一个超有趣的说法\n好像是\n忘记我脸书上哪一个好友\n很多都最近才加\n他们加\n我看到共同好友够多都加了\n然后我记得好像看到有一个動態時報\n就写说\n你知道你买房感觉像是圆的人生的一个梦想\n就是大家的一个想法\n就圓了一个梦想\n可是你有想过\n他可能是毁了两个人的梦想\n我想说\n干\n那还蛮有道理的\n我忘记他详细的内文\n反正意思就是这样\n就是说你感觉圓了一个梦\n其实你毁了两个人的梦\n然后因为你可能就要背这个房贷\n然后台湾的房贷\n干\n你就知道房贷就超干贵\n其实在台湾[住／租，字詞不確定]房子是一个很值钱的事情\n因为[住／租，字詞不確定]房子CP值高\n然后因为房价都超贵的\n你可以用很便宜的租金\n去租到一个很贵的房子\n所以其实租房也没有什么不好\n但我觉得这句话还蛮值得省思的\n就是很多人会急急急急\n觉得我一辈子一定要买一间房\n但是你可能买了这间房之后呢\n你们两个的人生就到这边结束了\n你再也不可以去冒险闯荡傻小\n因为你就要好好地把这个房贷给付完",
+        "excerpt_sha256": "38310689dd1393dfe3eb195177b3c281578e6375b9b7b67ecdb50bfdd0424478",
+        "line_end": 388,
+        "line_start": 295,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-mortgage-burden",
+      "predicate_id": "constrains",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/18/final_relation",
+      "to": "ep120-life-choices",
+      "type": "約束"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：承認過早判斷與錯誤，不保證最低買最高賣。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "你就可以看那个\n差不多是三集前吧\n就是为什么我会跟大家讲去杠杆\n还是得强调\n还是得强调\n不是每一次都会看对\n有时候就会看错\n比方说\n这次去杠杆你可以看一下\n你也可以去看一下\n我前面有一集讲说\n谁要留下来洗碗\n就是讲那个航运股的\n然后也是\n我看到我觉得反转了\n我才讲\n那之后当然航运股价又反弹回去了\n当然还没有碰到之前的新高\n但是你看股价就是\n可能会这样涨涨跌跌\n那我也是[字詞不確定：原辨識為「拆一个位置」，另有「差一個位置」候選]\n因为我之前在防疫股的时候\n我觉得我讲早了\n所以很尴尬\n因为它之后继续涨\n就有人就讲说\n「[稱呼字詞不確定]不是說派對結束了？」\n我不可能每次都看对\n有时候就会看错\n这很正常的\n我有几次看对的经验\n那你可能就可以去\n稍微揣摩一下说\n为什么我会这样想\n那一般来说\n我的判断基准很简单\n就是有一个比较不自然的下杀\n那我就会想是不是\n比方说有些人赚够了\n要出场了\n还说有些人知道了\n我不知道的事情\n我就会开始有所准备\n但是我也不会一次\n就把手上的东西丢光\n那我的做法就是分批\n所以我買是分批買\n我卖也是分批卖\n我可能卖不到最高点\n但是平均下来\n你买也是平均",
+        "excerpt_sha256": "1b6ceb661974244e30aed337f0962400fee5c6e0a535167f6e9625bd7c5f2e4e",
+        "line_end": 465,
+        "line_start": 415,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep105-1",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/19/final_relation",
+      "to": "ep84-market-timing-uncertainty",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：歷史未具名生技虧損；醫師及期刊不等於投資驗證。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "然后再来说\n是否一些长期看好的成长股\n会让你偶尔打破原则\n不遵从上述所提的标准呢\n谢谢大家\n祝事事顺心\n平安快乐身体健康\n对啊\n有时候会晕船\n我都称这个叫晕船\n就是你一个看好的东西\n因为真的很看好\n就越买越多\n但是\n虽然我晕船我会出来分享给大家\n像之前的Tesla跟NVIDIA\n那可是呢\n然后比方说\n像我过往晕船的案例\n我也跟大家聊过嘛\n然后在台湾玩那个生技股嘛\n然后因为\n干其实我根本就是一个生技大外行\n我根本就不知道\n生技股是他妈冲他小的\n可是那时候为了那一支股票\n我还去开股东会\n开股东会\n认识一些朋友\n然后去找医师\n去找文献\n我本来根本不知道\n新英格兰科学期刊是杀小\n什么NEJM是杀小\n我根本不知道\n柳葉刀是什么\n根本不知道\n可是为了那支标的呢\n柳葉刀看得很熟\nNEJM也看得很熟\n看不懂的东西呢\n那就问医生朋友\n然后去查一些资料\n看一下国外的这个\n包含说在美国跟在这个加拿大\n像美国就说Medicare\nMedicare是怎么样\n那他会怎么样子补贴大家\n那藥價会多少\n那时候为了一个股票研究到这样\n然后觉得自己挖到一个宝了\n就最后面干什么落賽\n就是赔了蛮多钱的\n那刚好昨天在群组里面\n有人问我这件事情\n说你有没有赔过钱\n當然有啊\n不论什么大家都觉得\n好像出来录节目\n或者说跟大家分享的\n都是那种股神\n可能很多\n对啦他想要塑造这样的形象\n但是我一直都没有塑造那样的形象\n我就是陪大家聊天而已\n那我有分享一些失败经验\n过往也讲过蛮多次了\n那有这样子暈船\n然后重伤的事件\n所以之后我只要\n比方说我规划我要买10%\n可是我买到20% 30%\n我就把它算成是晕船\n我知道这是不好的\n所以要提醒自己说\n因为之前有那种超级看好的东西\n可是落賽\n所以呢\n你如果发现迹象不对\n你要赶快跑\n就是你不可以像之前那样子\n就是死死的抱着\n然后最后面才发现\n有些东西事与愿违\n因为那等到你知道\n那已经太慢了\n那你会发现说\n医生也判断不出来\n因为跟你一样有持股的\n也有医生\n大家都一直讨论\n那边同温层很高兴\n就发现\n干你们自己在那边同温层\n就其实人家早就不要玩了\n就走掉了\n所以尽量还是遵从纪律\n会比较好\n那破坏纪律\n你就要小心\n有一些比较严重的代价\n但是当然有时候\n比方说像去年\n晕船的做法\n就帮我带来了不少的获利\n不过我觉得要很小心\n因为你只有真的\n落賽過之後\n你才会知道说\n为什么要有纪律",
+        "excerpt_sha256": "9e82e675c9d0f7c86658db04077bba8a89720efb4a916eb768d5d0a766bdf61a",
+        "line_end": 580,
+        "line_start": 471,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-holder-echo-chamber",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/20/final_relation",
+      "to": "ep120-risk-judgment",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：CCL偏空避開，不是真實空單或短期價格預測。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "想请请教主委关于CCL\n括號嘉年华邮轮的看法\n去年因为疫情导致各大邮轮公司\n倒的倒\n逃的逃\n大概从谷底慢慢爬的CCL\n是否有机会走上更高峰呢\n麻烦主委提供一下意见\n感谢主委\nOK\n像去年在疫情的高峰的时候\n跟大家分享说\n因为我同时又在经营旅馆\n[現今參與狀態字詞不確定：原辨識為「现在没有像我抽身的」，另有「現在這邊有／現在我抽身」候選]\n但是之前有\n但是我只能告诉你\n其实旅馆到现在都还没有\n就连台湾这样的地方\n根本没有什么[字詞不確定：原辨識為「击败疫情」]的\n可是都还没有回温到该有的一个高度\n那我必须得说\n其实就算疫苗打下去\n我们现在看以色列这边成绩是很好\n没错\n但是我相信\n就是像CCL这样的公司\n但短期的股价\n我真的没有办法给你什么太多的建议\n我只能跟你讲说\n它的经营面的我有一些想法\n想法就是说\n就算疫苗大家都打了\n然后之后我们会有什么旅行泡泡\n然后你的护照上面可能会盖个章\n说你是有打什么某某某疫苗的\n然后才可以出国之类\n可能可以去搭邮轮杀小的\n可是只要有任何一个风吹草动\n比方说又有人在上面确诊感染杀小的\n那我不知道我就觉得很可怕\n你知道像持有这种东西\n就像是[字詞不確定：原辨識為「爆的炸弹」，兩pass另辨為「爆炸彈」]一样\n其实之前像是一些投资大师\n就跟你讲说\n航空股不是太好的标的\n因为航空股是一个\n获利是很有限的\n特别是做载人的\n载人的航空股\n那基本上获利是有限的\n可是风险可能是很大的\n因为假设今天摔掉了一个飞机\n有什么超级大条的事情\n那可能就造成股价重挫\n所以可能上档获利有限\n下档的损失可能是更大的\n那我觉得像這樣的標的\n是我啦\n是我我会避开\n但当然富貴險中求\n你要去求也是可以\n因为他可能随时\n比方说就是上去的人\n有人确诊还是阿小的\n那个觉得超严重的\n因为他这个东西影响太重大\n你知道如果今天是什么\n你说你要去投资希尔顿或什么\n我还觉得还好\n因为饭店\n饭店就那样\n大家关起来消毒什么\n邮轮是大家都关在邮轮上面\n我觉得那恐慌的程度会高非常多\n我自己的想法",
+        "excerpt_sha256": "b63606c970a0d4199b21fe2faf9c00f786e84b4e7a1e26d3038eb326121ab785",
+        "line_end": 693,
+        "line_start": 619,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-cruise-outbreak-risk",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/22/final_relation",
+      "to": "ep120-cruise-operating-downside-risk",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：指引與歷史財報分開，不把朋友預估當主持人保證。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "他觉得明年会更好\n我就跟着买\n我就敲了两张\n两张多少钱\n150还160万吧\n就干他妈的\n那一天开出来\n好像直接先跌七八趴吧\n我看到七八趴\n我就不对了\n我就先砍掉了\n就后来那一天是鎖跌停\n但是我已经先离开了\n后来有反弹了\n就等于说\n我可能砍的位置也不是太好\n但是我就觉得\n[字詞不確定：原辨識為「帮我看错」]我就把它砍掉\n那之后呢\n我就去了解一下\n就说\n法说会讲的比较保守\n过去非常赚钱\n可是对于未来呢\n他们持一个比较保守的看法\n所以呢\n当然有些法人\n或是有一些资金\n就不青睐这样的东西就把它砍掉\n那这也是我很常跟大家提到的一个重点\n就是你看财报\n财报是过往发生的事情\n那过往发生的事情\n财报一贴出来\n你会看\n我会看\n你阿嬷也会看\n大家都会看\n所以其实我觉得\n财报对于过往发生的事情\n你只能把它当成是一个验证\n它并不是一个真的超级有价值的东西\n但是公司一般会给一个业绩指引\n在美国叫guidance\n就是它会告诉你\n我们未来会怎么样\n会不会赚钱\n未来我们有什么样的规划\n这个才是大家要听的\n因为我投资你\n投资一家公司\n核心是什么\n核心就是我买它未来的现金流\n你不是要买它过去\n因为如果是买它过去\n等于是你希望你买进\n然后这家公司现在就清算\n对吧\n已经赚多少钱\n然后分给大家\n不是啊\n你买它就是要买它的\n未来的成长性\n未来可以带进来的现金流\n所以才有办法\n比方说这个DCF去算\n然后去折現\n然后算说\n这家公司值多少钱\n所以你是要买未来\n但有些公司\n它如果就是很明确告诉你说\n未来可能没有那么好\n比较保守\n那有时候就会遭到这样的无情暴杀\n但是呢\n也不代表这是不好的事情\n你知道其实有些",
+        "excerpt_sha256": "7c8ca0f6c1a08bd3386bf780ecada9c23650391251bc8d9bc2ac2ba512bd81cb",
+        "line_end": 816,
+        "line_start": 739,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-future-company-cashflows",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/24/final_relation",
+      "to": "ep120-company-valuation",
+      "type": "影響"
+    },
+    {
+      "context": "EP120（2021-03-06）節目觀點／轉述：保守語氣不必然代表前景差；未明公司姓名不得推定。",
+      "ep": "EP120",
+      "evidence": {
+        "excerpt": "比较保守\n那有时候就会遭到这样的无情暴杀\n但是呢\n也不代表这是不好的事情\n你知道其实有些\n像是大立光的林恩平\n讲话就是属于比较保守的\n那或是像是\n之前[名稱字詞不確定：原辨識為「金财」，另辨為「精彩」]\n[名稱字詞不確定：原辨識為「金财」，另辨為「精彩」]那叫什么\n[人名字詞不確定：原辨識為「陈家乡」，另有「成家鄉」候選]\n反正有一些老板\n他们讲话就是这样\n他就是有一说一\n有二说二\n然后这好像我在捧那些老板\n也不是\n我观察他们\n他们讲话就是比较实在\n那他有时候\n他也不是说什么\n故意要去低估自己的公司\n然后或者说太保守\n或者怎么样\n他可能也是属于\n比较悲观的人\n所以他在讲这些东西的时候\n他就会讲的比较\n就会留一手\n然后他反而希望说\n之后给你惊喜\n那也不要我现在讲太快\n所以不代表说\n什么他[股票名稱字詞不確定：原辨識為「先向」]他以后就\n一定会很惨\n还是啥小的\n就感觉对于未来是保守的\n也不一定\n然后因为我不知道\n[股票名稱字詞不確定：原辨識為「先向」]老板是怎么样\n因为这次我就很坦白告诉你\n是我朋友跟我讲\n[字詞不確定：原辨識為「我在想到」，另有「我在想的」候選]\n我之前平常我在看\n但是他跟我讲的时候\n好了好了\n就买看看\n然后就落賽了\n但是这样",
+        "excerpt_sha256": "d6c77d30e9e7d40000fe7adf88f68a1f48fb210cb8cb7a12c60193c38f4e9556",
+        "line_end": 860,
+        "line_start": 812,
+        "transcript_path": "transcripts/EP120_corrected.txt"
+      },
+      "from": "ep120-management-communication-style",
+      "predicate_id": "affects",
+      "source_locator": "analysis/EP120_supplemental.json:/kg_relationship_resolution/25/final_relation",
+      "to": "ep120-guidance-interpretation",
+      "type": "影響"
     }
   ],
   "metadata": {
@@ -18402,10 +18722,10 @@
     "last_update": "2026-09-13",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP119 分析報告",
+    "source": "EP1-EP120 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1205,
-    "total_relations": 877
+    "total_entities": 1236,
+    "total_relations": 897
   },
   "nodes": [
     {
@@ -34033,6 +34353,378 @@
       "importance": "⭐⭐⭐⭐",
       "name": "🚗 光達與化合物半導體",
       "notion_id": "3dab9258820781369c7ef6dd52b0c43c",
+      "type": "💡概念"
+    },
+    {
+      "description": "iPhone供應鏈布局",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-iphone-supply-chain-positioning",
+      "importance": "⭐⭐⭐",
+      "name": "iPhone供應鏈布局",
+      "notion_id": "3dab925882078134be1dfa44cde26bf4",
+      "type": "💡概念"
+    },
+    {
+      "description": "PCB族群輪動",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-pcb-rotation",
+      "importance": "⭐⭐⭐",
+      "name": "PCB族群輪動",
+      "notion_id": "3dab9258820781f19bd6f1631e1c8b2f",
+      "type": "💡概念"
+    },
+    {
+      "description": "去槓桿",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-deleveraging",
+      "importance": "⭐⭐⭐",
+      "name": "去槓桿",
+      "notion_id": "3dab92588207814a8041e22af85b238f",
+      "type": "💡概念"
+    },
+    {
+      "description": "被迫平倉風險",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-forced-liquidation-risk",
+      "importance": "⭐⭐⭐",
+      "name": "被迫平倉風險",
+      "notion_id": "3dab9258820781658d67f3cfd6a278e7",
+      "type": "💡概念"
+    },
+    {
+      "description": "科技股修正",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-technology-stock-correction",
+      "importance": "⭐⭐⭐",
+      "name": "科技股修正",
+      "notion_id": "3dab9258820781d3a629ce00bb55037c",
+      "type": "💡概念"
+    },
+    {
+      "description": "大盤風險",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-broad-market-risk",
+      "importance": "⭐⭐⭐",
+      "name": "大盤風險",
+      "notion_id": "3dab92588207816fae1cd05ab871ca04",
+      "type": "💡概念"
+    },
+    {
+      "description": "EP120（2021-03-06）節目敘事中的ARKK；不代表主持人目前持有，方向另依本集候選台帳。",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-arkk",
+      "importance": "⭐⭐⭐",
+      "name": "ARKK",
+      "notion_id": "3dab925882078111be61f730a96f580a",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "過大曝險與資金壓力",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-excess-exposure-cash-pressure",
+      "importance": "⭐⭐⭐",
+      "name": "過大曝險與資金壓力",
+      "notion_id": "3dab9258820781cc80d7e662c4710ff1",
+      "type": "💡概念"
+    },
+    {
+      "description": "情緒決策",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-emotion-driven-decisions",
+      "importance": "⭐⭐⭐",
+      "name": "情緒決策",
+      "notion_id": "3dab925882078154abdded0f41f241fc",
+      "type": "💡概念"
+    },
+    {
+      "description": "Robinhood事件",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-robinhood-event",
+      "importance": "⭐⭐⭐",
+      "name": "Robinhood事件",
+      "notion_id": "3dab925882078162adb0f125324687cd",
+      "type": "💡概念"
+    },
+    {
+      "description": "隱私政策變動",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-privacy-policy-changes",
+      "importance": "⭐⭐⭐",
+      "name": "隱私政策變動",
+      "notion_id": "3dab92588207812ca341fd5a5e299a23",
+      "type": "💡概念"
+    },
+    {
+      "description": "廣告投放",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-advertising-delivery",
+      "importance": "⭐⭐⭐",
+      "name": "廣告投放",
+      "notion_id": "3dab925882078180a036edc68ebeb8dd",
+      "type": "💡概念"
+    },
+    {
+      "description": "衍生商品期限",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-derivative-time-constraints",
+      "importance": "⭐⭐⭐",
+      "name": "衍生商品期限",
+      "notion_id": "3dab9258820781968d2fe754c6e860ed",
+      "type": "💡概念"
+    },
+    {
+      "description": "操作容錯",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-trading-error-tolerance",
+      "importance": "⭐⭐⭐",
+      "name": "操作容錯",
+      "notion_id": "3dab92588207813e8a15d5420bf343af",
+      "type": "💡概念"
+    },
+    {
+      "description": "持續投入計畫",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-sustained-investment-plan",
+      "importance": "⭐⭐⭐",
+      "name": "持續投入計畫",
+      "notion_id": "3dab92588207816085bae1a548626063",
+      "type": "💡概念"
+    },
+    {
+      "description": "投資留場時間",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-time-invested",
+      "importance": "⭐⭐⭐",
+      "name": "投資留場時間",
+      "notion_id": "3dab92588207815daf5cccd432dc3fed",
+      "type": "💡概念"
+    },
+    {
+      "description": "總報酬評估",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-total-return-evaluation",
+      "importance": "⭐⭐⭐",
+      "name": "總報酬評估",
+      "notion_id": "3dab9258820781c3b265db7c9ef88be4",
+      "type": "💡概念"
+    },
+    {
+      "description": "高股息ETF",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-high-dividend-etfs",
+      "importance": "⭐⭐⭐",
+      "name": "高股息ETF",
+      "notion_id": "3dab9258820781188be9f6edf14f50d4",
+      "type": "💡概念"
+    },
+    {
+      "description": "房貸負擔",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-mortgage-burden",
+      "importance": "⭐⭐⭐",
+      "name": "房貸負擔",
+      "notion_id": "3dab925882078165815cc5d2bbedabad",
+      "type": "💡概念"
+    },
+    {
+      "description": "生活選擇",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-life-choices",
+      "importance": "⭐⭐⭐",
+      "name": "生活選擇",
+      "notion_id": "3dab92588207817dbe31f48bad15f684",
+      "type": "💡概念"
+    },
+    {
+      "description": "持股同溫層",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-holder-echo-chamber",
+      "importance": "⭐⭐⭐",
+      "name": "持股同溫層",
+      "notion_id": "3dab92588207819b9d18fe77ae7ca996",
+      "type": "💡概念"
+    },
+    {
+      "description": "風險判斷",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-risk-judgment",
+      "importance": "⭐⭐⭐",
+      "name": "風險判斷",
+      "notion_id": "3dab9258820781b88986dfd5f08f09b4",
+      "type": "💡概念"
+    },
+    {
+      "description": "郵輪群聚風險",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-cruise-outbreak-risk",
+      "importance": "⭐⭐⭐",
+      "name": "郵輪群聚風險",
+      "notion_id": "3dab92588207816799f2f376d18707cb",
+      "type": "💡概念"
+    },
+    {
+      "description": "營運與下檔風險",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-cruise-operating-downside-risk",
+      "importance": "⭐⭐⭐",
+      "name": "營運與下檔風險",
+      "notion_id": "3dab9258820781ec8cbaf6c50f0dbde7",
+      "type": "💡概念"
+    },
+    {
+      "description": "未來現金流",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-future-company-cashflows",
+      "importance": "⭐⭐⭐",
+      "name": "未來現金流",
+      "notion_id": "3dab92588207814290d1cab0fa977b38",
+      "type": "💡概念"
+    },
+    {
+      "description": "公司估值",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-company-valuation",
+      "importance": "⭐⭐⭐",
+      "name": "公司估值",
+      "notion_id": "3dab9258820781f4811bc9c67ee00b5f",
+      "type": "💡概念"
+    },
+    {
+      "description": "經營者表達風格",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-management-communication-style",
+      "importance": "⭐⭐⭐",
+      "name": "經營者表達風格",
+      "notion_id": "3dab92588207810daaa4c5b8033b9a27",
+      "type": "💡概念"
+    },
+    {
+      "description": "指引判讀",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-guidance-interpretation",
+      "importance": "⭐⭐⭐",
+      "name": "指引判讀",
+      "notion_id": "3dab9258820781118f26e9fd995979d4",
+      "type": "💡概念"
+    },
+    {
+      "description": "主持人猜測布局與輪動相關，未核實供應商獲單，不建立持股。",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "📱 PCB與手機供應鏈",
+      "notion_id": "3dab925882078176a48ad1f5705c0dcc",
+      "type": "💡概念"
+    },
+    {
+      "description": "2021年官方公告限定追蹤與第三方cookie範圍；不將宣布當全面生效或推論所有廣告消失。",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "📢 數位廣告與隱私",
+      "notion_id": "3dab9258820781489f48ff87de37eac0",
+      "type": "💡概念"
+    },
+    {
+      "description": "再次群聚是條件風險；CCL明示避開不等於實際空單，希爾頓僅為比較。",
+      "eps": [
+        "EP120"
+      ],
+      "first_ep": "EP120",
+      "id": "ep120-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚢 郵輪與旅遊營運",
+      "notion_id": "3dab9258820781e5a74fd4eb1161bb1d",
       "type": "💡概念"
     }
   ]
