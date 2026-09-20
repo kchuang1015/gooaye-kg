@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-19",
+    "lastUpdated": "2026-09-20",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-19",
+    "last_update": "2026-09-20",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP121 分析報告",
+    "source": "EP1-EP122 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1270,
+    "total_entities": 1283,
     "total_relations": 911
   },
   "nodes": [
@@ -26245,13 +26245,14 @@
     },
     {
       "code": "NVDA",
-      "description": "遊戲串流獲利曝險占比較高的平台候選。",
+      "description": "主持人說明最近一次信心爆棚時把NVIDIA與特斯拉拉到四五十%部位，且持續買進，屬目前多頭曝險。做多依明示持有，不補目標價；同時保留落賽可能性。",
       "eps": [
         "EP67",
         "EP68",
         "EP71",
         "EP75",
-        "EP76"
+        "EP76",
+        "EP122"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
@@ -35358,6 +35359,164 @@
       "name": "存股要選 ETF 而不是單一個股",
       "notion_id": "3e0b92588207815c9869fb938c1b444a",
       "type": "🧠心法"
+    },
+    {
+      "description": "造市規則決定時間價值與歸零風險，買方長期送錢給券商；工具無好壞，看懂規則才不會誤用為跟單建議。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🎰 台灣權證市場結構與券商莊家角色",
+      "notion_id": "3e1b9258820781bf8430eb3c6b7bfe18",
+      "type": "💡概念"
+    },
+    {
+      "description": "深度價內 LEAPS 用較少資金模擬現股曝險，下檔有限上檔無限；但工具中立，看懂部位結構與自身承受度才能用，不是跟單建議。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🎯 LEAPS 深度價內選擇權與槓桿機制",
+      "notion_id": "3e1b9258820781459294db3b46d2c724",
+      "type": "💡概念"
+    },
+    {
+      "description": "ADR 波動比現股大、單一個股可能歸零，重壓一個股超出心理承受即違背資金控管紀律；看好不等於無風險，須預留應變空間。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🎮 遊戲公司 ADR 與個股波動風險",
+      "notion_id": "3e1b9258820781398170e789c64cb7b6",
+      "type": "💡概念"
+    },
+    {
+      "description": "把目標與檢驗方法想清楚比回應同溫層或外部批評更重要；時間與本金是年輕人最好的朋友，情緒與槓桿同時出現幾乎必敗。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-industry-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🧠 投資人情緒紀律與 3F 同溫層心法",
+      "notion_id": "3e1b9258820781c18282c7f960210b3e",
+      "type": "💡概念"
+    },
+    {
+      "description": "你會被討厭是正常的，除非你沒有踏出同溫層；Family、Friends、Fools才會無條件支持你。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "脫離3F同溫層後必然被討厭",
+      "notion_id": "3e1b925882078103aa46e7e69cb64885",
+      "type": "🧠心法"
+    },
+    {
+      "description": "目標清楚、檢驗方法明確，路上的雜音就不要花時間；心理健康比回應少數批評者重要。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "面對批評要把目標說清楚",
+      "notion_id": "3e1b9258820781319ef5f8a01479544e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "FOMO是怕錯過、YOLO是梭一把就退休；兩者相加不是大發就是去死，機率偏向後者。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "FOMO與YOLO都是不健康情緒",
+      "notion_id": "3e1b9258820781bcbbf4eb27492e5302",
+      "type": "🧠心法"
+    },
+    {
+      "description": "券商當莊、可調隱含波動率、走勢左上到右下歸零；你玩的不是工具，是賭場規則。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "台灣權證是莊家遊戲",
+      "notion_id": "3e1b9258820781b4b7ccf376657d8775",
+      "type": "🧠心法"
+    },
+    {
+      "description": "深度價內LEAPS用較少錢撬動現股部位，下檔有限上檔無限；但仍可能到期歸零，工具無好壞看用法。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "深度價內LEAPS限制下檔",
+      "notion_id": "3e1b92588207816db737d5522c46c47c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "裴洛西配偶揭露LEAPS是合法申報，跟單前先理解部位結構與自身風險承受度。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "公開揭露不等於跟單建議",
+      "notion_id": "3e1b9258820781a4b8acc3bd876932b3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "馬斯克意外或新能源取代都可能造成特斯拉重挫；看好不等於無風險。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "特斯拉看好也要看尾部風險",
+      "notion_id": "3e1b925882078163892ed708bcb4138d",
+      "type": "🧠心法"
+    },
+    {
+      "code": "TSLA",
+      "description": "主持人明說「就算特斯拉我現在超看好」，並自述與NVIDIA一起拉到四五十%部位且一直買，屬目前多頭曝險。做多依明示看好與持有，不補目標價或比重保證；同時明列馬斯克掛掉、新能源取代等落賽情境。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "特斯拉",
+      "notion_id": "3e1b925882078149b43fe91c31f80808",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "OTGLY",
+      "description": "主持人明說「這個OTGLY就是波蘭蠢驢啦,我自己有買,我自己有買」，屬目前多頭曝險。做多依明示持有，同時提醒ADR波動大、公司可能歸零，不建議重壓。",
+      "eps": [
+        "EP122"
+      ],
+      "first_ep": "EP122",
+      "id": "ep122-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CD Projekt（OTGLY ADR）",
+      "notion_id": "3e1b925882078179b582dd88031e0e83",
+      "type": "🏢公司/標的"
     }
   ]
 }
