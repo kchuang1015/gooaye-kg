@@ -18946,9 +18946,9 @@
     "last_update": "2026-09-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP123 分析報告",
+    "source": "EP1-EP124 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1296,
+    "total_entities": 1316,
     "total_relations": 911
   },
   "nodes": [
@@ -26883,14 +26883,15 @@
       "type": "🏭產業"
     },
     {
-      "code": "6533.TW",
-      "description": "台灣 RISC-V 替代架構題材，仍須驗證設計導入、量產、授權收入與現金流。",
+      "code": "6533",
+      "description": "同上段落點名聯發科旗下、做RISC-V的晶心科；觀望來自明示關注，非部位。",
       "eps": [
-        "EP71"
+        "EP71",
+        "EP124"
       ],
       "first_ep": "EP71",
       "id": "ep71-andes",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "晶心科",
       "notion_id": "3adb9258820781f2b088dcb3f1a2aef6",
       "type": "🏢公司/標的"
@@ -35674,6 +35675,252 @@
       "importance": "⭐⭐⭐⭐",
       "name": "FinTech Acquisition Corp V（eToro上市載體）",
       "notion_id": "3e2b9258820781289bcedb16af7ed516",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "二次上市潮與快速納入機制帶動資金與IPO熱度，科技ETF是相對穩健的參與方式。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🇭🇰 港股二次上市潮與中國科技ETF工具",
+      "notion_id": "3e2b9258820781eaae37e13f09c14f3c",
+      "type": "💡概念"
+    },
+    {
+      "description": "IP授權金可以賺很久、市場願意給高評價；IC設計評價二三十倍起跳，長期趨勢向上但波動大。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🧩 IP矽智財與IC設計產業",
+      "notion_id": "3e2b925882078183b773ff052a91183e",
+      "type": "💡概念"
+    },
+    {
+      "description": "5G ETF要看成分與權重：最大成分股若為組裝代工，表現會受單一公司榮枯影響。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "📶 5G供應鏈與ETF成分檢視",
+      "notion_id": "3e2b92588207816891e5cce9a6276ed0",
+      "type": "💡概念"
+    },
+    {
+      "description": "剛受過傷其實是好事，早受傷會比晚受傷來得好；趕快調整就好，別等到退休金進場才受傷。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "早受傷比晚受傷好",
+      "notion_id": "3e2b925882078146a935cc9bf7bd9194",
+      "type": "🧠心法"
+    },
+    {
+      "description": "常換車的人什麼都沒有；要嘛一開始就配置好，不要看到誰好就想換過去。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "不要當追風人，先設計好配置",
+      "notion_id": "3e2b925882078192ac43ef89247897b2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "科技股修正後很多會是非常難得的買點；若不認同或想更保守，就配一點大盤與價值股。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "科技股修正後可能是難得買點",
+      "notion_id": "3e2b9258820781089704fdece5eff3b8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台股很多是機會財、一次一波；IP、IC設計、PCB、散熱等長期趨勢向上，要抱得住。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "機會財與長運的差別",
+      "notion_id": "3e2b9258820781de9e2efc2d6c9544c5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主動選股的人要在機會來之前做好準備；沒有準備的人殺下來只能跟著恐慌。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "準備好撿貨清單，機會來才敢買",
+      "notion_id": "3e2b925882078130b75bc7f4489c8934",
+      "type": "🧠心法"
+    },
+    {
+      "description": "為短線行情找藉口很常被打臉；都市傳說例如四巫日必跌，稍微思考就知道不合理。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "短線找理由很常被打臉",
+      "notion_id": "3e2b9258820781bc8113fb1bfa42c911",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市值編列是自己最喜歡的選股方式；加了人為選股，往往打不贏市值。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "市值編制最簡單暴力",
+      "notion_id": "3e2b925882078130bb1be6b641621b19",
+      "type": "🧠心法"
+    },
+    {
+      "description": "算出合理價後抓約兩成安全邊際；市場不一定回來，回不來就用分批買進。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "用安全邊際回推買點",
+      "notion_id": "3e2b92588207810a99aed8e10a642e34",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買ETF要知道裡面裝了什麼，不能看到題材就買；先看清成分再下手。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "買ETF前先看清成分再下手",
+      "notion_id": "3e2b9258820781519883d42243b55da6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買ETF先比費用，也要小心溢價追高；溢價等於把利潤送給套利大戶。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-mindsets-10",
+      "importance": "⭐⭐⭐",
+      "name": "ETF溢價與費用是重點",
+      "notion_id": "3e2b9258820781e7a50bdf0c0390e259",
+      "type": "🧠心法"
+    },
+    {
+      "code": "6643",
+      "description": "主持人於IP教學段點名「IP廠在台灣最主要就是M31」並以「這些IP廠…大家都可以持續關注」作結；觀望來自主動關注指示（非買進推薦、無部位揭露）；高本益比與高波動提醒保留。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "M31",
+      "notion_id": "3e2b9258820781109495f6cae01b56bd",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "3035",
+      "description": "同上段落點名聯電旗下智原，並以「這些IP廠…大家都可以持續關注」作結；觀望來自明示關注，非部位或保證。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "智原",
+      "notion_id": "3e2b92588207810b8cece4fcaa1568b4",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "3529",
+      "description": "同上段落點名力旺，沿用「持續關注」收束語；觀望，非買進推薦或目標價。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "力旺",
+      "notion_id": "3e2b92588207819fb53bd95df3771eed",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "同上段落點名「最近飆的比較兇的金麗科等等的」；觀望來自「持續關注」收束語，非買進推薦。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "金麗科",
+      "notion_id": "3e2b92588207810ca3adc148b97cad38",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "KWEB",
+      "description": "主持人明言「我自己比較推薦的是Kweb跟CQQQ」且其為追蹤中國科技股之工具；屬明示推薦／正面立場（非部位揭露，不補目標價或比重）；政治與溢價風險提醒保留。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-6",
+      "importance": "⭐⭐⭐⭐",
+      "name": "KWEB（中國互聯網ETF）",
+      "notion_id": "3e2b925882078142bce7c0e925eb5d46",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "CQQQ",
+      "description": "同句「我自己比較推薦的是Kweb跟CQQQ」；明示推薦／正面立場，非部位揭露；不補目標價或比重。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-7",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CQQQ（中國科技ETF）",
+      "notion_id": "3e2b9258820781fa9ff7ff19dfd363f4",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "00877",
+      "description": "主持人明言「這是我不會選擇這樣的東西」並質疑以組裝代工廠（立訊）為最大持股之編排；屬明示偏空立場（做空僅表示明示偏空，不代表融券或目標價）；另述他會以軟板／PA／射頻等自組5G曝險。",
+      "eps": [
+        "EP124"
+      ],
+      "first_ep": "EP124",
+      "id": "ep124-holding-8",
+      "importance": "⭐⭐⭐⭐",
+      "name": "復華中國5G通信ETF基金",
+      "notion_id": "3e2b925882078172b995dfc379a18f40",
       "type": "🏢公司/標的"
     }
   ]
