@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-20",
+    "lastUpdated": "2026-09-21",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-20",
+    "last_update": "2026-09-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP122 分析報告",
+    "source": "EP1-EP123 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1283,
+    "total_entities": 1296,
     "total_relations": 911
   },
   "nodes": [
@@ -35494,9 +35494,10 @@
     },
     {
       "code": "TSLA",
-      "description": "主持人明說「就算特斯拉我現在超看好」，並自述與NVIDIA一起拉到四五十%部位且一直買，屬目前多頭曝險。做多依明示看好與持有，不補目標價或比重保證；同時明列馬斯克掛掉、新能源取代等落賽情境。",
+      "description": "主持人明示「買特斯拉一直都是比較划算的選擇,所以我一直跟大家推薦說,特斯拉概念股直接買特斯拉…完全沒有懸念」，屬對特斯拉本體的明示看多立場；非部位揭露、不補目標價或比重，並保留供應鏈純度不足的提醒。",
       "eps": [
-        "EP122"
+        "EP122",
+        "EP123"
       ],
       "first_ep": "EP122",
       "id": "ep122-holding-2",
@@ -35516,6 +35517,163 @@
       "importance": "⭐⭐⭐⭐",
       "name": "CD Projekt（OTGLY ADR）",
       "notion_id": "3e1b925882078179b582dd88031e0e83",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "發表會前拉貨先到位，供應鏈行情要抓在拉貨期；發表會後追高風險報酬不對等。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🍎 蘋果供應鏈拉貨與佈局節奏",
+      "notion_id": "3e2b925882078173b06dfe9cb316ecfd",
+      "type": "💡概念"
+    },
+    {
+      "description": "復甦帶動拉貨，缺貨漲價延續；基本面與股價不一定連動，要挑位置。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🖥️ 面板、記憶體與被動元件缺貨漲價循環",
+      "notion_id": "3e2b9258820781ca9bcff869dd8c35a1",
+      "type": "💡概念"
+    },
+    {
+      "description": "電動車是下一個智慧型手機，晶片與零組件將出現拉貨潮。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 電動車供應鏈與新平台滲透",
+      "notion_id": "3e2b9258820781c7a57cd98b2f9ae389",
+      "type": "💡概念"
+    },
+    {
+      "description": "剛殺完的時候籌碼最乾淨，參與者多為長期持有者，後面的利多利空對股價影響有限。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "修正後籌碼最乾淨",
+      "notion_id": "3e2b9258820781058525d6ff1fcb54ed",
+      "type": "🧠心法"
+    },
+    {
+      "description": "股價會提前或延後反應基本面；聽完基本面分析，還是要找一個適合的位置買進，不能馬上追進去。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "基本面分析後仍要找買點",
+      "notion_id": "3e2b92588207816a9439d035cba0cdb1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "美國大型企業習慣買回庫藏股，推升每股盈餘與股價，是美股長期結構性力量；部分公司淨值甚至因此轉負。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "美股企業用庫藏股推升股價",
+      "notion_id": "3e2b925882078167a191fad6a38ba72d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "蘋果供應鏈拉貨會在前面先拉完；發表會後才追高，風險報酬已經不對等。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "供應鏈拉貨在前面先拉完",
+      "notion_id": "3e2b92588207819fa1dcdd0d45126a82",
+      "type": "🧠心法"
+    },
+    {
+      "description": "電動車將複製智慧型手機供應鏈模式，台廠長線還有很多戲可以看。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "電動車是下一個智慧型手機",
+      "notion_id": "3e2b92588207810a8f59fc1fc36b88c3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用估算價值的折數買進，保留安全邊際；下跌時敢買是關鍵，除非基本面明確轉壞。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "安全邊際與下跌敢買",
+      "notion_id": "3e2b9258820781ebb1b0edb68ff11a66",
+      "type": "🧠心法"
+    },
+    {
+      "description": "SPAC像樂透：最糟就是淨值清算掉，上檔獲利想像大；不要接太高，下檔就能控制。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "SPAC像樂透，下檔有限上檔大",
+      "notion_id": "3e2b9258820781a7bd8afdb05beb8ef3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "平台無法直接對到保管機構、匯撥與股東信都透過平台處理，持股透明度存疑；選平台要看保管制度。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "海外券商保管透明度要注意",
+      "notion_id": "3e2b9258820781b68163c38494ac24ce",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買進一家公司之前要先知道自己為什麼買；跑去問別人可不可以抱，就代表你根本不知道自己在買什麼。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "買賣決策留在自己手上",
+      "notion_id": "3e2b9258820781b0bc13fa1ac9db5697",
+      "type": "🧠心法"
+    },
+    {
+      "code": "FTCV",
+      "description": "主持人明言「我自己有…就觀察他會怎麼樣」且「主要資金不是配來這」；屬主動觀察／研究立場，列為觀望，保留上市後財務與倒債風險提醒。",
+      "eps": [
+        "EP123"
+      ],
+      "first_ep": "EP123",
+      "id": "ep123-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "FinTech Acquisition Corp V（eToro上市載體）",
+      "notion_id": "3e2b9258820781289bcedb16af7ed516",
       "type": "🏢公司/標的"
     }
   ]
