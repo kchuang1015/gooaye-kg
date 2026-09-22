@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-21",
+    "lastUpdated": "2026-09-22",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-21",
+    "last_update": "2026-09-22",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP124 分析報告",
+    "source": "EP1-EP125 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1316,
+    "total_entities": 1330,
     "total_relations": 911
   },
   "nodes": [
@@ -19165,16 +19165,17 @@
     },
     {
       "code": "2317",
-      "description": "鴻海(2317)，全球最大電子代工廠，中國設廠風險代表",
+      "description": "主持人回應外界唱衰時明言「這些批評都先省下來啦，我們先坐著看」，並以台灣供應鏈角度表達不唱衰（「不要在唱衰這樣的東西」）；後段另給分批觀察介入節奏（保守等第一台車、最保守等營收獲利）。觀望來自主動觀察研究立場，非買進推薦、部位揭露或目標價；追價波動與本夢比風險提醒保留。",
       "eps": [
         "EP1",
-        "EP5"
+        "EP5",
+        "EP125"
       ],
       "first_ep": "EP1",
       "id": "foxconn",
-      "importance": "⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "鴻海",
-      "notion_id": "315b9258-8207-81e9-8988-d12917788a73",
+      "notion_id": "315b9258820781e98988d12917788a73",
       "type": "🏢公司/標的"
     },
     {
@@ -35922,6 +35923,174 @@
       "name": "復華中國5G通信ETF基金",
       "notion_id": "3e2b925882078172b995dfc379a18f40",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "運河堵塞與缺櫃讓運價短期緊俏，但屬短期現象、反轉快速。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚢 航運機會財與蘇伊士運河事件",
+      "notion_id": "3e3b925882078145807afd51805eeaf5",
+      "type": "💡概念"
+    },
+    {
+      "description": "公版平台像晶圓代工模式，讓品牌套殼造車；觀察實際產品與里程碑。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 鴻海MIH電動車聯盟與白牌平台",
+      "notion_id": "3e3b9258820781b7b852e81f5089e9e9",
+      "type": "💡概念"
+    },
+    {
+      "description": "低利與資金充裕推升房價；政策壓抑炒作、不改變核心供需。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🏠 台灣房市與營建股",
+      "notion_id": "3e3b92588207819c86e2d099571c1449",
+      "type": "💡概念"
+    },
+    {
+      "description": "航運這類機會財一期一會；看歷史走勢就知道反轉又快又急，追價要非常小心。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "機會財反轉時通常超快，追高先看歷史走勢",
+      "notion_id": "3e3b9258820781bbb066c2392471a444",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市值型用市值排行就能長期勝過高股息產品，預設配置先想市值型。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "市值型編制簡單，長期打敗高股息",
+      "notion_id": "3e3b9258820781e1bfe8d465ac044fc2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "配息會除息、總價值不變；賺了息卻沒賺到資本利得，等於把錢從左口袋換到右口袋。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "配息是左手換右手",
+      "notion_id": "3e3b92588207811b8a6ee416a67b0a3b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "會不會填息跟配多少無關，取決於營運體質；體質差配再多也難填息。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "填息與否看營運體質",
+      "notion_id": "3e3b9258820781ac86f8d34ce870893f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "殖利率可當定價標準；從10%收斂到5%對應股價翻倍，是低利環境的邏輯。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "殖利率是定價參考，收斂對應股價空間",
+      "notion_id": "3e3b925882078120a220fa5c04de56b4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "配息不穩、今年特別高的殖利率很多都是陷阱，小心要你的本。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "突然變高的殖利率可能是餌",
+      "notion_id": "3e3b925882078103b622f3af9739f7a8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "年輕人拿到股息不該花掉，要再次投入；長期效果與領息相同。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "股息要再投入（DRIP）",
+      "notion_id": "3e3b9258820781d89416d53116a52ca9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "面對台灣供應鏈的嘗試，先放下批評、觀察實作，不一定要投資。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "先放下批評，先坐著看",
+      "notion_id": "3e3b925882078116afe9dafe9d2508f5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "手機成長趨緩後，電動車供應鏈可望成為數年主軸。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "台股下一條大路是電動車",
+      "notion_id": "3e3b9258820781728672c9b209e74de9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "面對房市高點不急著追價；等讓價、接不到就租，節奏自己抓。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-10",
+      "importance": "⭐⭐⭐",
+      "name": "不追實價登錄最高點",
+      "notion_id": "3e3b925882078140b1d5dc24d0d9378f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "KY股查帳風險較高，但重點是投資你了解的東西；不了解就別碰。",
+      "eps": [
+        "EP125"
+      ],
+      "first_ep": "EP125",
+      "id": "ep125-mindsets-11",
+      "importance": "⭐⭐⭐",
+      "name": "只投資你真正了解的東西",
+      "notion_id": "3e3b9258820781ab9852d6fbe44c25b2",
+      "type": "🧠心法"
     }
   ]
 }
