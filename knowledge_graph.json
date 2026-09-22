@@ -18946,9 +18946,9 @@
     "last_update": "2026-09-22",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP125 分析報告",
+    "source": "EP1-EP126 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1330,
+    "total_entities": 1345,
     "total_relations": 911
   },
   "nodes": [
@@ -36091,6 +36091,187 @@
       "name": "只投資你真正了解的東西",
       "notion_id": "3e3b9258820781ab9852d6fbe44c25b2",
       "type": "🧠心法"
+    },
+    {
+      "description": "品牌要求供應鏈配合治理並非新事、去年已發生，今年因媒體點火放大；後續可能擴及其他原物料與電子供應鏈。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🧵 新疆棉事件與全球服飾供應鏈治理",
+      "notion_id": "3e3b9258820781e0b3e5f5a5479e30bc",
+      "type": "💡概念"
+    },
+    {
+      "description": "各國被缺晶片嚇到而自建基礎產能；軍用與日常晶片需求與先進製程需求不同，競爭評估要看結構。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "💻 半導體晶圓代工與 IDM 2.0 競爭",
+      "notion_id": "3e3b925882078165bb9cf0c8d4e867c6",
+      "type": "💡概念"
+    },
+    {
+      "description": "資金退潮時，去年漲最多的族群成為獲利了結與修正熱點。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "📉 高估值軟體股與資金行情",
+      "notion_id": "3e3b9258820781d3b7decb9ad99e8f6d",
+      "type": "💡概念"
+    },
+    {
+      "description": "資金輪動到傳產只是復甦過程；這個時代的主軸仍是科技，不會被扭轉。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "科技時代無法扭轉",
+      "notion_id": "3e3b92588207812584d4e8ecc9a89289",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金行情若結束，高估值、去年漲最多的標的會被殺最兇。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "資金行情退潮先殺高估值",
+      "notion_id": "3e3b9258820781539fd6e2d01c552bf7",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場情緒總在極度樂觀與極度悲觀間擺盪，察覺自己的極端比預測行情重要。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "情緒總在極端擺盪",
+      "notion_id": "3e3b9258820781d8bde4e4154b4d88bd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "學名詞要看多個來源、不要只看單一網站，慢慢建立自己的知識架構。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "多看幾個來源建立自己的架構",
+      "notion_id": "3e3b92588207812f8d7cfcbfe7e72d2d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用更保守的價格買進；跌了就分批繼續投入，讓自己處在舒服的參與方式。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "打折買進、分批投入",
+      "notion_id": "3e3b9258820781aca164d604f6d9c570",
+      "type": "🧠心法"
+    },
+    {
+      "description": "沒有借錢就不會搞到破產；不開槓桿的人不會在股市負債出場。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "沒開槓桿不會負債出場",
+      "notion_id": "3e3b925882078189bacfd61d5f2fe171",
+      "type": "🧠心法"
+    },
+    {
+      "description": "遇到估值修正莫驚莫慌莫害怕；長期看好的公司買了就放著。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "估值修正莫驚莫慌",
+      "notion_id": "3e3b925882078165a5aee2306468eac2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "限縮風險的方法是劃分部位：同一家公司不要丟太多。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "把部位劃分好以限縮風險",
+      "notion_id": "3e3b92588207814c9f12d130e11c138b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "如果選股過程覺得太困難，永遠的解決方法就是買大盤。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "太難就買大盤",
+      "notion_id": "3e3b9258820781ae95dcdc273a59d290",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買大盤就是看好台灣長期國運；便宜時應該買更多，而不是停損。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-10",
+      "importance": "⭐⭐⭐",
+      "name": "買大盤就是看好國運、便宜多買",
+      "notion_id": "3e3b9258820781c38617c54d242b39d5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "大師也在終身學習、沒有追趕上的一天；保持謙卑持續進步。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-mindsets-11",
+      "importance": "⭐⭐⭐",
+      "name": "終身學習",
+      "notion_id": "3e3b925882078116adf4dabd6a209bf2",
+      "type": "🧠心法"
+    },
+    {
+      "code": "006208",
+      "description": "主持人明言「我推薦的ETF，一定就是市值型大盤ETF」，回應聽眾「像你就買6208，那我覺得這就是一個一般人最適合的工具」，並主張「便宜是要多買一點，不是要賣掉啊兄弟」；屬明示推薦與正面立場（非部位揭露、無目標價或比重）；策略型／主動型ETF需停損之風險界線保留。",
+      "eps": [
+        "EP126"
+      ],
+      "first_ep": "EP126",
+      "id": "ep126-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富邦台50（006208；市值型大盤ETF）",
+      "notion_id": "3e3b9258820781828ba5f76092190877",
+      "type": "🏢公司/標的"
     }
   ]
 }
