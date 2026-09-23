@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-22",
+    "lastUpdated": "2026-09-23",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-22",
+    "last_update": "2026-09-23",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP126 分析報告",
+    "source": "EP1-EP127 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1345,
+    "total_entities": 1361,
     "total_relations": 911
   },
   "nodes": [
@@ -36271,6 +36271,198 @@
       "importance": "⭐⭐⭐⭐",
       "name": "富邦台50（006208；市值型大盤ETF）",
       "notion_id": "3e3b9258820781828ba5f76092190877",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "槓桿放大獲利也放大虧損；為招攬大客戶放寬條件，一出事就是巨額損失。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🏦 Archegos 家族辦公室與投銀槓桿",
+      "notion_id": "3e4b9258820781f7a4fdd918170440e4",
+      "type": "💡概念"
+    },
+    {
+      "description": "事件驅動的錯殺要分清籌碼面與基本面；公司派動作是基本面的表態。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🇨🇳 中概股與事件驅動錯殺",
+      "notion_id": "3e4b925882078148b585d257b0f43066",
+      "type": "💡概念"
+    },
+    {
+      "description": "資金往原物料與基建移動，漲價最終轉嫁消費者；陽明、長榮與散裝航運為盤勢回顧。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "⛏️ 原物料與基建通膨題材",
+      "notion_id": "3e4b925882078155b0d4f7ff6ee78a5e",
+      "type": "💡概念"
+    },
+    {
+      "description": "景氣循環股走完一波可能回到低檔好幾年，較適合有操盤屬性的人，不適合長期無腦投入持有。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "原物料不適合長期無腦持有",
+      "notion_id": "3e4b9258820781e89543fd82edbf6754",
+      "type": "🧠心法"
+    },
+    {
+      "description": "新手先用指數型投資；再挑前景非常看好的公司，主軸以科技股為主。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "投資先走指數型與大科技",
+      "notion_id": "3e4b9258820781de834fc3765b6e37eb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "知道自己不擅長殺進殺出，就不要勉強試單；這類題材留給擅長交易的人。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "太辛苦的殺進殺出不值得",
+      "notion_id": "3e4b9258820781dbb10bfe2280f3a012",
+      "type": "🧠心法"
+    },
+    {
+      "description": "放空看對方向還要看對時間；繳保費期間淨值下滑，撐不過時間就出局。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "時間點對看空者極為困難",
+      "notion_id": "3e4b92588207818790a7d94ff9ad674c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "談到更好條件的銀行有更多保證金與抵押品，未必賠錢；風控與規模決定曝險代價。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "條件放寬終究有人要付代價",
+      "notion_id": "3e4b92588207817eae2cc5e9e6e06c1e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "五倍槓桿下，下跌一成即可能被追繳斷頭；就算長期看對，一瞬間的波動就能讓部位被清場。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "不要使用槓桿",
+      "notion_id": "3e4b9258820781459a5bc76437d8bef2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "現股交易最慘就是歸零，不會負債；融資與槓桿才可能搞到破產。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "現股一輩子不會負債",
+      "notion_id": "3e4b925882078188b9f7c9074839bb56",
+      "type": "🧠心法"
+    },
+    {
+      "description": "把投機當樂透看待，拿一到兩個百分點資金進場；部位控制好，也要有賭品。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "投機要把部位控好",
+      "notion_id": "3e4b9258820781a488a2d3f53c8dd729",
+      "type": "🧠心法"
+    },
+    {
+      "description": "之所以用定期定額，就是因為不可能猜到每次高低點；時間拉長，分布自然回到常態。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "定期定額勝過猜高低點",
+      "notion_id": "3e4b92588207813d89c6ef3b498211ff",
+      "type": "🧠心法"
+    },
+    {
+      "description": "沒有任何單一指標照著做就能賺錢；回測驗證之後，最終還是回歸基本面。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-10",
+      "importance": "⭐⭐⭐",
+      "name": "技術指標要回測驗證",
+      "notion_id": "3e4b9258820781269902f42bf883b14d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "本多終勝的核心是持續投入；看好又便宜時分批加碼，勝過硬拗回來的心態。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-11",
+      "importance": "⭐⭐⭐",
+      "name": "本多終勝的核心是持續投入",
+      "notion_id": "3e4b9258820781c796d1f7b1d53d7370",
+      "type": "🧠心法"
+    },
+    {
+      "description": "不熟的市場不要單押；除非對特定產業特別了解，只打自己熟悉的球。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-mindsets-12",
+      "importance": "⭐⭐⭐",
+      "name": "打自己熟悉的球",
+      "notion_id": "3e4b9258820781bd89a5f83ebc4af201",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人指出 Archegos 爆倉事件驅動之下，中概互聯網 / 教育 / 電子煙類股超跌，但「基本面未必有太大問題」，並以 TME 庫藏股為例指出「可以看待成是一個很好的機會」；屬事件後觀察追蹤，未明示買進或部位。",
+      "eps": [
+        "EP127"
+      ],
+      "first_ep": "EP127",
+      "id": "ep127-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "GSX 跟誰學 / RLX 霧芯科技 / TME 騰訊音樂 / 百度 / VIPS 唯品會 / 愛奇藝",
+      "notion_id": "3e4b9258820781fabc42de96232ffb31",
       "type": "🏢公司/標的"
     }
   ]
