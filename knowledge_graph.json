@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-23",
+    "lastUpdated": "2026-09-27",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-23",
+    "last_update": "2026-09-27",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP127 分析報告",
+    "source": "EP1-EP128 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1361,
+    "total_entities": 1378,
     "total_relations": 911
   },
   "nodes": [
@@ -36463,6 +36463,211 @@
       "importance": "⭐⭐⭐⭐",
       "name": "GSX 跟誰學 / RLX 霧芯科技 / TME 騰訊音樂 / 百度 / VIPS 唯品會 / 愛奇藝",
       "notion_id": "3e4b9258820781fabc42de96232ffb31",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "政府推力之下必有人受惠；基建評比顯示美國基礎設施確需更新，支出龐大。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🏗️ 美國基建與政府支出受惠鏈",
+      "notion_id": "3e8b92588207817fb513eab82df55a56",
+      "type": "💡概念"
+    },
+    {
+      "description": "缺料影響存在，營運韌性讓交車優於下修後的預期；開放充電站可成為額外收入。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 電動車與車用晶片供應鏈",
+      "notion_id": "3e8b9258820781f8853ffa3f17ea2b1c",
+      "type": "💡概念"
+    },
+    {
+      "description": "題材熱潮不等於個股適性；投資仍要回到公司成長性判斷。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "☀️ 太陽能綠能政策題材",
+      "notion_id": "3e8b9258820781e2a88fc9a5fa856f6d",
+      "type": "💡概念"
+    },
+    {
+      "description": "很多人窮極一生追求不存在的答案；給十個分析師估價會得到十個不同答案，穩賺不賠做不到。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "估值沒有標準答案",
+      "notion_id": "3e8b9258820781cbb563fbda2c062aff",
+      "type": "🧠心法"
+    },
+    {
+      "description": "估值不要追求標準答案、不要拜神；連專業分析師都會算錯交車數這種相對好拆的數字。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "不要拜神",
+      "notion_id": "3e8b925882078128aeb5f669c81ba989",
+      "type": "🧠心法"
+    },
+    {
+      "description": "不需要抓到每一個細項；知道公司在成長、抓對重點，勝率就高。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "投資抓重點",
+      "notion_id": "3e8b9258820781d6999af5b2ca868c3e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看到股票跌就罵鮑威爾、罵拜登沒有意義；他們不為股市服務，順勢而為就好。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "聯準會不是來幫你炒股的",
+      "notion_id": "3e8b925882078170992cdcb681206db2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "QE資金收回後，暴利拉升行情會少很多；但好公司伴隨庫藏股與EPS推升仍緩步堅實向上。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "暴利行情會減少",
+      "notion_id": "3e8b925882078131bc2dea88f1e88a68",
+      "type": "🧠心法"
+    },
+    {
+      "description": "長期看好不代表槓桿開爆；Archegos教訓是短期風吹草動就能把人掃出局，別拿生活必需的錢投資。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "經濟好仍要保守",
+      "notion_id": "3e8b9258820781e2a2e2e1a48be653d4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "大政府推力之下一定有人發財；能持續吃到政府訂單的公司，值得放入觀察。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "政府推力下有人發財",
+      "notion_id": "3e8b9258820781ceaa47e2eb428ea994",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人不喜歡看目標價；知道公司會持續成長、跑道仍長，比猜價格重要。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-8",
+      "importance": "⭐⭐⭐",
+      "name": "不看目標價看分析",
+      "notion_id": "3e8b92588207811fbc3dd90b68337c73",
+      "type": "🧠心法"
+    },
+    {
+      "description": "達到1500就要把股票全部賣掉嗎？投資是看好未來持續投入，不是猜價格。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-9",
+      "importance": "⭐⭐⭐",
+      "name": "持續投入而非猜價",
+      "notion_id": "3e8b92588207813ba00df31136a0650a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "最大風險是馬斯克個人意外而非電動車業務；人世間永遠有意外，單一公司不要壓太多。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-10",
+      "importance": "⭐⭐⭐",
+      "name": "單一公司不重壓",
+      "notion_id": "3e8b92588207817eaa97fcc397317f3c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "一年課1%短期還好，拉長十到二十年費用效果非常驚人；追一樣的指數就選便宜的買。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-mindsets-11",
+      "importance": "⭐⭐⭐",
+      "name": "ETF費用長期很驚人",
+      "notion_id": "3e8b9258820781c78d01ce2db5ef5915",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人明示「我自己是覺得有幾家公司,是還蠻值得觀察的…但是我會想要觀察」,並點名Caterpillar、水泥股與充電站受惠之特斯拉／美國電塔／GE;屬明確主動觀察立場,未明示買進或部位。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "美國基建受惠公司（Caterpillar／水泥股／充電樁）",
+      "notion_id": "3e8b9258820781b8bfa8cdf99bc63c86",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人明示「我知道的是,特斯拉會持續成長…未來的跑道還很長,所以對我來說,這個東西就是我可以投資的」且「我之前講特王我王嘛,就是特斯拉我至少都會說10%嘛…我也是蠻建議大家跟我一樣的做法」;屬直接持部位與明示做多立場。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "特斯拉（主持人部位與立場）",
+      "notion_id": "3e8b9258820781a4a324c175661c311d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "6443",
+      "description": "聽眾問綠能正夯加上拜登大推是否適合加碼,主持人明示「我覺得不太適合,但當然富貴險中求啦」;屬對特定上市個股之明確負面立場（保留富貴險中求之不確定性邊界）。",
+      "eps": [
+        "EP128"
+      ],
+      "first_ep": "EP128",
+      "id": "ep128-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "元晶6443（太陽能）",
+      "notion_id": "3e8b92588207813f96d1d5c53decbe24",
       "type": "🏢公司/標的"
     }
   ]
