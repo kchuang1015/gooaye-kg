@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-27",
+    "lastUpdated": "2026-09-28",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-27",
+    "last_update": "2026-09-28",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP128 分析報告",
+    "source": "EP1-EP129 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1378,
+    "total_entities": 1386,
     "total_relations": 911
   },
   "nodes": [
@@ -36669,6 +36669,102 @@
       "name": "元晶6443（太陽能）",
       "notion_id": "3e8b92588207813f96d1d5c53decbe24",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "新興市場已升息、台灣步調可能走在美國之前；指標利率隨央行升降息調整，加碼利率反映個人條件。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🏦 利率與房貸敏感結構",
+      "notion_id": "3e9b92588207816fb773e16206295587",
+      "type": "💡概念"
+    },
+    {
+      "description": "各環節重複下單使表觀需求高於實際需求；價格訊號（代工漲價）無法區分真實需求與庫存投機。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🔌 半導體供需與overbooking",
+      "notion_id": "3e9b925882078145a956f8089d4d19e9",
+      "type": "💡概念"
+    },
+    {
+      "description": "台股攻新高、美股費半道瓊標普歷史新高、納斯達克準備攻高；行情好到不需要信心喊話時，就轉向聊心理面。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "行情好到很誇張",
+      "notion_id": "3e9b92588207813eb4a0e18009220015",
+      "type": "🧠心法"
+    },
+    {
+      "description": "新興市場已開始升息，外圍國家步調可能走在美國之前；利率維持低檔但下檔有限，通膨與熱錢是上行推手。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "升息風向球",
+      "notion_id": "3e9b9258820781d8b59eebbdb58c234f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "遇到虧損是超級無敵霹靂世界正常的事情；投資圈高手每季都有看錯的標的，誰都會賠錢。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "誰都會賠錢",
+      "notion_id": "3e9b92588207811ab19bf8d4ec9a83fb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "穩賺不賠的標的、保本型商品、從不賠錢的老師都是行銷術語；自稱不會賠錢的，要特別小心。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "穩賺不賠是話術",
+      "notion_id": "3e9b92588207817a9ff4f16743293783",
+      "type": "🧠心法"
+    },
+    {
+      "description": "有人射飛鏢買股票整體報酬也不錯；重點不在爆賺，而在方法可重複執行且有效。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "射飛鏢也會賺錢",
+      "notion_id": "3e9b9258820781279bbdd38e2bef99cf",
+      "type": "🧠心法"
+    },
+    {
+      "description": "一次把所有子彈打光，下跌時心理壓力超級大；分批投入讓心態穩定，才有抱穩的本錢。",
+      "eps": [
+        "EP129"
+      ],
+      "first_ep": "EP129",
+      "id": "ep129-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "子彈不要一次打光",
+      "notion_id": "3e9b9258820781d9865fed59aac3edc7",
+      "type": "🧠心法"
     }
   ]
 }
