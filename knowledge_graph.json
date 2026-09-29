@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-09-28",
+    "lastUpdated": "2026-09-29",
     "last_repair": "2026-02-28",
-    "last_update": "2026-09-28",
+    "last_update": "2026-09-29",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP129 分析報告",
+    "source": "EP1-EP130 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1386,
+    "total_entities": 1397,
     "total_relations": 911
   },
   "nodes": [
@@ -36765,6 +36765,138 @@
       "name": "子彈不要一次打光",
       "notion_id": "3e9b9258820781d9865fed59aac3edc7",
       "type": "🧠心法"
+    },
+    {
+      "description": "車用認證門檻構成護城河；二極體轉IGBT對應電動車長期趨勢。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 車用功率半導體（二極體→IGBT）",
+      "notion_id": "3eab92588207813daa6be7a11b4216f8",
+      "type": "💡概念"
+    },
+    {
+      "description": "出口管制透過客戶結構傳導至營收；細制裁大趨勢是好的，但總有不測風雲。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🗺️ 地緣政治與IC設計供應鏈",
+      "notion_id": "3eab925882078129a5b4d5a7006cd150",
+      "type": "💡概念"
+    },
+    {
+      "description": "你不能預設自己不會被撞；市場與生活都要為意料之外預留緩衝——保險、現金與保守槓桿是同一件事。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "意外之所以叫意外",
+      "notion_id": "3eab9258820781b2bbf8f9a32db7de7a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "公司放話供不應求、市占狂升，就用每月營收驗證；營收沒有開出來，就是在唬爛。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "營收是最誠實的驗證",
+      "notion_id": "3eab92588207816f866ee03f4b1c44d5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "你不知道對方何時買、買多少、佔配置多少；大部分部位聽來的人，長期不太被看好。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "不要去跟牌",
+      "notion_id": "3eab9258820781c9bf3ef20d428ca246",
+      "type": "🧠心法"
+    },
+    {
+      "description": "靠跟牌或運氣成為爆發戶很少能守成；你怎麼賺來的，就會靠你的實力把它輸回去。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "怎麼賺來就怎麼輸回去",
+      "notion_id": "3eab925882078184886ee44e86051d96",
+      "type": "🧠心法"
+    },
+    {
+      "description": "大盤高位階時更要預備優質清單與銀彈；資金回流造成的錯殺，正是提早布局的機會。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "樂觀時做最悲觀準備",
+      "notion_id": "3eab925882078195ae0dc6ac8ccb5d22",
+      "type": "🧠心法"
+    },
+    {
+      "description": "八位數資金在市場裡只是草履蟲；主力之上還有主力，Archegos一瞬間破產——先知道自己的不足。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "世界很大，先知道自己的不足",
+      "notion_id": "3eab92588207815babf1d68beab51230",
+      "type": "🧠心法"
+    },
+    {
+      "description": "「朋程這個營收創的歷史新高,那這些是我在看的,因為我對中美矽晶集團非常有興趣」——對朋程之明確主動追蹤宣言與對中美矽晶集團之明確研究興趣（非僅提及）；同段含二極體→IGBT轉型與車規認證論述。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "朋程",
+      "notion_id": "3eab92588207818f8427d9dd5d12bbd2",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "「流動性越來越少,當然就可能會去推升股價,這是可以期待的啦」——條件式但明確的看多表態（機構ETF吸納＋Grayscale只進不出）；不確定邊界：主持人同時表明比特幣與通膨相關性有限、非通膨避險論。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "比特幣",
+      "notion_id": "3eab92588207812789b7f095a5fcd952",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "「槓桿ETF,我個人是,不太建議大家長期持有,我覺得他不是這樣子玩的」——對長期持有該產品之明確負面立場（震盪成本、內扣費用、雙面刃）；不確定邊界：範圍限長期持有，非放空或短線方向建議。",
+      "eps": [
+        "EP130"
+      ],
+      "first_ep": "EP130",
+      "id": "ep130-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台灣50正2",
+      "notion_id": "3eab925882078195a653d354e56e9bc7",
+      "type": "🏢公司/標的"
     }
   ]
 }
