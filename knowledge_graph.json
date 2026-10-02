@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-01",
+    "lastUpdated": "2026-10-02",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-01",
+    "last_update": "2026-10-02",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP131 分析報告",
+    "source": "EP1-EP132 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1409,
+    "total_entities": 1418,
     "total_relations": 911
   },
   "nodes": [
@@ -26405,12 +26405,13 @@
     },
     {
       "code": "TSLA",
-      "description": "「Tesla沒有在賣的啦」表明現持不賣，美股買品牌名單首位；不確定邊界：與NVIDIA同屬曾配置5成以上的濃度調整對象。",
+      "description": "「看到台積電釋出這樣的消息呢,更可以去觀察說,車用零件相關,或是那些傳統車廠,轉換到電動車車廠,或是已經在電動車廠,表現很好,像是特斯拉這樣子的公司」——明確觀察清單表態；不確定邊界：本集未表白現持部位（「看好就直接買本體」為方法論條件句），僅觀察層次。",
       "eps": [
         "EP68",
         "EP69",
         "EP74",
-        "EP131"
+        "EP131",
+        "EP132"
       ],
       "first_ep": "EP68",
       "id": "ep68-tesla",
@@ -37020,9 +37021,10 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "上次科技股修正時宣布撿進、近期表現好、「希望可以賺更長更大條」。",
+      "description": "「我前陣子,遇到下跌,我跟大家講說,我撿了亞馬遜,才撿了一下子而已,就亞馬遜最近就漲了很多」——下跌時實際撿進的現持部位，且稱「他在未來應該都是非常非常看好的」；不確定邊界：部位規模未揭露。",
       "eps": [
-        "EP131"
+        "EP131",
+        "EP132"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-3",
@@ -37042,6 +37044,114 @@
       "name": "Netflix",
       "notion_id": "3ecb9258820781b59f9cd61d8c5359c0",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "上游：車規晶片與晶圓代工（法說會確認車用缺貨第三季減緩）；中游：微控制器、功率元件與線束模組；下游：整車（特斯拉、福斯ID4、保時捷、賓士EQS）。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🚗 電動車與車用電子供應鏈",
+      "notion_id": "3edb9258820781649689d110cc14477e",
+      "type": "💡概念"
+    },
+    {
+      "description": "上游：資料中心與伺服器；中游：雲端平台（亞馬遜、谷歌、微軟）；下游：企業與中小型客戶以租代買。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "☁️ 雲端運算與企業服務",
+      "notion_id": "3edb92588207815db841ce57b961e9f0",
+      "type": "💡概念"
+    },
+    {
+      "description": "上游：商品與賣家生態；中游：平台與倉儲（兩億會員規模）；下游：末端送貨（十萬台電動貨車、無人機規劃）。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🛒 電商與永續物流",
+      "notion_id": "3edb9258820781c593f2c9b792de398d",
+      "type": "💡概念"
+    },
+    {
+      "description": "資訊越透明，分析師的存在價值就越小；研究優勢本質來自資訊不對等。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "資訊透明分析師價值遞減",
+      "notion_id": "3edb92588207817da2e7db91bf9740c8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場回到樂觀端時，很難精準買在悲觀、賣在樂觀，只能用部位百分比控制風險。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "部位百分比控制風險",
+      "notion_id": "3edb92588207816a9eb8ec59deb8dcf1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "很多人以為自己有超額獲利能力，其實只是跟著大盤走；知道自己可能是運氣好，就要守成。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "Alpha-Beta 自知與守成",
+      "notion_id": "3edb925882078101b654fda35dbab351",
+      "type": "🧠心法"
+    },
+    {
+      "description": "槓桿讓獲利加倍，也讓回檔波動加倍；有家庭之後更應保守，別把波動放大到無法接受。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿波動加倍",
+      "notion_id": "3edb92588207817882dfd8a4b0b8570b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "意外無法預測，也常無法從財報看出；與其預測意外，不如準備保險、控制自己能掌握的。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "保險勝預測",
+      "notion_id": "3edb92588207819cb053d1995bf6f939",
+      "type": "🧠心法"
+    },
+    {
+      "description": "開拓新市場有成本與風險，傳統車廠讓先行者拓荒、證明可行後再跟上；投資亦然，看好本體就直接買本體。",
+      "eps": [
+        "EP132"
+      ],
+      "first_ep": "EP132",
+      "id": "ep132-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "拓荒者風險與買本體",
+      "notion_id": "3edb9258820781c8a234e7fef6d816d2",
+      "type": "🧠心法"
     }
   ]
 }
