@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-02",
+    "lastUpdated": "2026-10-03",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-02",
+    "last_update": "2026-10-03",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP132 分析報告",
+    "source": "EP1-EP133 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1418,
+    "total_entities": 1427,
     "total_relations": 911
   },
   "nodes": [
@@ -36913,9 +36913,10 @@
       "type": "💡概念"
     },
     {
-      "description": "定價權+低退訂率構成護城河；現金流轉正後庫藏股回購拉EPS。",
+      "description": "量能＋全球供應鏈＋數據推薦構成護城河；疫情成長提前實現後回歸本來步調，用戶數預期Q2/Q3觸谷後再彈升，營收獲利與庫藏股動能延續。",
       "eps": [
-        "EP131"
+        "EP131",
+        "EP133"
       ],
       "first_ep": "EP131",
       "id": "ep131-industry-2",
@@ -37034,9 +37035,10 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "「估值是被低估的…應該還會再漲」＋長期看好＋擬加碼並開新對決；不確定邊界：曾為十大持股已減碼、部位重建中。",
+      "description": "「我就是配了一部分資金,雖然說配蠻多的,就是網飛大概是我的持股前10大」＋「我非常看好網飛,可是你看他就是一天可以跌掉10%」——明確現持部位（前10大）且立場看好；不確定邊界：短線波動大（「不好抱的股票」），部位規模占比未精確揭露。",
       "eps": [
-        "EP131"
+        "EP131",
+        "EP133"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-4",
@@ -37152,6 +37154,115 @@
       "name": "拓荒者風險與買本體",
       "notion_id": "3edb9258820781c8a234e7fef6d816d2",
       "type": "🧠心法"
+    },
+    {
+      "description": "設備裝機後耗材綁定形成經常性收入；微創趨勢與醫師採用習慣構成轉換成本，龍頭地位自我強化。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🤖 手術機器人與微創醫療器材",
+      "notion_id": "3eeb925882078133a6a7eba013255cab",
+      "type": "💡概念"
+    },
+    {
+      "description": "話語霸權＋生態鎖定：蘋果強推即成標準；分潤吸引創作者投入、平台競爭加速，藍海成形。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-industry-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🍎 Apple消費生態與周邊服務",
+      "notion_id": "3eeb9258820781a6bc91c2a39bd603ee",
+      "type": "💡概念"
+    },
+    {
+      "description": "網飛一天跌10%、總資產縮水1-2%；組合一天可以動5-8%代表重壓、槓桿或衍生品做錯了——大多頭都這樣，遇到2020/2018/2015/2012空頭一定一波就出場。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "不管再看好都不要重壓",
+      "notion_id": "3eeb9258820781f9bf73c8f0c422becc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "重壓一次被掃出場就結束了；事與願違是市場常態（網飛本有條件進攻卻miss），這就是配置的重要性。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "最怕就是一次被掃出場",
+      "notion_id": "3eeb92588207816bbf91df99806f4e0a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看Sharpe/Sortino就是為了不被嚇跑贖回；配置不集中重壓、波動不要太大，才能在每次修正與空頭穩健持有；不要高估自己——buy and sleep講起來簡單，存股族去年三月全部砍出去。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "千萬不要被嚇跑：降低波動才抱得住",
+      "notion_id": "3eeb92588207818c898ef49527eeaab5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "ISRG、Netflix、Tesla都是業界龍頭；殺手一大堆（特斯拉殺手、網飛殺手）至今無人取代（Nokia→Apple是罕見例外）；持續投資業界龍頭是勝率較高的方式。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "大者恆大：投資業界龍頭勝率高",
+      "notion_id": "3eeb9258820781048330d02b980548b3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "貨櫃輪在漲也不敢追——不熟悉就不敢壓，對散裝輪稍微熟悉一點；能力圈紀律優於追逐行情。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "不熟悉就不重壓",
+      "notion_id": "3eeb9258820781689e3ce7e93b525683",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台灣五十正二這類槓桿型產品每天再平衡，盤整局勢會追高殺低讓淨值一直往下扣；行情不明確時持有槓桿型會吐血——任何槓桿都要下警語。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "盤整時槓桿型產品會扣血",
+      "notion_id": "3eeb9258820781f9ab41f4676d107e71",
+      "type": "🧠心法"
+    },
+    {
+      "code": "ISRG",
+      "description": "「另外一個也有在開財報的持股,就是順便跟大家聊一下ISRG」＋「其實我也是聽醫生朋友講了之後才買」——明確現持部位；不確定邊界：「這個配置跟網飛的配置量是不能比的,因為我不夠了解,我就不敢買多」，部位較小。",
+      "eps": [
+        "EP133"
+      ],
+      "first_ep": "EP133",
+      "id": "ep133-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Intuitive Surgical",
+      "notion_id": "3eeb9258820781e7a26ceffca87a3d76",
+      "type": "🏢公司/標的"
     }
   ]
 }
