@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-03",
+    "lastUpdated": "2026-10-04",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-03",
+    "last_update": "2026-10-04",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP133 分析報告",
+    "source": "EP1-EP134 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1427,
+    "total_entities": 1435,
     "total_relations": 911
   },
   "nodes": [
@@ -37262,6 +37262,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Intuitive Surgical",
       "notion_id": "3eeb9258820781e7a26ceffca87a3d76",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "臻鼎為全球軟板市占第二大（僅次Murata）；軟板三大家＝臻鼎、嘉聯益、台郡；台郡吃到5G天線軟板單（定毛早於郭明錤提出、最終驗證），但資金熱度不在、股價就不動；臻鼎中國子公司傳客戶問題可能賠錢、公司發重訊稱臆測，股價疲軟可能領先反應未知利空；南電、景碩、欣興IC載板／ABF載板前陣子大噴射。主持人持有臻鼎以外某軟板公司、看好吃到更多蘋果單，但刻意不點名。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🔌 軟板與PCB供應鏈",
+      "notion_id": "3efb9258820781fcbee4f5c4b7f6e0fe",
+      "type": "💡概念"
+    },
+    {
+      "description": "財報承認2077確實還有需要改良加強的地方，但總共賣出1370萬份＝公司史上賣最好遊戲，退款僅約3萬名玩家（不到1%）——市場反應過度激烈。主持人中殺時買進，是用%數看帳上負最多的部位（錢沒賠很多、小公司部位小），不打算投入更多錢，但相信會持續推出很讚的遊戲、會繼續支持。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-industry-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🎮 遊戲開發與發行",
+      "notion_id": "3efb9258820781a49ec7e8a280368c21",
+      "type": "💡概念"
+    },
+    {
+      "description": "看過落賽案例後，航海王與鋼鐵王的誘惑不再動搖；主持人自爆「幹原來我是主力耶」的小持股與賣股繳房貸的資金現實——每個人的部位、能力圈與資金壓力都不同，賺自己看得懂的錢才留得住。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "你只能賺你能力所及的錢",
+      "notion_id": "3efb9258820781c29760c4f86099463e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "創群一年多四次沉默巡迴——大漲後修正、短線衝一波者畢業；合一、耀登等「這次不一樣」多以悲劇收場；市場會教大家，2018超級震盪與納斯達克2000年創高後15年才回去都是同一課。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "每一次的樂觀，最後總有人被教做人",
+      "notion_id": "3efb9258820781c58d54ec359239cf21",
+      "type": "🧠心法"
+    },
+    {
+      "description": "航運自身案例——預期一波、實際走兩波，第三波沒有人知道；不熟悉的貨櫃輪在漲也不追，行情年年都有，錯過這台車還有下一台。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "有些球你不打",
+      "notion_id": "3efb925882078119862fd1690dae2302",
+      "type": "🧠心法"
+    },
+    {
+      "description": "朋友問牌可以分享脈絡與風險，但不要替人下決定；動能交易與短線打法不是每個人都抱得住，勸進者承擔的是人際與良心風險。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "贏了不會被謝，輸了一定被幹譙",
+      "notion_id": "3efb925882078120a84af5fd7c6d57a2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "賣深度價外收租看似穩定的免費現金流，但只要這輩子遇到一次極端行情就畢業——嘗過甜頭就會重複執行，直到那一次數年白費、外加負債甚至一輩子還不完。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "選擇權包租公：一次就畢業",
+      "notion_id": "3efb9258820781a38e29c10ad1541f21",
+      "type": "🧠心法"
+    },
+    {
+      "description": "「在他當初中殺的時候,我就有進去買」＋「現在他還成為我的部位裡面…我帳上負最多%數的公司」＋「我還是覺得他會持續的推出很讚的遊戲,那我會繼續支持CD Projekt」——明確現持部位且持續支持立場；不確定邊界：用%數看為帳上最差（「錢是沒有賠很多」、此類小型公司部位小）、「我不打算在這個標的投入更多的錢」不再加碼。",
+      "eps": [
+        "EP134"
+      ],
+      "first_ep": "EP134",
+      "id": "ep134-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CD Projekt",
+      "notion_id": "3efb925882078134ba8fd5aac8c222fd",
       "type": "🏢公司/標的"
     }
   ]
