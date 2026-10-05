@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-04",
+    "lastUpdated": "2026-10-05",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-04",
+    "last_update": "2026-10-05",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP134 分析報告",
+    "source": "EP1-EP135 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1435,
+    "total_entities": 1445,
     "total_relations": 911
   },
   "nodes": [
@@ -37358,6 +37358,126 @@
       "importance": "⭐⭐⭐⭐",
       "name": "CD Projekt",
       "notion_id": "3efb925882078134ba8fd5aac8c222fd",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "Cree（Wolfspeed）碳化矽基板市占率最高、基本類似壟斷；特斯拉已採用碳化矽於電動車（高頻高壓適合碳化矽／氮化鎵等第三代半導體材料）；盧明光指出成本是最大門檻——矽晶圓約20元 vs 第三代半導體材料約1500元，隨電動車普及與Lidar降價，第三代半導體價格有望往下砍、約3-4年後可進入非常廣泛的商用；應用於5G、射頻、電動車、衛星等新時代領域。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "⚡ 第三代半導體與車用碳化矽供應鏈",
+      "notion_id": "3f0b925882078153b261df51592d3a3c",
+      "type": "💡概念"
+    },
+    {
+      "description": "平常看好社區（標的）就蹲點等待，急售出現才撿得到芭樂價——不是趁人病要人命，你的出現剛好讓對方拿到錢周轉；投資亦然，平常做足研究，市場急殺時才有清單與膽識去接。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "有蹲有機會",
+      "notion_id": "3f0b9258820781f4b229e440e0ed521b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "第一家銀行滿口保證最後開雷（股票資產只認一部分、要薪轉、媒體podcast被當新興產業），轉找六家銀行全數談成1.31%、八成、30–40年——多問幾家不礙事、全部送件、時間不要抓太緊；資金規劃永遠留替代方案。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "先求有再求好",
+      "notion_id": "3f0b92588207813cb6c8cf930de7ca3d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "航運錯過會難過，但平行時空進場也只壓得到資金10%；重來100次也當不成航海王——牛頓南海泡沫、自身新藥繞賽經驗：不會在一家公司放太多部位，更不會加槓桿借錢壓三四百%。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "風險耐受度決定部位",
+      "notion_id": "3f0b925882078199bd0cd2d223b81d8a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "有人靠重壓發財，但重壓也代表可能歸西；走適合自己的方法、看起來龜縮沒關係——在市場裡活下來、持續成長打敗大盤，才是主動選股真正該追求的。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "重壓也代表你可能會歸西",
+      "notion_id": "3f0b9258820781c79871c6cf3adabac0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "行情火熱到「開盤買強勢族群、尾盤賣出都賺錢」時，沒有人想聽風險；主持人自嘲再提醒下去就變無聊老人家——恰恰是這種時候，風險提醒才最值錢。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "現在誰在跟你講風險啊",
+      "notion_id": "3f0b9258820781e6a410cf899bc2d587",
+      "type": "🧠心法"
+    },
+    {
+      "description": "超額報酬來自爹不疼娘不愛時的先佈局——Cree碳化矽仍在賠錢階段，等轉正獲利、本益比算得出來時，股價就不會是當初的價格（特斯拉獲利轉正為例）；看跑道夠長、下檔餘裕多的標的。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "爹不疼娘不愛時先佈局",
+      "notion_id": "3f0b92588207817f8980c835253b788b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "「Cree這家公司,是我持股」＋「我在車用部分的佈局」——明確現持部位；「我看好的東西...跑道夠長」「你真的覺得看好的時候...先去佈局」為看多立場。不確定邊界：未提及部位大小或加碼/減碼。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Cree",
+      "notion_id": "3f0b92588207816f9801f48b2d4bfc8b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "「我在車用部分的佈局,就英飛凌Cree,然後還有那個26,就是IIVI」——明確列為個人車用佈局之現持（direct current exposure）；「車用整個族群都是可以看」看多立場。不確定邊界：與Cree/IIVI同句列舉、未單獨展開；未提及部位大小。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "英飛凌",
+      "notion_id": "3f0b925882078114a5aada51eff3cb50",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "同句「還有那個26,就是IIVI」——明確列為個人車用佈局之現持；屬「我很看好的東西」。不確定邊界：與Cree/英飛凌同句列舉；未提及部位大小或加碼計畫。",
+      "eps": [
+        "EP135"
+      ],
+      "first_ep": "EP135",
+      "id": "ep135-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "II-VI（IIVI）",
+      "notion_id": "3f0b92588207818393afd2ee88cb6dfe",
       "type": "🏢公司/標的"
     }
   ]
