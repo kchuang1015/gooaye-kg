@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-05",
+    "lastUpdated": "2026-10-07",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-05",
+    "last_update": "2026-10-07",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP135 分析報告",
+    "source": "EP1-EP136 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1445,
+    "total_entities": 1452,
     "total_relations": 911
   },
   "nodes": [
@@ -37479,6 +37479,90 @@
       "name": "II-VI（IIVI）",
       "notion_id": "3f0b92588207818393afd2ee88cb6dfe",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "伺服器相關類股動起來：緯穎（緯創小金雞、伺服器代工）股價開始表現出現大漲；譜瑞做高速晶片（千元以上）、嘉澤做連接端子（五百多）都有相當程度表現；背後是Intel新平台預期＋先前拉貨拉很兇後的庫存去化過程——資金可能開始流回伺服器類股。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-industry-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "🖥️ 伺服器與雲端資料中心供應鏈",
+      "notion_id": "3f2b9258820781e69a72d54c0a48488b",
+      "type": "💡概念"
+    },
+    {
+      "description": "台海風險已習慣化——九六年危機曾有房地產拋售、現在共機繞台股市連跌都懶得跌；但習近平安靜＋台灣選舉可能再來文攻武嚇、成為幫助台股修正的題材。不是等到看到大動作才調整部位，平常就要把各種情境設想進配置。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "部位平常就要設想",
+      "notion_id": "3f2b925882078154bdcfff09b7c894e9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "世芯-KY並非爛公司，卻因重大客戶天津飛騰遭美國實體清單制裁連續跌停——各種想不到的狀況（單一客戶黑天鵝、轉單、更強競爭者）都會發生；重壓單一標的就是把自己暴露在這類奇異事件之下。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "重壓單一標的就是過度曝險",
+      "notion_id": "3f2b9258820781a9b0c4c5b47a315dd3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "德國股神牽狗理論：主人是基本面、狗是股價——狗會衝來衝去而且往往衝過頭；現在就是衝過頭，但衝過頭還可能更過頭（台積電600多的追高陷阱）；乖離（月線季線）太大風險大，用適當分批應對，不必急著猜頂。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "主人就是基本面",
+      "notion_id": "3f2b9258820781b49503da37a49d61cf",
+      "type": "🧠心法"
+    },
+    {
+      "description": "急迫資金（兩三年內要用：裝潢、學費、房租）隨時會遇到波動，不建議全部配置在股票——先想用途與期限再想報酬；近用資金要有防波堤。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "兩三年內要用的錢不要全配股票",
+      "notion_id": "3f2b9258820781b6812ed457fa2fbfd4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "出場紀律可以機械化：日盛、凱基可直接設定trailing stop——100塊設-5%就是95全砍，回檔未觸發不砍、上漲時跟著上調鎖住下檔；大盤型ETF流動性佳；券商沒有此功能就每天以收盤價手動算，打到一定出、絕不凹。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "trailing stop鎖住下檔",
+      "notion_id": "3f2b925882078119be22d7f941b80e79",
+      "type": "🧠心法"
+    },
+    {
+      "description": "一次爆賺屬於機率；可反覆施行的方法才是交易主體——分散二三十支還能打贏大盤才是選股卓越（大數法則）；任何預測漲幅的策略都有瑕疵，有用就反覆執行、該出場就出場維持紀律，要凹就先設trailing stop。",
+      "eps": [
+        "EP136"
+      ],
+      "first_ep": "EP136",
+      "id": "ep136-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "找可反覆施行的方法",
+      "notion_id": "3f2b9258820781a49923c5bfacde32e4",
+      "type": "🧠心法"
     }
   ]
 }
