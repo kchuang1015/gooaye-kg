@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-07",
+    "lastUpdated": "2026-10-08",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-07",
+    "last_update": "2026-10-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP136 分析報告",
+    "source": "EP1-EP137 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1452,
+    "total_entities": 1460,
     "total_relations": 911
   },
   "nodes": [
@@ -37563,6 +37563,102 @@
       "name": "找可反覆施行的方法",
       "notion_id": "3f2b9258820781a49923c5bfacde32e4",
       "type": "🧠心法"
+    },
+    {
+      "description": "ARK與波克夏運勢輪流——去年乾媽隨便屌贏、今年換價值股抬頭；不要站隊結派、迷信單一門派；工具箱不能只有一個工具，不同市況用不同工具。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "工具箱不能只有一個工具",
+      "notion_id": "3f3b9258820781d8a9e8d488d692b30c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "1903年兩千多家車廠到2009只剩三巨頭；手機產業同樣收斂；電動車Tesla vs Volkswagen、氫能源Toyota Mirai趨勢難猜——產業看對也不代表選到贏家；巴菲特推薦標普500而非自家股票，普通人不宜選股。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "選股難，普通人買大盤",
+      "notion_id": "3f3b9258820781edb657e0ecd89ac1c8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "2021Q1營業利益70億美元vs去年同期58億——看營業利益而非淨利（淨利含資本利得波動容易失真）；週六公布讓投資人冷靜消化。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "看營業利益而非淨利",
+      "notion_id": "3f3b925882078100b604ef2a25bd932d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "通膨讓現金購買力縮水、投資成必需；但別一次All in——分批進場；對部位做壓力測試（升息、修正情境）避免硬著陸。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "分批進場與壓力測試",
+      "notion_id": "3f3b92588207814381d5e0f83d0979f6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台股修正劇本（股匯雙殺、外資賣股匯出）——主持人猜Q2／Q3、朋友估Q4以後；劇本是準備不是預言，先想好應對、不要全信任何人的時點；升息是地心引力。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "劇本準備、不要全信",
+      "notion_id": "3f3b9258820781d59bd3c607412a9434",
+      "type": "🧠心法"
+    },
+    {
+      "description": "「我最近還是有開付委託,就是去買一些像是美國的大盤跟主要指數,好像我買QQQ」——現在進行式之實際買進部位（direct current exposure）。不確定邊界：未提部位大小與頻率。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Invesco QQQ Trust（QQQ）",
+      "notion_id": "3f3b9258820781d2a2cce1ed61843563",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "「目前手上的科技股是有獲利的」＋「其實我自己還在觀望（要不要加碼/減碼/不動）」——明確現持科技股部位；對下一步仍在評估。不確定邊界：未指名個股、未提部位大小。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台股科技股（電子股）",
+      "notion_id": "3f3b925882078159bcc6ff5168ca765d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "「我會想要買…VGT或是IYW,這會是我的選擇,但目前買不到」——明確表態標的偏好但通路受限、未持有。不確定邊界：屬通路受限之偏好表態，非價格追蹤watch。",
+      "eps": [
+        "EP137"
+      ],
+      "first_ep": "EP137",
+      "id": "ep137-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "VGT／IYW（美國科技股指數ETF）",
+      "notion_id": "3f3b9258820781ff8990d69a83a50d63",
+      "type": "🏢公司/標的"
     }
   ]
 }
