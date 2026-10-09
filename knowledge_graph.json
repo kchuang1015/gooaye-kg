@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-08",
+    "lastUpdated": "2026-10-09",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-08",
+    "last_update": "2026-10-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP137 分析報告",
+    "source": "EP1-EP138 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1460,
+    "total_entities": 1466,
     "total_relations": 911
   },
   "nodes": [
@@ -37658,6 +37658,78 @@
       "importance": "⭐⭐⭐⭐",
       "name": "VGT／IYW（美國科技股指數ETF）",
       "notion_id": "3f3b9258820781ff8990d69a83a50d63",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "怪物績效兩要素：選對族群＋開槓桿（股票期貨約7.5倍、融資約2.5倍，選擇權可更誇張）。",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "選對族群、敢開槓桿",
+      "notion_id": "3f4b9258820781e89fddf6f3c8247e9c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "3–5年以上長期投資者不必在意電子→傳產→金融輪動循環；看對的東西最後面都會還給你清白。",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "長期不看資金流動",
+      "notion_id": "3f4b9258820781b9b3bcf0eb9a9480fe",
+      "type": "🧠心法"
+    },
+    {
+      "description": "100萬賠到50萬是-50%，要回到100萬需+100%；翻倍在正常行情非常困難。",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "虧損回本數學",
+      "notion_id": "3f4b925882078159a210cc0e18c8c9bc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "若每次都對、每月翻50%，500萬本金三年內超過台灣首富——據此辨識偽裝成科學與數據的騙子。",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "首富檢驗法",
+      "notion_id": "3f4b9258820781889291e807334c61cc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金拆三份，第一份買進後跌10%、20%再各買一份；股價8–20%震盪常見，不宜據此否定公司。",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "分批買入法",
+      "notion_id": "3f4b9258820781979964e358b4e625fb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人明示目前伺服器族群全部買一點（自幹ETF），其中相對弱勢一檔恰為其買最多之持倉——直接當前多頭曝險表白（不確定邊界：未點名個股；相對弱勢一檔為其最大持倉，能否後來居上不確定）",
+      "eps": [
+        "EP138"
+      ],
+      "first_ep": "EP138",
+      "id": "ep138-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "伺服器族羣（自幹ETF持倉）",
+      "notion_id": "3f4b9258820781e9b83bf16c732543f8",
       "type": "🏢公司/標的"
     }
   ]
