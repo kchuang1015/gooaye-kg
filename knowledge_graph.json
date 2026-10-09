@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-09",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP138 分析報告",
+    "source": "EP1-EP139 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1466,
+    "total_entities": 1473,
     "total_relations": 911
   },
   "nodes": [
@@ -37730,6 +37730,90 @@
       "importance": "⭐⭐⭐⭐",
       "name": "伺服器族羣（自幹ETF持倉）",
       "notion_id": "3f4b9258820781e9b83bf16c732543f8",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "不要崇拜任何人；自稱完美預測、準度世界高的人若真那麼準早該是首富；只有韭菜會檢討別人，真正高手幾乎都反求諸己；不要怪政府不來救你。",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "不要拜神、反求諸己",
+      "notion_id": "3f4b9258820781438100c48986a85f32",
+      "type": "🧠心法"
+    },
+    {
+      "description": "引述Peter Lynch：不好的草拔掉、好的讓它繼續漲；勝率不用高，五六成搭配部位管理就能長期獲利——重點是部位管理。",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "勝率五六成＋部位控制就夠",
+      "notion_id": "3f4b9258820781b79869da7312faa65d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "本金侵蝕後要回到原點非常困難，除非有強勁現金流「本多終勝」；當沖族群槓桿2.5倍～7.5倍開滿、無部位控制觀念，遇斷頭只能兩手一攤；用槓桿後任何風吹草動都要認真面對。",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿是雙面刃、珍惜本金",
+      "notion_id": "3f4b925882078151b847e4937a4daff6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "葛拉罕心法值得借鑑，但選股方法連本人都承認不適合這個時代；拿過往EPS外推本益比15→10→7倍越買越多是量化陷阱；Event Trading造成的暫時現象終會回歸原狀。",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "撿便宜不一定是撿便宜（價值陷阱）",
+      "notion_id": "3f4b925882078197bd60d794fe57486c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "後市不會很快平緩、會甩來甩去一陣子；彈藥保持好不要一直打光；少受討論區影響——主動市場裡賺錢的人是少數，要靜下心思考自己要買的東西。",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "保留彈藥、靜心思考",
+      "notion_id": "3f4b9258820781a5b522f7366760afd5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人自述持有一部分長線資金（股票為主、無債券配置），並於恐慌下殺時分批進場；部位規模與標的未揭露。（不確定邊界：非買賣時點或標的推薦；規模與標的未揭露。）",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "長線股票部位（整體股票資產）",
+      "notion_id": "3f4b92588207812b86c4c81a23fb765d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "回應碳中和提問，主持人明確表態綠能為必須且不可逆的長期結構趨勢（RE100供應鏈要求驅動）。（不確定邊界：結構性趨勢表態；未揭露部位、個股或時點。）",
+      "eps": [
+        "EP139"
+      ],
+      "first_ep": "EP139",
+      "id": "ep139-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "綠能產業（風電/太陽能）",
+      "notion_id": "3f4b92588207813db573e3dbd9a2d9fa",
       "type": "🏢公司/標的"
     }
   ]
