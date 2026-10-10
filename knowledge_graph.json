@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-09",
+    "lastUpdated": "2026-10-10",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-09",
+    "last_update": "2026-10-10",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP139 分析報告",
+    "source": "EP1-EP140 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1473,
+    "total_entities": 1481,
     "total_relations": 911
   },
   "nodes": [
@@ -37814,6 +37814,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "綠能產業（風電/太陽能）",
       "notion_id": "3f4b92588207813db573e3dbd9a2d9fa",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "人是會騙自己的——停損第一步是把對帳單拿出來檢驗平均持有期；兩三個月內就賣出的交易與公司長期基本面完全無關（有數據與論文支持）；先認清自己是短線還是長線交易者。",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "停損第一步：對帳單與交易週期",
+      "notion_id": "3f5b9258820781498bc8db5738d6fcb9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "追高追在山頂、跌下來才問「是不是要轉長期投資」＝沒有紀律；短線交易者看錯就要砍掉，把短線部位凹成長期投資，長期下來百分之百畢業。",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "短線套牢不可自稱轉長期",
+      "notion_id": "3f5b925882078186a6bcfcc50b648001",
+      "type": "🧠心法"
+    },
+    {
+      "description": "180確診、極度悲觀下，長線者要做的不是恐慌砍出，而是問基本面有沒有改變；既然長期看好又算好價位，便宜下來其實應該買更多。",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "長線者的問題：基本面有沒有改變",
+      "notion_id": "3f5b92588207810dabcac860dd4e9ef6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金比例是可以調整的：行情震盪不舒服就留10%在場內；只要睡得著就代表部位配置OK；每個投資都有要承擔的風險，沒有穩賺不賠——「投資有賺有賠那是幹話」。",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "資金比例不是0跟100、睡覺指標",
+      "notion_id": "3f5b925882078131b929f8b6dd17993b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "越短線隨機性越強、漲跌沒有人知道，好公司照樣被砍；一般人以長線為主、短線只撥小部位試方法，方法有效後才投入更多資金——七成被動三成主動，哪邊做得好就加碼哪邊；本金很難存，太快賠掉不好。",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "越短線隨機性越強、七三配",
+      "notion_id": "3f5b925882078188b3abcd5cbfbea6f8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人自述除了基本面外會考慮動能、自己也有動能部位，會漲的股票願意越買越多；部位規模與標的未揭露。（不確定邊界：非買賣時點或標的推薦；部位規模與標的未揭露。）",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "動能部位（整體股票資產之一部）",
+      "notion_id": "3f5b9258820781eab75ef9f0cf561f74",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "回應穩懋提問，主持人對三五族（砷化鎵／磷化銥／氮化鎵／碳化矽）未來明確表態持續看多、長線規劃很好。（不確定邊界：族群級表態；未揭露個股部位或時點，台灣廠會否接到單另外回事。）",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "三五族族群（穩懋／宏捷科／全新等砷化鎵族）",
+      "notion_id": "3f5b92588207817293f1e987e7b589f3",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "低軌衛星（STARLINK／Kuiper）與碳化矽導入加速論述後，主持人明確表態相關族群未來都是看多。（不確定邊界：族群級表態；誰會受惠、有沒有吃到單需各自注意，未揭露部位或時點。）",
+      "eps": [
+        "EP140"
+      ],
+      "first_ep": "EP140",
+      "id": "ep140-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "低軌衛星／伺服器／三五族相關族群",
+      "notion_id": "3f5b9258820781db801bf2945e4ab61b",
       "type": "🏢公司/標的"
     }
   ]
