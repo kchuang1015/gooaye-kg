@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-10",
+    "lastUpdated": "2026-10-12",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-10",
+    "last_update": "2026-10-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP140 分析報告",
+    "source": "EP1-EP141 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1481,
+    "total_entities": 1489,
     "total_relations": 911
   },
   "nodes": [
@@ -37910,6 +37910,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "低軌衛星／伺服器／三五族相關族群",
       "notion_id": "3f5b9258820781db801bf2945e4ab61b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "準備很多劇本那是重要的——那也是某種程度的預測，但不是鐵口直斷型：真的發生時趕快做應對的動作；就算設的10個劇本都沒發生也不用自責，事情發生之後趕快去解決（計程車倒車撞你的比喻）。",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "準備劇本、應對重於預測",
+      "notion_id": "3f7b9258820781b49a68ea6106d01466",
+      "type": "🧠心法"
+    },
+    {
+      "description": "迷信不是真正壞的事情（符水安慰劑效應、射飛鏢買股票會賺就做）——只要可以反覆實行會賺錢的方法就可以做；520行情、新春行情、端午變盤這種鐵口直斷，把過去走勢拉出來回測馬上不攻自破。",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "迷信無妨、一切回測",
+      "notion_id": "3f7b9258820781989c23c5302a0c6a4e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "不要期待政府救、不要把損益交給政府或老師——國安基金去年買7.6億（5000億額度）佔比0.002%，不會救熱門標的；交易是自己的事情，相信市場機制與自由經濟。",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "交易是自己的事",
+      "notion_id": "3f7b92588207814c9ccedfa1fbd5265e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "當FMS＋13F大家都在買原物料、市場熱度激高的時候，其實你是要感到有一點點怕——不一定馬上反轉，但熱度很高、資金都進來時，上檔空間就有限了。",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "熱度警戒：要感到一點點怕",
+      "notion_id": "3f7b9258820781ca9f4bef2377e08e09",
+      "type": "🧠心法"
+    },
+    {
+      "description": "七三配：七成ETF、三成主動選股；操作看個人、只要可以賺錢都是好的方法；用動態的標準去調整——哪邊績效比較差就減碼、好的加碼；投資是為了讓你生活更舒服。",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "七三配與動態調整",
+      "notion_id": "3f7b9258820781ecadbad2d4c046bf2f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人自述目前有存ETF（給小孩的）；自身配置則以個股為主。（不確定邊界：未揭露標的、規模與時點；為長期存股型態自述。）",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ETF（主持人存給小孩之部位）",
+      "notion_id": "3f7b9258820781fda499eb63eff7da15",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人自述自身配置不買ETF、都是買個股（搭配選擇權操作）。（不確定邊界：未揭露具體標的、方向與時點；僅為配置型態自述。）",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "個股（主持人自身配置）",
+      "notion_id": "3f7b92588207811588c3d76e207d2135",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人自述實際操作含大量選擇權（美股為主），以Call達到類似現貨比例之曝險效果。（不確定邊界：未揭露標的、規模與到期細節；為工具型態之部位自述。）",
+      "eps": [
+        "EP141"
+      ],
+      "first_ep": "EP141",
+      "id": "ep141-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "美股選擇權（含Call部位）",
+      "notion_id": "3f7b9258820781129b8dddb687bf1a4e",
       "type": "🏢公司/標的"
     }
   ]
