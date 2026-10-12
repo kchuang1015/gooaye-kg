@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP141 分析報告",
+    "source": "EP1-EP142 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1489,
+    "total_entities": 1497,
     "total_relations": 911
   },
   "nodes": [
@@ -38006,6 +38006,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "美股選擇權（含Call部位）",
       "notion_id": "3f7b9258820781129b8dddb687bf1a4e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "會漷不代表我一定要追——詐騙車很會賺、開沙石車很會賺，可你就是個office宅；每個方法都有適合的時間點與人，廣義動能交易可以用，但能把動能交易操作好的人是少數（C10）——選擇適合自己的方法沒有對錯。",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "會漲不代表必須追——方法要適合自己",
+      "notion_id": "3f7b92588207813c88a7c753ea48ab42",
+      "type": "🧠心法"
+    },
+    {
+      "description": "進出一定要有邏輯，不符合預期主部位就砍（給自己網開一面就是凹單的開始、鐵與血）；前後邏輯一致方法才可以反覆施行，鎖定變因才知道勝率，才能套用到其他標的。",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "買進的理由不見了，就砍",
+      "notion_id": "3f7b92588207812fb203f84667b42f57",
+      "type": "🧠心法"
+    },
+    {
+      "description": "攤平就像在南洋街生意爆好時卻跑去苗栗沒人的店擴店；Peter Lynch說灌溉鮮花、砍掉雜草——散戶最大的問題是鮮花獲利了結、雜草瘋狂灌溉（C48）。",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "灌溉鮮花、砍掉雜草",
+      "notion_id": "3f7b92588207815aa7a0d5b4cfefc81b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "2020股災中很強的公司回檔幅度就是比別人少、跌很深的後來絕命反彈——兩個極端都有人愛；主持人自述喜歡不怎麼跌的：強勢的東西先留下來，電子股已可找到這種強勢族群。",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "留牆的：強者恆強先留下",
+      "notion_id": "3f7b9258820781fb937df93852ba6c79",
+      "type": "🧠心法"
+    },
+    {
+      "description": "世界局勢變化太快、很多事無法想像與猜測——能做的就是遇到事情就調整；自己選擇了（例如因通膨調整持股）就下好離手、承擔結果，不要對自己太嚴格（13F大師每季都有看錯，C37）。",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "遇事調整、下好離手",
+      "notion_id": "3f7b9258820781d09f03f1cecda4184f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人自述目前帳上持有CDPR、虧損約三至四成，並認為退貨者少、基本面仍強。（不確定邊界：未揭露部位規模與加減碼計畫；虧損幅度為自述約數。）",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CD Projekt Red（波蘭蠢驢）",
+      "notion_id": "3f7b9258820781c89069d25f528d3a20",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人自述手上持有的台股公司財報擊敗自身與法人預期、股價仍下跌（估值調整）。（不確定邊界：未揭露標的名稱、規模與時點；僅為持倉存在之自述。）",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台股個股（主持人自有持倉）",
+      "notion_id": "3f7b925882078104a9b7ddc2a13f53a2",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人明確表態持續看好Take-Two；GTA6若推出將有超級強烈動能。（不確定邊界：未揭露是否持有部位；為前景看好表態而非持倉揭露。）",
+      "eps": [
+        "EP142"
+      ],
+      "first_ep": "EP142",
+      "id": "ep142-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Take-Two Interactive（Tech2）",
+      "notion_id": "3f7b92588207813e93a0ca06dfd65ccb",
       "type": "🏢公司/標的"
     }
   ]
