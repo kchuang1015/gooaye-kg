@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-12",
+    "lastUpdated": "2026-10-15",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-12",
+    "last_update": "2026-10-15",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP142 分析報告",
+    "source": "EP1-EP143 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1497,
+    "total_entities": 1506,
     "total_relations": 911
   },
   "nodes": [
@@ -38102,6 +38102,114 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Take-Two Interactive（Tech2）",
       "notion_id": "3f7b92588207813e93a0ca06dfd65ccb",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "散戶之王因散戶而起、也因讓散戶失望而下——「有點像是政治，民意如流水，今天大家支持你，明天可能就會把你推翻掉」（C21）；不要跟散戶站同一排、跟大家的情緒同步沒有好處——多數人對產業與公司沒有了解，大家買就買、賠錢就罵，這樣的盲從到底幫你賺了多少錢（C23）。",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "民意如流水——不要跟散戶站同一排",
+      "notion_id": "3fab92588207811cb9e3fc36e21626f4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "學生投資人最大的問題是沒有金流——「有金流很多事情會好處理，就像我們講的本多終勝」：有錢一直進來的話，很多問題會迎刃而解、很多策略都會改變；與其想用固定本金滾出更多（有時是運氣、有時是天分），不如追求更強的金流。",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "本多終勝——持續金流讓難題迎刃而解",
+      "notion_id": "3fab925882078183b7a6f903b67dbc7e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "「價值陷阱你不要以為很少見，超常見的」——拉五到十年看，公司被時代淘汰的出場機率不低；買在全盛期或高原期，你以為的低點還有更低點，連跌十年公司還在、獲利還在但沒有熱度。做波段可以閃掉價值陷阱（停損就出），卻也可能出掉後絕世大反彈——兩個策略都可行，要知道自己在做什麼。",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "價值陷阱超常見——長投最大風險",
+      "notion_id": "3fab925882078133abb1db93af2fb382",
+      "type": "🧠心法"
+    },
+    {
+      "description": "3萬塊的iPhone你嫌鏡頭差、話筒差；5千塊真香——夠合理之後，原本的缺點都不是缺點。黑天鵝無法預期（C25），但價格下修會提前反映壞消息；殺下來的個股要用這個角度思考，但也不要線性外推「工廠不在台灣就一定漲回去」——美國內需／基建題材曾拉一小波就跌回原點（C28），要追蹤實際受惠內容。",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "夠便宜，缺點就消失——價格先反映壞消息",
+      "notion_id": "3fab9258820781efb36dda2e813bd86b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "以指數做主力的配置、另一部分做主動選股——同時結界手癢與選股的癖，最差最差都有指數部位幫你賺到市場平均報酬；入市一兩年打不贏大盤很正常（蒙格、巴菲特都有幾年沒贏大盤），不必在這麼短的時間內否決自己。",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "指數為主力＋小部位主動選股",
+      "notion_id": "3fab92588207812fafafe88b138054f0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人明言自己正在買進伺服器相關持股，並稱近期靠伺服器 carry、裝潢的錢有了（不確定邊界：未指名個股代碼，屬口語持股曝險）",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "伺服器持股（口語）",
+      "notion_id": "3fab9258820781f8a3c5db3f9b44e32a",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "與伺服器同段明言的現有買進持股，口語代稱「瓶蓋」（不確定邊界：代稱未對應正式代碼，列入不確定性邊界）",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "瓶蓋（口語代稱持股）",
+      "notion_id": "3fab9258820781d6ae2cdf3cddb175d8",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人自述一直以來都是科技股鐵粉、一直都投資科技跟電子股（不確定邊界：族群級曝險，未指名個股）",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "科技／電子股",
+      "notion_id": "3fab9258820781eeb144d12a45e63f5b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "對驅動IC族群明言「長期是看多的」的明確多頭觀點（不確定邊界：同段提醒短期漲價題材已反映、明年報價動能存疑）",
+      "eps": [
+        "EP143"
+      ],
+      "first_ep": "EP143",
+      "id": "ep143-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "驅動IC族群（DDI/TDDI）",
+      "notion_id": "3fab925882078167bb5fff5fd5086892",
       "type": "🏢公司/標的"
     }
   ]
