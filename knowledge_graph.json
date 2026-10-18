@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-17",
+    "lastUpdated": "2026-10-18",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-17",
+    "last_update": "2026-10-18",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP146 分析報告",
+    "source": "EP1-EP147 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1531,
+    "total_entities": 1538,
     "total_relations": 911
   },
   "nodes": [
@@ -38519,6 +38519,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "寶雅",
       "notion_id": "3fcb92588207810b9587dfd4c74a19d0",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "先找到獲利方式，再反覆搬磚執行確認穩定有效（經過大數法則考驗），最後才思考放大——槓桿、融資、期貨、選擇權、全職交易都該擺在最後；大多數人搞錯步驟，還沒找到方法就想飛。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "投資三步驟：方法、驗證、再放大",
+      "notion_id": "3fdb92588207812b8227cbf3cfea4978",
+      "type": "🧠心法"
+    },
+    {
+      "description": "快篩股即使創新高也因疫苗到來、買進理由消失而全數出脫；兩套規則競合時（創新高不賣 vs 理由消失），以理由消失為先——賣掉就不干你的事了。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "買進理由消失時，紀律讓位",
+      "notion_id": "3fdb9258820781a580c4d387e05faa04",
+      "type": "🧠心法"
+    },
+    {
+      "description": "賣出後不回看標的——前女友類比：分手後每天看對方過得好不好只是折磨自己；南電 40–60 出脫後漲到 300 多，偶爾心痛但當下的判斷標準仍要接受。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "賣出後不再回看",
+      "notion_id": "3fdb9258820781dd8e31c9c2e8396b74",
+      "type": "🧠心法"
+    },
+    {
+      "description": "現股回吐熬得過、槓桿會被斷頭——券商在你保證金沒了時直接砍倉；放大槓桿（股票期貨最大約 7.5 倍）只該在方法已確認賺錢之後才思考。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿最怕斷頭",
+      "notion_id": "3fdb925882078130b113d3bb58c020ea",
+      "type": "🧠心法"
+    },
+    {
+      "description": "運氣來的獲利（樂透型）是機率結果，最好的方法先保本、好好規劃；可反覆驗證的實力部分才思考放大與加速。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "運氣財保本、實力財才放大",
+      "notion_id": "3fdb92588207818984c0f75301a784fe",
+      "type": "🧠心法"
+    },
+    {
+      "description": "害怕市場可以減碼，但不要空手——離市場一遠就不會再關注，也就不會找到更多機會；崩盤往往不是一兩天的事，是數月至一年的過程，可用停損與降槓桿條件應對。",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "不要空手，離市場近才找得到機會",
+      "notion_id": "3fdb9258820781cc894ede251c7454ae",
+      "type": "🧠心法"
+    },
+    {
+      "code": "0050",
+      "description": "主委明言開始為新生兒定期存ETF（過去僅建議新手、自己不持有），屬直接現有多方曝險",
+      "eps": [
+        "EP147"
+      ],
+      "first_ep": "EP147",
+      "id": "ep147-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "小孩ETF存股（0050類指數ETF）",
+      "notion_id": "3fdb92588207814fa6e8eb9a6ea0be04",
       "type": "🏢公司/標的"
     }
   ]
