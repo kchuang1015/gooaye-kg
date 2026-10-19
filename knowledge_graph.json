@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-18",
+    "lastUpdated": "2026-10-19",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-18",
+    "last_update": "2026-10-19",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP147 分析報告",
+    "source": "EP1-EP148 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1538,
+    "total_entities": 1545,
     "total_relations": 911
   },
   "nodes": [
@@ -35501,11 +35501,12 @@
     },
     {
       "code": "TSLA",
-      "description": "「我手上有蠻多的特斯拉…成為拖油瓶，但沒有把它砍掉,就繼續抱著」明示續抱（不確定邊界：今年表現落後為拖油瓶，僅被動續抱非加碼）",
+      "description": "主委對特斯拉訂單與產能給出明確觀察重點（銷量／產能／中國黑粉觸底），屬主動研究觀察；未表態個人持股或直接買賣建議",
       "eps": [
         "EP122",
         "EP123",
-        "EP146"
+        "EP146",
+        "EP148"
       ],
       "first_ep": "EP122",
       "id": "ep122-holding-2",
@@ -38604,6 +38605,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "小孩ETF存股（0050類指數ETF）",
       "notion_id": "3fdb92588207814fa6e8eb9a6ea0be04",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "任何人的心法都值得聽——成功者或失敗者，只要在同一個領域；專業素養與數據解讀可以學，但心法與判斷才是關鍵，聽了之後要能判斷「他這樣做我覺得不好，那我應該怎麼改」。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "心法比工具更值得聽",
+      "notion_id": "3feb92588207818fa5bae625e0078b7c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "引用 Peter Lynch：有 brain 的人太多了，有 stomach 的不多；膽識就是下跌時不被嚇跑、大家往同一個方向去時能靜下來再思考。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "股市是 stomach 的遊戲",
+      "notion_id": "3feb9258820781fa8144db004bf003f9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "馬斯克若決定離開、出意外或突然跑去上太空，對特斯拉衝擊最大；這種事任何模型都算不到，投資人要自己承擔風險、為自己負責。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "特斯拉最大的利空是馬斯克",
+      "notion_id": "3feb92588207816688cbfe2165ba331d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "長期現金流預測很沒有意義、世界變化太快，但算模型能幫助你持股的信心、面對波動抱得住、更踏實有紀律，並把同樣模式複製到更多標的。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "模型幫助信心與紀律",
+      "notion_id": "3feb92588207816ab30de792e3a3d5ce",
+      "type": "🧠心法"
+    },
+    {
+      "description": "缺水、疫苗、電子股都一樣——最絕望的時候堅持心情最重要；能買到低點的人心情都比別人強悍，市場隨時有壞消息，要排除雜訊、堅持做想做的事，看錯就承擔。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "恐慌終會過去，堅持心情最重要",
+      "notion_id": "3feb925882078124b82fd9e22b204698",
+      "type": "🧠心法"
+    },
+    {
+      "description": "分散不會讓每檔報酬變低，反而更能反映真實選股狀況（大數法則）；壓一支可能是賽到，壓很多支才看得出實力；不要重壓單一中小型股，指數型 ETF 或大品牌相對穩健。",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "分散投資反映真實選股能力",
+      "notion_id": "3feb92588207819fa07be414bff62724",
+      "type": "🧠心法"
+    },
+    {
+      "code": "FB",
+      "description": "主委明言自己也買了不少臉書、並稱臉書還是個好投資，屬直接現有多方曝險",
+      "eps": [
+        "EP148"
+      ],
+      "first_ep": "EP148",
+      "id": "ep148-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "臉書（Meta）",
+      "notion_id": "3feb925882078128b1b3d04eb7132f72",
       "type": "🏢公司/標的"
     }
   ]
