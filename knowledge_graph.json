@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-19",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP148 分析報告",
+    "source": "EP1-EP149 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1545,
+    "total_entities": 1553,
     "total_relations": 911
   },
   "nodes": [
@@ -34110,13 +34110,15 @@
       "type": "💡概念"
     },
     {
-      "description": "EP118（2021-02-27）節目敘事中的Square；此節點不表示主持人持有，持股方向另依本集完整候選台帳。",
+      "code": "SQ",
+      "description": "主委在美股群公開分享 SQUARE 的明確買點（約季線與月線 60 MA 條件達成後買進），屬主動研究與設定條件的觀察，未揭露已建立部位",
       "eps": [
-        "EP118"
+        "EP118",
+        "EP149"
       ],
       "first_ep": "EP118",
       "id": "ep118-square",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "Square",
       "notion_id": "3d9b9258820781f49b67cab56f82a2d9",
       "type": "🏢公司/標的"
@@ -38690,6 +38692,103 @@
       "importance": "⭐⭐⭐⭐",
       "name": "臉書（Meta）",
       "notion_id": "3feb925882078128b1b3d04eb7132f72",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "聽老師建議亂放空要負九成責任，一成才怪老師——下單的權限在你手上，沒有人逼你；生殺大權交到別人手上是不可思議的事，要跟單寧願跟 13F 這種有名字的大師。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "為自己的下單負責",
+      "notion_id": "3feb9258820781a780cbf1a5c623ba66",
+      "type": "🧠心法"
+    },
+    {
+      "description": "基本面心法第一條：整個國家站在多方、國家隊與公司派都會跟空軍對做；失火的電影院裡喊有滅火器照樣被踩死——盡量不要跟著勢頭對做。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "順勢而為，不要跟勢頭對做",
+      "notion_id": "3feb9258820781cf9a93c3cadc90f4ad",
+      "type": "🧠心法"
+    },
+    {
+      "description": "三年回頭看會發現過往的自己很蠢——能活下來就是運氣；實力越強運氣越旺，實力不強時運氣只是短暫現象，所以不停學習增強實力是最重要的事。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "運氣有很大一部分是你的實力",
+      "notion_id": "3feb92588207811fa59cd2cc2addf98e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "KD、RSI、MACD 全部由價格與時間推出；RSI 發明人自己說沒用，但像符水民間療法——喝了舒服、下檔有限就用；KD 鈍化才是股票最會漲的時候；指標只是增進資金效率的工具。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "指標是工具，不是信仰",
+      "notion_id": "3feb9258820781329822dc0049958caf",
+      "type": "🧠心法"
+    },
+    {
+      "description": "策略有胃納量、太多人知道就失效；有太多策略可達到類似效果——摩擦成本看你能不能接受，適合我的策略不一定適合你，重點是配合自己的個性與資金條件。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "找到適合自己的策略",
+      "notion_id": "3feb9258820781c58716ebd9f05c3b34",
+      "type": "🧠心法"
+    },
+    {
+      "description": "損益一天跳動幾百萬，卻對家人 300 塊的開銷雞雞歪歪說不過去；輸錢絕對不要怪家人、怪自己也不要太嚴苛——對家人好一點，投資才有意義。",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "輸錢不怪家人，對家人好一點",
+      "notion_id": "3feb9258820781c3b316dc19fdc8de0b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主委明言因看好蘋果 mini LED 發展而買進某蘋概股，WWDC 未發表 MacBook Pro 後考慮減碼，但價格未跌反彈即選擇繼續抱著，屬直接現有多方曝險（同 EP143-H-SERVER／EP144-H-PINGGAI 口語未點名譜系）",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "蘋概股（mini LED 相關，未點名）",
+      "notion_id": "3feb9258820781f89230fd5360134797",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "PLTR",
+      "description": "主委長期追蹤 PLTR（25 塊套牢區約 1000 萬股與選擇權對決，Telegram 講過多次）、肯定 Gotham／Foundry／Apollo 軍民佈局與產品進步，同時保留股價是否偏高的不確定性，未揭露個人部位",
+      "eps": [
+        "EP149"
+      ],
+      "first_ep": "EP149",
+      "id": "ep149-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Palantir",
+      "notion_id": "3feb9258820781ceaf6df1f20a4f953e",
       "type": "🏢公司/標的"
     }
   ]
