@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP150 分析報告",
+    "source": "EP1-EP151 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1561,
+    "total_entities": 1570,
     "total_relations": 911
   },
   "nodes": [
@@ -38887,6 +38887,115 @@
       "importance": "⭐⭐⭐⭐",
       "name": "台股電子零組件族群（CCL/被動元件/網通/CIS/車用，未點名個股）",
       "notion_id": "400b9258820781a79b60c9bfccca0719",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "單一券商喊低必有另一家喊高；把各家目標價量化成共識（平均／高標／低標）才有一點參考價值。媒體把目標價放最前面是 clickbait，不是報告的重點。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "目標價是報告最不重要的部分；要看就看共識",
+      "notion_id": "400b92588207812da8cedbb9f3aeedde",
+      "type": "🧠心法"
+    },
+    {
+      "description": "大公司獲利預測正負幾%就猜得到，但本益比乘數是市場共識且動態：情緒、資金寬鬆、政策都會移動它。同 EPS 給 15 倍或 20 倍，一來一往差 150 元。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "賺得到 EPS，猜不到本益比乘數",
+      "notion_id": "400b9258820781108507e5759748f443",
+      "type": "🧠心法"
+    },
+    {
+      "description": "很多生意人金流抓死、貸款開到爆、毫無餘裕；固定成本高的實體店在疫情下產能掉到四五成就賠到爛掉。資金條件允許才撐，撐不動就收手。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "預備週轉金決定你能撐多久",
+      "notion_id": "400b925882078119b2abe8b47a457620",
+      "type": "🧠心法"
+    },
+    {
+      "description": "循環股本益比來到很低位階時常是景氣頂部訊號，此時進場高機率賠很多錢（Peter Lynch 書中警示）。不是航酸，是風險提醒。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "景氣循環股低本益比是陷阱不是便宜",
+      "notion_id": "400b9258820781aa8424f05cdfdb7e85",
+      "type": "🧠心法"
+    },
+    {
+      "description": "越短線越是程式 AI 的戰場，散戶抓不到訊號就是洗碗；常見型態是賺幾次小錢、一次賠大的。把頻率拉長到一週甚至一月比較穩。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "做越短線勝率越低",
+      "notion_id": "400b9258820781e7836eee10eed3f533",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市值型 ETF（VTI／VOO／SPY／0050／006208）實測最好的策略是定期定額；「賣掉等低點買回」是萬年屁話，實務常賣飛買不回來。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "市值型 ETF：定期定額，避免擇時",
+      "notion_id": "400b92588207813ea3e1e5cb4cc5d11a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "突然飆漲的標的可用 trailing stop 鎖住獲利，券商有內建功能也可自己操作；固定價格出清幾成也可以，沒有標準答案。",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "用移動停利鎖住暴漲標的的獲利",
+      "notion_id": "400b9258820781528a88cd048d454bc6",
+      "type": "🧠心法"
+    },
+    {
+      "code": "8454",
+      "description": "主委自述「富邦媒是我的持股」且疫情下電商基本面看多（競爭者出貨卡關、消費者轉單挹注 MOMO），明確現有持倉＋看多論述；屬持倉自述而非買賣建議",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富邦媒 (momo)",
+      "notion_id": "400b925882078100a0a9f37598a7cfb3",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主委自述持股配置「以這種電子為主」，屬現有部位組成的直接自述；未點名個股，以族群層級收錄（EP150 TWTECH 族群層級前例）",
+      "eps": [
+        "EP151"
+      ],
+      "first_ep": "EP151",
+      "id": "ep151-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台股電子股（主要配置，未點名個股）",
+      "notion_id": "400b9258820781d485b6fa1c3b3c2784",
       "type": "🏢公司/標的"
     }
   ]
