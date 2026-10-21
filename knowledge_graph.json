@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-19",
+    "lastUpdated": "2026-10-21",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-19",
+    "last_update": "2026-10-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP149 分析報告",
+    "source": "EP1-EP150 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1553,
+    "total_entities": 1561,
     "total_relations": 911
   },
   "nodes": [
@@ -37042,10 +37042,12 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "「我就是配了一部分資金,雖然說配蠻多的,就是網飛大概是我的持股前10大」＋「我非常看好網飛,可是你看他就是一天可以跌掉10%」——明確現持部位（前10大）且立場看好；不確定邊界：短線波動大（「不好抱的股票」），部位規模占比未精確揭露。",
+      "code": "NFLX",
+      "description": "主委自述「身為Netflix股東」並鼓勵訂閱，明確現有持倉；屬身分自述而非買賣建議",
       "eps": [
         "EP131",
-        "EP133"
+        "EP133",
+        "EP150"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-4",
@@ -38789,6 +38791,102 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Palantir",
       "notion_id": "3feb9258820781ceaf6df1f20a4f953e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "利率拉高＝資金成本變高，錢回流；它造成的是估值調整（PE／PS 往下），對公司基本面沒有太大影響——不要因為聯準會調利率就把手上部位清掉；總經週期好幾年，股票週期很快，以個股為依據。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "利率是地心引力：影響估值，不影響基本面",
+      "notion_id": "400b9258820781a28ecfcc3cec3919e4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "美股資訊太透明，分析師帶不來資訊優勢——相信自己可能反而賺得多；分析與預期聽聽就好，鐵口直斷者你就回一句「你這麼準你就 all in」。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "盡信分析師不如不要有分析師",
+      "notion_id": "400b9258820781e2a500dbebe1f385ad",
+      "type": "🧠心法"
+    },
+    {
+      "description": "沒有人可以鐵口直斷——去年大家預期的東西到今年很多沒發生、相反、提早或延後；真的這麼準就 all in，否則把預測當參考就好。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "你這麼準你就 all in——檢驗鐵口直斷",
+      "notion_id": "400b92588207817e8912edaa6d41d082",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金寬鬆或緊縮影響的是 PE／PS；股價＝PE × EPS——PE 維持 15 而 EPS 翻兩倍，股價就翻兩倍；回歸公司獲利，不要被總經雜訊牽動部位。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "公司獲利才是股價最大影響",
+      "notion_id": "400b92588207819a92f8e09ea269b128",
+      "type": "🧠心法"
+    },
+    {
+      "description": "留現金等股災有機會成本（台股 1 萬 2／1 萬 3 就喊歷史高點，結果一路攻上 1 萬 7），不留現金股災來又沒子彈；依自己的風險承受度與現金流決定，剛工作者留 10% 尚可。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "現金配置是下好離手",
+      "notion_id": "400b925882078187b89df159f0d78aad",
+      "type": "🧠心法"
+    },
+    {
+      "description": "兆豐金賺填息價差策略合理（過去 10–20 年都有填息）但只要做價差就不算保守；長期持有 40 型 ETF 才叫保守；壓單一標的要防小機率但毀滅性的風險——那是保險的意義。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "做價差稱不上保守，40 型 ETF 才是",
+      "notion_id": "400b92588207816c813bf7012fc9c78a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "飛機墜毀機率極低我們仍買保險——重壓單一標的（世芯遇制裁掉單跌停）最怕的就是這種小機率但一次毀掉你一世的東西；稍微分散，績效可能意外變好。",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-mindsets-7",
+      "importance": "⭐⭐⭐",
+      "name": "防小機率毀滅事件：不要重壓單一標的",
+      "notion_id": "400b9258820781bab8f0fc1606a3c9f5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主委對該族群明確表態「在台灣是很強勢」「電子股早就活起來了」「現在電子股資金也是很多的」，屬方向性看多判斷；未點名個股部位，保守以族群層級收錄",
+      "eps": [
+        "EP150"
+      ],
+      "first_ep": "EP150",
+      "id": "ep150-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台股電子零組件族群（CCL/被動元件/網通/CIS/車用，未點名個股）",
+      "notion_id": "400b9258820781a79b60c9bfccca0719",
       "type": "🏢公司/標的"
     }
   ]
