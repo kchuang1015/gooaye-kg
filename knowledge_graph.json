@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-21",
+    "lastUpdated": "2026-10-22",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-21",
+    "last_update": "2026-10-22",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP151 分析報告",
+    "source": "EP1-EP152 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1570,
+    "total_entities": 1578,
     "total_relations": 911
   },
   "nodes": [
@@ -38996,6 +38996,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "台股電子股（主要配置，未點名個股）",
       "notion_id": "400b9258820781d485b6fa1c3b3c2784",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "短線消息可以讓股價衝上衝下，長期趨勢仍跟基本面走；看新聞做股票可以賺錢，但要分清楚自己賺的是消息、籌碼還是基本面的錢。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "股價是狗、基本面是主人",
+      "notion_id": "401b9258820781668a83ce53e4443a2f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "朋程的假消息與台郡的訂單新聞都推動了價格；市場不是只有一種方法，知道更多對自己有幫助，但不要假裝自己是在做基本面投資。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "看新聞做股票不是不行，重點是知道自己賺什麼",
+      "notion_id": "401b925882078136a67ce4a134dd9eea",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Howard Marks 的 memo 也說成長股與價值股投資人針鋒相對很奇怪；每個人心中的價值不同，硬把投資人塞進派別小框框沒有意義，混血才是主流。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "價值與動能是混血，不是互斥",
+      "notion_id": "401b92588207812cbdc8db223e6c9228",
+      "type": "🧠心法"
+    },
+    {
+      "description": "懂 0% 是韭菜，懂 100% 會畏手畏腳、太早賣掉；懂 60–70% 的人既能上車、又抱得住，是市場裡最會賺的一群。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "知識的詛咒：懂 60–70% 最會賺",
+      "notion_id": "401b92588207819fab23d445f46ef504",
+      "type": "🧠心法"
+    },
+    {
+      "description": "英業達、Fastly、Cloudflare、Akamai、AT&T 這類長期區間震盪的標的，對沒有耐心的人是折磨；挑自己喜歡、有成長性、股價會動的，耐心型的人再考慮這類配置。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "不會動的股票不要買",
+      "notion_id": "401b9258820781b9b71ddb910530aeab",
+      "type": "🧠心法"
+    },
+    {
+      "description": "10 萬元、2.5 倍融資也不過 25 萬，對市場毫無影響；把紓困貸款拿去炒股的人，多半是進來當流動性被割，真正需要這筆錢的人反而被排擠。",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "不要借錢炒股",
+      "notion_id": "401b9258820781c2aa22c13c8e0c65f2",
+      "type": "🧠心法"
+    },
+    {
+      "code": "8255",
+      "description": "主委以第一人稱自述「因為是我自己的持股」指涉本集兩個台股案例，朋程為其中之一，屬現有部位的直接自述；非買賣建議",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "朋程 (朋程科技)",
+      "notion_id": "401b9258820781ba9260c311b2ed9e38",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "6269",
+      "description": "主委以第一人稱自述「因為是我自己的持股」指涉本集兩個台股案例，台郡為其中之一，屬現有部位的直接自述；非買賣建議",
+      "eps": [
+        "EP152"
+      ],
+      "first_ep": "EP152",
+      "id": "ep152-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台郡 (台郡科技)",
+      "notion_id": "401b925882078181ba04ef03d160c92f",
       "type": "🏢公司/標的"
     }
   ]
