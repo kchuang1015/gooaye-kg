@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-22",
+    "lastUpdated": "2026-10-23",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-22",
+    "last_update": "2026-10-23",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP152 分析報告",
+    "source": "EP1-EP153 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1578,
+    "total_entities": 1585,
     "total_relations": 911
   },
   "nodes": [
@@ -37043,11 +37043,12 @@
     },
     {
       "code": "NFLX",
-      "description": "主委自述「身為Netflix股東」並鼓勵訂閱，明確現有持倉；屬身分自述而非買賣建議",
+      "description": "主委以第一人稱自述「身為Netflix股東」並自述家中使用 Netflix；屬現有部位之直接自述，同時為本集串流平台留客率分析主體；本節目為研究筆記，非買賣建議",
       "eps": [
         "EP131",
         "EP133",
-        "EP150"
+        "EP150",
+        "EP153"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-4",
@@ -39094,6 +39095,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "台郡 (台郡科技)",
       "notion_id": "401b925882078181ba04ef03d160c92f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "大家都知道的題材、法人追蹤緊密的公司，預期早已反映在股價；願意翻年報、跑法說會、研究冷門股的人，賺的是市場還沒發現的資訊差。造市解決的是流動性，不會替你創造這種資訊優勢。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "市場效率不足之處，才是超額報酬的來源",
+      "notion_id": "402b92588207816b8422dfdfc7d79718",
+      "type": "🧠心法"
+    },
+    {
+      "description": "散戶進場的主要原因是股價會漲，而不是公司基本面被說服。三根大紅K之後，連公司做什麼都說不清的買盤也會出現；熱度是結果，不是可以靠造市硬拉出來的原因。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "會漲才是熱度的來源",
+      "notion_id": "402b9258820781e291f9ce77c53cff74",
+      "type": "🧠心法"
+    },
+    {
+      "description": "每一次回檔都不能被掃出場。基金講究 Sharpe／Sortino，是因為回檔太大會讓投資人贖回；使用槓桿的人回檔一次就可能畢業。先控制存活，再談報酬率。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "活下來比賺多少重要",
+      "notion_id": "402b9258820781ae9bc3dc4501e5b067",
+      "type": "🧠心法"
+    },
+    {
+      "description": "先用小資金驗證自己的選股與風控能不能穩定為正，再考慮融資或放大部位；不要一開始就把十萬元當期貨保證金開七、八倍槓桿。錢沒了，後面的調整機會也沒了。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "先求有再求好，績效穩定才加槓桿",
+      "notion_id": "402b92588207814d9c36d4c1d4246caf",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Citadel、Renaissance 這類高頻與量化基金比的是電腦速度、演算法與交易所距離；散戶用手機下單，不可能去吃他們的豆腐。看到造市或高頻活動，不要幻想可以反向套利。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "高頻交易是另一個維度",
+      "notion_id": "402b9258820781e6a56bd0545ee387b8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主動選股是一門專業，不是每個人都適合。若努力一年只贏大盤一點、甚至輸給大盤，指數化投資可以拿到市場平均報酬，還能省下時間去過生活。",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "不適合主動選股就買大盤",
+      "notion_id": "402b9258820781149c7bd45221683c53",
+      "type": "🧠心法"
+    },
+    {
+      "code": "AAPL",
+      "description": "主委自述「我自己本身也是Apple的小股東」，屬現有部位之直接自述（並提及後續換機與 MacBook Pro 使用經驗，語氣正面）；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP153"
+      ],
+      "first_ep": "EP153",
+      "id": "ep153-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Apple (蘋果)",
+      "notion_id": "402b9258820781ccbd50ddd5168236be",
       "type": "🏢公司/標的"
     }
   ]
