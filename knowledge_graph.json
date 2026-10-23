@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-23",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP153 分析報告",
+    "source": "EP1-EP154 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1585,
+    "total_entities": 1592,
     "total_relations": 911
   },
   "nodes": [
@@ -34111,10 +34111,11 @@
     },
     {
       "code": "SQ",
-      "description": "主委在美股群公開分享 SQUARE 的明確買點（約季線與月線 60 MA 條件達成後買進），屬主動研究與設定條件的觀察，未揭露已建立部位",
+      "description": "主委自述美股部位「現在就剩 Netflix 跟 Square 還沒有拉到歷史新高」，屬現有部位之直接自述（未揭露數量、成本或新成交）；本節目為研究筆記，非買賣建議",
       "eps": [
         "EP118",
-        "EP149"
+        "EP149",
+        "EP154"
       ],
       "first_ep": "EP118",
       "id": "ep118-square",
@@ -37043,12 +37044,13 @@
     },
     {
       "code": "NFLX",
-      "description": "主委以第一人稱自述「身為Netflix股東」並自述家中使用 Netflix；屬現有部位之直接自述，同時為本集串流平台留客率分析主體；本節目為研究筆記，非買賣建議",
+      "description": "主委自述美股部位「現在就剩 Netflix 跟 Square 還沒有拉到歷史新高」，屬現有部位之直接自述（未揭露數量、成本或新成交）；本節目為研究筆記，非買賣建議",
       "eps": [
         "EP131",
         "EP133",
         "EP150",
-        "EP153"
+        "EP153",
+        "EP154"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-4",
@@ -39180,6 +39182,92 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Apple (蘋果)",
       "notion_id": "402b9258820781ccbd50ddd5168236be",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "風險控管不是複雜模型，而是兩個問題：這件事超出我的能力嗎？最壞的後果我承擔得起嗎？兩個答案有一個是否，就不要做。",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "風險控管就是不做超出能力與承受範圍的事",
+      "notion_id": "402b9258820781028e92cfe9be6e33ff",
+      "type": "🧠心法"
+    },
+    {
+      "description": "聖母峰的嚮導把下午兩點當成鐵律，因為超過時間回程風險會飆升。投資的交易紀律也是同一件事：先訂好退出條件，時間到了就執行，不跟行情辯論。",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "時間窗口一過，活著下山比攻頂重要",
+      "notion_id": "402b9258820781d7ab69d0937f52f2bb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "人通常要在真的虧損之後才願意建立風控，但市場不會因為你學得晚就少收學費；能提前把規則寫下來的人，等於先付了一次便宜的學費。",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "風險控管多半是受傷後才學會",
+      "notion_id": "402b9258820781f08a9fea006e59ed6b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "將近三分之一的聽眾問題都在問飆股能追到哪裡；主委的答案是真的沒有人知道。把一次搭到飆股當成方法，下一次很可能就把賺的還回去。",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "飆股能漲到哪裡沒有人知道",
+      "notion_id": "402b92588207818da3daf4b8679775a8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "2021 年飆股氛圍裡有人喊台積電上千，追高的人後來大量停損。標的穩不穩健，和你在什麼價位、什麼理由買進，是兩件不同的事。",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "連穩健標的的追高都會停損",
+      "notion_id": "402b9258820781fe8eccccb289e0039f",
+      "type": "🧠心法"
+    },
+    {
+      "code": "TSLA",
+      "description": "主委自述「特斯拉不算，因為特斯拉去年已經幫我賺很多，所以他今年怎麼樣我不在意」，屬現有部位之直接自述（僅表態持有與既有獲利，未揭露數量或成本）；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "特斯拉 (Tesla)",
+      "notion_id": "402b92588207813cb417dbef6cb5a4ac",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "NVDA",
+      "description": "主委自述「即便我自己很信仰的標的，什麼特斯拉、NVIDIA 這種很常提到的」，屬第一人稱明確看多信念表態（未揭露部位大小或成本）；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP154"
+      ],
+      "first_ep": "EP154",
+      "id": "ep154-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "輝達 (NVIDIA)",
+      "notion_id": "402b9258820781f098c7ccebe40f32c0",
       "type": "🏢公司/標的"
     }
   ]
