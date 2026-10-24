@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-23",
+    "lastUpdated": "2026-10-24",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-23",
+    "last_update": "2026-10-24",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP154 分析報告",
+    "source": "EP1-EP155 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1592,
+    "total_entities": 1600,
     "total_relations": 911
   },
   "nodes": [
@@ -37044,13 +37044,14 @@
     },
     {
       "code": "NFLX",
-      "description": "主委自述美股部位「現在就剩 Netflix 跟 Square 還沒有拉到歷史新高」，屬現有部位之直接自述（未揭露數量、成本或新成交）；本節目為研究筆記，非買賣建議",
+      "description": "主委以第一人稱自述持有 Netflix 部位（「我們的Netflix就解套了」、後段「雖然我投資Netflix」），屬現有部位直接自述，未揭露數量或成本；本節目為研究筆記，非買賣建議",
       "eps": [
         "EP131",
         "EP133",
         "EP150",
         "EP153",
-        "EP154"
+        "EP154",
+        "EP155"
       ],
       "first_ep": "EP131",
       "id": "ep131-holding-4",
@@ -39268,6 +39269,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "輝達 (NVIDIA)",
       "notion_id": "402b9258820781f098c7ccebe40f32c0",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "股海裡的基本觀念只有幾條：不做能力不及的事、不亂開槓桿、隨時保持冷靜。槓桿不是讓你賺得更快，而是讓你在看錯時賠得更快；只有當績效長期穩定、你想加速時才值得考慮。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "不要做能力不及的事，也別亂開槓桿",
+      "notion_id": "403b92588207819abf44f5f17cfda7e7",
+      "type": "🧠心法"
+    },
+    {
+      "description": "歐美靠樂觀天性與反脆弱心態快速回到球場與餐廳，台灣則有很強的「道德防疫」約束。投資復甦股要看方向，也要看復甦的速度與持續力；把歐美的斜率直接套到台灣，容易高估受惠程度。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "復甦方向對，但台灣的爆發力會小一號",
+      "notion_id": "403b925882078185bc90e382bf6c2a87",
+      "type": "🧠心法"
+    },
+    {
+      "description": "法說會說台灣有八成人口運動，但把公園甩手也算進去，參考價值很低。健身房滲透率是更硬的指標：紐澳約 15%、南韓 7%、日本與新加坡 6%、中國 3%、台灣 2% 多，某種程度也反映一個國家的生活水平與消費力。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "用健身房滲透率看運動風氣，比問卷可靠",
+      "notion_id": "403b925882078168b781dff00d42f943",
+      "type": "🧠心法"
+    },
+    {
+      "description": "柏文董監事與關係人合計持有約一半股權，代表經營層與股東在同一條船上。投資一家公司時，除了看財報，也要看公司派自己壓了多少；自己不敢壓大股的人，別人凭什么相信你。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "公司派持股多少，是重要的信心指標",
+      "notion_id": "403b9258820781a7ab3af33bb3f62da9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "太空、低軌衛星、火箭這類題材很多都還停在賣夢階段。做出原型相對容易，量產、商用、獲利才是最難的一環；把它想成創投，下檔有限但部位要小，不能把夢想當成基本面。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "本夢比的公司，要壓也只能小部位",
+      "notion_id": "403b9258820781f7a218dec21cb79e5b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "全職投資的意思是把股票當工作、花大量時間盯盤與研究，去追求比指數更高的周轉與報酬。如果你只是拿一大筆錢買 VTI、0050 這類指數工具，那是高歌離席的退休配置，不需要全職，也不該用全職的心態去干擾它。",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "買 VTI 叫退休，不叫全職投資",
+      "notion_id": "403b92588207811a95f7cf48b2383b5a",
+      "type": "🧠心法"
+    },
+    {
+      "code": "AMZN",
+      "description": "主委自述「但其實我投資亞馬遜的目的，跟這個串流是沒有關係啊，我主要是看他的AWS這一塊」，屬現有部位與持有理由之直接自述，未揭露數量或成本；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "亞馬遜 (Amazon)",
+      "notion_id": "403b9258820781bab42eeb5f157470ac",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "8462",
+      "description": "主委明確自述未持有但持續研究（「這支股票是沒有買啊，但是我有研究他」、後段「我也不會買進」），屬主動研究觀察立場而非持有或看多表態；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP155"
+      ],
+      "first_ep": "EP155",
+      "id": "ep155-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "柏文 (健身工廠)",
+      "notion_id": "403b9258820781c7b8cacbb705430822",
       "type": "🏢公司/標的"
     }
   ]
