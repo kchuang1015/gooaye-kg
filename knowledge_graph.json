@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-24",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP155 分析報告",
+    "source": "EP1-EP156 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1600,
+    "total_entities": 1607,
     "total_relations": 911
   },
   "nodes": [
@@ -39367,6 +39367,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "柏文 (健身工廠)",
       "notion_id": "403b9258820781c7b8cacbb705430822",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "投資的三個元素是本金、報酬率與時間，沒有本金就沒有選擇，連賭桌都上不了。這個時代的訂閱制、串流與課金都是「被動支出」，會在不知不覺中把剛起步的本金燒光；先用 Excel 或筆記本盤點每月訂閱與理由，汰弱留強，比研究飆股更優先。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "先有本金，才談投資",
+      "notion_id": "403b9258820781f8a6d7dc035f6eedb2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用長期持有或懂基本面來二分投資與投機都不準：抱著聽來的股票長期不放、不知道公司在做什麼，仍是投機；程式交易或軋空有明確的市場邏輯與期望值，也可以是投資。分野在於是否知道自己在幹嘛，以及期望值是否站得住腳。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "知道自己在幹嘛，就是投資",
+      "notion_id": "403b9258820781bfab1eed06f8c0c7eb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "手上只有幾百萬部位時，減碼就是最有效的避險，不必學華爾街電影去對沖。大多數人自己做對沖，最後多空雙巴、兩邊受傷；對沖是給不能賣股的大股東或真有短期風險的人用的，而且避險本來就有成本，像付保費買保險。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "散戶最好的避險就是減碼",
+      "notion_id": "403b925882078124a053cfc9b4fa13a5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "股票期貨以 600 乘以 270 算出的 16.2 萬元只是最低保證金，等於 7.4 倍槓桿；台積電只要震盪一下、維持率跌破，部位就被斷頭。把保證金加到 32.4 萬元，槓桿降到 3.7 倍；再往上加，槓桿更小。就算看對長期方向，過程中的一次下殺也可能讓你本金歸零。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "保證金放夠，才不會被震盪洗出場",
+      "notion_id": "403b92588207815d8647e94df9e3d052",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買進 call 或 put 的最大損失就是已付的權利金，下檔有限；賣方（尤其裸賣 call）卻可能在一次歷史行情裡承擔無限虧損，把過去二、三十年收的小錢一次吐回去。covered call 雖然有現股掩護，仍是賺小錢、放掉大漲的策略，風報比未必好。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "選擇權買方下檔有限，賣方風險無限",
+      "notion_id": "403b92588207817a906de062c0d981b4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "波動愈大，權利金愈貴；GME、AMC 噴到天上的時候，不管買 call 還是買 put，成本都高到很難賺回來。買方即使下檔有限，也不該在熱度最高時用一、兩成資金重壓；連續歸零照樣會重傷，履約價與權利金是一門要好好研究的學問。",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "市場最熱的時候，選擇權最貴",
+      "notion_id": "403b92588207817cb740ccf675893ffd",
+      "type": "🧠心法"
+    },
+    {
+      "code": "FUTU",
+      "description": "主委回答富途遭錯殺提問時明確表態「我非常看好他」，並以富途牛牛是他心目中最強的美股看盤 APP 佐證基本面；惟主委明言未開戶下單、僅用於看盤，且點出海外擴張困難與富途／Robinhood 競爭未定；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP156"
+      ],
+      "first_ep": "EP156",
+      "id": "ep156-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富途控股 (Futu Holdings)",
+      "notion_id": "403b9258820781be9bd0d1bd3f814a36",
       "type": "🏢公司/標的"
     }
   ]
