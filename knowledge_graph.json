@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-24",
+    "lastUpdated": "2026-10-25",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-24",
+    "last_update": "2026-10-25",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP157 分析報告",
+    "source": "EP1-EP158 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1614,
+    "total_entities": 1624,
     "total_relations": 911
   },
   "nodes": [
@@ -39538,6 +39538,130 @@
       "importance": "⭐⭐⭐⭐",
       "name": "力積電 (Powerchip Semiconductor Manufacturing)",
       "notion_id": "403b9258820781a98292f5db59ddd3d5",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "台積電這種大長多的公司，短線變化有太多無法解釋的事：可能只是某個大資金覺得法說會資料不夠好就砍部位。若你看的是三年、五年的長線成長，buy and hold 應該遠好於做短線；不要因為一天的跌幅或一份報告，就把長線部位當成短線交易。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "長線標的用 buy and hold，短線熱鬧與你無關",
+      "notion_id": "404b9258820781a090ccf0cccccc65f4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買進之後就不要再想過往成本，要看的是這個東西未來會不會賺錢；不會就砍掉，不要因為套在 30 塊就一直等回 30 塊。這個股市訓練也可以套回生活：不要因為在一起八年、或對方以前對你多好，就繼續留在一個不會變好的關係裡。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "沉沒成本不該綁架決策——感情與持股都一樣",
+      "notion_id": "404b9258820781d79061d7341b6c73d5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "很多人挑伴侶只看學歷、頭銜、年薪，卻沒看人品，後來被搞就很正常。人品看三件事就夠：怎麼對待動物、怎麼對待弱勢、怎麼對待服務生。面對社會地位比你低、或無法反擊的對象時，傲慢藏不住；這三個觀察也可以用在找合作對象、投資對象與交朋友。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "識人三件事：動物、弱勢、服務生",
+      "notion_id": "404b9258820781549c9eebfeab9501a8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場喜歡用毛利率做文章，但台積電的毛利變動有清楚原因：先進製程成本還沒改善、折舊增加、撥產能做車用晶片、台幣升值與避險成本。這些都在公司預期範圍內，他寧願相信公司說法，而不是外面新聞；只有小公司才需要特別在意外面怎麼講。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "毛利新聞多是雜訊，信公司預期而非標題",
+      "notion_id": "404b9258820781ed8a6cc1187b612868",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Apple 本身很適合 buy and hold，但台灣的蘋果供應鏈不行：明年蘋果可能改設計，單子就沒了。做台股供應鏈要拼消息比別人快、判斷力比別人好，還要參考市場情緒、法人買賣；這種公司可能因為接到新單而在短時間內營收大爆發，但也可能在失去單子後快速回落。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "台灣供應鏈不能照搬 buy and hold",
+      "notion_id": "404b92588207818db042c760d83155bb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "面板報價從年初快速上漲到後來拉平，股價就跟著不動，因為市場已經先反應了；通路與採購通常最早看到拉貨趨緩，之後才往上游傳導。看新聞做股票不是不行，但不能只看「報價上漲」的標題，要看報價斜率、拉貨變化與股價位階，否則很容易上到已經反映完的車。",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "報價與股價會先反應，別追已反映的題材",
+      "notion_id": "404b9258820781748864c2d886b63a3b",
+      "type": "🧠心法"
+    },
+    {
+      "code": "2330",
+      "description": "主委明確表示台積電屬於長線標的，「用 buy and hold 策略應該是會遠好於做短線」，並認為法說會數字符合財測、後續動能強勁，屬 explicit_bullish_stance；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台積電 (TSMC)",
+      "notion_id": "404b92588207813b9bb0fe10e0d13fad",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "AAPL",
+      "description": "主委明確表示蘋果新一代產品與先進製程需求「還是持續的看多」，並稱 Apple 是 buy and hold 策略最好的東西，屬 explicit_bullish_stance；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "蘋果 (Apple)",
+      "notion_id": "404b925882078111a911fc841550cf97",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "OTLY",
+      "description": "主委在回應聽眾提問時明確表示「我對這家公司，我覺得還是看好啦」，理由是產品差異與基本面強勁，屬 explicit_bullish_stance；未揭露自身部位，且公司正面臨做空機構指控；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Oatly",
+      "notion_id": "404b92588207818a99b4f68e4d9faeea",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "6271",
+      "description": "主委點名電動車供應鏈中「比較有機會表現的是」同欣電，理由是併購勝麗後車用 CIS 封測純度較高，屬 explicit_bullish_stance；同時提醒股價已上漲、是否追高需自行判斷，未揭露部位；本節目為研究筆記，非買賣建議",
+      "eps": [
+        "EP158"
+      ],
+      "first_ep": "EP158",
+      "id": "ep158-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "同欣電",
+      "notion_id": "404b9258820781c7bcaef9df86970593",
       "type": "🏢公司/標的"
     }
   ]
