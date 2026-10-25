@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-25",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP159 分析報告",
+    "source": "EP1-EP160 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1630,
+    "total_entities": 1638,
     "total_relations": 911
   },
   "nodes": [
@@ -26246,7 +26246,7 @@
     },
     {
       "code": "NVDA",
-      "description": "「我自己的愛股」＋「還好有這個Facebook跟NVIDIA等,這些持股的carry」（anchor: 這些持股的carry）— 明示現有持股（不確定邊界：部位規模未揭露）",
+      "description": "主委明確表示 NVIDIA 業務中電玩需求持續成長，且最大看點在 Data Center 與自駕車，「這兩塊應該是會是很強大的動能」，屬 explicit bullish stance → 做多；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議。",
       "eps": [
         "EP67",
         "EP68",
@@ -26255,7 +26255,8 @@
         "EP76",
         "EP122",
         "EP144",
-        "EP146"
+        "EP146",
+        "EP160"
       ],
       "first_ep": "EP67",
       "id": "ep67-nvidia",
@@ -39735,6 +39736,104 @@
       "name": "碳中和是大趨勢，短線題材要看純度",
       "notion_id": "404b925882078181a4a8ccfd6503f5cf",
       "type": "🧠心法"
+    },
+    {
+      "description": "中國企業就算內在價值浮現、股價比帳面價值便宜，買之前還是要考慮「黨的下限在哪」。在其他資本世界，要求企業解散聽起來瘋狂；在中國，這不是不可能。政策可以直接改變經營權與上市地位，評價便宜不等於安全，抄底前要先想清楚這個下檔風險。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "中國抄底前，先想清楚人質社會的下限",
+      "notion_id": "404b9258820781d18bb9e293f7d561d6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看到盤中一大堆買盤在接，很容易一廂情願想成價值浮現、長期資金進場。但那個買盤很高機率只是高點放空下來的人在回補：賣了又回補、回補後再放空，是空單在拉扯。不知道背後的力量是誰，就不要把成交量當成看好。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "盤中買盤未必是價值買盤",
+      "notion_id": "404b925882078186b93be0ec6cd9dc36",
+      "type": "🧠心法"
+    },
+    {
+      "description": "與其被亂丟一堆根本不會看的廣告，不如讓平台追蹤、換取生活效率；除非平台像 YouTube Premium 一樣可以付費去廣告。只要用本名帳號玩 Facebook、Twitter，某種程度就已經放棄隱私。這是個人取捨，沒有標準答案，但要先想清楚自己拿什麼換什麼。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "隱私權是交換題：我願意被追蹤",
+      "notion_id": "404b92588207817ba509f9559f5d2bfa",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用 NVIDIA GFN 接一般網路玩 Cyberpunk 2077，畫質與流暢度就已經很好；未來電腦的顯卡與硬碟可能都不重要，只要一個螢幕、一個 controller 和夠快的網路，運算都在雲端。付費模式也會從買斷走向訂閱，這是值得長期追蹤的趨勢。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "雲端遊戲：未來只要平板加手把",
+      "notion_id": "404b9258820781aa93d3c488ee95575f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "存在即合理，別人能爬上來一定有理由。如果一定要捧一個、殺一個，在市場裡會錯過很多機會：東西跌得夠便宜時，往往可以在垃圾堆裡找到寶物。Michael Burry 就是這樣被 Joel Greenblatt 發掘，後來才有 Scion 基金。把情緒分開，先看東西本身。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "不要踩一捧一：捧 A 殺 B 會讓你錯過機會",
+      "notion_id": "404b9258820781cba1baedbcf42ccc80",
+      "type": "🧠心法"
+    },
+    {
+      "description": "外資從去年一路賣超台股，以前這種大提款會股匯雙殺，但今年外資狂賣、指數卻撐著，因為市場組成變了——散戶占比可能六成以上，成為主要資金。不要歧視少年股神，有些散戶其實是中實戶、大戶，資訊能力不一定輸法人；先看清籌碼結構，再談方向。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "外資賣超卻殺不下去：台股結構變了",
+      "notion_id": "404b92588207812cb18ce63ed469549b",
+      "type": "🧠心法"
+    },
+    {
+      "code": "TWTR",
+      "description": "主委明確表示 Twitter「倒是可以注意一下」，並在討論 Spaces／tip jar／superfollows 等新獲利管道後表示可能追蹤，屬 explicit active watch/research stance → 觀望；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Twitter",
+      "notion_id": "404b92588207810eab2bdef44e3da56e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "TTD",
+      "description": "主委在討論隱私權變化對廣告科技股的影響時明確表示對 The Trade Desk「還在持續的觀察」，屬 explicit active watch/research stance → 觀望；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP160"
+      ],
+      "first_ep": "EP160",
+      "id": "ep160-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "The Trade Desk",
+      "notion_id": "404b92588207817f9261d45104cf58b4",
+      "type": "🏢公司/標的"
     }
   ]
 }
