@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-27",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP162 分析報告",
+    "source": "EP1-EP163 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1655,
+    "total_entities": 1665,
     "total_relations": 911
   },
   "nodes": [
@@ -40043,6 +40043,130 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Robinhood",
       "notion_id": "406b9258820781aabee7dce4df981b81",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "營收年增 143%、排除比特幣的淨營收年增 87%，數字漂亮只證明過去一季很狂；真正要判斷的是，這家公司在自己的策略規劃之下，長期能不能持續擴張、能不能維持在軌道之上。質化分析非常看人：同一個產業，有人覺得可行，有人覺得完全是騙人，就像夾娃娃機對房東與對路人是兩套帳。所以質化沒有標準答案，只能自己形成判斷，再用時間驗證。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "量化看成長，質化看能不能長期擴張",
+      "notion_id": "406b925882078101adc7d02e7feb6266",
+      "type": "🧠心法"
+    },
+    {
+      "description": "美股以品牌為主、產業結構和台股不同，看太短很容易打臉自己：你用盤前下跌編了一個故事，隔天漲 10%，那個理由就變成搞笑。若因為這樣做巨幅調整，更奇怪。比較好的做法是把時間拉長，用產業與公司策略判斷，而不是讓單日新聞決定部位。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "看太短，理由隔天就被打臉",
+      "notion_id": "406b9258820781de84b8e89505d602f1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "BNPL 本質是第三方媒合，入門門檻不高，所以全球如雨後春筍。但它有黏著度：商戶導入、消費者習慣之後會一直用，直到別家提出更好的費率。技術不難、取代卻不容易，於是競賽的重點不是專利，而是誰能更快搶下市占與商戶覆蓋——Square 用併購換速度，就是這個邏輯。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "護城河不深，市占一旦拿下卻不好搶",
+      "notion_id": "406b9258820781c4a88ffa00d1f0dac9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "兩年後要付的頭期款，如果現在丟進指數型 ETF，遇上回檔又非賣不可，就是被迫殺在低點；就算心臟扛得住波動，強制贖回的壓力才是真正的風險。閒錢投資的兩個好處，是不容易因為波動受影響，也沒有非賣不可的時間表。被動指數投資若沒有主動選股能力，就只能把期限拉長。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "要用到的錢不要進股市",
+      "notion_id": "406b9258820781e6a7f4e1e326529ef4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "有可能讓你一次畢業的操作，即便機率再小，只要長期反覆做，終究會遇到——這就是墨菲定律。風控的意義不是提高勝率，而是接受有些錢該賠、不可能每筆都賺。靠拗單、攤平把勝率造假，就像每次去拉老虎機都僥倖賺到，最後一定把錢賠回去。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "會讓你一次畢業的操作，長期一定遇到",
+      "notion_id": "406b92588207812fbfb7e07b5de75fce",
+      "type": "🧠心法"
+    },
+    {
+      "description": "價值投資人覺得夠便宜就買，這沒有問題；但一定要先設定部位上限。若相信重壓，四成、五成也可以，到了那個部位就要停，不能因為「還有更便宜」一路加到六成、七成、八成。過程裡一定會聽到藝高人膽大、真的發了的故事，但那是極少數——變成棺材裡的人不會說話，倖存者偏差不是方法。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "接刀可以，部位上限要先寫好",
+      "notion_id": "406b925882078178a4a1fbc8e30891dd",
+      "type": "🧠心法"
+    },
+    {
+      "code": "SQ",
+      "description": "主委自述「我投資SQUARE很大的原因之一，就是看好這種Fintech的成長」，明確表示持有並看好 Square 在 BNPL／Fintech 的長期佈局，屬 explicit current long → 做多；未揭露成本、數量或佔比；併購 Afterpay 造成股份稀釋、BNPL 護城河不深仍是風險；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Square（Block）",
+      "notion_id": "406b9258820781da9b7fecf6360db7b3",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "AFRM",
+      "description": "主委自述「沒錯我就是苦主，因為我買了一點點」，在 Affirm IPO 後回檔時小額買進並持有，屬 explicit current long → 做多；未揭露成本、數量或佔比；IPO 波動大、BNPL 競爭與估值風險仍高；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Affirm",
+      "notion_id": "406b9258820781f4aa07c6f8703e5237",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2308.TW",
+      "description": "主委回答聽眾台達電展望時明確表示「我對他展望我是看好的」，並稱其為隱形冠軍、公司體質「無庸置疑」，屬 explicit bullish stance → 做多；同時提醒股價受全球寬鬆狀態影響、未必續漲；未揭露自身部位、成本或數量；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台達電（Delta Electronics）",
+      "notion_id": "406b9258820781d6931ee0615d89388b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "5871.TW",
+      "description": "主委在談 BNPL 台灣落地時稱「我覺得中租是一門很強大很好的生意」，並長期多次介紹其利基放貸模式與股價相對強勢，屬 explicit bullish stance → 做多；未揭露自身部位、成本或數量，亦未給出價位或時間框架；利差與信用週期仍是風險；本節目為研究筆記，非買賣建議。",
+      "eps": [
+        "EP163"
+      ],
+      "first_ep": "EP163",
+      "id": "ep163-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中租-KY（Chailease）",
+      "notion_id": "406b9258820781939782c8143346c724",
       "type": "🏢公司/標的"
     }
   ]
