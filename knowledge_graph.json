@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-27",
+    "lastUpdated": "2026-10-28",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-27",
+    "last_update": "2026-10-28",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP164 分析報告",
+    "source": "EP1-EP165 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1672,
+    "total_entities": 1680,
     "total_relations": 911
   },
   "nodes": [
@@ -38482,9 +38482,10 @@
     },
     {
       "code": "AMZN",
-      "description": "「基於這樣的信念,就持續的布局亞馬遜」明示持續買進（不確定邊界：估值判斷屬個人觀點（四五千以上），時間表未定）",
+      "description": "主委以亞馬遜為估值範例時明確表態「亞馬遜一定會到五六千以上」，屬 explicit bullish stance → 做多；同時自述長期持有者心態，但未揭露成本、張數、比重、持有期限，範例中的目標價屬情境假設；估值方法、動能交易者的震盪成本、雲端競爭（AWS 被取代的低機率尾端風險）都在本集被反覆強調；本節目為研究筆記，不是跟單建議。",
       "eps": [
-        "EP146"
+        "EP146",
+        "EP165"
       ],
       "first_ep": "EP146",
       "id": "ep146-holding-4",
@@ -40252,6 +40253,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "朋程科技",
       "notion_id": "406b925882078195bb27ca2bde4c8d5c",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "如果真有人能每次都估對、市場又一定反映，他早就變首富。看外資報告只看目標價是散戶心態；同一個 EPS 模型，四位分析師可以因為前瞻性與景氣循環判斷不同，給出天差地遠的本益比。估值是判斷，不是答案。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "估值沒有標準答案，目標價只是別人的判斷",
+      "notion_id": "407b925882078106be4bc7f4b367f085",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看人的第一眼就在打分數：頭髮油、T 恤荷葉邊、鞋底發黑都扣分，孝順體貼加分。理科太太用 Excel 量化追求者，只是把同一套隱藏評分寫出來。股票市場可以量化，因為價格、成長率與預期都能變成數字。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "日常生活就在估值，股票只是把它數據化",
+      "notion_id": "407b92588207811f84d9c445f30dc468",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Yahoo Finance 用 47 位分析師的平均算出亞馬遜 EPS：當年 50 幾美元、次年 70 美元。共識可以幫你省下建模時間，但目標價仍會因本益比假設而相差數千美元；它是輸入，不是買賣訊號。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "分析師共識是加速器，不是方向盤",
+      "notion_id": "407b92588207814f81b4ec05f0541730",
+      "type": "🧠心法"
+    },
+    {
+      "description": "強勢、半強勢、弱勢效率市場描述資訊反映的速度；某種程度相信資訊會先進價格，就不能把「財報很好」直接當成「明天會漲」。股價往往走在基本面之前，缺貨漲價的利多消失時也會提前反應。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "效率市場有三種形式，別假設自己比市場早知道",
+      "notion_id": "407b925882078121932bd043efedfe5b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "疫情讓採購被釘在牆上，買貴四十倍還是得買，部分電子零組件毛利因此衝高。但電子股也有景氣循環，擴廠與供給開出來後，現在的高毛利可能已是最後高點；看到毛利創新高就外推下一季更好，很容易看錯。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "超漂亮毛利可能是曇花一現，先問是不是缺貨漲價",
+      "notion_id": "407b92588207818db4a1c0a9453b8fd6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Yahoo Finance 的 Analyst 頁面統整平均評等、EPS、CAGR、營收與獲利預期，等於讓分析師幫你算。你的工作不是重算每一檔，而是當老闆做決定：要不要買、多少錢買；工具是槓桿，判斷仍要自己負責。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "把計算外包，判斷留給自己",
+      "notion_id": "407b9258820781f48934d92b6475f322",
+      "type": "🧠心法"
+    },
+    {
+      "code": "NVDA",
+      "description": "主委談中國電動車供應鏈時明確表示「因為這樣子NVIDIA也讓我更加看好」，屬 explicit bullish stance → 做多；理由為 NIO 採用 NVIDIA Orin 平台、中國電動車滲透率拉升對供應鏈有幫助；未揭露部位、成本、比重或期限；車用晶片競爭、單一客戶集中度與評價風險仍在；本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "輝達",
+      "notion_id": "407b9258820781bb94d6cd2a10ee4bd0",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "300750",
+      "description": "主委明確表示「如果今天真的要叫我去買中國公司，我會買一家公司叫寧德時代」，屬 explicit watchlist/research stance → 觀望；理由為電池技術、特斯拉供應鏈地位與中國電動車滲透率；明說不買中國品牌而選供應鏈，但未揭露任何現有部位、成本、比重或期限；供應鏈競爭、補貼政策與評價風險仍在；本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP165"
+      ],
+      "first_ep": "EP165",
+      "id": "ep165-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "寧德時代",
+      "notion_id": "407b92588207817ba93cd5c077f67152",
       "type": "🏢公司/標的"
     }
   ]
