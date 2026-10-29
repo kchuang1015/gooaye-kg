@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-28",
+    "lastUpdated": "2026-10-29",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-28",
+    "last_update": "2026-10-29",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP166 分析報告",
+    "source": "EP1-EP167 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1687,
+    "total_entities": 1694,
     "total_relations": 911
   },
   "nodes": [
@@ -40439,6 +40439,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "先鋒總體市場ETF",
       "notion_id": "407b9258820781898f7ccf41b90de706",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "獲利回吐與新部位賠錢都不好受，但對手上還有現金的人，快速深跌比慢慢盤跌好得多。老手最怕的不是下跌，而是市場上什麼都貴、買不下手；殺得越深越快，反而帶來更多機會。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "大跌時，老手先想到的是東西變便宜了",
+      "notion_id": "408b9258820781fcb883fa19e80e80ab",
+      "type": "🧠心法"
+    },
+    {
+      "description": "VIX 追蹤標普500 選擇權的波動率，選擇權價格變高代表避險需求與不確定性增加。它通常在大跌時才明顯表態，平緩時持續下跌；看 VXX、UVXY 的長期走勢就知道，方向和直覺相反。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "VIX 是恐慌指數，追蹤的是選擇權價格",
+      "notion_id": "408b9258820781499444eb64200ef908",
+      "type": "🧠心法"
+    },
+    {
+      "description": "VIX 期貨多數時間處於正價差，轉倉時要不斷付出展期成本，長期持有九成五到九成九會輸錢。要玩只能短線、部位只能佔 portfolio 的個位數，彈上去就要離場，不能當成長期配置。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "正價差讓長抱 VIX 幾乎注定虧錢",
+      "notion_id": "408b9258820781878d01d6831c5a339e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看到一根下影線就說大盤收腳、W 底，是沒有根據的；有時候收腳收十一隻，越收越低，像蜈蚣一樣。不要因此 all in，先等停止創新低兩到三天，保守一點等回到季線之上，並把分批計畫寫下來。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "下影線不是底部，收腳可以收十一隻",
+      "notion_id": "408b92588207819a9f45fdcd32381560",
+      "type": "🧠心法"
+    },
+    {
+      "description": "想知道老闆講話能不能信，直接把名字拿去 Google，看他五年前的新聞與後來的營收有沒有兌現。如果老闆過往紀錄誠實，跟賣方研究員的看法衝突時，寧可聽老闆的；報喜不報憂才是常態。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "驗證老闆，比聽賣方報告更重要",
+      "notion_id": "408b9258820781e59b08dff3b3f906ed",
+      "type": "🧠心法"
+    },
+    {
+      "description": "五倍槓桿意味著個股只要跌一成，你的資產就被斷頭洗出場。主持人自己的 eToro 小帳號壓NVIDIA、SQUARE、TESLA，最後全部斷頭，再開五倍又斷一次；如果慢慢來，看對的標的還是能達到同樣目標。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "五倍槓桿下，個股跌一成資產就被洗掉",
+      "notion_id": "408b9258820781f59de1fafc72270b03",
+      "type": "🧠心法"
+    },
+    {
+      "code": "MU",
+      "description": "主持人明確表態：以美光電話會議內容而言「我個人覺得公司是看多的」，屬明示看多立場（非僅轉述公司說法）。",
+      "eps": [
+        "EP167"
+      ],
+      "first_ep": "EP167",
+      "id": "ep167-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "美光科技",
+      "notion_id": "408b9258820781908cedd80eb3eeffe2",
       "type": "🏢公司/標的"
     }
   ]
