@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-29",
+    "lastUpdated": "2026-10-30",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-29",
+    "last_update": "2026-10-30",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP170 分析報告",
+    "source": "EP1-EP171 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1717,
+    "total_entities": 1727,
     "total_relations": 911
   },
   "nodes": [
@@ -29730,16 +29730,17 @@
     },
     {
       "category": "🧭 投資哲學",
-      "description": "選擇一項配置而放棄其他可行選項所承受的相對代價。",
+      "description": "報過一座山不代表要等它回到前一座山；投資就是看機會成本，先問自己還看不看好、買進的理由還在不在。理由消失就換到更好的用途，不要被沉沒成本綁住。",
       "eps": [
-        "EP89"
+        "EP89",
+        "EP171"
       ],
       "first_ep": "EP89",
       "id": "ep89-opportunity-cost",
-      "importance": "⭐⭐⭐⭐",
+      "importance": "⭐⭐⭐",
       "name": "機會成本",
       "notion_id": "3bab92588207816eacfcf481a3452972",
-      "type": "💡概念"
+      "type": "🧠心法"
     },
     {
       "category": "📈 投資策略",
@@ -40809,6 +40810,131 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Teladoc Health",
       "notion_id": "408b9258820781a7890ac183289ea0a0",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "生小孩、戒菸戒酒都是在生活裡加入新東西，新東西一定會排擠舊東西；被排擠掉的往往是原本可以爽的部分，所以人才覺得被剝奪。值不值得交換看個人，不必情緒勒索別人。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "生活是新東西排擠舊東西",
+      "notion_id": "409b92588207818aafe4db319505f72e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Bernard Arnault 每次股市大跌都敢進場收購，所以「波動是你的朋友」是真的；前提是資金要調配好，不要亂接槓桿被斷頭。看到別人恐慌時敢買，才有機會買到便宜。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "波動是你的朋友",
+      "notion_id": "409b9258820781949945e24e28d673c5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "第一層思考是漲價直接受惠，這麼顯而易見的東西報酬通常不會最好；第二層思考去看IP 與 IC 設計的反應，但也要小心聰明反被聰明誤，以為看到寶石卻只是自作多情。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "第二層思考",
+      "notion_id": "409b9258820781a9833fd49ce223507d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "因為什麼理由進場，就盡量因為那個理由出場；技術面進場、套牢後改口變價值投資，就是暈船。除非突發狀況讓理由改變，否則不要做沒有因果關係的進出。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "理由進場，理由出場",
+      "notion_id": "409b9258820781fb8946c7cda41a86bc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "過程中有人想買、有人想賣，交戰的過程產生量，可是價格才是最後的共識；量縮一直漲、量縮一直跌的例子都很多，所以他相信價格，不太在意量。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "價格才是共識，量不重要",
+      "notion_id": "409b9258820781dd8eacc0426d27606f",
+      "type": "🧠心法"
+    },
+    {
+      "code": "MC",
+      "description": "主持人以「可能就是一個不錯的機會」明確表態奢侈品集團在中國共同富裕打擊下的回檔是機會，並以 2014 年打奢後回頭看是低點作類比；未揭露部位、成本或比重。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "LVMH",
+      "notion_id": "409b92588207810e9efeee7ab7d49584",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "KER.PA",
+      "description": "主持人把 LVMH、Kering、歷峰並列為直接受中國打擊的三大集團，並判斷回檔「可能就是一個不錯的機會」；財報復甦強勁是他看多的依據，未揭露部位、成本或比重。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Kering",
+      "notion_id": "409b9258820781a9ac30e8b8db4090e7",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "CFR.SW",
+      "description": "主持人明確把歷峰列入受中國打擊的三大精品集團，並以 2014 年打奢後的低點類比，認為續殺後回頭看可能是機會；未揭露部位、成本或比重。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "歷峰集團（Richemont）",
+      "notion_id": "409b9258820781b9b07af45da7705f40",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2327",
+      "description": "主持人對馬來西亞停產帶來的加分持「會加分，但是有限」的拉扯看法，並明言要用短期股價驗證自己的想法，屬帶追蹤的平衡立場；未揭露部位、成本或比重。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "國巨",
+      "notion_id": "409b925882078180967bea717153d11f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "2492",
+      "description": "與國巨同列台灣被動元件受惠名單，但主持人明確說加分有限、股價已先跌，並要以短期股價驗證，屬帶追蹤的平衡立場；未揭露部位、成本或比重。",
+      "eps": [
+        "EP171"
+      ],
+      "first_ep": "EP171",
+      "id": "ep171-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "華新科",
+      "notion_id": "409b925882078181a78bd111b888e028",
       "type": "🏢公司/標的"
     }
   ]
