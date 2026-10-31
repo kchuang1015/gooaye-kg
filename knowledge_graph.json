@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-31",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP174 分析報告",
+    "source": "EP1-EP175 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1752,
+    "total_entities": 1759,
     "total_relations": 911
   },
   "nodes": [
@@ -41252,6 +41252,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "緯穎",
       "notion_id": "40ab92588207814cba84e0d96fbda784",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "iPhone 把密碼、信用卡、銀行與券商帳密綁進 Face ID，換機不是換一支手機，而是搬遷整個生活；這種轉換成本讓使用者對價格較不敏感，也讓品牌黏著度變成護城河的一部分。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "生態系讓換機成本高到離不開",
+      "notion_id": "40ab9258820781b0a1b6e46f377a868e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "只看當年度營收與獲利買進供應鏈，隔年蘋果改設計就讓成長曇花一現。玩供應鏈需要消息、需要看股價趨勢，也要承認產品週期可能只有一年。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "營收漂亮也可能是價值陷阱",
+      "notion_id": "40ab925882078183ab71d61e61d67ef5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "基本面之外，股價趨勢反映市場願不願意給這個故事評價；發表會後股價仍不動，就是市場在說熱度可能已經轉移，死守之前要先尊重這個訊號。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "股價是市場投票的結果",
+      "notion_id": "40ab9258820781eb9180c1ced82f79fe",
+      "type": "🧠心法"
+    },
+    {
+      "description": "同樣的獲利預估，市場願意給的本益比可能從 15 倍降到 10 倍；資金跑去其他產業時，股價就不動。判斷重點不只是公司好不好，還有市場現在願意付多少倍。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "評價收縮時死守未必划算",
+      "notion_id": "40ab9258820781c7bb41c68143a240df",
+      "type": "🧠心法"
+    },
+    {
+      "description": "ETF 可以 buy and hold 與分批投入，但供應鏈、短期題材與電動車題材需要不同的進出節奏；策略要跟著標的與週期調整，不能把長期投資的方法套在一次性題材上。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "沒有一招打天下",
+      "notion_id": "40ab9258820781a8aa55d9214f079890",
+      "type": "🧠心法"
+    },
+    {
+      "description": "策略不適合現在的盤，不代表人不行，可能只是生不逢時；知道自己可以換策略、可以選擇被動投資，壓力就不會把人逼到只能凹單。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "知道自己有選擇，心態才穩",
+      "notion_id": "40ab9258820781da8b8cf5a8ce3ffcf3",
+      "type": "🧠心法"
+    },
+    {
+      "code": "3105.TW",
+      "description": "主持人明確表示 2022 年之後「可以注意穩懋這一家」、今年底開始可以稍微去看它，屬明確的觀察／研究立場，未表明已建立部位。",
+      "eps": [
+        "EP175"
+      ],
+      "first_ep": "EP175",
+      "id": "ep175-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "穩懋",
+      "notion_id": "40ab9258820781a2a549e0a5c2e18f7b",
       "type": "🏢公司/標的"
     }
   ]
