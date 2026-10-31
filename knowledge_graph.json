@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-31",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP176 分析報告",
+    "source": "EP1-EP177 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1770,
+    "total_entities": 1777,
     "total_relations": 911
   },
   "nodes": [
@@ -41465,15 +41465,101 @@
       "type": "🏢公司/標的"
     },
     {
-      "description": "主持人對 Gogoro 在美上市抱持期待，但同段明確說簡報成長數據「看起來怪怪的」、「我自己還會再了解」，屬正反並陳且主動追蹤的研究立場，未表明部位。",
+      "description": "主持人自述把 Gogoro 當作「買氣氛」的小額收藏型部位，明確表示占資金很小一部分、不在正式資產配置內，屬明確當前小額做多。",
       "eps": [
-        "EP176"
+        "EP176",
+        "EP177"
       ],
       "first_ep": "EP176",
       "id": "ep176-holding-6",
       "importance": "⭐⭐⭐⭐",
       "name": "Gogoro",
       "notion_id": "40ab9258820781d1a72ed6537edb308b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "交易人重視每次買進的成本與價格，以及價格有沒有照自己的想法走；投資人則先算內在價值，再用安全邊際決定買點，跌得越深反而買得越多。把兩套邏輯混在一起，就會在該停損時談價值、在該加碼時怕被套。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "交易與投資是兩個不同的範疇",
+      "notion_id": "40ab9258820781559662d5ca0450640b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "多數人把市場簡化成 all-in 或 all-out，只有 0 與 1；真正能控制風險的做法是把部位看成 0 到 100% 的連續帶狀，先打底注，方向確定了再分批加碼，看錯了也有子彈可以調整。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "部位是 0 到 100% 的帶狀調整，不是 0 與 1",
+      "notion_id": "40ab925882078124a7b2d76e0d9f8272",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場下跌時，大家會拿恆大、Delta 或聯準會當理由，法人也會互相打聽；但找到理由之後，還是要決定加碼、減碼或蓋牌。理由找得再對，沒有對應的動作，對績效就沒有幫助。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "找理由本身沒有問題，重點是接下來要做什麼",
+      "notion_id": "40ab9258820781c2b4b3e1f85d10b4fc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用 Forward（未來）而不是過去的獲利來估，才不會把成長股估成天文數字或負值；成長股適合用 PS 而不是 PE，再搭配歷史河流圖與同業比較。方法可以學，最後還是要承擔選股眼光的勝敗。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "成長股要用未來的數據估值",
+      "notion_id": "40ab9258820781b78361fad1f3eeb95c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場會提前反應，所以多數資訊已經反映在價格裡；但它不是完全有效率，否則沒有人能賺到 alpha。聯準會縮表不必然讓股市下跌，長線還是回歸個股成長，重點是找出市場還沒完全反映的地方。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "市場有效率但不完全有效率，超額報酬來自落差",
+      "notion_id": "40ab92588207817da6d3c25c02e63ffd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "連主持人到現在都會犯錯，重點是讓錯誤不要變成致命傷：不借錢上牌桌、不 all-in、做好資金控管，就算看錯也還能留在場上。從別人的經驗裡撈到幾個能讓自己少踩一次的教訓，就已經很夠了。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "投資是終身學習，犯錯不能致命",
+      "notion_id": "40ab925882078128ba18d560255adaae",
+      "type": "🧠心法"
+    },
+    {
+      "code": "NVDA",
+      "description": "主持人自述在 NVIDIA 大跌時「我敢撿」，並以自身資金控管為前提表示敢承擔看錯風險，屬明確當前做多部位。",
+      "eps": [
+        "EP177"
+      ],
+      "first_ep": "EP177",
+      "id": "ep177-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "輝達 NVIDIA",
+      "notion_id": "40ab9258820781b4a887e8ecf62e6090",
       "type": "🏢公司/標的"
     }
   ]
