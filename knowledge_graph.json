@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-30",
+    "lastUpdated": "2026-10-31",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-30",
+    "last_update": "2026-10-31",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP173 分析報告",
+    "source": "EP1-EP174 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1744,
+    "total_entities": 1752,
     "total_relations": 911
   },
   "nodes": [
@@ -19192,8 +19192,8 @@
       "type": "🏢公司/標的"
     },
     {
-      "code": "0050",
-      "description": "主委以第一人稱說明「我本來我買這個就是要追蹤市場的現象」，並在自組前十檔 ETF 的提問中結論 0050「已經算是蠻中庸的」、「已經OK了」，屬 explicit current long → 做多；未揭露成本、張數、比重或期限，且同段提醒集中度與台積電權重風險。",
+      "code": "0050.TW",
+      "description": "主持人反駁聽眾「高點不要買 0050」的說法，並以本益比倒數說明指數投資邏輯，屬明確研究／觀察立場，未表明個人部位。",
       "eps": [
         "EP4",
         "EP7",
@@ -19201,7 +19201,8 @@
         "EP24",
         "EP57",
         "EP58",
-        "EP166"
+        "EP166",
+        "EP174"
       ],
       "first_ep": "EP4",
       "id": "0050",
@@ -38697,10 +38698,11 @@
       "type": "🧠心法"
     },
     {
-      "code": "FB",
-      "description": "主委明言自己也買了不少臉書、並稱臉書還是個好投資，屬直接現有多方曝險",
+      "code": "META",
+      "description": "主持人自述臉書是他 2022 年的十大部位之一，並表示會更往前拉，屬明確的當前多頭部位與看多布局。",
       "eps": [
-        "EP148"
+        "EP148",
+        "EP174"
       ],
       "first_ep": "EP148",
       "id": "ep148-holding-1",
@@ -40142,9 +40144,10 @@
     },
     {
       "code": "AFRM",
-      "description": "主委自述「沒錯我就是苦主，因為我買了一點點」，在 Affirm IPO 後回檔時小額買進並持有，屬 explicit current long → 做多；未揭露成本、數量或佔比；IPO 波動大、BNPL 競爭與估值風險仍高；本節目為研究筆記，非買賣建議。",
+      "description": "主持人自述在 Affirm IPO 時買進、曾經套牢，近期已倒賺，屬明確的當前持有多單部位。",
       "eps": [
-        "EP163"
+        "EP163",
+        "EP174"
       ],
       "first_ep": "EP163",
       "id": "ep163-holding-2",
@@ -41151,6 +41154,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "台指期",
       "notion_id": "409b9258820781a38402c3a45d96f900",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "丙種金主不在合規圈子裡，做的是高利息借貸；主力拿不到足夠信用額度時會找上門，甚至用人頭戶下單。看懂這層資金結構，才知道炒作背後的槓桿與風險有多大。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "丙種金主是灰色槓桿",
+      "notion_id": "40ab9258820781578751e0a54a1dd062",
+      "type": "🧠心法"
+    },
+    {
+      "description": "代操在我國屬於非法行為，把錢交給別人操作，等於把信用完全押在對方身上。如果對方沒有證明能打贏大盤，買大盤還不必付高額管理費與分潤。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "代操非法，信用風險更高",
+      "notion_id": "40ab9258820781f4ba8aee4dfb54aac0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Ray-Ban Stories 當時沒有 AR，只提供拍照、錄影與接電話，但透過 App 取得使用習慣、視角與轉頭資料。臉書先把硬體當前哨站，為未來的 AR 生態與廣告資料庫布局。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "沒有 AR 的眼鏡仍是資料前哨站",
+      "notion_id": "40ab9258820781e7b1b0c3ac411cae27",
+      "type": "🧠心法"
+    },
+    {
+      "description": "一家公司能做到大家都要用，代表它有真本事；政府該確保的是競爭有效發生，而不是保障特定競爭者。護城河不是罪，投資人要看的是優勢能不能延續。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "成功並不違法",
+      "notion_id": "40ab9258820781fa9ef0f24026f95089",
+      "type": "🧠心法"
+    },
+    {
+      "description": "在資訊不對稱的市場裡，先承認自己可能不知道誰握有優勢；與其猜誰是主力，不如建立判讀力與紀律，否則坐在牌桌上的自己就是被宰的那一方。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "不知道誰是羊，自己就是羊",
+      "notion_id": "40ab92588207818e8adae80de1937081",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買進當下的本益比倒數，就是你的預估報酬率；只要它優於定存等替代資產，指數投資就可以持續投入，不必苦等特定低點，因為擇時是市場裡最難的事。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "本益比倒數就是預估報酬率",
+      "notion_id": "40ab92588207811d9a1ee6b8f99f7d95",
+      "type": "🧠心法"
+    },
+    {
+      "code": "2395.TW",
+      "description": "主持人明確說研華「真的蠻牛」，是全球工業電腦龍頭、股價相對抗跌，屬明確偏多看法。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "研華",
+      "notion_id": "40ab9258820781c5afc5fb0341d83a72",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "6669.TW",
+      "description": "主持人點名緯穎（圍影）業績不錯、伺服器類股在困難行情中相對硬挺，屬明確觀察名單，未表明個人部位。",
+      "eps": [
+        "EP174"
+      ],
+      "first_ep": "EP174",
+      "id": "ep174-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "緯穎",
+      "notion_id": "40ab92588207814cba84e0d96fbda784",
       "type": "🏢公司/標的"
     }
   ]
