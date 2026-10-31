@@ -18946,9 +18946,9 @@
     "last_update": "2026-10-31",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP175 分析報告",
+    "source": "EP1-EP176 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1759,
+    "total_entities": 1770,
     "total_relations": 911
   },
   "nodes": [
@@ -19193,7 +19193,7 @@
     },
     {
       "code": "0050.TW",
-      "description": "主持人反駁聽眾「高點不要買 0050」的說法，並以本益比倒數說明指數投資邏輯，屬明確研究／觀察立場，未表明個人部位。",
+      "description": "主持人明確自述「我今天投資0050」，屬直接當前部位；此句在說明未實現獲利與資產增值概念。",
       "eps": [
         "EP4",
         "EP7",
@@ -19202,7 +19202,8 @@
         "EP57",
         "EP58",
         "EP166",
-        "EP174"
+        "EP174",
+        "EP176"
       ],
       "first_ep": "EP4",
       "id": "0050",
@@ -41337,6 +41338,142 @@
       "importance": "⭐⭐⭐⭐",
       "name": "穩懋",
       "notion_id": "40ab9258820781a2a549e0a5c2e18f7b",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "中國的政策決定可以一句話改寫整個產業的遊戲規則，估值模型再精細，遇到黨的方向調整也可能瞬間失效；所以看待中國市場的新聞與數據，要保留比成熟市場更大的不確定性。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "中國是人治社會，分析再精密也可能被一句話推翻",
+      "notion_id": "40ab9258820781e681f0d7ec67ab6427",
+      "type": "🧠心法"
+    },
+    {
+      "description": "三條紅線把房企的融資條件寫清楚，踩線就借不到錢，等於讓風險沿路釋放；相較於讓炸彈一路長大再瞬間引爆，提早去槓桿雖然痛苦，卻比較可能走向軟著陸。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "提前拆彈會讓系統性風險變小",
+      "notion_id": "40ab92588207810e920af50a7ddbc569",
+      "type": "🧠心法"
+    },
+    {
+      "description": "SPAC 募到的錢放在信託，若期限內沒找到合併標的就把錢退回；因此買在票面價值附近時，最差情況大致是拿回本金，若找到熱門標的則可能大漲，適合拿來停泊暫時沒有想法的資金。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "SPAC 買在票面附近，下檔有限、上檔無限",
+      "notion_id": "40ab925882078139b556d827acf14164",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資產漲上去而沒有賣出，購買力已經變強，也能拿去抵押借便宜資金；把「沒賣就等於沒賺」當成真理，會讓人低估自己資產配置的成效，也容易做出多餘的買賣。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "未實現損益也是資產增值",
+      "notion_id": "40ab925882078182bc9ed2f105a3fcc5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "DCF、本益比、EV/EBITDA 都只是工具，同一家公司用不同方法會得到不同答案；重點是理解市場願意給多少評價，而不是堅持自己的模型一定對，因為最後決定價格的是市場。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "估值是藝術，市場才是最後的裁判",
+      "notion_id": "40ab9258820781938a7dd978f959444a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "準備半年到三年的生活費放在旁邊，不必計較機會成本，遇到職場不合理對待或市場劇烈波動時，你才有不吞下去、不硬凹的選擇；預備金買到的是從容，而不只是利息。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "留一筆生活預備金，處境就有了退路",
+      "notion_id": "40ab92588207813b8c80cee947b998c8",
+      "type": "🧠心法"
+    },
+    {
+      "code": "PSTH",
+      "description": "主持人明確自述「我自己也有買的」Pershing Square Tontine（Bill Ackman 的 SPAC），屬直接當前部位揭露；未說明成本、張數或比重。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Pershing Square Tontine Holdings",
+      "notion_id": "40ab9258820781218ccad8badc93f557",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "006208.TW",
+      "description": "主持人自述「我今天投資6208」（富邦台50 的市場慣用簡稱）並接著說投資台股大盤，屬直接當前部位；未說明比重。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富邦台50",
+      "notion_id": "40ab9258820781c4ac59ecebb2c10ff6",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "AOA",
+      "description": "主持人自述自己退休規劃「會選擇以這種全球型的……AOA,AOR」作為配置核心，屬明確的自身配置部位揭露（規劃語境），未說比重。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "iShares Core Aggressive Allocation ETF",
+      "notion_id": "40ab92588207810da1f0d5c42db8d4d2",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "AOR",
+      "description": "主持人自述退休配置會以全球型 AOA/AOR 為核心，AOR 是同句明確點名的配置標的之一，屬自身配置揭露。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "iShares Core Conservative Allocation ETF",
+      "notion_id": "40ab9258820781bea267f34268fc753d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人對 Gogoro 在美上市抱持期待，但同段明確說簡報成長數據「看起來怪怪的」、「我自己還會再了解」，屬正反並陳且主動追蹤的研究立場，未表明部位。",
+      "eps": [
+        "EP176"
+      ],
+      "first_ep": "EP176",
+      "id": "ep176-holding-6",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Gogoro",
+      "notion_id": "40ab9258820781d1a72ed6537edb308b",
       "type": "🏢公司/標的"
     }
   ]
