@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-10-31",
+    "lastUpdated": "2026-11-01",
     "last_repair": "2026-02-28",
-    "last_update": "2026-10-31",
+    "last_update": "2026-11-01",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP177 分析報告",
+    "source": "EP1-EP178 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1777,
+    "total_entities": 1785,
     "total_relations": 911
   },
   "nodes": [
@@ -41560,6 +41560,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "輝達 NVIDIA",
       "notion_id": "40ab9258820781b4a887e8ecf62e6090",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "極短線交易本質上是零和遊戲，你賺的就是人家賠的；把滑鼠點擊換成寫進程式去跑，和量化交易者做的事情其實一樣。任何 Sharpe ratio 長得很好看的策略幾乎都是短線策略，因為長線策略自然會跟著市場波動，短線則可以把停損守得很緊。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "當沖與量化其實是同一件事",
+      "notion_id": "40bb92588207819da008dff5abfafff5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "量化交易者不一定完全不看基本面，有些人會用衛星、空拍、搜尋量與結帳頁流量這些另類數據，再混技術面與統計。工具箱裡的東西越多越好，但重點是知道每一個工具在回答什麼問題，而不是把所有工具都往身上堆。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "工具箱裡的東西越多越好，但要知道自己在用什麼",
+      "notion_id": "40bb92588207815cad00f6d29c50fa5a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場裡有大量程式與量化資金，做極短線或當沖時，對手可能是運算速度遠勝你的電腦。主持人用自己掃單被跟單的經驗說明：大單一進場，追蹤大單的程式立刻跟上，甚至掛價等著賣給你。認清對手，才會知道自己憑什麼賺這一段。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "要知道你的對手是誰",
+      "notion_id": "40bb9258820781e1b0ced7ba51fa7bc8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "現金部位要留多少非常見仁見智：有人股票只放 25%，也有人幾乎隨時滿倉。最實用的衡量標準是睡覺指標——留 5% 現金也睡得著，那就這樣；心臟小一點，握到三成、五成現金也還好。把現金想成資產配置與緊急備用金，崩盤時才有子彈加碼。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "現金水位用睡覺指標決定",
+      "notion_id": "40bb92588207815686fbde79dacf814d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "年輕時任何一筆本金都很值錢，可以投資自己，也可以進市場磨練；因為輸得起，可以承擔更大的風險。這不是鼓勵融資 all in，而是說三萬塊賠掉，打工兩個月就賺回來，四十歲的三百萬賠掉卻不是兩個月能補回。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "年輕時本金最值錢，窮的時候要敢賭",
+      "notion_id": "40bb9258820781f0a657da396da74755",
+      "type": "🧠心法"
+    },
+    {
+      "description": "估值的基本工具是 PE、EPS，進階是 DCF，再加 EBITDA 就差不多；科學的部分大概占一成到兩成，剩下的靠藝術感與想像力。專業工具大家都有，誰能把東西做得很好、有沒有眼光，才是市場決勝負的關鍵。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "估值是科學加藝術，勝負在眼光",
+      "notion_id": "40bb925882078194a56cd92c8f56250c",
+      "type": "🧠心法"
+    },
+    {
+      "code": "NTDOY",
+      "description": "主持人點名任天堂（美股 ADR：NTDOY），分析晶片缺貨使出貨量被低估、美國 8 月家機銷量為 2008 年以來同期高點，並明確表示這類家機公司「其實還是可以繼續注意」，屬明確觀察／研究立場；未表明自身部位。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "任天堂（Nintendo ADR）",
+      "notion_id": "40bb92588207815bb916c94ede1b46b8",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "8454.TW",
+      "description": "主持人回應聽眾的富邦媒（8454）經驗時，明確指出股價漲高、乖離已大，「要去追自己還是要注意風險」，屬明確風險／觀察立場，同時保留公司若持續成長仍可能上行的空間；未表明自身部位。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP178"
+      ],
+      "first_ep": "EP178",
+      "id": "ep178-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "富邦媒（momo）",
+      "notion_id": "40bb9258820781ed9c9bf532836ae6f8",
       "type": "🏢公司/標的"
     }
   ]
