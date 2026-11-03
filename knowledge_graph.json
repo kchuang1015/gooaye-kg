@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-03",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP184 分析報告",
+    "source": "EP1-EP185 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1829,
+    "total_entities": 1836,
     "total_relations": 911
   },
   "nodes": [
@@ -42201,6 +42201,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "台積電（TSMC）",
       "notion_id": "40db9258820781a1aaf3f0165e3ac58f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "過去的營收與 EPS 只能證明上一季的成績，真正影響下一步定價的是公司對未來的指引。疫情高峰時很多公司乾脆不給 guidance，市場就失去錨；有明確指引、且內容儲備跟得上的公司，才值得用中長線的角度持有。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "看財報最重要的是未來的 guidance",
+      "notion_id": "40db92588207812292ccc275373b80b3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人說自己滿倉蓋進去當天就吃了 10% 跌幅，但因為部位都算好幾 %、在風控範圍內，所以抱得住。如果是賭財報、把所有資金壓進去，遇到下殺十幾 % 就會被迫停損，砍在阿呆股，慢慢失去本金。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "部位算好幾 %，才抱得住波動",
+      "notion_id": "40db92588207819fa605ec71598d3e86",
+      "type": "🧠心法"
+    },
+    {
+      "description": "同一家公司在三個月內股價可以差 30%，但公司做的事情沒有變。用當天股價去找理由，很容易今天說它完蛋、明天又說它是世界第一；CrowdStrike 財報後大跌、兩天後漲回原點，就是最好的例子。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "不要用當天股價解釋公司的好壞",
+      "notion_id": "40db9258820781649962c05628ab436a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "硬體產品可以直接跑分、看散熱、看效率，量化一翻就知道水準，不需要像軟體公司那樣畫 TAM 的大餅。Intel 的 Pat Gelsinger 到處放話、投書，當天就被蘋果 M1 Pro／M1 Max 打臉；先把 Sapphire Rapids 做出來、不要 delay，才是硬體公司該做的事。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "硬體公司先做出東西，再講大話",
+      "notion_id": "40db9258820781bfb111e3e23052f0eb",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金盤、龐氏騙局的本質是「你要他的息，他要你的本」。為什麼這麼多人上當？就是貪念，想賺快錢、想拿比市場高很多的利息。如果真有一個低風險、高報酬的方法，資金早就湧入把機會收斂掉，輪不到一般人；不要想幹人家、不要想賺意外之財，人生會少很多麻煩。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "貪念是資金盤的入口",
+      "notion_id": "40db92588207816390bcc3b132ad7047",
+      "type": "🧠心法"
+    },
+    {
+      "description": "很多人聽到一個標的就買，期待一買進就漲，被套牢就怪講的人。可是買股票本來就不可能每次都買在起漲點；與其追求神準的進場點，不如先搞清楚自己為什麼買、公司了不了解，再用資金控管與防呆機制讓自己抱得住。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "買股票不可能每次都買在起漲點",
+      "notion_id": "40db9258820781cbbe8bf66272331a5d",
+      "type": "🧠心法"
+    },
+    {
+      "code": "NFLX",
+      "description": "主持人明確表示自己持有網飛，並在先前回檔時把規劃加碼的資金投入、部位控制在風控範圍內，同時說第四季成績「應該是可能會再次讓大家感到非常的驚艷」，屬明確的當前多頭部位與看多立場；但未揭露成本與比重，且串流競爭、內容支出與訂閱成長放緩風險仍在。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP185"
+      ],
+      "first_ep": "EP185",
+      "id": "ep185-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Netflix（網飛）",
+      "notion_id": "40db925882078178bca6d748067513e5",
       "type": "🏢公司/標的"
     }
   ]
