@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-03",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP183 分析報告",
+    "source": "EP1-EP184 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1822,
+    "total_entities": 1829,
     "total_relations": 911
   },
   "nodes": [
@@ -42116,6 +42116,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "鴻海（Foxconn）",
       "notion_id": "40db92588207816faeeff0fb986d0f9d",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "二十三歲以前，念書是 CP 值最高的投入：這段時間要創業、經營企業都很難，但可以把書念好。學歷對沒有背景的人尤其重要，第一份工作往往就看這個；等到三、四十歲還在講學歷，通常代表工作經驗沒有別的東西可講。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "學歷是翻轉階級最快的方法",
+      "notion_id": "40db92588207815986e7c3bdca680933",
+      "type": "🧠心法"
+    },
+    {
+      "description": "把小孩推進軍備競賽，比較的是家長的焦慮，不是小孩的潛力。家裡經濟穩定、父母願意花時間陪伴，小孩自然贏在起跑點；與其盯著別人家的小孩，不如先把自己的條件與陪伴做好。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "與其比較小孩，不如家長自己努力",
+      "notion_id": "40db925882078159becff2ebdaf16e34",
+      "type": "🧠心法"
+    },
+    {
+      "description": "九成資金放在債券 ETF 這類極端保守的資產，一成拿去買下檔有限、上檔無限的選擇權；關鍵是那一成不能碰會產生超額損失的槓桿期貨。代價是長期小額權利金，報酬來自極少數的厚尾事件。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "槓鈴策略：九成保守、一成厚尾",
+      "notion_id": "40db92588207817a98f1cfa149e1a4c4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "多數時間股價在布林通道內震盪，真正的大行情來自少數跳出通道的時刻。追突破、空跌破本質上就是在押厚尾，但必須接受多數嘗試會失敗，靠資金配置讓一次大行情蓋過多次小虧。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "追突破、空跌破就是實踐厚尾",
+      "notion_id": "40db9258820781169223e8cfdb72e8cd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "合理價 75 元、安全邊際兩成，就是 60 元才開始買；不能等股價跌了才回頭補算安全邊際。先定好價格與部位，才不會在下跌過程裡用事後理由說服自己凹單。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "安全邊際要在買進前算好",
+      "notion_id": "40db9258820781cda253c39dcf8602dd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "質押或借貸的利息只要找比它高的報酬就能覆蓋，真正難的是確定性：如果看錯、遇到台海危機或指數腰斬，有槓桿的人先出局。先確認自己能不能承受錯誤與壓力，再談報酬率。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "借錢投資，先問自己錯了扛不扛得住",
+      "notion_id": "40db9258820781bd8538fafe7a25a428",
+      "type": "🧠心法"
+    },
+    {
+      "code": "2330",
+      "description": "聽眾詢問 2330 與航運股套牢怎麼辦時，主持人先說「2330我個人覺得還好啦」，接著明確表示「2330是,我個人覺得回來機率超級高,特別是你看那什麼鬼神財報」，屬對台積電的明確看多立場；但未揭露自身部位、成本與比重，且半導體景氣循環、資本支出與地緣政治風險仍在。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP184"
+      ],
+      "first_ep": "EP184",
+      "id": "ep184-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台積電（TSMC）",
+      "notion_id": "40db9258820781a1aaf3f0165e3ac58f",
       "type": "🏢公司/標的"
     }
   ]
