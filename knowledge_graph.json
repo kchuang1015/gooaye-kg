@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-04",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP187 分析報告",
+    "source": "EP1-EP188 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1849,
+    "total_entities": 1856,
     "total_relations": 911
   },
   "nodes": [
@@ -42436,15 +42436,101 @@
     },
     {
       "code": "NVDA",
-      "description": "主持人以「我們做多 NVIDIA 或做多特斯拉」直接描述當前操作，並討論AMD 競爭與車用 ORIN 被取代的風險；屬當前多頭部位揭露，但未揭露成本與最新比重。本節目為研究筆記，不是跟單建議。",
+      "description": "主持人稱元宇宙相關投資「最保險的一定還是 NVIDIA」，並認為NVIDIA 是更好的標的，屬明確看多立場；但未揭露部位、成本與比重。本節目為研究筆記，不是跟單建議。",
       "eps": [
-        "EP187"
+        "EP187",
+        "EP188"
       ],
       "first_ep": "EP187",
       "id": "ep187-holding-2",
       "importance": "⭐⭐⭐⭐",
       "name": "輝達（NVIDIA）",
       "notion_id": "40eb9258820781bb8d05c6f1aea8dd99",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人說，任何一家公司如果今天停止滾動，他就完了，滾石不生苔是很有道理的東西。在資本主義社會裡有無止境的競爭，今天一個東西很賺錢，大家就會想做，之後一定越來越不賺錢；所以走在最前面的人必須不停研發、擴大優勢或產量。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "滾石不生苔：公司停止滾動就完了",
+      "notion_id": "40eb9258820781ffb07ddd611d191fa5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人用競爭解釋均值回歸：今天如果有一個東西非常賺錢，大家就會想要去做那個生意，所以之後這個生意一定會不賺錢。任何很賺錢的東西，到最後一定會越來越不賺錢，因為會有新的競爭者投入；公司只能不停往前跑。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "任何很賺錢的東西，最後一定越來越不賺錢",
+      "notion_id": "40eb92588207818dbe74ec5057860c35",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人提醒，預測未來非常困難。在百視達的全盛時期，大家覺得它是純股、穩賺不賠、世界最大，根本沒想到一個做郵遞 DVD 的 Netflix 最後會擊敗這隻巨獸；所以不要用當下的強盛去推論十年後的結果。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "百視達全盛時期，也想不到 Netflix 會贏",
+      "notion_id": "40eb9258820781d0a9d0fd7ac954ae82",
+      "type": "🧠心法"
+    },
+    {
+      "description": "面對升息、taper 滿天飛的消息，主持人說沒有必要預測未來，應該是兵來將擋、水來土掩：遇到什麼樣的狀況就去拆解，在拆解的過程之中可以賺到錢就好，而不是去猜三年、五年後會怎樣。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "兵來將擋，水來土掩：不要做大預測",
+      "notion_id": "40eb92588207810c91fbfa4b9961e631",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人把交易的核心要件講得很清楚：你一定要挑到對的標的。選對標的，就算沒有策略、只用最單純的買進持有與分批投入也會賺錢；選錯標的，技法再好也只會遇到瘋狂停損，最後把本金耗掉。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "先選對標的，再談交易技法",
+      "notion_id": "40eb92588207810283c9c862bc017296",
+      "type": "🧠心法"
+    },
+    {
+      "description": "談到 Meta 的元宇宙布局，主持人說以投資角度來說風險變高了，但是沒關係，看不懂就不買，用看戲的角度也可以；先守住自己理解的界線，不要因為題材很酷就承擔看不清的風險。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "看不懂就不買：風險變高時先守住界線",
+      "notion_id": "40eb925882078125a9ade42b05da3373",
+      "type": "🧠心法"
+    },
+    {
+      "code": "MVRS",
+      "description": "主持人明確表示「我個人是非常看好」Meta，並說對其新佈局「產生更濃厚的興趣」，屬明確看多立場；但同時提醒投資角度風險變高、看不懂就不買。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP188"
+      ],
+      "first_ep": "EP188",
+      "id": "ep188-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Meta Platforms（Facebook）",
+      "notion_id": "40eb92588207810c8ee2d9e4c3628740",
       "type": "🏢公司/標的"
     }
   ]
