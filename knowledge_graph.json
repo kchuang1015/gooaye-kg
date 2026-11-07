@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-06",
+    "lastUpdated": "2026-11-07",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-06",
+    "last_update": "2026-11-07",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP193 分析報告",
+    "source": "EP1-EP194 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1891,
+    "total_entities": 1901,
     "total_relations": 911
   },
   "nodes": [
@@ -39922,7 +39922,7 @@
     },
     {
       "code": "TSLA",
-      "description": "主持人稱「買特斯拉反而是相對合理很多」，屬明確相對看多立場；未揭露自身部位、成本或比重。本節目為研究筆記，不是跟單建議。",
+      "description": "主持人稱特斯拉從約 1% 市占起跳、可望吃到 10–20%，並以「所以它就變成是一個還不錯的投資標的」明確表達看多立場；未揭露自身部位、成本或比重。本節目為研究筆記，不是跟單建議。",
       "eps": [
         "EP161",
         "EP181",
@@ -39933,7 +39933,8 @@
         "EP189",
         "EP190",
         "EP191",
-        "EP192"
+        "EP192",
+        "EP194"
       ],
       "first_ep": "EP161",
       "id": "ep161-holding-1",
@@ -42970,6 +42971,130 @@
       "importance": "⭐⭐⭐⭐",
       "name": "SEA（Sea Limited）",
       "notion_id": "410b92588207818eba2ddb02ff04bbdf",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "基本面是正軌，但投資最大的核心是控制每一次的損失。就算只是 60 分的基本面投資者，只要資金控管得宜，賠得有限、賺得夠多，資金還是會慢慢往上墊；反過來，90 分的人若把把 all in，看錯一次就白馬。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "先控制損失，再談基本面",
+      "notion_id": "411b9258820781b5b366ce25265183bd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "每一次進場前，先不要想會賺多少，先想最差會賠多少。如果每次賠都不會把你掃出市場，你就能持續活在市場裡，永遠都有下一次機會；資金控管的重要性，遠高於追求單次暴利。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "先算最差會賠多少，再決定買多少",
+      "notion_id": "411b9258820781d19888e45117105615",
+      "type": "🧠心法"
+    },
+    {
+      "description": "從油車轉換到電動車是一換一：汽車總量成長率差不多，只是油車被電車迭代。傳統車廠從油車變電車，此消彼長，毛利與競爭力都不確定；特斯拉則可以從約 1% 市占往上吃到 10–20%，空間大得多。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "油電轉換是一換一，傳統車廠受惠有限",
+      "notion_id": "411b92588207815eb748df5c7e30c306",
+      "type": "🧠心法"
+    },
+    {
+      "description": "恩智浦、英飛凌、瑞薩這些 IDM 是一條龍，自己設計、自己生產。功率半導體會成長，所以 IDM 本來就在配置裡面；順著電動車電子元件用量倍增的邏輯，被動元件也可能是下一個受惠環節。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "IDM 功率半導體是既有的長期配置",
+      "notion_id": "411b9258820781179878ceb2e80ea27d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "主持人對被動元件產業看多，認為它已經跳脫傳統景氣循環股「賺很賺、賠像狗屎」的框架。在景氣循環的下修過程中，底部越墊越高；之後需求再上來，可能有不錯的機會。但他也提醒，不要聽完就跑去買，下跌之後再回來問為什麼。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "被動元件的循環底部越墊越高",
+      "notion_id": "411b9258820781e3b1dfda7570baa9fc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "OpenRAN 比傳統封閉式電信網路更開放、硬體建置費用更低，會帶動大量小型基地台與網路交換器。OpenRAN是台股之後的一個大題材，而且已經是現在進行式；量體變大，對供應鏈就是機會。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "OpenRAN 是量體變大的現在進行式",
+      "notion_id": "411b925882078156a31ff9e395bd1b0e",
+      "type": "🧠心法"
+    },
+    {
+      "code": "2498",
+      "description": "主持人表示若布局 VR 概念股會優先關注內容產業，並點名宏達電 VIVE 內容團隊「就假設我要投資會投這個」，屬主動研究觀察立場；未表達當前部位，且提醒須確認內容團隊營收占比。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "宏達電（HTC）",
+      "notion_id": "411b9258820781d3acc7e29134c59106",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "NXPI",
+      "description": "主持人稱恩智浦、英飛凌、瑞薩等 IDM「IDM本來就已經在配置裡面」，屬類別層級的當前配置揭露；未揭露個別權重、成本或加減碼時間。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "恩智浦（NXP）",
+      "notion_id": "411b9258820781ecad9ec5d692e6856f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "IFX",
+      "description": "主持人稱恩智浦、英飛凌、瑞薩等 IDM「IDM本來就已經在配置裡面」，英飛凌為其點名的 IDM 之一，屬類別層級的當前配置揭露；未揭露個別權重、成本或加減碼時間。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "英飛凌（Infineon）",
+      "notion_id": "411b92588207810c9b82fe2bd2736165",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "6723",
+      "description": "主持人稱恩智浦、英飛凌、瑞薩等 IDM「IDM本來就已經在配置裡面」，瑞薩為其點名的 IDM 之一，屬類別層級的當前配置揭露；未揭露個別權重、成本或加減碼時間。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP194"
+      ],
+      "first_ep": "EP194",
+      "id": "ep194-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "瑞薩（Renesas）",
+      "notion_id": "411b9258820781f9ac46e8ee9ded2e1a",
       "type": "🏢公司/標的"
     }
   ]
