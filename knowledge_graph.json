@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP198 分析報告",
+    "source": "EP1-EP199 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1934,
+    "total_entities": 1941,
     "total_relations": 911
   },
   "nodes": [
@@ -43508,6 +43508,91 @@
       "name": "用小資金測試自己的眼光",
       "notion_id": "412b925882078110953ee27f300f0919",
       "type": "🧠心法"
+    },
+    {
+      "description": "Vanguard 的研究指出，投資績效約八成來自資產配置：資金放在幣圈、大型股、小型股、成長股或價值股，往往已經決定大半結果；選股、分散與進出時機只占其餘兩成。先選對市場與資產類別，再談個股。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "資產配置決定約八成的結果",
+      "notion_id": "412b925882078199be5ff4d1193f4917",
+      "type": "🧠心法"
+    },
+    {
+      "description": "Peter Lynch 的核心觀念是不要被市場嚇跑，不被嚇跑機會就很多；但主動選股必須與時俱進、持續汰弱留強，不能假設每個長抱標的都像 Home Depot 一樣最終大漲。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "不要被市場嚇跑，但要汰弱留強",
+      "notion_id": "412b92588207814684e3f08b0689565a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "沒有標的是送分題，就算是長期成長的公司，買在相對高點也可能等解套很久。無法盯盤、也不會汰弱留強的人，被動投資是最保守的底線；全押科技在能承受回檔的前提下可行，但沒有人能保證未來三年不出現熊市。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "沒有送分題，無法盯盤就用被動投資",
+      "notion_id": "412b92588207813f9037f1e6b8e49aa0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "套牢後不要執著打回原部位：不論留在原標的或換股，回到原點所需漲幅相同，決策應該比較哪個標的更有機會，也就是用機會成本思考。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "用機會成本取代打回原部位",
+      "notion_id": "412b925882078133b3effbd7aed854d6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "PC/NB 與顯卡需求中來自挖礦的部分可能被低估：礦工搶不到顯卡就改買筆電挖礦，若筆電需求持續強勁，可能延緩 overbooking 修正；但主持人 2022 布局仍不把資金放在 PC/NB 鏈，偏好庫存較低、相對穩健的標的。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "挖礦需求可能被低估，但布局避開 PC/NB 鏈",
+      "notion_id": "412b9258820781d6b688fe6071446a91",
+      "type": "🧠心法"
+    },
+    {
+      "description": "利空出現時市場往往超跌，跌到某個位置後長線資金與大股東重新布局，賣壓耗盡、新買盤進場，股價就被撐回來，這叫換手。看到集體復活要先分辨是換手還是基本面真的轉好，不能把反彈直接當成新趨勢。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "超跌後的集體復活是換手",
+      "notion_id": "412b92588207819bbdf1ddd746f3677a",
+      "type": "🧠心法"
+    },
+    {
+      "code": "INTC",
+      "description": "主持人明確以「我自己也是看衰它」表態看衰 Intel，屬於自身立場；但同段立即聲明長期仍有不確定性（「會不會PAT…我不知道」），且未揭露部位、成本或比重。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP199"
+      ],
+      "first_ep": "EP199",
+      "id": "ep199-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "英特爾（Intel）",
+      "notion_id": "412b925882078177ae8cd96fd0df66d1",
+      "type": "🏢公司/標的"
     }
   ]
 }
