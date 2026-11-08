@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-07",
+    "lastUpdated": "2026-11-08",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-07",
+    "last_update": "2026-11-08",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP197 分析報告",
+    "source": "EP1-EP198 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1928,
+    "total_entities": 1934,
     "total_relations": 911
   },
   "nodes": [
@@ -40148,9 +40148,10 @@
     },
     {
       "code": "SQ",
-      "description": "主委自述「我投資SQUARE很大的原因之一，就是看好這種Fintech的成長」，明確表示持有並看好 Square 在 BNPL／Fintech 的長期佈局，屬 explicit current long → 做多；未揭露成本、數量或佔比；併購 Afterpay 造成股份稀釋、BNPL 護城河不深仍是風險；本節目為研究筆記，非買賣建議。",
+      "description": "主持人明確表示「就是Square跟Crowstrike」，揭露 Square 的當前持有，並稱其為十大持股之一；未揭露部位、成本或比重。本節目為研究筆記，不是跟單建議。",
       "eps": [
-        "EP163"
+        "EP163",
+        "EP198"
       ],
       "first_ep": "EP163",
       "id": "ep163-holding-1",
@@ -42783,9 +42784,10 @@
     },
     {
       "code": "CRWD",
-      "description": "主持人以第一人稱列出持股「然後或者是像是CrowdStrike」，並統稱「我的幾個主要持股」，屬明確當前多頭部位；惟未揭露成本、比重與即時調整。本節目為研究筆記，不是跟單建議。",
+      "description": "主持人明確表示「就是Square跟Crowstrike」，揭露 CrowdStrike 的當前持有，並稱其為十大持股之一；未揭露部位、成本或比重。本節目為研究筆記，不是跟單建議。",
       "eps": [
-        "EP191"
+        "EP191",
+        "EP198"
       ],
       "first_ep": "EP191",
       "id": "ep191-holding-3",
@@ -43434,6 +43436,78 @@
       "name": "美光（Micron）",
       "notion_id": "411b9258820781f48202c78f6a810c52",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "看到哪裡熱就往哪裡去，長期不會有好下場；除非你是職業的動能交易者，否則大多數人掌握不到市場情緒與動能。過去當 FOMO 仔沒有好下場，這個習慣就必須改掉，而不是跟市場賭到底。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "FOMO 仔沒有快樂結局",
+      "notion_id": "412b9258820781c3adc0c6618bc1a00b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "去槓桿不是預測隔天漲跌，而是波動放大時依過往經驗把槓桿放掉的肌肉記憶。就算反彈少賺，也是認了；重點是讓自己在市場裡活下來，而不是假設自己有上帝視角。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "去槓桿是肌肉慣性",
+      "notion_id": "412b92588207812cb919f83fae21bc2c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "套牢部位不追跌加碼、也不急著砍；等五到十個交易日不再創新低、市場止穩後再考慮調整。寧可錯過 V 轉最低點、買貴一點，也不要因為覺得便宜就越跌越買。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "套牢不追跌，等市場止穩",
+      "notion_id": "412b9258820781f3a412c637cea2d9f3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "決策要看未來機會成本，而不是已經賠掉多少。100 塊跌到 50 塊要回本需要漲 100%，更該問的是手上哪個標的最有機會回到原點，把資金換到那裡，而不是留在原地等解套。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "看未來機會成本，不看沉沒成本",
+      "notion_id": "412b925882078136909ef9b223fad309",
+      "type": "🧠心法"
+    },
+    {
+      "description": "通殺盤中優先觀察跌最少、籌碼穩健的標的，而不是去撿跌最多的。跌比較少代表市場惜售、賣壓較輕；再去了解現在與 2022 年上半年的故事，而不是只看誰跌得最兇。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "下殺盤看跌最少、籌碼穩健",
+      "notion_id": "412b925882078145bd68d9d077f10328",
+      "type": "🧠心法"
+    },
+    {
+      "description": "懷疑自己過度停損時，先拿一成資金選三到五檔標的、放半年完全不停損，測試自己的眼光與勝率；如果多數看對，就是過度停損，如果多數看錯，那就是砍雜草，再回來調整停損紀律。",
+      "eps": [
+        "EP198"
+      ],
+      "first_ep": "EP198",
+      "id": "ep198-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "用小資金測試自己的眼光",
+      "notion_id": "412b925882078110953ee27f300f0919",
+      "type": "🧠心法"
     }
   ]
 }
