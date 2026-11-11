@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-08",
+    "lastUpdated": "2026-11-11",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-08",
+    "last_update": "2026-11-11",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP200 分析報告",
+    "source": "EP1-EP201 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1948,
+    "total_entities": 1955,
     "total_relations": 911
   },
   "nodes": [
@@ -43677,6 +43677,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "晶技",
       "notion_id": "412b925882078138a538d1fa70525acf",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "羅素 2000 代表美股較小型的公司，今年幾乎沒有表現。它還沒有止穩往上爬之前，要抄底不必這麼急；台美方向相反，台灣中小型今年明顯強於大盤，所以兩邊要用不同的寬度指標判斷。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "先看羅素 2000 有沒有止穩，再談抄底",
+      "notion_id": "415b9258820781f5b5e8ebfb4e0b5bfe",
+      "type": "🧠心法"
+    },
+    {
+      "description": "上一次升息循環裡，指數在升息過程照樣往上爬。無風險利率往上拉的確會讓成長股估值修正得比較劇烈，但事後也常看到利息繼續往上、成長股又繼續爬，所以更像是一種題材性的共識，而不是機械式的因果。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "升息不必然讓市場必死",
+      "notion_id": "415b925882078164beeed1183d54db39",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用過去 12 個月的獲利看本益比，只會得到「便宜」這種已經被大家知道的結論。應該用未來獲利推估，交叉比對分析師的共同預期，再放入自己的主觀調整；如果公司明年還是很強，市場的故事就沒有改變。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "算估值要用未來，不是過去 12 個月",
+      "notion_id": "415b92588207813c847bf8db6f151ff8",
+      "type": "🧠心法"
+    },
+    {
+      "description": "從 100 抱到 180 明明是賺 80%，卻在 180 一直加碼，而且加碼量比原本的基礎部位大很多，這就是頭重腳輕。反轉到 150 時帳面虧損的壓力會讓人認賠殺出，一整年甚至兩年的獲利就沒了。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "頭重腳輕會把一整年獲利吐光",
+      "notion_id": "415b925882078194a73fe2eaf3cb40d9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "很多人講的「有守下來」，其實就是把一些錢拿出去買房子或買指數。在滾大的過程裡抽一點點出來塞進被動部位，遇到這種很落賽的行情才會想到它的美好，也才不至於今年空手而回。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "在部位裡放一點被動部位當守城",
+      "notion_id": "415b92588207817fa25de6d8f3a710b5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "all in 的問題是看錯一次就歸零；分兩檔、三檔，看錯就掰掉的機率會變小。但 40 萬分成十檔二十檔又太誇張，兩三檔是合理範圍。分散不是因為無聊，而是怕遇到看錯或公司造假這種事。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "分散是降低歸零機率的防呆機制",
+      "notion_id": "415b9258820781869fffe11c3d66e697",
+      "type": "🧠心法"
+    },
+    {
+      "code": "IMPX",
+      "description": "主持人明確表示自己在盤勢無聊時買進 SPAC IMPX，該 SPAC 將併購 Harley-Davidson 旗下電動機車部門 LiveWire；屬已揭露的當前多頭部位，未揭露成本、比重或持有期間。",
+      "eps": [
+        "EP201"
+      ],
+      "first_ep": "EP201",
+      "id": "ep201-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "IMPX（AEA Bridges Impact Corp）",
+      "notion_id": "415b925882078122b091e8e970d76ab4",
       "type": "🏢公司/標的"
     }
   ]
