@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-11",
+    "lastUpdated": "2026-11-12",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-11",
+    "last_update": "2026-11-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP202 分析報告",
+    "source": "EP1-EP203 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1963,
+    "total_entities": 1970,
     "total_relations": 911
   },
   "nodes": [
@@ -41771,10 +41771,11 @@
     },
     {
       "code": "BTC",
-      "description": "主持人以第一人稱稱「我自己有比特幣」並表示「我自己有配一點比特進去」，屬明確當前多頭部位；未揭露成本、數量與即時調整。本節目為研究筆記，不是跟單建議。",
+      "description": "主持人自述「我自己本身就有買一點」比特幣，屬已揭露的當前多頭部位；未揭露成本、比重或持有期間。",
       "eps": [
         "EP179",
-        "EP192"
+        "EP192",
+        "EP203"
       ],
       "first_ep": "EP179",
       "id": "ep179-holding-3",
@@ -41785,10 +41786,11 @@
     },
     {
       "code": "ETH",
-      "description": "主持人以第一人稱稱「我有一點比特跟以太啦」，屬明確當前多頭部位；未揭露成本、比重與即時調整。本節目為研究筆記，不是跟單建議。",
+      "description": "主持人明確表示比特幣與以太幣「比較好一點」、納入資產配置是 ok 的，屬明確看多立場；未揭露以太幣部位、成本或比重。",
       "eps": [
         "EP179",
-        "EP192"
+        "EP192",
+        "EP203"
       ],
       "first_ep": "EP179",
       "id": "ep179-holding-4",
@@ -43864,6 +43866,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "Affirm Holdings",
       "notion_id": "415b92588207817f91a7dedafd28492e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "在傳統金融場域做創新行為很可能違法，但在幣圈因為沒有監管，可以自己做莊、放貸，把各種金融機制包裝成新玩意兒，是一個可以拿來做實驗的沙盒。這個自由也伴隨風險，所以只適合小量先試。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "幣圈是沒有監管的金融實驗沙盒",
+      "notion_id": "416b9258820781689c2be449c14b7b4e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "下跌過程中出現像樣的反彈，實務上會當成逗點或句號，可以開始小量補單；但若看到反彈就受不了而追高，之後容易越套越深。補單之前就要先把部位上限設定好，看錯才不會失控。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "反彈要給尊重，但部位上限先設定",
+      "notion_id": "416b9258820781268c5adc48198ff72b",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用未來 12 個月的營收與獲利推算，成長股估值已經回到疫情前的位置；除非認為這些公司明年都不成長，否則這裡是可以開始試單的地方。成長股的高估值溢價，本身是成長性的合理反映。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "成長股估值已摔回疫情前",
+      "notion_id": "416b925882078148a722cfd53dcc5584",
+      "type": "🧠心法"
+    },
+    {
+      "description": "不猜最低點，而是用帶狀布單分批進場，目標是買在相對低檔、形成微笑曲線。這波成長股已跌掉 20–30%，很多甚至碰到 40%，配合明年成長性沒有改變的標的，這個位置可以開始把部位加起來。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "帶狀布單買出微笑曲線",
+      "notion_id": "416b92588207817f86f1d0f1586d3b00",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台灣記憶體廠做的是利基型記憶體，DRAM 與 NOR／NAND 的報價並不連動，NOR 報價甚至特別難找。所以美光財報與 guidance 好，不能線性外推到旺宏、華邦電、群聯、晶豪科，還是要看各自產品與報價。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "美光好不等於台灣記憶體廠好",
+      "notion_id": "416b925882078120a87dccf1ca8c908e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用美股題材反射做台股並非不行，但必須挑到業務純度一樣高、產業別相同、供貨對象相近的公司，否則邏輯不成立。像 CCL 三雄各有手機、server、網通的不同比重，華通衛星版佔營收僅 5–8%，貢獻有限。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "美股反射台股要挑一樣高的純度",
+      "notion_id": "416b925882078130ae16dd0a032afb44",
+      "type": "🧠心法"
+    },
+    {
+      "code": "META",
+      "description": "主持人評估 Meta 因自有大量用戶資料，受 iOS14 隱私政策影響相對其他廣告商小、能脫穎而出，屬明確的相對看多立場；未揭露部位、成本或比重。",
+      "eps": [
+        "EP203"
+      ],
+      "first_ep": "EP203",
+      "id": "ep203-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Meta（Facebook）",
+      "notion_id": "416b9258820781e4a093d1fefac283b5",
       "type": "🏢公司/標的"
     }
   ]
