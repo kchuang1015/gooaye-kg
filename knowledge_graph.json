@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP204 分析報告",
+    "source": "EP1-EP205 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1977,
+    "total_entities": 1983,
     "total_relations": 911
   },
   "nodes": [
@@ -44039,6 +44039,78 @@
       "name": "聯發科（發哥）",
       "notion_id": "416b925882078168a308ca998e3ce6de",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "2020、2021 連續兩年大好，他對 2022 年仍看相對保守；不是看空，而是很難相信可以一直這麼幸福。行情越好，越要記得過去的爽度不是常態。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "2022 年仍看相對保守",
+      "notion_id": "416b9258820781afbf32f562b93deab2",
+      "type": "🧠心法"
+    },
+    {
+      "description": "選股第一步是從題材開始：參考研調或自己的市場敏感度，判斷明年什麼東西會大賣、成長性最好，先把目標縮窄到少數族群，再從裡面挑標的。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "選股從題材開始",
+      "notion_id": "416b9258820781e98789f73098ce3a80",
+      "type": "🧠心法"
+    },
+    {
+      "description": "買品牌或買供應鏈沒有對錯；品牌市值大、翻倍罕見，供應鏈若掌握到接單可以翻好幾倍，所以大部位買品牌、同一區塊約四成資金配置供應鏈。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "品牌與供應鏈的四成配置",
+      "notion_id": "416b9258820781a885d1cb6f26431472",
+      "type": "🧠心法"
+    },
+    {
+      "description": "同一個題材有三、四家公司時，用質化（客戶、接單、擴廠）與量化（毛利）篩選；毛利越好代表議價權越好、技術水準越高，是最後一層的選擇依據。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "毛利就是議價權",
+      "notion_id": "416b9258820781cf99b8f6a291dccd96",
+      "type": "🧠心法"
+    },
+    {
+      "description": "知道自己在買什麼，策略才有節奏；就算研究很深也可能落賽，所以一定要配置、不要重壓、不要 all in。會問「要不要停損」的人，多半不知道自己在買什麼。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "知道自己在買什麼，才不會亂停損",
+      "notion_id": "416b9258820781d7b95bea0efae4e9ea",
+      "type": "🧠心法"
+    },
+    {
+      "description": "量價背離出現的機會很高，但不等於反轉；價格最重要、量的變化次要。有人靠這個指標賺到錢，那也沒有對錯，重點是知道自己在用什麼。",
+      "eps": [
+        "EP205"
+      ],
+      "first_ep": "EP205",
+      "id": "ep205-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "量價背離不存在",
+      "notion_id": "416b9258820781559ef8fed59bfcbcff",
+      "type": "🧠心法"
     }
   ]
 }
