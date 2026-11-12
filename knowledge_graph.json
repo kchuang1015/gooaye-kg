@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-12",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP205 分析報告",
+    "source": "EP1-EP206 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 1983,
+    "total_entities": 1989,
     "total_relations": 911
   },
   "nodes": [
@@ -40818,10 +40818,11 @@
     },
     {
       "code": "2330.TW",
-      "description": "主持人明確表示對台積電「還是屬於比較樂觀一點」，並認為台積電有機會繼續往上推，屬明確看多立場；未揭露部位、成本或比重。",
+      "description": "主持人明言出國前會持續拉大台積電部位，並以營收獲利追上與 10 幾奈米節點為由看好，屬當前直接做多曝險。",
       "eps": [
         "EP170",
-        "EP204"
+        "EP204",
+        "EP206"
       ],
       "first_ep": "EP170",
       "id": "ep170-holding-1",
@@ -44110,6 +44111,78 @@
       "importance": "⭐⭐⭐",
       "name": "量價背離不存在",
       "notion_id": "416b9258820781559ef8fed59bfcbcff",
+      "type": "🧠心法"
+    },
+    {
+      "description": "當沖、隔日沖或一兩個月波段的人，拖到年度才檢討並不適合，應該每月、每季甚至每週記帳檢視；投資大盤 ETF 的人每年一次就很剛好，每天盯盤反而浪費生命。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "年度檢討的頻率要看投資週期",
+      "notion_id": "416b925882078197bfded030121ee37f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "在台灣通常比加權指數，玩小型股可把櫃買納入；美股對 SPX、標普指數、VOO、IVV、SPY；全球科技股對納斯達克 100（QQQ）。選跟自身標的相關性高的大盤，比較才有意義。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "對標基準要選相關性高的大盤",
+      "notion_id": "416b9258820781cf8540e01485f6ffdd",
+      "type": "🧠心法"
+    },
+    {
+      "description": "看高手對帳單只能當表演參考、學一些酷招；真正能學到東西的是檢討自己的進出、停損與標的相關性。別人的本金、現金流與你不同，複製他的做法未必成立。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "績效的關鍵是自己的對帳單",
+      "notion_id": "416b9258820781d8b82dfb55a924e69f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "本金 10 萬的人歸零後還能重新來過，所以敢高風險重壓；本金 500 萬、1000 萬的人有房貸與家庭責任，輸不起，很難把部位全押選擇權或把槓桿開到最大。看別人的單要先想清楚這一層。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "本金大小決定風險配置",
+      "notion_id": "416b92588207813ea350c3e5198d8fd4",
+      "type": "🧠心法"
+    },
+    {
+      "description": "砍在阿呆谷代表還繼續活著，只是覺得很幹；若不設停損而遇到萬丈深淵，可能就直接畢業。停損的經驗要從自己的對帳單檢討出來，而不是靠一次僥倖。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "停損是為了還活著",
+      "notion_id": "416b9258820781d2b186ee596e886ea1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "大家都知道的新聞若股價還不動，這個利多可能根本不是利多；用新聞解釋當下漲跌，就像拿著後照鏡開車。Omicron、Delta 新聞最高點時去賣股票，就是市場裡的阿呆。",
+      "eps": [
+        "EP206"
+      ],
+      "first_ep": "EP206",
+      "id": "ep206-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "新聞是後照鏡，不是方向盤",
+      "notion_id": "416b925882078120a40bc2587ae43edc",
       "type": "🧠心法"
     }
   ]
