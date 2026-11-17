@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-16",
+    "lastUpdated": "2026-11-17",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-16",
+    "last_update": "2026-11-17",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP216 分析報告",
+    "source": "EP1-EP217 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2055,
+    "total_entities": 2061,
     "total_relations": 911
   },
   "nodes": [
@@ -38712,11 +38712,12 @@
     },
     {
       "code": "META",
-      "description": "主持人在談完元宇宙燒錢爭議與 Reels 追趕 TikTok 之後，直接以第一人稱表明「我自己有投臉書」，並在下一列說「並且我很看好臉書在這塊表現」，屬明確的當前持有多方立場；他同時自述無法預測這次二十幾%的下跌、也不加入 NFT 與 GameFi 炒作，未揭露部位、成本或比重，本節目為研究筆記，不是跟單建議。",
+      "description": "聽眾直接問「META會不會繼續加碼」，主持人先答「會」，接著說「我會繼續加碼這一支」，屬第一人稱的當前持有多方立場；但他同時說明這不會是接下來重點（重點放在車用跟通訊），未揭露部位、成本或比重，本節目為研究筆記，不是跟單建議。",
       "eps": [
         "EP148",
         "EP174",
-        "EP216"
+        "EP216",
+        "EP217"
       ],
       "first_ep": "EP148",
       "id": "ep148-holding-1",
@@ -45010,6 +45011,78 @@
       "importance": "⭐⭐⭐",
       "name": "季線之下不長抱",
       "notion_id": "41ab9258820781578246ed9e0056edc6",
+      "type": "🧠心法"
+    },
+    {
+      "description": "常被引用的 4% 法則出自 Trinity College 三位教授的研究：以 50% 股票（追蹤標普 500 的 IVV、VOO、SPY）搭配 50% 債券（優良公司債、國債或綜合債券 ETF），期待每年約 4% 的報酬，若被動收入能覆蓋日常開銷，就能不動本金過生活。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "4% 法則的來源",
+      "notion_id": "41bb9258820781d3b7e0effc7aa36402",
+      "type": "🧠心法"
+    },
+    {
+      "description": "AQR 的中長期（5 到 10 年）各資產類別預估報酬：美股從 2020 年 12 月的 3.8% 降到 2021 年 12 月的 3.6%，非美國已開發市場 4.4% 到 4.3%，新興市場（以台灣與中國為兩大群眾）5.0% 到 5.3%，全球 60-40 股債配置 2.1% 降到 1.9%。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "AQR 資本市場假設",
+      "notion_id": "41bb9258820781c38a62c5cef26f9aae",
+      "type": "🧠心法"
+    },
+    {
+      "description": "賭環球晶這類併購案就是所謂的事件型交易：若真的併成，EPS 直接往上拉、股價衝到 900 到 1,000 都有可能，併購失敗則要賠；一般建議用選擇權去賭，因為下檔最多歸零、風險明確可控，用現股賭最差可能連吃好幾根跌停跑不掉。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "事件型交易的選擇權",
+      "notion_id": "41bb9258820781a8915df47af4d525e0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "若真的想要放空台股，五十反一是不好的工具：它裡面有包固定收益商品，等於只有用一部分資金放空，還要被抽管理費，是脫褲子放屁；直接用台指期放空才是對的。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "五十反一不適合放空",
+      "notion_id": "41bb925882078176a875d7d269690b91",
+      "type": "🧠心法"
+    },
+    {
+      "description": "用保守的每年 10% 報酬估算：本金 100 萬第一年賺 10 萬、變成 110 萬，第二年改用 110 萬計算，複利效果之下差不多到第七年本金就可以直接翻倍；越早加入市場，早期本金越值錢，加上持續入金，複利的效果到某個年限後甚至可能超過本業收入。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "複利七年翻倍",
+      "notion_id": "41bb925882078109a424e174d87b0b9f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "交易圈做得好的人的共同特質是重視紀律、很清楚自己在幹嘛，而且不會問別人這個東西還可不可以買、要不要跑；就像 fake it till you make it 講的，先模仿那些做得不錯的人的樣態，核心是對自己負責。",
+      "eps": [
+        "EP217"
+      ],
+      "first_ep": "EP217",
+      "id": "ep217-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "交易者的紀律與情緒",
+      "notion_id": "41bb92588207815da2a3fcfda6db576b",
       "type": "🧠心法"
     }
   ]
