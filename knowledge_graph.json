@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-18",
+    "lastUpdated": "2026-11-19",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-18",
+    "last_update": "2026-11-19",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP221 分析報告",
+    "source": "EP1-EP222 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2089,
+    "total_entities": 2095,
     "total_relations": 911
   },
   "nodes": [
@@ -45430,6 +45430,78 @@
       "name": "穩懋（WIN Semiconductors）",
       "notion_id": "41cb9258820781039729e44d3c6c66b2",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "主持人上上集立旗說俄羅斯不會打，結果真的開打；他強調每次做決定就是「下好離手」，市場最後才知道誰對，預測對錯都要自己承擔。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "下好離手",
+      "notion_id": "41db92588207816c8f1ad2417976ee6a",
+      "type": "🧠心法"
+    },
+    {
+      "description": "槓桿本質上就是一個加速器：上漲時讓部位倍數上漲、下跌時也讓部位倍數下跌，它只是撬動部位的工具，不是保證獲利的方法。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿是加速器",
+      "notion_id": "41db9258820781729dade5b7d622f961",
+      "type": "🧠心法"
+    },
+    {
+      "description": "老手說斷頭其實是恩惠：它在流動性危機前強迫你出場、至少還帶著錢走；用房貸雖然不會斷頭，但若資產跌成壁紙，本金同樣一毛不剩。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "斷頭是恩惠",
+      "notion_id": "41db925882078140874eed5d92523bc1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "唯一建議使用槓桿的時機是帳上已經有獲利：例如期貨從 100 漲到 150、50% 獲利退回保證金後再把部位加到 150%，同時把停利設在均價之上，確保帶錢回家。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "只在有獲利時用槓桿",
+      "notion_id": "41db9258820781a6b254c02982229528",
+      "type": "🧠心法"
+    },
+    {
+      "description": "投資歸投資、保險歸保險：任何扯到保本或投資的保單幾乎都有問題，配息其實吃掉本金；保險該買高槓桿的醫療險、意外險，投資則選基金或 ETF。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "投資歸投資保險歸保險",
+      "notion_id": "41db925882078194a7a5f23d9427ec95",
+      "type": "🧠心法"
+    },
+    {
+      "description": "buy and hold 只適用於績優股與指數，不是無敵口號：買到垃圾股長期持有還是垃圾，羅素 2000 能長大進標普的只是少數，套牢後說服自己長期持有是錯的觀念。",
+      "eps": [
+        "EP222"
+      ],
+      "first_ep": "EP222",
+      "id": "ep222-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "buy and hold 只適用績優股",
+      "notion_id": "41db925882078126ad28c027f93a14d3",
+      "type": "🧠心法"
     }
   ]
 }
