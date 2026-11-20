@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-20",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP224 分析報告",
+    "source": "EP1-EP225 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2130,
+    "total_entities": 2137,
     "total_relations": 911
   },
   "nodes": [
@@ -45948,6 +45948,91 @@
       "importance": "⭐⭐⭐⭐",
       "name": "聯電",
       "notion_id": "3abb925882078106aedbd6e8c29e855f",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "試撮真假可以用五檔判斷：若下面四檔掛單稀稀落落、最上面突然出現幾百張，極高機率是刻意拉抬的假試撮；五檔都有人掛才相對像真的，但仍可能是騙內行人的手法。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "假試撮看五檔掛單",
+      "notion_id": "41eb9258820781419098ce5c7b120a19",
+      "type": "🧠心法"
+    },
+    {
+      "description": "期貨不計代價急殺、又沒有大量掛單，多半是散戶用市價單恐慌亂砍，而不是大戶針對現貨避險；當下要先分清是哪一個劇本再決定怎麼做。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "期貨急殺多半是散戶恐慌",
+      "notion_id": "41eb925882078152a4f8e962746260e3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "避險不必做到完全 Delta Neutral：持有 10 張台積電現股，可以用 5 口台積期空方部位對沖；只要淨部位降到一定程度，就已經有保護效果。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "避險不必做到完全 Delta Neutral",
+      "notion_id": "41eb9258820781a1ab3ada760ea6e888",
+      "type": "🧠心法"
+    },
+    {
+      "description": "鋼鐵廠的金屬期貨避險部位通常抓 20–30%；看到大成鋼發重訊說避險賠錢，不能直接推論公司賠錢，因為現貨部位可能賺更多，解讀要小心。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "原物料避險比例過大會反咬",
+      "notion_id": "41eb9258820781a4bc92dd0f3e3da5cf",
+      "type": "🧠心法"
+    },
+    {
+      "description": "停損可以從早期嚴格停損（跌破五日線就砍）逐步演進為降低停損頻率、改用資金控管：設定每個部位投入的比例，最多就是賠掉那個比例。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "停損演進為資金控管",
+      "notion_id": "41eb925882078184bfd9ffff485d1042",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資金五成、持股五成的配置已經很穩健，現金比例甚至偏高；遇到崩盤反而有優勢，沒有必要把部位砍掉，重點是檢視實際持有的標的。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "五成持股五成現金就很穩",
+      "notion_id": "41eb9258820781b48c57e49cd9bb1115",
+      "type": "🧠心法"
+    },
+    {
+      "code": "—",
+      "description": "第10-12列針對「台灣的旅遊復甦潮」直言若政府持續鎖國，「你手上有持股的,我自己建議你要小心」，並說不會看到什麼報復性旅遊潮、很多航空股只是在等這個題材；屬對航空／旅遊復甦題材的明確偏空立場。主持人同時指出空運價格上漲是另一部分支撐，未揭露自身部位或比重。本節目為研究筆記，不是跟單建議。",
+      "eps": [
+        "EP225"
+      ],
+      "first_ep": "EP225",
+      "id": "ep225-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "航空股（旅遊復甦題材）",
+      "notion_id": "41eb92588207812c882fff678cc01992",
       "type": "🏢公司/標的"
     }
   ]
