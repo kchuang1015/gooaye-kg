@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-20",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP225 分析報告",
+    "source": "EP1-EP226 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2137,
+    "total_entities": 2148,
     "total_relations": 911
   },
   "nodes": [
@@ -26601,13 +26601,14 @@
     },
     {
       "code": "2454.TW",
-      "description": "華為客戶集中、政策限制與替代手機品牌訂單的案例。",
+      "description": "同一句自述也是「發哥」股東，直接揭露聯發科現行持股；第96-97列補充發哥成長率15-20%、配息約6-7%。判為做多。",
       "eps": [
-        "EP69"
+        "EP69",
+        "EP226"
       ],
       "first_ep": "EP69",
       "id": "ep69-mediatek",
-      "importance": "⭐⭐⭐",
+      "importance": "⭐⭐⭐⭐",
       "name": "聯發科",
       "notion_id": "3abb925882078118be8dd07886611395",
       "type": "🏢公司/標的"
@@ -39936,7 +39937,7 @@
     },
     {
       "code": "TSLA",
-      "description": "主持人在回應聽眾「每年績效都超過癌大」時自述：今年開局美股目前約-19%，原因是「特斯拉跟NVIDIA持股真的太多了」，屬直接揭露的現行多頭部位；未揭露部位大小、成本或比重，且同段明說回吐很多。本節目為研究筆記，不是跟單建議。",
+      "description": "第86列主持人自述「重倉特斯拉跟 NVIDIA」、這波回檔賠掉二十幾%，屬於明確的現行持股揭露；特斯拉同時是第37-39列 sell put 策略的履約價示例。重倉、續抱、以 sell put 打折接股，判為做多。",
       "eps": [
         "EP161",
         "EP181",
@@ -39954,7 +39955,8 @@
         "EP207",
         "EP214",
         "EP219",
-        "EP221"
+        "EP221",
+        "EP226"
       ],
       "first_ep": "EP161",
       "id": "ep161-holding-1",
@@ -40836,14 +40838,15 @@
     },
     {
       "code": "2330.TW",
-      "description": "主持人在台積電法說會段落明言「長線投資人其實基本上已經可以告訴你說。他的未來都會很好。他就一直維持一個成長。」，屬對公司未來的明確正向表態；但他同時強調「只是他的股價可能未必會向大家期待」、自述不喜歡討論股價，且未揭露部位、成本或比重。",
+      "description": "第94列回覆聽眾外資撤離問題時自述「我自己也是 GG 跟發哥的股東」，直接揭露台積電現行持股；第96-97列並補充台積電未來三年成長率約20%、季配約2%。判為做多。",
       "eps": [
         "EP170",
         "EP204",
         "EP206",
         "EP207",
         "EP208",
-        "EP210"
+        "EP210",
+        "EP226"
       ],
       "first_ep": "EP170",
       "id": "ep170-holding-1",
@@ -42491,13 +42494,14 @@
     },
     {
       "code": "NVDA",
-      "description": "主持人回應聽眾換股問題時明確表示「所以他還是我最大的持股啊」，揭露 NVIDIA 的當前持有；未揭露部位、成本或比重，且同段表示現價再推很困難。本節目為研究筆記，不是跟單建議。",
+      "description": "同一句自述重倉 NVIDIA，並在回檔中續抱；屬明確的現行持股揭露，判為做多。",
       "eps": [
         "EP187",
         "EP188",
         "EP189",
         "EP191",
-        "EP197"
+        "EP197",
+        "EP226"
       ],
       "first_ep": "EP187",
       "id": "ep187-holding-2",
@@ -46033,6 +46037,143 @@
       "importance": "⭐⭐⭐⭐",
       "name": "航空股（旅遊復甦題材）",
       "notion_id": "41eb92588207812c882fff678cc01992",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "俄羅斯市場只占這些企業營收個位數，真正的大警訊是制裁延伸到中國；中國市場很大，一旦形成新鐵幕、中俄一起被制裁，股票還有很大的修正空間。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "制裁真正的風險在中國",
+      "notion_id": "41eb9258820781df9731edc687f44775",
+      "type": "🧠心法"
+    },
+    {
+      "description": "美股高波動、IV 很高時可以用 sell put 在想要的價位接大型科技股：以特斯拉 600 美元履約價為例，先收 30–40 美元權利金，等於一股便宜 40 美元、打折買股票。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "高 IV 用 sell put 打折接股票",
+      "notion_id": "41eb925882078148a851dc31e1ac2ec5",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台股可以用台指期取代 0050／006208：在極低或無槓桿下，買台指期幾乎等於無腦追蹤大盤，還能避開 ETF 的內扣費用。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "台指期可以當大盤部位",
+      "notion_id": "41eb92588207819fb745d40416ca1fb9",
+      "type": "🧠心法"
+    },
+    {
+      "description": "一口大台搭配 sell call 時，等於賣出四口 call 的對沖部位；若指數漲破履約價，大台就完全沒賺到，sell call 開始賠錢。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "covered call 一口大台對四口",
+      "notion_id": "41eb9258820781ed9b38e00d802f24c0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "VIX 每次漲破 30 點以上，依過往經驗與統計，半年後回頭看幾乎都是很好的買點；但過程會拖多久、多難熬無法預測，只能持盈保泰、避免被掃出去。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "VIX 破 30 是半年後買點",
+      "notion_id": "41eb925882078156b951f56bdb19cf55",
+      "type": "🧠心法"
+    },
+    {
+      "description": "長期而言現金購買力持續下降，持續投入資產通常勝過現金；每次大跌都有人喊現金為王，但講 cash is trash 的人最後往往是贏家。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "長期現金為王輸給持續投入",
+      "notion_id": "41eb9258820781689174f4f9bbb0ac1b",
+      "type": "🧠心法"
+    },
+    {
+      "code": "TX",
+      "description": "第43-44列說台股跌破季線後轉保守，做法是買台指期、把它當成 0050 與 006208 的大盤部位，並在極低槓桿下長期追蹤；第45-49列再以 covered call 賺權利金。屬明確的現行台股大盤多頭部位，判為做多。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-holding-5",
+      "importance": "⭐⭐⭐⭐",
+      "name": "台指期（大台）",
+      "notion_id": "41eb92588207819f9ca8ff19bbc8042c",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "CRWD",
+      "description": "第40-42列把 CrowdStrike（transcript 記為 cross strike／CrossStrike）列為主要關注的小型成長股，並說「我自己是加碼的 CrossStrike，持續有在投入」；屬明確的現行加碼部位，判為做多。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-holding-6",
+      "importance": "⭐⭐⭐⭐",
+      "name": "CrowdStrike（transcript 作 CrossStrike）",
+      "notion_id": "41eb92588207814786d9d7b9d32ecb5e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "SQ",
+      "description": "第40-42列自述持有 Square 與 SE、目前看不到明確隱憂，但因為跌深而暫時不願加碼；屬現行持股（做多），只是降低加碼力度。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-holding-7",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Square／Block",
+      "notion_id": "41eb92588207817c8d81c3c71cca3a7e",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "SE",
+      "description": "第40列把冬海集團（transcript 記為東海集團）與 Square 並列為自己關注的小型成長股，並說暫時不加碼；第42列再確認「在 Square 跟 SE 上面」沒有明確隱憂。屬現行持股（做多），只是暫停加碼。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-holding-8",
+      "importance": "⭐⭐⭐⭐",
+      "name": "冬海集團（Sea Limited，transcript 作東海集團）",
+      "notion_id": "41eb9258820781a29facd2e1e307b366",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "VOO/SPY",
+      "description": "第62列聽眾說自己買了 VOO、SPY；第73列主持人回覆「去買 VOO 跟 SPY，這沒有什麼太大的問題」「猴子買的都會賺錢」，並說長期投入每次逆風最後都證明可以。屬對美股大盤 ETF 的明確看多立場，判為做多。",
+      "eps": [
+        "EP226"
+      ],
+      "first_ep": "EP226",
+      "id": "ep226-holding-9",
+      "importance": "⭐⭐⭐⭐",
+      "name": "VOO／SPY（美股大盤 ETF）",
+      "notion_id": "41eb925882078128b560e199cc1221c4",
       "type": "🏢公司/標的"
     }
   ]
