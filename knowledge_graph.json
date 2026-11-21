@@ -18946,9 +18946,9 @@
     "last_update": "2026-11-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP227 分析報告",
+    "source": "EP1-EP228 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2157,
+    "total_entities": 2163,
     "total_relations": 911
   },
   "nodes": [
@@ -46287,6 +46287,78 @@
       "name": "中美晶（Sino-American Silicon）",
       "notion_id": "41fb9258820781d5854fc3a8b30af181",
       "type": "🏢公司/標的"
+    },
+    {
+      "description": "升息循環可能延續一兩年以上；槓桿開到極限、付完房貸就沒有餘錢的家庭，每月多出一千多元的現金流壓力就可能撐不住，必須提早調整債務。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "槓桿開爆會被升息壓垮",
+      "notion_id": "41fb9258820781ed8708f454fd1eba7e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "不要被市場嚇跑是投資最重要的課題之一；每次修正都會出現現金為王的言論，但把資產全部賣掉、滿手現金的人最後都是輸家。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "再修正都不要被嚇跑",
+      "notion_id": "41fb9258820781fd9251d3aab4e38143",
+      "type": "🧠心法"
+    },
+    {
+      "description": "上漲過程中持續投入，下跌過程中也要持續投入；不要因為市場情緒波動就整天改變策略，可以在過程中加減碼，但不能朝令夕改。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "上漲與下跌都要持續投入",
+      "notion_id": "41fb9258820781e3b709e16c67cf81e0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "評估高股息公司要看含息總報酬，把資本利得與配息一起算；表面配很多息但股價長期貼息、從未填息，總報酬一樣是差的。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "高股息要看含息總報酬",
+      "notion_id": "41fb9258820781c481ddec44c5995808",
+      "type": "🧠心法"
+    },
+    {
+      "description": "交易不是看勝率高低，而是看期望值：勝率只有三成，只要把下檔鎖好、讓三成的獲利放著飛，整體報酬仍可能是好的。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "交易看期望值而不是勝率",
+      "notion_id": "41fb925882078151bce5f3088afea8c1",
+      "type": "🧠心法"
+    },
+    {
+      "description": "油價每次突破一百以上之後都沒有好下場；殖利率倒掛在統計上也是百分之百會出大事，兩者都是需要警戒的市場訊號。",
+      "eps": [
+        "EP228"
+      ],
+      "first_ep": "EP228",
+      "id": "ep228-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "油價破百與殖利率倒掛要警戒",
+      "notion_id": "41fb92588207812cb051c23f404e10d6",
+      "type": "🧠心法"
     }
   ]
 }
