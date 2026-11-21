@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-20",
+    "lastUpdated": "2026-11-21",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-20",
+    "last_update": "2026-11-21",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP226 分析報告",
+    "source": "EP1-EP227 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2148,
+    "total_entities": 2157,
     "total_relations": 911
   },
   "nodes": [
@@ -42494,14 +42494,15 @@
     },
     {
       "code": "NVDA",
-      "description": "同一句自述重倉 NVIDIA，並在回檔中續抱；屬明確的現行持股揭露，判為做多。",
+      "description": "第506-511列自述「其中NVIDIA是我最主要的持股」，並說三個都還蠻看好；屬明確的現行持股揭露，判為做多。",
       "eps": [
         "EP187",
         "EP188",
         "EP189",
         "EP191",
         "EP197",
-        "EP226"
+        "EP226",
+        "EP227"
       ],
       "first_ep": "EP187",
       "id": "ep187-holding-2",
@@ -46174,6 +46175,117 @@
       "importance": "⭐⭐⭐⭐",
       "name": "VOO／SPY（美股大盤 ETF）",
       "notion_id": "41eb925882078128b560e199cc1221c4",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "長期持有現金的購買力一定跑輸資產；熊市裡現金看起來是王，但時間軸拉長，持有股票、房地產等資產才是拉近與有錢人距離的方法。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "現金長期一定跑輸資產",
+      "notion_id": "41fb9258820781a0be37fb30a7dfaf2f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "資產變便宜時未必要用力加碼，但絕對不要被嚇跑；要保持多頭信念，不要在恐慌低點把部位全部清掉。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "再恐慌都不要被嚇跑",
+      "notion_id": "41fb92588207818e9129f36548116d7d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "油價回落對市場佈局是超級大的好消息；只要油價可以被壓下來、原物料不再往上噴，就可以對後市抱持比較正向的看法。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "油價壓下來就是好消息",
+      "notion_id": "41fb925882078104962ed59353add3d3",
+      "type": "🧠心法"
+    },
+    {
+      "description": "原物料與油價反轉向下的速度非常快，大多數人沒有抓轉折的能力；保證金放不夠會在震盪中被掃出場，在旁邊看表演就好。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "原物料保證金不足會被掃出場",
+      "notion_id": "41fb9258820781e0a705e7b8a5b9cb73",
+      "type": "🧠心法"
+    },
+    {
+      "description": "市場裡最重要的不是短期撈多少錢，而是活下來；報酬率贏過大盤一點點但能長期存活，勝過兩三百趴之後又全部倒掉的故事。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "活下來比報酬率重要",
+      "notion_id": "41fb9258820781fe9876df14755e782d",
+      "type": "🧠心法"
+    },
+    {
+      "description": "金雞母事業分割出去之後，母公司的營收獲利會受影響，估值倍數也應該被往下調；要先研究分割方式與持股認列。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "分割後母公司估值要下調",
+      "notion_id": "41fb925882078113ae1cdd19e36ce132",
+      "type": "🧠心法"
+    },
+    {
+      "code": "AMD",
+      "description": "第480列聽眾說買了 AMD、NVIDIA 與 Wolf，第506-511列主持人回覆「你買AMD NVIDIA跟Wolf，就三個都是我持股」「AMD跟Wolf Speed就是有小買一點這樣」「都還蠻看好的公司」；屬明確的現行持股揭露，判為做多。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "超微（AMD）",
+      "notion_id": "41fb92588207812d88bdf8f49757545c",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "WOLF",
+      "description": "第506-511列說「AMD跟Wolf Speed就是有小買一點這樣」「都還蠻看好的公司」；屬明確的現行持股揭露，判為做多。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-holding-3",
+      "importance": "⭐⭐⭐⭐",
+      "name": "Wolfspeed（transcript 作 Wolf／Wolf Speed）",
+      "notion_id": "41fb925882078141be1beb215d29c6b1",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "5483.TW",
+      "description": "第1029-1096列說「中美晶就是一家非常好的公司」「我是徐秀蘭的鐵粉之一」「我是很看好整個集團的」「很看好他們未來的一些表現」；屬對中美晶集團的明確看多立場（非持股揭露），判為做多。",
+      "eps": [
+        "EP227"
+      ],
+      "first_ep": "EP227",
+      "id": "ep227-holding-4",
+      "importance": "⭐⭐⭐⭐",
+      "name": "中美晶（Sino-American Silicon）",
+      "notion_id": "41fb9258820781d5854fc3a8b30af181",
       "type": "🏢公司/標的"
     }
   ]
