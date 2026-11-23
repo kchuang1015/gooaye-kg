@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-22",
+    "lastUpdated": "2026-11-23",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-22",
+    "last_update": "2026-11-23",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP232 分析報告",
+    "source": "EP1-EP233 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2200,
+    "total_entities": 2207,
     "total_relations": 911
   },
   "nodes": [
@@ -46834,6 +46834,91 @@
       "name": "有現金流開槓桿不是問題",
       "notion_id": "420b92588207813daa4aea1539f7d101",
       "type": "🧠心法"
+    },
+    {
+      "description": "投資跟個性有很強的連動：個性會反映在市場操作上——很急、容易害怕的人容易追高殺低，穩健的人操作相對穩定；資產配置某種程度就是個性的鏡子。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "投資跟個性有連動",
+      "notion_id": "421b925882078159b2b8d6a7e21d3dbc",
+      "type": "🧠心法"
+    },
+    {
+      "description": "台灣多數股民把市場當 Vegas 在玩：本質只是在賭大小、賭氣氛，卻用「這是電池題材」這類粗淺認知說服自己在投資，而不是真的在算勝率與賠率。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "市場多數人在賭氣氛",
+      "notion_id": "421b9258820781d18155d4b2e9aefe7e",
+      "type": "🧠心法"
+    },
+    {
+      "description": "如果說不出標的在做什麼、營收佔比、毛利數字、過去幾季成長性與稅後淨利，那本質上就是賭博；把基本面當學理基礎放在心裡的人，表現會優於完全不知道自己在幹什麼的人。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "說不出基本面就是賭博",
+      "notion_id": "421b92588207815c8ebbc76a11e2657c",
+      "type": "🧠心法"
+    },
+    {
+      "description": "任何已經確認的消息都無法帶來超額報酬：想買的都買了、想逃的都逃了，最後一手知道的人已經沒有意義；甜頭只存在於消息還不確定的時候。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "已確認的消息沒有超額報酬",
+      "notion_id": "421b9258820781b19e01f96b6c0f9c46",
+      "type": "🧠心法"
+    },
+    {
+      "description": "如果很確定一個標的未來很好，這種修正反而可能是機會；不是每次修正都要逃難，有時候一逃就逃在最低點。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "修正可能是機會",
+      "notion_id": "421b92588207817eb51cfb9f96adcb8f",
+      "type": "🧠心法"
+    },
+    {
+      "description": "SPAC 可以當資金停泊點：未完成收購前現金要退還股東，下檔有限（10 元或 20 元就是底）；但一旦合併成功，這個下檔防護就消失，要停泊就得找下一個貼近票面價值的 SPAC。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "SPAC 的下檔防護會消失",
+      "notion_id": "421b9258820781a183e3ece4760efc13",
+      "type": "🧠心法"
+    },
+    {
+      "code": "TWTR",
+      "description": "第56列明說「我本身就有持有一點推特。我現在會加大我推特部位。我會找機會加大。沒有別的目的。沒有要追求什麼投資報酬的。就是我覺得這件事情很爽。我要參與看看」；第48列再說「Twitter應該就是Elon Musk的形狀了」、第54列說股東會感受到上沖下洗；屬現行持股並明確表示要加碼的看多。",
+      "eps": [
+        "EP233"
+      ],
+      "first_ep": "EP233",
+      "id": "ep233-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "推特（Twitter）",
+      "notion_id": "421b925882078157b019ec44336b2746",
+      "type": "🏢公司/標的"
     }
   ]
 }
