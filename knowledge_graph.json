@@ -18941,14 +18941,14 @@
   "metadata": {
     "apply_authorized": false,
     "created": "2026-02-24",
-    "lastUpdated": "2026-11-25",
+    "lastUpdated": "2026-11-26",
     "last_repair": "2026-02-28",
-    "last_update": "2026-11-25",
+    "last_update": "2026-11-26",
     "migration_stage": "EP1-EP80-full-postimage",
     "ontology_registry_version": "1.2.0",
-    "source": "EP1-EP239 分析報告",
+    "source": "EP1-EP240 分析報告",
     "source_set_sha256": "414ea8f3bf8dbd806fe44a3f861bfb288fcf6ed881e0f20a4ca4b6b0ebba5432",
-    "total_entities": 2253,
+    "total_entities": 2261,
     "total_relations": 911
   },
   "nodes": [
@@ -47490,6 +47490,104 @@
       "importance": "⭐⭐⭐⭐",
       "name": "航空／郵輪（疫後復甦）",
       "notion_id": "423b92588207816eb452d64f299afb16",
+      "type": "🏢公司/標的"
+    },
+    {
+      "description": "作者認為特斯拉的軟體未來可能成為重要營收來源，透過訂閱或買斷制服務，從每位車主身上榨出更多 lifetime value。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-1",
+      "importance": "⭐⭐⭐",
+      "name": "軟體鎖住的效能可以事後付費解鎖，軟體會成為車廠的長期營收",
+      "notion_id": "424b9258820781cb9581c8929046c7ba",
+      "type": "🧠心法"
+    },
+    {
+      "description": "作者解釋馬斯克賣股票不代表看壞公司：他賣的是老股、同時行使選擇權換新股，持股反而越賣越多；賣股是為了繳稅與套現，不應解讀為出貨。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-2",
+      "importance": "⭐⭐⭐",
+      "name": "馬斯克賣股是賣老股換新股，持股反而增加，不代表看壞公司",
+      "notion_id": "424b92588207813e8740c60e2a30f086",
+      "type": "🧠心法"
+    },
+    {
+      "description": "作者指出 ARK 最大的問題是再平衡：特斯拉上漲後部位變大，他就減碼賺錢的特斯拉、加碼賠錢貨，等於砍掉贏家去補輸家，長期傷害績效。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-3",
+      "importance": "⭐⭐⭐",
+      "name": "主動型 ETF 的再平衡會賣掉贏家去補輸家，長期傷害績效",
+      "notion_id": "424b925882078103874be8e3b0a0acc0",
+      "type": "🧠心法"
+    },
+    {
+      "description": "作者強調主動選股的報酬來自少數幾檔 10 倍股、100 倍股（10-bagger、100-bagger），靠這些贏家 carry 整個投資組合，而不是每筆都賺。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-4",
+      "importance": "⭐⭐⭐",
+      "name": "報酬來自少數十倍股，重點是讓贏家長大而不是急著收割",
+      "notion_id": "424b92588207818b9e80c56885d47888",
+      "type": "🧠心法"
+    },
+    {
+      "description": "作者解釋虛擬帳戶績效常比真實帳戶好：因為不是真錢，能承受更大回吐、看得更冷靜；真實資金遇到下跌容易砍在阿呆谷，反彈又抱不住。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-5",
+      "importance": "⭐⭐⭐",
+      "name": "虛擬帳戶績效好，是因為能承受更大回吐、看得更冷靜",
+      "notion_id": "424b9258820781cb92a4f55533e534e7",
+      "type": "🧠心法"
+    },
+    {
+      "description": "回答末日期權，作者說近期 IV 太大，就算看對方向也未必賺錢；IV 高於歷史波動率時，選擇權買方長期幾乎都會死，這種每天開獎的彩票不長久。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-mindsets-6",
+      "importance": "⭐⭐⭐",
+      "name": "IV 高於歷史波動率時，選擇權買方長期幾乎都會死",
+      "notion_id": "424b9258820781ab9b38dc6717447b24",
+      "type": "🧠心法"
+    },
+    {
+      "code": "ARKK",
+      "description": "第47-63列主持人明確評價 ARK 的致命問題在策略：10% 部位上限加上不斷再平衡，讓它每次賣掉上漲的特斯拉去補賠錢貨，「變成說,你是去減碼一個能夠賺錢的東西,然後加碼去,一大堆賠錢貨」；並直言「這其實是影響ARK的績效,超級大的一個關鍵」。這是對 ARK 產品與策略的明確負面表態，依契約記為做空（看空立場，非放空部位）。不確定性邊界：同段說「終有一天,大家也是會回去成長股」，也承認 ARK 早年壓中特斯拉的判斷正確；第26列提到主持人自己在 ARK 熱潮時買過一系列公益活動產品，屬早期買入的歷史部位，未表達現行持有或加減碼。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-holding-1",
+      "importance": "⭐⭐⭐⭐",
+      "name": "ARK Innovation ETF（ARKK）",
+      "notion_id": "424b9258820781bd9efbf3905a30aecc",
+      "type": "🏢公司/標的"
+    },
+    {
+      "code": "TW-INDEX-ETF",
+      "description": "第80-83列聽眾問「繼續越跌越買006208是妥當的嗎」，主持人直接回答「就是像這種,市值型大盤ETF,就是無腦幹進去就對了,不用想這麼多」：對市值型大盤 ETF 給出明確正面表態，依契約記為做多。不確定性邊界：這是對指數化工具的通則建議，不是主持人個人持股；同段隨即區分「定期定額」與「突然拿到一筆大錢分批投入」兩件事，並在後面提醒市場選錯時定期定額也會賠（第87列）。",
+      "eps": [
+        "EP240"
+      ],
+      "first_ep": "EP240",
+      "id": "ep240-holding-2",
+      "importance": "⭐⭐⭐⭐",
+      "name": "市值型大盤 ETF（0050／006208）",
+      "notion_id": "424b92588207817cbca6ee542937f629",
       "type": "🏢公司/標的"
     }
   ]
